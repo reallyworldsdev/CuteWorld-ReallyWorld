@@ -1,0 +1,400 @@
+menu_title: '&fꈁꀀꈂꌣꈂꀁ&0ꈃꄅ'
+open_command: sneggief
+size: 53
+items:
+      mine:
+        material: structure_void
+        model_data: 10001
+        data: 3
+        slot: 53
+        display_name: '&6ИНФОРМАЦИЯ'
+        lore:
+        - ''
+        - ' &fВаш баланс: &6%mobcoinsplus_playerbalance% &rꐄ'
+        - ''
+        - '&7Получить ромашки можно'
+        - '&7Учавствуя в ивентах'
+      q888:
+        material: structure_void
+        hide_enchantments: true
+        slot: 45
+        display_name: '&6Назад'
+        model_data: 10002
+        lore:
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_commands:
+        - '[openguimenu] sneguroka'
+      item-4:
+        amount: 1
+        material: gold_nugget
+        slot: 15
+        display_name: '&bАура Богача'
+        hide_enchantments: true
+        enchantments:
+        - 'knockback;0'
+        lore:
+        - '&cПроклятье утраты'
+        - '&7Умножает множитель добычи денег с мобов на &61.0'
+        - ''
+        - '&7====================='
+        - ''
+        - '&fЦена: &6389 &x&7&E&6&5&A&4ꐄ'
+        - ''
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_commands:
+        - '[message] &cВременно не работает'
+        right_click_commands:
+        - '[message] &cВременно не работает'
+      q1:
+        material: netherite_pickaxe
+        hide_enchantments: true
+        enchantments:
+        - 'knockback;0'
+        slot: 22
+        display_name: '&5&lВезунчик'
+        lore:
+        - '&7Починка'
+        - '&7Удача V'
+        - '&7Прочность III'
+        - '&cПроклятье утраты'
+        - ''
+        - '&7====================='
+        - ''
+        - '&fЦена: &6389 &x&7&E&6&5&A&4ꐄ'
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%mobcoinsplus_playerbalance%'
+              output: 389
+              deny_commands:
+              - '[message] &6Ромашки &7⟫ &cНедостаточно ромашек для покупки'
+              - '[message] &6Ромашки &7⟫ &fПолучить ромашки можно убивая мобов'  
+        left_click_commands:
+        - '[console] Mobcoins remove %player_name% 389'
+        - '[console] xkit kirka %player_name%'
+
+      q4:
+        material: golden_apple
+        amount: 32
+        slot: 11
+        display_name: '&bЗолотое яблоко'
+        lore:
+        - ''
+        - '  &fЦена: &6269 &x&7&E&6&5&A&4ꐄ'
+        - ''
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%mobcoinsplus_playerbalance%'
+              output: 269
+              deny_commands:
+              - '[message] &6Ромашки &7⟫ &cНедостаточно ромашек для покупки'
+              - '[message] &6Ромашки &7⟫ &fПолучить ромашки можно убивая мобов'
+        left_click_commands:
+        - '[console] Mobcoins remove %player_name% 269'
+        - '[console] give %player_name% golden_apple 32'
+      q5:
+        material: netherite_sword
+        enchantments:
+        - 'knockback;1'
+        amount: 1
+        slot: 12
+        display_name: '&6Фарм меч'
+        lore:
+        - '&7Добыча V'
+        - '&7Прочность V'
+        - '&cПроклятье утраты'
+        - ''
+        - '&7======================'
+        - ''
+        - '  &fЦена: &6444 &x&7&E&6&5&A&4ꐄ'
+        - ''
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%mobcoinsplus_playerbalance%'
+              output: 444
+              deny_commands:
+              - '[message] &6Ромашки &7⟫ &cНедостаточно ромашек для покупки'
+              - '[message] &6Ромашки &7⟫ &fПолучить ромашки можно убивая мобов'
+        left_click_commands:
+        - '[console] Mobcoins remove %player_name% 444'
+        - '[console] xkit mech %player_name%'
+        
+      q6:
+        material: netherite_axe
+        enchantments:
+        - 'knockback;1'
+        amount: 1
+        slot: 21
+        display_name: '&6&lСекира'
+        lore:
+        - '&7Эффективность X'
+        - '&7Прочность III'
+        - '&7Удача III'
+        - '&cПроклятье утраты'
+        - ''
+        - '&7======================'
+        - ''
+        - '  &fЦена: &6349 &x&7&E&6&5&A&4ꐄ'
+        - ''
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%mobcoinsplus_playerbalance%'
+              output: 349
+              deny_commands:
+              - '[message] &6Ромашки &7⟫ &cНедостаточно ромашек для покупки'
+              - '[message] &6Ромашки &7⟫ &fПолучить ромашки можно убивая мобов' 
+        left_click_commands:
+        - '[console] Mobcoins remove %player_name% 349'
+        - '[console] xkit sekira %player_name%'
+        
+      q7:
+        material: netherite_pickaxe
+        enchantments:
+        - 'knockback;1'
+        amount: 1
+        slot: 20
+        display_name: '&6Кирка Каменщика'
+        lore:
+        - '&7Эффективность X'
+        - '&7Прочность III'
+        - '&cПроклятье утраты'
+        - ''
+        - '&7======================'
+        - ''
+        - '  &fЦена: &6419 &x&7&E&6&5&A&4ꐄ'
+        - ''
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%mobcoinsplus_playerbalance%'
+              output: 419
+              deny_commands:
+              - '[message] &6Ромашки &7⟫ &cНедостаточно ромашек для покупки'
+              - '[message] &6Ромашки &7⟫ &fПолучить ромашки можно убивая мобов'
+        left_click_commands:
+        - '[console] Mobcoins remove %player_name% 419'
+        - '[console] xkit kamenjik %player_name%'
+        
+      q9:
+        material: enchanted_golden_apple
+        amount: 1
+        slot: 13
+        display_name: '&5Зачарованное золотое яблоко'
+        lore:
+        - '&cПроклятье утраты'
+        - ''
+        - '&7======================'
+        - ''
+        - '  &fЦена: &6799 &x&7&E&6&5&A&4ꐄ'
+        - ''
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%mobcoinsplus_playerbalance%'
+              output: 799
+              deny_commands:
+              - '[message] &6Ромашки &7⟫ &cНедостаточно ромашек для покупки'
+              - '[message] &6Ромашки &7⟫ &fПолучить ромашки можно убивая мобов' 
+        left_click_commands:
+        - '[console] Mobcoins remove %player_name% 799'
+        - '[console] give %player_name% minecraft:enchanted_golden_apple 1 0 {Enchantments:{id:vanishing_curse,lvl:1}]}'
+        
+      q10:
+        material: elytra
+        amount: 1
+        hide_enchantments: true
+        enchantments:
+        - 'knockback;0'
+        slot: 30
+        display_name: '&3&lКрылья Ангела'
+        lore:
+        - '&7Починка'
+        - '&7Шипы I'
+        - '&7Прочность V'
+        - '&cПроклятье утраты'
+        - ''
+        - '&7====================='
+        - ''
+        - '&fЦена: &69999 &x&7&E&6&5&A&4ꐄ'
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%mobcoinsplus_playerbalance%'
+              output: 9999
+              deny_commands:
+              - '[message] &6Ромашки &7⟫ &cНедостаточно ромашек для покупки'
+              - '[message] &6Ромашки &7⟫ &fПолучить ромашки можно убивая мобов' 
+        left_click_commands:
+        - '[console] Mobcoins remove %player_name% 9999'
+        - '[console] xkit elytra %player_name%'
+        
+      q19:
+        material: furnace
+        amount: 1
+        hide_enchantments: true
+        enchantments:
+        - 'knockback;0'
+        slot: 29
+        display_name: '&6Супер-печь 5 уровня'
+        lore:
+        - ''
+        - '&7Множитель результата: &6+50%'
+        - '&7Время переплавки &6-50%'
+        - ''
+        - '&f  Цена: &6359 &x&7&E&6&5&A&4ꐄ'
+        - ''
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_commands:
+        - '[message] &cВременно не работают'
+    
+      q21:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFmMzI4Yzg3YjA2ODUwOWFjYTk4MzRlZmFjZTE5NzcwNWZlNWQ0ZjA4NzE3MzFiN2IyMWNkOTliOWZkZGMifX19
+        amount: 1
+        hide_enchantments: true
+        slot: 39
+        display_name: '&aШар огородника'
+        lore:
+        - '&c&lПроклятье утраты'
+        - '&7Удача III (На расстения)'
+        - '&7Когда во второй руке'
+        - '&7При нажатии SHIFT'
+        - '&9Выращивает растения вокруг вас '
+        - '&f  Цена: &6319 &x&7&E&6&5&A&4ꐄ'
+        - ''
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_commands:
+        - '[message] &cВременно не работают'
+        
+      q98:
+        material: trident 
+        amount: 1
+        hide_enchantments: true
+        slot: 31
+        display_name: '&6Трезубец'
+        lore:
+        - ''
+        - '&7================'
+        - ''
+        - '&fЦена: &6299 &x&7&E&6&5&A&4ꐄ'
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%mobcoinsplus_playerbalance%'
+              output: 499
+              deny_commands:
+              - '[message] &6Ромашки &7⟫ &cНедостаточно ромашек для покупки'
+              - '[message] &6Ромашки &7⟫ &fПолучить ромашки можно убивая мобов'
+        left_click_commands:
+        - '[console] Mobcoins remove %player_name% 499'
+        - '[console] give %player_name% trident 1'
+      q96:
+        material: white_dye
+        amount: 1
+        hide_enchantments: true
+        enchantments:
+        - 'knockback;0'
+        slot: 33
+        display_name: '&6Аура Защиты От Падения'
+        lore:
+        - ''
+        - '&7================'
+        - ''
+        - '&fЦена: &6129 &x&7&E&6&5&A&4ꐄ'
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%mobcoinsplus_playerbalance%'
+              output: 129
+              deny_commands:
+              - '[message] &6Ромашки &7⟫ &cНедостаточно ромашек для покупки'
+              - '[message] &6Ромашки &7⟫ &fПолучить ромашки можно убивая мобов'
+        left_click_commands:
+        - '[console] Mobcoins remove %player_name% 129'
+        - '[console] sunaurs give %player_name% nofall'
+        
+      q93:
+        material: ghast_tear
+        amount: 1
+        hide_enchantments: true
+        enchantments:
+        - 'knockback;0'
+        slot: 24
+        display_name: '&bАура Защиты От Кристаллов'
+        lore:
+        - '&fУменьшает урон от кристаллов на &620% '
+        - ''
+        - '&fЦена: &6349 &x&7&E&6&5&A&4ꐄ'
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%mobcoinsplus_playerbalance%'
+              output: 349
+              deny_commands:
+              - '[message] &6Ромашки &7⟫ &cНедостаточно ромашек для покупки'
+              - '[message] &6Ромашки &7⟫ &fПолучить ромашки можно убивая мобов'
+        left_click_commands:
+        - '[console] Mobcoins remove %player_name% 349'
+        - '[console] sunaurs give %player_name% nocrystal'

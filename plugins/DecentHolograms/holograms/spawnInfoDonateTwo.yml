@@ -1,0 +1,52 @@
+location: spawn:-10.509:70.500:0.473
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&fДонат на сервере &6&lCUTEWORLD'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&7Цены на донат:'
+    height: 0.3
+  - content: '&7[&x&F&F&5&B&0&0&lT&x&F&F&6&6&0&0&lI&x&F&F&7&1&0&0&lG&x&F&F&7&B&0&0&lE&x&F&F&8&6&0&0&lR&7]
+      &7- &f&l239&fр'
+    height: 0.3
+  - content: '&7[&x&B&3&0&0&0&0&lD&x&A&8&0&0&0&0&lR&x&9&C&0&0&0&0&lA&x&9&1&0&0&0&0&lC&x&8&5&0&0&0&0&lU&x&7&A&0&0&0&0&lL&x&6&E&0&0&0&0&lA&7] &7- &f&l289&fр'
+    height: 0.3
+  - content: '&7[&x&1&6&1&6&1&6&lB&x&2&5&2&5&2&5&lU&x&3&5&3&5&3&5&lN&x&4&4&4&4&4&4&lN&x&5&3&5&3&5&3&lY&7]
+      &7- &f&l369&fр'
+    height: 0.3
+  - content: '&7[&x&1&4&6&C&0&0&lH&x&0&F&7&7&0&4&lY&x&0&A&8&2&0&8&lD&x&0&5&8&D&0&C&lR&x&0&0&9&8&1&0&lA&7]
+      &7- &f&l469&fр'
+    height: 0.3
+  - content: '&7[&x&C&B&C&B&C&B&lR&x&D&5&D&5&D&5&lA&x&E&0&E&0&E&0&lB&x&E&A&E&A&E&A&lB&x&F&5&F&5&F&5&lI&x&F&F&F&F&F&F&lT&7]
+      &7- &f&l569&fр'
+    height: 0.3
+  - content: '&7[&e&lD.HELPER&7] &7- &f&l699&fр'
+    height: 0.3
+  - content: '&7[§x§E§7§5§5§B§4§lC§x§E§F§6§9§C§0§lU§x§F§7§7§D§C§D§lT§x§F§F§9§1§D§9§lE&7]
+      &7- &f&l999&fр'
+    height: 0.3
+  - content: '&7[&a&lCOBRA&7] &7- &f&l1299&fр'
+    height: 0.3
+  - content: '&7[&x&F&F&0&0&4&F&lD&x&F&F&0&0&4&C&l.&x&F&F&0&0&4&9&lA&x&F&F&0&0&4&7&lD&x&F&F&0&0&4&4&lM&x&F&F&0&0&4&1&lI&x&F&F&0&0&3&E&lN&7]
+      &7- &f&l3500&fр'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&7[&61 Супер кейс&7] - &f&l209p'
+    height: 0.3
+  - content: '&7[&63 Супер кейс&7] - &f&l404p'
+    height: 0.3
+  - content: '&7[&65 Супер кейс&7] - &f&l469p'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&7Покупка на сайте: &6&lCUTEWORLD.PW'
+    height: 0.3
+  actions: {}

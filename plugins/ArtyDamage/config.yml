@@ -1,0 +1,12 @@
+messages:
+  no_permission: "&6CuteWorld &7» &cУ вас нет прав!"
+  no_permission_reload: "&6CuteWorld &7» &cУ вас нет прав!"
+  no_permission_troll: "&6CuteWorld &7» &cУ вас нет прав!"
+  usage: "&6CuteWorld &7» &e/artydamage &7<ник> <число|off|troll>"
+  player_not_found: "&6CuteWorld &7» &fИгрок &6%s &fне найден."
+  disabled: "&6CuteWorld &7» &fВсе троллинги выключены для игрока &6%s"
+  enabled: "&6CuteWorld &7» &fБуст урона включен для игрока &6%s &fс множителем &6%s"
+  invalid_multiplier: "&6CuteWorld &7» &fМножитель должен быть больше &60"
+  invalid_number_format: "&6CuteWorld &7» &cИспользуйте числовое значение."
+  reload_success: "&6CuteWorld &7» &aКонфигурация плагина перезагружена"
+  troll_success: "&6CuteWorld &7» &fВы начали троллить игрока &6%s"

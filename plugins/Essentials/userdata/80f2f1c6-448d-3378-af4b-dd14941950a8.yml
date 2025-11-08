@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 91.196.35.121
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1750252013264
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1750252033774
+  login: 1750252002422
+money: '1609000.0'
+last-account-name: alzxmpic
+logoutlocation:
+  world: fc199165-2e51-4b6a-a558-b5fecc877589
+  world-name: spawn
+  x: 43.46385116825407
+  y: 63.0
+  z: 72.73405095985953
+  yaw: 210.98031616210938
+  pitch: 51.74152374267578
+lastlocation:
+  world: 3913f1b1-233e-432d-9530-fea44095afde
+  world-name: world_nether
+  x: -3.300000011920929
+  y: 47.500985831163675
+  z: 67.69999998807907
+  yaw: -6.696634292602539
+  pitch: 16.263219833374023

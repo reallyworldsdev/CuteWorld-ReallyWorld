@@ -1,0 +1,39 @@
+hour: 19
+minute: 30
+worldName: "world"
+removeSchem: true
+stopTime: 10
+xCords: 5000
+zCords: 5000
+pointsBank: 1000
+pointsForStanding: 1
+clanExpReward: 200
+clanPointsReward: 200
+startMessage:
+  - "&6Талисман &7» &fПоявился талисман!"
+  - "&6Талисман &7» &fКоординаты талисмана &6%x% %z%"
+  - "&6Талисман &7» &fКланы получают очки захвата талисмана за:"
+  - "&6Талисман &7» &fНахождение на талисмане"
+  - "&6Талисман &7» &fУбийства членов другого клана"
+  - "&6Талисман &7» &cТоп 3 клана получат клановые &bКоины &cи &bОпыт"
+clanRewardMessage:
+  - "&6Талисман &7» &fКлан &6%leader% &fзахватил талисман!"
+  - "&6Талисман &7» &fСтатистика клана:"
+  - "&6Талисман &7» &fЗахват территории: &6%clanReward%"
+  - "&6Талисман &7» &fУбийств: &6%kills%"
+  - "&6Талисман &7» &fСмертей: &6%deaths%"
+schematicName: "mascot.schem"
+noLeaderPlaceholder: "&c&lНет Лидера"
+actionBarMessage: "&fОчки захвата талисмана: &6%bank%&8/&6%max_bank%"
+rgRadius: 35
+region:
+  allowFlags:
+    - "pvp"
+    - "potion-splash"
+  denyFlags:
+    - "mob-spawning"
+bossbar:
+  started:
+    color: "BLUE"
+    style: "SOLID"
+    name: "&6Талисман: &f%xCord% %zCord% &8| &6Лидер: &f%leader% &8| &6Очки: &f%bank%"

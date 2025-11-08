@@ -1,0 +1,28 @@
+{
+  "uuid": "08a742e1-1cbc-3a63-9608-8b25daaf12be",
+  "name": "bahEgorik_2",
+  "wins": 1,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "totem": 1400
+  },
+  "matches": [
+    {
+      "winner": "bahEgorik_2",
+      "loser": "DIMA1488",
+      "kit": "totem",
+      "time": 1741196879421,
+      "duration": 84712,
+      "health": 10.0
+    },
+    {
+      "winner": "pupsik2017",
+      "loser": "bahEgorik_2",
+      "kit": "totem",
+      "time": 1741196879421,
+      "duration": 342924,
+      "health": 7.0
+    }
+  ]
+}

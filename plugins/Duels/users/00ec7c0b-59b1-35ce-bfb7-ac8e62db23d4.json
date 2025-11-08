@@ -1,0 +1,29 @@
+{
+  "uuid": "00ec7c0b-59b1-35ce-bfb7-ac8e62db23d4",
+  "name": "XdeadforCigan",
+  "wins": 2,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "shari": 1415,
+    "nezerka": 1416
+  },
+  "matches": [
+    {
+      "winner": "XdeadforCigan",
+      "loser": "ART_LOV",
+      "kit": "nezerka",
+      "time": 1742094044627,
+      "duration": 21204,
+      "health": 9.5
+    },
+    {
+      "winner": "XdeadforCigan",
+      "loser": "dotersportsmen",
+      "kit": "shari",
+      "time": 1742094044627,
+      "duration": 17768,
+      "health": 10.0
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# If enabled, the plugin will check for available updates when enabled
+checkUpdates: false
+sendBypassMessage: true
+version: 2.4.4 beta

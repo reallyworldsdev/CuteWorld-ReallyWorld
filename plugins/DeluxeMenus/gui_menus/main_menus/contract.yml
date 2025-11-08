@@ -1,0 +1,38 @@
+menu_title: '&fꈁꀀꈂꌄꈂꀁ&0ꈃꄄ'
+open_command: contracttt
+size: 54
+items:
+  '21':
+    display_name: '&r&#ffffff&r'
+    slot: 21
+    material: basehead-ewogICJ0aW1lc3RhbXAiIDogMTcyMjIxOTg4NTE1MiwKICAicHJvZmlsZUlkIiA6ICJhNjZhYTBmNDEyZWM0NDExODBmYWE2ZmM4OWQ3MGVkYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb25pa0J1bWUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWI4ZWJiMDc3NTQyOGI2Y2I5M2ZmMDZjNTExMDBlOTMxNzk3M2Y5YjFmZjA1YWYyYWJhNjEyNzAwYzI3MzNkOSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+    lore:
+    - '&r&l&#ffff55❖ &r&#ffaa00Цель для убийства&r'
+    - '&r'
+    - '&r&#ffaa00➥ &r&#aaaaaaПоследняя цель которую вы взяли &r'
+    - '&r'
+    hide_attributes: true
+    left_click_commands:
+    - '[player] contract info'
+  '23':
+    display_name: '&r&#ffffff&r'
+    slot: 23
+    material: iron_sword
+    lore:
+    - '&r&l&#ffff55❖ &r&#ffaa00Взять контракт&r'
+    - '&r'
+    - '&r&#ffaa00➥ &r&#aaaaaaВознаграждение за &r&#aaaaaaуспешное выполнение: &r'
+    - '&r&#aaaaaa   &r&#ffff552.000 &r&#aaaaaaмонет &r'
+    hide_attributes: true
+    left_click_commands:
+    - '[player] contract get'
+  '53':
+    display_name: '&r&#ffaa00Назад&r'
+    slot: 45
+    material: structure_void
+    model_data: 10002
+    hide_attributes: true
+    left_click_commands:
+    - '[openguimenu] menu'
+    right_click_commands:
+    - '[openguimenu] menu'

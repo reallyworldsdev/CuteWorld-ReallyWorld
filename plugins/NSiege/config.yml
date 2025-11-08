@@ -1,0 +1,392 @@
+hour: 17
+minute: 0
+messages:
+  notFound: "&cИвент не найден! Выключать нечего!"
+  noPerm: "&5Осада Корабля &7» &cНедостаточно прав"
+  lootSaved: "&5Осада Корабля &7» &aЛут успешно сохранен!"
+  admUsage: "&5Осада Корабля &7» &fnsiege reload&7/&fstart&7/&fstop&7/&fadd"
+  usage: "&5Осада Корабля &7» &f/siege join&7/&fleave"
+  edit: "&cРедактирование лута"
+  start: "&5Осада Корабля &7» &cОсада запущена"
+  stop: "&5Осада Корабля &7» &cОсада завершена"
+  reload: "&5Осада Корабля &7» &aКонфиг перезагружен"
+  needArmor: "&5Осада Корабля &7» &cВам необходима &bАлмазная броня"
+  notEvent: "&5Осада Корабля &7» &cДождитесь начала ивента!"
+  randomCfgUsage: "&5Осада Корабля &7» &f/nSiege <Количество Урона>"
+  notDigit: "&5Осада Корабля &7» &cВведи число далбаеб!"
+# Настройка осады
+siege:
+  playersForStart: 140
+  timeForJoin: 70
+  endTime: 100
+  choose_items: 5
+  siegeInventoryName: "&5Осада Корабля"
+world: "osada"
+# Настройка матросов
+sailorsCount: 8
+sailorStrength: 2
+sailorResistance: 2
+
+sailor1:
+  health: 500
+  name: "&5&lМатрос"
+  type: "VINDICATOR"
+  location:
+    x: -6
+    y: 65
+    z: 1984
+sailor2:
+  health: 500
+  name: "&5&lМатрос"
+  type: "VINDICATOR"
+  location:
+    x: 8
+    y: 66
+    z: 2009
+sailor3:
+  health: 500
+  name: "&5&lМатрос"
+  type: "VINDICATOR"
+  location:
+    x: 0
+    y: 73
+    z: 2010
+sailor4:
+  health: 500
+  name: "&5&lМатрос"
+  type: "VINDICATOR"
+  location:
+    x: -6
+    y: 72
+    z: 1981
+sailor5:
+  health: 500
+  name: "&5&lМатрос"
+  type: "VINDICATOR"
+  location:
+    x: 6
+    y: 72
+    z: 1981
+sailor6:
+  health: 500
+  name: "&5&lМатрос"
+  type: "VINDICATOR"
+  location:
+    x: 8
+    y: 73
+    z: 1996
+sailor7:
+  health: 500
+  name: "&5&lМатрос"
+  type: "VINDICATOR"
+  location:
+    x: -8
+    y: 73
+    z: 1996
+sailor8:
+  health: 500
+  name: "&5&lМатрос"
+  type: "VINDICATOR"
+  location:
+    x: 0
+    y: 67
+    z: 2011
+# Настройка босса
+bossStrength: 3
+bossResistance: 3
+boss:
+  health: 1000
+  name: "&0&lТемный Капитан"
+  type: "WITHER_SKELETON"
+  location:
+    x: 0.5
+    y: 69
+    z: 2031.5
+  abilityDamage: 10
+  abilityChance: 0.4
+# Локация спавна куда тепает после ивента
+spawnLoc:
+  world: "spawn"
+  x: 0
+  y: 53
+  z: 0
+# Локация для телепортации игроков
+tpLocCount: 2
+playerTpLoc1:
+  world: "siege"
+  x: -21.5
+  y: 64
+  z: 1997.5
+playerTpLoc2:
+  x: 21.5
+  y: 64
+  z: 1997.5
+# Настройка боссбаров
+bossbar:
+  waiting:
+    name: "&5&lОсада Корабля &8| &7Набор игроков &8(&6%players%&7/&6140&8) &8| &5/siege join"
+    style: SOLID
+    color: PURPLE
+  sailor_fighting:
+    name: "&5&lОсада Корабля &8| &7Одолейте матросов Капитана"
+    style: SOLID
+    color: PURPLE
+  boss_fighting:
+    name: "&5&lОсада Корабля &8| &7Одолейте Капитана"
+    style: SOLID
+    color: PURPLE
+  opened:
+    name: "&5&lОсада Корабля &8| &7Получите свою награду &8| &5/siege"
+    style: SOLID
+    color: PURPLE
+# Настройка барьеров
+barriers:
+  barrierCount: 62
+  barrier1:
+    x: -17.5
+    y: 64
+    z: 1999.5
+  barrier2:
+    x: -17.5
+    y: 65
+    z: 1999.5
+  barrier3:
+    x: -17.5
+    y: 66
+    z: 1999.5
+  barrier4:
+    x: -17.5
+    y: 67
+    z: 1999.5
+  barrier5:
+    x: -17.5
+    y: 68
+    z: 1999.5
+  barrier6:
+    x: -17.5
+    y: 69
+    z: 1999.5
+  barrier7:
+    x: -17.5
+    y: 64
+    z: 1998.5
+  barrier8:
+    x: -17.5
+    y: 65
+    z: 1998.5
+  barrier9:
+    x: -17.5
+    y: 66
+    z: 1998.5
+  barrier10:
+    x: -17.5
+    y: 67
+    z: 1998.5
+  barrier11:
+    x: -17.5
+    y: 68
+    z: 1998.5
+  barrier12:
+    x: -17.5
+    y: 69
+    z: 1998.5
+  barrier13:
+    x: -17.5
+    y: 64
+    z: 1997.5
+  barrier14:
+    x: -17.5
+    y: 65
+    z: 1997.5
+  barrier15:
+    x: -17.5
+    y: 66
+    z: 1997.5
+  barrier16:
+    x: -17.5
+    y: 67
+    z: 1997.5
+  barrier17:
+    x: -17.5
+    y: 68
+    z: 1997.5
+  barrier18:
+    x: -17.5
+    y: 69
+    z: 1997.5
+  barrier19:
+    x: -17.5
+    y: 64
+    z: 1996.5
+  barrier20:
+    x: -17.5
+    y: 65
+    z: 1996.5
+  barrier21:
+    x: -17.5
+    y: 66
+    z: 1996.5
+  barrier22:
+    x: -17.5
+    y: 67
+    z: 1996.5
+  barrier23:
+    x: -17.5
+    y: 68
+    z: 1996.5
+  barrier24:
+    x: -17.5
+    y: 69
+    z: 1996.5
+  barrier25:
+    x: -17.5
+    y: 69
+    z: 1997.5
+  barrier26:
+    x: -17.5
+    y: 64
+    z: 1995.5
+  barrier27:
+    x: -17.5
+    y: 65
+    z: 1995.5
+  barrier28:
+    x: -17.5
+    y: 66
+    z: 1995.5
+  barrier29:
+    x: -17.5
+    y: 67
+    z: 1995.5
+  barrier30:
+    x: -17.5
+    y: 68
+    z: 1995.5
+  barrier31:
+    x: -17.5
+    y: 69
+    z: 1995.5
+  barrier32:
+    x: 17.5
+    y: 64
+    z: 1999.5
+  barrier33:
+    x: 17.5
+    y: 65
+    z: 1999.5
+  barrier34:
+    x: 17.5
+    y: 66
+    z: 1999.5
+  barrier35:
+    x: 17.5
+    y: 67
+    z: 1999.5
+  barrier36:
+    x: 17.5
+    y: 68
+    z: 1999.5
+  barrier37:
+    x: 17.5
+    y: 69
+    z: 1999.5
+  barrier38:
+    x: 17.5
+    y: 64
+    z: 1998.5
+  barrier39:
+    x: 17.5
+    y: 65
+    z: 1998.5
+  barrier40:
+    x: 17.5
+    y: 66
+    z: 1998.5
+  barrier41:
+    x: 17.5
+    y: 67
+    z: 1998.5
+  barrier42:
+    x: 17.5
+    y: 68
+    z: 1998.5
+  barrier43:
+    x: 17.5
+    y: 69
+    z: 1998.5
+  barrier44:
+    x: 17.5
+    y: 64
+    z: 1997.5
+  barrier45:
+    x: 17.5
+    y: 65
+    z: 1997.5
+  barrier46:
+    x: 17.5
+    y: 66
+    z: 1997.5
+  barrier47:
+    x: 17.5
+    y: 67
+    z: 1997.5
+  barrier48:
+    x: 17.5
+    y: 68
+    z: 1997.5
+  barrier49:
+    x: 17.5
+    y: 69
+    z: 1997.5
+  barrier50:
+    x: 17.5
+    y: 64
+    z: 1996.5
+  barrier51:
+    x: 17.5
+    y: 65
+    z: 1996.5
+  barrier52:
+    x: 17.5
+    y: 66
+    z: 1996.5
+  barrier53:
+    x: 17.5
+    y: 67
+    z: 1996.5
+  barrier54:
+    x: 17.5
+    y: 68
+    z: 1996.5
+  barrier55:
+    x: 17.5
+    y: 69
+    z: 1996.5
+  barrier56:
+    x: 17.5
+    y: 69
+    z: 1997.5
+  barrier57:
+    x: 17.5
+    y: 64
+    z: 1995.5
+  barrier58:
+    x: 17.5
+    y: 65
+    z: 1995.5
+  barrier59:
+    x: 17.5
+    y: 66
+    z: 1995.5
+  barrier60:
+    x: 17.5
+    y: 67
+    z: 1995.5
+  barrier61:
+    x: 17.5
+    y: 68
+    z: 1995.5
+  barrier62:
+    x: 17.5
+    y: 69
+    z: 1995.5

@@ -1,0 +1,804 @@
+menu_title: '&8Колизей Ставки'
+open_command: coliseummenu bet
+size: 53
+items:
+  'wood':
+    material: paper
+    slot: 4
+    display_name: '&f'
+    lore:
+    - '              &c&lКОЛИЗЕЙ        '
+    - ''
+    - '  &fДля участия в поединке'
+    - '  &fИспользуйте &6/coliseum join'
+    - ''
+    - '  &fИгроки дерутся &61 на 1'
+    - '  &fЗрители могут делать &6ставку '
+    - '  &fНа участников поединка '
+    - '  &6/coliseum bet '
+    - ''
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  'bet1':
+    material: paper
+    slot: 9
+    display_name: '&6Поставить Ставку 1,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 1 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 1000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 1,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 1000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 1,000 монет '
+  'bet2':
+    material: paper
+    slot: 10
+    display_name: '&6Поставить Ставку 2,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 1 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 2000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 2,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 2000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 2,000 монет '
+  'bet3':
+    material: paper
+    slot: 11
+    display_name: '&6Поставить Ставку 3,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 1 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 3000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 3,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 3000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 3,000 монет '
+  'bet4':
+    material: paper
+    slot: 12
+    display_name: '&6Поставить Ставку 5,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 1 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 5000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 5,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 5000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 5,000 монет '
+  'bet5':
+    material: paper
+    slot: 18
+    display_name: '&6Поставить Ставку 10,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 1 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 10000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 10,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 10000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 10,000 монет '
+  'bet6':
+    material: paper
+    slot: 19
+    display_name: '&6Поставить Ставку 20,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 1 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 20000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 20,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 20000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 20,000 монет '
+  'bet7':
+    material: paper
+    slot: 20
+    display_name: '&6Поставить Ставку 30,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 1 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 30000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 30,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 30000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 30,000 монет '
+  'bet8':
+    material: paper
+    slot: 21
+    display_name: '&6Поставить Ставку 50,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 1 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 50000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 50,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 50000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 50,000 монет '
+  'bet9':
+    material: paper
+    slot: 27
+    display_name: '&6Поставить Ставку 100,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 1 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 100000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 100,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 1000000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 100,000 монет '
+  'bet10':
+    material: paper
+    slot: 28
+    display_name: '&6Поставить Ставку 200,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 1 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 200000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 200,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 2000000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 200,000 монет '
+  'bet11':
+    material: paper
+    slot: 29
+    display_name: '&6Поставить Ставку 300,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 1 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 300000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 300,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 300000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 300,000 монет '
+  'bet12':
+    material: paper
+    slot: 30
+    display_name: '&6Поставить Ставку 500,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 1 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 500000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 500,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 500000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 500,000 монет '
+  'bet13':
+    material: paper
+    slot: 36
+    display_name: '&6Поставить Ставку 1,000,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 1 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 1000000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 1,000,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 1000000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 1,000,000 монет '
+  'bet14':
+    material: paper
+    slot: 37
+    display_name: '&6Поставить Ставку 2,000,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 1 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 2000000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 2,000,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 2000000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 2,000,000 монет '
+  'bet15':
+    material: paper
+    slot: 38
+    display_name: '&6Поставить Ставку 3,000,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 1 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 3000000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 3,000,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 3000000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 3,000,000 монет '
+  'bet16':
+    material: paper
+    slot: 39
+    display_name: '&6Поставить Ставку 5,000,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 1 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 5000000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 5,000,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 5000000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 5,000,000 монет '
+  'bet17':
+    material: paper
+    slot: 45
+    display_name: '&6Поставить Ставку 10,000,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 1 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 10000000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 10,000,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 10000000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 10,000,000 монет '
+  'bet18':
+    material: paper
+    slot: 46
+    display_name: '&6Поставить Ставку 20,000,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 1 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 20000000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 20,000,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[console] money take %player_name% 20000000'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 20,000,000 монет '
+  'bet19':
+    material: paper
+    slot: 47
+    display_name: '&6Поставить Ставку 30,000,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 1 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 30,000,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 30,000,000 монет '
+  'bet20':
+    material: paper
+    slot: 48
+    display_name: '&6Поставить Ставку 50,000,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 1 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 50,000,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 50,000,000 монет '
+  '1bet1':
+    material: map
+    slot: 14
+    display_name: '&6Поставить Ставку 1,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 2 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 1,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 1,000 монет '
+  '1bet2':
+    material: map
+    slot: 15
+    display_name: '&6Поставить Ставку 2,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 2 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 2,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 2,000 монет '
+  '1bet3':
+    material: map
+    slot: 16
+    display_name: '&6Поставить Ставку 3,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 2 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 3,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 3,000 монет '
+  '1bet4':
+    material: map
+    slot: 17
+    display_name: '&6Поставить Ставку 5,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 2 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 5,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 5,000 монет '
+  '1bet5':
+    material: map
+    slot: 23
+    display_name: '&6Поставить Ставку 10,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 2 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 10,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 10,000 монет '
+  '1bet6':
+    material: map
+    slot: 24
+    display_name: '&6Поставить Ставку 20,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 2 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 20,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 20,000 монет '
+  '1bet7':
+    material: map
+    slot: 25
+    display_name: '&6Поставить Ставку 30,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 2 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld&8⟫ &f Вы поставили 30,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 30,000 монет '
+  '1bet8':
+    material: map
+    slot: 26
+    display_name: '&6Поставить Ставку 50,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 2 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 50,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 50,000 монет '
+  '1bet9':
+    material: map
+    slot: 32
+    display_name: '&6Поставить Ставку 100,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 2 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 100,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 100,000 монет '
+  '1bet10':
+    material: map
+    slot: 33
+    display_name: '&6Поставить Ставку 200,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 2 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 200,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 200,000 монет '
+  '1bet11':
+    material: map
+    slot: 34
+    display_name: '&6Поставить Ставку 300,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 2 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 300,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 300,000 монет '
+  '1bet12':
+    material: map
+    slot: 35
+    display_name: '&6Поставить Ставку 500,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 2 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 500,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 500,000 монет '
+  '1bet13':
+    material: map
+    slot: 41
+    display_name: '&6Поставить Ставку 1,000,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 2 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 1,000,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 1,000,000 монет '
+  '1bet14':
+    material: map
+    slot: 42
+    display_name: '&6Поставить Ставку 2,000,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 2 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[message] &6ReallyWorld &8⟫ &f Вы поставили 2,000,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 2,000,000 монет '
+  '1bet15':
+    material: map
+    slot: 43
+    display_name: '&6Поставить Ставку 3,000,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 2 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 3,000,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 3,000,000 монет '
+  '1bet16':
+    material: map
+    slot: 44
+    display_name: '&6Поставить Ставку 5,000,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 2 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 5,000,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 5,000,000 монет '
+  '1bet17':
+    material: map
+    slot: 50
+    display_name: '&6Поставить Ставку 10,000,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 2 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 10,000,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 10,000,000 монет '
+  '1bet18':
+    material: map
+    slot: 51
+    display_name: '&6Поставить Ставку 20,000,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 2 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 20,000,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 20,000,000 монет '
+  '1bet19':
+    material: map
+    slot: 52
+    display_name: '&6Поставить Ставку 30,000,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 2 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 30,000,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 30,000,000 монет '
+  '1bet20':
+    material: map
+    slot: 53
+    display_name: '&6Поставить Ставку 50,000,000 монет'
+    lore:
+    - ' &6Выйгрыш:'
+    - ' &ex2 умножение бюджета который вы поставили на игрока'
+    - ' '
+    - ' &6Проигрыш:'
+    - ' &4Вы теряете монеты которые поставили на игрока'
+    - ''
+    - ' &6Вы получите монеты только если выйграет 2 игрок'
+    left_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 50,000,000 монет '
+    right_click_commands:
+    - '[close]'
+    - '[message] &6CuteWorld &8⟫ &f Вы поставили 50,000,000 монет '
+  'glass2':
+    material: white_stained_glass_pane
+    display_name: '&9'
+    slots:
+    - 13
+    - 22
+    - 31
+    - 40
+    - 49
+  'block1':
+    material: campfire
+    display_name: '&6СТАВКИ 1 ИГРОК'
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+  'block2':
+    material: soul_campfire
+    display_name: '&6СТАВКИ 2 ИГРОК'
+    slots:
+    - 5
+    - 6
+    - 7
+    - 8

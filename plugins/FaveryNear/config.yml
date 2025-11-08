@@ -1,0 +1,38 @@
+# Права
+# - near.usage.position - использование /nearposition
+# - near.invisibility - видить в неаре игроков в невидимости
+# - near.reload - перезагружать плагин /near reload
+# - near.hide - использование /nearhide
+# - near.usage - использование /near
+# - BoxNear100 и т.д
+
+DIRS:
+  straight: '§6§l⇑ §fПрямо.'
+  left: '§6§l⇐ §fНалево.'
+  right: '§6§l⇒ §fНаправо.'
+  back: '§6§l⇓ §fНазад.'
+  straightLeft: '§6§l⇖ §fПрямо Налево.'
+  straightRight: '§6§l⇗ §fПрямо Направо.'
+  backLeft: '§6§l⇙ §fНазад Налево.'
+  backRight: '§6§l⇘ §fНазад Направо.'
+PlayerMessage: ' §6&l* §f%PlayerName% &6%Distance% &7'
+Empty: '{next}&7Вы одни...'
+NearMessage: '&6Игроки рядом:'
+NoPerm: '&6&lNear &8» &cНедостаточно прав!'
+position: '&fX:&6%X% &fY:&6%Y% &fZ:&6%Z% {next}'
+#ПОКАЗЫВАТЬ ЛИ ИГРОКОВ В ГМ 3
+gamemode3: false
+#ПОКАЗЫВАТЬ ЛИ ИГРОКОВ В НЕВИДИМОСТИ
+invisibility: false
+# РАСПОЛОГАТЬ ПЕРМИШОНЫ ПО ВОЗРАСТАНИЮ
+# <НАЗВАНИЕ ПЕРМА (БЕЗ ТОЧКИ)>: <РАДИУС ЦЕЛЫМ ЧИСЛОМ>
+# ПОСЛЕ СОЗДАНИЯ ПРОПИСЫВАЕМ /NEAR RELOAD И ВЫДАЕМ ИГРОКАМ ПЕРМЫ
+perms:
+  fNear100: 100
+  fNear200: 200
+  fNearr300: 300
+  fNear400: 400
+  fNear500: 500
+  fNear600: 600
+Exception:
+  - Пусто...

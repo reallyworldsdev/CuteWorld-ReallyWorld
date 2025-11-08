@@ -1,0 +1,20 @@
+{
+  "uuid": "020036e9-0d45-37f1-b5bd-f44fe48b0fe9",
+  "name": "Amet1ss",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "chiter": 1384
+  },
+  "matches": [
+    {
+      "winner": "1WantToAkk",
+      "loser": "Amet1ss",
+      "kit": "chiter",
+      "time": 1742353239555,
+      "duration": 72626,
+      "health": 3.5
+    }
+  ]
+}

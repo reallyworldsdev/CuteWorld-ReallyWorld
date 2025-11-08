@@ -1,0 +1,78 @@
+
+settings:
+  enable-gui-kit-displaying: false
+  enable-gui-kit-previewing: false
+  kit-display-without-perm: true
+  enable-help-item: false
+
+lang:
+  no-access: "&eНет доступных для вас китов."
+
+  received-xKit: ""
+
+  list-help:
+    - "&7-------------------------------------"
+    - "&e/kit &8- &7Shows your kits"
+    - "&e/kit &6<name>"
+    - "&e/kit list &8- &7Shows all kits"
+    - "&e/kit preview &6<name> &8- &7Preview a kit"
+    - "&7-------------------------------------"
+
+  preview-usage-error: "&6Набор &7» &fИспользуйте &6/kit preview &fназвание кита"
+
+  no-kit-server: "&6Набор &7» &cНеизвестный набор"
+
+  no-permission: "&6Набор &7» &cВам недоступен этот набор"
+
+  already-got-one-time-use-kit: "&6Наборы &7» &fНедоступно."
+
+  kit-doesnt-exist: "&6Набор &7» &cНеизвестный набор"
+
+  received-kit: "&6Набор &7» &aВы успешно получили набор"
+
+  cooldown-message: "&6Набор &7» &fПожалуйста, подождите &6:cooldown: &fперед получением следующего набора"
+
+permission:
+  kit-list: false
+  kit-preview: true
+
+
+GUItems:
+  HelpItem:
+    ==: org.bukkit.inventory.ItemStack
+    type: TRIPWIRE_HOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cHelp
+      lore:
+        - '§9Нажмите левой кнопкой для получения данного кита.'
+        - '§7Нажмите правой кнопкой для просмотра данного кита.'
+  NextButton:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_BUTTON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cNext
+  PreviousButton:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_BUTTON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cPrevious
+  ExitButton:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_BUTTON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cExit
+  SelectButton:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_BUTTON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cSelect

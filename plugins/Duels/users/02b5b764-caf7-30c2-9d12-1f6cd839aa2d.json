@@ -1,0 +1,37 @@
+{
+  "uuid": "02b5b764-caf7-30c2-9d12-1f6cd839aa2d",
+  "name": "KathrizarPL",
+  "wins": 0,
+  "losses": 3,
+  "requests": true,
+  "rating": {
+    "shari": 1369,
+    "nezerka": 1384
+  },
+  "matches": [
+    {
+      "winner": "nazarbeztopki",
+      "loser": "KathrizarPL",
+      "kit": "shari",
+      "time": 1741230044243,
+      "duration": 213813,
+      "health": 10.0
+    },
+    {
+      "winner": "nazarbeztopki",
+      "loser": "KathrizarPL",
+      "kit": "shari",
+      "time": 1741230044243,
+      "duration": 226671,
+      "health": 7.5
+    },
+    {
+      "winner": "vayp_758",
+      "loser": "KathrizarPL",
+      "kit": "nezerka",
+      "time": 1747515269840,
+      "duration": 42243,
+      "health": 8.5
+    }
+  ]
+}

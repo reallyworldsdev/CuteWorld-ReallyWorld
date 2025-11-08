@@ -1,0 +1,20 @@
+{
+  "uuid": "09e7d0e3-0ddc-3dc3-88e1-6e9a123453db",
+  "name": "Imprezzzza",
+  "wins": 1,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "totem": 1416
+  },
+  "matches": [
+    {
+      "winner": "Imprezzzza",
+      "loser": "Zloy_Mixa_pvp",
+      "kit": "totem",
+      "time": 1742007640918,
+      "duration": 83998,
+      "health": 10.0
+    }
+  ]
+}

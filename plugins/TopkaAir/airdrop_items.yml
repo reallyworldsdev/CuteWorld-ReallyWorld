@@ -1,0 +1,3265 @@
+LEGENDARY:
+- item: GOLDEN_APPLE
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: GOLDEN_APPLE
+    amount: 64
+- item: TIPPED_ARROW
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Замедление
+        (0:30)"}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:long_slowness
+- item: POTION
+  amount: 1
+  itemName: §b§lЗелье Викинга
+  serialized_item:
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Зелье
+        Викинга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Скорость
+        III (1:00)"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Сила
+        III (1:00)"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Огнестойкость
+        (7:30)"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Иссушение
+        (0:10)"},{"italic":false,"color":"red","text":""}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 232
+        GREEN: 255
+      custom-effects:
+      - ==: PotionEffect
+        effect: 5
+        duration: 1200
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 1200
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 12
+        duration: 9000
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 20
+        duration: 200
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: POTION
+  amount: 1
+  itemName: §c§lПаучее Чутьё
+  serialized_item:
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"text":"§c§lПаучее Чутьё"}'
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 234
+        BLUE: 0
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 5
+        duration: 1200
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 1200
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 12
+        duration: 12000
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 3
+        duration: 300
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 9
+        duration: 800
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: GOLDEN_APPLE
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: GOLDEN_APPLE
+    amount: 64
+- item: POTION
+  amount: 1
+  itemName: §6§lРандомное зелье
+  serialized_item:
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Рандомное
+        зелье"}],"text":""}'
+      lore:
+      - '{"extra":[{"obfuscated":true,"text":"Рандомное зелье"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Дает
+        3 рандом эффекта"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:random_potion: RANDOM_POTION
+- item: TIPPED_ARROW
+  amount: 3
+  itemName: §fКлирик
+  serialized_item:
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 3
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Клирик"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Очищает
+        все эффекты врага"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:clear_arrow: CLEAR_ARROW
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 255
+        GREEN: 255
+- item: SHEARS
+  amount: 1
+  itemName: §6§lНожницы
+  serialized_item:
+    v: 2586
+    type: SHEARS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Ножницы"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Использований:
+        "},{"bold":true,"italic":false,"color":"gold","text":"3"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:nshears: SHEARS
+- item: NETHERITE_SWORD
+  amount: 1
+  itemName: §6Фарм меч
+  serialized_item:
+    v: 2586
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"§6Фарм меч"}'
+      enchants:
+        LOOT_BONUS_MOBS: 5
+        DURABILITY: 5
+        VANISHING_CURSE: 1
+- item: TIPPED_ARROW
+  amount: 24
+  itemName: §fСтрела Левитации
+  serialized_item:
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 24
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Стрела
+        Левитации"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Левитация
+        II (0:12)"}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      custom-color:
+        ==: Color
+        RED: 234
+        BLUE: 240
+        GREEN: 235
+      custom-effects:
+      - ==: PotionEffect
+        effect: 25
+        duration: 240
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §2§lШар Шипов 2
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Шар
+        Шипов 2"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"  Шипы
+        V"}],"text":""}'
+      enchants:
+        THORNS: 5
+        VANISHING_CURSE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PTU6DQBiGvxpNKrp05yHkRzBdNMY4th3SGYQWKLNr6VR+ZrDhp0I8hNfwAB7BvRfwAu49gCzdPU+ed/MqAAqcL/JGiMfyeZcKroDS056XdcqrUxjWvK2bklcKAAyGcBKsRcPhg3e2ylaJul3ZIu6w1ftyoQoHZ/sbXATd5h5bWPZ9dmfNu9G/rVmvQ1NEhp2wwm02MlDnhif4zNNi6R9o6KsOiloaepJKbLCpJ4k+ySnKNYLc1kGxzlDe0kykbEpMB9GE6CzpPSFykkXLhxeq+9cswxoJI4NmTwYutNHOHY8BzuAIb/sjx4Pft9vvyrl8v3j9+fy6MgH+AOGsOgoKAQAA
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §9§lШар Отбрасывания 2
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Шар
+        Отбрасывания 2"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"text":"  "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"+0.5
+        Сопротивление отбрасывание"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_KNOCKBACK_RESISTANCE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.2
+          name: ResourceKey[minecraft:attribute / minecraft:generic.knockback_resistance]
+          slot: OFF_HAND
+          uuid: ec498d64-a76a-4dac-a58b-62602dd1f08d
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PP07DMBxGfyAqldCbsLgJCerAgKhMHdUpbfPP2drGxU3sUqUJqnMChDgMKwsjd0CIWyCx4pHte3pv+SwAC3rzspHyrnpYbyS3wDJrx6t6w/en0K35oW4qvrcA4KgLnXghGw6vXPsoSwXKU1+uNPEMh3MkJ6TYXZJtrJc3xCPK+NG1N9aDf61bLxJXMscX2XbaLFWMxs5M8tGsv1LRY1Dkkoa4ZIVQtC110BKHhbgIhpGbJaQ/MS4bCkFvsaDtvU0TaprpRWBHB8OIKaKpYi4NI4favgy0P1in6ArgDI5Jbk6cfH+cf/ae8Nd75+Xn+fcNA/wBFxGbggYBAAA=
+- item: TIPPED_ARROW
+  amount: 24
+  itemName: §fСтрела Голода
+  serialized_item:
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 24
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"text":"§fСтрела Голода"}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Голод
+        79 (0:03)"}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 5
+        GREEN: 222
+      custom-effects:
+      - ==: PotionEffect
+        effect: 17
+        duration: 65
+        amplifier: 78
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §aШар огородника
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Шар
+        огородника"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Удача
+        III (На растения)"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"При
+        нажатии SHIFT:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Выращивает
+        растения вокруг вас"}],"text":""}'
+      - '{"text":""}'
+      internal: H4sIAAAAAAAA/02Pz1KCUBjFv5qaUWrTTNNzoPxpXFJJXkYuiciFu0O8JvBhDkLGXfkSPYS7eoYerFi2O+d3fpujAChwPS8axJfqbZ2hUEDp0k5UdSb2fejV4qNuKrFXAOCsB5dhgo2AL9E6Ko826ipyMG2J2fVgrqJH8t092Ybt8pGYpOz2iWVO29E/16gTZmCsORu+nTXLMlSnmo9i4g/ScvHuMbt0JdFj+arFuTX0nhaHjuVxUOiu9JGXds6DsUFleqCMI2UzleeWTuVYc6Wd0SFpXUYLL8DMY7zgz262jgYjgCs4J6vuxMWD/E143zp+3538n5vbT4A/xgSXFwYBAAA=
+      PublicBukkitValues:
+        minecraft:farm_ball: FARM_BALL
+- item: ELYTRA
+  amount: 1
+  itemName: §3§lКрылья Ангела
+  serialized_item:
+    v: 2586
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"§3§lКрылья Ангела"}'
+      lore:
+      - '{"text":"§7Починка"}'
+      - '{"text":"§7Шипы I"}'
+      - '{"text":"§7Прочность V"}'
+      enchants:
+        MENDING: 1
+        THORNS: 1
+        DURABILITY: 5
+        VANISHING_CURSE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+- item: POTION
+  amount: 1
+  itemName: §b§lЗелье Викинга
+  serialized_item:
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Зелье
+        Викинга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Скорость
+        III (1:00)"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Сила
+        III (1:00)"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Огнестойкость
+        (7:30)"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Иссушение
+        (0:10)"},{"italic":false,"color":"red","text":""}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 232
+        GREEN: 255
+      custom-effects:
+      - ==: PotionEffect
+        effect: 5
+        duration: 1200
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 1200
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 12
+        duration: 9000
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 20
+        duration: 200
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: NETHERITE_SHOVEL
+  amount: 1
+  itemName: §6§lЛопата §8Песочника
+  serialized_item:
+    v: 2586
+    type: NETHERITE_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"§6§lЛопата §8Песочника"}'
+      enchants:
+        DIG_SPEED: 7
+        LOOT_BONUS_BLOCKS: 3
+        DURABILITY: 3
+        VANISHING_CURSE: 1
+- item: POTION
+  amount: 1
+  itemName: '§d§lЗелье Целителя '
+  serialized_item:
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"color":"light_purple","text":"Зелье
+        Целителя "}],"text":""}'
+      lore:
+      - '{"text":"§9Прилив здоровья III (0:30)"}'
+      - '{"text":"§9Скорость (1:20)"}'
+      - '{"text":"§9Регенерация III (0:15)"}'
+      - '{"text":"§cУтомление IV (0:15)"}'
+      - '{"text":""}'
+      - '{"text":"§5При применении:"}'
+      - '{"text":"§9+12 Максимальное здоровье"}'
+      - '{"text":"§9+20% Скорость"}'
+      - '{"text":"§c-40% Скорость атаки"}'
+      enchants:
+        DAMAGE_ALL: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      custom-color:
+        ==: Color
+        RED: 158
+        BLUE: 182
+        GREEN: 170
+      custom-effects:
+      - ==: PotionEffect
+        effect: 21
+        duration: 600
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 1600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 10
+        duration: 300
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 4
+        duration: 300
+        amplifier: 3
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: SPLASH_POTION
+  amount: 1
+  itemName: §8§lЗелье Ведьмы
+  serialized_item:
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"Зелье
+        Ведьмы"}],"text":""}'
+      lore:
+      - '{"text":"§cОтравление IV (0:40)"}'
+      - '{"text":"§cЗамедление IV (0:15)"}'
+      - '{"text":"§9Свечение (1:00)"}'
+      - '{"text":"§cСлепота IV (0:15)"}'
+      - '{"text":"§cСлабость (0:15)"}'
+      - '{"text":""}'
+      - '{"text":"§5При применении:"}'
+      - '{"text":"§c-60% Скорость"}'
+      - '{"text":"§c-4 Урон"}'
+      enchants:
+        DAMAGE_ALL: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_POTION_EFFECTS
+      custom-color:
+        ==: Color
+        RED: 214
+        BLUE: 240
+        GREEN: 76
+      custom-effects:
+      - ==: PotionEffect
+        effect: 19
+        duration: 800
+        amplifier: 3
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 2
+        duration: 300
+        amplifier: 3
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 24
+        duration: 1200
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 15
+        duration: 300
+        amplifier: 3
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 18
+        duration: 300
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: TIPPED_ARROW
+  amount: 48
+  itemName: §fСтрела Обморожения
+  serialized_item:
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 48
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Стрела
+        Обморожения"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Стан
+        (0:04)"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Слепота
+        (0:30)"}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:strong_slowness
+      custom-effects:
+      - ==: PotionEffect
+        effect: 2
+        duration: 80
+        amplifier: 109
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 15
+        duration: 80
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: BREWING_STAND
+  amount: 1
+  itemName: §fЗельеварка ведьмы §64 уровня
+  serialized_item:
+    v: 2586
+    type: BREWING_STAND
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Зельеварка
+        ведьмы "},{"italic":false,"color":"gold","text":"4 уровня"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Скорость
+        варки "},{"italic":false,"color":"gold","text":"5 сек"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Тратит
+        в "},{"italic":false,"color":"gold","text":"4 раза больше порошка"}],"text":""}'
+      enchants:
+        DURABILITY: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_UNBREAKABLE
+      PublicBukkitValues:
+        refurnace:re-unique-level: 4i
+        refurnace:re-unique-block: WITCH
+      blockMaterial: BREWING_STAND
+- item: POTION
+  amount: 1
+  itemName: §b§lЗелье Викинга
+  serialized_item:
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Зелье
+        Викинга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Скорость
+        III (1:00)"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Сила
+        III (1:00)"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Огнестойкость
+        (7:30)"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Иссушение
+        (0:10)"},{"italic":false,"color":"red","text":""}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 232
+        GREEN: 255
+      custom-effects:
+      - ==: PotionEffect
+        effect: 5
+        duration: 1200
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 1200
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 12
+        duration: 9000
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 20
+        duration: 200
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: §6§lТотем драконида
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Тотем
+        драконида"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Срабатывает,
+        когда"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"лежит
+        в инвентаре"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:draconid_totem: DRACONID_TOTEM
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: §6§lТотем драконида
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Тотем
+        драконида"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Срабатывает,
+        когда"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"лежит
+        в инвентаре"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:draconid_totem: DRACONID_TOTEM
+- item: TIPPED_ARROW
+  amount: 64
+  itemName: §fСтрела Урона
+  serialized_item:
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Стрела
+        Урона"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Моментальный
+        урон II "}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:strong_harming
+- item: TIPPED_ARROW
+  amount: 24
+  itemName: §fСтрела Шрека
+  serialized_item:
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 24
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"text":"§fСтрела Шрека"}'
+      lore:
+      - '{"text":"§cТошнота (0:16)"}'
+      - '{"text":"§cСлепота (0:16)"}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 5
+        GREEN: 125
+      custom-effects:
+      - ==: PotionEffect
+        effect: 9
+        duration: 320
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 15
+        duration: 320
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: POTION
+  amount: 1
+  itemName: §aГлавный Герой
+  serialized_item:
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Главный
+        Герой"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Герой
+        деревни (30:00)"}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 57
+        BLUE: 67
+        GREEN: 222
+      custom-effects:
+      - ==: PotionEffect
+        effect: 32
+        duration: 36000
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: POTION
+  amount: 1
+  itemName: §6Быстрее ветра
+  serialized_item:
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"italic":false,"extra":[{"text":""},{"color":"gold","text":"Быстрее
+        ветра"}],"text":""}'
+      lore:
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"red","text":"Левитация
+        II (0:12)"}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 25
+        duration: 240
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: BOW
+  amount: 1
+  itemName: §7§lПушечка
+  serialized_item:
+    v: 2586
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Пушечка"}],"text":""}'
+      enchants:
+        ARROW_FIRE: 1
+        ARROW_INFINITE: 1
+        MENDING: 1
+        ARROW_DAMAGE: 5
+        ARROW_KNOCKBACK: 5
+        DURABILITY: 2
+        VANISHING_CURSE: 1
+- item: ENCHANTED_GOLDEN_APPLE
+  amount: 2
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ENCHANTED_GOLDEN_APPLE
+    amount: 2
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §d§lШар Здоровья 1
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Шар
+        Здоровья 1"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+        +3.0 Максимальное здоровье"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 05b080a7-5d48-48a8-9090-1a90def1bec4
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PS07DMBRFHwikEtgCe8inDeowkCq1VTskDc5n1o9bx7VLlSaFdAOo426EPTBBQuyJDJndo3Mm1wAw4G66aZR6rl5XpeIGGN3a8aou+f4GejV/r5uK7w0AuOjBNZuphsMnb7FZZMJcZlgtWuR2nExNFSK5e0Bb1s6fkIt058eeO2mH/9pBPUsHKnewKLZRM9fMnDix4uPYWuiXQ+ivbSpxmSeeQ3yhwiCySRBZVBKbpkwSjSXxH3UhR06YYE2S3CbHWOfHtUnTUZ/6VIR+vCkSr09SJmiQl6vMGgLcwiVadieu3irHEt/k55y5X/e/HyeAP0RqGmcGAQAA
+- item: CLAY_BALL
+  amount: 1
+  itemName: §bАура Твёрдости Брони
+  serialized_item:
+    v: 2586
+    type: CLAY_BALL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Аура
+        Твёрдости Брони"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Уменьшает
+        входящий урон от игрока"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+- item: GHAST_TEAR
+  amount: 1
+  itemName: §bАура Защиты От Кристалов
+  serialized_item:
+    v: 2586
+    type: GHAST_TEAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Аура
+        Защиты От Кристалов"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Уменьшает
+        урон от кристаллов на "},{"italic":false,"color":"gold","text":"40%"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+- item: POTION
+  amount: 1
+  itemName: §6Быстрее ветра
+  serialized_item:
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"italic":false,"extra":[{"text":""},{"color":"gold","text":"Быстрее
+        ветра"}],"text":""}'
+      lore:
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"red","text":"Левитация
+        II (0:12)"}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 25
+        duration: 240
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: FURNACE
+  amount: 1
+  itemName: §5Комбинированая Печь
+  serialized_item:
+    v: 2586
+    type: FURNACE
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Комбинированая
+        Печь"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Имеет
+        "},{"italic":false,"color":"gold","text":"100%"},{"italic":false,"color":"gray","text":"
+        шанс удвоить ресурс"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Работает
+        на "},{"italic":false,"color":"gold","text":"30%"},{"italic":false,"color":"gray","text":"
+        быстрее"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Потребляет
+        "},{"italic":false,"color":"red","text":"очень много"},{"italic":false,"color":"gray","text":"
+        топлива"}],"text":""}'
+      enchants:
+        DURABILITY: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_UNBREAKABLE
+      PublicBukkitValues:
+        refurnace:re-unique-level: 1i
+        refurnace:re-unique-block: COMBINATION
+      blockMaterial: FURNACE
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: §5§lТотем ведьмы
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Тотем
+        ведьмы"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Сохраняет
+        эффекты"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:witch_totem: WITCH_TOTEM
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §6§lШар Cтойкости 1
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Шар
+        Cтойкости 1"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+        +5.5 к броне"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 5.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: 2d6fef88-cd66-4947-93f5-c0d325090a4d
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/+NiYOBi4AnOLs3JCSjKT8vMSeVi4AKyClKLSjJTizkZOEpSK0pKi1KLuRgYGBg5GFjDEnNKUxk2pFZ6GURFZBikRHjlJFd6mgH5IcEGOf6eWQXmnnlhlUnOnmaeuUB5D0czn0pLJLWmJYnhpjmRxl4ZUXmBpUm5YQY+xkE5qR5Bhsm5oWW+Wa4VkeGeVZEhrhW+VV5Z/uGBFVHhkSa+VWE5kSHpFVEu2ca+uWHZ/uGehpFGgSZR7kG5UVlOGb4uKVl+IWEZflWBppG5frmRRpFAuUhDzzxDy7RAW1sGBm4GJs8UoCdYtJbcqVbScRXsPP0i7IBc7AMGBgAp+TjBBgEAAA==
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §4§lШар Силы 1
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Шар
+        Силы 1"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"text":"  "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"+2.5
+        к урону"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: 0b28aedd-4df6-4bff-b8e6-717c93abe24a
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PQU6DQBiFfxtNKrr3GgMETBddGMfSIXVGWqCd2bUwbSkz2FAwhY1HMHHjwlsYE2/kBbyAuHP33ve+zTMADLic5bVSD+XjOlPSAKNLe1lWmTycQ7+Sx6ou5cEAgJM+nMVLVUv4lI2PxGKL0oWvkoa4XQ9nSDGy21+TIm5Wt8QlutvHN+6kGfxznWo5dxS3/a0ognqlYzSxp0qOp2aioyeGN0iEeUPxxuYttynOHRbGGW1z+75NM+bdOWJOEG+DloUR+uM8FLnAYiewyqgXa25FR2pRTXFiMhxYpDAH62A4BLiAHkm7I6cfPX31+jb6/nr/8Z5HLwLgFw9PP1MKAQAA
+MYTHIC:
+- item: SLIME_SPAWN_EGG
+  amount: 3
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: SLIME_SPAWN_EGG
+    amount: 3
+- item: SPAWNER
+  amount: 3
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: SPAWNER
+    amount: 3
+- item: TRIDENT
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TRIDENT
+- item: ENCHANTED_BOOK
+  amount: 1
+  itemName: §6Чародейская книга
+  serialized_item:
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Светлячок
+        (Подсвечивает игрока при ударе)"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:lightner: LIGHTNER_BOOK
+- item: TIPPED_ARROW
+  amount: 64
+  itemName: §fСтрела Урона
+  serialized_item:
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Стрела
+        Урона"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Моментальный
+        урон II "}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:strong_harming
+- item: POTION
+  amount: 1
+  itemName: §6§lРандомное зелье
+  serialized_item:
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Рандомное
+        зелье"}],"text":""}'
+      lore:
+      - '{"extra":[{"obfuscated":true,"text":"Рандомное зелье"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Дает
+        3 рандом эффекта"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:random_potion: RANDOM_POTION
+- item: ENCHANTED_BOOK
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        CHANNELING: 1
+- item: TIPPED_ARROW
+  amount: 32
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 32
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Замедление
+        (0:30)"}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:long_slowness
+- item: TIPPED_ARROW
+  amount: 24
+  itemName: §fСтрела Обморожения
+  serialized_item:
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 24
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Стрела
+        Обморожения"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Стан
+        (0:04)"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Слепота
+        (0:30)"}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:strong_slowness
+      custom-effects:
+      - ==: PotionEffect
+        effect: 2
+        duration: 80
+        amplifier: 109
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 15
+        duration: 80
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §aШар огородника
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Шар
+        огородника"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Удача
+        III (На растения)"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"При
+        нажатии SHIFT:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Выращивает
+        растения вокруг вас"}],"text":""}'
+      - '{"text":""}'
+      internal: H4sIAAAAAAAA/02Pz1KCUBjFv5qaUWrTTNNzoPxpXFJJXkYuiciFu0O8JvBhDkLGXfkSPYS7eoYerFi2O+d3fpujAChwPS8axJfqbZ2hUEDp0k5UdSb2fejV4qNuKrFXAOCsB5dhgo2AL9E6Ko826ipyMG2J2fVgrqJH8t092Ybt8pGYpOz2iWVO29E/16gTZmCsORu+nTXLMlSnmo9i4g/ScvHuMbt0JdFj+arFuTX0nhaHjuVxUOiu9JGXds6DsUFleqCMI2UzleeWTuVYc6Wd0SFpXUYLL8DMY7zgz262jgYjgCs4J6vuxMWD/E143zp+3538n5vbT4A/xgSXFwYBAAA=
+      PublicBukkitValues:
+        minecraft:farm_ball: FARM_BALL
+- item: WHITE_DYE
+  amount: 1
+  itemName: §bАура Защиты От Падения
+  serialized_item:
+    v: 2586
+    type: WHITE_DYE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Аура
+        Защиты От Падения"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Уменьшает
+        входящий урон от падения на "},{"italic":false,"color":"gold","text":"80%"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+- item: FISHING_ROD
+  amount: 1
+  itemName: §9§lРыбачок
+  serialized_item:
+    v: 2586
+    type: FISHING_ROD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Рыбачок"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Починка"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Везучий
+        рыбак V"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Приманка
+        V"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность
+        III"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      enchants:
+        LUCK: 5
+        LURE: 5
+        MENDING: 1
+        DURABILITY: 3
+        VANISHING_CURSE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+- item: ENCHANTED_GOLDEN_APPLE
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ENCHANTED_GOLDEN_APPLE
+- item: GOLDEN_APPLE
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: GOLDEN_APPLE
+    amount: 64
+- item: GHAST_TEAR
+  amount: 1
+  itemName: §bАура Защиты От Кристалов
+  serialized_item:
+    v: 2586
+    type: GHAST_TEAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Аура
+        Защиты От Кристалов"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Уменьшает
+        урон от кристаллов на "},{"italic":false,"color":"gold","text":"40%"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+- item: FURNACE
+  amount: 1
+  itemName: §5Везучая Печь
+  serialized_item:
+    v: 2586
+    type: FURNACE
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Везучая
+        Печь"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Имеет
+        "},{"italic":false,"color":"gold","text":"100%"},{"italic":false,"color":"gray","text":"
+        шанс удвоить ресурс"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Работает
+        на "},{"italic":false,"color":"red","text":"50%"},{"italic":false,"color":"gray","text":"
+        медленнее"}],"text":""}'
+      enchants:
+        DURABILITY: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_UNBREAKABLE
+      PublicBukkitValues:
+        refurnace:re-unique-level: 1i
+        refurnace:re-unique-block: LUCKY
+      blockMaterial: FURNACE
+- item: POTION
+  amount: 1
+  itemName: §6Быстрее ветра
+  serialized_item:
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"italic":false,"extra":[{"text":""},{"color":"gold","text":"Быстрее
+        ветра"}],"text":""}'
+      lore:
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"red","text":"Левитация
+        II (0:12)"}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 25
+        duration: 240
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: SHIELD
+  amount: 1
+  itemName: §6Цыганский щит
+  serialized_item:
+    v: 2586
+    type: SHIELD
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Цыганский
+        щит"}],"text":""}'
+      enchants:
+        THORNS: 10
+        VANISHING_CURSE: 1
+      Unbreakable: true
+      blockMaterial: SHIELD
+- item: TIPPED_ARROW
+  amount: 1
+  itemName: §fКлирик
+  serialized_item:
+    v: 2586
+    type: TIPPED_ARROW
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Клирик"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Очищает
+        все эффекты врага"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:clear_arrow: CLEAR_ARROW
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 255
+        GREEN: 255
+- item: SPLASH_POTION
+  amount: 1
+  itemName: §b§lАрабская ночь
+  serialized_item:
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Арабская
+        ночь"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Левитация
+        8 (0:02)"}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      custom-color:
+        ==: Color
+        RED: 15
+        BLUE: 253
+        GREEN: 255
+      custom-effects:
+      - ==: PotionEffect
+        effect: 25
+        duration: 40
+        amplifier: 7
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: BREWING_STAND
+  amount: 1
+  itemName: §fЗельеварка ведьмы §64 уровня
+  serialized_item:
+    v: 2586
+    type: BREWING_STAND
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Зельеварка
+        ведьмы "},{"italic":false,"color":"gold","text":"4 уровня"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Скорость
+        варки "},{"italic":false,"color":"gold","text":"5 сек"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Тратит
+        в "},{"italic":false,"color":"gold","text":"4 раза больше порошка"}],"text":""}'
+      enchants:
+        DURABILITY: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_UNBREAKABLE
+      PublicBukkitValues:
+        refurnace:re-unique-level: 4i
+        refurnace:re-unique-block: WITCH
+      blockMaterial: BREWING_STAND
+- item: TIPPED_ARROW
+  amount: 8
+  itemName: §fСтрела Шрека
+  serialized_item:
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 8
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"text":"§fСтрела Шрека"}'
+      lore:
+      - '{"text":"§cТошнота (0:16)"}'
+      - '{"text":"§cСлепота (0:16)"}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 5
+        GREEN: 125
+      custom-effects:
+      - ==: PotionEffect
+        effect: 9
+        duration: 320
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 15
+        duration: 320
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: NETHERITE_PICKAXE
+  amount: 1
+  itemName: §6Кирка Каменщика
+  serialized_item:
+    v: 2586
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Кирка
+        Каменщика"}],"text":""}'
+      enchants:
+        DIG_SPEED: 10
+        DURABILITY: 3
+        VANISHING_CURSE: 1
+- item: GOLDEN_APPLE
+  amount: 32
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: GOLDEN_APPLE
+    amount: 32
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §4§lШар Силы 2
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Шар
+        Силы 2"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"text":"  "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"+2.5
+        к урону"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: da6c8baa-c64f-43e1-9ac2-2d9fc2ef9d0e
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PQU6DQBiFfxtNKrr3GgMETBddGMfSIXVGWqCd2bUwbSkz2FAwhY1HMHHjwlsYE2/kBbyAuHP33ve+zTMADLic5bVSD+XjOlPSAKNLe1lWmTycQ7+Sx6ou5cEAgJM+nMVLVUv4lI2PxGKL0oWvkoa4XQ9nSDGy21+TIm5Wt8QlutvHN+6kGfxznWo5dxS3/a0ognqlYzSxp0qOp2aioyeGN0iEeUPxxuYttynOHRbGGW1z+75NM+bdOWJOEG+DloUR+uM8FLnAYiewyqgXa25FR2pRTXFiMhxYpDAH62A4BLiAHkm7I6cfPX31+jb6/nr/8Z5HLwLgFw9PP1MKAQAA
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §3§lШар Скорости 1
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"Шар
+        Скорости 1"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"  +15%
+        к скорости"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.15
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 653e81f6-e6e3-4526-b77d-76ff71d69374
+          operation: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PT1LCMBxGfzo6g9W1K5ceIKFQh6UjFVJJakvtn6yEEmxLAkxJHdJ7eAo3XsNDeAovYJfu3jfv2zwLwIKr+aaR8rnerUspLLA62otal+JwAT0tjrqpxcECgJMenMcL2Qj4EsZDPC3QKvVkbojT7WiOpE+q/R3Zxmb5QByiOj+9d2Zm9O871ItkKDPbK/g2aJYqRjM7lGIa4ly9vNOI9HlEEavIgPVdQ5Ow5IoVLCHYn9AjG3sbfxJg1romU2Hlj0PVOZslAaKti3gSmCx6a7OKGKpixZVbrlM8AriEU7LqIs5+bvAg/358+tS3vx+v1zuAP8kK4MgGAQAA
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §6§lШар Cтойкости 1
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Шар
+        Cтойкости 1"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+        +5.5 к броне"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 5.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: 2d6fef88-cd66-4947-93f5-c0d325090a4d
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/+NiYOBi4AnOLs3JCSjKT8vMSeVi4AKyClKLSjJTizkZOEpSK0pKi1KLuRgYGBg5GFjDEnNKUxk2pFZ6GURFZBikRHjlJFd6mgH5IcEGOf6eWQXmnnlhlUnOnmaeuUB5D0czn0pLJLWmJYnhpjmRxl4ZUXmBpUm5YQY+xkE5qR5Bhsm5oWW+Wa4VkeGeVZEhrhW+VV5Z/uGBFVHhkSa+VWE5kSHpFVEu2ca+uWHZ/uGehpFGgSZR7kG5UVlOGb4uKVl+IWEZflWBppG5frmRRpFAuUhDzzxDy7RAW1sGBm4GJs8UoCdYtJbcqVbScRXsPP0i7IBc7AMGBgAp+TjBBgEAAA==
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §3§lШар Скорости 2
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"Шар
+        Скорости 2"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"text":"  "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"+30%
+        к скорости"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.3
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: aef4b9ba-8063-4e37-abfc-77e1cc23e586
+          operation: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PT1LCMBxGfzo6g9W1K5ceIKFQh6UjFVJJakvtn6yEEmxLAkxJHdJ7eAo3XsNDeAovYJfu3jfv2zwLwIKr+aaR8rnerUspLLA62otal+JwAT0tjrqpxcECgJMenMcL2Qj4EsZDPC3QKvVkbojT7WiOpE+q/R3Zxmb5QByiOj+9d2Zm9O871ItkKDPbK/g2aJYqRjM7lGIa4ly9vNOI9HlEEavIgPVdQ5Ow5IoVLCHYn9AjG3sbfxJg1romU2Hlj0PVOZslAaKti3gSmCx6a7OKGKpixZVbrlM8AriEU7LqIs5+bvAg/358+tS3vx+v1zuAP8kK4MgGAQAA
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §d§lШар Здоровья 1
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Шар
+        Здоровья 1"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+        +3.0 Максимальное здоровье"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 05b080a7-5d48-48a8-9090-1a90def1bec4
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PS07DMBRFHwikEtgCe8inDeowkCq1VTskDc5n1o9bx7VLlSaFdAOo426EPTBBQuyJDJndo3Mm1wAw4G66aZR6rl5XpeIGGN3a8aou+f4GejV/r5uK7w0AuOjBNZuphsMnb7FZZMJcZlgtWuR2nExNFSK5e0Bb1s6fkIt058eeO2mH/9pBPUsHKnewKLZRM9fMnDix4uPYWuiXQ+ivbSpxmSeeQ3yhwiCySRBZVBKbpkwSjSXxH3UhR06YYE2S3CbHWOfHtUnTUZ/6VIR+vCkSr09SJmiQl6vMGgLcwiVadieu3irHEt/k55y5X/e/HyeAP0RqGmcGAQAA
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §9§lШар Отбрасывания 2
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Шар
+        Отбрасывания 2"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"text":"  "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"+0.5
+        Сопротивление отбрасывание"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_KNOCKBACK_RESISTANCE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.2
+          name: ResourceKey[minecraft:attribute / minecraft:generic.knockback_resistance]
+          slot: OFF_HAND
+          uuid: ec498d64-a76a-4dac-a58b-62602dd1f08d
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PP07DMBxGfyAqldCbsLgJCerAgKhMHdUpbfPP2drGxU3sUqUJqnMChDgMKwsjd0CIWyCx4pHte3pv+SwAC3rzspHyrnpYbyS3wDJrx6t6w/en0K35oW4qvrcA4KgLnXghGw6vXPsoSwXKU1+uNPEMh3MkJ6TYXZJtrJc3xCPK+NG1N9aDf61bLxJXMscX2XbaLFWMxs5M8tGsv1LRY1Dkkoa4ZIVQtC110BKHhbgIhpGbJaQ/MS4bCkFvsaDtvU0TaprpRWBHB8OIKaKpYi4NI4favgy0P1in6ArgDI5Jbk6cfH+cf/ae8Nd75+Xn+fcNA/wBFxGbggYBAAA=
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §2§lШар Шипов 2
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Шар
+        Шипов 2"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"  Шипы
+        V"}],"text":""}'
+      enchants:
+        THORNS: 5
+        VANISHING_CURSE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PTU6DQBiGvxpNKrp05yHkRzBdNMY4th3SGYQWKLNr6VR+ZrDhp0I8hNfwAB7BvRfwAu49gCzdPU+ed/MqAAqcL/JGiMfyeZcKroDS056XdcqrUxjWvK2bklcKAAyGcBKsRcPhg3e2ylaJul3ZIu6w1ftyoQoHZ/sbXATd5h5bWPZ9dmfNu9G/rVmvQ1NEhp2wwm02MlDnhif4zNNi6R9o6KsOiloaepJKbLCpJ4k+ySnKNYLc1kGxzlDe0kykbEpMB9GE6CzpPSFykkXLhxeq+9cswxoJI4NmTwYutNHOHY8BzuAIb/sjx4Pft9vvyrl8v3j9+fy6MgH+AOGsOgoKAQAA
+EPIC:
+- item: POTION
+  amount: 1
+  itemName: §6§lРандомное зелье
+  serialized_item:
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Рандомное
+        зелье"}],"text":""}'
+      lore:
+      - '{"extra":[{"obfuscated":true,"text":"Рандомное зелье"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Дает
+        3 рандом эффекта"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:random_potion: RANDOM_POTION
+- item: TIPPED_ARROW
+  amount: 8
+  itemName: §fСтрела Левитации
+  serialized_item:
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 8
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Стрела
+        Левитации"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Левитация
+        II (0:12)"}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      custom-color:
+        ==: Color
+        RED: 234
+        BLUE: 240
+        GREEN: 235
+      custom-effects:
+      - ==: PotionEffect
+        effect: 25
+        duration: 240
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: TIPPED_ARROW
+  amount: 32
+  itemName: §fСтрела Урона
+  serialized_item:
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 32
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Стрела
+        Урона"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Моментальный
+        урон II "}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:strong_harming
+- item: BREWING_STAND
+  amount: 1
+  itemName: §fЗельеварка ведьмы §62 уровня
+  serialized_item:
+    v: 2586
+    type: BREWING_STAND
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Зельеварка
+        ведьмы "},{"italic":false,"color":"gold","text":"2 уровня"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Скорость
+        варки "},{"italic":false,"color":"gold","text":"15 сек"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Тратит
+        в "},{"italic":false,"color":"gold","text":"2 раза больше порошка"}],"text":""}'
+      enchants:
+        DURABILITY: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_UNBREAKABLE
+      PublicBukkitValues:
+        refurnace:re-unique-level: 2i
+        refurnace:re-unique-block: WITCH
+      blockMaterial: BREWING_STAND
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §2§lШар Шипов 2
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Шар
+        Шипов 2"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"  Шипы
+        V"}],"text":""}'
+      enchants:
+        THORNS: 5
+        VANISHING_CURSE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PTU6DQBiGvxpNKrp05yHkRzBdNMY4th3SGYQWKLNr6VR+ZrDhp0I8hNfwAB7BvRfwAu49gCzdPU+ed/MqAAqcL/JGiMfyeZcKroDS056XdcqrUxjWvK2bklcKAAyGcBKsRcPhg3e2ylaJul3ZIu6w1ftyoQoHZ/sbXATd5h5bWPZ9dmfNu9G/rVmvQ1NEhp2wwm02MlDnhif4zNNi6R9o6KsOiloaepJKbLCpJ4k+ySnKNYLc1kGxzlDe0kykbEpMB9GE6CzpPSFykkXLhxeq+9cswxoJI4NmTwYutNHOHY8BzuAIb/sjx4Pft9vvyrl8v3j9+fy6MgH+AOGsOgoKAQAA
+- item: HOGLIN_SPAWN_EGG
+  amount: 3
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: HOGLIN_SPAWN_EGG
+    amount: 3
+- item: TIPPED_ARROW
+  amount: 16
+  itemName: §fСтрела Обморожения
+  serialized_item:
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 16
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Стрела
+        Обморожения"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Стан
+        (0:04)"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Слепота
+        (0:30)"}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:strong_slowness
+      custom-effects:
+      - ==: PotionEffect
+        effect: 2
+        duration: 80
+        amplifier: 109
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 15
+        duration: 80
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: SPLASH_POTION
+  amount: 1
+  itemName: §b§lАрабская ночь
+  serialized_item:
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Арабская
+        ночь"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Левитация
+        8 (0:02)"}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      custom-color:
+        ==: Color
+        RED: 15
+        BLUE: 253
+        GREEN: 255
+      custom-effects:
+      - ==: PotionEffect
+        effect: 25
+        duration: 40
+        amplifier: 7
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: SPLASH_POTION
+  amount: 1
+  itemName: §f§lЗимняя мощь
+  serialized_item:
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '"§f§lЗимняя мощь"'
+      custom-color:
+        ==: Color
+        RED: 232
+        BLUE: 253
+        GREEN: 232
+      custom-effects:
+      - ==: PotionEffect
+        effect: 1
+        duration: 2800
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 3
+        duration: 400
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 5
+        duration: 2800
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 12
+        duration: 9580
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: POTION
+  amount: 1
+  itemName: '§d§lЗелье Целителя '
+  serialized_item:
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"color":"light_purple","text":"Зелье
+        Целителя "}],"text":""}'
+      lore:
+      - '{"text":"§9Прилив здоровья III (0:30)"}'
+      - '{"text":"§9Скорость (1:20)"}'
+      - '{"text":"§9Регенерация III (0:15)"}'
+      - '{"text":"§cУтомление IV (0:15)"}'
+      - '{"text":""}'
+      - '{"text":"§5При применении:"}'
+      - '{"text":"§9+12 Максимальное здоровье"}'
+      - '{"text":"§9+20% Скорость"}'
+      - '{"text":"§c-40% Скорость атаки"}'
+      enchants:
+        DAMAGE_ALL: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      custom-color:
+        ==: Color
+        RED: 158
+        BLUE: 182
+        GREEN: 170
+      custom-effects:
+      - ==: PotionEffect
+        effect: 21
+        duration: 600
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 1600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 10
+        duration: 300
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 4
+        duration: 300
+        amplifier: 3
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: TRIDENT
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TRIDENT
+- item: FURNACE
+  amount: 1
+  itemName: §5Скоростная Печь
+  serialized_item:
+    v: 2586
+    type: FURNACE
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Скоростная
+        Печь"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Работает
+        на "},{"italic":false,"color":"gold","text":"75%"},{"italic":false,"color":"gray","text":"
+        быстрее"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Потребляет
+        на "},{"italic":false,"color":"red","text":"75%,"},{"italic":false,"color":"gray","text":"
+        больше топлива"}],"text":""}'
+      enchants:
+        DURABILITY: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_UNBREAKABLE
+      PublicBukkitValues:
+        refurnace:re-unique-level: 1i
+        refurnace:re-unique-block: SPEED
+      blockMaterial: FURNACE
+- item: ENCHANTED_BOOK
+  amount: 1
+  itemName: §6Чародейская книга
+  serialized_item:
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Грабитель
+        (Крадет часть денег убитого игрока)"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:stealer: STEALER_BOOK
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §4§lШар Силы 2
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Шар
+        Силы 2"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"text":"  "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"+2.5
+        к урону"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: da6c8baa-c64f-43e1-9ac2-2d9fc2ef9d0e
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PQU6DQBiFfxtNKrr3GgMETBddGMfSIXVGWqCd2bUwbSkz2FAwhY1HMHHjwlsYE2/kBbyAuHP33ve+zTMADLic5bVSD+XjOlPSAKNLe1lWmTycQ7+Sx6ou5cEAgJM+nMVLVUv4lI2PxGKL0oWvkoa4XQ9nSDGy21+TIm5Wt8QlutvHN+6kGfxznWo5dxS3/a0ognqlYzSxp0qOp2aioyeGN0iEeUPxxuYttynOHRbGGW1z+75NM+bdOWJOEG+DloUR+uM8FLnAYiewyqgXa25FR2pRTXFiMhxYpDAH62A4BLiAHkm7I6cfPX31+jb6/nr/8Z5HLwLgFw9PP1MKAQAA
+- item: TIPPED_ARROW
+  amount: 16
+  itemName: §fСтрела Шрека
+  serialized_item:
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 16
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"text":"§fСтрела Шрека"}'
+      lore:
+      - '{"text":"§cТошнота (0:16)"}'
+      - '{"text":"§cСлепота (0:16)"}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 5
+        GREEN: 125
+      custom-effects:
+      - ==: PotionEffect
+        effect: 9
+        duration: 320
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 15
+        duration: 320
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: WHITE_DYE
+  amount: 1
+  itemName: §bАура Защиты От Падения
+  serialized_item:
+    v: 2586
+    type: WHITE_DYE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Аура
+        Защиты От Падения"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Уменьшает
+        входящий урон от падения на "},{"italic":false,"color":"gold","text":"80%"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+- item: SPAWNER
+  amount: 2
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: SPAWNER
+    amount: 2
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §aШар огородника
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Шар
+        огородника"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Удача
+        III (На растения)"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"При
+        нажатии SHIFT:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Выращивает
+        растения вокруг вас"}],"text":""}'
+      - '{"text":""}'
+      internal: H4sIAAAAAAAA/02Pz1KCUBjFv5qaUWrTTNNzoPxpXFJJXkYuiciFu0O8JvBhDkLGXfkSPYS7eoYerFi2O+d3fpujAChwPS8axJfqbZ2hUEDp0k5UdSb2fejV4qNuKrFXAOCsB5dhgo2AL9E6Ko826ipyMG2J2fVgrqJH8t092Ybt8pGYpOz2iWVO29E/16gTZmCsORu+nTXLMlSnmo9i4g/ScvHuMbt0JdFj+arFuTX0nhaHjuVxUOiu9JGXds6DsUFleqCMI2UzleeWTuVYc6Wd0SFpXUYLL8DMY7zgz262jgYjgCs4J6vuxMWD/E143zp+3538n5vbT4A/xgSXFwYBAAA=
+      PublicBukkitValues:
+        minecraft:farm_ball: FARM_BALL
+- item: SPLASH_POTION
+  amount: 1
+  itemName: §b§lАрабская ночь
+  serialized_item:
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Арабская
+        ночь"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Левитация
+        8 (0:02)"}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      custom-color:
+        ==: Color
+        RED: 15
+        BLUE: 253
+        GREEN: 255
+      custom-effects:
+      - ==: PotionEffect
+        effect: 25
+        duration: 40
+        amplifier: 7
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §d§lШар Здоровья 1
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Шар
+        Здоровья 1"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+        +3.0 Максимальное здоровье"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 05b080a7-5d48-48a8-9090-1a90def1bec4
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PS07DMBRFHwikEtgCe8inDeowkCq1VTskDc5n1o9bx7VLlSaFdAOo426EPTBBQuyJDJndo3Mm1wAw4G66aZR6rl5XpeIGGN3a8aou+f4GejV/r5uK7w0AuOjBNZuphsMnb7FZZMJcZlgtWuR2nExNFSK5e0Bb1s6fkIt058eeO2mH/9pBPUsHKnewKLZRM9fMnDix4uPYWuiXQ+ivbSpxmSeeQ3yhwiCySRBZVBKbpkwSjSXxH3UhR06YYE2S3CbHWOfHtUnTUZ/6VIR+vCkSr09SJmiQl6vMGgLcwiVadieu3irHEt/k55y5X/e/HyeAP0RqGmcGAQAA
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §3§lШар Скорости 2
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"Шар
+        Скорости 2"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"text":"  "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"+30%
+        к скорости"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.3
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: aef4b9ba-8063-4e37-abfc-77e1cc23e586
+          operation: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PT1LCMBxGfzo6g9W1K5ceIKFQh6UjFVJJakvtn6yEEmxLAkxJHdJ7eAo3XsNDeAovYJfu3jfv2zwLwIKr+aaR8rnerUspLLA62otal+JwAT0tjrqpxcECgJMenMcL2Qj4EsZDPC3QKvVkbojT7WiOpE+q/R3Zxmb5QByiOj+9d2Zm9O871ItkKDPbK/g2aJYqRjM7lGIa4ly9vNOI9HlEEavIgPVdQ5Ow5IoVLCHYn9AjG3sbfxJg1romU2Hlj0PVOZslAaKti3gSmCx6a7OKGKpixZVbrlM8AriEU7LqIs5+bvAg/358+tS3vx+v1zuAP8kK4MgGAQAA
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §6§lШар Cтойкости 1
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Шар
+        Cтойкости 1"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+        +5.5 к броне"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 5.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: 2d6fef88-cd66-4947-93f5-c0d325090a4d
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/+NiYOBi4AnOLs3JCSjKT8vMSeVi4AKyClKLSjJTizkZOEpSK0pKi1KLuRgYGBg5GFjDEnNKUxk2pFZ6GURFZBikRHjlJFd6mgH5IcEGOf6eWQXmnnlhlUnOnmaeuUB5D0czn0pLJLWmJYnhpjmRxl4ZUXmBpUm5YQY+xkE5qR5Bhsm5oWW+Wa4VkeGeVZEhrhW+VV5Z/uGBFVHhkSa+VWE5kSHpFVEu2ca+uWHZ/uGehpFGgSZR7kG5UVlOGb4uKVl+IWEZflWBppG5frmRRpFAuUhDzzxDy7RAW1sGBm4GJs8UoCdYtJbcqVbScRXsPP0i7IBc7AMGBgAp+TjBBgEAAA==
+RARE:
+- item: FURNACE
+  amount: 1
+  itemName: §5Везучая Печь
+  serialized_item:
+    v: 2586
+    type: FURNACE
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Везучая
+        Печь"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Имеет
+        "},{"italic":false,"color":"gold","text":"100%"},{"italic":false,"color":"gray","text":"
+        шанс удвоить ресурс"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Работает
+        на "},{"italic":false,"color":"red","text":"50%"},{"italic":false,"color":"gray","text":"
+        медленнее"}],"text":""}'
+      enchants:
+        DURABILITY: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_UNBREAKABLE
+      PublicBukkitValues:
+        refurnace:re-unique-level: 1i
+        refurnace:re-unique-block: LUCKY
+      blockMaterial: FURNACE
+- item: BREWING_STAND
+  amount: 1
+  itemName: §fЗельеварка ведьмы §64 уровня
+  serialized_item:
+    v: 2586
+    type: BREWING_STAND
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Зельеварка
+        ведьмы "},{"italic":false,"color":"gold","text":"4 уровня"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Скорость
+        варки "},{"italic":false,"color":"gold","text":"5 сек"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Тратит
+        в "},{"italic":false,"color":"gold","text":"4 раза больше порошка"}],"text":""}'
+      enchants:
+        DURABILITY: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_UNBREAKABLE
+      PublicBukkitValues:
+        refurnace:re-unique-level: 4i
+        refurnace:re-unique-block: WITCH
+      blockMaterial: BREWING_STAND
+- item: GOLDEN_APPLE
+  amount: 32
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: GOLDEN_APPLE
+    amount: 32
+- item: NETHERITE_SHOVEL
+  amount: 1
+  itemName: §6§lЛопата §8Песочника
+  serialized_item:
+    v: 2586
+    type: NETHERITE_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"§6§lЛопата §8Песочника"}'
+      enchants:
+        DIG_SPEED: 7
+        LOOT_BONUS_BLOCKS: 3
+        DURABILITY: 3
+        VANISHING_CURSE: 1
+- item: FISHING_ROD
+  amount: 1
+  itemName: §9§lРыбачок
+  serialized_item:
+    v: 2586
+    type: FISHING_ROD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Рыбачок"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Починка"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Везучий
+        рыбак V"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Приманка
+        V"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность
+        III"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      enchants:
+        LUCK: 5
+        LURE: 5
+        MENDING: 1
+        DURABILITY: 3
+        VANISHING_CURSE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: §5§lТотем ведьмы
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Тотем
+        ведьмы"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Сохраняет
+        эффекты"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:witch_totem: WITCH_TOTEM
+- item: SPLASH_POTION
+  amount: 1
+  itemName: §f§lЗимняя мощь
+  serialized_item:
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '"§f§lЗимняя мощь"'
+      custom-color:
+        ==: Color
+        RED: 232
+        BLUE: 253
+        GREEN: 232
+      custom-effects:
+      - ==: PotionEffect
+        effect: 1
+        duration: 2800
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 3
+        duration: 400
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 5
+        duration: 2800
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 12
+        duration: 9580
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: POTION
+  amount: 1
+  itemName: §6Быстрее ветра
+  serialized_item:
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"italic":false,"extra":[{"text":""},{"color":"gold","text":"Быстрее
+        ветра"}],"text":""}'
+      lore:
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"red","text":"Левитация
+        II (0:12)"}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 25
+        duration: 240
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §4§lШар Силы 2
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Шар
+        Силы 2"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"text":"  "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"+2.5
+        к урону"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: da6c8baa-c64f-43e1-9ac2-2d9fc2ef9d0e
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PQU6DQBiFfxtNKrr3GgMETBddGMfSIXVGWqCd2bUwbSkz2FAwhY1HMHHjwlsYE2/kBbyAuHP33ve+zTMADLic5bVSD+XjOlPSAKNLe1lWmTycQ7+Sx6ou5cEAgJM+nMVLVUv4lI2PxGKL0oWvkoa4XQ9nSDGy21+TIm5Wt8QlutvHN+6kGfxznWo5dxS3/a0ognqlYzSxp0qOp2aioyeGN0iEeUPxxuYttynOHRbGGW1z+75NM+bdOWJOEG+DloUR+uM8FLnAYiewyqgXa25FR2pRTXFiMhxYpDAH62A4BLiAHkm7I6cfPX31+jb6/nr/8Z5HLwLgFw9PP1MKAQAA
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §3§lШар Скорости 1
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"Шар
+        Скорости 1"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"  +15%
+        к скорости"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.15
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 653e81f6-e6e3-4526-b77d-76ff71d69374
+          operation: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PT1LCMBxGfzo6g9W1K5ceIKFQh6UjFVJJakvtn6yEEmxLAkxJHdJ7eAo3XsNDeAovYJfu3jfv2zwLwIKr+aaR8rnerUspLLA62otal+JwAT0tjrqpxcECgJMenMcL2Qj4EsZDPC3QKvVkbojT7WiOpE+q/R3Zxmb5QByiOj+9d2Zm9O871ItkKDPbK/g2aJYqRjM7lGIa4ly9vNOI9HlEEavIgPVdQ5Ow5IoVLCHYn9AjG3sbfxJg1romU2Hlj0PVOZslAaKti3gSmCx6a7OKGKpixZVbrlM8AriEU7LqIs5+bvAg/358+tS3vx+v1zuAP8kK4MgGAQAA
+- item: SHULKER_SPAWN_EGG
+  amount: 3
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: SHULKER_SPAWN_EGG
+    amount: 3
+- item: SPAWNER
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: SPAWNER
+- item: SHIELD
+  amount: 1
+  itemName: §6Цыганский щит
+  serialized_item:
+    v: 2586
+    type: SHIELD
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Цыганский
+        щит"}],"text":""}'
+      enchants:
+        THORNS: 10
+        VANISHING_CURSE: 1
+      Unbreakable: true
+      blockMaterial: SHIELD
+- item: POTION
+  amount: 1
+  itemName: §c§lПаучее Чутьё
+  serialized_item:
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"text":"§c§lПаучее Чутьё"}'
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 234
+        BLUE: 0
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 5
+        duration: 1200
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 1200
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 12
+        duration: 12000
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 3
+        duration: 300
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 9
+        duration: 800
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: WHITE_DYE
+  amount: 1
+  itemName: §bАура Защиты От Падения
+  serialized_item:
+    v: 2586
+    type: WHITE_DYE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Аура
+        Защиты От Падения"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Уменьшает
+        входящий урон от падения на "},{"italic":false,"color":"gold","text":"80%"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+- item: ENCHANTED_BOOK
+  amount: 1
+  itemName: §6Чародейская книга
+  serialized_item:
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Телепатия
+        (Перемещает сломанные блоки в инвентарь)"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:telepation: TELEPATION_BOOK
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §6§lШар Cтойкости 1
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Шар
+        Cтойкости 1"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+        +5.5 к броне"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 5.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: 2d6fef88-cd66-4947-93f5-c0d325090a4d
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/+NiYOBi4AnOLs3JCSjKT8vMSeVi4AKyClKLSjJTizkZOEpSK0pKi1KLuRgYGBg5GFjDEnNKUxk2pFZ6GURFZBikRHjlJFd6mgH5IcEGOf6eWQXmnnlhlUnOnmaeuUB5D0czn0pLJLWmJYnhpjmRxl4ZUXmBpUm5YQY+xkE5qR5Bhsm5oWW+Wa4VkeGeVZEhrhW+VV5Z/uGBFVHhkSa+VWE5kSHpFVEu2ca+uWHZ/uGehpFGgSZR7kG5UVlOGb4uKVl+IWEZflWBppG5frmRRpFAuUhDzzxDy7RAW1sGBm4GJs8UoCdYtJbcqVbScRXsPP0i7IBc7AMGBgAp+TjBBgEAAA==
+- item: POTION
+  amount: 1
+  itemName: §b§lЗелье Викинга
+  serialized_item:
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Зелье
+        Викинга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Скорость
+        III (1:00)"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Сила
+        III (1:00)"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Огнестойкость
+        (7:30)"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Иссушение
+        (0:10)"},{"italic":false,"color":"red","text":""}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 232
+        GREEN: 255
+      custom-effects:
+      - ==: PotionEffect
+        effect: 5
+        duration: 1200
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 1200
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 12
+        duration: 9000
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 20
+        duration: 200
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §4§lШар Силы 1
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Шар
+        Силы 1"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"text":"  "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"+2.5
+        к урону"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: 0b28aedd-4df6-4bff-b8e6-717c93abe24a
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PQU6DQBiFfxtNKrr3GgMETBddGMfSIXVGWqCd2bUwbSkz2FAwhY1HMHHjwlsYE2/kBbyAuHP33ve+zTMADLic5bVSD+XjOlPSAKNLe1lWmTycQ7+Sx6ou5cEAgJM+nMVLVUv4lI2PxGKL0oWvkoa4XQ9nSDGy21+TIm5Wt8QlutvHN+6kGfxznWo5dxS3/a0ognqlYzSxp0qOp2aioyeGN0iEeUPxxuYttynOHRbGGW1z+75NM+bdOWJOEG+DloUR+uM8FLnAYiewyqgXa25FR2pRTXFiMhxYpDAH62A4BLiAHkm7I6cfPX31+jb6/nr/8Z5HLwLgFw9PP1MKAQAA
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §2§lШар Шипов 2
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Шар
+        Шипов 2"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"  Шипы
+        V"}],"text":""}'
+      enchants:
+        THORNS: 5
+        VANISHING_CURSE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PTU6DQBiGvxpNKrp05yHkRzBdNMY4th3SGYQWKLNr6VR+ZrDhp0I8hNfwAB7BvRfwAu49gCzdPU+ed/MqAAqcL/JGiMfyeZcKroDS056XdcqrUxjWvK2bklcKAAyGcBKsRcPhg3e2ylaJul3ZIu6w1ftyoQoHZ/sbXATd5h5bWPZ9dmfNu9G/rVmvQ1NEhp2wwm02MlDnhif4zNNi6R9o6KsOiloaepJKbLCpJ4k+ySnKNYLc1kGxzlDe0kykbEpMB9GE6CzpPSFykkXLhxeq+9cswxoJI4NmTwYutNHOHY8BzuAIb/sjx4Pft9vvyrl8v3j9+fy6MgH+AOGsOgoKAQAA
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §d§lШар Здоровья 2
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Шар
+        Здоровья 2"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"text":"  "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"+6.0
+        Максимальное здоровье"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 6.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: af9a1cfc-ee16-4204-b34d-71eaa3d82aaf
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PS07DMBRFHwikEtgCe8inDeowkCq1VTskDc5n1o9bx7VLlSaFdAOo426EPTBBQuyJDJndo3Mm1wAw4G66aZR6rl5XpeIGGN3a8aou+f4GejV/r5uK7w0AuOjBNZuphsMnb7FZZMJcZlgtWuR2nExNFSK5e0Bb1s6fkIt058eeO2mH/9pBPUsHKnewKLZRM9fMnDix4uPYWuiXQ+ivbSpxmSeeQ3yhwiCySRBZVBKbpkwSjSXxH3UhR06YYE2S3CbHWOfHtUnTUZ/6VIR+vCkSr09SJmiQl6vMGgLcwiVadieu3irHEt/k55y5X/e/HyeAP0RqGmcGAQAA
+COMMON:
+- item: SHEARS
+  amount: 1
+  itemName: §6§lНожницы
+  serialized_item:
+    v: 2586
+    type: SHEARS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Ножницы"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Использований:
+        "},{"bold":true,"italic":false,"color":"gold","text":"3"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:nshears: SHEARS
+- item: BREWING_STAND
+  amount: 1
+  itemName: §fЗельеварка ведьмы §63 уровня
+  serialized_item:
+    v: 2586
+    type: BREWING_STAND
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Зельеварка
+        ведьмы "},{"italic":false,"color":"gold","text":"3 уровня"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Скорость
+        варки "},{"italic":false,"color":"gold","text":"10 сек"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Тратит
+        в "},{"italic":false,"color":"gold","text":"3 раза больше порошка"}],"text":""}'
+      enchants:
+        DURABILITY: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_UNBREAKABLE
+      PublicBukkitValues:
+        refurnace:re-unique-level: 3i
+        refurnace:re-unique-block: WITCH
+      blockMaterial: BREWING_STAND
+- item: FURNACE
+  amount: 1
+  itemName: §5Скоростная Печь
+  serialized_item:
+    v: 2586
+    type: FURNACE
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Скоростная
+        Печь"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Работает
+        на "},{"italic":false,"color":"gold","text":"75%"},{"italic":false,"color":"gray","text":"
+        быстрее"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Потребляет
+        на "},{"italic":false,"color":"red","text":"75%,"},{"italic":false,"color":"gray","text":"
+        больше топлива"}],"text":""}'
+      enchants:
+        DURABILITY: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_UNBREAKABLE
+      PublicBukkitValues:
+        refurnace:re-unique-level: 1i
+        refurnace:re-unique-block: SPEED
+      blockMaterial: FURNACE
+- item: ENCHANTED_BOOK
+  amount: 1
+  itemName: §6Чародейская книга
+  serialized_item:
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Светлячок
+        (Подсвечивает игрока при ударе)"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:lightner: LIGHTNER_BOOK
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §d§lШар Здоровья 2
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Шар
+        Здоровья 2"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"text":"  "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"+6.0
+        Максимальное здоровье"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 6.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: af9a1cfc-ee16-4204-b34d-71eaa3d82aaf
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PS07DMBRFHwikEtgCe8inDeowkCq1VTskDc5n1o9bx7VLlSaFdAOo426EPTBBQuyJDJndo3Mm1wAw4G66aZR6rl5XpeIGGN3a8aou+f4GejV/r5uK7w0AuOjBNZuphsMnb7FZZMJcZlgtWuR2nExNFSK5e0Bb1s6fkIt058eeO2mH/9pBPUsHKnewKLZRM9fMnDix4uPYWuiXQ+ivbSpxmSeeQ3yhwiCySRBZVBKbpkwSjSXxH3UhR06YYE2S3CbHWOfHtUnTUZ/6VIR+vCkSr09SJmiQl6vMGgLcwiVadieu3irHEt/k55y5X/e/HyeAP0RqGmcGAQAA
+- item: SHIELD
+  amount: 1
+  itemName: §6Цыганский щит
+  serialized_item:
+    v: 2586
+    type: SHIELD
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Цыганский
+        щит"}],"text":""}'
+      enchants:
+        THORNS: 10
+        VANISHING_CURSE: 1
+      Unbreakable: true
+      blockMaterial: SHIELD
+- item: WHITE_DYE
+  amount: 1
+  itemName: §bАура Защиты От Падения
+  serialized_item:
+    v: 2586
+    type: WHITE_DYE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Аура
+        Защиты От Падения"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Уменьшает
+        входящий урон от падения на "},{"italic":false,"color":"gold","text":"80%"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §2§lШар Шипов 2
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Шар
+        Шипов 2"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"  Шипы
+        V"}],"text":""}'
+      enchants:
+        THORNS: 5
+        VANISHING_CURSE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PTU6DQBiGvxpNKrp05yHkRzBdNMY4th3SGYQWKLNr6VR+ZrDhp0I8hNfwAB7BvRfwAu49gCzdPU+ed/MqAAqcL/JGiMfyeZcKroDS056XdcqrUxjWvK2bklcKAAyGcBKsRcPhg3e2ylaJul3ZIu6w1ftyoQoHZ/sbXATd5h5bWPZ9dmfNu9G/rVmvQ1NEhp2wwm02MlDnhif4zNNi6R9o6KsOiloaepJKbLCpJ4k+ySnKNYLc1kGxzlDe0kykbEpMB9GE6CzpPSFykkXLhxeq+9cswxoJI4NmTwYutNHOHY8BzuAIb/sjx4Pft9vvyrl8v3j9+fy6MgH+AOGsOgoKAQAA
+- item: TIPPED_ARROW
+  amount: 8
+  itemName: §fСтрела Голода
+  serialized_item:
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 8
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"text":"§fСтрела Голода"}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Голод
+        79 (0:03)"}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 5
+        GREEN: 222
+      custom-effects:
+      - ==: PotionEffect
+        effect: 17
+        duration: 65
+        amplifier: 78
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: TIPPED_ARROW
+  amount: 8
+  itemName: §fСтрела Левитации
+  serialized_item:
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 8
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Стрела
+        Левитации"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Левитация
+        II (0:12)"}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      custom-color:
+        ==: Color
+        RED: 234
+        BLUE: 240
+        GREEN: 235
+      custom-effects:
+      - ==: PotionEffect
+        effect: 25
+        duration: 240
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: TIPPED_ARROW
+  amount: 32
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 32
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Замедление
+        (0:30)"}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:long_slowness
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §4§lШар Силы 1
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Шар
+        Силы 1"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"text":"  "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"+2.5
+        к урону"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: 0b28aedd-4df6-4bff-b8e6-717c93abe24a
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PQU6DQBiFfxtNKrr3GgMETBddGMfSIXVGWqCd2bUwbSkz2FAwhY1HMHHjwlsYE2/kBbyAuHP33ve+zTMADLic5bVSD+XjOlPSAKNLe1lWmTycQ7+Sx6ou5cEAgJM+nMVLVUv4lI2PxGKL0oWvkoa4XQ9nSDGy21+TIm5Wt8QlutvHN+6kGfxznWo5dxS3/a0ognqlYzSxp0qOp2aioyeGN0iEeUPxxuYttynOHRbGGW1z+75NM+bdOWJOEG+DloUR+uM8FLnAYiewyqgXa25FR2pRTXFiMhxYpDAH62A4BLiAHkm7I6cfPX31+jb6/nr/8Z5HLwLgFw9PP1MKAQAA
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: §5§lТотем ведьмы
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Тотем
+        ведьмы"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Сохраняет
+        эффекты"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:witch_totem: WITCH_TOTEM
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §3§lШар Скорости 1
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"Шар
+        Скорости 1"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"  +15%
+        к скорости"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.15
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 653e81f6-e6e3-4526-b77d-76ff71d69374
+          operation: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PT1LCMBxGfzo6g9W1K5ceIKFQh6UjFVJJakvtn6yEEmxLAkxJHdJ7eAo3XsNDeAovYJfu3jfv2zwLwIKr+aaR8rnerUspLLA62otal+JwAT0tjrqpxcECgJMenMcL2Qj4EsZDPC3QKvVkbojT7WiOpE+q/R3Zxmb5QByiOj+9d2Zm9O871ItkKDPbK/g2aJYqRjM7lGIa4ly9vNOI9HlEEavIgPVdQ5Ow5IoVLCHYn9AjG3sbfxJg1romU2Hlj0PVOZslAaKti3gSmCx6a7OKGKpixZVbrlM8AriEU7LqIs5+bvAg/358+tS3vx+v1zuAP8kK4MgGAQAA
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §d§lШар Здоровья 1
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Шар
+        Здоровья 1"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+        +3.0 Максимальное здоровье"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 05b080a7-5d48-48a8-9090-1a90def1bec4
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PS07DMBRFHwikEtgCe8inDeowkCq1VTskDc5n1o9bx7VLlSaFdAOo426EPTBBQuyJDJndo3Mm1wAw4G66aZR6rl5XpeIGGN3a8aou+f4GejV/r5uK7w0AuOjBNZuphsMnb7FZZMJcZlgtWuR2nExNFSK5e0Bb1s6fkIt058eeO2mH/9pBPUsHKnewKLZRM9fMnDix4uPYWuiXQ+ivbSpxmSeeQ3yhwiCySRBZVBKbpkwSjSXxH3UhR06YYE2S3CbHWOfHtUnTUZ/6VIR+vCkSr09SJmiQl6vMGgLcwiVadieu3irHEt/k55y5X/e/HyeAP0RqGmcGAQAA

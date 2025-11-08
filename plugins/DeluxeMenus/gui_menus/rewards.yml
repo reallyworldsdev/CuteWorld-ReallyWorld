@@ -1,0 +1,1680 @@
+    menu_title: '&fꈁꀀꈂꌗꈂꀁ&0ꈃꄈ'
+    register_command: true
+    open_command:
+    - free
+    size: 54
+    items:
+      'reward1':
+        material: hopper_minecart
+        slot: 10
+        amount: 1
+        priority: 1
+        display_name: ' &e&l«Уровень 1» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 5
+            hasperm:
+              type: has permission
+              permission: 'rewardboga.111'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded1':
+        material: chest_minecart
+        priority: 2
+        amount: 1
+        slot: 10
+        display_name: ' &e&l«Уровень 1» &7(Прогресс:&6 %statistic_minutes_played%&7/&615&e минут&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 15 минут'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &61 Кейс с рилликами'
+        - '&7| &61 Кейс с донатом'
+        left_click_commands:
+        - '[console] cases give %player_name% rilik 1'
+        - '[console] cases give %player_name% donate 1'
+        - '[console] lp user %player_name% permission set rewardboga.111'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &61 Кейс с риликами'
+        - '[message] &7Вы получили &61 Кейс с донатом'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 15
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward2':
+        material: hopper_minecart
+        slot: 11
+        amount: 2
+        priority: 1
+        display_name: ' &e&l«Уровень 2» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 30
+            hasperm:
+              type: has permission
+              permission: 'rewardboga.222'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded2':
+        material: chest_minecart
+        priority: 2
+        amount: 2
+        slot: 11
+        display_name: ' &e&l«Уровень 2» &7(Прогресс:&6 %statistic_minutes_played%&7/&630&e минут&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 30 минут'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &61 Кейс с привилегиями'
+        - '&7| &61 Кейс с риликами'
+        left_click_commands:
+        - '[console] cases give %player_name% donate 1'
+        - '[console] cases give %player_name% rilik 1'
+        - '[console] lp user %player_name% permission set rewardboga.222'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &61 Кейс с привилегиями'
+        - '[message] &7Вы получили &61 Кейс с риликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 30
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward3':
+        material: hopper_minecart
+        slot: 12
+        amount: 3
+        priority: 1
+        display_name: ' &e&l«Уровень 3» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 60
+            hasperm:
+              type: has permission
+              permission: 'rewardboga.333'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded3':
+        material: chest_minecart
+        priority: 2
+        amount: 3
+        slot: 12
+        display_name: ' &e&l«Уровень 3» &7(Прогресс:&6 %statistic_minutes_played%&7/&660&e минут&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 60 минут'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите'
+        - '&7| &61 Кейс с привилегиями'
+        - '&7| &e1 Кейс с риликами'
+        left_click_commands:
+        - '[console] cases give %player_name% donate 1'
+        - '[console] cases give %player_name% rilik 1'
+        - '[console] lp user %player_name% permission set rewardboga.333'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &61 Кейс с привилегиями'
+        - '[message] &7Вы получили &e1 Кейс с рилликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 60
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward4':
+        material: hopper_minecart
+        slot: 13
+        amount: 4
+        priority: 1
+        display_name: ' &e&l«Уровень 4» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 120
+            hasperm:
+              type: has permission
+              permission: 'rewardboga.444'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded4':
+        material: chest_minecart    
+        priority: 2
+        amount: 4
+        slot: 13
+        display_name: ' &e&l«Уровень 4» &7(Прогресс:&6 %statistic_minutes_played%&7/&6120&e минут&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 120 минут'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &675 рилликов'
+        - '&7| &61 Кейс с привилегиями'
+        - '&7| &e2 Кейса с рилликами'
+        left_click_commands:
+        - '[console] p give %player_name% 75'
+        - '[console] cases give %player_name% donate 1'
+        - '[console] cases give %player_name% rilik 2'
+        - '[console] lp user %player_name% permission set rewardboga.444'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &675 &7рилликов'
+        - '[message] &7Вы получили &61 Кейс с привилегиями'
+        - '[message] &7Вы получили &e2 Кейса с рилликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 120
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward5':
+        material: hopper_minecart
+        slot: 14
+        amount: 5
+        priority: 1
+        display_name: ' &e&l«Уровень 5» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 240
+            hasperm:
+              type: has permission
+              permission: 'rewardboga.555'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded5':
+        material: chest_minecart
+        priority: 2
+        amount: 5
+        slot: 14
+        display_name: ' &e&l«Уровень 5» &7(Прогресс:&6 %statistic_minutes_played%&7/&6240&e минут&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 240 минут'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &6100 рилликов'
+        - '&7| &61 Кейс с привилегиями'
+        - '&7| &e2 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 100'
+        - '[console] cases give %player_name% donate 1'
+        - '[console] cases give %player_name% rilik 2'
+        - '[console] lp user %player_name% permission set rewardboga.555'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6100 рилликов'
+        - '[message] &7Вы получили &61 Кейс с привилегиями'
+        - '[message] &7Вы получили &e2 Кейса с риликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 240
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward6':
+        material: hopper_minecart
+        slot: 15
+        amount: 6
+        priority: 1
+        display_name: ' &e&l«Уровень 6» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 5
+            hasperm:
+              type: has permission
+              permission: 'rewardboga.666'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded6':
+        material: chest_minecart
+        priority: 2
+        amount: 6
+        slot: 15
+        display_name: ' &e&l«Уровень 6» &7(Прогресс:&6 %statistic_hours_played%&7/&65&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 5 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &6175 рилликов'
+        - '&7| &61 Кейс с привилегиями'
+        - '&7| &e2 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 175'
+        - '[console] crate give %player_name% donate 1'
+        - '[console] cases give %player_name% rilik 2'
+        - '[console] lp user %player_name% permission set rewardboga.666'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6175 рилликов'
+        - '[message] &7Вы получили &61 Кейс с привилегиями'
+        - '[message] &7Вы получили &e2 Кейса с риликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 5
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward7':
+        material: hopper_minecart
+        slot: 16
+        amount: 7
+        priority: 1
+        display_name: ' &e&l«Уровень 7» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 7
+            hasperm:
+              type: has permission
+              permission: 'rewardboga.777'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded7':
+        material: chest_minecart
+        priority: 2
+        amount: 7
+        slot: 16
+        display_name: ' &e&l«Уровень 7» &7(Прогресс:&6 %statistic_hours_played%&7/&67&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 7 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &6250 рилликов'
+        - '&7| &62 Кейс с привилегиями'
+        - '&7| &e2 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 250'
+        - '[console] crate give %player_name% donate 2'
+        - '[console] cases give %player_name% rilik 2'
+        - '[console] lp user %player_name% permission set rewardboga.777'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6250 рилликов'
+        - '[message] &7Вы получили &62 Кейс с привилегиями'
+        - '[message] &7Вы получили &e2 Кейса с риликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 7
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward8':
+        material: hopper_minecart
+        slot: 19
+        amount: 8
+        priority: 1
+        display_name: ' &e&l«Уровень 8» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 10
+            hasperm:
+              type: has permission
+              permission: 'rewardboga.888'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded8':
+        material: chest_minecart
+        priority: 2
+        amount: 8
+        slot: 19
+        display_name: ' &e&l«Уровень 8» &7(Прогресс:&6 %statistic_hours_played%&7/&910&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 10 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &6325 рилликов'
+        - '&7| &61 Кейс с привилегиями'
+        - '&7| &e3 Кейсов с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 325'
+        - '[console] cases give %player_name% donate 1'
+        - '[console] cases give %player_name% rilik 3'
+        - '[console] lp user %player_name% permission set rewardboga.888'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6325 рилликов'
+        - '[message] &7Вы получили &61 Кейс с привилегиями'
+        - '[message] &7Вы получили &e3 Кейсов с риликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 10
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward9':
+        material: hopper_minecart
+        slot: 20
+        amount: 9
+        priority: 1
+        display_name: ' &e&l«Уровень 9» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 12
+            hasperm:
+              type: has permission
+              permission: 'rewardboga.999'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded9':
+        material: chest_minecart
+        priority: 2
+        amount: 9
+        slot: 20
+        display_name: ' &e&l«Уровень 9» &7(Прогресс:&6 %statistic_hours_played%&7/&612&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 12 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &6375 рилликов'
+        - '&7| &62 Кейса с привилегиями'
+        - '&7| &e3 Кейсов с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 375'
+        - '[console] cases give %player_name% donate 2'
+        - '[console] cases give %player_name% rilik 3'
+        - '[console] lp user %player_name% permission set rewardboga.999'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6375 рилликов'
+        - '[message] &7Вы получили &62 Кейса с привилегиями'
+        - '[message] &7Вы получили &e3 Кейсов с риликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 12
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward10':
+        material: hopper_minecart
+        slot: 21
+        amount: 10
+        priority: 1
+        display_name: ' &e&l«Уровень 10» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 15
+            hasperm:
+              type: has permission
+              permission: 'rewardboga.1000'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded10':
+        material: chest_minecart
+        priority: 2
+        amount: 10
+        slot: 21
+        display_name: ' &e&l«Уровень 10» &7(Прогресс:&6 %statistic_hours_played%&7/&615&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 15 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &6450 рилликов'
+        - '&7| &e3 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 450'
+        - '[console] cases give %player_name% rilik 3'
+        - '[console] lp user %player_name% permission set rewardboga.1000'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6450 рилликов'
+        - '[message] &7Вы получили &e3 Кейса с риликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 15
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward11':
+        material: hopper_minecart
+        slot: 22
+        amount: 11
+        priority: 1
+        display_name: ' &e&l«Уровень 11» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 19
+            hasperm:
+              type: has permission
+              permission: 'rewardboga.1100'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded11':
+        material: chest_minecart
+        priority: 2
+        amount: 11
+        slot: 22
+        display_name: ' &e&l«Уровень 11» &7(Прогресс:&6 %statistic_hours_played%&7/&619&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 19 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &6550 рилликов'
+        - '&7| &e3 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 550'
+        - '[console] cases give %player_name% rilik 3'
+        - '[console] lp user %player_name% permission set rewardboga.1100'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6550 рилликов'
+        - '[message] &7Вы получили &e3 Кейса с риликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 19
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward12':
+        material: hopper_minecart
+        slot: 23
+        amount: 12
+        priority: 1
+        display_name: ' &e&l«Уровень 12» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 26
+            hasperm:
+              type: has permission
+              permission: 'rewardboga.1200'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded12':
+        material: chest_minecart
+        priority: 2
+        amount: 12
+        slot: 23
+        display_name: ' &e&l«Уровень 12» &7(Прогресс:&6 %statistic_hours_played%&7/&626&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 26 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &6250 рилликов'
+        - '&7| &e3 Кейсов с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 250'
+        - '[console] cases give %player_name% rilik 3'
+        - '[console] lp user %player_name% permission set rewardboga.1200'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6250 рилликов'
+        - '[message] &7Вы получили &e3 Кейса с риликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 26
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward13':
+        material: hopper_minecart
+        slot: 24
+        amount: 13
+        priority: 1
+        display_name: ' &e&l«Уровень 13» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 34
+            hasperm:
+              type: has permission
+              permission: 'rewardboga.1300'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded13':
+        material: chest_minecart
+        priority: 2
+        amount: 13
+        slot: 24
+        display_name: ' &e&l«Уровень 13» &7(Прогресс:&6 %statistic_hours_played%&7/&634&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 34 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &6350 рилликов'
+        - '&7| &e3 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 350'
+        - '[console] cases give %player_name% rilik 3'
+        - '[console] lp user %player_name% permission set rewardboga.1300'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6350 рилликов'
+        - '[message] &7Вы получили &e3 Кейса с риликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 34
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward14':
+        material: hopper_minecart
+        slot: 25
+        amount: 14
+        priority: 1
+        display_name: ' &e&l«Уровень 14» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 40
+            hasperm:
+              type: has permission
+              permission: 'rewardboga.1400'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded14':
+        material: chest_minecart
+        priority: 2
+        amount: 14
+        slot: 25
+        display_name: ' &e&l«Уровень 14» &7(Прогресс:&6 %statistic_hours_played%&7/&640&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 40 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &6205 рилликов'
+        - '&7| &e3 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 205'
+        - '[console] cases give %player_name% rilik 3'
+        - '[console] lp user %player_name% permission set rewardboga.1400'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6205 рилликов'
+        - '[message] &7Вы получили &e3 Кейса с риликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 40
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward15':
+        material: hopper_minecart
+        slot: 28
+        amount: 15
+        priority: 1
+        display_name: ' &e&l«Уровень 15» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 48
+            hasperm:
+              type: has permission
+              permission: 'rewardboga.1500'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded15':
+        material: chest_minecart
+        priority: 2
+        amount: 15
+        slot: 28
+        display_name: ' &e&l«Уровень 15» &7(Прогресс:&6 %statistic_hours_played%&7/&648&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 48 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &6250 рилликов'
+        - '&7| &e2 Кейсов с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 250'
+        - '[console] cases give %player_name% rilik 2'
+        - '[console] lp user %player_name% permission set rewardboga.1500'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6250 рилликов'
+        - '[message] &7Вы получили &e2 Кейса с риликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 48
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward16':
+        material: hopper_minecart
+        slot: 29
+        amount: 16
+        priority: 1
+        display_name: ' &e&l«Уровень 16» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 56
+            hasperm:
+              type: has permission
+              permission: 'rewardboga.1600'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded16':
+        material: chest_minecart
+        priority: 2
+        amount: 16
+        slot: 29
+        display_name: ' &e&l«Уровень 16» &7(Прогресс:&6 %statistic_hours_played%&7/&656&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 56 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &6350 рилликов'
+        - '&7| &e2 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 350'
+        - '[console] cases give %player_name% rilik 2'
+        - '[console] lp user %player_name% permission set rewardboga.1600'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6350 рилликов'
+        - '[message] &7Вы получили &e2 Кейса с риликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 56
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward17':
+        material: hopper_minecart
+        slot: 30
+        amount: 17
+        priority: 1
+        display_name: ' &e&l«Уровень 17» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 64
+            hasperm:
+              type: has permission
+              permission: 'rewardboga.1700'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded17':
+        material: chest_minecart
+        priority: 2
+        amount: 17
+        slot: 30
+        display_name: ' &e&l«Уровень 17» &7(Прогресс:&6 %statistic_hours_played%&7/&664&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 64 часа'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &62 Кейса с валютой'
+        - '&7| &6300 рилликов'
+        - '&7| &e2 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 300'
+        - '[console] cases give %player_name% rilik 2'
+        - '[console] cases give %player_name% money 2'
+        - '[console] lp user %player_name% permission set rewardboga.1700'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6300 рилликов'
+        - '[message] &7Вы получили &e2 Кейса с риликами'
+        - '[message] &7Вы получили &e2 Кейса с валютой'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 64
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward18':
+        material: hopper_minecart
+        slot: 31
+        amount: 18
+        priority: 1
+        display_name: ' &e&l«Уровень 18» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 72
+            hasperm:
+              type: has permission
+              permission: 'rewardboga.1800'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded18':
+        material: chest_minecart
+        priority: 2
+        amount: 18
+        slot: 31
+        display_name: ' &e&l«Уровень 18» &7(Прогресс:&6 %statistic_hours_played%&7/&672&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 72 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &63 Кейса с валютой'
+        - '&7| &6200 рилликов'
+        - '&7| &e3 Кейсов с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 200'
+        - '[console] cases give %player_name% rilik 3'
+        - '[console] cases give %player_name% money 3'
+        - '[console] lp user %player_name% permission set rewardboga.1800'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6200 рилликов'
+        - '[message] &7Вы получили &e3 Кейса с риликами'
+        - '[message] &7Вы получили &e3 Кейса с валютой'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 72
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward19':
+        material: hopper_minecart
+        slot: 32
+        amount: 19
+        priority: 1
+        display_name: ' &e&l«Уровень 19» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 80
+            hasperm:
+              type: has permission
+              permission: 'rewardboga.1900'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded19':
+        material: chest_minecart
+        priority: 2
+        amount: 19
+        slot: 32
+        display_name: ' &e&l«Уровень 19» &7(Прогресс:&6 %statistic_hours_played%&7/&680&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 80 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &63 Кейса с валютой'
+        - '&7| &6400 рилликов'
+        - '&7| &e2 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 400'
+        - '[console] cases give %player_name% rilik 4'
+        - '[console] cases give %player_name% money 3'
+        - '[console] lp user %player_name% permission set rewardboga.1900'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6400 рилликов'
+        - '[message] &7Вы получили &e2 Кейса с риликами'
+        - '[message] &7Вы получили &e3 Кейса с валютой'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 80
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward20':
+        material: hopper_minecart
+        slot: 33
+        amount: 20
+        priority: 1
+        display_name: ' &e&l«Уровень 20» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 88
+            hasperm:
+              type: has permission
+              permission: 'rewardboga.2000'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded20':
+        material: chest_minecart
+        priority: 2
+        amount: 20
+        slot: 33
+        display_name: ' &e&l«Уровень 20» &7(Прогресс:&6 %statistic_hours_played%&7/&688&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 88 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &62 Кейса с валютой'
+        - '&7| &6200 рилликов'
+        - '&7| &e2 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 200'
+        - '[console] cases give %player_name% rilik 2'
+        - '[console] cases give %player_name% money 2'
+        - '[console] lp user %player_name% permission set rewardboga.2000'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6200 рилликов'
+        - '[message] &7Вы получили &e2 Кейса с риликами'
+        - '[message] &7Вы получили &e2 Кейсов с валютой'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 88
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward21':
+        material: hopper_minecart
+        slot: 34
+        amount: 20
+        priority: 1
+        display_name: ' &e&l«Уровень 21» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 94
+            hasperm:
+              type: has permission
+              permission: 'rewardboga.2100'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded21':
+        material: chest_minecart
+        priority: 2
+        amount: 21
+        slot: 34
+        display_name: ' &e&l«Уровень 21» &7(Прогресс:&6 %statistic_hours_played%&7/&694&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 94 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &63 Кейса с валютой'
+        - '&7| &6250 рилликов'
+        - '&7| &e3 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 250'
+        - '[console] cases give %player_name% rilik 3'
+        - '[console] cases give %player_name% money 3'
+        - '[console] lp user %player_name% permission set rewardboga.2100'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6250 рилликов'
+        - '[message] &7Вы получили &e3 Кейса с риликами'
+        - '[message] &7Вы получили &e3 Кейса с валютой'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 94
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward22':
+        material: hopper_minecart
+        slot: 37
+        amount: 22
+        priority: 1
+        display_name: ' &e&l«Уровень 22» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 100
+            hasperm:
+              type: has permission
+              permission: 'rewardboga.2200'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded22':
+        material: chest_minecart
+        priority: 2
+        amount: 22
+        slot: 37
+        display_name: ' &e&l«Уровень 22» &7(Прогресс:&6 %statistic_hours_played%&7/&6100&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 100 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &63 Кейса с валютой'
+        - '&7| &6250 рилликов'
+        - '&7| &e4 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 250'
+        - '[console] cases give %player_name% rilik 4'
+        - '[console] cases give %player_name% money 3'
+        - '[console] lp user %player_name% permission set rewardboga.2200'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6250 рилликов'
+        - '[message] &7Вы получили &e4 Кейса с риликами'
+        - '[message] &7Вы получили &e3 Кейсов с валютой'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 100
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward23':
+        material: hopper_minecart
+        slot: 38
+        amount: 23
+        priority: 1
+        display_name: ' &e&l«Уровень 23» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 110
+            hasperm:
+              type: has permission
+              permission: 'rewardboga.2300'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded23':
+        material: chest_minecart
+        priority: 2
+        amount: 23
+        slot: 38
+        display_name: ' &e&l«Уровень 23» &7(Прогресс:&6 %statistic_hours_played%&7/&6110&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 110 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &63 Кейса с валютой'
+        - '&7| &675 рилликов'
+        - '&7| &e3 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 75'
+        - '[console] cases give %player_name% rilik 3'
+        - '[console] cases give %player_name% money 3'
+        - '[console] lp user %player_name% permission set rewardboga.2300'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &675 рилликов'
+        - '[message] &7Вы получили &e3 Кейса с риликами'
+        - '[message] &7Вы получили &e3 Кейсов с валютой'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 110
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward24':
+        material: hopper_minecart
+        slot: 39
+        amount: 24
+        priority: 1
+        display_name: ' &e&l«Уровень 24» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 120
+            hasperm:
+              type: has permission
+              permission: 'rewardboga.2400'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded24':
+        material: chest_minecart
+        priority: 2
+        amount: 24
+        slot: 39
+        display_name: ' &e&l«Уровень 24» &7(Прогресс:&6 %statistic_hours_played%&7/&6120&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 120 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &62 Кейса с валютой'
+        - '&7| &650 рилликов'
+        - '&7| &e4 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 50'
+        - '[console] cases give %player_name% rilik 4'
+        - '[console] cases give %player_name% money 2'
+        - '[console] lp user %player_name% permission set rewardboga.2400'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &650 рилликов'
+        - '[message] &7Вы получили &e4 Кейса с риликами'
+        - '[message] &7Вы получили &e2 Кейсов с валютой'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 120
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward25':
+        material: hopper_minecart
+        slot: 40
+        amount: 25
+        priority: 1
+        display_name: ' &e&l«Уровень 25» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 125
+            hasperm:
+              type: has permission
+              permission: 'rewardboga.2500'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded25':
+        material: chest_minecart
+        priority: 2
+        amount: 25
+        slot: 40
+        display_name: ' &e&l«Уровень 25» &7(Прогресс:&6 %statistic_hours_played%&7/&6125&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 125 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &61 Кейса с валютой'
+        - '&7| &630 рилликов'
+        - '&7| &e2 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 30'
+        - '[console] cases give %player_name% rilik 2'
+        - '[console] cases give %player_name% money 1'
+        - '[console] lp user %player_name% permission set rewardboga.2500'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &630 рилликов'
+        - '[message] &7Вы получили &e2 Кейса с риликами'
+        - '[message] &7Вы получили &e1 Кейсов с валютой'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 125
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward26':
+        material: hopper_minecart
+        slot: 41
+        amount: 26
+        priority: 1
+        display_name: ' &e&l«Уровень 26» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 132
+            hasperm:
+              type: has permission
+              permission: 'rewardboga.2600'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded26':
+        material: chest_minecart
+        priority: 2
+        amount: 26
+        slot: 41
+        display_name: ' &e&l«Уровень 26» &7(Прогресс:&6 %statistic_hours_played%&7/&6132&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 132 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &62 Кейса с валютой'
+        - '&7| &6450 рилликов'
+        - '&7| &e2 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 450'
+        - '[console] cases give %player_name% rilik 2'
+        - '[console] cases give %player_name% money 2'
+        - '[console] lp user %player_name% permission set rewardboga.2600'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6450 рилликов'
+        - '[message] &7Вы получили &e2 Кейса с риликами'
+        - '[message] &7Вы получили &e2 Кейса с валютой'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 132
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward27':
+        material: hopper_minecart
+        slot: 42
+        amount: 27
+        priority: 1
+        display_name: ' &e&l«Уровень 27» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 140
+            hasperm:
+              type: has permission
+              permission: 'rewardboga.2700'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded27':
+        material: chest_minecart
+        priority: 2
+        amount: 27
+        slot: 42
+        display_name: ' &e&l«Уровень 27» &7(Прогресс:&6 %statistic_hours_played%&7/&6140&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 140 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &62 Кейса с валютой'
+        - '&7| &6500 рилликов'
+        - '&7| &e2 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 500'
+        - '[console] cases give %player_name% rilik 2'
+        - '[console] cases give %player_name% money 2'
+        - '[console] lp user %player_name% permission set rewardboga.2700'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6500 рилликов'
+        - '[message] &7Вы получили &e2 Кейса с риликами'
+        - '[message] &7Вы получили &e2 Кейсов с валютой'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 140
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward28':
+        material: hopper_minecart
+        slot: 43
+        amount: 28
+        priority: 1
+        display_name: ' &e&l«Уровень 28» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 160
+            hasperm:
+              type: has permission
+              permission: 'rewardboga.2800'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded28':
+        material: chest_minecart
+        priority: 2
+        amount: 28
+        slot: 43
+        display_name: ' &e&l«Уровень 28» &7(Прогресс:&6 %statistic_hours_played%&7/&6160&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 160 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &65000 рилликов'
+        left_click_commands:
+        - '[console] points give %player_name% 5000'
+        - '[console] lp user %player_name% permission set rewardboga.2800'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6400 рилликов'
+        - '[message] &7Вы получили &e1 Супер донат кейс'
+        - '[message] &7Вы получили &e5 Кейсов с валютой'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 160
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'          

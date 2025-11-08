@@ -1,0 +1,18 @@
+location: world:-886.880:220.365:-795.364
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&c&lПравила паркура'
+    height: 0.3
+  - content: '&b1. Запрещен флай'
+    height: 0.3
+  - content: '&b2. Запрещены элитры'
+    height: 0.3
+  - content: '&b3. Запрещен багаюз'
+    height: 0.3
+  actions: {}

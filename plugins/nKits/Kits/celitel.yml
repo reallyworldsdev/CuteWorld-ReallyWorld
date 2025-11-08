@@ -1,0 +1,111 @@
+Name: celitel
+Cooldown: 0
+Permission: nKits.kits.celitel
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"color":"light_purple","text":"Зелье
+        Целителя "}],"text":""}'
+      lore:
+      - '{"text":"§9Прилив здоровья III (0:30)"}'
+      - '{"text":"§9Скорость (1:20)"}'
+      - '{"text":"§9Регенерация III (0:15)"}'
+      - '{"text":"§cУтомление IV (0:15)"}'
+      - '{"text":""}'
+      - '{"text":"§5При применении:"}'
+      - '{"text":"§9+12 Максимальное здоровье"}'
+      - '{"text":"§9+20% Скорость"}'
+      - '{"text":"§c-40% Скорость атаки"}'
+      enchants:
+        DAMAGE_ALL: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      custom-color:
+        ==: Color
+        RED: 158
+        BLUE: 182
+        GREEN: 170
+      custom-effects:
+      - ==: PotionEffect
+        effect: 21
+        duration: 600
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 1600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 10
+        duration: 300
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 4
+        duration: 300
+        amplifier: 3
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

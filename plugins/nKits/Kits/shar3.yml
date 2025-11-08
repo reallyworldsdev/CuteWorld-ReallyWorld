@@ -1,0 +1,108 @@
+Name: shar3
+Cooldown: 0
+Permission: greatkits.kits.shar3
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"color":"dark_red","text":"БетМен"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"text":"§7Когда во второй руке:"}'
+      - '{"text":" §9 +1.5 Урон"}'
+      - '{"text":"§9  +1 Скорость атаки"}'
+      - '{"text":"§9  +2 Брони"}'
+      - '{"text":"§9  +0.99 Отбрасывающая атака"}'
+      - '{"text":"§c  -30% Максимальное здоровье"}'
+      attribute-modifiers:
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 1.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_speed]
+          slot: OFF_HAND
+          uuid: a9fd7723-8d96-4a54-af3b-f192eb1e4cc7
+          operation: 0
+        GENERIC_ATTACK_KNOCKBACK:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.99
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_knockback]
+          slot: OFF_HAND
+          uuid: 553254b9-fca7-42d6-843e-b68adab80573
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -0.3
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 1a1da7a4-8dab-423b-9686-cc47e489a479
+          operation: 1
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 1.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: 99ededbb-c605-4712-a06c-3c78b25779cd
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: OFF_HAND
+          uuid: 98546c2b-f54c-46b0-af34-1a43424113c7
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PQU6DQBiF/zaaVPQeJq4oCKYLFo0YOqTD2DIyZRYmFKaCDNi0UBmv4DFcm7j1FG49gZdwI0t37+V73+JpAAMYunigwVlYtlLe7p42hRQaaH3ail1TiP0JjBrRNe1O7DXohREcR4lsBXwI5et8levZypepQnbfaahLgh63V6iO1Poa2ajq+Wxqz9Xk39ZqEmbJ2PRzXi/adRXpc3MpxWw5Tqu7A2FYEeoXMUMdobGB3dTkXlBiFluEZhVhkeTuwyWmUzMwkB4YUR7Qmw4buOO01AOGXojHC0JRh734GdXjyWbhOACnMERZf+Lo9eL3/t3xf95ClZx/fn0D/AGZzj15DAEAAA==
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

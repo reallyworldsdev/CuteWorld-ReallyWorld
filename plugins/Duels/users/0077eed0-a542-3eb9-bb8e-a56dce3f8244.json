@@ -1,0 +1,28 @@
+{
+  "uuid": "0077eed0-a542-3eb9-bb8e-a56dce3f8244",
+  "name": "Firadhno13",
+  "wins": 2,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "classic": 1431
+  },
+  "matches": [
+    {
+      "winner": "Firadhno13",
+      "loser": "Gabriel124",
+      "kit": "classic",
+      "time": 1742094044627,
+      "duration": 15310,
+      "health": 7.5
+    },
+    {
+      "winner": "Firadhno13",
+      "loser": "KLauncher_skencu",
+      "kit": "classic",
+      "time": 1742094044627,
+      "duration": 17223,
+      "health": 7.5
+    }
+  ]
+}

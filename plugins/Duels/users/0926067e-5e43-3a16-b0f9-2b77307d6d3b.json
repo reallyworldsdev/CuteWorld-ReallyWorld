@@ -1,0 +1,28 @@
+{
+  "uuid": "0926067e-5e43-3a16-b0f9-2b77307d6d3b",
+  "name": "locatorckoy11",
+  "wins": 0,
+  "losses": 2,
+  "requests": true,
+  "rating": {
+    "classic": 1369
+  },
+  "matches": [
+    {
+      "winner": "bomsik2",
+      "loser": "locatorckoy11",
+      "kit": "classic",
+      "time": 1742353239555,
+      "duration": 32455,
+      "health": 6.0
+    },
+    {
+      "winner": "DarkStrike226",
+      "loser": "locatorckoy11",
+      "kit": "classic",
+      "time": 1742353239555,
+      "duration": 19567,
+      "health": 9.5
+    }
+  ]
+}

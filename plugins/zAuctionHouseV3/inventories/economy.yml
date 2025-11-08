@@ -1,0 +1,47 @@
+name: "&8Sell confirm"
+size: 27
+items:
+  VAULT:
+    type: ZAUCTIONHOUSE_ECONOMY
+    economy: "vault" # Economy name, use the same that is present in economies.yml
+    slot: 11
+    item:
+      material: GOLD_INGOT
+      name: "#edd011ᴠᴀᴜʟᴛ"
+      lore:
+        - ''
+        - ' &f⌂ #e6fff3ᴇᴄᴏɴᴏᴍʏ#8c8c8c: #92bed8ᴠᴀᴜʟᴛ'
+        - ' &f☆ #e6fff3ᴘʀɪᴄᴇ#8c8c8c: #ffacd5%price%'
+        - ''
+        - '#8c8c8c• #92bed8ᴄʟɪᴄᴋ #e6fff3ᴛᴏ ᴜsᴇ ᴛʜɪs ᴇᴄᴏɴᴏᴍʏ'
+
+  # PLAYERPOINT:
+  #   type: ZAUCTIONHOUSE_ECONOMY
+  #   economy: "playerpoints" # Economy name, use the same that is present in economies.yml
+  #   slot: 12
+  #   item:
+  #     material: IRON_INGOT
+  #     name: "#edd011ᴘʟᴀʏᴇʀᴘᴏɪɴᴛ"
+  #     lore:
+  #       - ''
+  #       - ' &f⌂ #e6fff3ᴇᴄᴏɴᴏᴍʏ#8c8c8c: #92bed8ᴘʟᴀʏᴇʀᴘᴏɪɴᴛ'
+  #       - ' &f☆ #e6fff3ᴘʀɪᴄᴇ#8c8c8c: #ffacd5%price%'
+  #       - ''
+  #       - '#8c8c8c• #92bed8ᴄʟɪᴄᴋ #e6fff3ᴛᴏ ᴜsᴇ ᴛʜɪs ᴇᴄᴏɴᴏᴍʏ'
+
+  item:
+    type: ZAUCTIONHOUSE_ECONOMY_ITEM
+    slot: 13
+    item:
+      lore:
+        - "&fYou're going to sell this item !"
+
+  cancel:
+    closeInventory: true
+    slot: 15
+    item:
+      material: BARRIER
+      name: '#ff0000ᴄᴀɴᴄᴇʟ'
+      lore:
+        - ''
+        - '#8c8c8c• #92bed8ᴄʟɪᴄᴋ #e6fff3ᴛᴏ ᴄᴀɴᴄᴇʟ'

@@ -1,0 +1,54 @@
+{
+  "uuid": "00349fca-3b3b-3d09-a148-bab3bc9a078a",
+  "name": "fsdasdas_dsa",
+  "wins": 1,
+  "losses": 5,
+  "requests": true,
+  "rating": {
+    "totem": 1370,
+    "chiter": 1370,
+    "nezerka": 1403
+  },
+  "matches": [
+    {
+      "winner": "goldwants",
+      "loser": "fsdasdas_dsa",
+      "kit": "totem",
+      "time": 1741057242418,
+      "duration": 193850,
+      "health": 5.5
+    },
+    {
+      "winner": "fsdasdas_dsa",
+      "loser": "goldwants",
+      "kit": "nezerka",
+      "time": 1741057242418,
+      "duration": 33700,
+      "health": 6.5
+    },
+    {
+      "winner": "goldwants",
+      "loser": "fsdasdas_dsa",
+      "kit": "chiter",
+      "time": 1741057242418,
+      "duration": 185220,
+      "health": 10.0
+    },
+    {
+      "winner": "goldwants",
+      "loser": "fsdasdas_dsa",
+      "kit": "totem",
+      "time": 1741057242418,
+      "duration": 257632,
+      "health": 7.5
+    },
+    {
+      "winner": "goldwants",
+      "loser": "fsdasdas_dsa",
+      "kit": "chiter",
+      "time": 1741057242418,
+      "duration": 37935,
+      "health": 10.0
+    }
+  ]
+}

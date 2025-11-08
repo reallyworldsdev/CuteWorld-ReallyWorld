@@ -1,0 +1,47 @@
+{
+  "uuid": "04653fc8-af13-30bb-b3d2-e08f3053a915",
+  "name": "twosecondwin",
+  "wins": 2,
+  "losses": 2,
+  "requests": true,
+  "rating": {
+    "classic": 1413,
+    "shari": 1384,
+    "nodebaff": 1385,
+    "nezerka": 1415
+  },
+  "matches": [
+    {
+      "winner": "maksim4ic36",
+      "loser": "twosecondwin",
+      "kit": "nodebaff",
+      "time": 1741850258888,
+      "duration": 313327,
+      "health": 9.0
+    },
+    {
+      "winner": "twosecondwin",
+      "loser": "zxc_magister06",
+      "kit": "nezerka",
+      "time": 1741921246746,
+      "duration": 41234,
+      "health": 4.5
+    },
+    {
+      "winner": "twosecondwin",
+      "loser": "rassvetofskill",
+      "kit": "classic",
+      "time": 1742007640918,
+      "duration": 18833,
+      "health": 2.5
+    },
+    {
+      "winner": "FELIX0916",
+      "loser": "twosecondwin",
+      "kit": "shari",
+      "time": 1742007640918,
+      "duration": 26877,
+      "health": 6.0
+    }
+  ]
+}

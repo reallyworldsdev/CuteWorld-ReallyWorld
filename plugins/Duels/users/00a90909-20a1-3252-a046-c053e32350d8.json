@@ -1,0 +1,55 @@
+{
+  "uuid": "00a90909-20a1-3252-a046-c053e32350d8",
+  "name": "Roma_I_S_PC",
+  "wins": 3,
+  "losses": 5,
+  "requests": true,
+  "rating": {
+    "shari": 1399,
+    "nodebaff": 1384,
+    "chiter": 1384,
+    "nezerka": 1405
+  },
+  "matches": [
+    {
+      "winner": "maksonetrax1488",
+      "loser": "Roma_I_S_PC",
+      "kit": "chiter",
+      "time": 1741450341671,
+      "duration": 179357,
+      "health": 5.0
+    },
+    {
+      "winner": "maksonetrax1488",
+      "loser": "Roma_I_S_PC",
+      "kit": "nezerka",
+      "time": 1741450341671,
+      "duration": 23007,
+      "health": 4.0
+    },
+    {
+      "winner": "Roma_I_S_PC",
+      "loser": "maksonetrax1488",
+      "kit": "nezerka",
+      "time": 1741450341671,
+      "duration": 48422,
+      "health": 8.0
+    },
+    {
+      "winner": "Roma_I_S_PC",
+      "loser": "maksonetrax1488",
+      "kit": "nezerka",
+      "time": 1741450341671,
+      "duration": 33210,
+      "health": 5.0
+    },
+    {
+      "winner": "maksonetrax1488",
+      "loser": "Roma_I_S_PC",
+      "kit": "shari",
+      "time": 1741450341671,
+      "duration": 28570,
+      "health": 10.0
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+Name: titano
+Cooldown: 0
+Permission: nKits.kits.titano
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"color":"green","text":"Голова
+        Атакующего Титана"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"
+        +3.5 Урон"}],"text":""}'
+      - '{"extra":[{"text":"  "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+2.5
+        Броня"}],"text":""}'
+      - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"
+        +4 Максимальное здоровье"}],"text":""}'
+      - '{"extra":[{"text":"  "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"-30%
+        к скорости"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: da82e415-7f99-449d-980b-b398b5fd13a3
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: OFF_HAND
+          uuid: b4d20117-3057-4911-a109-50bda8e45c89
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 4.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 5a91227f-7ca9-46a7-b476-1770822d8e2c
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -0.3
+          name: GENERIC_MOVEMENT_SPEED
+          slot: OFF_HAND
+          uuid: cce027b3-a3be-4c99-9bea-a5d394090c41
+          operation: 1
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PQU6DQBhGf40mFb2IuxEE04UmjTR2SAcKRYaZuGnptJQOlVAwzFzCQ3gAE+MhPIEbNx5Flu6+l/c2nwFgwMV810o5q5/XWykMMPpVibrZisMZDBrRNW0tDgYAHA3gNFnIVsCnUB7iaY5WqSczhZ2e4zmSAS6qG7xP1PIeO7js/WTkTNXwX2s3C2pLZnk534ftskzQ1IqkmERXWfn4wuhYE72xmR4pTpkKaCRJIUvi8sI3yTVxMxTEIQpcpkmBTWaOLe6GKnggph+HiulN57s7m5eRZJTnhJKOKG+4TtEtwDkc41V/5ITdvT/NXv3vt+rnMvz9+gD4AwGPIBcKAQAA
+      PublicBukkitValues:
+        deluxemenus:dm: 1b
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

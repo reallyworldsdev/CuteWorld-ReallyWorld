@@ -1,0 +1,10 @@
+name: "&c&lТАЙНЫЙ ТОРГОВЕЦ"
+spawn-range: 1000
+spawn-delay: 14400
+live-time: 2400
+min-players: 1
+world: "world"
+click-command: "dm open torg %player%"
+maloigrokov-message: "&c&lТАЙНЫЙ ТОРГОВЕЦ &8» &fНе пришёл, потому-что на сервере {currentOnline} онлайна. Для спавна нужно {needOnline}"
+spawn-message: "&c&lТАЙНЫЙ ТОРГОВЕЦ &8» &fПоявился тайный торговец: &6{x} {y} {z}"
+despawn-message: "&c&lТАЙНЫЙ ТОРГОВЕЦ &8» &fУшел с координат."

@@ -1,0 +1,22 @@
+#========================#
+#	 Command Aliases     #
+#========================#
+
+# Example Aliases:
+msg: essentials:msg
+m: essentials:msg
+tell: essentials:msg
+pm: essentials:msg
+rubles: points
+ext: eext
+lobby: hub
+лобби: hub
+хаб: hub
+рги: hub
+дщиин: hub
+loby: hub
+lobi: hub
+spy: essentials:socialspy
+socialspy: essentials:socialspy
+spec: spectate
+duels:spectate: duelspec

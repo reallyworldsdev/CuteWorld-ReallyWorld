@@ -1,0 +1,519 @@
+menu_title: '§fꈁꀀꈂꌑꈂꀁ§0ꈃꄅ&r'
+size: 54
+items:  
+  clock:
+    material: structure_void
+    model_data: 10001
+    slot: 53
+    display_name: '&6ИНФОРМАЦИЯ'
+    lore:
+    - ''
+    - ' &fВаш баланс: &6%playerpoints_points% &x&F&F&B&A&0&0ꐃ'
+    - ''
+    - '&7Пополнить баланс можно'
+    - '&7на сайте: &6CuteWorld.pw'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  back:
+    material: structure_void
+    model_data: 10002
+    slot: 45
+    display_name: '&6◄ Назад'
+    left_click_commands:
+    - '[openguimenu] donateshop'
+    right_click_commands:
+    - '[openguimenu] donateshop'
+  item-34:
+    amount: 1
+    material: 'white_stained_glass_pane'
+    slot: 43
+  item-35:
+    amount: 1
+    material: 'white_stained_glass_pane'
+    slot: 37
+  '10':
+    display_name: '&r&l&#ffaa00Шар Cтойкости 1&r'
+    slot: 10
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjExYWIzYTExMzJjOWQxZWY4MzVlYTgxZDk3MmVkOWI1Y2Q4ZGRmZjBhMDdjNTVhNzQ5YmNmY2Y4ZGY1In19fQ==
+    lore:
+    - '&r&#ff5555Проклятье утраты&r'
+    - '&r'
+    - '&r&#aaaaaaКогда во второй руке:&r'
+    - '&r  &r&#aaaaaa+5.5 к броне&r'
+    - '&r'
+    - '&r&#aaaaaa===================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00389 &r&#ffffffꐃ&r'
+    - '&r'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 389
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 389'
+    - '[console] xkit stoikaa %player_name%'
+  '11':
+    display_name: '&r&l&#aa0000Шар Силы 1&r'
+    slot: 11
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODg0ZTkyNDg3YzY3NDk5OTViNzk3MzdiOGE5ZWI0YzQzOTU0Nzk3YTZkZDZjZDliNGVmY2UxN2NmNDc1ODQ2In19fQ==
+    lore:
+    - '&r&#ff5555Проклятье утраты&r'
+    - '&r'
+    - '&r&#aaaaaaКогда во второй руке:&r'
+    - '&r  &r&#aaaaaa+2.5 к урону&r'
+    - '&r'
+    - '&r&#aaaaaa===================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00109 &r&#ffffffꐃ&r'
+    - '&r'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 109
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 109'
+    - '[console] xkit sila1 %player_name%'
+  '12':
+    display_name: '&3&lШар Скорости 1'
+    slot: 12
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI2ZTM0NjI4N2EyMWRiZmNhNWI1OGMxNDJkOGQ1NzEyYmRjODRmNWI3NWQ0MzE0ZWQyYTgzYjIyMmVmZmEifX19
+    lore:
+    - '&r&#ff5555Проклятье утраты&r'
+    - '&r'
+    - '&r&#aaaaaaКогда во второй руке:&r'
+    - '&r  &r&#aaaaaa+15% к скорости&r'
+    - '&r'
+    - '&r&#aaaaaa===================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa0099 &r&#ffffffꐃ&r'
+    - '&r'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 99
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 99'
+    - '[console] si give шарскорки1 1 %player_name% true'
+  '13':
+    display_name: '&r&l&#ff55ffШар Здоровья 1&r'
+    slot: 13
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODg2NjJiYTA3MDhlOGQ2MGQ1NjM2NWVjMmJjMDBmZjE3OTJmMTY2MzRmYzg0NWE4NDNhODRkZTA4MWVhNGYifX19
+    lore:
+    - '&r&#ff5555Проклятье утраты&r'
+    - '&r'
+    - '&r&#aaaaaaКогда во второй руке:&r'
+    - '&r  &r&#aaaaaa+3.0 Максимальное здоровье&r'
+    - '&r'
+    - '&r&#aaaaaa===================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa0059 &r&#ffffffꐃ&r'
+    - '&r'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 59
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 59'
+    - '[console] si give шарздоровья1 1 %player_name% true'
+  '14':
+    display_name: '&2&lШар Шипов 1&r'
+    slot: 14
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWU0ODYxNWRmNmI3ZGRmM2FkNDk1MDQxODc2ZDkxNjliZGM5ODNhM2ZhNjlhMmFjYTEwN2U4ZjI1MWY3Njg3In19fQ==
+    lore:
+    - '&r&#ff5555Проклятье утраты&r'
+    - '&r'
+    - '&r&#aaaaaaКогда во второй руке:&r'
+    - '&r  &r&#aaaaaaШипы 3&r'
+    - '&r'
+    - '&r&#aaaaaa===================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa0089 &r&#ffffffꐃ&r'
+    - '&r'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 89
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6cuteworld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 89'
+    - '[console] si give шаршипа1 1 %player_name% true'
+  '15':
+    display_name: '&r&l&#5555ffШар Отбрасывания 1&r'
+    slot: 15
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjdlMTFkYjhmMzkyNzI3YTFjNDU5ZWI1OTFkZDhhMGFhMzg2MWMyNzQ4N2UxMzg0YmIyMmY5MTU3M2JlNyJ9fX0=
+    lore:
+    - '&r&#ff5555Проклятье утраты&r'
+    - '&r'
+    - '&r&#aaaaaaКогда во второй руке:&r'
+    - '&r  &r&#aaaaaa+0.2 Сопротивление отбрасывание&r'
+    - '&r'
+    - '&r&#aaaaaa===================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa0099 &r&#ffffffꐃ&r'
+    - '&r'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 99
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6cuteworld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 99'
+    - '[console] si give шаротбр1 1 %player_name% true'
+  '16':
+    display_name: '&r&l&#aaaaaaШар Регенерации&r'
+    slot: 16
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI0MDcwYzliNjY1OWVkMjViMmNhMTI2OTE1ZjRkODgyMGZhZmNlNDMyNGVkOWE4ZjRiOGE1MDYzNDUzMDdmIn19fQ==
+    lore:
+    - '&r&#ff5555Проклятье утраты&r'
+    - '&r'
+    - '&r&#aaaaaa===================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00400 &r&#ffffffꐃ&r'
+    - '&r'
+    hide_attributes: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 400
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6cuteworld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 400'
+    - '[console] xkit regenkk %player_name%'
+  '20':
+    display_name: '&r&l&#aa0000Шар Силы 2&r'
+    slot: 20
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODg0ZTkyNDg3YzY3NDk5OTViNzk3MzdiOGE5ZWI0YzQzOTU0Nzk3YTZkZDZjZDliNGVmY2UxN2NmNDc1ODQ2In19fQ==
+    lore:
+    - '&r&#ff5555Проклятье утраты&r'
+    - '&r'
+    - '&r&#aaaaaaКогда во второй руке:&r'
+    - '&r  &r&#aaaaaa+3.0 к урону&r'
+    - '&r'
+    - '&r&#aaaaaa===================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00169 &r&#ffffffꐃ&r'
+    - '&r'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 169
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6cuteworld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 169'
+    - '[console] xkit sila2 %player_name%'
+  '21':
+    display_name: '&3&lШар Скорости 2'
+    slot: 21
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI2ZTM0NjI4N2EyMWRiZmNhNWI1OGMxNDJkOGQ1NzEyYmRjODRmNWI3NWQ0MzE0ZWQyYTgzYjIyMmVmZmEifX19
+    lore:
+    - '&r&#ff5555Проклятье утраты&r'
+    - '&r'
+    - '&r&#aaaaaaКогда во второй руке:&r'
+    - '&r  &r&#aaaaaa+30% к скорости&r'
+    - '&r'
+    - '&r&#aaaaaa===================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00149 &r&#ffffffꐃ&r'
+    - '&r'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 149
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6cuteworld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 149'
+    - '[console] si give шарскорки2 1 %player_name% true'
+  '22':
+    display_name: '&r&l&#ff55ffШар Здоровья 2&r'
+    slot: 22
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODg2NjJiYTA3MDhlOGQ2MGQ1NjM2NWVjMmJjMDBmZjE3OTJmMTY2MzRmYzg0NWE4NDNhODRkZTA4MWVhNGYifX19
+    lore:
+    - '&r&#ff5555Проклятье утраты&r'
+    - '&r'
+    - '&r&#aaaaaaКогда во второй руке:&r'
+    - '&r  &r&#aaaaaa+6.0 Максимальное здоровье&r'
+    - '&r'
+    - '&r&#aaaaaa===================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa0079 &r&#ffffffꐃ&r'
+    - '&r'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 79
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6cuteworld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 79'
+    - '[console] si give шарздоровья2 1 %player_name% true'
+  '23':
+    display_name: '&2&lШар Шипов 2&r'
+    slot: 23
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWU0ODYxNWRmNmI3ZGRmM2FkNDk1MDQxODc2ZDkxNjliZGM5ODNhM2ZhNjlhMmFjYTEwN2U4ZjI1MWY3Njg3In19fQ==
+    lore:
+    - '&r&#ff5555Проклятье утраты&r'
+    - '&r'
+    - '&r&#aaaaaaКогда во второй руке:&r'
+    - '&r  &r&#aaaaaaШипы V&r'
+    - '&r'
+    - '&r&#aaaaaa===================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00129 &r&#ffffffꐃ&r'
+    - '&r'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 129
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6cuteworld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 129'
+    - '[console] si give шаршипа2 1 %player_name% true'
+  '24':
+    display_name: '&r&l&#5555ffШар Отбрасывания 2&r'
+    slot: 24
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjdlMTFkYjhmMzkyNzI3YTFjNDU5ZWI1OTFkZDhhMGFhMzg2MWMyNzQ4N2UxMzg0YmIyMmY5MTU3M2JlNyJ9fX0=
+    lore:
+    - '&r&#ff5555Проклятье утраты&r'
+    - '&r'
+    - '&r&#aaaaaaКогда во второй руке:&r'
+    - '&r  &r&#aaaaaa+0.5 Сопротивление отбрасывания&r'
+    - '&r'
+    - '&r&#aaaaaa===================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00139 &r&#ffffffꐃ&r'
+    - '&r'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 139
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6cuteworld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 139'
+    - '[console] si give шаротбр2 1 %player_name% true'
+  '31':
+    display_name: '&r&l&#ff55ffШар Здоровья 3&r'
+    slot: 31
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODg2NjJiYTA3MDhlOGQ2MGQ1NjM2NWVjMmJjMDBmZjE3OTJmMTY2MzRmYzg0NWE4NDNhODRkZTA4MWVhNGYifX19
+    lore:
+    - '&r&#ff5555Проклятье утраты&r'
+    - '&r'
+    - '&r&#aaaaaaКогда во второй руке:&r'
+    - '&r  &r&#aaaaaa+10.0 Максимальное здоровье&r'
+    - '&r'
+    - '&r&#aaaaaa===================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00109 &r&#ffffffꐃ&r'
+    - '&r'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 109
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6cuteworld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 109'
+    - '[console] si give шарздоровья3 1 %player_name% true'
+  item-50:
+    amount: 1
+    material: 'basehead-ewogICJ0aW1lc3RhbXAiIDogMTY0MDM0NTUwMTk5MSwKICAicHJvZmlsZUlkIiA6ICI2MmJiNjAyZjE0Nzk0NzZiYjlkMmQ0MWZiNDc0NDA1YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb2NpYWxpc21vIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJjMTYyYzE2ZTAxNDMzYjNkYTY2NzRkNjQyYzNlYWI0YmU5ZTZkNzFlMjBhMzMyNTU2NGM0ZDAzYTgxMjYwNmEiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9'
+    slot: 38
+    display_name: '&6&lТигриная голова'
+    lore:
+    - '&cПроклятье утраты'
+    - '&7Когда во второй руке:'
+    - '&6  +2.5 к урону'
+    - '&6  +25% к скорости'
+    - '&6  +1 к здоровью'
+    - ''
+    - '&7Доступно в наборе: &6&lTIGER'
+    - ''
+  item-51:
+    amount: 1
+    material: 'basehead-ewogICJ0aW1lc3RhbXAiIDogMTY2NzAwNTExMDk4MCwKICAicHJvZmlsZUlkIiA6ICI1YjcyYmU5MGZiYjg0OGNiODFiZTNhMGVlNmNlOGUzZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb3JuZSIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZTlhYzBjYzA1ZjUyODA1MTBmOTE2NzIxZDc4ODI5NTVjNjgzMTRjODkxNzBkZTgzNWQzZDMxNjQwNjAzZTliIgogICAgfQogIH0KfQ=='
+    slot: 39
+    display_name: '&c&lШар Дракулы'
+    lore:
+    - '&cПроклятье утраты'
+    - '&7Когда во второй руке:'
+    - '&cВампиризм'
+    - '&c  +1.5 Урон'
+    - '&c  +4 Броня'
+    - '&c  +8 Максимальное здоровье'
+    - ''
+    - '&7Доступно в наборе: &4&lDRACULA'
+    - ''
+  item-52:
+    amount: 1
+    material: 'basehead-ewogICJ0aW1lc3RhbXAiIDogMTY1OTg5MTQyNjYxMiwKICAicHJvZmlsZUlkIiA6ICJlMTI0Zjg0ZWExY2Y0YzBmYjUyOTUwMWNmZTYyNzM4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJibG94bWFzdGVyMjAwMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kMDY1YjQ5NTc3N2JhODQyZDIyZGNhNjYzZTlmNzk2MTdkOGJkOWI5ODNkNDI0ZTM2ZGQ3ZDk5MzA0YmEyNTA4IgogICAgfQogIH0KfQ=='
+    slot: 37
+    display_name: '&6&lШар Д.Хелпера'
+    lore:
+    - '&cПроклятье утраты'
+    - '&7Когда во второй руке:'
+    - '&6  +7.0 к здоровью'
+    - '&6  +0.6% к скорости атаки'
+    - '&6  +3 к стойкости'
+    - ''
+    - '&7Доступно в наборе: &6&lDHELPER'
+    - ''
+  item-53:
+    amount: 1
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGNhMDNmN2U2Mzg1MTJjNzBhNDRjNDI5OTQyZTc4YzM2YTNkYWY5ZDBhNTMyOThhOWU4NjYyYzJiNjMyZTEyOSJ9fX0='
+    slot: 40
+    display_name: '&8&lШар Bunny'
+    lore:
+    - '&cПроклятье утраты'
+    - '&7Когда во второй руке:'
+    - '&8  +3.9 броня'
+    - '&8  +21% к скорости атаки'
+    - ''
+    - '&7Доступно в наборе: &8&lBUNNY'
+    - ''
+  item-54:
+    amount: 1
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGYyYTUxNzM4NzkwNDMyOTAxNmE4ZTI1NmM0YjU1MTkyYTZjOWIxNzIwZTQ5YjVhNDQwMTkyNzZjOWMyZmJiMyJ9fX0='
+    slot: 41
+    display_name: '&e&lПасхальное яйцо'
+    lore:
+    - '&cПроклятье утраты'
+    - '&7Когда во второй руке:'
+    - '&e  +2.5 к урону'
+    - '&e  +6.5 к стойкости'
+    - ''
+    - '&7Доступно в наборе: &f&lRABBIT'
+    - ''
+  item-55:
+    amount: 1
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTg5ZTgwNWJkNmYxNmVjYzI0NTJhZGQxOGU4Zjg2YTIxN2RlNjZmYjRiY2U0MTkwNDZmMWI5NjExYWJkOGYifX19'
+    slot: 42
+    display_name: '&a&lГолова Гидры'
+    lore:
+    - '&cПроклятье утраты'
+    - '&7Когда во второй руке:'
+    - '&2  +10 Максимальное здоровье'
+    - '&2  +5 к Броня'
+    - '&2  +20% Скорость'
+    - ''
+    - '&7Доступно в наборе: &2&lHYDRA'
+    - ''
+  cobra:
+    display_name: '&a&lГолова Кобры&r'
+    slot: 43
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRhMjgxM2Q0ZjVhY2Q2OWVkNTkwYzFkOGE0NDJiNTk1NTE5ZGNiYzBlMTcxOThhZGZhYWFhZjE1Zjg5YjAifX19
+    lore:
+    - '&r&#ff5555Проклятье утраты&r'
+    - '&r&#aaaaaaКогда во второй руке:&r'
+    - '&r  &a+3.5 к Урону&r'
+    - '&r  &a+20% к Скорости&r'
+    - '&r  &a+2.5 к Стойкости&r'
+    - '&r  &aОтравляет врагов ядом&r'
+    - '&r'
+    - '&r&#aaaaaa==========================&r'
+    - '&r'
+    - '&r&#aaaaaaДоступно в наборе: &a&lCOBRA &r'
+    - '&r'
+    hide_attributes: true

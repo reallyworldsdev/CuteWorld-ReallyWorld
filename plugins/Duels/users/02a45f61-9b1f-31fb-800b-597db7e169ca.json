@@ -1,0 +1,20 @@
+{
+  "uuid": "02a45f61-9b1f-31fb-800b-597db7e169ca",
+  "name": "_OreO_NaiZ_1",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "nezerka": 1388
+  },
+  "matches": [
+    {
+      "winner": "SIGMA_GIGACHADw",
+      "loser": "_OreO_NaiZ_1",
+      "kit": "nezerka",
+      "time": 1742439646867,
+      "duration": 51780,
+      "health": 6.5
+    }
+  ]
+}

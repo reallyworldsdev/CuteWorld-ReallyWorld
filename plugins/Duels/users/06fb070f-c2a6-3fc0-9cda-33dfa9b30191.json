@@ -1,0 +1,58 @@
+{
+  "uuid": "06fb070f-c2a6-3fc0-9cda-33dfa9b30191",
+  "name": "ML_VarenyK",
+  "wins": 28,
+  "losses": 13,
+  "requests": true,
+  "rating": {
+    "classic": 1413,
+    "shari": 1535,
+    "chiter": 1410,
+    "nodebaff": 1393,
+    "totem": 1400,
+    "nezerka": 1386,
+    "bow": 1416
+  },
+  "matches": [
+    {
+      "winner": "ML_VarenyK",
+      "loser": "nurbekology",
+      "kit": "nodebaff",
+      "time": 1749378534639,
+      "duration": 558512,
+      "health": 7.5
+    },
+    {
+      "winner": "ML_VarenyK",
+      "loser": "no_hybra",
+      "kit": "shari",
+      "time": 1749378534639,
+      "duration": 22371,
+      "health": 8.0
+    },
+    {
+      "winner": "ML_VarenyK",
+      "loser": "no_hybra",
+      "kit": "shari",
+      "time": 1749378534639,
+      "duration": 168445,
+      "health": 10.0
+    },
+    {
+      "winner": "ML_VarenyK",
+      "loser": "artem321",
+      "kit": "shari",
+      "time": 1749438036666,
+      "duration": 70445,
+      "health": 5.5
+    },
+    {
+      "winner": "xDeadFor135",
+      "loser": "ML_VarenyK",
+      "kit": "nezerka",
+      "time": 1749524442489,
+      "duration": 43543,
+      "health": 7.0
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+id: '3'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: c026b40b-6321-455d-8281-e05e0b7dde45
+world: spawn
+location:
+  x: -2.6999999880790733
+  y: 65.0
+  z: -17.30000001192093
+  yaw: 7.20047
+  pitch: -1.2639506
+type: player
+properties:
+  skin_right_leg: 'true'
+  skin_cape: 'true'
+  skin_left_sleeve: 'true'
+  skin_jacket: 'true'
+  skin_right_sleeve: 'true'
+  skin_left_leg: 'true'
+  skin_hat: 'true'
+hologram:
+  lines:
+  - '&9&lОпытный кузнец'
+actions:
+- lol.pyr.znpcsplus.interaction.playercommand.PlayerCommandAction;cmVwYWlyZXhw;1000;ANY_CLICK;0

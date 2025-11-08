@@ -1,0 +1,20 @@
+{
+  "uuid": "043e3043-8822-3050-a260-64eb35e06ca4",
+  "name": "AbdulMenCrasher",
+  "wins": 1,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "shari": 1415
+  },
+  "matches": [
+    {
+      "winner": "AbdulMenCrasher",
+      "loser": "SPO102",
+      "kit": "shari",
+      "time": 1742094044627,
+      "duration": 35320,
+      "health": 10.0
+    }
+  ]
+}

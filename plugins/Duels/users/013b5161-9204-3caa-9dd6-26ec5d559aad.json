@@ -1,0 +1,20 @@
+{
+  "uuid": "013b5161-9204-3caa-9dd6-26ec5d559aad",
+  "name": "yastrudo80",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "shari": 1384
+  },
+  "matches": [
+    {
+      "winner": "Yarik14488",
+      "loser": "yastrudo80",
+      "kit": "shari",
+      "time": 1749265233272,
+      "duration": 47854,
+      "health": 10.0
+    }
+  ]
+}

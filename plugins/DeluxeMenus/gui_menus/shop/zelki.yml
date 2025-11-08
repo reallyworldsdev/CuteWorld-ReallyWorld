@@ -1,0 +1,610 @@
+menu_title: '&fꈁꀀꈂꌘꈂꀁ&0ꈃꄅ'
+size: 54
+items:
+  'clock':
+    material: structure_void
+    model_data: 10001
+    slot: 53
+    display_name: '&6ИНФОРМАЦИЯ'
+    lore:
+    - ''
+    - ' &fВаш баланс: &6%playerpoints_points% &x&F&F&B&A&0&0ꐃ'
+    - ''
+    - '&7Пополнить баланс можно'
+    - '&7на сайте: &6CuteWorld.pw'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  'back':
+    material: structure_void
+    model_data: 10002
+    slot: 45
+    display_name: '&6◄ Назад'
+    left_click_commands:
+    - '[openguimenu] donateshop'
+    right_click_commands:
+    - '[openguimenu] donateshop'
+  'снадобье':
+    display_name: '&r&l&#55ffffЦелительное снадобье&r'
+    slot: 4
+    material: potion
+    amount: 3
+    lore:
+    - '&r&#5555ffСнимает негативные эффекты&r'
+    - '&r'
+    - '&r&#aaaaaa=====================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa0079 &r&#ffffffꐃ&r'
+    - '&r'
+    enchantments:
+    - KNOCKBACK;1
+    hide_effects: true 
+    potion_effects:
+    - FIRE_RESISTANCE;1;1
+    hide_enchantments: true
+    hide_attributes: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 79
+          deny_commands:
+            - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw'    
+    left_click_commands:  
+      - '[console] points take %player_name% 79'
+      - '[console] xkit снадобье %player_name%'
+  'pe11':
+    material: splash_potion
+    hide_effects: true
+    potion_effects:
+    - NIGHT_VISION;9600;1
+    rgb: 41,195,235
+    slot: 12
+    display_name: '&b&lАрабская ночь'
+    lore:
+    - '&cЛевитация 8 (0:02)'
+    - ''
+    - '&7===================='
+    - ''
+    - '&fЦена: &6109 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 129
+          deny_commands:
+            - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw'    
+    left_click_commands:  
+      - '[console] points take %player_name% 129'
+      - '[console] xkit potiooons %player_name%'
+  '13':
+    display_name: '&3&lМолниеносное Зелье'
+    slot: 13
+    material: potion
+    lore:
+    - '&r&#5555ffСкорость III (2:00)&r'
+    - '&r&#5555ffНевидимость (2:00)&r'
+    - '&r&#ff5555Отравление (0:30)&r'
+    - '&r'
+    - '&r&#aa00aaПри применении:&r'
+    - '&r&#5555ff+60% Скорость&r'
+    - '&r'
+    - '&r&#aaaaaa=====================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa0059 &r&#ffffffꐃ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_effects: true 
+    potion_effects:
+    - FIRE_RESISTANCE;1;1
+    hide_attributes: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 59
+          deny_commands:
+            - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw'    
+    left_click_commands:  
+      - '[console] points take %player_name% 59'
+      - '[console] xkit molna %player_name%'
+  '14':
+    display_name: '&d&lЗелье Целителя'
+    slot: 14
+    material: potion
+    lore:
+    - '&r&#5555ffПрилив здоровья III (0:30)&r'
+    - '&r&#5555ffСкорость (1:20)&r'
+    - '&r&#5555ffРегенерация III (0:15)&r'
+    - '&r&#ff5555Утомление IV (0:15)&r'
+    - '&r'
+    - '&r&#aa00aaПри применении:&r'
+    - '&r&#5555ff+12 Максимальное здоровье&r'
+    - '&r&#5555ff+20% Скорость&r'
+    - '&r&#ff5555-40% Скорость атаки&r'
+    - '&r'
+    - '&r&#aaaaaa=====================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa0069 &r&#ffffffꐃ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_effects: true 
+    potion_effects:
+    - FIRE_RESISTANCE;1;1
+    hide_attributes: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 69
+          deny_commands:
+            - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw'    
+    left_click_commands:  
+      - '[console] points take %player_name% 69'
+      - '[console] xkit celitel %player_name%'
+  'pe8':
+    material: potion
+    hide_effects: true
+    potion_effects:
+    - NIGHT_VISION;9600;1
+    rgb: 255,255,255
+    slot: 20
+    display_name: '&6Быстрее ветра'
+    lore:
+    - '&cЛевитация II (0:12)'
+    - ''
+    - '&7===================='
+    - ''
+    - '&fЦена: &6139 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 139
+          deny_commands:
+            - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw'    
+    left_click_commands:  
+      - '[console] points take %player_name% 139'
+      - '[console] xkit potion2 %player_name%'
+  'pe7':
+    material: potion
+    hide_effects: true
+    potion_effects:
+    - NIGHT_VISION;9600;1
+    rgb: 57,222,67
+    slot: 21
+    display_name: '&aГлавный герой'
+    lore:
+    - '&9Герой деревни (30:00)'
+    - ''
+    - '&7===================='
+    - ''
+    - '&fЦена: &699 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 99
+          deny_commands:
+            - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw'    
+    left_click_commands:  
+      - '[console] points take %player_name% 99'
+      - '[console] xkit potion3 %player_name%'
+  'pe6':
+    material: splash_potion
+    hide_effects: true
+    potion_effects:
+    - NIGHT_VISION;9600;1
+    rgb: 173,204,210
+    slot: 22
+    display_name: '&f&lЗимняя Мощь'
+    lore:
+    - '&9Скорость II (2:20)'
+    - '&9Спешка (0:20)'
+    - '&9Сила II (2:20)'
+    - '&9Огнестойкость (7:59)'
+    - ''
+    - '&7======================'
+    - ''
+    - '&fЦена: &6129 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 129
+          deny_commands:
+            - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw'    
+    left_click_commands:  
+      - '[console] points take %player_name% 129'
+      - '[console] xkit potion4 %player_name%'
+  'pe5':
+    material: potion
+    hide_effects: true
+    potion_effects:
+    - NIGHT_VISION;9600;1
+    rgb: 165,0,255
+    slot: 23
+    display_name: '&6&lРандом Зелье'
+    lore:
+    - '&kd&kd&kd&kd&kd&kd &kd&kd&kd&kd'
+    - '&9Дает 3 рандом эффекта'
+    - ''
+    - '&7======================'
+    - ''
+    - '&fЦена: &6169 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 169
+          deny_commands:
+            - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw'    
+    left_click_commands:  
+      - '[console] points take %player_name% 169'
+      - '[console] nitems RANDOM_POTION %player_name%'
+  'pe4':
+    material: potion
+    hide_effects: true
+    potion_effects:
+    - NIGHT_VISION;9600;1
+    rgb: 255,255,255
+    slot: 24
+    display_name: '&b&lЗелье Викинга'
+    lore:
+    - '&9Скорость III (1:00)'
+    - '&9Сила III (1:00)'
+    - '&9Огнестойкость (7:30)'
+    - ''
+    - '&7======================'
+    - ''
+    - '&fЦена: &6209 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 209
+          deny_commands:
+            - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw'    
+    left_click_commands:  
+      - '[console] points take %player_name% 209'
+      - '[console] xkit potion5 %player_name%'
+  'pe3':
+    material: tipped_arrow
+    nbt_int: CustomPotionColor:4212298
+    amount: 32
+    slot: 30
+    display_name: '&6Обработанная стрела'
+    lore:
+    - '&cЗамедление (0:30)'
+    - ''
+    - '&7======================'
+    - ''
+    - '&fЦена: &6159 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 159
+          deny_commands:
+            - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw'    
+    left_click_commands:  
+      - '[console] points take %player_name% 159'
+      - '[console] xkit strela0 %player_name%'
+  'pe2':
+    material: tipped_arrow
+    nbt_int: CustomPotionColor:15395824
+    amount: 1
+    slot: 31
+    display_name: '&fКлирик'
+    lore:
+    - '&9Очищает все эффекты врага'
+    - ''
+    - '&7======================'
+    - ''
+    - '&fЦена: &6750 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 750
+          deny_commands:
+            - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw'    
+    left_click_commands:  
+      - '[console] points take %player_name% 750'
+      - '[console] nitems CLEAR_ARROW %player_name%'
+  'pe1':
+    material: tipped_arrow
+    nbt_int: CustomPotionColor:5376000
+    amount: 32
+    slot: 32
+    display_name: '&6Обработанная стрела'
+    lore:
+    - '&cМоментальный урон II'
+    - ''
+    - '&7=========================='
+    - ''
+    - '&fЦена: &6199 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 199
+          deny_commands:
+            - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw'    
+    left_click_commands:  
+      - '[console] points take %player_name% 199'
+      - '[console] xkit strela2 %player_name%'
+  'pe0':
+    material: tipped_arrow
+    nbt_int: CustomPotionColor:7566195
+    amount: 8
+    slot: 38
+    display_name: '&bСтрела обморожения'
+    lore:
+    - '&cСтан (0:04)'
+    - '&cСлепота (0:04)'
+    - ''
+    - '&7======================'
+    - ''
+    - '&fЦена: &6249 &6ℛ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 249
+          deny_commands:
+            - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw'    
+    left_click_commands:  
+      - '[console] points take %player_name% 249'
+      - '[console] xkit strela3 %player_name%'
+  'pe01':
+    material: tipped_arrow
+    nbt_int: CustomPotionColor:16777215
+    amount: 8
+    slot: 39
+    display_name: '&6Обработанная стрела'
+    lore:
+    - '&9Плавное падение (0:30)'
+    - ''
+    - '&7======================'
+    - ''
+    - '&fЦена: &6499 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 499
+          deny_commands:
+            - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw'    
+    left_click_commands:  
+      - '[console] points take %player_name% 499'
+      - '[console] xkit strela4 %player_name%'
+  'pe02':
+    material: tipped_arrow
+    nbt_int: CustomPotionColor:15395824
+    amount: 8
+    slot: 40
+    display_name: '&fСтрела Левитации'
+    lore:
+    - '&cЛевитация II (0:12)'
+    - ''
+    - '&7======================'
+    - ''
+    - '&fЦена: &6829 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 829
+          deny_commands:
+            - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw'    
+    left_click_commands:  
+      - '[console] points take %player_name% 829'
+      - '[console] xkit strela5 %player_name%'
+  'pe03':
+    material: tipped_arrow
+    nbt_int: CustomPotionColor:16774666
+    amount: 8
+    slot: 41
+    display_name: '&fСтрела Голода'
+    lore:
+    - '&cГолод 79 (0:03)'
+    - ''
+    - '&7======================'
+    - ''
+    - '&fЦена: &6229 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+           type: '>='
+           input: '%playerpoints_points%'
+           output: 229
+           deny_commands:
+           - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+           - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 229'
+    - '[console] xkit strela7 %player_name%'
+  'pe04':
+    material: tipped_arrow
+    nbt_int: CustomPotionColor:14720512
+    amount: 8
+    slot: 42
+    display_name: '&fСтрела Шрека'
+    lore:
+    - '&cТошнота (0:16)'
+    - '&cСлепота (0:16)'
+    - ''
+    - '&7======================'
+    - ''
+    - '&fЦена: &6459 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+           type: '>='
+           input: '%playerpoints_points%'
+           output: 459
+           deny_commands:
+           - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+           - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 459'
+    - '[console] xkit strela6 %player_name%'
+  'pauk':
+    material: potion
+    nbt_int: CustomPotionColor:12720512
+    hide_effects: true
+    potion_effects:
+    - NIGHT_VISION;9600;1
+    amount: 1
+    slot: 11
+    display_name: '&c&lПаучье Чутьё'
+    lore:
+    - '&9Скорость III (1:00)'
+    - '&9Спешка (0:15)'
+    - '&9Сила III (1:00)'    
+    - '&9Огенстойкость (10:00)'
+    - '&cТошнота (0:40)'
+    - ''
+    - '&5При применении:'
+    - '&9+60% Скорость'
+    - '&9+10% Скорость атаки'
+    - '&9+9 Урон'
+    - '&7======================'    
+    - ''
+    - '&fЦена: &6259 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+           type: '>='
+           input: '%playerpoints_points%'
+           output: 259
+           deny_commands:
+           - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+           - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 259'
+    - '[console] xkit pauk %player_name%'
+  '15':
+    display_name: '&8&lЗелье Ведьмы&r'
+    slot: 15
+    material: splash_potion
+    lore:
+    - '&r&#ff5555Отравление IV (0:40)&r'
+    - '&r&#ff5555Замедление IV (0:15)&r'
+    - '&r&#5555ffСвечение (1:00)&r'
+    - '&r&#ff5555Слепота IV (0:15)&r'
+    - '&r&#ff5555Слабость (0:15)&r'
+    - '&r'
+    - '&r&#aa00aaПри применении:&r'
+    - '&r&#ff5555-60% Скорость&r'
+    - '&r&#ff5555-4 Урон&r'
+    - '&r&#aaaaaa=====================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00359 &r&#ffffffꐃ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_effects: true 
+    potion_effects:
+    - FIRE_RESISTANCE;1;1
+    hide_attributes: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+           type: '>='
+           input: '%playerpoints_points%'
+           output: 359
+           deny_commands:
+           - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+           - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 349'
+    - '[console] xkit vedma %player_name%'        

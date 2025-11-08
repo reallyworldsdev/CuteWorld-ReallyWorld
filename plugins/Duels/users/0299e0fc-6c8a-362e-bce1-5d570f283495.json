@@ -1,0 +1,29 @@
+{
+  "uuid": "0299e0fc-6c8a-362e-bce1-5d570f283495",
+  "name": "Eva01",
+  "wins": 2,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "shari": 1416,
+    "chiter": 1411
+  },
+  "matches": [
+    {
+      "winner": "Eva01",
+      "loser": "wernikxx353",
+      "kit": "shari",
+      "time": 1748435347613,
+      "duration": 20287,
+      "health": 10.0
+    },
+    {
+      "winner": "Eva01",
+      "loser": "darhan3909",
+      "kit": "chiter",
+      "time": 1749006033444,
+      "duration": 71230,
+      "health": 9.0
+    }
+  ]
+}

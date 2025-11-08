@@ -1,0 +1,20 @@
+{
+  "uuid": "0122cd8e-33a2-338e-ab6c-6aa0941239ea",
+  "name": "Swach",
+  "wins": 1,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "shari": 1416
+  },
+  "matches": [
+    {
+      "winner": "Swach",
+      "loser": "vovastasi",
+      "kit": "shari",
+      "time": 1742353239555,
+      "duration": 79734,
+      "health": 3.0
+    }
+  ]
+}

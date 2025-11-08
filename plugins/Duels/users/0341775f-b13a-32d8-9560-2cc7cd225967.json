@@ -1,0 +1,57 @@
+{
+  "uuid": "0341775f-b13a-32d8-9560-2cc7cd225967",
+  "name": "smehDaitolka",
+  "wins": 20,
+  "losses": 14,
+  "requests": true,
+  "rating": {
+    "classic": 1430,
+    "shari": 1377,
+    "totem": 1452,
+    "chiter": 1368,
+    "nodebaff": 1414,
+    "nezerka": 1419
+  },
+  "matches": [
+    {
+      "winner": "smehDaitolka",
+      "loser": "YT_zxc_venera",
+      "kit": "nodebaff",
+      "time": 1741662051298,
+      "duration": 284670,
+      "health": 3.0
+    },
+    {
+      "winner": "smehDaitolka",
+      "loser": "YT_zxc_venera",
+      "kit": "nezerka",
+      "time": 1741662051298,
+      "duration": 70572,
+      "health": 5.0
+    },
+    {
+      "winner": "YT_zxc_venera",
+      "loser": "smehDaitolka",
+      "kit": "nodebaff",
+      "time": 1741662051298,
+      "duration": 317420,
+      "health": 2.5
+    },
+    {
+      "winner": "mcikira",
+      "loser": "smehDaitolka",
+      "kit": "shari",
+      "time": 1741662051298,
+      "duration": 175920,
+      "health": 3.0
+    },
+    {
+      "winner": "losat",
+      "loser": "smehDaitolka",
+      "kit": "shari",
+      "time": 1741662051298,
+      "duration": 236899,
+      "health": 7.0
+    }
+  ]
+}

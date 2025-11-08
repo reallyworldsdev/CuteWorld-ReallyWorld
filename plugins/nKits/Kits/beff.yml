@@ -1,0 +1,101 @@
+Name: beff
+Cooldown: 0
+Permission: strictkits.kits.beff
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"italic":false,"extra":[{"text":""},{"bold":true,"color":"light_purple","text":"Голова
+        Беффа"}],"text":""}'
+      lore:
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"  "},{"color":"blue","text":"+5
+        Броня"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"  "},{"color":"blue","text":"+30%
+        Скорость"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"  "},{"color":"red","text":"-2.22
+        Урон"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -2.22
+          name: ''
+          slot: OFF_HAND
+          uuid: 77361a67-fb61-4749-aab4-c5d9804a3f90
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 5.0
+          name: ''
+          slot: OFF_HAND
+          uuid: f83fa773-31d4-4e42-a8fa-ee3f9a854f5d
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.3
+          name: ''
+          slot: OFF_HAND
+          uuid: e5eb1914-bfeb-4b26-9f44-7aa4efb44919
+          operation: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/1VRzZKTQBCebGnVij6Ix0nYrLUHy+Jvw7AZkGT4mbkBQRgykK0ElsBhLz6BN8sn8eDZB/IJnKAHPXVXf/39dLUCwAxcmXimgDfbfSfEx+PhExe5AhTZPebHluenV+C6zc9td8xPCpCEa/AyTESXz77m/aFAhgOTaC4ydVOmscaReSgwyc7uaC1xVZyxmd3gbf+ADI1ntvPEanFigdgjrt0iAy0Y0UtK6OiaesUqC+LaGmhlqbiiC2+1EbTGSzdinHJ0MrhWoEYf0gV7TFehR6XvHx3HYBGro9Dna23KNCbRrqPxZp7V4ZbF9/MkdgQzUOFxHWZNKP7uQRaXcCexbJiwd5OHzBrA1iH8v9llX+r1042oljxbu10Pd/9oLNskWgqqOiVr/C6tQ7hWNyK3LzmCJy9CEJOwoqSA2Aw5Hp3SM1GPx/2NJ+eYWD2tgzked7W3wiqL7gUlvuoRfe9WF04wupU/MOKfPbNYuASN7hY9TNlsKKt+ZzTwPQCvwRXayWe9SL98IKvG/vb5+cevn/j7WwB+A3TDUeb0AQAA
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

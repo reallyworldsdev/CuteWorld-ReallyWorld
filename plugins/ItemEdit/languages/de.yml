@@ -1,0 +1,786 @@
+player-only: '&4[&cItemEdit&4] &cNur für Spieler'
+no-item-on-hand: '&4[&cItemEdit&4] &cDu musst ein Item in der Hand halten'
+lack-permission: '&4[&cItemEdit&4] &cDir fehlt die Berechtigung %permission%'
+lack-permission-generic: '&4[&cItemEdit&4] &cDu hast keine Berechtigung, diesen Befehl zu verwenden'
+blocked-by-censure: '&4[&cItemEdit&4] &cDu kannst diesen Text nicht verwenden, er enthält blockierte Wörter'
+blocked-by-type-restriction: '&4[&cItemEdit&4] &cDu kannst dieses Item nicht umbenennen'
+blocked-by-type-restriction-lore: '&4[&cItemEdit&4] &cDu kannst die Beschreibung dieses Items nicht bearbeiten'
+blocked-by-lore-line-limit: '&4[&cItemEdit&4] &cDu kannst diesem Gegenstand keine weiteren Beschreibungslinien hinzufügen'
+blocked-by-lore-length-limit: '&4[&cItemEdit&4] &cDu kannst keine Zeilen länger als %limit% Zeichen setzen'
+blocked-by-rename-length-limit: '&4[&cItemEdit&4] &cDu kannst keine Namen länger als %limit% Zeichen setzen'
+itemedit:
+  help-header: '&9&lItemEdit - Hilfe'
+  rename:
+    description:
+      - '&b&lSetze den Namen des Items'
+      - ''
+      - '&b&lTipp: &bGib &e"clear" &bein, um den Namen auf den Standard zurückzusetzen'
+    params: '<name>'
+  lore:
+    description:
+      - '&b&lBearbeite die Beschreibung'
+      - ''
+      - '&eAdd <text> &b- Füge einen Text in einer neuen Zeile hinzu'
+      - '&eInsert <line> <text> &b- Füge Text in der ausgewählten Zeile ein'
+      - '&eSet <line> <text> &b- Setze oder ersetze den Text in der ausgewählten Zeile'
+      - '&eRemove <line> &b- Entferne die ausgewählte Zeile'
+      - '&eReset &b- Entferne alle Zeilen'
+      - '&eCopy &b- Kopiere die aktuelle Beschreibung zum späteren Einfügen'
+      - '&eCopyBook &b- dasselbe wie Copy, aber von Buchseiten als Zeilen'
+      - '&eCopyFile <path> &b- dasselbe wie Copy, aber von loreCopy.yml'
+      - '&ePaste &b- Füge die zuletzt kopierte Beschreibung ein'
+      - '&eReplace <replaced> <replacer> &b- Ersetze alle Vorkommnisse'
+    params: '<add/set/remove...> [...]'
+    set:
+      params: 'set <line> <text>'
+      description:
+        - '&b&lSetze oder ersetze den Text in der ausgewählten Zeile'
+    remove:
+      params: 'remove <line>'
+      description:
+        - '&b&lEntferne die ausgewählte Zeile'
+    insert:
+      params: 'insert <line> <text>'
+      description:
+        - '&b&lFüge Text in der ausgewählten Zeile hinzu'
+    copy:
+      feedback: '&9[&fItemEdit&9] &aBeschreibung kopiert'
+    copyBook:
+      wrong-type: '&4[&cItemEdit&4] &cDas Item muss ein beschriebenes Buch oder ein Buch und Feder sein'
+      feedback: '&9[&fItemEdit&9] &aBuchseiten kopiert und bereit zum Einfügen'
+    copyFile:
+      no-path: '&4[&cItemEdit&4] &cWähle einen Pfad aus /ie lore copyfile &6<pfad>'
+      wrong-path: '&9[&fItemEdit&9] &cUngültiger Pfad, vergewissere dich, dass die Groß-/Kleinschreibung beachtet wurde und lade die Konfiguration neu'
+      feedback: '&9[&fItemEdit&9] &aKonfiguration kopiert und bereit zum Einfügen'
+    paste:
+      feedback: '&9[&fItemEdit&9] &aBeschreibung eingefügt'
+      no-copy: '&4[&cItemEdit&4] &cKopiere zuerst eine Beschreibung'
+    replace:
+      params: 'replace <replaced> <replacer>'
+      description:
+        - '&b&lErsetze alle Vorkommnisse in der Beschreibung'
+        - ''
+        - '&bWenn du mehr als ein Wort ersetzen möchtest,'
+        - '&bumschließe sie in &e{ } &bein'
+        - ''
+        - '&bBeispiel: &e/ie lore replace New Rusty'
+        - '&b''&eNew sword&b'' -> ''&eRusty sword&b'''
+        - ''
+        - '&bBeispiel 2: &e/ie lore replace {Heavy} {Very light}'
+        - '&b''&eHeavy sword&b'' -> ''&eVery light sword&b'''
+  hide:
+    wrong-flag: '&4[&cItemEdit&4] &cUngültiger Flag-Wert! &4[&6Hier hovern&4]'
+    description:
+      - '&b&lKomponenten ausblenden oder anzeigen'
+      - ''
+      - '&e<flag> &bzu bearbeitender Item-Flag'
+      - '&e[true/false] &bsetze den Flag-Wert, standardmäßig umschalten'
+      - ''
+      - '&b&lTipp: &bBlende Banner-Muster mit potion_effects-Flag aus'
+      - '&b&lTipp: &bBlende alle Flags gleichzeitig aus mit &e/itemedit hideall'
+    params: '<flag> [true/false]'
+  hideall:
+    description:
+      - '&b&lAlle Komponenten ausblenden'
+      - ''
+      - '&bBlendet aus: Verzauberungen, Trankeffekte, Bannermuster, Attribute ...'
+      - ''
+      - '&b&lTipp: &bBlendet einzelne Komponenten mit &e/itemedit hide <flag> true &baus'
+    params: ''
+  damage:
+    description:
+      - '&b&lHaltbarkeit bearbeiten'
+      - ''
+      - '&e<durability> &bzu setzender Schaden'
+      - '&b&lHinweis: &e0 &bbedeutet kein Schaden, volle Haltbarkeit'
+    params: '<durability>'
+  type:
+    description:
+      - '&b&lSetze den Typ des Items'
+      - ''
+      - '&b&lHinweis: &beinige Typen wie Air funktionieren nicht'
+    params: '<type>'
+  unbreakable:
+    description:
+      - '&b&lUnzerstörbaren Zustand setzen'
+      - ''
+      - '&bUnzerstörbare Werkzeuge und Rüstungen verlieren keine Haltbarkeit'
+      - '&e[true/false] &bsetze den unzerstörbaren Wert, standardmäßig umschalten'
+    params: '[true/false]'
+  amount:
+    description:
+      - '&b&lAnzahl setzen'
+      - ''
+      - '&e<amount> &bzusetzende Anzahl (bis zu 127)'
+      - '&b&lTipp: &bNegative Anzahlen werden vom aktuellen Wert abgezogen'
+    params: '<amount>'
+  skullowner:
+    wrong-type: '&4[&cItemEdit&4] &cDas Item muss ein Spielerkopf sein'
+    description:
+      - '&b&lBesitzer des Schädelsets'
+      - ''
+      - '&bFunktioniert nur bei Spielerköpfen'
+      - '&e<name> &bName des Besitzers'
+      - ''
+      - '&b&lTipp: &bSetze den Schädel, um das Aussehen zu aktualisieren'
+    params: '<name>'
+  color:
+    wrong-type: '&4[&cItemEdit&4] &cDas Item muss ein einfärbares Item sein, wie Leder-Rüstung, Tränke oder gefärbte Pfeile'
+    description:
+      - '&b&lFarbe setzen'
+      - ''
+      - '&bFunktioniert bei Leder-Rüstung und ab Servers 1.11 bei'
+      - '&ballen Tränken und gefärbten Pfeilen!'
+      - '&e<rot> <grün> <blau> &bsind die Anteile jeder Farbe, die kombiniert werden sollen'
+      - '&bJede Farbe ist ein Integer-Wert zwischen 0 und 255'
+      - '&bWenn du unsicher bist, google "RGB-Farbwähler"'
+    params: '<rot> <grün> <blau>'
+  enchant:
+    wrong-enchant: '&4[&cItemEdit&4] &cUngültiger Verzauberungswert! &4[&6Hier hovern&4]'
+    description:
+      - '&b&lVerzauberungen setzen'
+      - ''
+      - '&e<enchant> &bVerzauberungstyp'
+      - '&e[level] &bVerzauberungsstufe, standardmäßig &e1'
+      - ''
+      - '&b&lTipp: &bSetze &e[level] &bauf &e0 &bum die Verzauberung zu entfernen'
+    params: '<enchant> [level]'
+  booktype:
+    wrong-type: '&4[&cItemEdit&4] &cDas Item muss ein beschriebenes Buch sein'
+    wrong-generation: '&4[&cItemEdit&4] &cUngültiger Buchtyp! &4[&6Hier hovern&4]'
+    description:
+      - '&b&lBuchtyp setzen'
+      - ''
+      - '&bFunktioniert nur bei beschriebenen Büchern'
+    params: '<buchtyp>'
+  bookauthor:
+    wrong-type: '&4[&cItemEdit&4] &cDas Item muss ein beschriebenes Buch sein'
+    description:
+      - '&b&lAutor setzen'
+      - ''
+      - '&bDer Autorenname kann Leerzeichen enthalten und auch farbig sein'
+      - '&bFunktioniert nur bei beschriebenen Büchern'
+    params: '<name>'
+  potioneffect:
+    wrong-type: '&4[&cItemEdit&4] &cDas Item muss ein Trank oder ein gefärbter Pfeil oder ein verdächtiger Eintopf sein'
+    wrong-effect: '&4[&cItemEdit&4] &cUngültiger Effektwert! &4[&6Hier hovern&4]'
+    itemtag-tip: '&9[&fItemEdit&9] &bMöchtest du Trankeffekte zu normalen Items hinzufügen? Probier >ItemTag<'
+    itemtag-tip-hover:
+      - '&6Klick mich'
+    description:
+      - '&b&lTrankeffekte bearbeiten'
+      - ''
+      - '&bFunktioniert bei allen Tränken, gefärbten Pfeilen und verdächtigen Eintöpfen!'
+      - '&eAdd <effect> <duration> [level] &b- Effekt hinzufügen'
+      - '&eRemove <effect> &b- ausgewählten Effekt entfernen'
+      - '&eReset &b- alle Effekte entfernen'
+    params: '<add/remove/reset> [...]'
+    add:
+      params: 'add <effect> <duration> [level]'
+      description:
+        - '&b&lFüge einen Effekt hinzu oder überschreibe ihn'
+        - ''
+        - '&e<effect> &beffekttyp'
+        - '&e<duration> &bdauer in Sekunden, &e0 &bfür sofortige Effekte'
+        - '&e[level] &bBis zu 127, standardmäßig &e1'
+    remove:
+      params: 'remove <effect>'
+      description:
+        - '&b&lEntferne den ausgewählten Effekt'
+  banner:
+    wrong-type: '&4[&cItemEdit&4] &cDas Item muss ein Banner sein'
+    wrong-color: '&4[&cItemEdit&4] &cUngültiger Farbwert! &4[&6Hier hovern&4]'
+    wrong-pattern: '&4[&cItemEdit&4] &cUngültiger Musterwert! &4[&6Hier hovern&4]'
+    description:
+      - '&b&lBanner bearbeiten'
+    set:
+      params: 'set <type> <color> <line>'
+      description:
+        - '&b&lErsetze das Muster in der ausgewählten Zeile'
+    add:
+      params: 'add <type> <color>'
+      description:
+        - '&b&lFüge ein Muster hinzu'
+    remove:
+      params: 'remove <line>'
+      description:
+        - '&b&lEntferne das Muster in der ausgewählten Zeile'
+    color:
+      params: 'color <line> <color>'
+      description:
+        - '&b&lÄndere die Musterfarbe in der ausgewählten Zeile'
+  fireworkpower:
+    wrong-type: '&4[&cItemEdit&4] &cDas Item muss ein Feuerwerk sein'
+    description:
+      - '&b&lFeuerwerkskraft setzen'
+      - ''
+      - '&e<power> &bKraft des Feuerwerks, ein Wert zwischen &e0 &bund &e5'
+    params: '<power>'
+  firework:
+    wrong-type: '&4[&cItemEdit&4] &cDas Item muss ein Feuerwerk sein'
+    description:
+      - '&b&lFeuerwerk bearbeiten'
+    params: ''
+  spawnereggtype:
+    wrong-type: '&4[&cItemEdit&4] &cDas Item muss ein Spawner-Ei sein'
+    wrong-entity: '&4[&cItemEdit&4] &cUngültiger Entitytyp! &4[&6Hier hovern&4]'
+    description:
+      - '&b&lTyp des vom Spawner-Ei beschworenen Wesens setzen'
+      - ''
+      - '&e<type> &bTyp des Wesens'
+      - '&bNur einige Entitytypen können durch Eier beschworen werden'
+    params: '<type>'
+  attribute:
+    wrong-attribute: '&4[&cItemEdit&4] &cUngültiger Attributwert! &4[&6Hier hovern&4]'
+    wrong-operation: '&4[&cItemEdit&4] &cUngültiger Operationwert! &4[&6Hier hovern&4]'
+    wrong-equipment: '&4[&cItemEdit&4] &cUngültiger Ausrüstungswert! &4[&6Hier hovern&4]'
+    description:
+      - '&b&lAttributmodifikatoren bearbeiten'
+      - ''
+      - '&eAdd <attribute> <amount> [operation] [slot] &b- neue Modifikatoren hinzufügen'
+      - '&eRemove <attribute/slot> &b- einige Modifikatoren entfernen'
+    params: '<add/remove> [...]'
+    add:
+      params: 'add <attribute> <amount> [operation] [slot]'
+      description:
+        - '&b&lFüge einen Attributmodifikator hinzu'
+        - ''
+        - '&e<attribute> &bAttributtyp'
+        - '&e<amount> &bzu setzender Wert'
+        - '&e[operation] &bwie der Modifikator hinzugefügt wird, standardmäßig addiert'
+        - '&e[slot] &bgelte den Modifikator nur, wenn das Item in der ausgewählten'
+        - '&e       Ausrüstungsslot oder jedem Ausrüstungsslot, falls nicht ausgewählt, liegt'
+    remove:
+      params: 'remove <attribute/slot>'
+      description:
+        - '&b&lEntferne Modifikatoren'
+        - ''
+        - '&e<attribute/slot> &bzu entfernender Typ, alle Modifikatoren mit'
+        - '&b                     dem ausgewählten Wert werden entfernt'
+  tropicalfish:
+    wrong-type: '&4[&cItemEdit&4] &cDas Item muss ein tropischer Fisch-Eimer sein'
+    wrong-color: '&4[&cItemEdit&4] &cUngültiger Farbwert! &4[&6Hier hovern&4]'
+    wrong-pattern: '&4[&cItemEdit&4] &cUngültiger Mustertyp! &4[&6Hier hovern&4]'
+    description:
+      - '&b&lEigenschaften des tropischen Fisch-Eimers setzen'
+      - ''
+      - '&epattern <Mustertyp> &b- Fischart'
+      - '&epatterncolor <Farbe> &b- Musterfarbe des Fisches'
+      - '&ebodycolor <Farbe> &b- Körperfarbe des Fisches'
+    params: '[...]'
+    pattern:
+      params: 'pattern <type>'
+      description:
+        - '&b&lMustertyp des tropischen Fisches setzen'
+        - ''
+        - '&e<type> &bMustertyp des Fisches'
+    patterncolor:
+      params: 'patterncolor <color>'
+      description:
+        - '&b&lMusterfarbe des tropischen Fisches setzen'
+        - ''
+        - '&e<color> &bMusterfarbe des Fisches'
+    bodycolor:
+      params: 'bodycolor <color>'
+      description:
+        - '&b&lKörperfarbe des tropischen Fisches setzen'
+        - ''
+        - '&e<color> &bKörperfarbe des Fisches'
+  repaircost:
+    description:
+      - '&b&lReparaturkosten der Werkbank bearbeiten'
+      - ''
+      - '&e<cost> &bAnzahl der Level'
+      - '&b&lHinweis: &bDie Reparatur-/Umbenennungskosten an der Werkbank betragen mindestens &e1 Level'
+      - '&b&lHinweis: &bDieser Befehl setzt die Grundreparaturkosten des Gegenstands fest, die endgültigen Levelkosten in der Werkbank hängen davon ab, was du tust'
+      - '&bWeitere Informationen unter &eminecraft.gamepedia.com/Anvil/Mechanics'
+    params: '<cost>'
+  custommodeldata:
+    description:
+      - '&b&lBenutzerdefinierte Modelldaten bearbeiten'
+      - ''
+      - '&bVerwendet für Texture-Packs'
+      - '&e<value> &bpositive ganze Zahl des gewünschten Datenmodells'
+    params: '<value>'
+  axolotlvariant:
+    wrong-type: '&4[&cItemEdit&4] &cDas Item muss ein Axolotl-Eimer sein'
+    wrong-axolotl: '&4[&cItemEdit&4] &cUngültiger Axolotl-Wert! &4[&6Hier hovern&4]'
+    description:
+      - '&b&lAxolotl-Variante im Axolotl-Eimer bearbeiten'
+      - ''
+      - '&e<type> &bDie Art des Axolotls'
+    params: '<type>'
+  listaliases:
+    description:
+      - '&b&lZeigt erlaubte Alias-Parameter'
+      - ''
+      - '&e<type> &bDer Typ des anzuzeigenden Parameters'
+    params: '<type>'
+    prefix_line: '&1 ◆  ◆  ◆  ◆  &9Aliases  &1◆  ◆  ◆  ◆'
+    postfix_line: '&1 ◆  ˙  ◆  ◆  &9Aliases  &1◆  ◆  ◆  ◆'
+    first_color: '&b'
+    second_color: '&e'
+    hover_info: '&9Ursprünglicher Wert: &e%default%'
+    hover_type: '&6Klicke zum Überprüfen'
+    error-pre-hover: "&6&lAliases:"
+  compass:
+    wrong-type: '&4[&cItemEdit&4] &cDas Item muss ein Kompass sein'
+    description:
+      - '&b&lZielort des Kompasses setzen'
+      - ''
+      - '&eSet &b- setze deinen aktuellen Standort als Zielort des Kompasses'
+      - '&eClear &b- lösche den Zielort des Kompasses'
+    params: '<set/clear>'
+    set:
+      feedback: '&9[&fItemEdit&9] &aDer Kompass zeigt nun auf &e%world% %x% %y% %z%'
+    clear:
+      feedback: '&9[&fItemEdit&9] &aDer Zielort des Kompasses wurde gelöscht'
+  goathornsound:
+    wrong-type: '&4[&cItemEdit&4] &cDas Item muss ein Ziegenhorn sein'
+    wrong-sound: '&4[&cItemEdit&4] &cUngültiger Soundwert! &4[&6Hier hovern&4]'
+    description:
+      - '&b&lZiegenhorn-Sound setzen'
+      - ''
+      - '&e<type> &bDer Soundtyp'
+    params: '<type>'
+  armortrim:
+    wrong-type: '&4[&cItemEdit&4] &cDas Item muss eine Rüstung sein'
+    wrong-material: '&4[&cItemEdit&4] &cUngültiges Material für den Rand! &4[&6Hier hovern&4]'
+    wrong-pattern: '&4[&cItemEdit&4] &cUngültiges Muster für den Rand! &4[&6Hier hovern&4]'
+    description:
+      - '&b&lRüstungsrand setzen'
+      - ''
+      - '&e<material> &bdas Material für den Rand'
+      - '&e<pattern> &bdas Muster für den Rand'
+    params: '<material> <pattern>'
+  bookenchant:
+    wrong-type: '&4[&cItemEdit&4] &cDas Item muss ein Buch oder ein verzaubertes Buch sein'
+    wrong-enchant: '&4[&cItemEdit&4] &cUngültiger Verzauberungswert! &4[&6Hier hovern&4]'
+    description:
+      - '&b&lVerzauberungen im Buch bearbeiten'
+      - '&bDer Unterschied zwischen "enchant" und "bookenchant" besteht darin, dass'
+      - '&bein Buch mit "enchant fire aspect" getroffene Ziele in Brand gesetzt werden'
+      - '&bbei einem Buch mit "bookenchant" jedoch nicht'
+      - ''
+      - '&e<enchant> &bVerzauberungstyp'
+      - '&e[level] &bStufe der Verzauberung, standardmäßig &e1'
+      - ''
+      - '&b&lTipp: &bSetze &e[level] &bauf &e0 &bum eine Verzauberung zu entfernen'
+    params: '<enchant> [level]'
+  hidetooltip:
+    description:
+      - '&b&lTooltip ausblenden oder anzeigen'
+      - ''
+      - '&e[true/false] &bsetze den Flag-Wert, standardmäßig umschalten'
+    params: '[true/false]'
+  fireresistent:
+    description:
+      - '&b&lSetze Feuer-/Lavabeständigkeit des Gegenstands'
+      - ''
+      - '&e[true/false] &bsetze den Wert, standardmäßig umschalten'
+      - ''
+      - '&bEin Gegenstand mit Feuerbeständigkeit wird nicht zerstört'
+      - '&b wenn er in Feuer fällt und schwebt über Lava'
+    params: '[true/false]'
+  glow:
+    description:
+      - '&b&lÜberschreibe den Glanzeffekt von Verzauberungen'
+      - ''
+      - '&e[true/false/default] &bsetze den Wert, standardmäßig umschalten'
+      - ''
+      - '&b&lTipp: &e"default" &bstellt das Standardverhalten wieder her'
+    params: '[true/false/default]'
+  maxstacksize:
+    description:
+      - '&b&lSetze die maximale Stapelgröße des Gegenstands'
+      - ''
+      - '&e[1-99/default] &bsetze den Flag-Wert'
+      - ''
+      - '&edefault &bstellt die übliche Stapelgröße wieder her, die &e64'
+      - '&b für die meisten Gegenstände beträgt, &e1&b für Rüstungen und Werkzeuge, und andere'
+      - '&b Werte für einige Gegenstände'
+    params: '[1-99/default]'
+serveritem:
+  help-header: '&9&lServerItem - Hilfe'
+  give:
+    #Holders: %id% %nick% %amount%
+    feedback: '&aErhalten: &e%amount% &aStück(e) von &e%nick%'
+    #Holders: %id% %nick% %amount% %player_name%
+    log: '[serveritem][give] %player_name% hat %amount% von %id% (%nick%) erhalten'
+    description:
+      - '&b&lGibt das ausgewählte Item an einen Spieler'
+      - ''
+      - '&e<id> &bID des Items'
+      - '&e[amount] &bAnzahl der zu gebenden Items, standardmäßig 1'
+      - '&e[player] &bZiel-Spieler, standardmäßig du selbst'
+      - '&e[silent] &btrue, wenn kein Feedback an den Spieler gesendet werden soll'
+    params: '<id> [amount] [player] [silent]'
+  giveall:
+    #Holders: %id% %nick% %amount%
+    feedback: '&aErhalten: &e%amount% &aStück(e) von &e%nick%'
+    #Holders: %id% %nick% %amount% %targets%
+    log: '[serveritem][giveall] %targets% haben %amount% von %id% (%nick%) erhalten'
+    description:
+      - '&b&lGibt das ausgewählte Item an alle online Spieler'
+      - ''
+      - '&e<id> &bID des Items'
+      - '&e[amount] &bAnzahl der zu gebenden Items, standardmäßig 1'
+      - '&e[silent] &btrue, wenn kein Feedback an die Spieler gesendet werden soll'
+    params: '<id> [amount] [silent]'
+  drop:
+    #Holders: %id% %nick% %amount% %world% %x% %y% %z%
+    log: '[serveritem][drop] Hat %amount% von %id% (%nick%) bei %world% %x% %y% %z% abgelegt'
+    description:
+      - '&b&lLässt das ausgewählte Item an der gewählten Position fallen'
+      - ''
+      - '&e<id> &bID des Items'
+      - '&e<amount> &bAnzahl der zu fallenden Items, 1 bis 2304'
+      - '&e<world> &bWelte, in der es fallen gelassen werden soll'
+      - '&e<x> <y> <z> &bKoordinaten'
+    params: '<id> <amount> <world> <x> <y> <z>'
+  take:
+    #Holders: %id% %nick% %amount%
+    feedback: '&aVerloren: &e%amount% &aStück(e) von &e%nick%'
+    #Holders: %id% %nick% %amount% %player_name%
+    log: '[serveritem][take] %player_name% hat %amount% von %id% (%nick%) erhalten'
+    description:
+      - '&b&lNimmt das ausgewählte Item vom Spieler'
+      - ''
+      - '&e<id> &bID des Items'
+      - '&e[amount] &bAnzahl der zu nehmenden Items, standardmäßig 1'
+      - '&e[player] &bZiel-Spieler, standardmäßig du selbst'
+      - '&e[silent] &btrue, wenn kein Feedback an den Spieler gesendet werden soll'
+    params: '<id> [amount] [player] [silent]'
+  save:
+    #Holders: %id%
+    success: '&9[&fItemEdit&9] &aItem &e%id% &awurde registriert'
+    already_used_id: '&4[&cItemEdit&4] &cDas Element mit der ID &e%id% &cbesteht bereits, ändere die ID oder verwende /si update, um es zu überschreiben'
+    description:
+      - '&bRegistriert das Item in deiner Hand'
+      - ''
+      - '&e<id> &bIdentifiziere das Item, Groß-/Kleinschreibung wird nicht beachtet und es dürfen'
+      - '&b     keine Leerzeichen oder Punkte enthalten sein. Zudem darf keine bereits verwendete ID'
+      - '&b     ausgewählt werden.'
+      - ''
+      - '&b&lTipp: &bVerwende &e/serveritem update <id>&b, um ein vorhandenes Item zu ändern'
+      - '&b&lTipp: &bRufe gespeicherte Items mit &e/serveritem give <id> &bau'
+    params: '<id>'
+  delete:
+    #Holders: %id%
+    success: '&9[&fItemEdit&9] &aItem &e%id% &awurde aus der Datenbank entfernt'
+    description:
+      - '&b&lEntfernt das ausgewählte Item'
+      - ''
+      - '&e<id> &bID des Items'
+    params: '<id>'
+  update:
+    #Holders: %id%
+    success: '&9[&fItemEdit&9] &aItem &e%id% &awurde aktualisiert'
+    description:
+      - '&b&lAktualisiert das ausgewählte Item'
+      - ''
+      - '&bÄndere das Item, das mit der ID assoziiert ist, durch das Item in deiner Hand'
+      - '&e<id> &bID des Items'
+      - ''
+      - '&b&lTipp: &bVerwende &e/serveritem save <id>&b, um ein neues Item zu erstellen'
+      - '&b&lTipp: &bVerwende &e/serveritem delete <id>&b, um ein Item zu löschen'
+    params: '<id>'
+  show:
+    description:
+      - '&b&lÖffne ein GUI mit gespeicherten Server-Items'
+      - ''
+      - '&e[page] &bSeite im GUI, standardmäßig 1'
+    params: '[page]'
+  setnick:
+    #Holders: %id% %nick%
+    success: '&aDer Anzeigename für das Item &e%id% &awurde aktualisiert zu &e%nick%'
+    description:
+      - '&bSetzt den Anzeigenamen für das ausgewählte Item'
+      - ''
+      - '&bDer Nickname wird für den Halter &e%nick% &bauf Kauf-/Verkaufsnachrichten verwendet.'
+      - '&bStandardmäßig ist es der Name des Items oder der Typ, falls kein Name vorhanden ist.'
+      - ''
+      - '&e<id> &bID des Items'
+      - '&e[nick] &bDer Name, der gesetzt werden soll'
+      - ''
+      - '&b&lTipp: &bUm auf den Standardwert zurückzusetzen, verwende &e/serveritem setnick <id>'
+    params: '<id> [nick]'
+  sell:
+    #Holders: %id% %nick% %amount% %price%
+    feedback: '&aGekauft: &e%amount% &aStück(e) von &e%nick% &afür &e%price%'
+    #Holders: %id% %nick% %amount%
+    not-enough-space: '&cDu hast nicht genügend Inventarplatz, um &6%amount% &covon &6%nick% &czu kaufen'
+    #Holders: %id% %nick% %amount% %price%
+    not-enough-money: '&cDu hast nicht genügend Geld, um &6%amount% &covon &6%nick% &cfür &6%price% &czu kaufen'
+    #Holders: %id% %nick% %amount% %player_name% %price%
+    log: '[serveritem][sell] %player_name% hat %amount% von %id% (%nick%) für insgesamt %price% verkauft'
+    description:
+      - '&b&lVerkauft Items an den Spieler'
+      - ''
+      - '&bBei "sell" verkaufst du die gesamte Menge an den Spieler oder du verkaufst nichts'
+      - '&e<id> &bID des Items'
+      - '&e<amount> &bAnzahl der zu verkaufenden Items'
+      - '&e<player> &bSpieler, der das Geld zahlen und die Items erhalten soll'
+      - '&e<price> &bPreis für die gesamte Anzahl der Items, muss positiv sein'
+      - '&e[silent] &btrue, um kein Feedback an den Spieler zu senden'
+      - ''
+      - '&bDie Transaktion schlägt fehl, wenn der Spieler nicht genügend Geld oder genügend'
+      - '&bInventarplatz für die gesamte &e<amount> &bhat'
+      - '&bHinweis: Das Guthaben des Command-Ausführers bleibt unberührt'
+    params: '<id> <amount> <player> <price> [silent]'
+  buy:
+    #Holders: %id% %nick% %amount% %price%
+    feedback: '&aVerkauft: &e%amount% &aStück(e) von &e%nick% &afür &a%price%'
+    #Holders: %id% %nick% %amount% %price%
+    not-enough-items: '&cDu hast nicht genügend &6%nick% &czum Verkauf in deinem Inventar'
+    #Holders: %id% %nick% %amount% %player_name% %price%
+    log: '[serveritem][buy] %player_name% hat %amount% von %id% (%nick%) für insgesamt %price% verkauft'
+    description:
+      - '&b&lKauft Items vom Spieler'
+      - ''
+      - '&bBei "buy" kaufst du die gesamte Menge vom Spieler oder du kaufst nichts'
+      - '&e<id> &bID des Items'
+      - '&e<amount> &bAnzahl der zu kaufenden Items'
+      - '&e<player> &bSpieler, der die Items zahlen und das Geld erhalten soll'
+      - '&e<price> &bPreis für die gesamte Anzahl der Items, muss positiv sein'
+      - '&e[silent] &btrue, um kein Feedback an den Spieler zu senden'
+      - ''
+      - '&bDie Transaktion schlägt fehl, wenn der Spieler nicht mindestens &e<amount> &bItems'
+      - '&bim Inventar hat'
+      - '&bHinweis: Das Guthaben des Command-Ausführers bleibt unberührt'
+    params: '<id> <amount> <player> <price> [silent]'
+  sellmax:
+    #Holders: %id% %nick% %amount% %price%
+    feedback: '&aGekauft: &e%amount% &aStück(e) von &e%nick% &afür &e%price%'
+    #Holders: %id% %nick%
+    not-enough-space: '&cDu hast nicht genügend Inventarplatz, um &6%nick% &czu kaufen'
+    #Holders: %id% %nick% %price%
+    not-enough-money: '&cDu hast nicht genügend Geld, um &6%nick% &cfür &6%price% &czu kaufen'
+    #Holders: %id% %nick% %amount% %player_name% %price%
+    log: '[serveritem][sell] %player_name% hat %amount% von %id% (%nick%) für insgesamt %price% verkauft'
+    description:
+      - '&b&lVerkauft Items an den Spieler'
+      - ''
+      - '&bBei "sellmax" verkaufst du die geringere Menge an den Spieler, wenn nicht genügend Geld oder Platz für die gesamte Menge vorhanden ist'
+      - '&e<id> &bID des Items'
+      - '&e<amount> &bAnzahl der zu verkaufenden Items'
+      - '&e<player> &bSpieler, der das Geld zahlen und die Items erhalten soll'
+      - '&e<price> &bPreis für die gesamte Anzahl der Items, muss positiv sein'
+      - '&e[silent] &btrue, um kein Feedback an den Spieler zu senden'
+      - ''
+      - '&bDie Transaktion schlägt fehl, wenn der Spieler nicht genügend Geld oder genügend'
+      - '&bInventarplatz für mindestens ein Item hat'
+      - '&bWenn der Spieler weniger als &e<price> &bverkauft, wird der Preis angepasst'
+      - '&bHinweis: Das Guthaben des Command-Ausführers bleibt unberührt'
+    params: '<id> <amount> <player> <price> [silent]'
+  buymax:
+    #Holders: %id% %nick% %amount% %price%
+    feedback: '&aVerkauft: &e%amount% &aStück(e) von &e%nick% &afür &a%price%'
+    #Holders: %id% %nick% %amount% %price%
+    not-enough-items: '&cDu hast kein Item &6%nick% &czum Verkauf in deinem Inventar'
+    #Holders: %id% %nick% %amount% %player_name% %price%
+    log: '[serveritem][buy] %player_name% hat %amount% von %id% (%nick%) für insgesamt %price% verkauft'
+    description:
+      - '&b&lKauft Items vom Spieler'
+      - ''
+      - '&bBei "buymax" kaufst du die geringere Menge vom Spieler, wenn er weniger als die Menge an Items im Inventar hat'
+      - '&e<id> &bID des Items'
+      - '&e<amount> &bAnzahl der zu kaufenden Items'
+      - '&e<player> &bSpieler, der die Items zahlen und das Geld erhalten soll'
+      - '&e<price> &bPreis für die gesamte Anzahl der Items, muss positiv sein'
+      - '&e[silent] &btrue, um kein Feedback an den Spieler zu senden'
+      - ''
+      - '&bDie Transaktion schlägt fehl, wenn der Spieler nicht mindestens ein &e<id> &bItem im Inventar hat'
+      - '&bWenn der Spieler weniger als &e<amount> &bverkauft, wird der Preis angepasst'
+      - '&bHinweis: Das Guthaben des Command-Ausführers bleibt unberührt'
+    params: '<id> <amount> <player> <price> [silent]'
+itemstorage:
+  help-header: '&9&lItemStorage - Hilfe'
+  get:
+    #Holders: %id% %amount%
+    success: '&9[&fItemEdit&9] &aErhalten &e%amount% &avon &e%id%'
+    no-inventory-space: '&4[&cItemEdit&4] &cDu hast keinen Platz im Inventar'
+    description:
+      - '&b&lWähle das ausgewählte Objekt aus'
+      - ''
+      - '&e<id> &bID des Objekts'
+      - '&e[amount] &bAnzahl zum Erhalten, standardmäßig 1'
+    params: '<id> [amount]'
+  save:
+    #Holders: %id%
+    success: '&9[&fItemEdit&9] &aObjekt &e%id% &awurde registriert'
+    #Holders: %limit%
+    limit-reached: '&4[&cItemEdit&4] &cDu hast die maximale Anzahl speicherbarer Objekte erreicht (%limit%)'
+    description:
+      - '&b&lRegistriere das Objekt in deiner Hand'
+      - ''
+      - '&e<id> &bIdentifiziere dein Objekt, Groß- und Kleinschreibung wird nicht beachtet'
+      - '&b     Es darf keine Leerzeichen oder Punkte enthalten sein und du kannst keine bereits verwendete ID auswählen'
+      - ''
+      - '&b&lTipp: &bVerwende &e/itemstorage update <id>&b, um ein vorhandenes Objekt zu ändern'
+      - '&b&lTipp: &bRufe deine gespeicherten Objekte mit &e/itemstorage get <id>&b ab'
+    params: '<id>'
+  delete:
+    #Holders: %id%
+    success: '&9[&fItemEdit&9] &aObjekt &e%id% &awurde gelöscht'
+    description:
+      - '&b&lLösche das ausgewählte Objekt'
+      - ''
+      - '&e<id> &bID des Objekts'
+    params: '<id>'
+  update:
+    #Holders: %id%
+    success: '&9[&fItemEdit&9] &aObjekt &e%id% &awurde aktualisiert'
+    description:
+      - '&b&lAktualisiere das ausgewählte Objekt'
+      - ''
+      - '&bÄndere das mit der ID verknüpfte Objekt mit dem Gegenstandsobjekt in deiner Hand'
+      - '&e<id> &bID des Objekts'
+      - ''
+      - '&bTipp: Verwende &e/itemstorage save <id>&b, um ein neues Objekt zu erstellen'
+      - '&bTipp: Verwende &e/itemstorage delete <id>&b, um ein Objekt zu löschen'
+    params: '<id>'
+  show:
+    description:
+      - '&b&lÖffne ein GUI mit deinen gespeicherten Objekten'
+      - ''
+      - '&e[page] &bSeite des GUI, standardmäßig 1'
+    params: '[page]'
+itemeditimport:
+  help:
+    - '&a/itemeditimport ItemEditor &2- Importiere Objekte aus dem ItemEditor-Plugin'
+  itemeditor:
+    unable-to-get-item:
+      - '&4[&cItemEdit&4] &cDas Objekt &6%id% &ckonnte nicht geladen werden'
+    already-used-id:
+      - '&4[&cItemEdit&4] &6%id% &cwird bereits verwendet. Möglicherweise hast du diesen Befehl bereits zuvor ausgeführt, oder du kannst die Datei ItemEditor/items/%id%.yml umbenennen'
+    invalid-id:
+      - '&4[&cItemEdit&4] &6%id% &cist keine akzeptable ID. Du kannst die Datei ItemEditor/items/%id%.yml in einen alphanumerischen Namen umbenennen'
+    import-unsuccess:
+      - '&4[&cItemEdit&4] &cEs wurden keine Objekte von &6%max% &cimportiert. Möglicherweise hast du diesen Befehl bereits zuvor ausgeführt (?)'
+    import-success:
+      - '&9[&fItemEdit&9] &aEs wurden &e%done% &avon &e%max% &aObjekten aus dem ItemEditor importiert'
+      - '&9[&fItemEdit&9] &aImportierte Objekte: &e%ids%'
+    import-empty:
+      - '&4[&cItemEdit&4] &cDer ItemEditor enthält keine zu importierenden Objekte'
+itemeditreload:
+  success: '&9[&fItemEdit&9] &aNeu geladen'
+gui:
+  middleclick:
+    creative: 'Mittelklick'
+    other: 'Taste 1 drücken'
+  colorselector:
+    title: '&9Farben auswählen'
+    buttons:
+      color:
+        - '&6Farben:'
+        - '&e%colors%'
+        - '&7[&fRechtsklick&7]&b Hinzufügen &e%color%'
+        - '&7[&fLinksklick&7]&b Letzte Farbe entfernen'
+        - '&7[&fUmschalt+Rechtsklick&7]&b Farben löschen'
+  banner:
+    title: '&9Banner Editor'
+    color_selector_title: '&9Farbauswahl'
+    pattern_selector_title: '&9Muster auswählen'
+    buttons:
+      pattern_selector_info:
+        - '&bWähle &6&l%type%'
+      color_selector_info:
+        - '&bWähle &6&l%color%'
+      position:
+        - '&6Muster-Steuerung'
+        - ''
+        - '&7[&f%Mittelklick%&7] &bMuster umschalten'
+        - '&7[&fLinksklick/Rechtsklick&7]&b << Muster bewegen >>'
+      type:
+        - '&6Typ auswählen'
+        - '&bTyp: &e%type%'
+        - ''
+        - '&7[&fKlick&7]&b Typ ändern'
+      color:
+        - '&6Farbauswahl'
+        - '&bFarbe: &e%color%'
+        - ''
+        - '&7[&fKlick&7]&b Farbe ändern'
+  firework:
+    title: '&9Firework Editor'
+    buttons:
+      type:
+        - '&6Typ auswählen'
+        - '&bTyp: &e%type%'
+        - ''
+        - '&7[&fKlick&7]&b Typ ändern'
+      colors:
+        - '&6Farben auswählen'
+        - '&bFarben: &e%colors%'
+        - ''
+        - '&7[&fKlick&7]&b Farben ändern'
+      fadecolors:
+        - '&6Übergangsfarben auswählen'
+        - '&bÜbergangsfarben: &e%colors%'
+        - ''
+        - '&7[&fKlick&7]&b Übergangsfarben ändern'
+      flags:
+        none: '&cNichts aktiv'
+        trail: '&eSchweif &aAktiv'
+        flicker: '&eFlackern &aAktiv'
+        both: '&eSchweif&b und &eFlackern &aAktiv'
+        info:
+          - '&6Schweif- und Flackern-Aktivator'
+          - '%status%'
+          - ''
+          - '&7[&fRechtsklick&7]&b Flackern-Effekt umschalten'
+          - '&7[&fLinksklick&7]&b Schweif-Effekt umschalten'
+      position:
+        - '&bEffektsteuerung'
+        - ''
+        - '&7[&f%Mittelklick%&7]&b Effekt umschalten'
+        - '&7[&fLinksklick/Rechtsklick&7]&b Effekt verschieben'
+      power:
+        - '&bKraft: &e%power%'
+        - ''
+        - '&7[&fLinksklick/Rechtsklick&7]&b << Ändern >>'
+  previous-page:
+    #Holders: %player_name% %page% %target_page%
+    description:
+      - '&6&lVorherige Seite'
+      - ''
+      - '&7[&fKlick&7]&b Gehe zur Seite &e%target_page%'
+  next-page:
+    #Holders: %player_name% %page% %target_page%
+    description:
+      - '&6&lNächste Seite'
+      - ''
+      - '&7[&fKlick&7]&b Gehe zur Seite &e%target_page%'
+  back:
+    #Holders: %player_name%
+    description:
+      - '&6&lZurück'
+      - ''
+      - '&7[&fKlick&7]&b Gehe zum vorherigen GUI'
+  playeritems:
+    #Holders: %player_name% %page%
+    title: '&9%player_name% Items - Seite &b%page%'
+    page-info:
+      #Holders: %player_name% %page%
+      description:
+        - '&6&lSeite &e&l%page%'
+        - '&7[&fKlick&7]&b Zeige &eGegenstand&b/&eID an'
+        - ''
+        - '&bKlicke auf Gegenstände:'
+        - '&7> [&fLinksklick&7]&b Erhalte &e1'
+        - '&7> [&fUmschalt+Linksklick&7]&b Erhalte &e64'
+        - '&7> [&fUmschalt+Rechtsklick&7]&b Lösche Gegenstand'
+  serveritems:
+    #Holders: %player_name% %page%
+    title: '&9Server-Gegenstände - Seite &b%page%'
+    page-info:
+      #Holders: %player_name% %page%
+      description:
+        - '&6&lSeite &e&l%page%'
+        - '&7[&fKlick&7]&b Zeige &eGegenstand&b/&eID an'
+        - ''
+        - '&bKlicke auf Gegenstände:'
+        - '&7> [&fLinksklick&7]&b Erhalte &e1'
+        - '&7> [&fUmschalt+Linksklick&7]&b Erhalte &e64'
+        - '&7> [&fUmschalt+Rechtsklick&7]&b Lösche Gegenstand'

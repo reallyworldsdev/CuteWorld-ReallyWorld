@@ -1,0 +1,29 @@
+{
+  "uuid": "09590a3a-8aa4-3c95-bad8-3a6e3c3f2af1",
+  "name": "BankomatikIAMNOO",
+  "wins": 0,
+  "losses": 2,
+  "requests": true,
+  "rating": {
+    "totem": 1384,
+    "chiter": 1384
+  },
+  "matches": [
+    {
+      "winner": "_Venem_",
+      "loser": "BankomatikIAMNOO",
+      "kit": "totem",
+      "time": 1741402844432,
+      "duration": 64892,
+      "health": 6.0
+    },
+    {
+      "winner": "3LOu_IBAH2017pro",
+      "loser": "BankomatikIAMNOO",
+      "kit": "chiter",
+      "time": 1741450341671,
+      "duration": 324814,
+      "health": 3.0
+    }
+  ]
+}

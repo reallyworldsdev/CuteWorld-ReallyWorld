@@ -1,0 +1,36 @@
+{
+  "uuid": "07c24789-1724-3517-927e-a240ef619ecc",
+  "name": "superidolsmileee",
+  "wins": 2,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "shari": 1412
+  },
+  "matches": [
+    {
+      "winner": "superidolsmileee",
+      "loser": "kikrek",
+      "kit": "shari",
+      "time": 1748461697000,
+      "duration": 106224,
+      "health": 1.5
+    },
+    {
+      "winner": "superidolsmileee",
+      "loser": "kikrek",
+      "kit": "shari",
+      "time": 1748461697000,
+      "duration": 46908,
+      "health": 9.5
+    },
+    {
+      "winner": "kikrek",
+      "loser": "superidolsmileee",
+      "kit": "shari",
+      "time": 1748461697000,
+      "duration": 205073,
+      "health": 10.0
+    }
+  ]
+}

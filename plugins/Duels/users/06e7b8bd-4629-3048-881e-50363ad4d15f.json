@@ -1,0 +1,29 @@
+{
+  "uuid": "06e7b8bd-4629-3048-881e-50363ad4d15f",
+  "name": "lisovoyav",
+  "wins": 1,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "classic": 1384,
+    "nezerka": 1416
+  },
+  "matches": [
+    {
+      "winner": "fr1son",
+      "loser": "lisovoyav",
+      "kit": "classic",
+      "time": 1748461697000,
+      "duration": 17067,
+      "health": 10.0
+    },
+    {
+      "winner": "lisovoyav",
+      "loser": "fr1son",
+      "kit": "nezerka",
+      "time": 1748461697000,
+      "duration": 65840,
+      "health": 10.0
+    }
+  ]
+}

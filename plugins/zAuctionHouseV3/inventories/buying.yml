@@ -1,0 +1,55 @@
+#########################################################################################################################################
+#
+#
+#   Sponsor: https://serveur-minecraft-vote.fr/
+#   Documentation: https://zauctionhouse.groupez.dev/
+#   Discord: https://discord.groupez.dev/
+# 
+#
+######################################################################################################################################### 
+
+name: "&fꈁꀀꈂꌲꈂꀁꈃ&0ꄙ"
+size: 54
+type: BUYING
+items:
+  back:
+    type: BACK
+    isPermanent: true
+    item:
+      material: structure_void
+      modelID: 10004
+      name: "&6&lГлавная"
+    slot: 49
+  items:
+    type: AUCTION_ITEM
+    isPermanent: true
+    slots:
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+# 2147029284303451685461249

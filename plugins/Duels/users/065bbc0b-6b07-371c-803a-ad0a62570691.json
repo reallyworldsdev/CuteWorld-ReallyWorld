@@ -1,0 +1,28 @@
+{
+  "uuid": "065bbc0b-6b07-371c-803a-ad0a62570691",
+  "name": "MaksimKiewstar",
+  "wins": 1,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "classic": 1400
+  },
+  "matches": [
+    {
+      "winner": "Vakadonskiy",
+      "loser": "MaksimKiewstar",
+      "kit": "classic",
+      "time": 1747351064139,
+      "duration": 12243,
+      "health": 7.0
+    },
+    {
+      "winner": "MaksimKiewstar",
+      "loser": "rossiya_krutoy",
+      "kit": "classic",
+      "time": 1747351064139,
+      "duration": 25375,
+      "health": 2.5
+    }
+  ]
+}

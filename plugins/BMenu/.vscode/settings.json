@@ -1,0 +1,5 @@
+{
+  "yaml.schemas": {
+    "./.vscode/schemas/bmenu-schema-v1.7.json": "menu/**/*.yml"
+  }
+}

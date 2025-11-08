@@ -1,0 +1,14 @@
+menu_title: '&fą'
+open_command: 
+- warppp
+size: 54
+items:
+  item-10:
+    amount: 1
+    material: 'chest'
+    display_name: '&eВ главное меню'
+    left_click_commands:
+    - '[player] warps'
+    right_click_commands:
+    - '[player] warps'
+    slot: 49

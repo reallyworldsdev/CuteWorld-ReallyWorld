@@ -1,0 +1,115 @@
+Name: potion1
+Cooldown: 0
+Permission: greatkits.kits.potion1
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"italic":false,"extra":[{"text":""},{"bold":true,"color":"white","text":"Снежок"}],"text":""}'
+      lore:
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"red","text":"Замедление
+        2 (0:40)"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"red","text":"Утомление
+        2 (0:40)"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"red","text":"Иссушение
+        2 (0:40)"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"red","text":"Отравление
+        5 (0:40)"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"blue","text":"Свечение
+        (1:00)"}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 126
+        BLUE: 231
+        GREEN: 228
+      custom-effects:
+      - ==: PotionEffect
+        effect: 2
+        duration: 800
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 4
+        duration: 800
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 20
+        duration: 800
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 24
+        duration: 1200
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 19
+        duration: 800
+        amplifier: 5
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

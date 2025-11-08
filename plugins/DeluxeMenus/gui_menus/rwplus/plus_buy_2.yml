@@ -1,0 +1,48 @@
+menu_title: '&fꈁꀀꈂꌨꈂꀁ&0ꈃꄢ'
+open_command:
+size: 54
+items:
+  's1':
+    material: green_concrete
+    slots:
+    - 20
+    - 21
+    - 29
+    - 30
+    display_name: '&a&lПодтвердить'
+    lore:
+    - ''
+    - ' &fНажмите чтобы &aподтвердить &fпокупку'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 999
+          deny_commands:
+            - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6cuteworld.pw'    
+    left_click_commands:  
+      - '[console] points take %player_name% 999'
+      - '[console] fmsub give %player_name% 90'
+      - '[console] lp user %player_name% permission settemp essentials.setwarp true 7776000s'
+      - '[console] lp user %player_name% permission settemp user.plus true 7776000s'
+      - '[close]'
+
+  's2':
+    material: red_concrete
+    slots:
+    - 23
+    - 24
+    - 32
+    - 33
+    display_name: '&c&lОтказаться'
+    lore:
+    - ''
+    - ' &fНажмите чтобы &cотказаться от &fпокупки'
+    left_click_commands:
+    - '[close]' 
+    - '[player] plus'
+    right_click_commands:
+    - '[close]' 
+    - '[player] plus'

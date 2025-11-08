@@ -1,0 +1,45 @@
+location: spawn:-11.442:69.000:-19.488
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&fТоп боевого пропуска &x&f&b&b&e&2&2&lГ&x&f&b&a&b&2&0&lР&x&f&c&9&7&1&e&lИ&x&f&c&8&4&1&c&lФ
+      &x&f&d&7&0&1&a&l#&x&f&d&5&d&1&8&l1'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&c#1 &r%nBattlePass_top_name_1%   <#FFB000>%nBattlePass_top_exp_1%</#FF7200>
+      &rꐇ'
+    height: 0.3
+  - content: '&c#2 &r%nBattlePass_top_name_2%   <#FFB000>%nBattlePass_top_exp_2%</#FF7200>
+      &rꐇ'
+    height: 0.3
+  - content: '&c#3 &r%nBattlePass_top_name_3%   <#FFB000>%nBattlePass_top_exp_3%</#FF7200>
+      &rꐇ'
+    height: 0.3
+  - content: '&c#4 &r%nBattlePass_top_name_4%   <#FFB000>%nBattlePass_top_exp_4%</#FF7200>
+      &rꐇ'
+    height: 0.3
+  - content: '&c#5 &r%nBattlePass_top_name_5%   <#FFB000>%nBattlePass_top_exp_5%</#FF7200>
+      &rꐇ'
+    height: 0.3
+  - content: '&c#6 &r%nBattlePass_top_name_6%   <#FFB000>%nBattlePass_top_exp_6%</#FF7200>
+      &rꐇ'
+    height: 0.3
+  - content: '&c#7 &r%nBattlePass_top_name_7%   <#FFB000>%nBattlePass_top_exp_7%</#FF7200>
+      &rꐇ'
+    height: 0.3
+  - content: '&c#8 &r%nBattlePass_top_name_8%   <#FFB000>%nBattlePass_top_exp_8%</#FF7200>
+      &rꐇ'
+    height: 0.3
+  - content: '&c#9 &r%nBattlePass_top_name_9%   <#FFB000>%nBattlePass_top_exp_9%</#FF7200>
+      &rꐇ'
+    height: 0.3
+  - content: '&c#10 &r%nBattlePass_top_name_10%   <#FFB000>%nBattlePass_top_exp_10%</#FF7200>
+      &rꐇ'
+    height: 0.3
+  actions: {}

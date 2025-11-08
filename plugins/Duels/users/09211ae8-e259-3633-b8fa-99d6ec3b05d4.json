@@ -1,0 +1,37 @@
+{
+  "uuid": "09211ae8-e259-3633-b8fa-99d6ec3b05d4",
+  "name": "xqzlewood",
+  "wins": 0,
+  "losses": 3,
+  "requests": true,
+  "rating": {
+    "totem": 1384,
+    "nezerka": 1369
+  },
+  "matches": [
+    {
+      "winner": "heer_sikaon",
+      "loser": "xqzlewood",
+      "kit": "nezerka",
+      "time": 1748071838915,
+      "duration": 60950,
+      "health": 10.0
+    },
+    {
+      "winner": "zxceverestii",
+      "loser": "xqzlewood",
+      "kit": "nezerka",
+      "time": 1749524442489,
+      "duration": 78543,
+      "health": 9.5
+    },
+    {
+      "winner": "zxceverestii",
+      "loser": "xqzlewood",
+      "kit": "totem",
+      "time": 1749524442489,
+      "duration": 319220,
+      "health": 8.0
+    }
+  ]
+}

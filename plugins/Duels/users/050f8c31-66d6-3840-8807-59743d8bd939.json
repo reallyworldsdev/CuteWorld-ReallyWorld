@@ -1,0 +1,38 @@
+{
+  "uuid": "050f8c31-66d6-3840-8807-59743d8bd939",
+  "name": "Blade_man",
+  "wins": 0,
+  "losses": 3,
+  "requests": true,
+  "rating": {
+    "shari": 1384,
+    "chiter": 1384,
+    "nezerka": 1384
+  },
+  "matches": [
+    {
+      "winner": "Romanus228",
+      "loser": "Blade_man",
+      "kit": "nezerka",
+      "time": 1749178843787,
+      "duration": 101369,
+      "health": 9.0
+    },
+    {
+      "winner": "Romanus228",
+      "loser": "Blade_man",
+      "kit": "shari",
+      "time": 1749178843787,
+      "duration": 82185,
+      "health": 9.0
+    },
+    {
+      "winner": "Romanus228",
+      "loser": "Blade_man",
+      "kit": "chiter",
+      "time": 1749178843787,
+      "duration": 111575,
+      "health": 6.5
+    }
+  ]
+}

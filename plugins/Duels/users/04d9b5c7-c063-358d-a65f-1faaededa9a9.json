@@ -1,0 +1,56 @@
+{
+  "uuid": "04d9b5c7-c063-358d-a65f-1faaededa9a9",
+  "name": "Koteno4ekk",
+  "wins": 23,
+  "losses": 33,
+  "requests": true,
+  "rating": {
+    "classic": 1356,
+    "shari": 1340,
+    "totem": 1387,
+    "chiter": 1398,
+    "nezerka": 1368
+  },
+  "matches": [
+    {
+      "winner": "FaDza",
+      "loser": "Koteno4ekk",
+      "kit": "classic",
+      "time": 1742633987531,
+      "duration": 19248,
+      "health": 4.5
+    },
+    {
+      "winner": "Floxi123",
+      "loser": "Koteno4ekk",
+      "kit": "classic",
+      "time": 1742633987531,
+      "duration": 29378,
+      "health": 3.0
+    },
+    {
+      "winner": "Koteno4ekk",
+      "loser": "ezzka_GHOST",
+      "kit": "classic",
+      "time": 1742633987531,
+      "duration": 73978,
+      "health": 10.0
+    },
+    {
+      "winner": "Glotky",
+      "loser": "Koteno4ekk",
+      "kit": "classic",
+      "time": 1742698878077,
+      "duration": 17466,
+      "health": 7.0
+    },
+    {
+      "winner": "WER5677889",
+      "loser": "Koteno4ekk",
+      "kit": "nezerka",
+      "time": 1742698878077,
+      "duration": 311724,
+      "health": 6.5
+    }
+  ]
+}

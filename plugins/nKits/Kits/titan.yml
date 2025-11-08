@@ -1,0 +1,143 @@
+Name: titan
+Cooldown: 86400
+Permission: greatkits.kits.titan
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARROW_FIRE: 1
+        ARROW_DAMAGE: 2
+        DURABILITY: 2
+      repair-cost: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: IRON_PICKAXE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: IRON_SHOVEL
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLDEN_APPLE
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: COOKED_PORKCHOP
+    amount: 28
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: BIRCH_LOG
+    amount: 32
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: IRON_INGOT
+    amount: 20
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TORCH
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: YELLOW_STAINED_GLASS
+    amount: 32
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: OAK_SIGN
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: OAK_LOG
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: WHEAT_SEEDS
+    amount: 12
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: CHEST
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: YELLOW_WOOL
+    amount: 32
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: COAL
+    amount: 32
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ARROW
+    amount: 32
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SHIELD
+  Armor:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: CHAINMAIL_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: IRON_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: IRON_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: CHAINMAIL_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2

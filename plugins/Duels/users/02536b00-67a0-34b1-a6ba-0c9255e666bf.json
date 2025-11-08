@@ -1,0 +1,58 @@
+{
+  "uuid": "02536b00-67a0-34b1-a6ba-0c9255e666bf",
+  "name": "zenyrw590124",
+  "wins": 25,
+  "losses": 24,
+  "requests": true,
+  "rating": {
+    "classic": 1356,
+    "shari": 1417,
+    "chiter": 1429,
+    "totem": 1427,
+    "nodebaff": 1362,
+    "bow": 1400,
+    "nezerka": 1432
+  },
+  "matches": [
+    {
+      "winner": "zenyrw590124",
+      "loser": "Agro_pypsik228",
+      "kit": "totem",
+      "time": 1741921246746,
+      "duration": 179511,
+      "health": 10.0
+    },
+    {
+      "winner": "zenyrw590124",
+      "loser": "Agro_pypsik228",
+      "kit": "totem",
+      "time": 1741921246746,
+      "duration": 440717,
+      "health": 4.5
+    },
+    {
+      "winner": "zenyrw590124",
+      "loser": "Agro_pypsik228",
+      "kit": "totem",
+      "time": 1742007640918,
+      "duration": 499827,
+      "health": 10.0
+    },
+    {
+      "winner": "zenyrw590124",
+      "loser": "Rebzi18",
+      "kit": "nezerka",
+      "time": 1742007640918,
+      "duration": 20363,
+      "health": 7.0
+    },
+    {
+      "winner": "Rebzi18",
+      "loser": "zenyrw590124",
+      "kit": "totem",
+      "time": 1742007640918,
+      "duration": 146428,
+      "health": 10.0
+    }
+  ]
+}

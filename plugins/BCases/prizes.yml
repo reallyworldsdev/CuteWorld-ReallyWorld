@@ -1,0 +1,723 @@
+# Команды
+# [TAKE_KEY] <key> - забрать у игрока один указанный ключ
+# [PLAY] <animation> <prizes> - запустить анимацию
+# [MESSAGE] <msg> - отправить игроку сообщение
+# [BROADCAST] <msg> - отправить сообщение всем игрокам на сервере
+# [CONSOLE] <cmd> - выполнить команду от консоли
+# [GIVE] <item base64> <?min> <?max> - выдать игроку предмет. Чтобы получить предмет в виде base64 используйте команду /bcases dump
+# [TITLE] <"Title\nSubTitle"> <?fadeIn> <?stay> <?fadeOut> - отправить title игроку
+# [ACTION_BAR] <msg> - отправить action bar игроку
+
+prizes:
+##################
+# ВСЕ ИЛИ НИЧЕГО #
+##################
+  allofthem: # Набор призов default
+    # первый приз
+    - chance: 80 
+      enchanted: false
+      material: stone
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &7&lНичего'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aВсе или ничего'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&7&lНичего"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+      display_name: '&7&lНичего'
+
+    - chance: 15 
+      enchanted: false
+      material: RED_SHULKER_BOX
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &7Набор &x&F&F&0&0&4&F&lD&x&F&F&0&0&4&C&l.&x&F&F&0&0&4&9&lA&x&F&F&0&0&4&7&lD&x&F&F&0&0&4&4&lM&x&F&F&0&0&4&1&lI&x&F&F&0&0&3&E&lN'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aВсе или ничего'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[CONSOLE] xkit dadmin %player_name%'
+        - '[TITLE] "&7Набор &x&F&F&0&0&4&F&lD&x&F&F&0&0&4&C&l.&x&F&F&0&0&4&9&lA&x&F&F&0&0&4&7&lD&x&F&F&0&0&4&4&lM&x&F&F&0&0&4&1&lI&x&F&F&0&0&3&E&lN"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+      display_name: '&7Набор &x&F&F&0&0&4&F&lD&x&F&F&0&0&4&C&l.&x&F&F&0&0&4&9&lA&x&F&F&0&0&4&7&lD&x&F&F&0&0&4&4&lM&x&F&F&0&0&4&1&lI&x&F&F&0&0&3&E&lN'
+
+    - chance: 5
+      enchanted: false
+      material: RED_SHULKER_BOX
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &x&F&F&0&0&4&F&lD&x&F&F&0&0&4&C&l.&x&F&F&0&0&4&9&lA&x&F&F&0&0&4&7&lD&x&F&F&0&0&4&4&lM&x&F&F&0&0&4&1&lI&x&F&F&0&0&3&E&lN'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aВсе или ничего'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[CONSOLE] lp user %player_name% parent add dadmin'
+        - '[TITLE] "&x&F&F&0&0&4&F&lD&x&F&F&0&0&4&C&l.&x&F&F&0&0&4&9&lA&x&F&F&0&0&4&7&lD&x&F&F&0&0&4&4&lM&x&F&F&0&0&4&1&lI&x&F&F&0&0&3&E&lN"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+      display_name: '&x&F&F&0&0&4&F&lD&x&F&F&0&0&4&C&l.&x&F&F&0&0&4&9&lA&x&F&F&0&0&4&7&lD&x&F&F&0&0&4&4&lM&x&F&F&0&0&4&1&lI&x&F&F&0&0&3&E&lN'
+
+
+##################
+# МОНЕТНЫЙ #
+##################
+  money: # Набор призов default
+    # первый приз
+    - chance: 20 
+      enchanted: false
+      material: GOLD_INGOT
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &e&l15.000 &rꐂ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с валютой'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&e&l15.000 &rꐂ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] eco give %player_name% 15000'
+      display_name: '&e&l15.000 &rꐂ'
+
+    - chance: 20 
+      enchanted: false
+      material: GOLD_INGOT
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &e&l25.000 &rꐂ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с валютой'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&e&l25.000 &rꐂ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] eco give %player_name% 25000'
+      display_name: '&e&l25.000 &rꐂ'
+
+    - chance: 20 
+      enchanted: false
+      material: GOLD_INGOT
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &e&l50.000 &rꐂ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с валютой'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&e&l50.000 &rꐂ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] eco give %player_name% 50000'
+      display_name: '&e&l50.000 &rꐂ'
+
+    - chance: 20 
+      enchanted: false
+      material: GOLD_INGOT
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &e&l75.000 &rꐂ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с валютой'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&e&l75.000 &rꐂ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] eco give %player_name% 75000'
+      display_name: '&e&l75.000 &rꐂ'
+
+    - chance: 20 
+      enchanted: false
+      material: GOLD_INGOT
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &e&l150.000 &rꐂ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с валютой'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&e&l150.000 &rꐂ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] eco give %player_name% 150000'
+      display_name: '&e&l150.000 &rꐂ'
+
+    - chance: 20 
+      enchanted: false
+      material: GOLD_INGOT
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &e&l250.000 &rꐂ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с валютой'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&e&l250.000 &rꐂ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] eco give %player_name% 250000'
+      display_name: '&e&l250.000 &rꐂ'
+
+    - chance: 20 
+      enchanted: false
+      material: GOLD_INGOT
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &e&l500.000 &rꐂ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с валютой'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&e&l500.000 &rꐂ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] eco give %player_name% 500000'
+      display_name: '&e&l500.000 &rꐂ'
+
+    - chance: 20 
+      enchanted: false
+      material: GOLD_INGOT
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &e&l1.000.000 &rꐂ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с валютой'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&e&l1.000.000 &rꐂ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] eco give %player_name% 1000000'
+      display_name: '&e&l1.000.000 &rꐂ'
+
+
+
+##################
+# СУПЕР #
+##################
+  super: # Набор призов default
+    # первый приз
+    - chance: 20 
+      enchanted: false
+      material: ORANGE_SHULKER_BOX
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл ꔶ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aСупер кейс'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "ꔶ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] lp user %player_name% parent add tiger'
+      display_name: 'ꔶ'
+
+    - chance: 18
+      enchanted: false
+      material: ORANGE_SHULKER_BOX
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл ꕒ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aСупер кейс'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "ꕒ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] lp user %player_name% parent add rabbit'
+      display_name: 'ꕒ'
+
+    - chance: 20 
+      enchanted: false
+      material: ORANGE_SHULKER_BOX
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл ꕠ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aСупер кейс'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "ꕠ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] lp user %player_name% parent add dhelper'
+      display_name: 'ꕠ'
+      
+      
+      
+
+##################
+# МИЛЫЙ #
+##################
+  cute: # Набор призов default
+    # первый приз
+    - chance: 40 
+      enchanted: false
+      material: WHITE_SHULKER_BOX
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл ꕒ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aМилый кейс'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "ꕒ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] lp user %player_name% parent add rabbit'
+      display_name: 'ꕒ'
+
+    - chance: 30 
+      enchanted: false
+      material: YELLOW_SHULKER_BOX
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл ꕠ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aМилый кейс'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "ꕠ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] lp user %player_name% parent add dhelper'
+      display_name: 'ꕠ'
+
+    - chance: 15 
+      enchanted: false
+      material: LIGHT_BLUE_SHULKER_BOX
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &x&0&8&C&A&F&B&lV&x&0&6&B&E&F&C&lI&x&0&5&B&2&F&D&lK&x&0&3&A&5&F&D&lI&x&0&2&9&9&F&E&lN&x&0&0&8&D&F&F&lG'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aМилый кейс'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&x&0&8&C&A&F&B&lV&x&0&6&B&E&F&C&lI&x&0&5&B&2&F&D&lK&x&0&3&A&5&F&D&lI&x&0&2&9&9&F&E&lN&x&0&0&8&D&F&F&lG"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] lp user %player_name% parent add viking'
+      display_name: '&x&0&8&C&A&F&B&lV&x&0&6&B&E&F&C&lI&x&0&5&B&2&F&D&lK&x&0&3&A&5&F&D&lI&x&0&2&9&9&F&E&lN&x&0&0&8&D&F&F&lG'
+
+    - chance: 10 
+      enchanted: false
+      material: BLACK_SHULKER_BOX
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл ꕖ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aМилый кейс'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "ꕖ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] lp user %player_name% parent add bunny'
+      display_name: 'ꕖ'
+
+    - chance: 5 
+      enchanted: false
+      material: LIME_SHULKER_BOX
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл ꕀ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aМилый кейс'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "ꕀ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] lp user %player_name% parent add hydra'
+      display_name: 'ꕀ'
+
+
+##################
+# ФРИ ДОНАТ #
+##################
+  donate: # Набор призов default
+    # первый приз
+    - chance: 20 
+      enchanted: false
+      material: BLUE_SHULKER_BOX
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл ꔄ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aДонат кейс'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "ꔄ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] lp user %player_name% parent add hero'
+      display_name: 'ꔄ'
+      
+    - chance: 20 
+      enchanted: false
+      material: YELLOW_SHULKER_BOX
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл ꔈ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aДонат кейс'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "ꔈ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] lp user %player_name% parent add titan'
+      display_name: 'ꔈ'
+      
+    - chance: 15 
+      enchanted: false
+      material: LIME_SHULKER_BOX
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл ꔒ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aДонат кейс'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "ꔒ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] lp user %player_name% parent add avenger'
+      display_name: 'ꔒ'
+      
+    - chance: 15 
+      enchanted: false
+      material: LIGHT_BLUE_SHULKER_BOX
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл ꔈ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aДонат кейс'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "ꔈ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] lp user %player_name% parent add overlord'
+      display_name: 'ꔈ'
+      
+    - chance: 10 
+      enchanted: false
+      material: ORANGE_SHULKER_BOX
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл ꔠ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aДонат кейс'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "ꔠ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] lp user %player_name% parent add magister'
+      display_name: 'ꔠ'
+      
+    - chance: 10 
+      enchanted: false
+      material: RED_SHULKER_BOX
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл ꔤ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aДонат кейс'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "ꔤ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] lp user %player_name% parent add imperator'
+      display_name: 'ꔤ'
+      
+    - chance: 100 
+      enchanted: false
+      material: MAGENTA_SHULKER_BOX
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл ꔨ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aДонат кейс'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "ꔨ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] lp user %player_name% parent add dragon'
+      display_name: 'ꔨ'
+      
+##################
+# РИЛЛИК #
+##################
+  rilik: # Набор призов default
+    # первый приз
+    - chance: 20 
+      enchanted: false
+      material: GOLD_NUGGET
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &a&l10 &rꐃ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с риликами'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&a&l10 &rꐃ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] p give %player_name% 10'
+      display_name: '&a&l10 &rꐃ'
+      
+    - chance: 20 
+      enchanted: false
+      material: GOLD_NUGGET
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &a&l30 &rꐃ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с риликами'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&a&l30 &rꐃ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] p give %player_name% 30'
+      display_name: '&a&l30 &rꐃ'
+      
+    - chance: 20 
+      enchanted: false
+      material: GOLD_NUGGET
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &a&l45 &rꐃ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с риликами'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&a&l45 &rꐃ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] p give %player_name% 45'
+      display_name: '&a&l45 &rꐃ'
+      
+    - chance: 20 
+      enchanted: false
+      material: GOLD_NUGGET
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &a&l60 &rꐃ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с риликами'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&a&l60 &rꐃ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] p give %player_name% 60'
+      display_name: '&a&l60 &rꐃ'
+      
+    - chance: 20 
+      enchanted: false
+      material: GOLD_NUGGET
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &a&l80 &rꐃ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с риликами'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&a&l80 &rꐃ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] p give %player_name% 80'
+      display_name: '&a&l80 &rꐃ'
+      
+    - chance: 20 
+      enchanted: false
+      material: GOLD_NUGGET
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &a&l100 &rꐃ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с риликами'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&a&l100 &rꐃ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] p give %player_name% 100'
+      display_name: '&a&l100 &rꐃ'
+      
+    - chance: 15 
+      enchanted: false
+      material: GOLD_NUGGET
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &a&l150 &rꐃ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с риликами'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&a&l150 &rꐃ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] p give %player_name% 150'
+      display_name: '&a&l150 &rꐃ'
+      
+    - chance: 15 
+      enchanted: false
+      material: GOLD_NUGGET
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &a&l300 &rꐃ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с риликами'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&a&l300 &rꐃ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] p give %player_name% 300'
+      display_name: '&a&l300 &rꐃ'
+      
+    - chance: 15 
+      enchanted: false
+      material: GOLD_NUGGET
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &a&l500 &rꐃ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с риликами'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&a&l500 &rꐃ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] p give %player_name% 500'
+      display_name: '&a&l500 &rꐃ'
+      
+    - chance: 10 
+      enchanted: false
+      material: GOLD_NUGGET
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &a&l1000 &rꐃ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с риликами'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&a&l1000 &rꐃ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] p give %player_name% 1000'
+      display_name: '&a&l1000 &rꐃ'
+      
+    - chance: 10 
+      enchanted: false
+      material: GOLD_NUGGET
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &a&l3000 &rꐃ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с риликами'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&a&l3000 &rꐃ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] p give %player_name% 3000'
+      display_name: '&a&l3000 &rꐃ'
+      
+    - chance: 10 
+      enchanted: false
+      material: GOLD_NUGGET
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &a&l6000 &rꐃ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с риликами'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&a&l6000 &rꐃ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] p give %player_name% 6000'
+      display_name: '&a&l6000 &rꐃ'
+     
+    - chance: 5 
+      enchanted: false
+      material: GOLD_NUGGET
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &a&l15000 &rꐃ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с риликами'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&a&l15000 &rꐃ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] p give %player_name% 15000'
+      display_name: '&a&l15000 &rꐃ'
+      
+##################
+# НАБОРЫ #
+##################
+  kit: # Набор призов default
+    # первый приз
+    - chance: 20 
+      enchanted: false
+      material: LIGHT_GRAY_SHULKER_BOX
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &7Начальный Набор'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с китами'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&7Начальный Набор"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] kit start %player_name%'
+      display_name: '&7Начальный Набор'
+      
+    - chance: 20 
+      enchanted: false
+      material: WHITE_SHULKER_BOX
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &7Набор ꔄ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с китами'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&7Набор ꔄ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] kit hero %player_name%'
+      display_name: '&7Набор ꔄ'
+      
+    - chance: 20 
+      enchanted: false
+      material: YELLOW_SHULKER_BOX
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &7Набор ꔈ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с китами'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&7Набор ꔈ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] kit titan %player_name%'
+      display_name: '&7Набор ꔈ'
+      
+    - chance: 20 
+      enchanted: false
+      material: LIME_SHULKER_BOX
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &7Набор ꔒ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с китами'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&7Набор ꔒ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] kit avenger %player_name%'
+      display_name: '&7Набор ꔒ'
+      
+    - chance: 20 
+      enchanted: false
+      material: LIGHT_BLUE_SHULKER_BOX
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &7Набор ꔈ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с китами'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&7Набор ꔈ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] kit overlord %player_name%'
+      display_name: '&7Набор ꔈ'
+      
+    - chance: 20 
+      enchanted: false
+      material: ORANGE_SHULKER_BOX
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &7Набор ꔠ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с китами'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&7Набор ꔠ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] kit magister %player_name%'
+      display_name: '&7Набор ꔠ'
+      
+    - chance: 20 
+      enchanted: false
+      material: RED_SHULKER_BOX
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &7Набор ꔤ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с китами'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&7Набор ꔤ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] kit imperator %player_name%'
+      display_name: '&7Набор ꔤ'
+      
+    - chance: 20 
+      enchanted: false
+      material: MAGENTA_SHULKER_BOX
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &7Набор ꔨ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с китами'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&7Набор ꔨ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] kit dragon %player_name%'
+      display_name: '&7Набор ꔨ'
+      
+    - chance: 20 
+      enchanted: false
+      material: WHITE_SHULKER_BOX
+      give_commands: # команды выдачи
+        - '[MESSAGE] &6ꐁ'
+        - '[MESSAGE] &6ꐁ &fИгрок &e%player_name% &fвыиграл &7Набор ꕒ'
+        - '[MESSAGE] &6ꐁ &fОткрыв &aКейс с китами'
+        - '[MESSAGE] &6ꐁ &fПокупка кейсов на сайте: &6CuteWorld.pw'
+        - '[MESSAGE] &6ꐀ'
+        - '[TITLE] "&7Набор ꕒ"'
+        - '[CONSOLE] title %player_name% subtitle "Ваш приз"'
+        - '[CONSOLE] kit rabbit %player_name%'
+      display_name: '&7Набор ꕒ'

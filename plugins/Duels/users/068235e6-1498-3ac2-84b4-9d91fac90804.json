@@ -1,0 +1,20 @@
+{
+  "uuid": "068235e6-1498-3ac2-84b4-9d91fac90804",
+  "name": "_Podik_zxvc",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "nezerka": 1387
+  },
+  "matches": [
+    {
+      "winner": "z0ns",
+      "loser": "_Podik_zxvc",
+      "kit": "nezerka",
+      "time": 1742223027775,
+      "duration": 99071,
+      "health": 6.5
+    }
+  ]
+}

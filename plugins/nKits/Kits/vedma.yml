@@ -1,0 +1,117 @@
+Name: vedma
+Cooldown: 0
+Permission: nKits.kits.vedma
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"Зелье
+        Ведьмы"}],"text":""}'
+      lore:
+      - '{"text":"§cОтравление IV (0:40)"}'
+      - '{"text":"§cЗамедление IV (0:15)"}'
+      - '{"text":"§9Свечение (1:00)"}'
+      - '{"text":"§cСлепота IV (0:15)"}'
+      - '{"text":"§cСлабость (0:15)"}'
+      - '{"text":""}'
+      - '{"text":"§5При применении:"}'
+      - '{"text":"§c-60% Скорость"}'
+      - '{"text":"§c-4 Урон"}'
+      enchants:
+        DAMAGE_ALL: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_POTION_EFFECTS
+      custom-color:
+        ==: Color
+        RED: 214
+        BLUE: 240
+        GREEN: 76
+      custom-effects:
+      - ==: PotionEffect
+        effect: 19
+        duration: 800
+        amplifier: 3
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 2
+        duration: 300
+        amplifier: 3
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 24
+        duration: 1200
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 15
+        duration: 300
+        amplifier: 3
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 18
+        duration: 300
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

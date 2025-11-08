@@ -1,0 +1,20 @@
+{
+  "uuid": "0a21b0d5-3dad-354b-85ed-c939ed1966cc",
+  "name": "SAUISDIUOASU",
+  "wins": 1,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "shari": 1416
+  },
+  "matches": [
+    {
+      "winner": "SAUISDIUOASU",
+      "loser": "alena_21pizza",
+      "kit": "shari",
+      "time": 1741575644565,
+      "duration": 60103,
+      "health": 10.0
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+invName: "&fꈁꀀꈂꌡꈂꀁ&0ꈃꄠ&r"
+invSize: 54
+items:
+  - "SLIME_BALL"
+  - "FLINT"
+  - "COBWEB"
+  - "GUNPOWDER"
+  - "BLAZE_ROD"
+  - "GOLDEN_CARROT"
+  - "CACTUS"
+  - "REDSTONE"
+  - "QUARTZ"
+  - "PRISMARINE"
+  - "GLOWSTONE_DUST"
+  - "SPIDER_EYE"
+  - "DIAMOND"
+  - "SAND"
+  - "NETHER_WART"
+  - "FERMENTED_SPIDER_EYE"
+  - "MAGMA_BLOCK"
+  - "STRING"
+  - "ROTTEN_FLESH"
+  - "GOLDEN_APPLE"
+  - "BONE"
+  - "COAL"
+  - "LAPIS_LAZULI"
+  - "IRON_INGOT"
+  - "WHEAT"
+  - "EMERALD"
+  - "COBBLESTONE"
+  - "ARROW"
+  - "FEATHER"
+  - "GOLD_INGOT"
+  - "GLOWSTONE"
+  - "SUGAR_CANE"
+  - "CARROT"
+  - "DRAGON_BREATH"
+  - "CHICKEN"
+  - "POTATO"
+  - "SPONGE"
+infoName: "&6Информация"
+infoDesc:
+  - "&7Здесь вы можете продать лишние вещи"
+  - "&7Ассортимент обновляется каждый &6час"
+  - "&7"
+  - "&7На специальное предложение"
+  - "&7Цена увеличена в несколько раз"
+defItemLore:
+  - "&f"
+  - "&7Цена за штуку: &6%defPrice%¢"
+  - "&7Цена за стак: &6%stackPrice%¢"
+  - ""
+  - "&7Скуплено за час &6%sells%"
+  - "&7на сумму &6%totalPrice%¢"
+  - ""
+  - "&6================================="
+  - ""
+  - "&7Нажмите &6ЛКМ&7, для продажи &61шт."
+  - "&7Нажмите &6ПКМ&7, для продажи &664шт."
+  - "&7Нажмите &6СКМ&7, для продажи &6Всего"
+specItemLore:
+  - "&6Уникальная цена на предмет!"
+  - "&6Цена увеличена в несколько раз!"
+  - ""
+  - "&7Цена за штуку: &6%price%¢ &c&m%defPrice%¢"
+  - "&7Цена за стак: &6%stackPrice%¢ &c&m%defStackPrice%¢"
+  - ""
+  - "&7Скуплено &6%sells% &7из &64680"
+  - "&7на сумму &6%totalPrice%¢"
+  - ""
+  - "&6================================="
+  - ""
+  - "&7Нажмите &6ЛКМ&7, для продажи &61шт."
+  - "&7Нажмите &6ПКМ&7, для продажи &664шт."
+  - "&7Нажмите &6СКМ&7, для продажи &6Всего"
+  - ""
+musicBlockName: "&6Продать все"
+musicBlockLore:
+  - "&7Нажмите, чтобы продать"
+  - "&6Все &7доступные вещи."
+updateTime: 3600
+minPrice: 30
+maxPrice: 100
+modelData: 10001
+sellerHologram: "До обновления: &6%time%"
+sellMessage: "&6Скупщик &8» &fПродано &6%count% &fпредметов на сумму &6%price%¢"
+
+FLINTmin: 5
+FLINTmax: 10
+COBWEBmin: 130
+COBWEBmax: 150
+GUNPOWDERmin: 15
+GUNPOWDERmax: 20
+BLAZE_RODmin: 15
+BLAZE_RODmax: 20
+GOLDEN_CARROTmin: 150
+GOLDEN_CARROTmax: 170
+CACTUSmin: 1
+CACTUSmax: 6
+REDSTONEmin: 35
+REDSTONEmax: 45
+QUARTZmin: 10
+QUARTZmax: 15
+PRISMARINEmin: 5
+PRISMARINEmax: 8
+GLOWSTONE_DUSTmin: 70
+GLOWSTONE_DUSTmax: 78
+SPIDER_EYEmin: 11
+SPIDER_EYEmax: 16
+DIAMONDmin: 15
+DIAMONDmax: 20
+SANDmin: 1
+SANDmax: 3
+NETHER_WARTmin: 6
+NETHER_WARTmax: 10
+FERMENTED_SPIDER_EYEmin: 6
+FERMENTED_SPIDER_EYEmax: 10
+MAGMA_BLOCKmin: 10
+MAGMA_BLOCKmax: 14
+STRINGmin: 9
+STRINGmax: 11
+ROTTEN_FLESHmin: 10
+ROTTEN_FLESHmax: 15
+GOLDEN_APPLEmin: 800
+GOLDEN_APPLEmax: 1000
+BONEmin: 10
+BONEmax: 15
+COALmin: 10
+COALmax: 15
+LAPIS_LAZULImin: 10
+LAPIS_LAZULImax: 15
+IRON_INGOTmin: 10
+IRON_INGOTmax: 15
+WHEATmin: 1
+WHEATmax: 6
+SLIME_BALLmin: 10
+SLIME_BALLmax: 15
+EMERALDmin: 14
+EMERALDmax: 18
+COBBLESTONEmin: 1
+COBBLESTONEmax: 2
+ARROWmin: 38
+ARROWmax: 42
+FEATHERmin: 10
+FEATHERmax: 12
+GOLD_INGOTmin: 14
+GOLD_INGOTmax: 18
+GLOWSTONEmin: 70
+GLOWSTONEmax: 76
+SUGAR_CANEmin: 1
+SUGAR_CANEmax: 3
+CARROTmin: 6
+CARROTmax: 10
+DRAGON_BREATHmin: 6
+DRAGON_BREATHmax: 10
+CHICKENmin: 6
+CHICKENmax: 10
+POTATOmin: 7
+POTATOmax: 11
+SPONGEmin: 75
+SPONGEmax: 85
+updateMessage: "&6Скупщик &8» &fУ скупщика доступны новые товары"

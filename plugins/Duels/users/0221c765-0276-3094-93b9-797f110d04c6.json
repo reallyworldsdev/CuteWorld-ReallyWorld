@@ -1,0 +1,20 @@
+{
+  "uuid": "0221c765-0276-3094-93b9-797f110d04c6",
+  "name": "PIDARAS2013",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "classic": 1384
+  },
+  "matches": [
+    {
+      "winner": "arbyz147",
+      "loser": "PIDARAS2013",
+      "kit": "classic",
+      "time": 1741575644565,
+      "duration": 14438,
+      "health": 10.0
+    }
+  ]
+}

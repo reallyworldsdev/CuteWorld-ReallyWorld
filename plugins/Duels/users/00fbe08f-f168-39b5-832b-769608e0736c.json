@@ -1,0 +1,20 @@
+{
+  "uuid": "00fbe08f-f168-39b5-832b-769608e0736c",
+  "name": "Mr_Clumsy__RU95",
+  "wins": 1,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "nezerka": 1411
+  },
+  "matches": [
+    {
+      "winner": "Mr_Clumsy__RU95",
+      "loser": "farmpve376",
+      "kit": "nezerka",
+      "time": 1742698878077,
+      "duration": 28610,
+      "health": 10.0
+    }
+  ]
+}

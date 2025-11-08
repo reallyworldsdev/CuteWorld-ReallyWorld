@@ -1,0 +1,3732 @@
+{
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "provider": {
+      "type": "string"
+    },
+    "type": {
+      "$ref": "#/definitions/dub_1"
+    },
+    "size": {
+      "type": "integer"
+    },
+    "only-open-from": {
+      "$ref": "#/definitions/dub_5"
+    },
+    "args": {
+      "$ref": "#/definitions/dub_6"
+    },
+    "items": {
+      "$ref": "#/definitions/dub_7"
+    },
+    "animation": {
+      "$ref": "#/definitions/dub_8"
+    },
+    "animations": {
+      "type": "object",
+      "patternProperties": {
+        ".*": {
+          "$ref": "#/definitions/dub_8"
+        }
+      }
+    },
+    "commands-list": {
+      "type": "object",
+      "patternProperties": {
+        ".*": {
+          "type": "object",
+          "properties": {
+            "weight": {
+              "type": "number"
+            },
+            "commands": {
+              "$ref": "#/definitions/commands_ref"
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    },
+    "menu-events": {
+      "type": "object",
+      "patternProperties": {
+        ".*": {
+          "type": "object",
+          "properties": {
+            "requirements": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "check": {
+                    "type": "string"
+                  },
+                  "commands": {
+                    "$ref": "#/definitions/commands_ref"
+                  },
+                  "deny_commands": {
+                    "$ref": "#/definitions/commands_ref"
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "check"
+                ]
+              }
+            },
+            "deny_commands": {
+              "$ref": "#/definitions/commands_ref"
+            },
+            "commands": {
+              "$ref": "#/definitions/commands_ref"
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    }
+  },
+  "patternProperties": {
+    "^items-": {
+      "$ref": "#/definitions/dub_7"
+    }
+  },
+  "definitions": {
+    "commands_ref": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": true,
+            "properties": {
+              "back_or_open": {
+                "type": "string",
+                "examples": [
+                  "<menu> <commands>"
+                ]
+              },
+              "title_all": {
+                "type": "string",
+                "examples": [
+                  "<msg> <fadeIn> <stay> <fadeOut>"
+                ]
+              },
+              "reopen": {
+                "type": "string",
+                "examples": [
+                  ""
+                ]
+              },
+              "clear_layer": {
+                "type": "string",
+                "examples": [
+                  "<layer>"
+                ]
+              },
+              "refresh": {
+                "type": "string",
+                "examples": [
+                  ""
+                ]
+              },
+              "update_slots": {
+                "type": "string",
+                "examples": [
+                  "<src>"
+                ]
+              },
+              "run": {
+                "type": "string",
+                "examples": [
+                  "<name>"
+                ]
+              },
+              "broadcast": {
+                "type": "string",
+                "examples": [
+                  "<msg>"
+                ]
+              },
+              "rebuild_slots": {
+                "type": "string",
+                "examples": [
+                  "<src>"
+                ]
+              },
+              "player": {
+                "type": "string",
+                "examples": [
+                  "<cmd>"
+                ]
+              },
+              "chat": {
+                "type": "string",
+                "examples": [
+                  "<cmd>"
+                ]
+              },
+              "back": {
+                "type": "string",
+                "examples": [
+                  "<commands>"
+                ]
+              },
+              "action_bar_all": {
+                "type": "string",
+                "examples": [
+                  "<msg>"
+                ]
+              },
+              "sound": {
+                "type": "string",
+                "examples": [
+                  "<sound> <volume> <pitch>"
+                ]
+              },
+              "animation_tick": {
+                "type": "string",
+                "examples": [
+                  ""
+                ]
+              },
+              "set_param": {
+                "type": "string",
+                "examples": [
+                  "<param> <value>"
+                ]
+              },
+              "back_to_or_close": {
+                "type": "string",
+                "examples": [
+                  "<id> <commands>"
+                ]
+              },
+              "title": {
+                "type": "string",
+                "examples": [
+                  "<msg> <fadeIn> <stay> <fadeOut>"
+                ]
+              },
+              "close": {
+                "type": "string",
+                "examples": [
+                  ""
+                ]
+              },
+              "message": {
+                "type": "string",
+                "examples": [
+                  "<msg>"
+                ]
+              },
+              "import_params": {
+                "type": "string",
+                "examples": [
+                  "<item>"
+                ]
+              },
+              "open": {
+                "type": "string",
+                "examples": [
+                  "<menu> <commands>"
+                ]
+              },
+              "action_bar": {
+                "type": "string",
+                "examples": [
+                  "<msg>"
+                ]
+              },
+              "delay": {
+                "type": "string",
+                "examples": [
+                  "<delay> <cmd>"
+                ]
+              },
+              "run_rand": {
+                "type": "string",
+                "examples": [
+                  ""
+                ]
+              },
+              "givemoney": {
+                "type": "string",
+                "examples": [
+                  "<count>"
+                ]
+              },
+              "back_or_close": {
+                "type": "string",
+                "examples": [
+                  "<commands>"
+                ]
+              },
+              "set_title": {
+                "type": "string",
+                "examples": [
+                  "<title>"
+                ]
+              },
+              "takemoney": {
+                "type": "string",
+                "examples": [
+                  "<count>"
+                ]
+              },
+              "set_animation": {
+                "type": "string",
+                "examples": [
+                  "<animation>"
+                ]
+              },
+              "flush": {
+                "type": "string",
+                "examples": [
+                  ""
+                ]
+              },
+              "die_slots": {
+                "type": "string",
+                "examples": [
+                  "<src>"
+                ]
+              },
+              "animation_force_end": {
+                "type": "string",
+                "examples": [
+                  ""
+                ]
+              },
+              "connect": {
+                "type": "string",
+                "examples": [
+                  "<server>"
+                ]
+              },
+              "copy_from_previous_menu": {
+                "type": "string",
+                "examples": [
+                  "<src> <dest>"
+                ]
+              },
+              "set_item_to_layer": {
+                "type": "string",
+                "examples": [
+                  "<slots> <layer> <item>"
+                ]
+              },
+              "console": {
+                "type": "string",
+                "examples": [
+                  "<cmd>"
+                ]
+              },
+              "rebuild": {
+                "type": "string",
+                "examples": [
+                  ""
+                ]
+              },
+              "die": {
+                "type": "string",
+                "examples": [
+                  ""
+                ]
+              },
+              "update": {
+                "type": "string",
+                "examples": [
+                  ""
+                ]
+              },
+              "set_local": {
+                "type": "string",
+                "examples": [
+                  "<param> <value>"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "dub_4": {
+      "enum": [
+        "block.nether_ore.place",
+        "block.ancient_debris.step",
+        "entity.skeleton.ambient",
+        "entity.ravager.roar",
+        "block.nether_sprouts.step",
+        "block.sand.place",
+        "entity.illusioner.mirror_move",
+        "entity.enderman.teleport",
+        "block.nether_gold_ore.break",
+        "entity.player.attack.strong",
+        "entity.zombie_villager.death",
+        "entity.parrot.imitate.shulker",
+        "entity.armor_stand.hit",
+        "entity.pillager.death",
+        "block.lantern.hit",
+        "entity.ravager.stunned",
+        "block.nylium.break",
+        "block.snow.hit",
+        "block.beehive.shear",
+        "entity.parrot.imitate.blaze",
+        "entity.parrot.imitate.husk",
+        "event.raid.horn",
+        "block.beehive.exit",
+        "block.conduit.attack.target",
+        "block.bubble_column.upwards_inside",
+        "block.weeping_vines.break",
+        "block.chain.place",
+        "entity.cow.milk",
+        "block.soul_soil.break",
+        "ambient.nether_wastes.loop",
+        "block.dispenser.fail",
+        "block.soul_sand.fall",
+        "block.honey_block.place",
+        "entity.arrow.hit",
+        "block.fence_gate.close",
+        "music.creative",
+        "ambient.warped_forest.additions",
+        "block.note_block.didgeridoo",
+        "entity.shulker.death",
+        "entity.zombie.destroy_egg",
+        "block.gravel.fall",
+        "block.campfire.crackle",
+        "block.comparator.click",
+        "entity.bat.loop",
+        "block.stone.fall",
+        "item.flintandsteel.use",
+        "entity.cow.hurt",
+        "entity.bee.death",
+        "music_disc.pigstep",
+        "entity.evoker.cast_spell",
+        "item.crossbow.quick_charge_2",
+        "item.crossbow.quick_charge_3",
+        "entity.ender_dragon.growl",
+        "item.crossbow.quick_charge_1",
+        "block.netherite_block.step",
+        "entity.llama.death",
+        "block.shulker_box.close",
+        "block.respawn_anchor.ambient",
+        "block.nylium.hit",
+        "entity.skeleton.shoot",
+        "entity.zombie.ambient",
+        "entity.elder_guardian.hurt_land",
+        "entity.ender_dragon.ambient",
+        "block.scaffolding.fall",
+        "entity.panda.aggressive_ambient",
+        "block.nether_bricks.break",
+        "block.wool.step",
+        "entity.wolf.pant",
+        "entity.parrot.death",
+        "entity.blaze.death",
+        "entity.player.hurt_drown",
+        "entity.squid.ambient",
+        "block.metal.step",
+        "entity.pillager.ambient",
+        "entity.sheep.hurt",
+        "block.beacon.activate",
+        "block.gravel.break",
+        "entity.firework_rocket.shoot",
+        "block.soul_soil.place",
+        "block.soul_sand.hit",
+        "entity.phantom.bite",
+        "block.wooden_pressure_plate.click_off",
+        "entity.zoglin.angry",
+        "entity.bee.pollinate",
+        "block.coral_block.step",
+        "entity.llama.angry",
+        "entity.hoglin.step",
+        "block.wet_grass.fall",
+        "entity.ravager.attack",
+        "block.note_block.bass",
+        "entity.villager.work_shepherd",
+        "entity.zombie_villager.cure",
+        "entity.armor_stand.place",
+        "block.lodestone.step",
+        "entity.parrot.eat",
+        "entity.ravager.step",
+        "block.nether_gold_ore.place",
+        "entity.endermite.ambient",
+        "block.note_block.banjo",
+        "entity.generic.burn",
+        "entity.villager.work_cleric",
+        "entity.elder_guardian.ambient",
+        "block.portal.travel",
+        "ui.toast.in",
+        "block.note_block.iron_xylophone",
+        "entity.parrot.imitate.zoglin",
+        "block.nether_bricks.step",
+        "block.netherrack.fall",
+        "block.soul_sand.step",
+        "block.composter.fill_success",
+        "entity.piglin.hurt",
+        "entity.villager.work_leatherworker",
+        "entity.panda.step",
+        "music.credits",
+        "block.bamboo.break",
+        "entity.hostile.hurt",
+        "entity.squid.death",
+        "music.game",
+        "block.wart_block.place",
+        "enchant.thorns.hit",
+        "entity.silverfish.death",
+        "entity.wolf.hurt",
+        "block.wool.fall",
+        "entity.dolphin.eat",
+        "entity.sheep.death",
+        "ambient.soul_sand_valley.mood",
+        "entity.villager.yes",
+        "entity.creeper.death",
+        "entity.boat.paddle_water",
+        "entity.zombie.hurt",
+        "ambient.nether_wastes.additions",
+        "block.chest.close",
+        "entity.puffer_fish.flop",
+        "entity.husk.ambient",
+        "block.iron_door.close",
+        "entity.player.attack.weak",
+        "block.stem.place",
+        "entity.evoker.prepare_summon",
+        "block.weeping_vines.place",
+        "entity.drowned.step",
+        "block.soul_sand.break",
+        "entity.cow.ambient",
+        "block.note_block.flute",
+        "block.stone_button.click_off",
+        "entity.firework_rocket.twinkle_far",
+        "block.gilded_blackstone.hit",
+        "entity.zombie_villager.step",
+        "block.nether_bricks.fall",
+        "entity.player.hurt",
+        "entity.skeleton.death",
+        "entity.magma_cube.hurt_small",
+        "entity.dolphin.death",
+        "block.chain.break",
+        "entity.magma_cube.squish_small",
+        "block.stem.break",
+        "entity.witch.drink",
+        "entity.silverfish.step",
+        "entity.drowned.ambient",
+        "entity.villager.work_mason",
+        "block.roots.place",
+        "entity.hostile.small_fall",
+        "block.lantern.break",
+        "entity.ghast.shoot",
+        "entity.pillager.hurt",
+        "block.anvil.destroy",
+        "entity.snow_golem.ambient",
+        "block.stone_pressure_plate.click_off",
+        "entity.cow.death",
+        "item.trident.throw",
+        "entity.player.breath",
+        "entity.parrot.imitate.spider",
+        "music_disc.cat",
+        "entity.zombie.infect",
+        "block.nether_bricks.place",
+        "entity.hoglin.converted_to_zombified",
+        "entity.player.attack.nodamage",
+        "block.sand.hit",
+        "entity.player.big_fall",
+        "block.note_block.xylophone",
+        "entity.shulker.teleport",
+        "music.menu",
+        "entity.zoglin.death",
+        "block.wooden_door.open",
+        "entity.item.pickup",
+        "block.ancient_debris.hit",
+        "block.blastfurnace.fire_crackle",
+        "entity.donkey.hurt",
+        "entity.villager.work_armorer",
+        "block.wood.place",
+        "item.armor.equip_leather",
+        "entity.squid.hurt",
+        "block.nylium.place",
+        "block.nether_ore.break",
+        "block.sand.break",
+        "entity.snow_golem.shear",
+        "entity.shulker.hurt",
+        "entity.drowned.death_water",
+        "block.gilded_blackstone.step",
+        "block.wood.break",
+        "entity.panda.death",
+        "block.netherrack.step",
+        "entity.elder_guardian.death",
+        "entity.ender_eye.launch",
+        "block.bamboo.step",
+        "block.tripwire.click_on",
+        "music.nether.warped_forest",
+        "block.wood.fall",
+        "entity.cod.flop",
+        "entity.phantom.hurt",
+        "block.stone.step",
+        "block.wool.hit",
+        "entity.polar_bear.hurt",
+        "entity.bat.ambient",
+        "entity.piglin.jealous",
+        "block.barrel.open",
+        "entity.salmon.flop",
+        "block.fungus.hit",
+        "entity.cat.beg_for_food",
+        "block.note_block.basedrum",
+        "block.dispenser.dispense",
+        "entity.ender_dragon.hurt",
+        "music.nether.crimson_forest",
+        "entity.piglin_brute.step",
+        "entity.fox.bite",
+        "entity.fox.eat",
+        "entity.polar_bear.warning",
+        "ui.button.click",
+        "particle.soul_escape",
+        "entity.experience_bottle.throw",
+        "item.nether_wart.plant",
+        "entity.leash_knot.place",
+        "entity.parrot.imitate.wither",
+        "ambient.warped_forest.loop",
+        "entity.parrot.step",
+        "entity.endermite.hurt",
+        "entity.endermite.death",
+        "entity.firework_rocket.launch",
+        "entity.chicken.hurt",
+        "block.composter.fill",
+        "block.metal_pressure_plate.click_off",
+        "block.wood.step",
+        "entity.strider.step",
+        "block.bubble_column.bubble_pop",
+        "entity.salmon.death",
+        "entity.strider.retreat",
+        "block.stone.break",
+        "block.lodestone.hit",
+        "block.roots.break",
+        "entity.tnt.primed",
+        "entity.wither_skeleton.step",
+        "block.scaffolding.step",
+        "entity.skeleton_horse.hurt",
+        "entity.mule.chest",
+        "entity.wither.shoot",
+        "item.armor.equip_diamond",
+        "block.bone_block.hit",
+        "entity.chicken.egg",
+        "item.trident.thunder",
+        "entity.pig.saddle",
+        "block.lodestone.fall",
+        "entity.llama.hurt",
+        "block.gilded_blackstone.fall",
+        "entity.parrot.imitate.stray",
+        "entity.phantom.ambient",
+        "entity.piglin.celebrate",
+        "entity.tropical_fish.flop",
+        "block.sand.step",
+        "block.end_portal.spawn",
+        "entity.piglin_brute.ambient",
+        "item.armor.equip_gold",
+        "entity.wolf.whine",
+        "entity.husk.step",
+        "entity.wandering_trader.death",
+        "block.roots.hit",
+        "entity.vex.hurt",
+        "block.scaffolding.place",
+        "entity.villager.work_toolsmith",
+        "block.gilded_blackstone.break",
+        "item.bucket.fill",
+        "item.trident.return",
+        "entity.hoglin.retreat",
+        "entity.tropical_fish.hurt",
+        "block.respawn_anchor.charge",
+        "entity.drowned.hurt_water",
+        "entity.parrot.imitate.silverfish",
+        "block.chorus_flower.death",
+        "entity.snow_golem.shoot",
+        "entity.skeleton.step",
+        "entity.slime.jump_small",
+        "entity.dolphin.attack",
+        "entity.hoglin.hurt",
+        "entity.painting.break",
+        "block.portal.ambient",
+        "entity.hostile.splash",
+        "block.shroomlight.hit",
+        "entity.fox.screech",
+        "block.basalt.place",
+        "block.brewing_stand.brew",
+        "entity.zombified_piglin.death",
+        "block.bamboo_sapling.hit",
+        "entity.piglin_brute.death",
+        "block.metal_pressure_plate.click_on",
+        "ambient.underwater.loop.additions",
+        "block.beehive.work",
+        "entity.enderman.scream",
+        "item.bottle.fill_dragonbreath",
+        "entity.generic.eat",
+        "block.slime_block.place",
+        "block.bubble_column.whirlpool_inside",
+        "entity.guardian.ambient_land",
+        "entity.egg.throw",
+        "entity.parrot.imitate.ravager",
+        "block.beacon.ambient",
+        "entity.panda.worried_ambient",
+        "entity.wither.death",
+        "entity.fox.aggro",
+        "entity.ghast.scream",
+        "ambient.cave",
+        "entity.generic.drink",
+        "entity.hostile.death",
+        "entity.parrot.imitate.ender_dragon",
+        "entity.leash_knot.break",
+        "entity.mule.eat",
+        "music.nether.nether_wastes",
+        "entity.vex.ambient",
+        "block.honey_block.fall",
+        "item.book.put",
+        "entity.ocelot.ambient",
+        "entity.hoglin.angry",
+        "block.fungus.step",
+        "entity.fox.spit",
+        "block.bamboo.fall",
+        "entity.magma_cube.death",
+        "entity.fox.teleport",
+        "entity.witch.celebrate",
+        "entity.chicken.step",
+        "entity.cow.step",
+        "entity.zombie_villager.ambient",
+        "item.hoe.till",
+        "entity.strider.hurt",
+        "entity.lingering_potion.throw",
+        "entity.hoglin.ambient",
+        "block.fungus.break",
+        "entity.fox.death",
+        "entity.player.hurt_sweet_berry_bush",
+        "block.grass.break",
+        "entity.slime.death_small",
+        "entity.parrot.ambient",
+        "entity.snowball.throw",
+        "entity.vex.charge",
+        "entity.chicken.ambient",
+        "entity.skeleton_horse.death",
+        "entity.firework_rocket.twinkle",
+        "block.sand.fall",
+        "entity.wither.spawn",
+        "item.chorus_fruit.teleport",
+        "entity.boat.paddle_land",
+        "entity.llama.eat",
+        "block.slime_block.step",
+        "music.end",
+        "entity.zombified_piglin.ambient",
+        "block.ender_chest.open",
+        "music_disc.blocks",
+        "entity.mooshroom.eat",
+        "entity.strider.saddle",
+        "block.anvil.place",
+        "item.trident.riptide_3",
+        "entity.player.small_fall",
+        "entity.llama.ambient",
+        "item.trident.riptide_1",
+        "entity.horse.eat",
+        "entity.ravager.death",
+        "item.trident.riptide_2",
+        "entity.vindicator.death",
+        "item.crossbow.loading_end",
+        "entity.turtle.ambient_land",
+        "entity.wolf.howl",
+        "block.water.ambient",
+        "entity.snow_golem.death",
+        "entity.spider.ambient",
+        "block.anvil.land",
+        "block.note_block.bell",
+        "entity.wandering_trader.hurt",
+        "entity.bee.loop",
+        "entity.panda.eat",
+        "entity.pig.step",
+        "entity.item_frame.rotate_item",
+        "block.ladder.place",
+        "block.glass.break",
+        "block.respawn_anchor.deplete",
+        "music_disc.wait",
+        "entity.guardian.death",
+        "item.bucket.fill_fish",
+        "block.bamboo.place",
+        "block.anvil.break",
+        "block.honey_block.break",
+        "block.gravel.step",
+        "block.portal.trigger",
+        "entity.fish.swim",
+        "block.snow.fall",
+        "block.coral_block.break",
+        "entity.generic.small_fall",
+        "entity.spider.hurt",
+        "item.shield.break",
+        "entity.zoglin.ambient",
+        "block.metal.fall",
+        "entity.strider.death",
+        "block.fungus.fall",
+        "entity.zombie.converted_to_drowned",
+        "entity.shulker.open",
+        "block.iron_door.open",
+        "block.netherite_block.fall",
+        "entity.llama.step",
+        "entity.ravager.celebrate",
+        "block.honey_block.step",
+        "entity.iron_golem.damage",
+        "entity.piglin_brute.angry",
+        "block.fungus.place",
+        "entity.panda.sneeze",
+        "entity.pig.death",
+        "entity.puffer_fish.sting",
+        "entity.drowned.shoot",
+        "entity.witch.hurt",
+        "entity.skeleton_horse.ambient_water",
+        "item.bottle.fill",
+        "block.netherite_block.hit",
+        "entity.ender_eye.death",
+        "entity.turtle.death",
+        "block.wooden_button.click_on",
+        "entity.elder_guardian.flop",
+        "block.piston.contract",
+        "entity.parrot.imitate.hoglin",
+        "entity.villager.trade",
+        "block.ancient_debris.fall",
+        "block.slime_block.fall",
+        "entity.donkey.death",
+        "entity.wither.hurt",
+        "entity.painting.place",
+        "entity.stray.step",
+        "block.wart_block.fall",
+        "entity.firework_rocket.large_blast",
+        "entity.elder_guardian.curse",
+        "block.furnace.fire_crackle",
+        "entity.shulker_bullet.hit",
+        "block.scaffolding.break",
+        "entity.parrot.imitate.wither_skeleton",
+        "entity.squid.squirt",
+        "entity.puffer_fish.death",
+        "entity.villager.work_librarian",
+        "block.wet_grass.break",
+        "entity.zombified_piglin.angry",
+        "entity.magma_cube.death_small",
+        "entity.phantom.death",
+        "block.wart_block.break",
+        "block.anvil.hit",
+        "entity.guardian.ambient",
+        "entity.illusioner.prepare_blindness",
+        "block.soul_soil.hit",
+        "entity.spider.death",
+        "entity.magma_cube.hurt",
+        "entity.horse.saddle",
+        "block.ladder.break",
+        "block.chest.open",
+        "entity.villager.death",
+        "entity.zoglin.hurt",
+        "block.vine.step",
+        "entity.drowned.hurt",
+        "entity.polar_bear.death",
+        "block.pumpkin.carve",
+        "entity.fishing_bobber.splash",
+        "block.glass.place",
+        "block.soul_sand.place",
+        "block.grass.hit",
+        "ambient.underwater.exit",
+        "entity.magma_cube.jump",
+        "entity.wandering_trader.drink_potion",
+        "block.bubble_column.upwards_ambient",
+        "entity.creeper.primed",
+        "block.end_gateway.spawn",
+        "entity.firework_rocket.blast",
+        "entity.generic.extinguish_fire",
+        "entity.parrot.imitate.witch",
+        "block.coral_block.place",
+        "block.tripwire.click_off",
+        "block.snow.step",
+        "entity.slime.squish_small",
+        "music_disc.chirp",
+        "entity.item_frame.break",
+        "block.ladder.hit",
+        "block.grass.place",
+        "entity.dragon_fireball.explode",
+        "item.totem.use",
+        "item.lodestone_compass.lock",
+        "ambient.crimson_forest.loop",
+        "item.bucket.empty_lava",
+        "entity.elder_guardian.death_land",
+        "entity.bee.sting",
+        "entity.slime.death",
+        "block.wet_grass.step",
+        "block.basalt.hit",
+        "entity.turtle.lay_egg",
+        "entity.panda.ambient",
+        "entity.enderman.hurt",
+        "entity.horse.step",
+        "entity.villager.no",
+        "item.bottle.empty",
+        "block.shroomlight.break",
+        "music_disc.ward",
+        "entity.iron_golem.death",
+        "entity.strider.ambient",
+        "entity.wolf.death",
+        "entity.panda.cant_breed",
+        "block.conduit.activate",
+        "item.sweet_berries.pick_from_bush",
+        "entity.iron_golem.attack",
+        "entity.turtle.hurt",
+        "entity.guardian.flop",
+        "entity.lightning_bolt.thunder",
+        "block.wet_grass.place",
+        "block.lantern.step",
+        "ui.cartography_table.take_result",
+        "entity.wandering_trader.drink_milk",
+        "block.bone_block.place",
+        "block.wooden_door.close",
+        "block.respawn_anchor.set_spawn",
+        "block.weeping_vines.step",
+        "block.roots.step",
+        "entity.pig.hurt",
+        "block.shroomlight.place",
+        "entity.zombie.attack_wooden_door",
+        "entity.wandering_trader.disappeared",
+        "entity.wither.ambient",
+        "entity.drowned.swim",
+        "ambient.underwater.loop",
+        "block.bone_block.step",
+        "ui.toast.challenge_complete",
+        "block.dispenser.launch",
+        "entity.generic.death",
+        "entity.horse.jump",
+        "entity.silverfish.hurt",
+        "block.beacon.deactivate",
+        "block.basalt.step",
+        "item.firecharge.use",
+        "block.anvil.fall",
+        "entity.pig.ambient",
+        "music.nether.soul_sand_valley",
+        "block.shroomlight.step",
+        "entity.horse.armor",
+        "entity.horse.gallop",
+        "item.armor.equip_netherite",
+        "entity.player.attack.sweep",
+        "entity.husk.death",
+        "block.metal.break",
+        "entity.mule.hurt",
+        "item.armor.equip_iron",
+        "ambient.nether_wastes.mood",
+        "block.lodestone.place",
+        "entity.witch.throw",
+        "entity.turtle.shamble",
+        "entity.cod.hurt",
+        "entity.parrot.imitate.phantom",
+        "entity.cat.ambient",
+        "entity.parrot.imitate.vex",
+        "entity.turtle.egg_hatch",
+        "music_disc.13",
+        "entity.illusioner.cast_spell",
+        "entity.bee.loop_aggressive",
+        "ambient.underwater.enter",
+        "music.under_water",
+        "entity.salmon.hurt",
+        "entity.zoglin.attack",
+        "ui.stonecutter.take_result",
+        "entity.parrot.imitate.elder_guardian",
+        "entity.piglin.converted_to_zombified",
+        "entity.piglin.ambient",
+        "entity.dolphin.ambient",
+        "entity.ender_dragon.shoot",
+        "music_disc.strad",
+        "entity.tropical_fish.ambient",
+        "entity.horse.hurt",
+        "entity.husk.hurt",
+        "entity.turtle.hurt_baby",
+        "block.weeping_vines.fall",
+        "entity.firework_rocket.blast_far",
+        "block.metal.place",
+        "block.basalt.fall",
+        "block.wart_block.step",
+        "entity.parrot.imitate.drowned",
+        "item.crossbow.shoot",
+        "entity.hoglin.attack",
+        "entity.slime.squish",
+        "ambient.soul_sand_valley.loop",
+        "entity.evoker.celebrate",
+        "block.stone.hit",
+        "block.fire.extinguish",
+        "entity.rabbit.death",
+        "block.barrel.close",
+        "block.nether_gold_ore.step",
+        "block.stone_button.click_on",
+        "entity.fox.ambient",
+        "entity.parrot.hurt",
+        "block.honey_block.slide",
+        "ambient.crimson_forest.additions",
+        "block.crop.break",
+        "block.note_block.chime",
+        "entity.item.break",
+        "block.slime_block.hit",
+        "entity.mooshroom.shear",
+        "entity.cod.ambient",
+        "entity.turtle.shamble_baby",
+        "entity.wolf.ambient",
+        "block.nylium.fall",
+        "block.end_portal_frame.fill",
+        "entity.villager.work_cartographer",
+        "entity.item_frame.place",
+        "entity.generic.explode",
+        "entity.bat.death",
+        "block.redstone_torch.burnout",
+        "entity.firework_rocket.large_blast_far",
+        "entity.parrot.imitate.endermite",
+        "entity.piglin_brute.hurt",
+        "entity.piglin.retreat",
+        "entity.blaze.burn",
+        "entity.parrot.imitate.skeleton",
+        "entity.endermite.step",
+        "entity.horse.angry",
+        "block.piston.extend",
+        "entity.parrot.imitate.slime",
+        "entity.pillager.celebrate",
+        "item.bucket.empty",
+        "entity.evoker_fangs.attack",
+        "entity.player.splash.high_speed",
+        "entity.mooshroom.milk",
+        "entity.ravager.hurt",
+        "block.beehive.drip",
+        "block.glass.fall",
+        "entity.dolphin.hurt",
+        "entity.mule.ambient",
+        "block.note_block.hat",
+        "entity.zombie_horse.ambient",
+        "entity.parrot.imitate.ghast",
+        "entity.vindicator.hurt",
+        "entity.wandering_trader.trade",
+        "entity.bat.hurt",
+        "entity.stray.death",
+        "entity.blaze.ambient",
+        "block.iron_trapdoor.open",
+        "block.wood.hit",
+        "entity.zombie_horse.hurt",
+        "item.crossbow.loading_start",
+        "entity.dolphin.jump",
+        "entity.parrot.imitate.pillager",
+        "entity.horse.step_wood",
+        "block.conduit.ambient.short",
+        "entity.illusioner.prepare_mirror",
+        "entity.mule.death",
+        "item.axe.strip",
+        "ambient.basalt_deltas.mood",
+        "entity.wolf.shake",
+        "block.note_block.cow_bell",
+        "entity.cat.stray_ambient",
+        "entity.evoker.ambient",
+        "block.grass.step",
+        "entity.player.attack.crit",
+        "block.chorus_flower.grow",
+        "entity.tropical_fish.death",
+        "block.beacon.power_select",
+        "entity.cat.hiss",
+        "entity.elder_guardian.ambient_land",
+        "entity.zombie_villager.converted",
+        "entity.skeleton.hurt",
+        "entity.donkey.eat",
+        "block.nether_bricks.hit",
+        "block.wooden_trapdoor.close",
+        "entity.donkey.ambient",
+        "entity.ghast.warn",
+        "block.soul_soil.step",
+        "entity.donkey.angry",
+        "entity.cat.purr",
+        "weather.rain",
+        "block.nether_sprouts.hit",
+        "entity.parrot.imitate.piglin_brute",
+        "entity.hoglin.death",
+        "block.slime_block.break",
+        "entity.ender_dragon.flap",
+        "entity.player.hurt_on_fire",
+        "block.basalt.break",
+        "block.chain.fall",
+        "entity.item_frame.add_item",
+        "block.shroomlight.fall",
+        "entity.vindicator.celebrate",
+        "entity.parrot.imitate.creeper",
+        "entity.wandering_trader.reappeared",
+        "block.bone_block.fall",
+        "block.ancient_debris.place",
+        "music_disc.11",
+        "entity.turtle.swim",
+        "entity.illusioner.ambient",
+        "entity.ender_dragon.death",
+        "block.bell.resonate",
+        "entity.evoker.death",
+        "block.roots.fall",
+        "entity.panda.pre_sneeze",
+        "block.anvil.use",
+        "entity.piglin.step",
+        "block.chain.hit",
+        "item.crossbow.loading_middle",
+        "music.nether.basalt_deltas",
+        "block.netherrack.hit",
+        "entity.zombie.step",
+        "block.lodestone.break",
+        "entity.wolf.step",
+        "block.nylium.step",
+        "entity.slime.hurt_small",
+        "block.composter.empty",
+        "entity.llama.spit",
+        "entity.turtle.death_baby",
+        "entity.ghast.ambient",
+        "entity.sheep.step",
+        "entity.enderman.stare",
+        "item.trident.hit_ground",
+        "entity.skeleton_horse.ambient",
+        "entity.rabbit.attack",
+        "block.anvil.step",
+        "block.conduit.ambient",
+        "entity.minecart.riding",
+        "entity.parrot.imitate.zombie_villager",
+        "block.metal.hit",
+        "entity.iron_golem.step",
+        "entity.polar_bear.ambient_baby",
+        "entity.skeleton_horse.jump_water",
+        "entity.villager.celebrate",
+        "entity.villager.work_weaponsmith",
+        "entity.wither_skeleton.ambient",
+        "entity.zombie_horse.death",
+        "entity.parrot.imitate.zombie",
+        "block.stone_pressure_plate.click_on",
+        "entity.shulker.ambient",
+        "item.elytra.flying",
+        "entity.villager.work_fletcher",
+        "entity.lightning_bolt.impact",
+        "block.soul_soil.fall",
+        "block.nether_gold_ore.fall",
+        "entity.piglin.admiring_item",
+        "block.lever.click",
+        "entity.dolphin.ambient_water",
+        "block.tripwire.detach",
+        "entity.horse.death",
+        "entity.wandering_trader.ambient",
+        "music_disc.far",
+        "block.grass.fall",
+        "entity.cat.eat",
+        "block.nether_gold_ore.hit",
+        "entity.ender_pearl.throw",
+        "entity.phantom.flap",
+        "entity.arrow.shoot",
+        "entity.villager.ambient",
+        "entity.player.splash",
+        "block.stone.place",
+        "item.armor.equip_chain",
+        "item.book.page_turn",
+        "entity.vindicator.ambient",
+        "block.tripwire.attach",
+        "block.lava.extinguish",
+        "entity.mooshroom.convert",
+        "entity.cod.death",
+        "entity.sheep.shear",
+        "block.note_block.guitar",
+        "block.chain.step",
+        "entity.phantom.swoop",
+        "block.lava.pop",
+        "entity.generic.big_fall",
+        "entity.stray.ambient",
+        "entity.drowned.ambient_water",
+        "entity.parrot.imitate.illusioner",
+        "block.shulker_box.open",
+        "block.composter.ready",
+        "entity.shulker.hurt_closed",
+        "entity.cat.death",
+        "entity.blaze.hurt",
+        "entity.dolphin.play",
+        "entity.turtle.egg_crack",
+        "ambient.warped_forest.mood",
+        "block.glass.step",
+        "entity.parrot.fly",
+        "ui.loom.take_result",
+        "item.shovel.flatten",
+        "entity.illusioner.hurt",
+        "music_disc.mellohi",
+        "block.nether_sprouts.place",
+        "entity.spider.step",
+        "entity.horse.breathe",
+        "entity.wither_skeleton.death",
+        "entity.parrot.imitate.piglin",
+        "block.weeping_vines.hit",
+        "entity.horse.ambient",
+        "block.ender_chest.close",
+        "item.bucket.fill_lava",
+        "entity.wolf.growl",
+        "block.conduit.deactivate",
+        "block.snow.break",
+        "entity.enderman.ambient",
+        "entity.cat.hurt",
+        "entity.zoglin.step",
+        "block.lantern.place",
+        "block.coral_block.hit",
+        "entity.guardian.attack",
+        "block.stem.fall",
+        "entity.player.levelup",
+        "entity.zombie.break_wooden_door",
+        "entity.llama.swag",
+        "block.ladder.step",
+        "entity.elder_guardian.hurt",
+        "entity.enderman.death",
+        "entity.villager.work_fisherman",
+        "entity.ghast.hurt",
+        "block.netherite_block.break",
+        "entity.iron_golem.hurt",
+        "block.bamboo_sapling.place",
+        "entity.horse.land",
+        "ambient.basalt_deltas.additions",
+        "entity.husk.converted_to_zombie",
+        "entity.item_frame.remove_item",
+        "ambient.basalt_deltas.loop",
+        "entity.wither_skeleton.hurt",
+        "entity.drowned.death",
+        "entity.skeleton_horse.step_water",
+        "entity.stray.hurt",
+        "block.sweet_berry_bush.break",
+        "entity.slime.jump",
+        "item.trident.hit",
+        "block.note_block.pling",
+        "entity.zombie_villager.hurt",
+        "entity.slime.hurt",
+        "block.scaffolding.hit",
+        "block.smoker.smoke",
+        "block.gilded_blackstone.place",
+        "entity.fox.hurt",
+        "block.iron_trapdoor.close",
+        "entity.guardian.death_land",
+        "block.ancient_debris.break",
+        "block.nether_ore.step",
+        "block.wool.break",
+        "entity.witch.ambient",
+        "item.armor.equip_generic",
+        "entity.evoker.hurt",
+        "entity.wither.break_block",
+        "block.fire.ambient",
+        "entity.parrot.imitate.magma_cube",
+        "block.lava.ambient",
+        "entity.splash_potion.break",
+        "entity.cat.purreow",
+        "entity.rabbit.jump",
+        "entity.ghast.death",
+        "block.note_block.harp",
+        "block.ladder.fall",
+        "block.wet_grass.hit",
+        "block.bamboo.hit",
+        "entity.piglin.death",
+        "entity.salmon.ambient",
+        "entity.minecart.inside",
+        "item.shield.block",
+        "ui.toast.out",
+        "block.grindstone.use",
+        "item.crossbow.hit",
+        "entity.generic.hurt",
+        "ambient.underwater.loop.additions.ultra_rare",
+        "entity.panda.bite",
+        "block.enchantment_table.use",
+        "entity.rabbit.hurt",
+        "entity.fishing_bobber.retrieve",
+        "entity.guardian.hurt",
+        "block.honey_block.hit",
+        "entity.slime.attack",
+        "entity.armor_stand.fall",
+        "entity.panda.hurt",
+        "entity.villager.work_farmer",
+        "music_disc.stal",
+        "entity.shulker.shoot",
+        "block.nether_sprouts.break",
+        "entity.ravager.ambient",
+        "entity.ocelot.hurt",
+        "entity.fox.sleep",
+        "entity.zombie.attack_iron_door",
+        "entity.parrot.imitate.guardian",
+        "entity.creeper.hurt",
+        "entity.ocelot.death",
+        "entity.chicken.death",
+        "entity.shulker_bullet.hurt",
+        "block.note_block.snare",
+        "entity.skeleton_horse.gallop_water",
+        "entity.fox.sniff",
+        "entity.piglin_brute.converted_to_zombified",
+        "block.netherrack.place",
+        "block.wooden_trapdoor.open",
+        "entity.puffer_fish.blow_out",
+        "music.dragon",
+        "entity.villager.hurt",
+        "entity.witch.death",
+        "entity.player.attack.knockback",
+        "entity.player.death",
+        "entity.zombified_piglin.hurt",
+        "entity.puffer_fish.blow_up",
+        "entity.hostile.big_fall",
+        "block.gravel.hit",
+        "block.bubble_column.whirlpool_ambient",
+        "entity.player.burp",
+        "item.honey_bottle.drink",
+        "block.glass.hit",
+        "entity.evoker.prepare_attack",
+        "block.coral_block.fall",
+        "item.armor.equip_turtle",
+        "entity.polar_bear.step",
+        "item.crop.plant",
+        "entity.generic.swim",
+        "entity.hostile.swim",
+        "entity.evoker.prepare_wololo",
+        "music_disc.mall",
+        "entity.skeleton_horse.swim",
+        "item.bucket.empty_fish",
+        "block.bell.use",
+        "entity.generic.splash",
+        "entity.strider.eat",
+        "entity.guardian.hurt_land",
+        "entity.parrot.imitate.vindicator",
+        "entity.wandering_trader.yes",
+        "block.sweet_berry_bush.place",
+        "block.lantern.fall",
+        "block.bone_block.break",
+        "block.chest.locked",
+        "ui.loom.select_pattern",
+        "entity.iron_golem.repair",
+        "entity.villager.work_butcher",
+        "block.wooden_button.click_off",
+        "block.gravel.place",
+        "entity.wandering_trader.no",
+        "entity.bee.hurt",
+        "entity.polar_bear.ambient",
+        "block.nether_wart.break",
+        "entity.puffer_fish.ambient",
+        "entity.arrow.hit_player",
+        "block.stem.step",
+        "entity.turtle.egg_break",
+        "entity.rabbit.ambient",
+        "weather.rain.above",
+        "block.wool.place",
+        "block.note_block.bit",
+        "entity.mule.angry",
+        "ambient.underwater.loop.additions.rare",
+        "entity.experience_orb.pickup",
+        "entity.player.swim",
+        "ambient.soul_sand_valley.additions",
+        "entity.dolphin.swim",
+        "block.wart_block.hit",
+        "block.nether_ore.fall",
+        "entity.illusioner.death",
+        "block.beehive.enter",
+        "block.fence_gate.open",
+        "entity.silverfish.ambient",
+        "block.snow.place",
+        "block.stem.hit",
+        "entity.piglin.angry",
+        "entity.armor_stand.break",
+        "entity.mooshroom.suspicious_milk",
+        "entity.fishing_bobber.throw",
+        "block.wooden_pressure_plate.click_on",
+        "ambient.crimson_forest.mood",
+        "block.nether_ore.hit",
+        "block.nether_sprouts.fall",
+        "entity.dolphin.splash",
+        "item.armor.equip_elytra",
+        "block.smithing_table.use",
+        "entity.sheep.ambient",
+        "entity.shulker.close",
+        "block.netherite_block.place",
+        "entity.strider.step_lava",
+        "entity.llama.chest",
+        "ui.stonecutter.select_recipe",
+        "entity.bat.takeoff",
+        "entity.parrot.imitate.evoker",
+        "block.lily_pad.place",
+        "entity.strider.happy",
+        "entity.splash_potion.throw",
+        "entity.magma_cube.squish",
+        "entity.snow_golem.hurt",
+        "entity.blaze.shoot",
+        "block.bamboo_sapling.break",
+        "block.netherrack.break",
+        "entity.donkey.chest",
+        "entity.vex.death",
+        "entity.zombie.death",
+        "entity.puffer_fish.hurt"
+      ],
+      "type": "string"
+    },
+    "dub_3": {
+      "enum": [
+        "hide_enchants",
+        "hide_placed_on",
+        "hide_potion_effects",
+        "hide_unbreakable",
+        "hide_destroys",
+        "hide_dye",
+        "hide_attributes"
+      ],
+      "type": "string"
+    },
+    "dub_2": {
+      "enum": [
+        "gilded_blackstone",
+        "nether_brick_slab",
+        "andesite_slab",
+        "egg",
+        "music_disc_stal",
+        "potted_warped_fungus",
+        "piglin_brute_spawn_egg",
+        "birch_stairs",
+        "spruce_sign",
+        "dragon_head",
+        "green_dye",
+        "honey_block",
+        "diamond_ore",
+        "debug_stick",
+        "spruce_fence_gate",
+        "black_stained_glass_pane",
+        "azure_bluet",
+        "slime_ball",
+        "rabbit",
+        "prismarine_brick_slab",
+        "dragon_egg",
+        "parrot_spawn_egg",
+        "skeleton_wall_skull",
+        "warped_pressure_plate",
+        "light_gray_stained_glass_pane",
+        "scaffolding",
+        "mule_spawn_egg",
+        "suspicious_stew",
+        "potted_red_mushroom",
+        "magenta_stained_glass_pane",
+        "large_fern",
+        "light_blue_concrete",
+        "cocoa",
+        "lapis_ore",
+        "light_blue_bed",
+        "birch_pressure_plate",
+        "honeycomb",
+        "gold_block",
+        "writable_book",
+        "acacia_log",
+        "tropical_fish_spawn_egg",
+        "zombie_spawn_egg",
+        "tripwire",
+        "white_dye",
+        "potted_crimson_fungus",
+        "redstone",
+        "bone_block",
+        "dead_tube_coral_fan",
+        "turtle_spawn_egg",
+        "milk_bucket",
+        "birch_fence",
+        "cyan_terracotta",
+        "prismarine_stairs",
+        "warped_wall_sign",
+        "attached_pumpkin_stem",
+        "iron_boots",
+        "brown_concrete_powder",
+        "end_stone",
+        "glistering_melon_slice",
+        "nether_sprouts",
+        "green_concrete",
+        "acacia_door",
+        "golden_axe",
+        "white_stained_glass_pane",
+        "cobblestone_wall",
+        "white_glazed_terracotta",
+        "tube_coral_wall_fan",
+        "potted_dandelion",
+        "end_stone_brick_wall",
+        "cooked_rabbit",
+        "red_mushroom_block",
+        "crimson_slab",
+        "charcoal",
+        "nether_wart_block",
+        "infested_stone",
+        "stripped_oak_log",
+        "light_gray_concrete_powder",
+        "cooked_porkchop",
+        "netherite_helmet",
+        "cyan_concrete_powder",
+        "saddle",
+        "oak_sign",
+        "nether_gold_ore",
+        "redstone_ore",
+        "horn_coral_fan",
+        "stripped_warped_hyphae",
+        "cooked_beef",
+        "farmland",
+        "black_concrete",
+        "red_wool",
+        "black_wool",
+        "gold_ingot",
+        "stone_button",
+        "melon",
+        "infested_chiseled_stone_bricks",
+        "potted_brown_mushroom",
+        "music_disc_strad",
+        "structure_block",
+        "sticky_piston",
+        "dark_oak_button",
+        "gray_stained_glass",
+        "light_gray_shulker_box",
+        "netherite_axe",
+        "sand",
+        "polished_granite_slab",
+        "dark_oak_door",
+        "mojang_banner_pattern",
+        "potted_spruce_sapling",
+        "beacon",
+        "birch_wood",
+        "mushroom_stew",
+        "flint",
+        "smooth_sandstone_slab",
+        "warped_planks",
+        "mushroom_stem",
+        "emerald",
+        "blackstone",
+        "dead_tube_coral_wall_fan",
+        "hoglin_spawn_egg",
+        "dead_brain_coral_block",
+        "shulker_spawn_egg",
+        "beehive",
+        "polished_basalt",
+        "purple_wool",
+        "pink_glazed_terracotta",
+        "chorus_flower",
+        "lilac",
+        "sheep_spawn_egg",
+        "soul_torch",
+        "polished_blackstone_brick_stairs",
+        "spruce_fence",
+        "coal_block",
+        "potted_white_tulip",
+        "dead_brain_coral_wall_fan",
+        "stripped_crimson_hyphae",
+        "wooden_pickaxe",
+        "birch_leaves",
+        "diamond_pickaxe",
+        "flower_pot",
+        "acacia_button",
+        "stripped_dark_oak_wood",
+        "pink_terracotta",
+        "magenta_terracotta",
+        "gray_dye",
+        "black_shulker_box",
+        "ocelot_spawn_egg",
+        "polished_blackstone_wall",
+        "brain_coral_fan",
+        "red_nether_brick_slab",
+        "sugar_cane",
+        "tall_grass",
+        "tall_seagrass",
+        "orange_stained_glass",
+        "magenta_concrete",
+        "chain_command_block",
+        "iron_chestplate",
+        "weeping_vines",
+        "jungle_wall_sign",
+        "glowstone",
+        "bubble_column",
+        "snow_block",
+        "green_stained_glass",
+        "prismarine_bricks",
+        "white_tulip",
+        "iron_sword",
+        "lime_wall_banner",
+        "magenta_bed",
+        "warped_nylium",
+        "diorite",
+        "spruce_wood",
+        "cyan_shulker_box",
+        "cobweb",
+        "blaze_spawn_egg",
+        "gravel",
+        "witch_spawn_egg",
+        "nether_portal",
+        "elytra",
+        "acacia_fence_gate",
+        "jigsaw",
+        "blue_glazed_terracotta",
+        "flint_and_steel",
+        "tnt",
+        "brain_coral_wall_fan",
+        "pink_shulker_box",
+        "mossy_stone_brick_slab",
+        "yellow_carpet",
+        "air",
+        "jungle_fence_gate",
+        "sandstone",
+        "blue_terracotta",
+        "soul_fire",
+        "dark_prismarine_slab",
+        "conduit",
+        "tropical_fish",
+        "iron_ingot",
+        "nether_star",
+        "oak_stairs",
+        "player_head",
+        "bedrock",
+        "potato",
+        "nether_bricks",
+        "poisonous_potato",
+        "brown_stained_glass",
+        "black_dye",
+        "chiseled_nether_bricks",
+        "polished_blackstone_slab",
+        "polished_andesite_slab",
+        "magenta_banner",
+        "light_gray_stained_glass",
+        "tropical_fish_bucket",
+        "dark_oak_wall_sign",
+        "green_concrete_powder",
+        "end_portal",
+        "purpur_block",
+        "birch_wall_sign",
+        "blue_banner",
+        "smithing_table",
+        "comparator",
+        "gray_shulker_box",
+        "infested_cracked_stone_bricks",
+        "yellow_concrete_powder",
+        "blackstone_wall",
+        "cod",
+        "smooth_stone",
+        "spruce_pressure_plate",
+        "spruce_sapling",
+        "acacia_fence",
+        "spruce_wall_sign",
+        "warped_roots",
+        "arrow",
+        "crimson_hyphae",
+        "clay_ball",
+        "crimson_button",
+        "brown_mushroom",
+        "enderman_spawn_egg",
+        "potted_red_tulip",
+        "iron_nugget",
+        "donkey_spawn_egg",
+        "stonecutter",
+        "chainmail_boots",
+        "wall_torch",
+        "terracotta",
+        "lime_stained_glass_pane",
+        "structure_void",
+        "dead_brain_coral",
+        "green_wool",
+        "crimson_stairs",
+        "clock",
+        "llama_spawn_egg",
+        "light_blue_stained_glass_pane",
+        "dead_fire_coral_fan",
+        "creeper_spawn_egg",
+        "twisting_vines_plant",
+        "oak_log",
+        "jungle_planks",
+        "snow",
+        "magenta_carpet",
+        "powered_rail",
+        "granite_stairs",
+        "leather_helmet",
+        "emerald_ore",
+        "stripped_spruce_log",
+        "cut_red_sandstone",
+        "crimson_fence",
+        "blue_carpet",
+        "iron_hoe",
+        "chicken",
+        "crimson_stem",
+        "dead_horn_coral_block",
+        "cyan_banner",
+        "warped_door",
+        "potted_lily_of_the_valley",
+        "brewing_stand",
+        "stone_bricks",
+        "stripped_oak_wood",
+        "oak_pressure_plate",
+        "bubble_coral_fan",
+        "cyan_glazed_terracotta",
+        "basalt",
+        "jungle_door",
+        "oak_wall_sign",
+        "brown_carpet",
+        "fishing_rod",
+        "horse_spawn_egg",
+        "gray_concrete_powder",
+        "quartz",
+        "horn_coral_wall_fan",
+        "beetroot",
+        "dead_fire_coral",
+        "music_disc_mall",
+        "ladder",
+        "lodestone",
+        "ravager_spawn_egg",
+        "pink_wall_banner",
+        "netherite_hoe",
+        "infested_stone_bricks",
+        "end_stone_brick_slab",
+        "leather_boots",
+        "water_bucket",
+        "light_blue_dye",
+        "warped_stairs",
+        "dead_bubble_coral",
+        "chainmail_helmet",
+        "oak_slab",
+        "spruce_door",
+        "zombie_head",
+        "dead_tube_coral",
+        "chorus_fruit",
+        "horn_coral",
+        "prismarine_crystals",
+        "white_concrete_powder",
+        "granite_slab",
+        "sandstone_slab",
+        "red_wall_banner",
+        "cake",
+        "gray_wall_banner",
+        "acacia_leaves",
+        "yellow_shulker_box",
+        "brown_wall_banner",
+        "brown_banner",
+        "gunpowder",
+        "pufferfish_bucket",
+        "dead_bubble_coral_wall_fan",
+        "nether_brick",
+        "pink_stained_glass_pane",
+        "bamboo",
+        "red_sand",
+        "purple_shulker_box",
+        "clay",
+        "chiseled_stone_bricks",
+        "diamond_leggings",
+        "lectern",
+        "diamond_helmet",
+        "warped_slab",
+        "quartz_block",
+        "diamond_chestplate",
+        "mossy_cobblestone_slab",
+        "wooden_hoe",
+        "music_disc_blocks",
+        "white_wool",
+        "end_stone_brick_stairs",
+        "void_air",
+        "chainmail_chestplate",
+        "iron_leggings",
+        "light_gray_wall_banner",
+        "purple_stained_glass",
+        "purple_terracotta",
+        "green_bed",
+        "red_concrete_powder",
+        "repeater",
+        "mycelium",
+        "chiseled_sandstone",
+        "lingering_potion",
+        "stripped_birch_log",
+        "hay_block",
+        "light_blue_concrete_powder",
+        "pink_dye",
+        "orange_carpet",
+        "bamboo_sapling",
+        "magenta_concrete_powder",
+        "andesite_wall",
+        "yellow_concrete",
+        "warped_fungus_on_a_stick",
+        "cobblestone_slab",
+        "armor_stand",
+        "red_nether_bricks",
+        "light_gray_concrete",
+        "glass",
+        "chest",
+        "seagrass",
+        "warped_trapdoor",
+        "stone_stairs",
+        "red_terracotta",
+        "furnace_minecart",
+        "end_portal_frame",
+        "kelp_plant",
+        "grindstone",
+        "leather_leggings",
+        "dark_oak_leaves",
+        "lime_shulker_box",
+        "jungle_sapling",
+        "creeper_head",
+        "sweet_berry_bush",
+        "gray_banner",
+        "string",
+        "white_terracotta",
+        "book",
+        "wooden_shovel",
+        "blackstone_slab",
+        "lava",
+        "jungle_trapdoor",
+        "black_carpet",
+        "fire_coral",
+        "magenta_glazed_terracotta",
+        "gray_bed",
+        "trident",
+        "wet_sponge",
+        "yellow_wool",
+        "chicken_spawn_egg",
+        "dried_kelp_block",
+        "bone",
+        "yellow_terracotta",
+        "target",
+        "magma_block",
+        "cauldron",
+        "pink_concrete_powder",
+        "dragon_wall_head",
+        "wither_skeleton_spawn_egg",
+        "crossbow",
+        "soul_sand",
+        "horn_coral_block",
+        "diamond_shovel",
+        "piston_head",
+        "prismarine_brick_stairs",
+        "experience_bottle",
+        "golden_horse_armor",
+        "orange_tulip",
+        "bee_nest",
+        "smooth_red_sandstone_slab",
+        "cut_sandstone_slab",
+        "potted_birch_sapling",
+        "grass_block",
+        "music_disc_pigstep",
+        "end_gateway",
+        "black_bed",
+        "minecart",
+        "dead_horn_coral_fan",
+        "spectral_arrow",
+        "jungle_stairs",
+        "netherite_shovel",
+        "piglin_spawn_egg",
+        "oxeye_daisy",
+        "smooth_sandstone_stairs",
+        "leather_chestplate",
+        "blue_wool",
+        "popped_chorus_fruit",
+        "creeper_banner_pattern",
+        "redstone_wire",
+        "polar_bear_spawn_egg",
+        "stripped_dark_oak_log",
+        "attached_melon_stem",
+        "red_bed",
+        "lava_bucket",
+        "yellow_banner",
+        "barrel",
+        "chain",
+        "dead_brain_coral_fan",
+        "rotten_flesh",
+        "slime_block",
+        "pumpkin_stem",
+        "emerald_block",
+        "purple_banner",
+        "oak_fence",
+        "chainmail_leggings",
+        "tnt_minecart",
+        "acacia_planks",
+        "iron_ore",
+        "blaze_powder",
+        "quartz_pillar",
+        "dead_bubble_coral_block",
+        "purple_concrete_powder",
+        "polished_diorite_slab",
+        "smooth_stone_slab",
+        "golden_sword",
+        "prismarine",
+        "crimson_trapdoor",
+        "filled_map",
+        "lime_concrete",
+        "mossy_cobblestone_stairs",
+        "potted_blue_orchid",
+        "iron_block",
+        "birch_sign",
+        "weeping_vines_plant",
+        "porkchop",
+        "pink_tulip",
+        "warped_fence_gate",
+        "blue_ice",
+        "wolf_spawn_egg",
+        "stripped_warped_stem",
+        "crying_obsidian",
+        "brown_terracotta",
+        "vine",
+        "dark_oak_fence",
+        "quartz_stairs",
+        "rail",
+        "white_banner",
+        "blue_stained_glass",
+        "potted_wither_rose",
+        "green_terracotta",
+        "iron_horse_armor",
+        "red_carpet",
+        "water",
+        "white_concrete",
+        "flower_banner_pattern",
+        "oak_wood",
+        "lime_concrete_powder",
+        "red_shulker_box",
+        "light_blue_terracotta",
+        "blue_dye",
+        "sugar",
+        "cat_spawn_egg",
+        "music_disc_far",
+        "brown_glazed_terracotta",
+        "cod_bucket",
+        "crimson_planks",
+        "ink_sac",
+        "note_block",
+        "bowl",
+        "cracked_stone_bricks",
+        "skeleton_skull",
+        "purpur_stairs",
+        "orange_dye",
+        "yellow_bed",
+        "jungle_sign",
+        "green_glazed_terracotta",
+        "scute",
+        "golden_chestplate",
+        "netherite_leggings",
+        "golden_shovel",
+        "spruce_stairs",
+        "birch_planks",
+        "gray_wool",
+        "silverfish_spawn_egg",
+        "white_stained_glass",
+        "green_stained_glass_pane",
+        "ancient_debris",
+        "cave_air",
+        "diamond",
+        "black_concrete_powder",
+        "rabbit_spawn_egg",
+        "lime_carpet",
+        "blue_concrete_powder",
+        "purpur_slab",
+        "redstone_wall_torch",
+        "hopper",
+        "strider_spawn_egg",
+        "dragon_breath",
+        "potted_acacia_sapling",
+        "polished_diorite",
+        "lime_terracotta",
+        "beef",
+        "baked_potato",
+        "mossy_cobblestone",
+        "brick_wall",
+        "brain_coral_block",
+        "birch_fence_gate",
+        "music_disc_chirp",
+        "netherite_sword",
+        "yellow_stained_glass_pane",
+        "dark_oak_planks",
+        "phantom_membrane",
+        "wooden_sword",
+        "allium",
+        "jungle_leaves",
+        "chorus_plant",
+        "bucket",
+        "warped_button",
+        "oak_trapdoor",
+        "black_stained_glass",
+        "golden_helmet",
+        "dark_oak_pressure_plate",
+        "cut_red_sandstone_slab",
+        "lime_bed",
+        "blast_furnace",
+        "sponge",
+        "cartography_table",
+        "soul_wall_torch",
+        "netherite_ingot",
+        "light_gray_dye",
+        "potted_oxeye_daisy",
+        "daylight_detector",
+        "slime_spawn_egg",
+        "beetroot_soup",
+        "light_gray_carpet",
+        "music_disc_ward",
+        "grass",
+        "end_crystal",
+        "vindicator_spawn_egg",
+        "wheat",
+        "end_rod",
+        "phantom_spawn_egg",
+        "stone_pickaxe",
+        "iron_helmet",
+        "guardian_spawn_egg",
+        "black_wall_banner",
+        "pink_stained_glass",
+        "piston",
+        "dead_fire_coral_block",
+        "melon_slice",
+        "ender_chest",
+        "kelp",
+        "light_gray_wool",
+        "moving_piston",
+        "sunflower",
+        "brown_bed",
+        "heart_of_the_sea",
+        "polished_blackstone_bricks",
+        "jack_o_lantern",
+        "grass_path",
+        "polished_granite",
+        "smooth_red_sandstone",
+        "dead_bubble_coral_fan",
+        "furnace",
+        "red_stained_glass",
+        "stone_slab",
+        "dandelion",
+        "pink_bed",
+        "zombified_piglin_spawn_egg",
+        "rose_bush",
+        "blaze_rod",
+        "iron_trapdoor",
+        "drowned_spawn_egg",
+        "stone_pressure_plate",
+        "iron_bars",
+        "smooth_red_sandstone_stairs",
+        "quartz_bricks",
+        "wheat_seeds",
+        "brown_concrete",
+        "cyan_concrete",
+        "stone_shovel",
+        "stripped_birch_wood",
+        "bubble_coral_block",
+        "zombie_horse_spawn_egg",
+        "green_banner",
+        "light_gray_banner",
+        "frosted_ice",
+        "diamond_sword",
+        "rabbit_foot",
+        "yellow_wall_banner",
+        "cyan_wall_banner",
+        "bat_spawn_egg",
+        "diamond_horse_armor",
+        "netherite_block",
+        "glowstone_dust",
+        "crimson_fence_gate",
+        "white_carpet",
+        "fletching_table",
+        "red_concrete",
+        "cocoa_beans",
+        "cracked_polished_blackstone_bricks",
+        "purple_glazed_terracotta",
+        "acacia_slab",
+        "wither_skeleton_skull",
+        "fire_coral_fan",
+        "husk_spawn_egg",
+        "zombie_villager_spawn_egg",
+        "dispenser",
+        "bubble_coral",
+        "stripped_crimson_stem",
+        "lime_wool",
+        "redstone_lamp",
+        "diamond_axe",
+        "soul_lantern",
+        "orange_wool",
+        "turtle_helmet",
+        "jungle_wood",
+        "heavy_weighted_pressure_plate",
+        "potion",
+        "gold_nugget",
+        "red_sandstone_wall",
+        "crimson_door",
+        "warped_stem",
+        "acacia_trapdoor",
+        "polished_blackstone_pressure_plate",
+        "mossy_cobblestone_wall",
+        "chipped_anvil",
+        "acacia_wall_sign",
+        "purpur_pillar",
+        "red_stained_glass_pane",
+        "feather",
+        "trader_llama_spawn_egg",
+        "honey_bottle",
+        "acacia_stairs",
+        "dropper",
+        "light_blue_banner",
+        "potted_allium",
+        "purple_bed",
+        "light_blue_wool",
+        "polished_blackstone_stairs",
+        "light_blue_stained_glass",
+        "wither_skeleton_wall_skull",
+        "acacia_sapling",
+        "firework_rocket",
+        "orange_glazed_terracotta",
+        "blackstone_stairs",
+        "chiseled_polished_blackstone",
+        "black_glazed_terracotta",
+        "purple_concrete",
+        "cookie",
+        "bookshelf",
+        "orange_stained_glass_pane",
+        "pink_carpet",
+        "bell",
+        "warped_hyphae",
+        "infested_mossy_stone_bricks",
+        "mossy_stone_brick_stairs",
+        "warped_fungus",
+        "stripped_jungle_log",
+        "oak_boat",
+        "nautilus_shell",
+        "dead_bush",
+        "potted_oak_sapling",
+        "detector_rail",
+        "carrot_on_a_stick",
+        "shield",
+        "damaged_anvil",
+        "anvil",
+        "totem_of_undying",
+        "red_dye",
+        "magenta_stained_glass",
+        "potted_poppy",
+        "lapis_lazuli",
+        "music_disc_wait",
+        "netherite_pickaxe",
+        "mooshroom_spawn_egg",
+        "map",
+        "dark_oak_sign",
+        "netherite_boots",
+        "bread",
+        "polished_blackstone_button",
+        "torch",
+        "lantern",
+        "oak_button",
+        "iron_shovel",
+        "stray_spawn_egg",
+        "spawner",
+        "black_banner",
+        "brown_wool",
+        "warped_wart_block",
+        "cooked_salmon",
+        "green_carpet",
+        "mossy_stone_bricks",
+        "birch_door",
+        "stripped_acacia_wood",
+        "cow_spawn_egg",
+        "music_disc_13",
+        "diorite_wall",
+        "music_disc_11",
+        "blue_concrete",
+        "wooden_axe",
+        "vex_spawn_egg",
+        "brain_coral",
+        "shears",
+        "spruce_planks",
+        "warped_fence",
+        "splash_potion",
+        "light_blue_glazed_terracotta",
+        "written_book",
+        "cyan_stained_glass_pane",
+        "ghast_tear",
+        "glass_pane",
+        "sea_pickle",
+        "nether_quartz_ore",
+        "enchanted_book",
+        "potted_crimson_roots",
+        "carved_pumpkin",
+        "granite_wall",
+        "redstone_torch",
+        "sandstone_wall",
+        "polished_granite_stairs",
+        "dead_horn_coral",
+        "dirt",
+        "orange_concrete_powder",
+        "dark_oak_wood",
+        "lever",
+        "blue_bed",
+        "acacia_boat",
+        "acacia_pressure_plate",
+        "andesite_stairs",
+        "skeleton_horse_spawn_egg",
+        "dark_oak_fence_gate",
+        "compass",
+        "polished_andesite_stairs",
+        "coal",
+        "jungle_pressure_plate",
+        "smooth_quartz_slab",
+        "cyan_bed",
+        "stripped_acacia_log",
+        "golden_pickaxe",
+        "sweet_berries",
+        "bow",
+        "potted_orange_tulip",
+        "crimson_roots",
+        "smooth_sandstone",
+        "cobblestone",
+        "redstone_block",
+        "player_wall_head",
+        "cooked_cod",
+        "bone_meal",
+        "honeycomb_block",
+        "brick",
+        "yellow_dye",
+        "cyan_stained_glass",
+        "potted_bamboo",
+        "bricks",
+        "netherite_chestplate",
+        "orange_bed",
+        "petrified_oak_slab",
+        "salmon_spawn_egg",
+        "leather_horse_armor",
+        "orange_banner",
+        "tube_coral",
+        "pig_spawn_egg",
+        "stone_brick_slab",
+        "dark_prismarine",
+        "purple_wall_banner",
+        "painting",
+        "pumpkin",
+        "trapped_chest",
+        "brown_shulker_box",
+        "orange_concrete",
+        "potted_pink_tulip",
+        "pumpkin_seeds",
+        "oak_sapling",
+        "brown_stained_glass_pane",
+        "nether_brick_fence",
+        "white_bed",
+        "birch_slab",
+        "lily_pad",
+        "observer",
+        "podzol",
+        "cyan_wool",
+        "fire",
+        "stick",
+        "andesite",
+        "diamond_boots",
+        "fire_coral_block",
+        "repeating_command_block",
+        "packed_ice",
+        "gray_carpet",
+        "enchanting_table",
+        "cod_spawn_egg",
+        "gray_stained_glass_pane",
+        "lime_dye",
+        "orange_wall_banner",
+        "acacia_sign",
+        "polished_blackstone_brick_wall",
+        "rabbit_stew",
+        "peony",
+        "stone_axe",
+        "dark_oak_log",
+        "poppy",
+        "netherite_scrap",
+        "red_nether_brick_wall",
+        "ender_eye",
+        "stone_sword",
+        "cut_sandstone",
+        "chest_minecart",
+        "stone_brick_stairs",
+        "jungle_slab",
+        "cactus",
+        "spruce_trapdoor",
+        "carrots",
+        "name_tag",
+        "spruce_log",
+        "black_terracotta",
+        "gray_glazed_terracotta",
+        "birch_button",
+        "red_sandstone_slab",
+        "orange_terracotta",
+        "brown_dye",
+        "light_gray_bed",
+        "soul_campfire",
+        "salmon_bucket",
+        "brick_slab",
+        "spruce_leaves",
+        "command_block_minecart",
+        "light_gray_terracotta",
+        "spruce_slab",
+        "red_nether_brick_stairs",
+        "gray_terracotta",
+        "sea_lantern",
+        "ice",
+        "green_shulker_box",
+        "oak_door",
+        "dark_oak_stairs",
+        "blue_shulker_box",
+        "iron_axe",
+        "smoker",
+        "loom",
+        "polished_blackstone",
+        "creeper_wall_head",
+        "nether_wart",
+        "oak_leaves",
+        "composter",
+        "mutton",
+        "knowledge_book",
+        "white_wall_banner",
+        "obsidian",
+        "cyan_carpet",
+        "skull_banner_pattern",
+        "dead_horn_coral_wall_fan",
+        "firework_star",
+        "music_disc_mellohi",
+        "potted_cornflower",
+        "purple_carpet",
+        "golden_hoe",
+        "cooked_chicken",
+        "dolphin_spawn_egg",
+        "coarse_dirt",
+        "dark_prismarine_stairs",
+        "jungle_button",
+        "dead_tube_coral_block",
+        "potatoes",
+        "dark_oak_boat",
+        "cooked_mutton",
+        "jungle_fence",
+        "jukebox",
+        "green_wall_banner",
+        "purple_stained_glass_pane",
+        "birch_trapdoor",
+        "apple",
+        "elder_guardian_spawn_egg",
+        "spider_eye",
+        "zoglin_spawn_egg",
+        "piglin_banner_pattern",
+        "golden_boots",
+        "potted_dead_bush",
+        "lily_of_the_valley",
+        "blue_orchid",
+        "pumpkin_pie",
+        "red_sandstone_stairs",
+        "squid_spawn_egg",
+        "crafting_table",
+        "cave_spider_spawn_egg",
+        "cobblestone_stairs",
+        "brown_mushroom_block",
+        "melon_stem",
+        "potted_fern",
+        "diamond_block",
+        "end_stone_bricks",
+        "golden_carrot",
+        "stone",
+        "nether_brick_wall",
+        "crimson_sign",
+        "dark_oak_trapdoor",
+        "potted_cactus",
+        "prismarine_wall",
+        "enchanted_golden_apple",
+        "magma_cream",
+        "ghast_spawn_egg",
+        "pink_banner",
+        "melon_seeds",
+        "music_disc_cat",
+        "red_sandstone",
+        "purple_dye",
+        "fire_charge",
+        "chiseled_red_sandstone",
+        "tube_coral_block",
+        "sandstone_stairs",
+        "white_shulker_box",
+        "fern",
+        "skeleton_spawn_egg",
+        "pufferfish_spawn_egg",
+        "light_blue_carpet",
+        "diorite_slab",
+        "lime_banner",
+        "soul_soil",
+        "golden_leggings",
+        "dark_oak_sapling",
+        "polished_diorite_stairs",
+        "endermite_spawn_egg",
+        "tube_coral_fan",
+        "lime_glazed_terracotta",
+        "magenta_dye",
+        "crimson_fungus",
+        "leather",
+        "cracked_nether_bricks",
+        "potted_dark_oak_sapling",
+        "birch_boat",
+        "nether_brick_stairs",
+        "command_block",
+        "dead_fire_coral_wall_fan",
+        "wandering_trader_spawn_egg",
+        "villager_spawn_egg",
+        "snowball",
+        "bubble_coral_wall_fan",
+        "gray_concrete",
+        "light_blue_shulker_box",
+        "smooth_quartz_stairs",
+        "stone_brick_wall",
+        "glass_bottle",
+        "respawn_anchor",
+        "red_banner",
+        "blue_wall_banner",
+        "crimson_nylium",
+        "acacia_wood",
+        "bee_spawn_egg",
+        "lime_stained_glass",
+        "magenta_shulker_box",
+        "globe_banner_pattern",
+        "tipped_arrow",
+        "yellow_stained_glass",
+        "potted_warped_roots",
+        "ender_pearl",
+        "golden_apple",
+        "prismarine_slab",
+        "dried_kelp",
+        "evoker_spawn_egg",
+        "prismarine_shard",
+        "lead",
+        "lapis_block",
+        "magenta_wool",
+        "stone_hoe",
+        "beetroot_seeds",
+        "panda_spawn_egg",
+        "cornflower",
+        "shulker_shell",
+        "oak_fence_gate",
+        "stripped_jungle_wood",
+        "orange_shulker_box",
+        "iron_door",
+        "spruce_boat",
+        "smooth_quartz",
+        "barrier",
+        "beetroots",
+        "rabbit_hide",
+        "pink_wool",
+        "pillager_spawn_egg",
+        "campfire",
+        "wither_rose",
+        "light_gray_glazed_terracotta",
+        "jungle_boat",
+        "salmon",
+        "fox_spawn_egg",
+        "diamond_hoe",
+        "potted_jungle_sapling",
+        "polished_blackstone_brick_slab",
+        "twisting_vines",
+        "turtle_egg",
+        "red_glazed_terracotta",
+        "item_frame",
+        "red_tulip",
+        "coal_ore",
+        "birch_sapling",
+        "polished_andesite",
+        "brick_stairs",
+        "diorite_stairs",
+        "shroomlight",
+        "spider_spawn_egg",
+        "tripwire_hook",
+        "stripped_spruce_wood",
+        "crimson_wall_sign",
+        "potted_azure_bluet",
+        "spruce_button",
+        "zombie_wall_head",
+        "paper",
+        "magma_cube_spawn_egg",
+        "jungle_log",
+        "iron_pickaxe",
+        "dark_oak_slab",
+        "netherrack",
+        "light_blue_wall_banner",
+        "birch_log",
+        "light_weighted_pressure_plate",
+        "warped_sign",
+        "activator_rail",
+        "pufferfish",
+        "oak_planks",
+        "gold_ore",
+        "shulker_box",
+        "crimson_pressure_plate",
+        "fermented_spider_eye",
+        "magenta_wall_banner",
+        "chiseled_quartz_block",
+        "hopper_minecart",
+        "yellow_glazed_terracotta",
+        "cyan_dye",
+        "quartz_slab",
+        "blue_stained_glass_pane",
+        "fire_coral_wall_fan",
+        "mossy_stone_brick_wall",
+        "granite",
+        "red_mushroom",
+        "infested_cobblestone",
+        "pink_concrete",
+        "carrot"
+      ],
+      "type": "string"
+    },
+    "dub_1": {
+      "enum": [
+        "furnace",
+        "dropper",
+        "anvil",
+        "dispenser",
+        "smithing",
+        "brewing",
+        "smoker",
+        "loom",
+        "lectern",
+        "stonecutter",
+        "workbench",
+        "player",
+        "enchanting",
+        "barrel",
+        "chest",
+        "shulker_box",
+        "merchant",
+        "ender_chest",
+        "cartography",
+        "creative",
+        "grindstone",
+        "beacon",
+        "crafting",
+        "hopper",
+        "blast_furnace"
+      ],
+      "type": "string"
+    },
+    "dub_5": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "dub_8": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tick": {
+            "type": "integer"
+          },
+          "opcodes": {
+            "type": "array",
+            "items": {
+              "type": [
+                "object"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "set": {
+                  "type": [
+                    "number",
+                    "string"
+                  ]
+                },
+                "st": {
+                  "type": [
+                    "number",
+                    "string"
+                  ]
+                },
+                "remove": {
+                  "type": [
+                    "number",
+                    "string"
+                  ]
+                },
+                "rm": {
+                  "type": [
+                    "number",
+                    "string"
+                  ]
+                },
+                "move": {
+                  "type": [
+                    "number",
+                    "string"
+                  ]
+                },
+                "mv": {
+                  "type": [
+                    "number",
+                    "string"
+                  ]
+                },
+                "swap": {
+                  "type": [
+                    "number",
+                    "string"
+                  ]
+                },
+                "sw": {
+                  "type": [
+                    "number",
+                    "string"
+                  ]
+                },
+                "copy": {
+                  "type": [
+                    "number",
+                    "string"
+                  ]
+                },
+                "cl": {
+                  "type": [
+                    "number",
+                    "string"
+                  ]
+                },
+                "goto": {
+                  "type": "integer"
+                },
+                "gt": {
+                  "type": "integer"
+                },
+                "sound": {
+                  "anyOf": [
+                    {
+                      "$ref": "#/definitions/dub_4"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "snd": {
+                  "anyOf": [
+                    {
+                      "$ref": "#/definitions/dub_4"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "cmd": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "title": {
+                  "type": [
+                    "number",
+                    "string"
+                  ]
+                },
+                "ttl": {
+                  "type": [
+                    "number",
+                    "string"
+                  ]
+                },
+                "fill": {
+                  "type": [
+                    "number",
+                    "string"
+                  ]
+                },
+                "fl": {
+                  "type": [
+                    "number",
+                    "string"
+                  ]
+                },
+                "remove-if-not-empty": {
+                  "type": [
+                    "number",
+                    "string"
+                  ]
+                },
+                "rne": {
+                  "type": [
+                    "number",
+                    "string"
+                  ]
+                },
+                "copy-from-base": {
+                  "type": [
+                    "number",
+                    "string"
+                  ]
+                },
+                "cfb": {
+                  "type": [
+                    "number",
+                    "string"
+                  ]
+                },
+                "set-if-empty": {
+                  "type": [
+                    "number",
+                    "string"
+                  ]
+                },
+                "sie": {
+                  "type": [
+                    "number",
+                    "string"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "required": [
+          "opcodes"
+        ]
+      }
+    },
+    "dub_7": {
+      "type": "object",
+      "patternProperties": {
+        ".*": {
+          "type": "object",
+          "properties": {
+            "material": {
+              "anyOf": [
+                {
+                  "$ref": "#/definitions/dub_2"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "name": {
+              "type": "string"
+            },
+            "amount": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "lore": {
+              "$ref": "#/definitions/dub_5"
+            },
+            "args": {
+              "$ref": "#/definitions/dub_6"
+            },
+            "local_args": {
+              "$ref": "#/definitions/dub_6"
+            },
+            "unbreakable": {
+              "type": "boolean"
+            },
+            "on_tick": {
+              "type": "object",
+              "properties": {
+                "requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "check": {
+                        "type": "string"
+                      },
+                      "commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      },
+                      "deny_commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                      "check"
+                    ]
+                  }
+                },
+                "commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "deny_commands": {
+                  "$ref": "#/definitions/commands_ref"
+                }
+              },
+              "additionalProperties": false
+            },
+            "static": {
+              "type": "boolean"
+            },
+            "all_flags": {
+              "type": "boolean"
+            },
+            "hide_tooltip": {
+              "type": "boolean"
+            },
+            "model_data": {
+              "type": "integer"
+            },
+            "priority": {
+              "type": "integer"
+            },
+            "damage": {
+              "type": "string"
+            },
+            "tick_speed": {
+              "anyOf": [
+                {
+                  "type": [
+                    "string"
+                  ],
+                  "pattern": "^\\$\\{[^}]+\\}$"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "color": {
+              "type": "string"
+            },
+            "item_flags": {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/dub_3"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/dub_3"
+                  }
+                }
+              ]
+            },
+            "slot": {
+              "oneOf": [
+                {
+                  "type": [
+                    "number",
+                    "string"
+                  ]
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": [
+                      "number",
+                      "string"
+                    ]
+                  }
+                }
+              ]
+            },
+            "enchantments": {
+              "anyOf": [
+                {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "impaling": {
+                      "type": "integer"
+                    },
+                    "thorns": {
+                      "type": "integer"
+                    },
+                    "piercing": {
+                      "type": "integer"
+                    },
+                    "fire_protection": {
+                      "type": "integer"
+                    },
+                    "smite": {
+                      "type": "integer"
+                    },
+                    "unbreaking": {
+                      "type": "integer"
+                    },
+                    "mending": {
+                      "type": "integer"
+                    },
+                    "feather_falling": {
+                      "type": "integer"
+                    },
+                    "protection": {
+                      "type": "integer"
+                    },
+                    "respiration": {
+                      "type": "integer"
+                    },
+                    "knockback": {
+                      "type": "integer"
+                    },
+                    "projectile_protection": {
+                      "type": "integer"
+                    },
+                    "fire_aspect": {
+                      "type": "integer"
+                    },
+                    "luck_of_the_sea": {
+                      "type": "integer"
+                    },
+                    "lure": {
+                      "type": "integer"
+                    },
+                    "punch": {
+                      "type": "integer"
+                    },
+                    "channeling": {
+                      "type": "integer"
+                    },
+                    "frost_walker": {
+                      "type": "integer"
+                    },
+                    "sharpness": {
+                      "type": "integer"
+                    },
+                    "power": {
+                      "type": "integer"
+                    },
+                    "riptide": {
+                      "type": "integer"
+                    },
+                    "bane_of_arthropods": {
+                      "type": "integer"
+                    },
+                    "soul_speed": {
+                      "type": "integer"
+                    },
+                    "efficiency": {
+                      "type": "integer"
+                    },
+                    "fortune": {
+                      "type": "integer"
+                    },
+                    "loyalty": {
+                      "type": "integer"
+                    },
+                    "looting": {
+                      "type": "integer"
+                    },
+                    "silk_touch": {
+                      "type": "integer"
+                    },
+                    "quick_charge": {
+                      "type": "integer"
+                    },
+                    "binding_curse": {
+                      "type": "integer"
+                    },
+                    "aqua_affinity": {
+                      "type": "integer"
+                    },
+                    "multishot": {
+                      "type": "integer"
+                    },
+                    "depth_strider": {
+                      "type": "integer"
+                    },
+                    "vanishing_curse": {
+                      "type": "integer"
+                    },
+                    "infinity": {
+                      "type": "integer"
+                    },
+                    "flame": {
+                      "type": "integer"
+                    },
+                    "blast_protection": {
+                      "type": "integer"
+                    },
+                    "sweeping": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              ]
+            },
+            "potion_effects": {
+              "anyOf": [
+                {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "dolphins_grace": {
+                      "type": "string"
+                    },
+                    "saturation": {
+                      "type": "string"
+                    },
+                    "jump_boost": {
+                      "type": "string"
+                    },
+                    "hero_of_the_village": {
+                      "type": "string"
+                    },
+                    "regeneration": {
+                      "type": "string"
+                    },
+                    "speed": {
+                      "type": "string"
+                    },
+                    "invisibility": {
+                      "type": "string"
+                    },
+                    "hunger": {
+                      "type": "string"
+                    },
+                    "bad_omen": {
+                      "type": "string"
+                    },
+                    "strength": {
+                      "type": "string"
+                    },
+                    "slowness": {
+                      "type": "string"
+                    },
+                    "wither": {
+                      "type": "string"
+                    },
+                    "conduit_power": {
+                      "type": "string"
+                    },
+                    "nausea": {
+                      "type": "string"
+                    },
+                    "slow_falling": {
+                      "type": "string"
+                    },
+                    "health_boost": {
+                      "type": "string"
+                    },
+                    "resistance": {
+                      "type": "string"
+                    },
+                    "night_vision": {
+                      "type": "string"
+                    },
+                    "unluck": {
+                      "type": "string"
+                    },
+                    "haste": {
+                      "type": "string"
+                    },
+                    "water_breathing": {
+                      "type": "string"
+                    },
+                    "absorption": {
+                      "type": "string"
+                    },
+                    "poison": {
+                      "type": "string"
+                    },
+                    "instant_health": {
+                      "type": "string"
+                    },
+                    "blindness": {
+                      "type": "string"
+                    },
+                    "glowing": {
+                      "type": "string"
+                    },
+                    "levitation": {
+                      "type": "string"
+                    },
+                    "instant_damage": {
+                      "type": "string"
+                    },
+                    "fire_resistance": {
+                      "type": "string"
+                    },
+                    "weakness": {
+                      "type": "string"
+                    },
+                    "luck": {
+                      "type": "string"
+                    },
+                    "mining_fatigue": {
+                      "type": "string"
+                    }
+                  }
+                }
+              ]
+            },
+            "view_requirement": {
+              "type": "object",
+              "properties": {
+                "requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "check": {
+                        "type": "string"
+                      },
+                      "commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      },
+                      "deny_commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                      "check"
+                    ]
+                  }
+                },
+                "deny_commands": {
+                  "$ref": "#/definitions/commands_ref"
+                }
+              },
+              "additionalProperties": false
+            },
+            "on_left_click": {
+              "type": "object",
+              "properties": {
+                "deny_commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "check": {
+                        "type": "string"
+                      },
+                      "commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      },
+                      "deny_commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                      "check"
+                    ]
+                  }
+                }
+              },
+              "additionalProperties": false
+            },
+            "on_right_click": {
+              "type": "object",
+              "properties": {
+                "deny_commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "check": {
+                        "type": "string"
+                      },
+                      "commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      },
+                      "deny_commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                      "check"
+                    ]
+                  }
+                }
+              },
+              "additionalProperties": false
+            },
+            "on_shift_left_click": {
+              "type": "object",
+              "properties": {
+                "deny_commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "check": {
+                        "type": "string"
+                      },
+                      "commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      },
+                      "deny_commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                      "check"
+                    ]
+                  }
+                }
+              },
+              "additionalProperties": false
+            },
+            "on_shift_right_click": {
+              "type": "object",
+              "properties": {
+                "deny_commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "check": {
+                        "type": "string"
+                      },
+                      "commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      },
+                      "deny_commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                      "check"
+                    ]
+                  }
+                }
+              },
+              "additionalProperties": false
+            },
+            "on_middle_click": {
+              "type": "object",
+              "properties": {
+                "deny_commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "check": {
+                        "type": "string"
+                      },
+                      "commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      },
+                      "deny_commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                      "check"
+                    ]
+                  }
+                }
+              },
+              "additionalProperties": false
+            },
+            "on_drop_click": {
+              "type": "object",
+              "properties": {
+                "deny_commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "check": {
+                        "type": "string"
+                      },
+                      "commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      },
+                      "deny_commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                      "check"
+                    ]
+                  }
+                }
+              },
+              "additionalProperties": false
+            },
+            "on_click": {
+              "type": "object",
+              "properties": {
+                "deny_commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "check": {
+                        "type": "string"
+                      },
+                      "commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      },
+                      "deny_commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                      "check"
+                    ]
+                  }
+                }
+              },
+              "additionalProperties": false
+            },
+            "on_number_key_0_click": {
+              "type": "object",
+              "properties": {
+                "deny_commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "check": {
+                        "type": "string"
+                      },
+                      "commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      },
+                      "deny_commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                      "check"
+                    ]
+                  }
+                }
+              },
+              "additionalProperties": false
+            },
+            "on_number_key_1_click": {
+              "type": "object",
+              "properties": {
+                "deny_commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "check": {
+                        "type": "string"
+                      },
+                      "commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      },
+                      "deny_commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                      "check"
+                    ]
+                  }
+                }
+              },
+              "additionalProperties": false
+            },
+            "on_number_key_2_click": {
+              "type": "object",
+              "properties": {
+                "deny_commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "check": {
+                        "type": "string"
+                      },
+                      "commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      },
+                      "deny_commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                      "check"
+                    ]
+                  }
+                }
+              },
+              "additionalProperties": false
+            },
+            "on_number_key_3_click": {
+              "type": "object",
+              "properties": {
+                "deny_commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "check": {
+                        "type": "string"
+                      },
+                      "commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      },
+                      "deny_commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                      "check"
+                    ]
+                  }
+                }
+              },
+              "additionalProperties": false
+            },
+            "on_number_key_4_click": {
+              "type": "object",
+              "properties": {
+                "deny_commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "check": {
+                        "type": "string"
+                      },
+                      "commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      },
+                      "deny_commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                      "check"
+                    ]
+                  }
+                }
+              },
+              "additionalProperties": false
+            },
+            "on_number_key_5_click": {
+              "type": "object",
+              "properties": {
+                "deny_commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "check": {
+                        "type": "string"
+                      },
+                      "commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      },
+                      "deny_commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                      "check"
+                    ]
+                  }
+                }
+              },
+              "additionalProperties": false
+            },
+            "on_number_key_6_click": {
+              "type": "object",
+              "properties": {
+                "deny_commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "check": {
+                        "type": "string"
+                      },
+                      "commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      },
+                      "deny_commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                      "check"
+                    ]
+                  }
+                }
+              },
+              "additionalProperties": false
+            },
+            "on_number_key_7_click": {
+              "type": "object",
+              "properties": {
+                "deny_commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "check": {
+                        "type": "string"
+                      },
+                      "commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      },
+                      "deny_commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                      "check"
+                    ]
+                  }
+                }
+              },
+              "additionalProperties": false
+            },
+            "on_number_key_8_click": {
+              "type": "object",
+              "properties": {
+                "deny_commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "check": {
+                        "type": "string"
+                      },
+                      "commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      },
+                      "deny_commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                      "check"
+                    ]
+                  }
+                }
+              },
+              "additionalProperties": false
+            },
+            "on_swap_offhand_click": {
+              "type": "object",
+              "properties": {
+                "deny_commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "check": {
+                        "type": "string"
+                      },
+                      "commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      },
+                      "deny_commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                      "check"
+                    ]
+                  }
+                }
+              },
+              "additionalProperties": false
+            },
+            "on_control_drop_click": {
+              "type": "object",
+              "properties": {
+                "deny_commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "commands": {
+                  "$ref": "#/definitions/commands_ref"
+                },
+                "requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "check": {
+                        "type": "string"
+                      },
+                      "commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      },
+                      "deny_commands": {
+                        "$ref": "#/definitions/commands_ref"
+                      }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                      "check"
+                    ]
+                  }
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    },
+    "dub_6": {
+      "type": "object",
+      "patternProperties": {
+        ".*": {
+          "anyOf": [
+            {
+              "type": [
+                "number",
+                "string"
+              ]
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": [
+                  "number",
+                  "string"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BMenu menu schema"
+}

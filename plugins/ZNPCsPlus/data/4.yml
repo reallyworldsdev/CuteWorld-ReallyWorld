@@ -1,0 +1,26 @@
+id: '4'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: 2a0a4cbe-208b-4d60-a04e-b85a6ca98169
+world: spawn
+location:
+  x: 5.583765097187828
+  y: 65.0
+  z: 7.373530419571196
+  yaw: 118.85134
+  pitch: -1.8379753
+type: player
+properties:
+  skin_right_leg: 'true'
+  skin_cape: 'true'
+  skin_left_sleeve: 'true'
+  skin_jacket: 'true'
+  skin_right_sleeve: 'true'
+  skin_left_leg: 'true'
+  skin_hat: 'true'
+hologram:
+  lines:
+  - '&6&lПутеводитель'
+actions:
+- lol.pyr.znpcsplus.interaction.consolecommand.ConsoleCommandAction;ZG0gb3BlbiBwdXRpdm9kaXRlciAlcGxheWVyX25hbWUl;1000;ANY_CLICK;0

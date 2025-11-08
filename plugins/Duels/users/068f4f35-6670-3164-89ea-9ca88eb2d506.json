@@ -1,0 +1,55 @@
+{
+  "uuid": "068f4f35-6670-3164-89ea-9ca88eb2d506",
+  "name": "milos123",
+  "wins": 5,
+  "losses": 6,
+  "requests": true,
+  "rating": {
+    "classic": 1431,
+    "shari": 1385,
+    "totem": 1384,
+    "nezerka": 1401
+  },
+  "matches": [
+    {
+      "winner": "milos123",
+      "loser": "Koteno4ekk",
+      "kit": "classic",
+      "time": 1741921246746,
+      "duration": 20826,
+      "health": 6.5
+    },
+    {
+      "winner": "mikesigmatic",
+      "loser": "milos123",
+      "kit": "nezerka",
+      "time": 1742223027775,
+      "duration": 79867,
+      "health": 1.0
+    },
+    {
+      "winner": "milos123",
+      "loser": "mikesigmatic",
+      "kit": "shari",
+      "time": 1742223027775,
+      "duration": 173429,
+      "health": 1.0
+    },
+    {
+      "winner": "jodonpvp167",
+      "loser": "milos123",
+      "kit": "shari",
+      "time": 1742266842114,
+      "duration": 61524,
+      "health": 10.0
+    },
+    {
+      "winner": "hokay",
+      "loser": "milos123",
+      "kit": "shari",
+      "time": 1742353239555,
+      "duration": 55015,
+      "health": 1.0
+    }
+  ]
+}

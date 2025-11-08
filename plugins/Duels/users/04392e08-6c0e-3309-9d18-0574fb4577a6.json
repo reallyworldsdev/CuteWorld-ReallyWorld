@@ -1,0 +1,20 @@
+{
+  "uuid": "04392e08-6c0e-3309-9d18-0574fb4577a6",
+  "name": "Lal448",
+  "wins": 1,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "nezerka": 1416
+  },
+  "matches": [
+    {
+      "winner": "Lal448",
+      "loser": "delay225",
+      "kit": "nezerka",
+      "time": 1747579074434,
+      "duration": 19861,
+      "health": 4.0
+    }
+  ]
+}

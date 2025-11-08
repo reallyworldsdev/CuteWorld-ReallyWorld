@@ -1,0 +1,34 @@
+menu_title: '&fꈁꀀꈂꌄꈂꀁ&0ꈃꄈ'
+size: 54
+items:
+  'server_warp':
+    material: chest_minecart
+    slot: 21
+    display_name: '&#FB7408&l/code aerophobic'
+    lore:
+    - ''
+    - ' &7Нажмите, чтобы получить'
+    - ' &7подарок от аерофобика'
+    - ''
+    click_commands:
+    - '[player] code aerophobic'
+  'donater_warp':
+    material: chest_minecart
+    slot: 23
+    display_name: '&#FB7408&l/code fufa'
+    lore:
+    - ''
+    - ' &7Нажмите, чтобы получить'
+    - ' &7подарок от фуфы'
+    - ''
+    click_commands:
+    - '[player] code fufa'
+  'back':
+    material: structure_void
+    model_data: 10002
+    slot: 45
+    display_name: '&6◄ Назад'
+    left_click_commands:
+    - '[openguimenu] code'
+    right_click_commands:
+    - '[openguimenu] menu'

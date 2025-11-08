@@ -1,0 +1,43 @@
+# Уровни (нужно писать для каждого уровня)
+levels:
+  1:
+    exp: 0 # Количество опыта для повышения уровня, на первом уровне ВСЕГДА 0
+    max_members: 10 # Максимальное кол-во участников
+    # типы: BLACK, DARK_GREEN, DARK_RED, GOLD, DARK_GRAY, GREEN, RED, YELLOW, DARK_BLUE, DARK_AQUA, DARK_PURPLE, GRAY, BLUE, AQUA, LIGHT_PURPLE, WHITE
+    color: "&8"
+  2:
+    exp: 500
+    max_members: 15
+    color: "&7"
+  3:
+    exp: 1000
+    max_members: 20
+    color: "§x§6§E§C§7§D§E"
+  4:
+    exp: 1500
+    max_members: 25
+    color: "§x§3§F§D§8§F§F"
+  5:
+    exp: 2000
+    max_members: 30
+    color: "§x§3§F§F§F§C§9"
+  6:
+    exp: 2500
+    max_members: 35
+    color: "§x§6§A§F§F§8§0"
+  7:
+    exp: 3000
+    max_members: 40
+    color: "§x§F§F§F§B§5§6"
+  8:
+    exp: 3500
+    max_members: 45
+    color: "&6"
+  9:
+    exp: 5000
+    max_members: 45
+    color: "&c&l"
+  10:
+    exp: 7500
+    max_members: 45
+    color: "&4&l"

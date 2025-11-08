@@ -1,0 +1,56 @@
+{
+  "uuid": "00e9c8d0-8fc2-3d78-b4fc-9d4c894445a3",
+  "name": "manvel34",
+  "wins": 5,
+  "losses": 4,
+  "requests": true,
+  "rating": {
+    "classic": 1416,
+    "shari": 1416,
+    "chiter": 1384,
+    "totem": 1416,
+    "nezerka": 1388
+  },
+  "matches": [
+    {
+      "winner": "manvel34",
+      "loser": "hibich",
+      "kit": "classic",
+      "time": 1742580678680,
+      "duration": 18969,
+      "health": 3.5
+    },
+    {
+      "winner": "hibich",
+      "loser": "manvel34",
+      "kit": "nezerka",
+      "time": 1742580678680,
+      "duration": 38606,
+      "health": 3.0
+    },
+    {
+      "winner": "manvel34",
+      "loser": "hibich",
+      "kit": "totem",
+      "time": 1742580678680,
+      "duration": 176886,
+      "health": 7.0
+    },
+    {
+      "winner": "manvel34",
+      "loser": "hibich",
+      "kit": "shari",
+      "time": 1742580678680,
+      "duration": 66360,
+      "health": 9.0
+    },
+    {
+      "winner": "manvel34",
+      "loser": "hibich",
+      "kit": "nezerka",
+      "time": 1742580678680,
+      "duration": 55789,
+      "health": 2.0
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "uuid": "0a0ad4ef-e8ac-3d1e-9090-dbd18bf25c65",
+  "name": "Spasm_S00",
+  "wins": 1,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "classic": 1416,
+    "nodebaff": 1384
+  },
+  "matches": [
+    {
+      "winner": "Spasm_S00",
+      "loser": "Element_banan",
+      "kit": "classic",
+      "time": 1742266842114,
+      "duration": 15438,
+      "health": 1.5
+    },
+    {
+      "winner": "Element_banan",
+      "loser": "Spasm_S00",
+      "kit": "nodebaff",
+      "time": 1742266842114,
+      "duration": 157507,
+      "health": 6.0
+    }
+  ]
+}

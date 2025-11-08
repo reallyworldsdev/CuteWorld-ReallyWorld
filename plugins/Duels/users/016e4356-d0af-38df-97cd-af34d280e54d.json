@@ -1,0 +1,20 @@
+{
+  "uuid": "016e4356-d0af-38df-97cd-af34d280e54d",
+  "name": "horze",
+  "wins": 1,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "totem": 1418
+  },
+  "matches": [
+    {
+      "winner": "horze",
+      "loser": "skuff_lol",
+      "kit": "totem",
+      "time": 1741522036438,
+      "duration": 163854,
+      "health": 4.0
+    }
+  ]
+}

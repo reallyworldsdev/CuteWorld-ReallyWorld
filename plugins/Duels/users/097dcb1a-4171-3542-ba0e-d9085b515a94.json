@@ -1,0 +1,20 @@
+{
+  "uuid": "097dcb1a-4171-3542-ba0e-d9085b515a94",
+  "name": "pupsik19241924",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "totem": 1389
+  },
+  "matches": [
+    {
+      "winner": "BoberBear1",
+      "loser": "pupsik19241924",
+      "kit": "totem",
+      "time": 1747429690760,
+      "duration": 56683,
+      "health": 9.0
+    }
+  ]
+}

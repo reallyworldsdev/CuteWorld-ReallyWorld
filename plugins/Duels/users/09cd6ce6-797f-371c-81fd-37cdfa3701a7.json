@@ -1,0 +1,20 @@
+{
+  "uuid": "09cd6ce6-797f-371c-81fd-37cdfa3701a7",
+  "name": "zeblagum_rw",
+  "wins": 1,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "totem": 1414
+  },
+  "matches": [
+    {
+      "winner": "zeblagum_rw",
+      "loser": "topKILLSaboba",
+      "kit": "totem",
+      "time": 1741402844432,
+      "duration": 265499,
+      "health": 10.0
+    }
+  ]
+}

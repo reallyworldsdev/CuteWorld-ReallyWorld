@@ -1,0 +1,108 @@
+Name: shar2
+Cooldown: 0
+Permission: greatkits.kits.shar2
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"color":"dark_red","text":"Поке"},{"bold":true,"italic":false,"color":"white","text":"Болл"}],"text":""}'
+      lore:
+      - '{"text":" "}'
+      - '{"text":"§7Когда во второй руке:"}'
+      - '{"text":"§9  +25% Твёрдость брони"}'
+      - '{"text":"§9  +2.5 Брони"}'
+      - '{"text":"§9  +25% Максимальное здоровье"}'
+      - '{"text":"§c  -0.5% Скорость атаки"}'
+      - '{"text":"§c  -20% Скорости"}'
+      attribute-modifiers:
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.25
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor_toughness]
+          slot: OFF_HAND
+          uuid: abf9933f-022a-4771-af34-0c36f8e1fa32
+          operation: 1
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: OFF_HAND
+          uuid: a40abde8-7613-49e4-926c-dd75bbf2c659
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.25
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: f0aaaa76-4181-4af2-89e6-072fa83886f5
+          operation: 1
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -0.02
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: f06132b2-7095-4b32-99f5-bd56f37ed614
+          operation: 0
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -0.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_speed]
+          slot: OFF_HAND
+          uuid: e779c3fa-febe-4944-8f6d-83920b9df569
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PO07DQBiE/0QgBYfDODY2SgkxOGtl16xj/Nguj4382A2RY4c4HWdAIFHSU3ABTkJHRc8FWDq6b/TNFKMBdKDr4I4Gp9OyEeKmulvlgmugKdrwqs759gR6Nd/XTcW3GqhBD46jmWg4vPPW01mS6cvEE4sW2SqHU134qNico3XUzkfIRlL58YU9aYf/ulY9iy2Rml7G1rSZy0ifmIHg42CwkLc75tADc4KcGNcFLoIMx9Qg4WXJ3NTEhlfikN6zglpM4j2WtCUHbPwxca/OmItbEmPlicSFKH0nkr6b5qtkMAToQxct1Ymj59Hnw9ePX768fnz3n94eAX4B4D3JVQwBAAA=
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

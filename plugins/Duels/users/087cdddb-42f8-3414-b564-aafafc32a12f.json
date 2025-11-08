@@ -1,0 +1,20 @@
+{
+  "uuid": "087cdddb-42f8-3414-b564-aafafc32a12f",
+  "name": "sloneex",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "classic": 1384
+  },
+  "matches": [
+    {
+      "winner": "Frost8888",
+      "loser": "sloneex",
+      "kit": "classic",
+      "time": 1742633987531,
+      "duration": 21661,
+      "health": 3.5
+    }
+  ]
+}

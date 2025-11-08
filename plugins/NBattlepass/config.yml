@@ -1,0 +1,327 @@
+dataBase: SQLite
+host: localhost
+port: 3306
+username: root
+password: root
+playerDatabase: players
+questDataBase: quests
+translating:
+  PROTECTION_ENVIRONMENTAL: Защита
+  PROTECTION_FIRE: Огнеупорность
+  PROTECTION_FALL: Невесомость
+  PROTECTION_EXPLOSIONS: Взрывоустойчивость
+  PROTECTION_PROJECTILE: Защита от снарядов
+  THORNS: Шипы
+  OXYGEN: Подводное дыхание
+  DEPTH_STRIDER: Подводная ходьба
+  WATER_WORKER: Подводник
+  DAMAGE_ALL: Острота
+  DAMAGE_UNDEAD: Небесная кара
+  DAMAGE_ARTHROPODS: Бич членистоногих
+  KNOCKBACK: Отбрасывание
+  FIRE_ASPECT: Заговор огня
+  LOOT_BONUS_MOBS: Добыча
+  DIG_SPEED: Эффективность
+  SILK_TOUCH: Шёлковое касание
+  DURABILITY: Прочность
+  LOOT_BONUS_BLOCKS: Удача
+  ARROW_DAMAGE: Сила
+  ARROW_KNOCKBACK: Откидывание
+  ARROW_FIRE: Воспламенение
+  ARROW_INFINITE: Бесконечность
+  LUCK: Везучий рыбак
+  LURE: Приманка
+  FROST_WALKER: Ледоход
+  MENDING: Починка
+  BINDING_CURSE: Проклятие несъёмности
+  VANISHING_CURSE: Проклятие утраты
+  IMPALING: Пронзатель
+  RIPTIDE: Тягун
+  LOYALTY: Верность
+  CHANNELING: Громовержец
+  SWEEPING_EDGE: Разящий клинок
+ignoringEnchants:
+- MENDING
+dayQuestValues:
+- 16
+- 32
+- 64
+- 128
+weekQuestValues:
+- 256
+- 512
+- 1024
+- 2048
+exp:
+  name: '&9Подбери'
+  map:
+    DIAMOND_ORE: опыта
+breakBlocks:
+  name: '&9Сломай'
+  map:
+    DIAMOND_ORE: алмазной руды
+    IRON_ORE: железной руды
+    COAL_ORE: угольной руды
+killMobs:
+  name: '&9Убей'
+  map:
+    ZOMBIE: зомби
+    SKELETON: скелетов
+    CREEPER: криперов
+eat:
+  name: '&9Съешь'
+  map:
+    GOLDEN_APPLE: золотых яблок
+craftItems:
+  name: '&9Скрафти'
+  map:
+    DIAMOND_CHESTPLATE: алмазных нагрудников
+placeBlocks:
+  name: '&9Поставь'
+  map:
+    DIAMOND_ORE: алмазной руды
+    IRON_ORE: железной руды
+    COAL_ORE: угольной руды
+message:
+  setUsage: '&6Используй: &f/nBattlePass set [Игрок] [Количество]'
+  giveUsage: '&6Используй &f/nBattlePass give [Игрок]'
+  playerDontOnline: '&cИгрок не онлайн!'
+  successfullySet: '&aВы изменили опыт игрока %player% на %exp%'
+  successfullyClear: '&aБазы данных успешно очищены!'
+  successfullyGive: '&aПодписка успешно выдана!'
+  addUsage: '&6Используй &f/nBattlePass add [Уровень] [Тип]'
+  unknownType: '&cНеизвестный тип, доступные: DEFAULT/SUBSCRIBE'
+  notDigit: '&cУровень не является цифрой!'
+battlePass:
+  inventory:
+    name: §fꈁꀀꈂꌠꈂꀁ§0ꈃꄔ
+    arrow:
+      next:
+        name: '&6Вперед'
+        modelData: 10003
+        slot: 53
+      back:
+        name: '&6Назад'
+        modelData: 10002
+        slot: 45
+    info:
+      modelData: 10001
+      name: '&r'
+      lore:
+      - '  &6Ваш боевой пропуск:'
+      - '    '
+      - '    &7Ваш ник: &6%name%'
+      - '    &7Уровень боевого пропуска: &6%currentLevel%'
+      - '    &7Всего заработано опыта: &6%currentExp% &fꐇ'
+      - '    &7Тип боевого пропуска: &6%type%'
+      - ''
+      - ''
+      - '  &7Очков до следующего уровня: &6%expToNext%'
+      - '    &8[%expBar%&8]'
+      - '    &7%currentExp%                                              &7%expToNext%'
+      - ''
+      - '&8Выполняя ежедневные и еженедельные задания'
+      - '&8Вы получаете очки опыта боевого пропуска'
+      slot: 4
+    dailyQuest:
+      name: '&r'
+      lore:
+      - '  &6Ежедневное задание'
+      - ''
+      - '  %description%'
+      - '&r'
+      - '  &7Прогресс &6%current%&8/&6%need%'
+      - '  &7Награда: &6%reward% &fꐇ'
+      - '  &7Статус: %status%'
+      - '&r'
+      - '  &8Ежедневное задание  '
+      - '  &8обновляется каждую ночь  '
+      - '&r'
+      startSlot: 10
+    weeklyQuest:
+      name: '&r'
+      lore:
+      - '  &6Еженедельное задание'
+      - ''
+      - '  %description%'
+      - '&r'
+      - '  &7Прогресс &6%current%&8/&6%need%'
+      - '  &7Награда: &6%reward% &fꐇ'
+      - '  &7Статус: %status%'
+      - '&r'
+      - '  &8Еженедельное задание  '
+      - '  &8обновляется каждую ночь  '
+      - '&r'
+      startSlot: 14
+    defaultLevelItem:
+      name: '&r'
+      lore:
+      - '  &6%number% уровень        %status%  '
+      - '           '
+      - '  &9Награда:'
+      - '           '
+      slot: 28
+    subscribeLevelItem:
+      name: '&r'
+      lore:
+      - '  &6%number% уровень        %status%  '
+      - '           '
+      - '  &9Награда по подписке:'
+      - '           '
+      slot: 37
+expForWeek: 1150
+expForDaily: 230
+clearPageCount: 1
+clear1NameMaterials:
+- BEETROOT
+- WHEAT_SEEDS
+- POTATO
+- CARROT
+- BONE_MEAL
+- NETHERITE_HOE
+- PLAYER_HEAD
+- NETHERITE_SWORD
+- NETHERITE_PICKAXE
+- NETHERITE_AXE
+- NETHERITE_SHOVEL
+- NETHERITE_HELMET
+- NETHERITE_CHESTPLATE
+- NETHERITE_LEGGINGS
+- NETHERITE_BOOTS
+- DIAMOND_ORE
+- NETHERITE_PICKAXE
+- FISHING_ROD
+- TROPICAL_FISH
+- PUFFERFISH
+- SPAWNER
+- CREEPER_SPAWN_EGG
+- VILLAGER_SPAWN_EGG
+- ENCHANTED_BOOK
+- ENCHANTED_BOOK
+- ENCHANTED_BOOK
+- DIAMOND_SWORD
+- ELYTRA
+- FIREWORK_ROCKET
+- BOW
+- TIPPED_ARROW
+- NETHERITE_AXE
+- OAK_LOG
+- SPRUCE_LOG
+- BIRCH_LOG
+- NETHERITE_PICKAXE
+- BREWING_STAND
+- MAGMA_CREAM
+- BLAZE_POWDER
+- FERMENTED_SPIDER_EYE
+- GOLDEN_CARROT
+- CROSSBOW
+- TRIDENT
+- ENCHANTED_BOOK
+- ENCHANTED_BOOK
+- ENCHANTED_BOOK
+- NETHERITE_SWORD
+- NETHERITE_PICKAXE
+- NETHERITE_AXE
+- NETHERITE_SHOVEL
+- NETHERITE_HELMET
+- NETHERITE_CHESTPLATE
+- NETHERITE_LEGGINGS
+enchantNameMaterials:
+- NETHERITE_PICKAXE
+- NETHERITE_SWORD
+- NETHERITE_AXE
+- NETHERITE_SHOVEL
+- NETHERITE_AXE
+countNameMaterials:
+- PLAYER_HEAD
+- NETHERITE_SWORD
+- NETHERITE_PICKAXE
+- FISHING_ROD
+- ELYTRA
+- CROSSBOW
+- SHIELD
+- NETHERITE_AXE
+- NETHERITE_SHOVEL
+- BOW
+- POTION
+- POTION
+- POTION
+- POTION
+- POTION
+- SPLASH_POTION
+- POTION
+- POTION
+- SPLASH_POTION
+- SPLASH_POTION
+clear11NameMaterials:
+- DIAMOND_CHESTPLATE
+clear2NameMaterials:
+- NETHERITE_BOOTS
+- TOTEM_OF_UNDYING
+- TOTEM_OF_UNDYING
+- TOTEM_OF_UNDYING
+- BOW
+- PLAYER_HEAD
+- NETHERITE_PICKAXE
+- NETHERITE_SWORD
+- SHIELD
+- POTION
+- NETHERITE_SWORD
+- NETHERITE_PICKAXE
+- NETHERITE_AXE
+- NETHERITE_SHOVEL
+- NETHERITE_HELMET
+- NETHERITE_CHESTPLATE
+- NETHERITE_LEGGINGS
+- NETHERITE_BOOTS
+- TOTEM_OF_UNDYING
+- TOTEM_OF_UNDYING
+- TOTEM_OF_UNDYING
+- BOW
+- GOLDEN_APPLE
+- ENDER_PEARL
+- EXPERIENCE_BOTTLE
+- ENCHANTED_GOLDEN_APPLE
+- NETHERITE_SWORD
+- ENCHANTED_BOOK
+- ENCHANTED_BOOK
+- ENCHANTED_BOOK
+- ENCHANTED_BOOK
+- ENCHANTED_BOOK
+- NETHERITE_SWORD
+- NETHERITE_PICKAXE
+- NETHERITE_AXE
+- NETHERITE_SHOVEL
+- NETHERITE_HELMET
+- NETHERITE_CHESTPLATE
+- NETHERITE_LEGGINGS
+- NETHERITE_BOOTS
+- TOTEM_OF_UNDYING
+- TOTEM_OF_UNDYING
+- TOTEM_OF_UNDYING
+- COOKED_BEEF
+- BOW
+clear3NameMaterials:
+- TIPPED_ARROW
+- POTION
+- POTION
+- POTION
+- SPLASH_POTION
+- POTION
+- LAPIS_BLOCK
+- DIAMOND_BLOCK
+- GOLD_BLOCK
+- PLAYER_HEAD
+- END_CRYSTAL
+- OBSIDIAN
+- BOW
+- BOW
+- POTION
+- GOLDEN_CARROT
+- PLAYER_HEAD
+clear4NameMaterials:
+- TALL_GRASS
+clear5NameMaterials:
+- GRASS_BLOCK
+clear6NameMaterials:
+- DEAD_BUSH

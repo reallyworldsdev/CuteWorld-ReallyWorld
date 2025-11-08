@@ -1,0 +1,79 @@
+Name: ogorod
+Cooldown: 0
+Permission: strictkits.kits.ogorod
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Шар
+        огородника"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Удача
+        III (на растения)"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"При
+        нажатии SHIFT:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Выращивает
+        растения вокруг вас"}],"text":""}'
+      - '{"text":""}'
+      enchants:
+        LOOT_BONUS_BLOCKS: 3
+        VANISHING_CURSE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      internal: H4sIAAAAAAAA/02PO1KDUBiFfx2dieiMO3AFFiQ8nHQyGsxlwsUQwoXbJeRGHj9JhoCRuwIrK1fhWFjYuiB3IaXdOd/5mqMAKHAxKxrEx2q7zlAooHRpJ6o6E/sz6NXipW4qsVcA4KgHp+ECGwFfonVUHqXqKnIwaYnZ9WCmokfy3Q3ZhO3yjpik7PaxZU7a4T/XqBfMwFhzUr6ZNssyVCeaj2Ls95Ny/uwxu3Ql0WP5pMW5NfDu54eO5XFQ6K70kZd2zoORQWVyoIwjZVOV55ZO5UhzpZ3RAWldRgsvwMxjvOAPbraO+kOAczgmq+7Eybdz+fN6ffv5ll59vG+TX4A/xM5fawYBAAA=
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

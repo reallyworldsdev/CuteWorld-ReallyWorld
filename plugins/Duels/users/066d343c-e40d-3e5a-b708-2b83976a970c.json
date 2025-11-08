@@ -1,0 +1,37 @@
+{
+  "uuid": "066d343c-e40d-3e5a-b708-2b83976a970c",
+  "name": "tochno",
+  "wins": 2,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "classic": 1427,
+    "chiter": 1384
+  },
+  "matches": [
+    {
+      "winner": "tochno",
+      "loser": "Fan_Domer656",
+      "kit": "classic",
+      "time": 1741662051298,
+      "duration": 58906,
+      "health": 10.0
+    },
+    {
+      "winner": "tochno",
+      "loser": "Fan_Domer656",
+      "kit": "classic",
+      "time": 1741662051298,
+      "duration": 67484,
+      "health": 0.5
+    },
+    {
+      "winner": "MNWA2025",
+      "loser": "tochno",
+      "kit": "chiter",
+      "time": 1741921246746,
+      "duration": 27040,
+      "health": 6.5
+    }
+  ]
+}

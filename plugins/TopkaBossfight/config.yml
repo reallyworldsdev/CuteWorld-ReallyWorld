@@ -1,0 +1,66 @@
+messages:
+  notFound: "&cИвент не найден! Выключать нечего!"
+  noPerm: "&cУ вас нет прав для выполнения этой команды!"
+  lootSaved: "&aЛут успешно сохранен!"
+  admUsage: "&cnBossfight reload/start/stop/edit"
+  usage: "&cboss join/leave"
+  edit: "&cРедактирование лута"
+  start: "&cИвент успешно запущен"
+  stop: "&cБоссфайт завершен"
+  reload: "&aКонфиг перезагружен"
+  needArmor: "&6Битва с боссом &8» &cДля входа на арену у вас должен быть минимум &bАлмазный сет&c!"
+  notEvent: "&6Битва с боссом &8» &cДождитесь начала ивента!"
+
+hour: 17
+minute: 30
+
+bossfight:
+  glowItems: true
+  throwPower: 3
+  throwChance: 0.4
+  playersForStart: 70
+  timeForJoin: 180
+  endTime: 200
+  damageToPoints: 350
+  defaultMoney: 100000
+  defaultPoints: 500
+  pointsReward:
+    - "&6Битва с боссом &8» &eБитва с боссом завершена!"
+    - "&6Битва с боссом &8» &fВаша награда:"
+    - "&6Битва с боссом &8» &6100.000 &7игровой валюты"
+    - "&6Битва с боссом &8» &6500 &7донатных риликов"
+  moneyReward:
+    - "&6Битва с боссом &8» &eБитва с боссом завершена!"
+    - "&6Битва с боссом &8» &fВаша награда:"
+    - "&6Битва с боссом &8» &6100.000 &7игровой валюты"
+spawnLoc:
+  world: "spawn"
+  x: 0
+  y: 52
+  z: 0
+playerTpLoc:
+  world: "spawn"
+  x: 55
+  y: 18
+  z: 216
+bosses:
+  ravager:
+    health: 1000
+    location:
+      world: "spawn"
+      x: 47
+      y: 15
+      z: 199
+bossbar:
+  waiting:
+    name: "&6&lБитва с Боссом &8| &bНабор игроков  &8(&6%players%&7/&650&8) &7/boss join &c(Осталось &4%time% &cсек)"
+    style: SOLID
+    color: YELLOW
+  fighting:
+    name: "&6&lБитва с Боссом &8| &cОдолейте босса"
+    style: SOLID
+    color: YELLOW
+  ended:
+    name: "&6&lБитва с Боссом &8| &eБосс убит!"
+    style: SEGMENTED_20
+    color: YELLOW

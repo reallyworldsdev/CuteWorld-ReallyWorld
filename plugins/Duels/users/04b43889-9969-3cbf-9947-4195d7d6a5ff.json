@@ -1,0 +1,20 @@
+{
+  "uuid": "04b43889-9969-3cbf-9947-4195d7d6a5ff",
+  "name": "ytenesty",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "shari": 1386
+  },
+  "matches": [
+    {
+      "winner": "derwek666zopa",
+      "loser": "ytenesty",
+      "kit": "shari",
+      "time": 1747896636443,
+      "duration": 82707,
+      "health": 7.0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "uuid": "07097614-e365-3f64-a626-d87e7c02db92",
+  "name": "vorr_97",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "shari": 1388
+  },
+  "matches": [
+    {
+      "winner": "fInT_v_KaNaVu",
+      "loser": "vorr_97",
+      "kit": "shari",
+      "time": 1741057242418,
+      "duration": 76953,
+      "health": 9.0
+    }
+  ]
+}

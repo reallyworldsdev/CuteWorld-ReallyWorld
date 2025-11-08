@@ -1,0 +1,36 @@
+location: spawn:10.591:69.000:0.525
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#FBC108&lC&#FCB807&lu&#FCB006&lt&#FDA705&le&#FD9F04&lW&#FE9603&lo&#FE8D02&lr&#FF8501&ll&#FF7C00&ld'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fЗдравствуй, &#FBE108%player_name%&f!'
+    height: 0.3
+  - content: '&fМы приветствуем &#FBE108тебя &fна режиме &x&e&4&b&f&0&0&lГ&x&e&9&a&5&0&0&lР&x&e&e&8&b&0&0&lИ&x&f&2&7&0&0&0&lФ &x&f&7&5&6&0&0&l#&x&f&c&3&c&0&0&l1'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&#FBE108♥ &fДонаты сервера &7- &#FBE108/donate'
+    height: 0.3
+  - content: '&#FBE108♥ &fМагазин сервера &7- &#FBE108/shop'
+    height: 0.3
+  - content: '&#FBE108♥ &fБесплатный донат &7- &#FBE108/free'
+    height: 0.3
+  - content: '&#FBE108♥ &fСкупщик ресурсов &7- &#FBE108/buyer'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fНаш &#FBE108ДС&7: &#FBE108discord.gg/CuteWorld'
+    height: 0.3
+  - content: '&fНаш &#FBE108сайт&7: &#FBE108CuteWorld.pw'
+    height: 0.3
+  - content: '&fПоследний &#FBE108вайп &fбыл: &#FBE108(20.06.2025)'
+    height: 0.3
+  actions: {}

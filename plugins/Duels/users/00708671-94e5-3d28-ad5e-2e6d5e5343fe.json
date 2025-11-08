@@ -1,0 +1,28 @@
+{
+  "uuid": "00708671-94e5-3d28-ad5e-2e6d5e5343fe",
+  "name": "picsel",
+  "wins": 0,
+  "losses": 2,
+  "requests": true,
+  "rating": {
+    "chiter": 1369
+  },
+  "matches": [
+    {
+      "winner": "Kriziskill",
+      "loser": "picsel",
+      "kit": "chiter",
+      "time": 1742007640918,
+      "duration": 372137,
+      "health": 10.0
+    },
+    {
+      "winner": "merzkosolsky",
+      "loser": "picsel",
+      "kit": "chiter",
+      "time": 1742007640918,
+      "duration": 39306,
+      "health": 10.0
+    }
+  ]
+}

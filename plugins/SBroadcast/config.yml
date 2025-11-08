@@ -1,0 +1,37 @@
+#
+#    SBroadcast Config
+#
+
+# PLACEHOLDERS
+# %player% - Replaced with the player that sent the messages's name, for example %player% could be Squishling, and if it was the console it would be CONSOLE
+# %displayname% - Replaced with the player that sent the message's display name, for example %displayname% could be [OWNER] Squishling, and if it was the console it would be CONSOLE
+# %message% - Replaced with the message that the sender sent, for example '/broadcast hi' would mean %message% would be replaced with 'hi'
+
+# COLORS
+# Each &<letter> color code will be replaced with the color, for example '&aHi' would be 'Hi' in Lime
+# &4 - Dark red
+# &c - Red
+# &6 - Gold
+# &e - Yellow
+# &2 - Dark green
+# &a - Lime
+# &b - Aqua
+# &3 - Dark aqua
+# &1 - Dark blue
+# &9 - Blue
+# &d - Pink
+# &5 - Purple
+# &f - White
+# &7 - Light gray
+# &8 - Dark gray
+# &0 - Black
+
+# SPECIAL COLOR CODES
+# &l - Bold
+# &o - Italic
+# &n - Underlined
+# &m - Line through text
+# &k - Each character will be randomized every tick
+# &r - Reset color codes. Useful for special color codes, espeacially &k
+
+broadcast-message: '&8[&6&lОБЪЯВЛЕНИЕ&8] &7Говорит %player%: &7%message%'

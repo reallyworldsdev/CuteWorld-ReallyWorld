@@ -1,0 +1,18 @@
+damage:
+  name: "&bАура Твёрдости Брони"
+  lore:
+    - "&7Уменьшает входящий урон от игрока"
+  material: "CLAY_BALL"
+  percentage: 40
+crystal:
+  name: "&bАура Защиты От Кристаллов"
+  lore:
+    - "&7Уменьшает урон от кристаллов на &640%"
+  material: "GHAST_TEAR"
+  percentage: 40
+fall:
+  name: "&bАура Защиты От Падения"
+  lore:
+    - "&7Уменьшает входящий урон от падения на &680%"
+  material: "WHITE_DYE"
+  percentage: 80

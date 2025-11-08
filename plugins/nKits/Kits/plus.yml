@@ -1,0 +1,87 @@
+Name: plus
+Cooldown: 64800
+Permission: greatkits.kits.plus
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: CHORUS_FRUIT
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: RED_SHULKER_BOX
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_CHEST
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: RED_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/8WST1PCMBDFtxQUqqIi//0mHnU4cMZ7JjRbmiFNarp1hm8vSrGOp24v3N97+/LLiwAiGL4aF+9XljQd3uVuAL01YVZEAPAcQHdjHEEAvTdXWgoiCOlbM9qQ86hWNk6lpQwt/RiCPnS0gnGmLcZeJvSSe0cYk3a2A6H5NNAFOInmtQhPMajE1rk9VFeD36snw7I20DE0Ey4RpVUHbXdnS+efZVpbds4otELmucGzPOTJu0wMszpOfpRSyCTR9ki5IhE0JtHj9bziya/5nPsXGcSA967oIiVv+DRv2+9KYU6pKMhrhb7qGjbuesfvOmwPtbRbj3J/DGMXvecXfbjI7z/yJjriv+uJd2HMxLCo4xKUlKIXiTSmzadNeE2nPPmMJ58zOUzqOI9Frr38s4fmDBa8lkvGHgC+ADX2Tj6/BwAA
+      blockMaterial: RED_SHULKER_BOX
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

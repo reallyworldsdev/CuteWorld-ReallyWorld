@@ -1,0 +1,23 @@
+clock:
+  creator: slowed227
+  world: spawn
+  x: -63
+  y: 81
+  z: 8
+  x2: -60
+  y2: 81
+  z2: 8
+  depth: 1
+  direction: SOUTH
+  material: QUARTZ_BLOCK
+  data: 0
+  filling: AIR
+  fdata: 0
+  add: 0
+  seconds: false
+  blinking: true
+  changer: true
+  ampm: false
+  cdt: 0
+  swt: 0
+  mode: NORMAL

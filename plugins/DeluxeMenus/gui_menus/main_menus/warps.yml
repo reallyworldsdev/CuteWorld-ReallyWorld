@@ -1,0 +1,31 @@
+menu_title: '&fꈁꀀꈂꌄꈂꀁ&0ꈃꄂ'
+open_command: 
+- warp
+- warps
+size: 54
+items:
+  'server_warp':
+    material: command_block
+    slot: 21
+    display_name: '&6&lСерверные варпы'
+    left_click_commands:
+    - '[player] warpiserverniye'
+    right_click_commands:
+    - '[player] warpiserverniye'
+  'donater_warp':
+    material: diamond
+    slot: 23
+    display_name: '&6&lДонатерские варпы'
+    left_click_commands:
+    - '[player] warpiserverniye'
+    right_click_commands:
+    - '[player] warpiserverniye'
+  'back':
+    material: structure_void
+    model_data: 10002
+    slot: 45
+    display_name: '&6◄ Назад'
+    left_click_commands:
+    - '[openguimenu] menu'
+    right_click_commands:
+    - '[openguimenu] menu'

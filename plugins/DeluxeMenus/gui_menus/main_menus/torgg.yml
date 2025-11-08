@@ -1,0 +1,4205 @@
+menu_title: '&fꈁꀀꈂꌅꈂꀁ&0ꈃꄠ'
+open_command: grejhg4t3yh34rr
+size: 54
+update_interval: 1
+items:
+  'back':
+    material: structure_void
+    model_data: 10003
+    slot: 53
+    display_name: '&6Вперед'
+    left_click_commands:
+    - '[console] dm open pidoras %player_name%'
+    right_click_commands:
+    - '[console] dm open pidoras %player_name%'
+  'arrow1':
+    material: tipped_arrow
+    nbt_int: CustomPotionColor:6774666    
+    amount: 16
+    slot: 21
+    priority: 6
+    display_name: '&fСтрела слабости'
+    lore:
+    - '&cСлабость (0:11)'
+    - ' &7Цена: &6$100.000'
+    - ' &7Куплено: &60/2 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 100000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.1 true 7200s'
+    - '[console] eco take %player_name% 100000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] xkit slabosttorg1 %player_name%'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'arrow2':
+    material: tipped_arrow
+    nbt_int: CustomPotionColor:6774666    
+    amount: 16
+    slot: 21
+    priority: 5
+    display_name: '&fСтрела слабости'
+    lore:
+    - '&cСлабость (0:11)'
+    - ' &7Цена: &6$100.000'
+    - ' &7Куплено: &61/2 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 100000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.1'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.2 true 7200s'
+    - '[console] eco take %player_name% 100000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] xkit slabosttorg1 %player_name%'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'arrow3':
+    material: tipped_arrow
+    nbt_int: CustomPotionColor:6774666    
+    amount: 16
+    slot: 21
+    priority: 1
+    display_name: '&fСтрела слабости'
+    lore:
+    - '&cСлабость (0:11)'
+    - ' &7Цена: &6$100.000'
+    - ' &7Куплено: &62/2 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 100000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.2'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+# ==============================================================================================================================
+  'arrow5':
+    material: tipped_arrow
+    nbt_int: CustomPotionColor:12774777    
+    amount: 16
+    slot: 22
+    priority: 6
+    display_name: '&fСтрела отравления'
+    lore:
+    - '&cОтравление (0:05)'
+    - ' &7Цена: &6$125.000'
+    - ' &7Куплено: &60/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 125000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.4 true 7200s'
+    - '[console] eco take %player_name% 125000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] xkit otravtorg1 %player_name%'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'arrow6':
+    material: tipped_arrow
+    nbt_int: CustomPotionColor:12774777    
+    amount: 16
+    slot: 22
+    priority: 5
+    display_name: '&fСтрела отравления'
+    lore:
+    - '&cОтравление (0:05)'
+    - ' &7Цена: &6$125.000'
+    - ' &7Куплено: &61/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 125000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.4'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.5 true 7200s'
+    - '[console] eco take %player_name% 125000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] xkit otravtorg1 %player_name%'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'arrow7':
+    material: tipped_arrow
+    nbt_int: CustomPotionColor:12774777    
+    amount: 16
+    slot: 22
+    priority: 2
+    display_name: '&fСтрела отравления'
+    lore:
+    - '&cОтравление (0:05)'
+    - ' &7Цена: &6$125.000'
+    - ' &7Куплено: &62/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 125000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.5'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.6 true 7200s'
+    - '[console] eco take %player_name% 125000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] xkit otravtorg1 %player_name%'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'arrow8':
+    material: tipped_arrow
+    nbt_int: CustomPotionColor:12774777    
+    amount: 16
+    slot: 22
+    priority: 1
+    display_name: '&fСтрела отравления'
+    lore:
+    - '&cОтравление (0:05)'
+    - ' &7Цена: &6$125.000'
+    - ' &7Куплено: &63/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 125000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.6'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+# ==================================================================================================================================
+  'dragon':
+    material: dragon_breath
+    amount: 16
+    slot: 1
+    priority: 6
+    display_name: '&dДраконье дыхание'
+    lore:
+    - ' &7Цена: &6$15.000'
+    - ' &7Куплено: &60/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 15000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.7 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% dragon_breath 16'
+    - '[refresh]'
+  'dragon1':
+    material: dragon_breath
+    amount: 16
+    slot: 1
+    priority: 5
+    display_name: '&dДраконье дыхание'
+    lore:
+    - ' &7Цена: &6$15.000'
+    - ' &7Куплено: &61/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.7'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.8 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% dragon_breath 16'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'dragon2':
+    material: dragon_breath
+    amount: 16
+    slot: 1
+    priority: 2
+    display_name: '&dДраконье дыхание'
+    lore:
+    - ' &7Цена: &6$15.000'
+    - ' &7Куплено: &62/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.8'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.9 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% dragon_breath 16'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'dragon3':
+    material: dragon_breath
+    amount: 16
+    slot: 1
+    priority: 1
+    display_name: '&dДраконье дыхание'
+    lore:
+    - ' &7Цена: &6$15.000'
+    - ' &7Куплено: &63/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.9'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+# ================================================================================================================================
+  'diamond':
+    material: diamond_block
+    amount: 16
+    slot: 2
+    priority: 6
+    display_name: '&fАлмазный блок'
+    lore:
+    - ' &7Цена: &6$30.000'
+    - ' &7Куплено: &60/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 30000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.10 true 7200s'
+    - '[console] eco take %player_name% 30000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% diamond_block 16'
+    - '[refresh]'
+  'diamond1':
+    material: diamond_block
+    amount: 16
+    slot: 2
+    priority: 5
+    display_name: '&fАлмазный блок'
+    lore:
+    - ' &7Цена: &6$30.000'
+    - ' &7Куплено: &61/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.10'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.11 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% diamond_block 16'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'diamond2':
+    material: diamond_block
+    amount: 16
+    slot: 2
+    priority: 2
+    display_name: '&fАлмазный блок'
+    lore:
+    - ' &7Цена: &6$30.000'
+    - ' &7Куплено: &62/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.11'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.12 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% diamond_block 16'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'diamond3':
+    material: diamond_block
+    amount: 16
+    slot: 2
+    priority: 1
+    display_name: '&fАлмазный блок'
+    lore:
+    - ' &7Цена: &6$30.000'
+    - ' &7Куплено: &63/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.12'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+# ================================================================================================================================
+  'ignot':
+    material: iron_block
+    amount: 16
+    slot: 3
+    priority: 6
+    display_name: '&fЖелезный блок'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &60/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.13 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% iron_block 16'
+    - '[refresh]'
+  'ingot1':
+    material: iron_block
+    amount: 16
+    slot: 3
+    priority: 5
+    display_name: '&fЖелезный блок'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &61/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.13'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.14 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% iron_block 16'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'ingot2':
+    material: iron_block
+    amount: 16
+    slot: 3
+    priority: 2
+    display_name: '&fЖелезный блок'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &62/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.14'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.15 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% iron_block 16'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'ingot3':
+    material: iron_block
+    amount: 16
+    slot: 3
+    priority: 1
+    display_name: '&fЖелезный блок'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &63/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.15'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+# ==============================================================================================================================
+  'gold':
+    material: gold_block
+    amount: 16
+    slot: 4
+    priority: 6
+    display_name: '&fЗолотой блок'
+    lore:
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &60/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.16 true 7200s'
+    - '[console] eco take %player_name% 50000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% gold_block 16'
+    - '[refresh]'
+  'gold1':
+    material: gold_block
+    amount: 16
+    slot: 4
+    priority: 5
+    display_name: '&fЗолотой блок'
+    lore:
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &61/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.16'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.17 true 7200s'
+    - '[console] eco take %player_name% 50000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% gold_block 16'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'gold2':
+    material: gold_block
+    amount: 16
+    slot: 4
+    priority: 2
+    display_name: '&fЗолотой блок'
+    lore:
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &62/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.17'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.18 true 7200s'
+    - '[console] eco take %player_name% 50000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% gold_block 16'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'gold3':
+    material: gold_block
+    amount: 16
+    slot: 4
+    priority: 1
+    display_name: '&fЗолотой блок'
+    lore:
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &63/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.18'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+# ==============================================================================================================================
+  'bow1':
+    material: bow
+    enchantments:
+    - 'knockback;1'
+    hide_enchantments: true
+    amount: 1
+    slot: 5
+    priority: 6
+    display_name: '&7&lПушечка'
+    lore:
+    - '&7Воспламенение'
+    - '&7Бесконечность'
+    - '&7Починка'
+    - '&7Сила 5'
+    - '&7Откидывание 5'
+    - '&7Прочность 2'
+    - '&7&cПроклятие утраты'
+    - ' &7Цена: &6$150.000'
+    - ' &7Куплено: &60/2 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 150000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torgf.19 true 7200s'
+    - '[console] eco take %player_name% 150000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] xkit Pushechka %player_name%'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'bow2':
+    material: bow
+    enchantments:
+    - 'knockback;1'
+    hide_enchantments: true
+    amount: 1
+    slot: 5
+    priority: 4
+    display_name: '&7&lПушечка'
+    lore:
+    - '&7Воспламенение'
+    - '&7Бесконечность'
+    - '&7Починка'
+    - '&7Сила 5'
+    - '&7Откидывание 5'
+    - '&7Прочность 2'
+    - '&7&cПроклятие утраты'
+    - ' &7Цена: &6$150.000'
+    - ' &7Куплено: &61/2 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 150000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torgf.19'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torgf.20 true 7200s'
+    - '[console] eco take %player_name% 150000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] xkit Pushechka %player_name%'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'bow3':
+    material: bow
+    amount: 1
+    slot: 5
+    priority: 2
+    display_name: '&7&lПушечка'
+    lore:
+    - '&7Воспламенение'
+    - '&7Бесконечность'
+    - '&7Починка'
+    - '&7Сила 5'
+    - '&7Откидывание 5'
+    - '&7Прочность 2'
+    - '&7&cПроклятие утраты'
+    - ' &7Цена: &6$150.000'
+    - ' &7Куплено: &62/2 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 150000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torgf.20'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+# ===================================================================================================================================
+  'levit1':
+    material: potion
+    hide_effects: true
+    potion_effects:
+    - NIGHT_VISION;9600;1
+    rgb: 255,255,255
+    amount: 1
+    slot: 6
+    priority: 6
+    display_name: '&fБыстрее ветра'
+    lore:
+    - '&cЛевитация II (0:12)'
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &60/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.20 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] xkit potion2 %player_name%'
+    - '[refresh]'
+  'levit2':
+    material: potion
+    hide_effects: true
+    potion_effects:
+    - NIGHT_VISION;9600;1
+    rgb: 255,255,255
+    amount: 1
+    slot: 6
+    priority: 4
+    display_name: '&fБыстрее ветра'
+    lore:
+    - '&cЛевитация II (0:12)'
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &61/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.20'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.21 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] xkit potion2 %player_name%'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'levit3':
+    material: potion
+    hide_effects: true
+    potion_effects:
+    - NIGHT_VISION;9600;1
+    rgb: 255,255,255
+    amount: 1
+    slot: 6
+    priority: 3
+    display_name: '&fБыстрее ветра'
+    lore:
+    - '&cЛевитация II (0:12)'
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &62/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.21'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.22 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] xkit potion2 %player_name%'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'levit4':
+    material: potion
+    hide_effects: true
+    potion_effects:
+    - NIGHT_VISION;9600;1
+    rgb: 255,255,255
+    amount: 1
+    slot: 6
+    priority: 1
+    display_name: '&fБыстрее ветра'
+    lore:
+    - '&cЛевитация II (0:12)'
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &63/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.22'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+# =================================================================================================================
+  'shield1':
+    material: shield
+    enchantments:
+    - 'knockback;1'
+    hide_enchantments: true
+    amount: 1
+    slot: 7
+    priority: 6
+    display_name: '&6Щит Броколи'
+    lore:
+    - '&7Шипы X'
+    - '&cПроклятье утраты'
+    - '&6Неразрушимый'
+    - ' &7Цена: &6$15.000'
+    - ' &7Куплено: &60/2 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 15000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.23 true 7200s'
+    - '[console] eco take %player_name% 15000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] xkit chit %player_name%'
+    - '[refresh]'
+  'shield2':
+    material: shield
+    enchantments:
+    - 'knockback;1'
+    hide_enchantments: true
+    amount: 1
+    slot: 7
+    priority: 4
+    display_name: '&6Щит Броколи'
+    lore:
+    - '&7Шипы X'
+    - '&cПроклятье утраты'
+    - '&6Неразрушимый'
+    - ' &7Цена: &6$15.000'
+    - ' &7Куплено: &61/2 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.23'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.24 true 7200s'
+    - '[console] eco take %player_name% 15000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] xkit chit %player_name%'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'shield3':
+    material: shield
+    enchantments:
+    - 'knockback;1'
+    hide_enchantments: true
+    amount: 1
+    slot: 7
+    priority: 1
+    display_name: '&6Щит Броколи'
+    lore:
+    - '&7Шипы X'
+    - '&cПроклятье утраты'
+    - '&6Неразрушимый'
+    - ' &7Цена: &6$15.000'
+    - ' &7Куплено: &62/2 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 15000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.24'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+# =========================================================================================================================
+  'spawner1':
+    material: spawner
+    amount: 1
+    slot: 10
+    priority: 6
+    display_name: '&fРассадник'
+    lore:
+    - ' &7Цена: &6$15.000'
+    - ' &7Куплено: &60/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 15000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.25 true 7200s'
+    - '[console] eco take %player_name% 15000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% spawner 1'
+    - '[refresh]'
+  'spawner2':
+    material: spawner
+    amount: 1
+    slot: 10
+    priority: 4
+    display_name: '&fРассадник'
+    lore:
+    - ' &7Цена: &6$15.000'
+    - ' &7Куплено: &61/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 15000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.25'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.26 true 7200s'
+    - '[console] eco take %player_name% 15000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% spawner 1'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'spawner3':
+    material: spawner
+    amount: 1
+    slot: 10 
+    priority: 3
+    display_name: '&fРассадник'
+    lore:
+    - ' &7Цена: &6$15.000'
+    - ' &7Куплено: &62/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 15000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.26'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.27 true 7200s'
+    - '[console] eco take %player_name% 15000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% spawner 1'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'spawner4':
+    material: spawner
+    amount: 1
+    slot: 10
+    priority: 1
+    display_name: '&fРассадник'
+    lore:
+    - ' &7Цена: &6$15.000'
+    - ' &7Куплено: &63/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 15000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.27'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+# =============================================================================================================================
+  'firework':
+    material: firework_rocket
+    amount: 64
+    slot: 11
+    priority: 6
+    display_name: '&fФейерверк'
+    lore:
+    - ' &7Цена: &6$150.000'
+    - ' &7Куплено: &60/2 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 150000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torgf.28 true 7200s'
+    - '[console] eco take %player_name% 150000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% firework_rocket 64'
+    - '[refresh]'
+  'firework1':
+    material: firework_rocket
+    amount: 64
+    slot: 11
+    priority: 4
+    display_name: '&fФейерверк'
+    lore:
+    - ' &7Цена: &6$150.000'
+    - ' &7Куплено: &61/2 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 150000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torgf.28'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torgf.29 true 7200s'
+    - '[console] eco take %player_name% 150000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% firework_rocket 64'
+    - '[refresh]'
+  'firework2':
+    material: firework_rocket
+    amount: 64
+    slot: 11
+    priority: 2
+    display_name: '&fФейерверк'
+    lore:
+    - ' &7Цена: &6$150.000'
+    - ' &7Куплено: &62/2 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 150000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torgf.29'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+# =================================================================================================================================
+  'book1':
+    material: enchanted_book
+    enchantments:
+    - 'knockback;1'
+    amount: 1
+    slot: 12
+    priority: 6
+    display_name: '&eЧародейская книга'
+    lore:
+    - '&7Защита IV'
+    - ''
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &60/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.29 true 7200s'
+    - '[console] eco take %player_name% 50000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] xkit protection %player_name%'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'book2':
+    material: enchanted_book
+    enchantments:
+    - 'knockback;1'
+    amount: 1
+    slot: 12
+    priority: 4
+    display_name: '&eЧародейская книга'
+    lore:
+    - '&7Защита IV'
+    - ''
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &61/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.29'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.30 true 7200s'
+    - '[console] eco take %player_name% 50000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] xkit protection %player_name%'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'book3':
+    material: enchanted_book
+    enchantments:
+    - 'knockback;1'
+    amount: 1
+    slot: 12 
+    priority: 3
+    display_name: '&eЧародейская книга'
+    lore:
+    - '&7Защита IV'
+    - ''
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &62/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.30'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.31 true 7200s'
+    - '[console] eco take %player_name% 50000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] xkit protection %player_name%'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'book4':
+    material: enchanted_book
+    enchantments:
+    - 'knockback;1'
+    amount: 1
+    slot: 12
+    priority: 1
+    display_name: '&eЧародейская книга'
+    lore:
+    - '&7Защита IV'
+    - ''
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &63/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.31'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+# ===========================================================================================================================================
+  'book5':
+    material: enchanted_book
+    enchantments:
+    - 'knockback;1'
+    amount: 1
+    slot: 13
+    priority: 6
+    display_name: '&eЧародейская книга'
+    lore:
+    - '&7Заговор огня II'
+    - ''
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &60/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.32 true 7200s'
+    - '[console] eco take %player_name% 50000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] xkit zagovor %player_name%'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'book6':
+    material: enchanted_book
+    enchantments:
+    - 'knockback;1'
+    amount: 1
+    slot: 13
+    priority: 4
+    display_name: '&eЧародейская книга'
+    lore:
+    - '&7Заговор огня II'
+    - ''
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &61/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.32'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.33 true 7200s'
+    - '[console] eco take %player_name% 50000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] xkit zagovor %player_name%'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'book7':
+    material: enchanted_book
+    enchantments:
+    - 'knockback;1'
+    amount: 1
+    slot: 13 
+    priority: 3
+    display_name: '&eЧародейская книга'
+    lore:
+    - '&7Заговор огня II'
+    - ''
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &62/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.33'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.34 true 7200s'
+    - '[console] eco take %player_name% 50000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] xkit zagovor %player_name%'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'book8':
+    material: enchanted_book
+    enchantments:
+    - 'knockback;1'
+    amount: 1
+    slot: 13
+    priority: 1
+    display_name: '&eЧародейская книга'
+    lore:
+    - '&7Заговор огня II'
+    - ''
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &63/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.34'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+# ================================================================================================================================
+  'book9':
+    material: enchanted_book
+    enchantments:
+    - 'knockback;1'
+    amount: 1
+    slot: 14
+    priority: 6
+    display_name: '&eЧародейская книга'
+    lore:
+    - '&7Острота V'
+    - ''
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &60/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.35 true 7200s'
+    - '[console] eco take %player_name% 50000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] xkit ostrota %player_name%'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'book10':
+    material: enchanted_book
+    enchantments:
+    - 'knockback;1'
+    amount: 1
+    slot: 14
+    priority: 4
+    display_name: '&eЧародейская книга'
+    lore:
+    - '&7Острота V'
+    - ''
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &61/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.35'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.36 true 7200s'
+    - '[console] eco take %player_name% 50000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] xkit ostrota %player_name%'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'book11':
+    material: enchanted_book
+    enchantments:
+    - 'knockback;1'
+    amount: 1
+    slot: 14 
+    priority: 3
+    display_name: '&eЧародейская книга'
+    lore:
+    - '&7Острота V'
+    - ''
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &62/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.36'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.37 true 7200s'
+    - '[console] eco take %player_name% 50000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] xkit ostrota %player_name%'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'book12':
+    material: enchanted_book
+    enchantments:
+    - 'knockback;1'
+    amount: 1
+    slot: 14
+    priority: 1
+    display_name: '&eЧародейская книга'
+    lore:
+    - '&7Острота V'
+    - ''
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &63/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.37'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+# ===================================================================================================================================================
+  'book13':
+    material: enchanted_book
+    enchantments:
+    - 'knockback;1'
+    amount: 1
+    slot: 15
+    update: true
+    priority: 6
+    display_name: '&eЧародейская книга'
+    lore:
+    - '&7Починка'
+    - ''
+    - ' &7Цена: &6$200.000'
+    - ' &7Куплено: &60/2 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 200000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp group default permission settemp torg.38 true 7200s'
+    - '[console] eco take %player_name% 200000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] xkit pochinka %player_name%'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'book14':
+    material: enchanted_book
+    enchantments:
+    - 'knockback;1'
+    amount: 1
+    slot: 15
+    update: true
+    priority: 4
+    display_name: '&eЧародейская книга'
+    lore:
+    - '&7Починка'
+    - ''
+    - ' &7Цена: &6$200.000'
+    - ' &7Куплено: &61/2 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 200000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.38'
+    left_click_commands:
+    - '[console] lp group default permission settemp torg.39 true 7200s'
+    - '[console] eco take %player_name% 200000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] xkit pochinka %player_name%'
+    - '[refresh]'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'book15':
+    material: enchanted_book
+    enchantments:
+    - 'knockback;1'
+    hide_enchantments: true
+    amount: 1
+    slot: 15 
+    priority: 3
+    display_name: '&eЧародейская книга'
+    lore:
+    - '&7Починка'
+    - ''
+    - ' &7Цена: &6$200.000'
+    - ' &7Куплено: &62/2 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 200000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.39'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    # ===========================================================================================================================================
+  'beakon1':
+    material: beacon
+    amount: 1
+    slot: 16
+    priority: 6
+    display_name: '&bМаяк'
+    lore:
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &60/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.40 true 7200s'
+    - '[console] eco take %player_name% 50000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% beacon 1'
+    - '[refresh]'
+  'beakon2':
+    material: beacon
+    amount: 1
+    slot: 16
+    priority: 4
+    display_name: '&bМаяк'
+    lore:
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &61/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.40'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.41 true 7200s'
+    - '[console] eco take %player_name% 50000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% beacon 1'
+    - '[refresh]'
+  'beakon3':
+    material: beacon
+    amount: 1
+    slot: 16
+    priority: 3
+    display_name: '&bМаяк'
+    lore:
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &62/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.41'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.42 true 7200s'
+    - '[console] eco take %player_name% 50000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% beacon 1'
+    - '[refresh]'
+  'beakon4':
+    material: beacon
+    amount: 1
+    slot: 16
+    priority: 1
+    display_name: '&bМаяк'
+    lore:
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &63/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.42'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+# ========================================================================================================================
+  'beakon1':
+    material: beacon
+    amount: 1
+    slot: 16
+    priority: 6
+    display_name: '&bМаяк'
+    lore:
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &60/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.40 true 7200s'
+    - '[console] eco take %player_name% 50000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% beacon 1'
+    - '[refresh]'
+  'beakon2':
+    material: beacon
+    amount: 1
+    slot: 16
+    priority: 4
+    display_name: '&bМаяк'
+    lore:
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &61/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.40'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.41 true 7200s'
+    - '[console] eco take %player_name% 50000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% beacon 1'
+    - '[refresh]'
+  'beakon3':
+    material: beacon
+    amount: 1
+    slot: 16
+    priority: 3
+    display_name: '&bМаяк'
+    lore:
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &62/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.41'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.42 true 7200s'
+    - '[console] eco take %player_name% 50000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% beacon 1'
+    - '[refresh]'
+  'beakon4':
+    material: beacon
+    amount: 1
+    slot: 16
+    priority: 1
+    display_name: '&bМаяк'
+    lore:
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &63/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.42'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+# ==================================================================================================================================
+  'portal1':
+    material: end_portal_frame
+    amount: 12
+    slot: 19
+    priority: 6
+    display_name: '&fРамка портала в Энд'
+    lore:
+    - ' &7Цена: &6$75.000'
+    - ' &7Куплено: &60/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 75000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.43 true 7200s'
+    - '[console] eco take %player_name% 75000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% end_portal_frame 12'
+    - '[refresh]'
+  'portal2':
+    material: end_portal_frame
+    amount: 12
+    slot: 19
+    priority: 4
+    display_name: '&fРамка портала в Энд'
+    lore:
+    - ' &7Цена: &6$75.000'
+    - ' &7Куплено: &61/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 75000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.43'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.44 true 7200s'
+    - '[console] eco take %player_name% 75000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% end_portal_frame 12'
+    - '[refresh]'
+  'portal3':
+    material: end_portal_frame
+    amount: 12
+    slot: 19
+    priority: 3
+    display_name: '&fРамка портала в Энд'
+    lore:
+    - ' &7Цена: &6$75.000'
+    - ' &7Куплено: &62/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 75000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.44'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.45 true 7200s'
+    - '[console] eco take %player_name% 75000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% end_portal_frame 12'
+    - '[refresh]'
+  'portal4':
+    material: end_portal_frame
+    amount: 12
+    slot: 19
+    priority: 1
+    display_name: '&fРамка портала в Энд'
+    lore:
+    - ' &7Цена: &6$75.000'
+    - ' &7Куплено: &63/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 75000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.45'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+# ==================================================================================================================================
+  'crystal1':
+    material: end_crystal
+    amount: 16
+    slot: 20
+    priority: 6
+    display_name: '&bКристалл Энда'
+    lore:
+    - ' &7Цена: &6$65.000'
+    - ' &7Куплено: &60/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 65000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.46 true 7200s'
+    - '[console] eco take %player_name% 65000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% end_crystal 16'
+    - '[refresh]'
+  'crystal2':
+    material: end_crystal
+    amount: 16
+    slot: 20
+    priority: 4
+    display_name: '&bКристалл Энда'
+    lore:
+    - ' &7Цена: &6$65.000'
+    - ' &7Куплено: &61/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 65000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.46'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.47 true 7200s'
+    - '[console] eco take %player_name% 65000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% end_crystal 16'
+    - '[refresh]'
+  'crystal3':
+    material: end_crystal
+    amount: 16
+    slot: 20
+    priority: 3
+    display_name: '&bКристалл Энда'
+    lore:
+    - ' &7Цена: &6$65.000'
+    - ' &7Куплено: &62/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 65000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.47'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.48 true 7200s'
+    - '[console] eco take %player_name% 65000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% end_crystal 16'
+    - '[refresh]'
+  'crystal4':
+    material: end_crystal
+    amount: 16
+    slot: 20
+    priority: 1
+    display_name: '&bКристалл Энда'
+    lore:
+    - ' &7Цена: &6$65.000'
+    - ' &7Куплено: &63/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 65000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.48'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+# ==================================================================================================================================
+  'enchanted_golden1':
+    material: enchanted_golden_apple
+    enchantments:
+    - 'knockback;1'
+    hide_enchantments: true
+    amount: 3
+    slot: 23
+    priority: 6
+    display_name: '&dЗачарованное золотое яблоко'
+    lore:
+    - ' &7Цена: &6$500.000'
+    - ' &7Куплено: &60/1 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 500000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.49 true 7200s'
+    - '[console] eco take %player_name% 500000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% enchanted_golden_apple 3'
+    - '[refresh]'
+  'enchanted_golden2':
+    material: enchanted_golden_apple
+    enchantments:
+    - 'knockback;1'
+    hide_enchantments: true
+    amount: 3
+    slot: 23
+    priority: 4
+    display_name: '&dЗачарованное золотое яблоко'
+    lore:
+    - ' &7Цена: &6$500.000'
+    - ' &7Куплено: &61/1 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 500000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.49'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+# ==================================================================================================================================
+  'goldcarrot1':
+    material: golden_carrot
+    amount: 64
+    slot: 24
+    priority: 6
+    display_name: '&fЗолотая морковь'
+    lore:
+    - ' &7Цена: &6$20.000'
+    - ' &7Куплено: &60/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 20000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.50 true 7200s'
+    - '[console] eco take %player_name% 20000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% golden_carrot 64'
+    - '[refresh]'
+  'goldcarrot2':
+    material: golden_carrot
+    amount: 64
+    slot: 24
+    priority: 4
+    display_name: '&fЗолотая морковь'
+    lore:
+    - ' &7Цена: &6$20.000'
+    - ' &7Куплено: &61/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 20000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.50'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.51 true 7200s'
+    - '[console] eco take %player_name% 20000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% golden_carrot 64'
+    - '[refresh]'
+  'goldcarrot3':
+    material: golden_carrot
+    amount: 64
+    slot: 24
+    priority: 3
+    display_name: '&fЗолотая морковь'
+    lore:
+    - ' &7Цена: &6$20.000'
+    - ' &7Куплено: &62/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 20000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.51'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.52 true 7200s'
+    - '[console] eco take %player_name% 20000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% golden_carrot 64'
+    - '[refresh]'
+  'goldcarrot4':
+    material: golden_carrot
+    amount: 64
+    slot: 24
+    priority: 1
+    display_name: '&fЗолотая морковь'
+    lore:
+    - ' &7Цена: &6$20.000'
+    - ' &7Куплено: &63/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 20000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.52'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+# ==================================================================================================================================
+  'goldenapple1':
+    material: golden_apple
+    amount: 20
+    slot: 25
+    priority: 6
+    display_name: '&bЗолотое яблоко'
+    lore:
+    - ' &7Цена: &6$250.000'
+    - ' &7Куплено: &60/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 250000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.53 true 7200s'
+    - '[console] eco take %player_name% 250000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% golden_apple 20'
+    - '[refresh]'
+  'goldenapple2':
+    material: golden_apple
+    amount: 20
+    slot: 25
+    priority: 4
+    display_name: '&bЗолотое яблоко'
+    lore:
+    - ' &7Цена: &6$250.000'
+    - ' &7Куплено: &61/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 250000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.53'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.54 true 7200s'
+    - '[console] eco take %player_name% 250000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% golden_apple 20'
+    - '[refresh]'
+  'goldenapple3':
+    material: golden_apple
+    amount: 20
+    slot: 25
+    priority: 3
+    display_name: '&bЗолотое яблоко'
+    lore:
+    - ' &7Цена: &6$250.000'
+    - ' &7Куплено: &62/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 250000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.54'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.55 true 7200s'
+    - '[console] eco take %player_name% 250000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% golden_apple 20'
+    - '[refresh]'
+  'goldenapple4':
+    material: golden_apple
+    amount: 20
+    slot: 25
+    priority: 1
+    display_name: '&bЗолотое яблоко'
+    lore:
+    - ' &7Цена: &6$250.000'
+    - ' &7Куплено: &63/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 250000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.55'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+# ==================================================================================================================================
+  'ogneniyporox':
+    material: blaze_powder
+    amount: 64
+    slot: 28
+    priority: 6
+    display_name: '&fОгненный порошок'
+    lore:
+    - ' &7Цена: &6$15.000'
+    - ' &7Куплено: &60/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 15000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.56 true 7200s'
+    - '[console] eco take %player_name% 15000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% blaze_powder 64'
+    - '[refresh]'
+  'ogneniyporox2':
+    material: blaze_powder
+    amount: 64
+    slot: 28
+    priority: 4
+    display_name: '&fОгненный порошок'
+    lore:
+    - ' &7Цена: &6$15.000'
+    - ' &7Куплено: &61/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 15000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.56'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.57 true 7200s'
+    - '[console] eco take %player_name% 15000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% blaze_powder 64'
+    - '[refresh]'
+  'ogneniyporox3':
+    material: blaze_powder
+    amount: 64
+    slot: 28
+    priority: 3
+    display_name: '&fОгненный порошок'
+    lore:
+    - ' &7Цена: &6$15.000'
+    - ' &7Куплено: &62/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 15000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.57'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.58 true 7200s'
+    - '[console] eco take %player_name% 15000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% blaze_powder 64'
+    - '[refresh]'
+  'ogneniyporox4':
+    material: blaze_powder
+    amount: 64
+    slot: 28
+    priority: 1
+    display_name: '&fОгненный порошок'
+    lore:
+    - ' &7Цена: &6$15.000'
+    - ' &7Куплено: &63/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 15000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.58'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+# ==================================================================================================================================
+  'fishing_rod1':
+    material: fishing_rod
+    enchantments:
+    - 'knockback;1'
+    hide_enchantments: true
+    amount: 1
+    slot: 29
+    priority: 6
+    display_name: '&9&lРыбачок'
+    lore:
+    - '&7Починка'
+    - '&7Везучий рыбак V'
+    - '&7Приманка V'
+    - '&7Прочность III'
+    - '&cПроклятие утраты'
+    - ' &7Цена: &6$150.000'
+    - ' &7Куплено: &60/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 150000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.59 true 7200s'
+    - '[console] eco take %player_name% 150000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] xkit ydochka %player_name%'
+    - '[refresh]'
+  'fishing_rod2':
+    material: fishing_rod
+    enchantments:
+    - 'knockback;1'
+    hide_enchantments: true
+    amount: 1
+    slot: 29
+    priority: 4
+    display_name: '&9&lРыбачок'
+    lore:
+    - '&7Починка'
+    - '&7Везучий рыбак V'
+    - '&7Приманка V'
+    - '&7Прочность III'
+    - '&cПроклятие утраты'
+    - ' &7Цена: &6$150.000'
+    - ' &7Куплено: &61/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 150000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.59'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.60 true 7200s'
+    - '[console] eco take %player_name% 150000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] xkit ydochka %player_name%'
+    - '[refresh]'
+  'fishing_rod3':
+    material: fishing_rod
+    enchantments:
+    - 'knockback;1'
+    hide_enchantments: true
+    amount: 1
+    slot: 29
+    priority: 3
+    display_name: '&9&lРыбачок'
+    lore:
+    - '&7Починка'
+    - '&7Везучий рыбак V'
+    - '&7Приманка V'
+    - '&7Прочность III'
+    - '&cПроклятие утраты'
+    - ' &7Цена: &6$150.000'
+    - ' &7Куплено: &62/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 150000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.60'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.61 true 7200s'
+    - '[console] eco take %player_name% 150000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] xkit ydochka %player_name%'
+    - '[refresh]'
+  'fishing_rod4':
+    material: fishing_rod
+    enchantments:
+    - 'knockback;1'
+    hide_enchantments: true
+    amount: 1
+    slot: 29
+    priority: 1
+    display_name: '&9&lРыбачок'
+    lore:
+    - '&7Починка'
+    - '&7Везучий рыбак V'
+    - '&7Приманка V'
+    - '&7Прочность III'
+    - '&cПроклятие утраты'
+    - ' &7Цена: &6$150.000'
+    - ' &7Куплено: &63/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 150000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.61'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+# ==================================================================================================================================
+  'netherwart1':
+    material: nether_wart
+    amount: 32
+    slot: 30
+    priority: 6
+    display_name: '&fНезерский нарост'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &60/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.62 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% nether_wart 32'
+    - '[refresh]'
+  'netherwart2':
+    material: nether_wart
+    amount: 32
+    slot: 30
+    priority: 4
+    display_name: '&fНезерский нарост'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &61/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.62'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.63 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% nether_wart 32'
+    - '[refresh]'
+  'netherwart3':
+    material: nether_wart
+    amount: 32
+    slot: 30
+    priority: 3
+    display_name: '&fНезерский нарост'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &62/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 150000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.63'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.64 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% nether_wart 32'
+    - '[refresh]'
+  'netherwart4':
+    material: nether_wart
+    amount: 32
+    slot: 30
+    priority: 1
+    display_name: '&fНезерский нарост'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &63/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.64'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+# ==================================================================================================================================
+  'spidereye1':
+    material: fermented_spider_eye
+    amount: 16
+    slot: 31
+    priority: 6
+    display_name: '&fМаринованный паучий глаз'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &60/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.65 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% fermented_spider_eye 16'
+    - '[refresh]'
+  'spidereye2':
+    material: fermented_spider_eye
+    amount: 16
+    slot: 31
+    priority: 4
+    display_name: '&fМаринованный паучий глаз'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &61/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.65'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.66 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% fermented_spider_eye 16'
+    - '[refresh]'
+  'spidereye3':
+    material: fermented_spider_eye
+    amount: 16
+    slot: 31
+    priority: 3
+    display_name: '&fМаринованный паучий глаз'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &62/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 150000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.66'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.67 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% fermented_spider_eye 16'
+    - '[refresh]'
+  'spidereye4':
+    material: fermented_spider_eye
+    amount: 16
+    slot: 31
+    priority: 1
+    display_name: '&fМаринованный паучий глаз'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &63/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.67'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+# ==================================================================================================================================
+  'melonslice1':
+    material: glistering_melon_slice
+    amount: 16
+    slot: 32
+    priority: 6
+    display_name: '&fСверкающий ломтик арбуза'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &60/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.68 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% glistering_melon_slice 16'
+    - '[refresh]'
+  'melonslice2':
+    material: glistering_melon_slice
+    amount: 16
+    slot: 32
+    priority: 4
+    display_name: '&fСверкающий ломтик арбуза'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &61/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.68'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.69 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% glistering_melon_slice 16'
+    - '[refresh]'
+  'melonslice3':
+    material: glistering_melon_slice
+    amount: 16
+    slot: 32
+    priority: 3
+    display_name: '&fСверкающий ломтик арбуза'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &62/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 150000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.69'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.70 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% glistering_melon_slice 16'
+    - '[refresh]'
+  'melonslice4':
+    material: glistering_melon_slice
+    amount: 16
+    slot: 32
+    priority: 1
+    display_name: '&fСверкающий ломтик арбуза'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &63/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.70'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+# ==========================================================================================================================================
+  'ogneniyporx1':
+    material: blaze_powder
+    amount: 64
+    slot: 33
+    priority: 6
+    display_name: '&fОгненный порошок'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &60/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.71 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% blaze_powder 64'
+    - '[refresh]'
+  'ogneniyporx2':
+    material: blaze_powder
+    amount: 64
+    slot: 33
+    priority: 4
+    display_name: '&fОгненный порошок'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &61/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.71'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.72 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% blaze_powder 64'
+    - '[refresh]'
+  'ogneniyporx3':
+    material: blaze_powder
+    amount: 64
+    slot: 33
+    priority: 3
+    display_name: '&fОгненный порошок'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &62/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.72'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.73 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% blaze_powder 64'
+    - '[refresh]'
+  'ogneniyporx4':
+    material: blaze_powder
+    amount: 64
+    slot: 33
+    priority: 1
+    display_name: '&fОгненный порошок'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &63/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.73'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+# ==========================================================================================================================================
+  'elytra1':
+    material: elytra
+    amount: 1
+    slot: 34
+    priority: 6
+    display_name: '&3&lКрылья Ангела'
+    lore:
+    - '&7Починка'
+    - '&7Шипы I'
+    - '&7Прочность V'
+    - ' &7Цена: &6$5.000.000'
+    - ' &7Куплено: &60/1 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 5000000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp group default permission settemp torg.74 true 7200s'
+    - '[console] eco take %player_name% 5000000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] xkit elytra %player_name%'
+    - '[refresh]'
+  'elytra2':
+    material: elytra
+    amount: 1
+    slot: 34
+    priority: 4
+    display_name: '&3&lКрылья Ангела'
+    lore:
+    - '&7Починка'
+    - '&7Шипы I'
+    - '&7Прочность V'
+    - ' &7Цена: &6$5.000.000'
+    - ' &7Куплено: &61/1 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 5000000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.74'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+# ==========================================================================================================================================
+  'magma_cream1':
+    material: magma_cream
+    amount: 64
+    slot: 37
+    priority: 6
+    display_name: '&fСгусток магмы'
+    lore:
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &60/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.75 true 7200s'
+    - '[console] eco take %player_name% 50000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% magma_cream 64'
+    - '[refresh]'
+  'magma_cream2':
+    material: magma_cream
+    amount: 64
+    slot: 37
+    priority: 4
+    display_name: '&fСгусток магмы'
+    lore:
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &61/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.75'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.76 true 7200s'
+    - '[console] eco take %player_name% 50000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% magma_cream 64'
+    - '[refresh]'
+  'magma_cream3':
+    material: magma_cream
+    amount: 64
+    slot: 37
+    priority: 3
+    display_name: '&fСгусток магмы'
+    lore:
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &62/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.76'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.77 true 7200s'
+    - '[console] eco take %player_name% 50000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% magma_cream 64'
+    - '[refresh]'
+  'magma_cream4':
+    material: magma_cream
+    amount: 64
+    slot: 37
+    priority: 1
+    display_name: '&fСгусток магмы'
+    lore:
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &63/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.77'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+# ==========================================================================================================================================
+  'emerald1':
+    material: emerald
+    amount: 32
+    slot: 38
+    priority: 6
+    display_name: '&fИзумруд'
+    lore:
+    - ' &7Цена: &6$75.000'
+    - ' &7Куплено: &60/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 75000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.78 true 7200s'
+    - '[console] eco take %player_name% 75000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% emerald 32'
+    - '[refresh]'
+  'emerald2':
+    material: emerald
+    amount: 32
+    slot: 38
+    priority: 4
+    display_name: '&fИзумруд'
+    lore:
+    - ' &7Цена: &6$75.000'
+    - ' &7Куплено: &61/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 75000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.78'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.79 true 7200s'
+    - '[console] eco take %player_name% 75000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% emerald 32'
+    - '[refresh]'
+  'emerald3':
+    material: emerald
+    amount: 32
+    slot: 38
+    priority: 3
+    display_name: '&fИзумруд'
+    lore:
+    - ' &7Цена: &6$75.000'
+    - ' &7Куплено: &62/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 75000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.79'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.80 true 7200s'
+    - '[console] eco take %player_name% 50000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% emerald 32'
+    - '[refresh]'
+  'emerald4':
+    material: emerald
+    amount: 32
+    slot: 38
+    priority: 1
+    display_name: '&fИзумруд'
+    lore:
+    - ' &7Цена: &6$75.000'
+    - ' &7Куплено: &63/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 75000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.80'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+# ==========================================================================================================================================
+  'sea_lantern1':
+    material: sea_lantern
+    amount: 16
+    slot: 39
+    priority: 6
+    display_name: '&fМорской фонарь'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &60/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.81 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% sea_lantern 16'
+    - '[refresh]'
+  'sea_lantern2':
+    material: sea_lantern
+    amount: 16
+    slot: 39
+    priority: 4
+    display_name: '&fМорской фонарь'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &61/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.81'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.82 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% sea_lantern 16'
+    - '[refresh]'
+  'sea_lantern3':
+    material: sea_lantern
+    amount: 16
+    slot: 39
+    priority: 3
+    display_name: '&fМорской фонарь'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &62/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.82'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.83 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% sea_lantern 16'
+    - '[refresh]'
+  'sea_lantern4':
+    material: sea_lantern
+    amount: 16
+    slot: 39
+    priority: 1
+    display_name: '&fМорской фонарь'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &63/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.83'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+# ==========================================================================================================================================
+  'string1':
+    material: string
+    amount: 64
+    slot: 40
+    priority: 6
+    display_name: '&fНить'
+    lore:
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &60/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.84 true 7200s'
+    - '[console] eco take %player_name% 50000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% string 64'
+    - '[refresh]'
+  'string2':
+    material: string
+    amount: 64
+    slot: 40
+    priority: 4
+    display_name: '&fНить'
+    lore:
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &61/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.84'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.85 true 7200s'
+    - '[console] eco take %player_name% 50000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% string 64'
+    - '[refresh]'
+  'string3':
+    material: string
+    amount: 64
+    slot: 40
+    priority: 3
+    display_name: '&fНить'
+    lore:
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &62/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.85'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.86 true 7200s'
+    - '[console] eco take %player_name% 50000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% string 64'
+    - '[refresh]'
+  'string4':
+    material: string
+    amount: 64
+    slot: 40
+    priority: 1
+    display_name: '&fНить'
+    lore:
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &63/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.86'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+# ==========================================================================================================================================
+  'ender_chest1':
+    material: ender_chest
+    amount: 8
+    slot: 41
+    priority: 6
+    display_name: '&fЭндер-сундук'
+    lore:
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &60/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.87 true 7200s'
+    - '[console] eco take %player_name% 50000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% ender_chest 8'
+    - '[refresh]'
+  'ender_chest2':
+    material: ender_chest
+    amount: 8
+    slot: 41
+    priority: 4
+    display_name: '&fЭндер-сундук'
+    lore:
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &61/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.87'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.88 true 7200s'
+    - '[console] eco take %player_name% 50000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% ender_chest 8'
+    - '[refresh]'
+  'ender_chest3':
+    material: ender_chest
+    amount: 8
+    slot: 41
+    priority: 3
+    display_name: '&fЭндер-сундук'
+    lore:
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &62/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.88'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.89 true 7200s'
+    - '[console] eco take %player_name% 50000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% ender_chest 8'
+    - '[refresh]'
+  'ender_chest4':
+    material: ender_chest
+    amount: 8
+    slot: 41
+    priority: 1
+    display_name: '&fЭндер-сундук'
+    lore:
+    - ' &7Цена: &6$50.000'
+    - ' &7Куплено: &63/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 50000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.89'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+# ==========================================================================================================================================
+  'experience_bottle1':
+    material: experience_bottle
+    amount: 64
+    slot: 42
+    priority: 6
+    display_name: '&eПузырёк опыта'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &60/5 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.90 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% experience_bottle 64'
+    - '[refresh]'
+  'experience_bottle2':
+    material: experience_bottle
+    amount: 64
+    slot: 42
+    priority: 5
+    display_name: '&eПузырёк опыта'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &61/5 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.90'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.91 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% experience_bottle 64'
+    - '[refresh]'
+  'experience_bottle3':
+    material: experience_bottle
+    amount: 64
+    slot: 42
+    priority: 4
+    display_name: '&eПузырёк опыта'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &62/5 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.91'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.92 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% experience_bottle 64'
+    - '[refresh]'
+  'experience_bottle4':
+    material: experience_bottle
+    amount: 64 
+    slot: 42
+    priority: 3
+    display_name: '&eПузырёк опыта'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &63/5 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.92'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.93 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% experience_bottle 64'
+    - '[refresh]'
+  'experience_bottle5':
+    material: experience_bottle
+    amount: 64
+    slot: 42
+    priority: 2
+    display_name: '&eПузырёк опыта'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &64/5 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.93'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.94 true 7200s'
+    - '[console] eco take %player_name% 25000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% experience_bottle 64'
+    - '[refresh]'
+  'experience_bottle6':
+    material: experience_bottle
+    amount: 64
+    slot: 42
+    priority: 1
+    display_name: '&eПузырёк опыта'
+    lore:
+    - ' &7Цена: &6$25.000'
+    - ' &7Куплено: &65/5 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.94'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'
+# ==========================================================================================================================================
+  'obsidian1':
+    material: obsidian
+    amount: 32
+    slot: 43
+    priority: 6
+    display_name: '&fОбсидиан'
+    lore:
+    - ' &7Цена: &6$100.000'
+    - ' &7Куплено: &60/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 100000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.95 true 7200s'
+    - '[console] eco take %player_name% 100000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% obsidian 32'
+    - '[refresh]'
+  'obsidian2':
+    material: obsidian
+    amount: 32
+    slot: 43
+    priority: 4
+    display_name: '&fОбсидиан'
+    lore:
+    - ' &7Цена: &6$100.000'
+    - ' &7Куплено: &61/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 100000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.95'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.96 true 7200s'
+    - '[console] eco take %player_name% 100000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% obsidian 32'
+    - '[refresh]'
+  'obsidian3':
+    material: obsidian
+    amount: 32
+    slot: 43
+    priority: 3
+    display_name: '&fОбсидиан'
+    lore:
+    - ' &7Цена: &6$100.000'
+    - ' &7Куплено: &62/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 100000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+            hasperm:
+              type: has permission
+              permission: 'torg.96'
+    left_click_commands:
+    - '[console] lp user %player_name% permission settemp torg.97 true 7200s'
+    - '[console] eco take %player_name% 100000'
+    - '[message] &6Продавец &7» &aВы успешно купили предмет'
+    - '[console] give %player_name% obsidian 32'
+    - '[refresh]'
+  'obsidian4':
+    material: obsidian
+    amount: 32
+    slot: 43
+    priority: 1
+    display_name: '&fОбсидиан'
+    lore:
+    - ' &7Цена: &6$100.000'
+    - ' &7Куплено: &63/3 шт'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 100000
+          deny_commands:
+          - '[message] &6Продавец &7» &cНедостаточно средств'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'torg.97'
+    left_click_commands:
+    - '[message] &6Продавец &7» &cВы купили максимальное количество предметов!'

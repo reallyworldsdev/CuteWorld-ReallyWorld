@@ -1,0 +1,6 @@
+# True/False, if enabled, the player will see the no-rename-message.
+show-message: false
+no-rename-message: "&cПереимино"
+
+# Given this permission, a player can rename items with this plugin enabled.
+bypass-permission: antirename.bypass

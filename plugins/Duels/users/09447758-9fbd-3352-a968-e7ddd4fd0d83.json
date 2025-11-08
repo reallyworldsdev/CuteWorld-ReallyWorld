@@ -1,0 +1,20 @@
+{
+  "uuid": "09447758-9fbd-3352-a968-e7ddd4fd0d83",
+  "name": "ezzpvpqq",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "shari": 1393
+  },
+  "matches": [
+    {
+      "winner": "mcikira",
+      "loser": "ezzpvpqq",
+      "kit": "shari",
+      "time": 1742007640918,
+      "duration": 77089,
+      "health": 10.0
+    }
+  ]
+}

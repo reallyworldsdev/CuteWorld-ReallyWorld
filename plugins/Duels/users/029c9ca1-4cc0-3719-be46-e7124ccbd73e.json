@@ -1,0 +1,56 @@
+{
+  "uuid": "029c9ca1-4cc0-3719-be46-e7124ccbd73e",
+  "name": "TBOII_RAb",
+  "wins": 5,
+  "losses": 5,
+  "requests": true,
+  "rating": {
+    "classic": 1416,
+    "shari": 1418,
+    "chiter": 1373,
+    "totem": 1384,
+    "bow": 1416
+  },
+  "matches": [
+    {
+      "winner": "Dunozavr_XXL",
+      "loser": "TBOII_RAb",
+      "kit": "chiter",
+      "time": 1747896636443,
+      "duration": 84534,
+      "health": 2.5
+    },
+    {
+      "winner": "TBOII_RAb",
+      "loser": "Dunozavr_XXL",
+      "kit": "bow",
+      "time": 1747896636443,
+      "duration": 27517,
+      "health": 8.5
+    },
+    {
+      "winner": "Dunozavr_XXL",
+      "loser": "TBOII_RAb",
+      "kit": "totem",
+      "time": 1747896636443,
+      "duration": 26920,
+      "health": 1.5
+    },
+    {
+      "winner": "TBOII_RAb",
+      "loser": "Dunozavr_XXL",
+      "kit": "shari",
+      "time": 1747896636443,
+      "duration": 92024,
+      "health": 6.0
+    },
+    {
+      "winner": "Dunozavr_XXL",
+      "loser": "TBOII_RAb",
+      "kit": "shari",
+      "time": 1747896636443,
+      "duration": 46433,
+      "health": 6.0
+    }
+  ]
+}

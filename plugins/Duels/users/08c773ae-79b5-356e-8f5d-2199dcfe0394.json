@@ -1,0 +1,56 @@
+{
+  "uuid": "08c773ae-79b5-356e-8f5d-2199dcfe0394",
+  "name": "Wilkom",
+  "wins": 5,
+  "losses": 12,
+  "requests": true,
+  "rating": {
+    "classic": 1388,
+    "shari": 1397,
+    "chiter": 1385,
+    "totem": 1357,
+    "nezerka": 1385
+  },
+  "matches": [
+    {
+      "winner": "dim4xfnik",
+      "loser": "Wilkom",
+      "kit": "classic",
+      "time": 1741921246746,
+      "duration": 60530,
+      "health": 0.5
+    },
+    {
+      "winner": "medveji",
+      "loser": "Wilkom",
+      "kit": "shari",
+      "time": 1741921246746,
+      "duration": 97858,
+      "health": 10.0
+    },
+    {
+      "winner": "medveji",
+      "loser": "Wilkom",
+      "kit": "shari",
+      "time": 1741921246746,
+      "duration": 57447,
+      "health": 6.5
+    },
+    {
+      "winner": "Wilkom",
+      "loser": "saharok12345",
+      "kit": "totem",
+      "time": 1741921246746,
+      "duration": 383783,
+      "health": 3.5
+    },
+    {
+      "winner": "medveji",
+      "loser": "Wilkom",
+      "kit": "totem",
+      "time": 1741921246746,
+      "duration": 24774,
+      "health": 9.0
+    }
+  ]
+}

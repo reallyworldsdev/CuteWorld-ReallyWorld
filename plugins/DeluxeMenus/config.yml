@@ -1,0 +1,106 @@
+# DeluxeMenus 1.14.0-Release main configuration file
+# 
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/clips-plugins/deluxemenus
+
+debug: HIGHEST
+check_updates: true
+gui_menus:
+  warp_servernie:
+    file: warps/warp_servernie.yml
+  coliseum2:
+    file: coliseum/coliseumjoin.yml
+  coliseum1:
+    file: coliseum/coliseumbet.yml
+  coliseum:
+    file: coliseum/coliseum.yml
+  codes:
+    file: codes.yml
+  rewards:
+    file: rewards.yml
+  warps:
+    file: main_menus/warps.yml
+  code:
+    file: main_menus/code.yml
+  MENU:
+    file: main_menus/MENU.yml
+  event:
+    file: main_menus/event.yml
+  putivoditer:
+    file: main_menus/putivoditer.yml
+  jobs:
+    file: main_menus/jobs.yml
+  contract:
+    file: main_menus/contract.yml
+  donateshop:
+    file: main_menus/donateshop.yml
+  sneguroka:
+    file: main_menus/sneguroka.yml
+  zelevar:
+    file: snegurka/zelevar.yml
+  sneggolova:
+    file: snegurka/sneggolova.yml
+  sneg:
+    file: snegurka/sneg.yml
+  sneggrief:
+    file: snegurka/sneggrief.yml
+  snegspawner:
+    file: snegurka/snegspawner.yml
+  donate:
+    file: main_menus/donate.yml
+  rtp:
+    file: main_menus/rtp.yml
+  kits:
+    file: main_menus/kits.yml
+  quest:
+    file: quest/quests.yml
+  kitsbuy:
+    file: shop/kitsbuy.yml
+  furnace:
+    file: shop/furnace.yml
+  shulker:
+    file: shop/shulker.yml
+  grief:
+    file: shop/grief.yml
+  shulker1:
+    file: shop/shulker1.yml
+  sphere:
+    file: shop/sphere.yml
+  spawners:
+    file: shop/spawners.yml
+  aura:
+    file: shop/aura.yml
+  booster:
+    file: shop/booster.yml
+  MAG:
+    file: shop/MAG.yml
+  zelki:
+    file: shop/zelki.yml
+  plus:
+    file: rwplus/plus.yml
+  trizubec:
+    file: shop/trizubec.yml
+  plus2:
+    file: rwplus/plus2.yml
+  plus_buy_1:
+    file: rwplus/plus_buy_1.yml
+  plus_buy_2:
+    file: rwplus/plus_buy_2.yml
+  plus_buy_3:
+    file: rwplus/plus_buy_3.yml
+  questshop:
+    file: quest/questshop/questshop.yml
+  casess:
+    file: main_menus/cases.yml
+  torg:
+    file: main_menus/torgg.yml
+  ec:
+    file: main_menus/enderchest.yml
+  buy_enderchest:
+    file: main_menus/buy_enderchest.yml
+  buy_enderchest_6_stroka:
+    file: main_menus/buy_enderchest_6_stroka.yml
+  buy_enderchest_5_stroka:
+    file: main_menus/buy_enderchest_5_stroka.yml
+  buy_enderchest_4_stroka:
+    file: main_menus/buy_enderchest_4_stroka.yml

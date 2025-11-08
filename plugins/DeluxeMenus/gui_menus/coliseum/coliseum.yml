@@ -1,0 +1,72 @@
+menu_title: '&8Колизей'
+open_command: coliseummenu
+size: 53
+items:
+  'wood':
+    material: paper
+    slot: 4
+    display_name: '&f'
+    lore:
+    - '              &c&lКОЛИЗЕЙ        '
+    - ''
+    - '  &fДля участия в поединке'
+    - '  &fИспользуйте &6/coliseum join'
+    - ''
+    - '  &fИгроки дерутся &61 на 1'
+    - '  &fЗрители могут делать &6ставку '
+    - '  &fНа участников поединка '
+    - '  &6/coliseum bet '
+    - ''
+    left_click_commands:
+    - '[player] coliseum join'
+    right_click_commands:
+    - '[player] coliseum join'
+  'glass':
+    material: orange_stained_glass_pane
+    display_name: '&9'
+    slots:
+    - 1
+    - 2
+    - 6
+    - 7
+    - 9
+    - 12
+    - 14
+    - 17
+    - 18
+    - 21
+    - 23
+    - 26
+    - 27
+    - 30
+    - 32
+    - 35
+    - 36
+    - 39
+    - 41
+    - 44
+    - 46
+    - 47
+    - 51
+    - 52
+  'glass1':
+    material: white_stained_glass_pane
+    display_name: '&9'
+    slots:
+    - 13
+    - 22
+    - 31
+    - 40
+    - 49
+  'glass2':
+    material: black_stained_glass_pane
+    display_name: '&9'
+    slots:
+    - 0
+    - 3
+    - 5
+    - 8
+    - 45
+    - 48
+    - 50
+    - 53

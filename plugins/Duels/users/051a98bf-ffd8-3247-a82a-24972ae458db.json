@@ -1,0 +1,45 @@
+{
+  "uuid": "051a98bf-ffd8-3247-a82a-24972ae458db",
+  "name": "dopdopdop111",
+  "wins": 2,
+  "losses": 2,
+  "requests": true,
+  "rating": {
+    "classic": 1400,
+    "nezerka": 1406
+  },
+  "matches": [
+    {
+      "winner": "arte123m",
+      "loser": "dopdopdop111",
+      "kit": "classic",
+      "time": 1748919635676,
+      "duration": 18649,
+      "health": 4.0
+    },
+    {
+      "winner": "dopdopdop111",
+      "loser": "arte123m",
+      "kit": "classic",
+      "time": 1748919635676,
+      "duration": 15162,
+      "health": 1.5
+    },
+    {
+      "winner": "Qwwiz1xx",
+      "loser": "dopdopdop111",
+      "kit": "nezerka",
+      "time": 1749524442489,
+      "duration": 20187,
+      "health": 7.5
+    },
+    {
+      "winner": "dopdopdop111",
+      "loser": "20202014",
+      "kit": "nezerka",
+      "time": 1749524442489,
+      "duration": 32495,
+      "health": 10.0
+    }
+  ]
+}

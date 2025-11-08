@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 5.35.112.236
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1750184284038
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1750184433368
+  login: 1750183686719
+money: '144000.0'
+last-account-name: Faber1337
+lastlocation:
+  world: f8659263-274d-48c3-adfd-9a921c1fd2d3
+  world-name: world_the_end
+  x: 54.75570837176486
+  y: 65.50442204578663
+  z: -7.947623878243588
+  yaw: 31.600744247436523
+  pitch: 13.147286415100098
+logoutlocation:
+  world: fc199165-2e51-4b6a-a558-b5fecc877589
+  world-name: spawn
+  x: 2.637646848230678
+  y: 77.28143773727437
+  z: -1.777670808859714
+  yaw: 73.99093627929688
+  pitch: 38.48398208618164

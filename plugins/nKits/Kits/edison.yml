@@ -1,0 +1,110 @@
+Name: edison
+Cooldown: 0
+Permission: strictkits.kits.edison
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"italic":false,"extra":[{"text":""},{"bold":true,"color":"red","text":"Голова
+        Эдисона"}],"text":""}'
+      lore:
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"  "},{"color":"blue","text":"+2.5
+        Броня"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"  "},{"color":"red","text":"-25%
+        Скорость"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"  "},{"color":"blue","text":"+25%
+        Скорость атаки"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"  "},{"color":"blue","text":"+2.5
+        Урон"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.5
+          name: ''
+          slot: OFF_HAND
+          uuid: 1364a8f1-2b0e-4213-aa5f-65a09493a9ca
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -0.25
+          name: ''
+          slot: OFF_HAND
+          uuid: fbf00946-b7e6-4e72-a2c8-006070ac71d3
+          operation: 1
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.5
+          name: ''
+          slot: OFF_HAND
+          uuid: 170c2855-b409-488b-b2be-f358afa42fac
+          operation: 0
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.25
+          name: ''
+          slot: OFF_HAND
+          uuid: dc8038f7-efeb-4ce8-8691-6dc38d97fabc
+          operation: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/z2PzU7CQBhFP4gmWFz5EK7HtpCQaKLJiLRhWoH+zSxMsAy2ZQZNmUrbF3Drcxh3bgwvpktn5eqeuzg3uQZAB7qYdAw4XWwqIe7L53UuuAGGphdeqpzvTqCneK2qku8M0EIPjqOlqDh8cmsu+GR+kcqo9bcqWCDh69R9P3RkhlaTm+G0GSGWaE5ckTYDtYwHglpuxraz6lFGaPq/Eb4ySW2CndprHYsF44Jh2tCW1ixIEcFR7uMnmwZkT7BXeJgJEocti8cbYrqFfxda1KQWLcKamAQxOUPUvLVZ7o7WCboC6EPXWekDR1/nlw+/H9dv74fs+8c5wwB/Gq7PdggBAAA=
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

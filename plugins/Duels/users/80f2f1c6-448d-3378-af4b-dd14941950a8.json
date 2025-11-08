@@ -1,0 +1,20 @@
+{
+  "uuid": "80f2f1c6-448d-3378-af4b-dd14941950a8",
+  "name": "alzxmpic",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "nezerka": 1384
+  },
+  "matches": [
+    {
+      "winner": "aerophobic",
+      "loser": "alzxmpic",
+      "kit": "nezerka",
+      "time": 1750179505789,
+      "duration": 107652,
+      "health": 2.5
+    }
+  ]
+}

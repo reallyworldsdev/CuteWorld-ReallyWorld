@@ -1,0 +1,20 @@
+{
+  "uuid": "06ed9b26-577f-3133-9bbf-2a1204c8d6ea",
+  "name": "NewLauncher3936",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "shari": 1389
+  },
+  "matches": [
+    {
+      "winner": "solf7777",
+      "loser": "NewLauncher3936",
+      "kit": "shari",
+      "time": 1742439646867,
+      "duration": 244073,
+      "health": 9.0
+    }
+  ]
+}

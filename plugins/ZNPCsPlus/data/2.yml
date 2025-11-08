@@ -1,0 +1,26 @@
+id: '2'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: 29e8db14-7033-4e87-b568-7de023ff58fd
+world: spawn
+location:
+  x: -7.699999988079073
+  y: 65.0
+  z: -19.30000001192093
+  yaw: 349.02353
+  pitch: 10.789983
+type: player
+properties:
+  skin_right_leg: 'true'
+  skin_cape: 'true'
+  skin_left_sleeve: 'true'
+  skin_jacket: 'true'
+  skin_right_sleeve: 'true'
+  skin_left_leg: 'true'
+  skin_hat: 'true'
+hologram:
+  lines:
+  - '&9&lБоевой пропуск'
+actions:
+- lol.pyr.znpcsplus.interaction.playercommand.PlayerCommandAction;YnA=;1000;ANY_CLICK;0

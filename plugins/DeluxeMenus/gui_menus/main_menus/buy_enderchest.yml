@@ -1,0 +1,291 @@
+# Это меню было выкачено с помощью мода MD.
+# Скачать мод можно здесь: https://leaked-minecraft.pro
+menu_title: '§fꈁꀀꈂꌖꈂꀁ§0ꈃꄆ'
+open_command: buy_enderchest
+size: 53
+items:
+  '1_stroka':
+    display_name: '&r&#ff55551 строка&r'
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    material: lime_stained_glass_pane
+    lore:
+    - '&r &r'
+    - '&r&#ffffff  Данная строка &r&#55ff55разблокирована&r'
+    - '&r &r'
+    - '&r&#ffffff  Истечение: &r&#ff5555Никогда&r'
+    - '&r &r'
+    - '&r&#ffffff  Вернитесь в &r&#ffff55Эндер-сундук&r&#ffffff,&r'
+    - '&r&#ffffff  чтобы положить туда предметы.&r'
+    - '&r &r'
+    hide_attributes: true
+    left_click_commands:
+    - '[message] &6Эндерчест &7» &cЭта строка уже разблокирована'
+    right_click_commands:
+    - '[message] &6Эндерчест &7» &cЭта строка уже разблокирована'
+  '2_stroka':
+    display_name: '&r&#ff55552 строка&r'
+    slots:
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    material: lime_stained_glass_pane
+    lore:
+    - '&r &r'
+    - '&r&#ffffff  Данная строка &r&#55ff55разблокирована&r'
+    - '&r &r'
+    - '&r&#ffffff  Истечение: &r&#ff5555Никогда&r'
+    - '&r &r'
+    - '&r&#ffffff  Вернитесь в &r&#ffff55Эндер-сундук&r&#ffffff,&r'
+    - '&r&#ffffff  чтобы положить туда предметы.&r'
+    - '&r &r'
+    hide_attributes: true
+    left_click_commands:
+    - '[message] &6Эндерчест &7» &cЭта строка уже разблокирована'
+    right_click_commands:
+    - '[message] &6Эндерчест &7» &cЭта строка уже разблокирована'
+  '3_stroka':
+    display_name: '&r&#ff55553 строка&r'
+    slots:
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    material: lime_stained_glass_pane
+    lore:
+    - '&r &r'
+    - '&r&#ffffff  Данная строка &r&#55ff55разблокирована&r'
+    - '&r &r'
+    - '&r&#ffffff  Истечение: &r&#ff5555Никогда&r'
+    - '&r &r'
+    - '&r&#ffffff  Вернитесь в &r&#ffff55Эндер-сундук&r&#ffffff,&r'
+    - '&r&#ffffff  чтобы положить туда предметы.&r'
+    - '&r &r'
+    hide_attributes: true
+    left_click_commands:
+    - '[message] &6Эндерчест &7» &cЭта строка уже разблокирована'
+    right_click_commands:
+    - '[message] &6Эндерчест &7» &cЭта строка уже разблокирована'
+  '4_stroka_NO_POSHEL_NAX':
+    display_name: '&r&#ff55554 строка&r'
+    slots:
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    material: red_stained_glass_pane
+    priority: 0
+    lore:
+    - '&r &r'
+    - '&r&#ffffff  Данная строка &r&#ff5555заблокирована&r'
+    - '&r &r'
+    - '&r&#ffffff  Цены разблокировки &r&#ff5555+9 слотов:&r'
+    - '&r&#ffffff  До след. вайпа &r&#aaaaaa- &r&#ff555510 рилликов&r'
+    - '&r&#ffffff  Навсегда &r&#aaaaaa- &r&#ff5555100 рилликов&r'
+    - '&r &r'
+    - '&r&#ffffff  &r&#ff5555Нажмите&r&#ffffff, чтобы увеличить&r'
+    - '&r&#ffffff  количество строк в сундуке&r'
+    - '&r &r'
+    hide_attributes: true
+    view_requirement:
+      requirements:
+        complete:
+         type: "!has permission"
+         permission: 'purpur.enderchest.rows.four'
+    left_click_commands:
+    - '[openguimenu] buy_enderchest_4_stroka'
+    right_click_commands:
+    - '[openguimenu] buy_enderchest_4_stroka'
+  '4_stroka_YES_POSHEL_NAX':
+    display_name: '&r&#ff55554 строка&r'
+    priority: 1
+    slots:
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    material: lime_stained_glass_pane
+    lore:
+    - '&r &r'
+    - '&r&#ffffff  Данная строка &r&#55ff55разблокирована&r'
+    - '&r &r'
+    - '&r&#ffffff  Истечение: &r&#ff5555Никогда&r'
+    - '&r &r'
+    - '&r&#ffffff  Вернитесь в &r&#ffff55Эндер-сундук&r&#ffffff,&r'
+    - '&r&#ffffff  чтобы положить туда предметы.&r'
+    - '&r &r'
+    hide_attributes: true
+    view_requirement:
+      requirements:
+        complete:
+         type: "has permission"
+         permission: 'purpur.enderchest.rows.four'
+    left_click_commands:
+    - '[message] &6Эндерчест &7» &cЭта строка уже разблокирована'
+    right_click_commands:
+    - '[message] &6Эндерчест &7» &cЭта строка уже разблокирована'
+  '5_stroka_EST':
+    display_name: '&r&#ff55555 строка&r'
+    priority: 0
+    slots:
+    - 36
+    - 37
+    - 38
+    - 39
+    - 40
+    - 41
+    - 42
+    - 43
+    - 44
+    material: lime_stained_glass_pane
+    lore:
+    - '&r &r'
+    - '&r&#ffffff  Данная строка &r&#55ff55разблокирована&r'
+    - '&r &r'
+    - '&r&#ffffff  Истечение: &r&#ff5555Никогда&r'
+    - '&r &r'
+    - '&r&#ffffff  Вернитесь в &r&#ffff55Эндер-сундук&r&#ffffff,&r'
+    - '&r&#ffffff  чтобы положить туда предметы.&r'
+    - '&r &r'
+    hide_attributes: true
+    view_requirement:
+      requirements:
+        complete:
+         type: "has permission"
+         permission: 'purpur.enderchest.rows.five'
+    left_click_commands:
+    - '[message] &6Эндерчест &7» &cЭта строка уже разблокирована'
+    right_click_commands:
+    - '[message] &6Эндерчест &7» &cЭта строка уже разблокирована'
+  '5_stroka_NETY':
+    display_name: '&r&#ff55555 строка&r'
+    priority: 1
+    slots:
+    - 36
+    - 37
+    - 38
+    - 39
+    - 40
+    - 41
+    - 42
+    - 43
+    - 44
+    material: red_stained_glass_pane
+    lore:
+    - '&r &r'
+    - '&r&#ffffff  Данная строка &r&#ff5555заблокирована&r'
+    - '&r &r'
+    - '&r&#ffffff  Цены разблокировки &r&#ff5555+9 слотов:&r'
+    - '&r&#ffffff  До след. вайпа &r&#aaaaaa- &r&#ff555510 рилликов&r'
+    - '&r&#ffffff  Навсегда &r&#aaaaaa- &r&#ff5555100 рилликов&r'
+    - '&r &r'
+    - '&r&#ffffff  &r&#ff5555Нажмите&r&#ffffff, чтобы увеличить&r'
+    - '&r&#ffffff  количество строк в сундуке&r'
+    - '&r &r'
+    hide_attributes: true
+    view_requirement:
+      requirements:
+        complete:
+         type: "!has permission"
+         permission: 'purpur.enderchest.rows.five'
+    left_click_commands:
+    - '[openguimenu] buy_enderchest_5_stroka'
+    right_click_commands:
+    - '[openguimenu] buy_enderchest_5_stroka'
+  '6_stroka_EST':
+    display_name: '&r&#ff55556 строка&r'
+    priority: 0
+    slots:
+    - 45
+    - 46
+    - 47
+    - 48
+    - 49
+    - 50
+    - 51
+    - 52
+    - 53
+    material: lime_stained_glass_pane
+    lore:
+    - '&r &r'
+    - '&r&#ffffff  Данная строка &r&#55ff55разблокирована&r'
+    - '&r &r'
+    - '&r&#ffffff  Истечение: &r&#ff5555Никогда&r'
+    - '&r &r'
+    - '&r&#ffffff  Вернитесь в &r&#ffff55Эндер-сундук&r&#ffffff,&r'
+    - '&r&#ffffff  чтобы положить туда предметы.&r'
+    - '&r &r'
+    hide_attributes: true
+    view_requirement:
+      requirements:
+        complete:
+         type: "has permission"
+         permission: 'purpur.enderchest.rows.six'
+    left_click_commands:
+    - '[message] &6Эндерчест &7» &cЭта строка уже разблокирована'
+    right_click_commands:
+    - '[message] &6Эндерчест &7» &cЭта строка уже разблокирована'
+  '6_stroka_no':
+    display_name: '&r&#ff55556 строка&r'
+    priority: 1
+    slots:
+    - 45
+    - 46
+    - 47
+    - 48
+    - 49
+    - 50
+    - 51
+    - 52
+    - 53
+    material: red_stained_glass_pane
+    lore:
+    - '&r &r'
+    - '&r&#ffffff  Данная строка &r&#ff5555заблокирована&r'
+    - '&r &r'
+    - '&r&#ffffff  Цены разблокировки &r&#ff5555+9 слотов:&r'
+    - '&r&#ffffff  До след. вайпа &r&#aaaaaa- &r&#ff555510 рилликов&r'
+    - '&r&#ffffff  Навсегда &r&#aaaaaa- &r&#ff5555100 рилликов&r'
+    - '&r &r'
+    - '&r&#ffffff  &r&#ff5555Нажмите&r&#ffffff, чтобы увеличить&r'
+    - '&r&#ffffff  количество строк в сундуке&r'
+    - '&r &r'
+    hide_attributes: true
+    view_requirement:
+      requirements:
+        complete:
+         type: "!has permission"
+         permission: 'purpur.enderchest.rows.six'
+    left_click_commands:
+    - '[openguimenu] buy_enderchest_6_stroka'
+    right_click_commands:
+    - '[openguimenu] buy_enderchest_6_stroka'

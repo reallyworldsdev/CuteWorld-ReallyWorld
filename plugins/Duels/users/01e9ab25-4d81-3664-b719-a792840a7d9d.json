@@ -1,0 +1,38 @@
+{
+  "uuid": "01e9ab25-4d81-3664-b719-a792840a7d9d",
+  "name": "SashaKryasanchik",
+  "wins": 0,
+  "losses": 3,
+  "requests": true,
+  "rating": {
+    "chiter": 1384,
+    "totem": 1384,
+    "nezerka": 1383
+  },
+  "matches": [
+    {
+      "winner": "bapybap",
+      "loser": "SashaKryasanchik",
+      "kit": "nezerka",
+      "time": 1748461697000,
+      "duration": 290976,
+      "health": 10.0
+    },
+    {
+      "winner": "bapybap",
+      "loser": "SashaKryasanchik",
+      "kit": "chiter",
+      "time": 1748461697000,
+      "duration": 54677,
+      "health": 8.5
+    },
+    {
+      "winner": "bapybap",
+      "loser": "SashaKryasanchik",
+      "kit": "totem",
+      "time": 1748461697000,
+      "duration": 392338,
+      "health": 10.0
+    }
+  ]
+}

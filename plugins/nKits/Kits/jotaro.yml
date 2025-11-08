@@ -1,0 +1,101 @@
+Name: jotaro
+Cooldown: 0
+Permission: nKits.kits.jotaro
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"color":"dark_purple","text":"Голова
+        Джотаро"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"text":"  "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+20
+        Максимальное здоровье"}],"text":""}'
+      - '{"extra":[{"text":"  "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+20
+        Отбрасывающая атака"}],"text":""}'
+      - '{"extra":[{"text":"  "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+10
+        Везение "}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 20.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 6917afd4-58e0-4331-a164-ab8f84dde3a6
+          operation: 0
+        GENERIC_ATTACK_KNOCKBACK:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 20.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_knockback]
+          slot: OFF_HAND
+          uuid: 3f9b8f63-1ecd-4a8b-a695-4b47629014c1
+          operation: 0
+        GENERIC_LUCK:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 10.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.luck]
+          slot: OFF_HAND
+          uuid: 6acaf6e2-b3fc-472f-b9c7-6ccc4fa28377
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_PLACED_ON
+      internal: H4sIAAAAAAAA/02PO1LDMBRFHwzMBEMDC4AtKDYxk4KC4ZPIE9k4kT9S5yTK2M5zyDg2RG5ZCxUtDetgEWwDlVT3njm3uRaABWezdYv4XL+sClQWWKZtVd0UancCvUbtm7ZWOwsADnpwHGfYKvhS2iMyzcky9XChqWuYzwgGtNze0E2s5/fUpZXx4zt3oof/toMmSwYoHC+Xm7CdVzGZOFNU42l/UUWvokRkPHJE52HA88ofsTdRRteiYx2zQ+13jzpIZC7Kp7VM/JzZhh/YPuBh5ydUS5Ms8QvBqS1sQSSXKAtvuErJLcApHNKlOXJ0+fP7+R6N2PdFNrv6ODfqDzuZ144KAQAA
+      PublicBukkitValues:
+        deluxemenus:dm: 1b
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

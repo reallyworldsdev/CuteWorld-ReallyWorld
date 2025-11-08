@@ -1,0 +1,492 @@
+# DO NOT EDIT THIS VALUE!
+config-version: 12
+
+# Define placeholders usable in any message below.
+# Example: Adding 'PREFIX: "[Cool]"' below and then putting '{PREFIX}' in a message will display '[Cool]' when the message is sent in game.
+STRINGS:
+  PREFIX: '&6Дуэли &7»'
+  LINE: '&6&l&m----------------------------------------------------------------&r'
+  HALF_LINE: '&6&l&m----------------&r'
+  FAIL_PREFIX: '&fОшибка при старте матча:&6'
+
+
+GENERAL:
+  'true': '&atrue'
+  'false': '&cfalse'
+  enabled: '&aВключено'
+  disabled: '&cВыключено'
+  not-selected: Not Selected
+  random: Random
+  none: none
+  kit-selector: Kit Selector
+  arena-selector: Arena Selector
+  item-betting: Item Betting
+  betting: Betting
+
+
+ERROR:
+  no-permission: '{PREFIX} &fУ вас недостаточно прав! &6''%permission%'''
+  data:
+    load-failure: '{PREFIX} &fНе удалось загрузить статистику вашей дуели. Пожалуйста
+      перезайдите.'
+    not-loaded: '{PREFIX} &fПользователь не прогружен, повторите попытку позже.'
+    not-found: '{PREFIX} &c%name% не имеет статистики.'
+  top:
+    no-data-available: '{PREFIX} &fДанных нет.'
+  player:
+    not-found: '{PREFIX} &6%name%&f не найден.'
+    no-longer-online: '{PREFIX} &fИгрок не в сети.'
+  arena:
+    not-found: '{PREFIX} &fНет арены с названием &6''%name%''.'
+    already-exists: '{PREFIX} &fАрена с именем &6''%name%''&f уже существует.'
+    delete-failure: '{PREFIX} &fНевозможно удалить арену которая в настоящее время
+      используется. Сначала отключите её, используя команду &6''/duels toggle %name%'''
+    invalid-position: '{PREFIX} &cПозиция должна быть 1 или 2.'
+    no-position-set: '{PREFIX} &cArena ''%name%'' have no positions set.'
+  kit:
+    not-found: '{PREFIX} &fНабора с именем &6''%name%''&f не существует.'
+    already-exists: '{PREFIX} &fНабор с именем &6''%name%''&f уже существует.'
+    empty-hand: '{PREFIX} &fДля использования этой команды вы должны держать предметы
+      инвентаре.'
+  duel:
+    is-self: '{PREFIX} &fВы не можете вызвать самого себя на дуэль.'
+    inventory-not-empty: '{PREFIX} &fДля использования этой команды необходимо очистить
+      инвентарь.'
+    in-creative-mode: '{PREFIX} &fВы не можете учавствовать в дуэли в &6Творческом&f
+      режиме.'
+    in-blacklisted-world: '{PREFIX} &cYou cannot duel in this world.'
+    is-tagged: '{PREFIX} &cYou cannot duel while combat tagged.'
+    not-in-duelzone: '{PREFIX} &fВы можете учавствовать в дуэлях только в регионах:
+      &6%regions%'
+    requests-disabled: '{PREFIX} &6%name%&f в настоящее время не принимает запросы
+      на поединки.'
+    already-has-request: '{PREFIX} &fУ вас уже есть запрос, отправленный &6%name%.'
+    no-request: '{PREFIX} &fУ вас нет запроса от &6%name%.'
+    already-in-match:
+      sender: '{PREFIX} &fВы не можете сделать это, пока находитесь на дуэли.'
+      target: '{PREFIX} &6%name%&f уже на дуэли.'
+    already-in-queue: '{PREFIX} &cYou cannot do this while in a queue.'
+    prevent-teleportation: '{PREFIX} &fНевозможно телепортироваться к игроку на дуэли.'
+  spectate:
+    already-spectating:
+      sender: '{PREFIX} &fВы не можете делать это в режиме зрителя.'
+      target: '{PREFIX} &6%name%&f находится в режиме зрителя.'
+    not-in-match: '{PREFIX} &6%name%&f не в дуэли.'
+  setting:
+    disabled-option: '{PREFIX} &fОпция &6%option%&f в настоящее время отключена.'
+  inventory-view:
+    not-a-uuid: '{PREFIX} &6%input%&f недействительный UUID.'
+    not-found: '{PREFIX} &fНет инвентаря с UUID &6''%uuid%'''
+  queue:
+    not-found: '{PREFIX} &cNo queue exists with kit %kit% and bet %bet_amount%$.'
+    already-exists: '{PREFIX} &cA queue with kit ''%kit%'' and bet %bet_amount%$ already
+      exists.'
+    already-in: '{PREFIX} &cYou are already in a queue!'
+    not-in-queue: '{PREFIX} &cYou are not in a queue.'
+    not-enough-money: '{PREFIX} &cYou need %bet_amount%$ to join that queue.'
+    no-queues-available: '{PREFIX} &cNo queues are available.'
+  sign:
+    not-a-sign: '{PREFIX} &cThe block you are looking at is not a sign!'
+    not-found: '{PREFIX} &cThat sign is not a queue sign!'
+    already-exists: '{PREFIX} &cThat sign is already a queue sign! To remove, use
+      the command ''/duels delsign'''
+    cancel-break: '{PREFIX} &cYou cannot break a queue sign manually! Please use the
+      command ''/duels delsign'''
+  sound:
+    not-found: '{PREFIX} &cNo sound exists with the name ''%name%''.'
+  command:
+    invalid-sub-command: '{PREFIX} &c''%argument%'' is not a valid sub command. Please
+      type ''/%command%'' for help.'
+    invalid-option: '{PREFIX} &6''%option%''&f недоступная опция'
+    not-enough-money: '{PREFIX} &fУ вас недостаточно денег, чтобы делать ставки!'
+    lobby-save-failure: '{PREFIX} &fНе удалось сохранить расположение в лобби. Дополнительную
+      информацию см. в консоли.'
+    name-not-alphanumeric: '{PREFIX} &6''%input%''&f не является буквенно-цифровым.'
+
+
+COMMAND:
+  duel:
+    usage:
+    - '&6&l&m------------------------------------&r'
+    - '&6/duel &f(&6ник&f) - &fвызвать игрока на поединок'
+    - '&6/duel stats &f(&6ник&f) - посмотреть статистику игрока'
+    - '&6/duel toggle &f- отключить запросы на поединки'
+    - '&6&l&m-----------------------------------&r'
+    request:
+      send:
+        sender:
+        - '&6&l&m----------------------------------------------------------------&r'
+        - '&6Запрос на дуэль успешно отправлен.'
+        - '&6➜ &fНик: &6%name%'
+        - '&6➜ &fНабор: &6%kit%'
+        - '&6➜ &fСтавка: &6%bet_amount%$'
+        - '&6&l&m----------------------------------------------------------------&r'
+        receiver:
+        - '&6&l&m----------------------------------------------------------------&r'
+        - '&6У вас есть новый запрос на дуэль!'
+        - '&6➜ &fНик: &6%name%'
+        - '&6➜ &fНабор: &6%kit%'
+        - '&6➜ &fСтавка: &6%bet_amount%$'
+        - '&6&l&m----------------------------------------------------------------&r'
+        clickable-text:
+          info:
+            text: '&fНажмите что-бы '
+            hover-text: ''
+          accept:
+            text: '&f(&aПРИНЯТЬ) '
+            hover-text: '&fНажмите сюда что-бы &aпринять&f вызов'
+          deny:
+            text: '&f(&cОТКЛОНИТЬ&F)'
+            hover-text: '&fНажмите сюда что-бы &cотклонить&f вызов.'
+          extra:
+            text: '{LINE}'
+            hover-text: ''
+      accept:
+        sender: '{PREFIX} &6%name%&f принял ваш запрос на дуэль.'
+        receiver: '{PREFIX} &fВы приняли запрос на дуэль с игроком &6%name%'
+      deny:
+        sender: '{PREFIX} &fВаш запрос на дуэль к &6%name%&f был отклонен.'
+        receiver: '{PREFIX} &fВы отказались от дуэли с &6%name%'
+    stats:
+      displayed:
+      - '{LINE}'
+      - '&fСтатистика &6%name%&f:'
+      - '&fПобед: &6%wins%'
+      - '&fПроигрышей: &6%losses%'
+      - '&fПобеда/Проигрыш: &6%wl_ratio%'
+      - '&fЗапросы: &6%requests_enabled%'
+      # NOTE: Ratings will only display if either 'display-kit-ratings' or 'display-nokit-rating' is enabled in the configuration.
+      rating:
+        header: '&fСтатистика по наборам'
+        format: '&6%kit%&f: &6%rating%'
+        footer: ''
+      # NOTE: Past matches will only display if 'display-past-matches' is enabled in the configuration.
+      match:
+        header: '&fПоследние дуэли:'
+        format: '&6%winner% &fvs &6%loser% &f[Наведи на меня!]'
+        hover-text:
+        - '&fНабор: &6%kit%'
+        - '&fДлительность: &6%duration%'
+        - '&fВремя: &6%time%&f назад'
+        - '&fHP: &6%health%♥'
+        footer: '{LINE}'
+    toggle:
+      enabled: '{PREFIX} &fТеперь вы &6получаете&f запросы на дуэль.'
+      disabled: '{PREFIX} &fТеперь вы &6не получаете&f запросы на дуэль.'
+    top:
+      next-update: '{PREFIX} &fПослее обновление: &f%remaining%'
+      header: '{HALF_LINE} &fТоп &f10 &f%type% {HALF_LINE}'
+      display-format: '&e%rank%. &c%name% &e- &f%score% &f%identifier%'
+      footer: '{HALF_LINE} &fТоп &f10 &f%type% {HALF_LINE}'
+
+  duels:
+    usage:
+    - '{LINE}'
+    - '&f/%command% help &e- &fDisplays this page.'
+    - '&f/%command% help arena &e- &fDisplays a list of arena commands.'
+    - '&f/%command% help kit &e- &fDisplays a list of kit commands.'
+    - '&f/%command% help queue &e- &fDisplays a list of queue commands.'
+    - '&f/%command% help sign &e- &fDisplays a list of sign commands.'
+    - '&f/%command% help user &e- &fDisplays a list of user edit commands.'
+    - '&f/%command% help extra &e- &fDisplays a list of extra commands.'
+    - '{LINE}'
+    help:
+      arena:
+      - '{HALF_LINE} &fArena Commands {HALF_LINE}'
+      - '&f/%command% create [name] &e- &fCreates an arena with given name.'
+      - '&f/%command% set [name] [1|2] &e- &fSets the teleport position of an arena.'
+      - '&f/%command% delete [name] &e- &fDeletes an arena.'
+      - '&f/%command% info [name] &e- &fDisplays information about the selected arena.'
+      - '&f/%command% toggle [name] &e- &fEnables or disables an arena.'
+      - '&f/%command% list &e- &fDisplays a list of arenas.'
+      - '{HALF_LINE} &fArena Commands {HALF_LINE}'
+      kit:
+      - '{HALF_LINE} &fKit Commands {HALF_LINE}'
+      - '&f/%command% savekit [name] &e- &fSaves a kit with given name.'
+      - '&f/%command% loadkit [name] &e- &fLoads the selected kit to your inventory.'
+      - '&f/%command% deletekit [name] &e- &fDeletes a kit.'
+      - '&f/%command% setitem [name] &e- &fSets the displayed item for selected kit.'
+      - '&f/%command% useoption [kit] [usepermission:arenaspecific] &e- &fEnable or
+        disable options for kit.'
+      - '&f/%command% list &e- &fDisplays a list of kits.'
+      - '{HALF_LINE} &fKit Commands {HALF_LINE}'
+      queue:
+      - '{HALF_LINE} &fQueue Sign Commands {HALF_LINE}'
+      - '&f/%command% createqueue [bet] &e- &fCreates a queue with bet.'
+      - '&f/%command% createqueue [bet] [kit] &e- &fCreates a queue with bet and kit.'
+      - '&f/%command% deletequeue &e- &fDeletes the queue with bet and kit.'
+      - '&f/%command% list &e- &fDisplays a list of available queues.'
+      - '{HALF_LINE} &fQueue Sign Commands {HALF_LINE}'
+      sign:
+      - '{HALF_LINE} &fQueue Sign Commands {HALF_LINE}'
+      - '&f/%command% addsign [bet] &e- &fCreates a queue sign with bet.'
+      - '&f/%command% addsign [bet] [kit] &e- &fCreates a queue sign with bet and
+        kit.'
+      - '&f/%command% delsign &e- &fDeletes the queue sign you are looking at.'
+      - '&f/%command% list &e- &fDisplays a list of queue signs.'
+      - '{HALF_LINE} &fQueue Sign Commands {HALF_LINE}'
+      user:
+      - '{HALF_LINE} &fUser Edit Commands {HALF_LINE}'
+      - '&f/%command% setrating [name] [kit] [amount] &e- &fSets player''s rating
+        for kit.'
+      - '&f/%command% edit [name] [wins|losses] [amount] &e- &fSets player''s wins
+        or losses to given amount.'
+      - '&f/%command% resetrating [name] [kit:all] &e- &fResets all or specified kit''s
+        rating for player.'
+      - '&f/%command% reset [name] &e- &fResets player''s stats.'
+      - '{HALF_LINE} &fUser Edit Commands {HALF_LINE}'
+      extra:
+      - '{HALF_LINE} &fExtra Commands {HALF_LINE}'
+      - '&f/%command% setlobby &e- &fSets duel lobby location.'
+      - '&f/%command% playsound [name] &e- &fPlays the selected sound if defined in
+        config.'
+      - '&f/%command% reload <module> &e- &fReloads the plugin or the specified module.'
+      - '{HALF_LINE} &fExtra Commands {HALF_LINE}'
+    create: '{PREFIX} &fАрена &6%name% &fбыла успешно создана. Для установки точек
+      появления введите &6/duels set %name% 1'
+    delete: '{PREFIX} &fАрена &6%name% &fбыла успешно удалена.'
+    set: '{PREFIX} &fПозиция &6#%position% &fна арене &6%name% &fустановлена на координатах
+      &6%location%&f.'
+    toggle: '{PREFIX} &fАрена &6%name% &fсейчас &r%state%&f.'
+    teleport: '{PREFIX} &fYou have been teleported to arena &e%name%&f.'
+    save-kit: '{PREFIX} &fНабор &6%name% &fбыл успешно сохранен.'
+    delete-kit: '{PREFIX} &fНабор &6%name% &fбыл успешно удалён.'
+    load-kit: '{PREFIX} &fНабор &6%name% &fзагружен в ваш инвентарь'
+    set-item: '{PREFIX} &fНабор &6%name%&f отображаемый предмет был изменен на ваш
+      предмет.'
+    use-option: '{PREFIX} &fOption &f%option% &fof kit &6&l%kit% &fwas set to &a%value%&f.'
+    create-queue: '{PREFIX} &fCreated a queue with kit &6&l%kit% &fand bet &6%bet_amount%$&f.'
+    delete-queue: '{PREFIX} &fDeleted a queue with kit &6&l%kit% &fand bet &6%bet_amount%$&f.'
+    add-sign: '{PREFIX} &fCreated queue sign at &f%location% &fwith kit &6&l%kit%
+      &fand bet &6%bet_amount%$&f.'
+    del-sign: '{PREFIX} &fDeleted queue sign at &f%location% &fwith kit &6&l%kit%
+      &fand bet &6%bet_amount%$&f.'
+    set-lobby: '{PREFIX} &fДуэльное лобби установлено в текущем месте.'
+    lobby: '{PREFIX} &fYou have been teleported to lobby!'
+    edit: '{PREFIX} &6%name% %type%&f был установлен &6%amount%&f.'
+    set-rating: '{PREFIX} &6%name%&f рейтинг для комплекта &6%kit% &fбыл установлен
+      &6%rating%&f.'
+    reset-rating: '{PREFIX} &fСброс рейтинга &6%name%&f для комплекта &6%kit%&f.'
+    reset: '{PREFIX} &fСброс статистики &6%name%&f'
+    info:
+    - '{HALF_LINE} &fАрена &6%name% {HALF_LINE}'
+    - '&fИспользуется: &6%in_use%'
+    - '&fВыключена: &6%disabled%'
+    - '&fИгроков: &6%players%'
+    - '&fПозиций: &6%positions%'
+    - '{HALF_LINE} &fАрена &6%name% {HALF_LINE}'
+    list:
+    - '{LINE}'
+    - '&4Тёмно-Красный&f: Арена выключена'
+    - '&6Синия&f: Арена без мест появления'
+    - '&aЗеленый&f: Арена свободна'
+    - '&cКрасный&f: Арена используется'
+    - '&fАрены: &6%arenas%'
+    - '&fНаборы: &6%kits%'
+    - '&fОчередь: &6%queues%'
+    - '&fТаблички очереди: &6%queue_signs%'
+    - '&fЛобби дуели: &6%lobby%&f.'
+    - '{LINE}'
+
+  spectate:
+    usage:
+    - '{LINE}'
+    - '&fНаблюдать за данным игроком: &6/spectate &f<Ник>'
+    - '{LINE}'
+    start-spectate: '{PREFIX} &fВы сейчас наблюдаете за &6%name%&f.'
+    stop-spectate: '{PREFIX} &fВы больше не наблюдаете за &6%name%&f.'
+
+  sub-command-usage: '{PREFIX} &f%description%: &6/%command% %usage%'
+
+
+DUEL:
+  start-failure:
+    no-kit-selected: '{FAIL_PREFIX}&f Никакой комплект не был выбран!'
+    in-blacklisted-world: '{FAIL_PREFIX} You or your opponent is in a blacklisted
+      world!'
+    is-tagged: '{FAIL_PREFIX}&f You or your opponent is in combat!'
+    player-moved: '{FAIL_PREFIX}&f Вы или ваш противник двигались после отправки/принятия
+      запроса!'
+    not-in-duelzone: '{FAIL_PREFIX}&f You or your opponent moved out of the duelzone
+      sending/accepting the request!'
+    in-creative-mode: '{FAIL_PREFIX}&f Вы или ваш противник в творческом режиме!'
+    no-arena-available: '{FAIL_PREFIX}&f В настоящее время арена не доступна. Пожалуйста,
+      повторите попытку позже.'
+    arena-in-use: '{FAIL_PREFIX}&f Эта арена уже используется. Выберите другую арену.'
+    not-enough-money: '{FAIL_PREFIX}&f У вас или у вашего оппонента нет &6%bet_amount%$'
+  prevent:
+    item-drop: '{PREFIX} &fВы не можете бросать предметы во время дуэли.'
+    command: '{PREFIX} &fВы не можете использовать &6%command%&f во время дуэли.'
+    teleportation: '{PREFIX} &fВы не можете телепортироваться во время дуэли.'
+    inventory-open: '{PREFIX} &fВы не можете открыть инвентарь, находясь на дуэли.'
+  projectile-hit-message: '{PREFIX} &6%name% &fимеет &6%health%♥&f!'
+  on-end:
+    tie: '{PREFIX} &fTie Game!'
+    plugin-disable: '{PREFIX} &cПлагин отключается! Окончание дуэли автоматически.'
+    opponent-defeat: '{PREFIX} &fИгрок &6%winner% &fпобедил игрока &6%loser%'
+  inventories:
+    message: '&fИнвентари (нажмите на имя для просмотра): '
+    name-color: '&6'
+  reward:
+    money:
+      message: '{PREFIX} &fВы получили &6%money%$ &fза победу против &6%name%&f!'
+      title: '&fВы выиграли &6%money%$'
+    items:
+      message: '{PREFIX} &fВы получили предметы со ставки игрока &6%name%'
+
+
+QUEUE:
+  add: '{PREFIX} &fYou have been added to the queue for kit &6&l%kit% &fand bet &6%bet_amount%$&f.
+    Click the sign or type the command again to leave the queue.'
+  remove: '{PREFIX} &fYou have been removed from the queue.'
+  found-opponent: '{PREFIX} &fOpponent found: &f%name%&f! Starting match with kit
+    &6&l%kit% &fand a bet of &6%bet_amount%$&f...'
+
+
+SIGN:
+  format:
+  - '&6[Нажмите для входа]'
+  - '&fНабор: &6%kit%'
+  - '&fСтавка: &6%bet_amount%$'
+  - '&6%count%&f в очереди'
+
+
+SPECTATE:
+  stop-item:
+    name: '&cStop Spectating'
+  arena-broadcast: '{PREFIX} &f%name% &fis now spectating the match!'
+  match-end: '{PREFIX} &fThe match you were spectating has ended.'
+  prevent:
+    item-drop: '&cYou cannot drop items while in spectator mode.'
+    command: '&cYou cannot use ''%command%'' while in spectator mode.'
+    teleportation: '&cYou cannot teleport while in spectator mode.'
+    pvp: '&cYou cannot do this while in spectator mode.'
+
+
+GUI:
+  settings:
+    title: Request Settings
+    buttons:
+      details:
+        name: '&fДетали запроса'
+        lore:
+        - '&fОппонент: &6%opponent%'
+        - '&fНабор: &6%kit%'
+        - '&fАрена: &6%arena%'
+        - '&fСтавка: &6$%bet_amount%'
+        - '&fСтавка предметами: &6%item_betting%'
+        - ' '
+        - '&fЧтобы изменить сумму'
+        - '&fставки, введите'
+        - '&6/duel %opponent% &f<Кол-во>'
+      kit-selector:
+        name: '&6Выбор комплекта'
+        lore:
+        - '&fВыбранный комплект: &6%kit%'
+        - ' '
+        - '&aНажмите что-бы изменить комплект!'
+        lore-disabled:
+        - '&fЭтот параметр отключен.'
+        - '&fВместо этого будет использован'
+        - '&fваш инвентарь в дуэли.'
+      arena-selector:
+        name: '&6Выбор арены'
+        lore:
+        - '&fВыбранная арена: &6%arena%'
+        - ' '
+        - '&aНажмите что-бы сменить арену'
+        lore-disabled:
+        - '&fЭтот параметр отключен.'
+        - '&fДля дуэли будет выбрана'
+        - '&fслучайная арена.'
+        lore-no-permission:
+        - '&cУ вас не достаточно прав для'
+        - '&cиспользованния данной опции'
+      item-betting:
+        name: '&6Разрешить ставку предметами'
+        lore:
+        - '&fСтавка предметами: &6%item_betting%'
+        - ' '
+        - '&aНажмите, чтобы выключить ставку предметами!'
+        lore-disabled:
+        - '&cЭтот параметр отключен.'
+        lore-no-permission:
+        - '&cУ вас не достаточно прав для'
+        - '&cиспользованния данной опции'
+      send:
+        name: '&aОТПРАВИТЬ ЗАПРОС'
+      cancel:
+        name: '&cОТМЕНА'
+  kit-selector:
+    title: Выбор набора
+    buttons:
+      previous-page:
+        name: '&aPrevious Page'
+      next-page:
+        name: '&aNext Page'
+      empty:
+        name: '&cThis page is empty.'
+  arena-selector:
+    title: Выбор арены
+    buttons:
+      arena:
+        name: '&6%name%'
+        lore-available:
+        - '&fСостояние: &aДоступна'
+        lore-unavailable:
+        - '&fСостояние: &cНедоступна'
+      previous-page:
+        name: '&aPrevious Page'
+      next-page:
+        name: '&aNext Page'
+      empty:
+        name: '&cThis page is empty.'
+  queues:
+    title: Available Queues
+    buttons:
+      queue:
+        name: '&6&l%kit%'
+        lore:
+        - '&fBet: &6%bet_amount%$'
+        - '&fIn Queue: &f%players%'
+        - ' '
+        - '&a&lClick to Queue!'
+      previous-page:
+        name: '&aPrevious Page'
+      next-page:
+        name: '&aNext Page'
+      empty:
+        name: '&cThis page is empty.'
+  item-betting:
+    title: Победитель получает все!
+    buttons:
+      head:
+        name: '&6%name%'
+      state:
+        name-ready: '&aГОТОВ'
+        name-not-ready: '&cНЕ ГОТОВ'
+      details:
+        name: '&fДетали матча'
+        lore:
+        - '&fНабор: &6%kit%'
+        - '&fАрена: &6%arena%'
+        - '&fСтавка: &6$%bet_amount%'
+      cancel:
+        name: '&c&lНажмите что-бы отменить'
+        lore:
+        - '&fНажмите или закройте инвентарь'
+        - '&fдля отмены матча'
+  inventory-view:
+    title: '&6%name%'
+    buttons:
+      head:
+        name: '&6%name%'
+      potion-counter:
+        name: '&6%potions%'
+      effects:
+        name: '&fЭффекты зелий:'
+        lore-format: '&6%type% %amplifier% (%duration%s)'
+      hunger:
+        name: '&6%hunger%&f еды'
+      health:
+        name: '&6%health%&f ♥'

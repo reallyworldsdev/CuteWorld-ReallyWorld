@@ -1,0 +1,56 @@
+{
+  "uuid": "04b04b9f-c419-3751-a217-89bafac8daba",
+  "name": "pshenichny",
+  "wins": 2,
+  "losses": 6,
+  "requests": true,
+  "rating": {
+    "shari": 1416,
+    "nodebaff": 1384,
+    "chiter": 1380,
+    "totem": 1416,
+    "nezerka": 1355
+  },
+  "matches": [
+    {
+      "winner": "megaflopa",
+      "loser": "pshenichny",
+      "kit": "chiter",
+      "time": 1748706970104,
+      "duration": 68929,
+      "health": 7.5
+    },
+    {
+      "winner": "Faber1337",
+      "loser": "pshenichny",
+      "kit": "nezerka",
+      "time": 1748706970104,
+      "duration": 36218,
+      "health": 7.0
+    },
+    {
+      "winner": "jabka228pro",
+      "loser": "pshenichny",
+      "kit": "nezerka",
+      "time": 1748950020900,
+      "duration": 34569,
+      "health": 10.0
+    },
+    {
+      "winner": "AlramyyZek",
+      "loser": "pshenichny",
+      "kit": "chiter",
+      "time": 1748950020900,
+      "duration": 423938,
+      "health": 8.5
+    },
+    {
+      "winner": "pshenichny",
+      "loser": "wdeZZWuzjWyW",
+      "kit": "totem",
+      "time": 1749006033444,
+      "duration": 101966,
+      "health": 6.0
+    }
+  ]
+}

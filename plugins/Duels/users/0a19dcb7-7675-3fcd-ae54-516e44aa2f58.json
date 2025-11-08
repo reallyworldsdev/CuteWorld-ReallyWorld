@@ -1,0 +1,20 @@
+{
+  "uuid": "0a19dcb7-7675-3fcd-ae54-516e44aa2f58",
+  "name": "144FPS_HAHAH",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "nezerka": 1383
+  },
+  "matches": [
+    {
+      "winner": "dboodb9474",
+      "loser": "144FPS_HAHAH",
+      "kit": "nezerka",
+      "time": 1741157913952,
+      "duration": 22073,
+      "health": 6.0
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "uuid": "04a545f3-9c75-304e-824b-e87d1255784a",
+  "name": "macrzxc60",
+  "wins": 5,
+  "losses": 9,
+  "requests": true,
+  "rating": {
+    "classic": 1385,
+    "shari": 1382,
+    "chiter": 1369,
+    "nodebaff": 1416,
+    "nezerka": 1390
+  },
+  "matches": [
+    {
+      "winner": "macrzxc60",
+      "loser": "taliki_123345",
+      "kit": "nodebaff",
+      "time": 1749351635638,
+      "duration": 121356,
+      "health": 4.5
+    },
+    {
+      "winner": "macrzxc60",
+      "loser": "taliki_123345",
+      "kit": "chiter",
+      "time": 1749351635638,
+      "duration": 101540,
+      "health": 4.5
+    },
+    {
+      "winner": "taliki_123345",
+      "loser": "macrzxc60",
+      "kit": "chiter",
+      "time": 1749351635638,
+      "duration": 166702,
+      "health": 0.5
+    },
+    {
+      "winner": "macrzxc60",
+      "loser": "taliki_123345",
+      "kit": "nezerka",
+      "time": 1749351635638,
+      "duration": 24035,
+      "health": 6.0
+    },
+    {
+      "winner": "macrzxc60",
+      "loser": "dolbayob4432234",
+      "kit": "shari",
+      "time": 1749351635638,
+      "duration": 39632,
+      "health": 5.0
+    }
+  ]
+}

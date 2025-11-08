@@ -1,0 +1,20 @@
+{
+  "uuid": "051edcb2-6653-3c41-b618-2552744fd9c0",
+  "name": "foredrev",
+  "wins": 1,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "shari": 1414
+  },
+  "matches": [
+    {
+      "winner": "foredrev",
+      "loser": "Reditevel",
+      "kit": "shari",
+      "time": 1742439646867,
+      "duration": 115486,
+      "health": 3.0
+    }
+  ]
+}

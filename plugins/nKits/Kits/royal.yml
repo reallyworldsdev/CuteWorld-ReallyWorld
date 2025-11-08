@@ -1,0 +1,94 @@
+Name: royal
+Cooldown: 0
+Permission: nKits.kits.royal
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Голова
+        Рояля"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 2d86328f-0bb5-4d7b-93b8-8f84ad358005
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.15
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 620b49f3-25f4-46e5-9145-5b3cff587523
+          operation: 1
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: 8cdc81f0-52b5-41fa-b568-ea7c14edc00c
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: OFF_HAND
+          uuid: a997e65e-a9e6-4681-87f8-8a27dbd67911
+          operation: 0
+      internal: H4sIAAAAAAAA/03PQU6DQBiG4V/TJkjduXXhCcwIAdOFiSi2DCmDhREYdhSm0jJTGwpWeiBP4L6J8V7K0uWX5918KoAK52HVCvFcvy1XgiswIJnkMHoQWV5dOTyrGxXUXre8blZ8dwZKwz+atuY7FQBOFBhGmWg5fPHORWlSoiJxRd5hs980RMLH6+0t3kTd4hGbWPbuWOasG/9rjSaLDcF0t0w383YhIzTTA8Gd4CaXL++EWro/JSumpcKnWGeH147YovKmc8OLseZRtu8blMqJTG1sEIkNRqs9k2TN4iedaKQktKg8myF26J0GJQvd8TJBdwAjOMVFf2Rwca8dJz/W9/H60kiHn78Af4tB+UceAQAA
+      skull-owner: Black Heart
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

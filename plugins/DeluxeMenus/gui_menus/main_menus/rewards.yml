@@ -1,0 +1,906 @@
+menu_title: '&8Ежедневные награды'
+open_command: rewards
+size: 56
+items:
+  'reward':
+    material: iron_pickaxe
+    priority: 5
+    slot: 10
+    display_name: '&eДень 1'
+    lore:
+    - '&7Награда:'
+    - ' &eЖелезная кирка'
+    - ''
+    - '&aВам предстоит получить этот приз'
+    left_click_commands:
+    - '[close]'
+    - '[message] &cВы должны отыграть 1 день'
+    right_click_commands:
+    - '[close]'
+    - '[message] &cВы должны отыграть 1 день'
+  'reward_no':
+    material: iron_pickaxe
+    priority: 6
+    slot: 10
+    display_name: '&eДень 1'
+    lore:
+    - '&7Награда:'
+    - ' &eЖелезная кирка'
+    - ''
+    - '&aВам предстоит получить этот приз'
+    view_requirement:
+      requirements:
+        complete:
+         type: "!has permission"
+         permission: 'reward.1.no'
+    left_click_commands:
+    - '[console] give %player_name% iron_pickaxe 1'
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e1 День. &fВаша награда: &f              &f- &61000 монет'
+    right_click_commands:
+    - '[console] give %player_name% iron_pickaxe 1'
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e1 День. &fВаша награда: &f              &f- &61000 монет'
+  'reward_yes':
+    material: iron_pickaxe
+    priority: 4
+    slot: 10
+    display_name: '&eДень 1'
+    lore:
+    - '&7Награда:'
+    - ' &eЖелезная кирка'
+    - ''
+    - '&cВы уже получили этот приз'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'reward.1'
+    left_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e1 День. &fВаша награда: &f              &f- &61000 монет'
+    right_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e1 День. &fВаша награда: &f              &f- &61000 монет'
+
+#############################################################################################################################################################
+  'rewar321321d':
+    material: sunflower
+    priority: 5
+    slot: 11
+    amount: 2
+    display_name: '&eДень 2'
+    lore:
+    - '&7Награда:'
+    - ' &61000 монет'
+    - ''
+    - '&aВам предстоит получить этот приз'
+    left_click_commands:
+    - '[close]'
+    - '[message] &cВы должны отыграть 3 дня'
+    right_click_commands:
+    - '[close]'
+    - '[message] &cВы должны отыграть 3 дня'
+  'reward1_no':
+    material: sunflower
+    priority: 6
+    slot: 11
+    amount: 2
+    display_name: '&eДень 2'
+    lore:
+    - '&7Награда:'
+    - ' &61000 монет'
+    - ''
+    - '&aВам предстоит получить этот приз'
+    left_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e3 День. &fВаша награда: &f              &f- &61000 монет&f; &6кит старт'
+    - '[console] money give %player_name% 1000'
+    right_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e3 День. &fВаша награда: &f              &f- &61000 монет&f; &6кит старт'
+    - '[console] money give %player_name% 1000'
+  'reward1_yes':
+    material: sunflower
+    priority: 4
+    slot: 11
+    amount: 2
+    display_name: '&eДень 2'
+    lore:
+    - '&7Награда:'
+    - ' &61000 монет'
+    - ''
+    - '&cВы уже получили этот приз'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'reward.2'
+    left_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+    right_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+
+#############################################################################################################################################################
+  'rewar332121321d':
+    material: golden_hoe
+    priority: 5
+    slot: 12
+    amount: 3
+    display_name: '&eДень 3'
+    lore:
+    - '&7Награда:'
+    - ' &eЗолотая Мотыга &bСкорость 2'
+    - ' &eCROPS &7x32'
+    - ' &eМорковка &7x12'
+    - ' &eКартошка &78'
+    - ''
+    - '&aВам предстоит получить этот приз'
+    left_click_commands:
+    - '[close]'
+    - '[message] &cВы должны отыграть 5 дней'
+    right_click_commands:
+    - '[close]'
+    - '[message] &cВы должны отыграть 5 дней'
+  'reward13_no':
+    material: golden_hoe
+    priority: 6
+    slot: 12
+    amount: 3
+    display_name: '&eДень 3'
+    lore:
+    - '&7Награда:'
+    - ' &eЗолотая Мотыга &bСкорость 2'
+    - ' &eCROPS &7x32'
+    - ' &eМорковка &7x12'
+    - ' &eКартошка &78'
+    - ''
+    - '&aВам предстоит получить этот приз'
+    left_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e5 День. &fВаша награда: &f              &f- &6Алмазный меч&f; &6Алмазная кирка'
+    - '[console] give %player_name% diamond_sword 1'
+    - '[console] give %player_name% diamond_pickaxe 1'
+    right_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e5 День. &fВаша награда: &f              &f- &6Алмазный меч&f; &6Алмазная кирка'
+    - '[console] give %player_name% diamond_sword 1'
+    - '[console] give %player_name% diamond_pickaxe 1'
+  'reward13_yes':
+    material: golden_hoe
+    priority: 4
+    slot: 12
+    amount: 3
+    display_name: '&eДень 3'
+    lore:
+    - '&7Награда:'
+    - ' &eЗолотая Мотыга &bСкорость 2'
+    - ' &eCROPS &7x32'
+    - ' &eМорковка &7x12'
+    - ' &eКартошка &78'
+    - ''
+    - '&cВы уже получили этот приз'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'reward.3'
+    left_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+    right_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+
+
+#############################################################################################################################################################
+  'rewa312r332121321d':
+    material: sunflower
+    priority: 5
+    slot: 13
+    amount: 4
+    display_name: '&eДень 4'
+    lore:
+    - '&7Награда:'
+    - ' &63000 монет '
+    - ''
+    - '&aВам предстоит получить этот приз'
+    left_click_commands:
+    - '[close]'
+    - '[message] &cВы должны отыграть 7 дней'
+    right_click_commands:
+    - '[close]'
+    - '[message] &cВы должны отыграть 7 дней'
+
+  'reward4_no':
+    material: sunflower
+    priority: 6
+    slot: 13
+    amount: 4
+    display_name: '&eДень 4'
+    lore:
+    - '&7Награда:'
+    - ' &63000 монет '
+    - ''
+    - '&aВам предстоит получить этот приз'
+    left_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e7 День. &fВаша награда: &f              &f- &6Морковь&f; &6Картофель'
+    - '[console] give %player_name% carrot 1'
+    - '[console] give %player_name% potato 1'
+    right_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e7 День. &fВаша награда: &f              &f- &6Морковь&f; &6Картофель'
+    - '[console] give %player_name% carrot 1'
+    - '[console] give %player_name% potato 1'
+    - '[console] money give %player_name% 1000'
+    - '[console] kit start %player_name%'
+  'reward3_yes':
+    material: sunflower
+    priority: 4
+    slot: 13
+    amount: 4
+    display_name: '&eДень 4'
+    lore:
+    - '&7Награда:'
+    - ' &63000 монет '
+    - ''
+    - '&cВы уже получили этот приз'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'reward.3'
+    left_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+    right_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+
+#############################################################################################################################################################
+  'rewa312r332121321d':
+    material: diamond_pickaxe
+    priority: 5
+    slot: 14
+    amount: 5
+    display_name: '&eДень 5'
+    lore:
+    - '&7Награда:'
+    - ' &eАлмазная Кирка &bСкорость 2 '
+    - ' &eАлмазный Топор &bСкорость 2 '
+    - ' &eАлмазная Лопата &bСкорость 2 '
+    - ''
+    - '&aВам предстоит получить этот приз'
+    left_click_commands:
+    - '[close]'
+    - '[message] &cВы должны отыграть 9 дней'
+    right_click_commands:
+    - '[close]'
+    - '[message] &cВы должны отыграть 9 дней'
+
+  'reward5_no':
+    material: diamond_pickaxe
+    priority: 6
+    slot: 14
+    amount: 5
+    display_name: '&eДень 5'
+    lore:
+    - '&7Награда:'
+    - ' &eАлмазная Кирка &bСкорость 2 '
+    - ' &eАлмазный Топор &bСкорость 2 '
+    - ' &eАлмазная Лопата &bСкорость 2 '
+    - ''
+    - '&aВам предстоит получить этот приз'
+    left_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e9 День. &fВаша награда: &f              &f- &6кит титан'
+    - '[console] kit titan %player_name%'
+    right_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e9 День. &fВаша награда: &f              &f- &6кит титан'
+    - '[console] kit titan %player_name%'
+  'reward5_yes':
+    material: diamond_pickaxe
+    priority: 4
+    slot: 14
+    amount: 5
+    display_name: '&eДень 5'
+    lore:
+    - '&7Награда:'
+    - ' &eАлмазная Кирка &bСкорость 2 '
+    - ' &eАлмазный Топор &bСкорость 2 '
+    - ' &eАлмазная Лопата &bСкорость 2 '
+    - ''
+    - '&cВы уже получили этот приз'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'reward.4'
+    left_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+    right_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+
+#############################################################################################################################################################
+  'rewa312r332121321d':
+    material: sunflower
+    priority: 5
+    slot: 15
+    amount: 6
+    display_name: '&eДень 6'
+    lore:
+    - '&7Награда:'
+    - ' &66000 монет'
+    - ''
+    - '&aВам предстоит получить этот приз'
+    left_click_commands:
+    - '[close]'
+    - '[message] &cВы должны отыграть 11 дней'
+    right_click_commands:
+    - '[close]'
+    - '[message] &cВы должны отыграть 11 дней'
+
+  'reward6_no':
+    material: sunflower
+    priority: 6
+    slot: 15
+    amount: 6
+    display_name: '&eДень 6'
+    lore:
+    - '&7Награда:'
+    - ' &66000 монет'
+    - ''
+    - '&aВам предстоит получить этот приз'
+    left_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e11 День. &fВаша награда: &f              &f- &614000 монет&f; &6Хорусы &f; &6Яблоко'
+    - '[console] give %player_name% chorus 32'
+    - '[console] money give %player_name% 14000'
+    - '[console] give %player_name% apple 10'
+    right_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e11 День. &fВаша награда: &f              &f- &614000 монет&f; &6Хорусы &f; &6Яблоко'
+    - '[console] give %player_name% chorus 32'
+    - '[console] money give %player_name% 14000'
+    - '[console] give %player_name% apple 10'
+  'reward2316_yes':
+    material: sunflower
+    priority: 4
+    slot: 15
+    amount: 6
+    display_name: '&eДень 6'
+    lore:
+    - '&7Награда:'
+    - ' &66000 монет'
+    - ''
+    - '&cВы уже получили этот приз'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'reward.4'
+    left_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+    right_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+#############################################################################################################################################################
+  'rewa312r332121321d':
+    material: iron_sword
+    priority: 5
+    slot: 16
+    amount: 7
+    display_name: '&eДень 7'
+    lore:
+    - '&7Награда:'
+    - ' &eЖелезный Меч &bОстрота 1 '
+    - ' &eЛук &bСила 1. Прочность 1 '
+    - ' &eЖелезная Кирка &bСкорость 2. Прочность 1 '
+    - ' &eЖелезная Лопата &bСкорость 2'
+    - ' &eКольчужный Шлем &bЗащита 2 '
+    - ' &eЖелезный Нагрудник &bЗащита 2 '
+    - ' &eКольчужный Нагрудник &bЗащита 2 '
+    - ' &eКольчужный ботинки &bЗащита 2 '
+    - ' &eЩит '
+    - ' &eСтрела &7x32'
+    - ' &eСемена Пшеницы &7x12'
+    - ' &eСтекло &7x32'
+    - ' &eШерсть. &7x32'
+    - ' &eфакел &7x16'
+    - ' &eЖелезные Слиток &7x20'
+    - ' &eУголь &7x32'
+    - ' &eДерево &7x64'
+    - ' &eЖаренная Свинина &7x28'
+    - ' &eДерево &7x32'
+    - ' &eЗолотое Яблоко '
+    - ''
+    - '&aВам предстоит получить этот приз'
+    left_click_commands:
+    - '[close]'
+    - '[message] &cВы должны отыграть 13 дней'
+    right_click_commands:
+    - '[close]'
+    - '[message] &cВы должны отыграть 13 дней'
+  'rewar312d26_no':
+    material: iron_sword
+    priority: 6
+    slot: 16
+    amount: 7
+    display_name: '&eДень 7'
+    lore:
+    - '&7Награда:'
+    - ' &eЖелезный Меч &bОстрота 1 '
+    - ' &eЛук &bСила 1. Прочность 1 '
+    - ' &eЖелезная Кирка &bСкорость 2. Прочность 1 '
+    - ' &eЖелезная Лопата &bСкорость 2'
+    - ' &eКольчужный Шлем &bЗащита 2 '
+    - ' &eЖелезный Нагрудник &bЗащита 2 '
+    - ' &eКольчужный Нагрудник &bЗащита 2 '
+    - ' &eКольчужный ботинки &bЗащита 2 '
+    - ' &eЩит '
+    - ' &eСтрела &7x32'
+    - ' &eСемена Пшеницы &7x12'
+    - ' &eСтекло &7x32'
+    - ' &eШерсть. &7x32'
+    - ' &eфакел &7x16'
+    - ' &eЖелезные Слиток &7x20'
+    - ' &eУголь &7x32'
+    - ' &eДерево &7x64'
+    - ' &eЖаренная Свинина &7x28'
+    - ' &eДерево &7x32'
+    - ' &eЗолотое Яблоко '
+    - ''
+    - '&aВам предстоит получить этот приз'
+    left_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e13 День. &fВаша награда: &f              &f- &625000 монет'
+    - '[console] money give %player_name% 25000'
+    right_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e13 День. &fВаша награда: &f              &f- &625000 монет'
+    - '[console] money give %player_name% 25000'
+  'rew3312ard6_no':
+    material: iron_sword
+    priority: 4
+    slot: 16
+    amount: 7
+    display_name: '&eДень 7'
+    lore:
+    - '&7Награда:'
+    - ' &eЖелезный Меч &bОстрота 1 '
+    - ' &eЛук &bСила 1. Прочность 1 '
+    - ' &eЖелезная Кирка &bСкорость 2. Прочность 1 '
+    - ' &eЖелезная Лопата &bСкорость 2'
+    - ' &eКольчужный Шлем &bЗащита 2 '
+    - ' &eЖелезный Нагрудник &bЗащита 2 '
+    - ' &eКольчужный Нагрудник &bЗащита 2 '
+    - ' &eКольчужный ботинки &bЗащита 2 '
+    - ' &eЩит '
+    - ' &eСтрела &7x32'
+    - ' &eСемена Пшеницы &7x12'
+    - ' &eСтекло &7x32'
+    - ' &eШерсть. &7x32'
+    - ' &eфакел &7x16'
+    - ' &eЖелезные Слиток &7x20'
+    - ' &eУголь &7x32'
+    - ' &eДерево &7x64'
+    - ' &eЖаренная Свинина &7x28'
+    - ' &eДерево &7x32'
+    - ' &eЗолотое Яблоко '
+    - ''
+    - '&cВы уже получили этот приз'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'reward.5'
+    left_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+    right_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+  'rexward6_n123o':
+    material: sunflower
+    priority: 5
+    slot: 19
+    amount: 8
+    display_name: '&eДень 8'
+    lore:
+    - '&7Награда:'
+    - ' &631000 монет '
+    - ''
+    - '&aВам предстоит получить этот приз'
+    left_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e15 День. &fВаша награда: &f              &f- &631000 монет'
+    - '[console] money give %player_name% 31000'
+    right_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e15 День. &fВаша награда: &f              &f- &631000 монет'
+    - '[console] money give %player_name% 31000'
+
+  '213rewaddd213231rd6_no':
+    material: sunflower
+    priority: 6
+    slot: 19
+    amount: 8
+    display_name: '&eДень 8'
+    lore:
+    - '&7Награда:'
+    - ' &631000 монет '
+    - ''
+    - '&cВы уже получили этот приз'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'reward.6'
+    left_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+    right_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+  '2311ssxcrexwgggaddrd6_no':
+    material: diamond_sword
+    priority: 4
+    slot: 20
+    amount: 9
+    display_name: '&eДень 9'
+    lore:
+    - '&7Награда:'
+    - ' &6Кейс с вещами'
+    - ''
+    - '&aВам предстоит получить этот приз'
+    left_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e17 День. &fВаша награда: &f              &f- &6Кейс с вещами'
+    - '[console] crate give V %player_name% itemcase 1'
+    right_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e17 День. &fВаша награда: &f              &f- &6Кейс с вещами'
+    - '[console] crate give V %player_name% itemcase 1'
+
+  '12311rvewa213ggg4d231rd6_no':
+    material: diamond_sword
+    priority: 5
+    slot: 20
+    amount: 9
+    display_name: '&eДень 9'
+    lore:
+    - '&7Награда:'
+    - ' &6Кейс с вещами'
+    - ''
+    - '&cВы уже получили этот приз'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'reward.7'
+    left_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+    right_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+
+
+  '3211ssxcre321x2ward6_no':
+    material: sunflower
+    priority: 4
+    slot: 21
+    amount: 10
+    display_name: '&eДень 10'
+    lore:
+    - '&7Награда:'
+    - ' &635000 монет'
+    - ' &6Алмазный меч'
+    - ''
+    - '&aВам предстоит получить этот приз'
+    left_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e19 День. &fВаша награда: &f              &f- &635000 монет&f; &6Алмазный меч'
+    - '[console] money give %player_name% 35000'
+    - '[console] give %player_name% diamond_sword 1'
+    right_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e19 День. &fВаша награда: &f              &f- &635000 монет&f; &6Алмазный меч'
+    - '[console] money give %player_name% 35000'
+    - '[console] give %player_name% diamond_sword 1'
+
+  '12311rvewa221323211rd6_no':
+    material: sunflower
+    priority: 5
+    slot: 21
+    amount: 10
+    display_name: '&eДень 10'
+    lore:
+    - '&7Награда:'
+    - ' &635000 монет'
+    - ' &6Алмазный меч'
+    - ''
+    - '&cВы уже получили этот приз'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'reward.8'
+    left_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+    right_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+
+
+  '1ssxcreпx132ward6_no':
+    material: tipped_arrow
+    priority: 4
+    slot: 22
+    amount: 11
+    display_name: '&eДень 11'
+    lore:
+    - '&7Награда:'
+    - ' &6Кит авенжера'
+    - ''
+    - '&aВам предстоит получить этот приз'
+    left_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e21 День. &fВаша награда: &f              &f- &6Кит авенжера'
+    - '[console] kit avenger %player_name%'
+    right_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e21 День. &fВаша награда: &f              &f- &6Кит авенжера'
+    - '[console] kit avenger %player_name%'
+
+  '11у21rv123ewa213231rd6_no':
+    material: tipped_arrow
+    priority: 5
+    slot: 23
+    amount: 11
+    display_name: '&eДень 11'
+    lore:
+    - '&7Награда:'
+    - ' &6Кит авенжера'
+    - ''
+    - '&cВы уже получили этот приз'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'reward.9'
+    left_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+    right_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+
+
+  '1ssxcr4132eпxward6_no':
+    material: tipped_arrow
+    priority: 4
+    slot: 23
+    amount: 11
+    display_name: '&eДень 11'
+    lore:
+    - '&7Награда:'
+    - ' &6Кит авенжера'
+    - ''
+    - '&aВам предстоит получить этот приз'
+    left_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e21 День. &fВаша награда: &f              &f- &6Кит авенжера'
+    - '[console] kit avenger %player_name%'
+    right_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e21 День. &fВаша награда: &f              &f- &6Кит авенжера'
+    - '[console] kit avenger %player_name%'
+
+  '11у21321rv4ewa213231rd6_no':
+    material: tipped_arrow
+    priority: 5
+    slot: 23
+    amount: 11
+    display_name: '&eДень 11'
+    lore:
+    - '&7Награда:'
+    - ' &6Кит авенжера'
+    - ''
+    - '&cВы уже получили этот приз'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'reward.10'
+    left_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+    right_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+
+
+  '1ssx142cr123eпx123ward6_no':
+    material: sunflower
+    priority: 4
+    slot: 23
+    amount: 12
+    display_name: '&eДень 12'
+    lore:
+    - '&7Награда:'
+    - ' &6Тотем бессмертия '
+    - ' &6Золотое яблоко'
+    - ''
+    - '&aВам предстоит получить этот приз'
+    left_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e23 День. &fВаша награда: &f              &f- &6Тотем бессмертия&f; &6Золотое яблоко'
+    - '[console] give %player_name% totem 1'
+    - '[console] give %player_name% golden_apple 1'
+    right_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e23 День. &fВаша награда: &f              &f- &6Тотем бессмертия&f; &6Золотое яблоко'
+    - '[console] give %player_name% totem 1'
+    - '[console] give %player_name% golden_apple 1'
+
+  '11у21rvewa24212312313231rd6_no':
+    material: sunflower
+    priority: 5
+    slot: 23
+    amount: 12
+    display_name: '&eДень 12'
+    lore:
+    - '&7Награда:'
+    - ' &6Тотем бессмертия '
+    - ' &6Золотое яблоко'
+    - ''
+    - '&cВы уже получили этот приз'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'reward.11'
+    left_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+    right_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+
+
+
+  '1ssxcreп213xward6_no':
+    material: diamond_sword
+    priority: 4
+    slot: 24
+    amount: 13
+    display_name: '&eДень 13'
+    lore:
+    - '&7Награда:'
+    - ' &6Золотое яблоко'
+    - ''
+    - '&aВам предстоит получить этот приз'
+    left_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e25 День. &fВаша награда: &f              &f- &6Золотое яблоко'
+    - '[console] give %player_name% golden_apple 1'
+    right_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e25 День. &fВаша награда: &f              &f- &6Золотое яблоко'
+    - '[console] give %player_name% golden_apple 1'
+
+  '11у21r321vewa213231rd6_no':
+    material: diamond_sword
+    priority: 5
+    slot: 24
+    amount: 13
+    display_name: '&eДень 13'
+    lore:
+    - '&7Награда:'
+    - ' &6Золотое яблоко'
+    - ''
+    - '&cВы уже получили этот приз'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'reward.12'
+    left_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+    right_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+
+
+
+  '1ssx213cr232133eпxward6_no':
+    material: sunflower
+    priority: 4
+    slot: 25
+    amount: 14
+    display_name: '&eДень 14'
+    lore:
+    - '&7Награда:'
+    - ' &6Кит плюс'
+    - ''
+    - '&aВам предстоит получить этот приз'
+    left_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e27 День. &fВаша награда: &f              &f- &6кит плюс'
+    - '[console] kit plus %player_name%'
+    right_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e27 День. &fВаша награда: &f              &f- &6кит плюс'
+    - '[console] kit plus %player_name%'
+
+  '11у21rv2у13ewa213231rd6_no':
+    material: sunflower
+    priority: 5
+    slot: 25
+    amount: 14
+    display_name: '&eДень 14'
+    lore:
+    - '&7Награда:'
+    - ' &6Кит плюс'
+    - ''
+    - '&cВы уже получили этот приз'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'reward.13'
+    left_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+    right_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+
+
+
+  '1ssxcr232133eпxward6_no':
+    material: diamond_pickaxe
+    priority: 4
+    slot: 28
+    amount: 15
+    display_name: '&eДень 15'
+    lore:
+    - '&7Награда:'
+    - ' &6Золотое яблоко'
+    - ' &6Алмазный меч'
+    - ''
+    - '&aВам предстоит получить этот приз'
+    left_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e29 День. &fВаша награда: &f              &f- &6Золотое яблоко&f; &6Алмазный меч'
+    - '[console] kit plus %player_name%'
+    right_click_commands:
+    - '[message] &6Награды &7» &fПоздравляем! Вы получили награду за &e29 День. &fВаша награда: &f              &f- &6Золотое яблоко&f; &6Алмазный меч'
+    - '[console] kit plus %player_name%'
+
+  '11у21rv2у13ewa213231rd6_no':
+    material: diamond_pickaxe
+    priority: 5
+    slot: 28
+    amount: 14
+    display_name: '&eДень 15'
+    lore:
+    - '&7Награда:'
+    - ' &6Золотое яблоко'
+    - ' &6Алмазный меч'
+    - ''
+    - '&cВы уже получили этот приз'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'reward.14'
+    left_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+    right_click_commands:
+    - '[close]'
+    - '[message] &cВы уже получали эту награду!'
+  'orange_stained_glass_pane':
+    material: orange_stained_glass_pane
+    display_name: '&9'
+    data: 1
+    slots:
+    - 9
+    - 17
+    - 18
+    - 27
+    - 26
+    - 35
+    - 36
+    - 44
+  'black_stained_glass_pane':
+    material: black_stained_glass_pane
+    display_name: '&9'
+    data: 15
+    slots:
+    - 0
+    - 8
+    - 45
+    - 53

@@ -1,0 +1,17 @@
+args:
+  name:
+  - rtp
+  triggerblock:
+  - AIR
+  command:
+  - rtp
+maxLoc:
+  posX: 54
+  posY: 59
+  posZ: 7
+  worldName: spawn
+minLoc:
+  posX: 41
+  posY: 56
+  posZ: -7
+  worldName: spawn

@@ -1,0 +1,67 @@
+#########################################################################################################################################
+#
+#
+#   Sponsor: https://serveur-minecraft-vote.fr/
+#   Documentation: https://zauctionhouse.groupez.dev/
+#   Discord: https://discord.groupez.dev/
+# 
+#
+######################################################################################################################################### 
+
+name: "&fꈁꀀꈂꌵꈂꀁꈃ&0ꄙ"
+size: 54
+type: BUY_CONFIRM
+items:
+  buy1:
+    type: BUY_ITEM
+    item:
+      material: GREEN_STAINED_GLASS_PANE
+      name: "&6&lКупить"
+    slot: 19
+  buy2:
+    type: BUY_ITEM
+    item:
+      material: GREEN_STAINED_GLASS_PANE
+      name: "&6&lКупить"
+    slot: 20
+  buy3:
+    type: BUY_ITEM
+    item:
+      material: GREEN_STAINED_GLASS_PANE
+      name: "&6&lКупить"
+    slot: 28
+  buy4:
+    type: BUY_ITEM
+    item:
+      material: GREEN_STAINED_GLASS_PANE
+      name: "&6&lКупить"
+    slot: 29
+  deny1:
+    type: BACK
+    item:
+      material: RED_STAINED_GLASS_PANE
+      name: "&c&lОтмена"
+    slot: 24
+  deny2:
+    type: BACK
+    item:
+      material: RED_STAINED_GLASS_PANE
+      name: "&c&lОтмена"
+    slot: 25
+  deny3:
+    type: BACK
+    item:
+      material: RED_STAINED_GLASS_PANE
+      name: "&c&lОтмена"
+    slot: 33
+  deny4:
+    type: BACK
+    item:
+      material: RED_STAINED_GLASS_PANE
+      name: "&c&lОтмена"
+    slot: 34
+
+  show:
+    type: SHOW_ITEM
+    slot: 22
+# 2147029284303451685461249

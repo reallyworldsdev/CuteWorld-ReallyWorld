@@ -1,0 +1,56 @@
+{
+  "uuid": "000f1cf8-bec4-30c5-a8d2-6347fb9a717c",
+  "name": "Andrew2289595",
+  "wins": 3,
+  "losses": 2,
+  "requests": true,
+  "rating": {
+    "classic": 1416,
+    "shari": 1416,
+    "chiter": 1416,
+    "totem": 1385,
+    "bow": 1384
+  },
+  "matches": [
+    {
+      "winner": "Andrew2289595",
+      "loser": "AIRIK_YT_",
+      "kit": "classic",
+      "time": 1741522036438,
+      "duration": 78428,
+      "health": 10.0
+    },
+    {
+      "winner": "AIRIK_YT_",
+      "loser": "Andrew2289595",
+      "kit": "bow",
+      "time": 1741522036438,
+      "duration": 46028,
+      "health": 10.0
+    },
+    {
+      "winner": "Andrew2289595",
+      "loser": "AIRIK_YT_",
+      "kit": "shari",
+      "time": 1741522036438,
+      "duration": 108169,
+      "health": 10.0
+    },
+    {
+      "winner": "Andrew2289595",
+      "loser": "AIRIK_YT_",
+      "kit": "chiter",
+      "time": 1741522036438,
+      "duration": 28454,
+      "health": 10.0
+    },
+    {
+      "winner": "skuff_lol",
+      "loser": "Andrew2289595",
+      "kit": "totem",
+      "time": 1741522036438,
+      "duration": 48662,
+      "health": 6.0
+    }
+  ]
+}

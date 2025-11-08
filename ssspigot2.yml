@@ -1,0 +1,20 @@
+# Configuration file for SSSpigot2.
+realtime: true
+partially-parallel-entity-ticking: true
+not-flush-tasks: true
+custom-server-mod-name: CuteWorld.pw
+mob-ai: true
+DONT-TOUCH-CONFIG-VERSION: 1
+worlds:
+  spawn: {}
+  world: {}
+  spawn_nether: {}
+  world_nether: {}
+  world_the_end: {}
+  boss: {}
+  osada: {}
+  duel: {}
+  duel2: {}
+  roliki: {}
+unsupported-settings:
+  disable-async-catcher: false

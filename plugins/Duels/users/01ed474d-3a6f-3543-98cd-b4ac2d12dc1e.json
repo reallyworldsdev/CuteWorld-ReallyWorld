@@ -1,0 +1,20 @@
+{
+  "uuid": "01ed474d-3a6f-3543-98cd-b4ac2d12dc1e",
+  "name": "SAVYHA",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "classic": 1380
+  },
+  "matches": [
+    {
+      "winner": "ksjxyyd",
+      "loser": "SAVYHA",
+      "kit": "classic",
+      "time": 1741196879421,
+      "duration": 49257,
+      "health": 9.5
+    }
+  ]
+}

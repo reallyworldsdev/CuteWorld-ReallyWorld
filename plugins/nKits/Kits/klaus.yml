@@ -1,0 +1,101 @@
+Name: klaus
+Cooldown: 0
+Permission: strictkits.kits.klaus
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"italic":false,"extra":[{"text":""},{"bold":true,"color":"blue","text":"Голова
+        Клауса"}],"text":""}'
+      lore:
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"  "},{"color":"blue","text":"+1
+        Отбрасывающая атака"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"  "},{"color":"blue","text":"+10
+        Максимальное здоровье"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"  "},{"color":"blue","text":"+1
+        Скорость атаки"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_KNOCKBACK:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 1.0
+          name: ''
+          slot: OFF_HAND
+          uuid: 7163efc3-9d41-4de8-8081-38d16a8d0047
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 10.0
+          name: ''
+          slot: OFF_HAND
+          uuid: db858ed4-487a-4e8d-9cc3-f73d0ae29eff
+          operation: 0
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 1.0
+          name: ''
+          slot: OFF_HAND
+          uuid: d7f0b927-7363-4c64-91f7-7f52ba192cbb
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/z2PTU6DQBzF/yWaVOo13A8tbdKFiVUSCulMBQbKzMKk0ql8DNVQqMIVXBmv4cobeBTXnqGJ48bFy/u9xXvJ0wF6oFm4p8N5UDRS3laP20wKHXRFT6KqM7E/g34tXuqmEnsdVKEPp9FaNgI+xMiXYu4bSRl1y11NAySXylV+njhlijbz2WTRThGPFceuTNpxvV6NJRu5Kd95zX0ZocX/RnggK4y4lZjEekDc9jpiO0OWXxfYChHpvBbbDOEOG0vKC5zzklP/TxJb2GRDnhIrNFiemJzOOkKZwaifkcCdbmN0CTAAzdmoAyd32tX36+Dm+H5xfDO/Pn8AfgHDvlCtCAEAAA==
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

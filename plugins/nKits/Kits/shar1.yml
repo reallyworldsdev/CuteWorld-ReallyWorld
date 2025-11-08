@@ -1,0 +1,92 @@
+Name: shar1
+Cooldown: 0
+Permission: greatkits.kits.shar1
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"italic":false,"color":"green","text":"К"},{"italic":false,"color":"dark_aqua","text":"У"},{"italic":false,"color":"yellow","text":"Б"},{"italic":false,"color":"dark_red","text":"И"},{"italic":false,"color":"aqua","text":"К"},{"italic":false,"color":"black","text":"-"},{"italic":false,"color":"blue","text":"Р"},{"italic":false,"color":"aqua","text":"У"},{"italic":false,"color":"green","text":"Б"},{"italic":false,"color":"gold","text":"И"},{"italic":false,"color":"blue","text":"К"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"text":"§8§7Когда во второй руке:"}'
+      - '{"text":"§1 §9 +3.5 Урон"}'
+      - '{"text":"§9  +20% Скорость"}'
+      - '{"text":"§c  -40% Максимальное здоровье"}'
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: bbd16179-f1ff-49ae-a47a-ae7ec55a56b5
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.02
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: f6204f53-0773-4ebb-8795-42a477d4be53
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -0.4
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 0b38eae7-3b46-4ee2-9d1b-402da1c2a20e
+          operation: 1
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PTU7CQBzF/xBNsHoRd62Fmi5YGClhGmawUDu0cQNlsAzTQvoBnZ7BxBN4BzacwIvo0p1HcJau3nv5vbd4GkAL2gPc0uBmtq2EeMp3641gGmjK7VleblhxBZ2S1WWVs0IDNejAZbAQFYMTk64ezRN9NXdFLJGlsj/TxQTx/T3KArl8RBZKFR89WGNp/+v2ygXtidB0kyjzqmUa6GNzKthoasTp84Fwrwn56zFMnRrz2MCNI5XWE+qYmJIk8nEXcySV6sRHklDnjtCwG9LhFvuR4qgmA3yM0oBj6jQoM+y11+8DXEMbrdSJi/Ptr/31Ofz+eHl/s3fFD8AfzDVcPgwBAAA=
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

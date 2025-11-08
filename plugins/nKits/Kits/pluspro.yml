@@ -1,0 +1,122 @@
+Name: pluspro
+Cooldown: 172800
+Permission: greatkits.kits.pluspro
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: LIME_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/8WUTVPCMBCGt18KVVE+VJB/4lGHg2e8d0K6pZmmCZNuUf69RcvU4cRy4Zxn3yfZ3TYGiGHwpq0sFoYU7T7Fug/RB2FZxQAw9yBcakvgQfRua0NeD3yVwrhUBqUTGb1qVWLyZa2GlvUYrB9DQHvlaEnWYbowMheGSjT0628jJl3ExllCScoaHwK91RDC8eWmHY1/eZgmK2uLgzW4iDU8Kpj/K/jeoFNNGTYVRBoPNdFFbnp1Ees1Y296DLbPYGMGe8Ngb0/r6LCLaI5SZdZtOz1+O+/YQ6yULhKytczPtw5Os866nK0wqsqbpyaydhWer75nzOOBwQ4Z7IjBjhnshME+skeQoaAcXZIJrbudO+MTfmLvXG1WDkXRWQO+9ZltxSxTcv+/3bXWiG+dMkYyY7Avp7AAP/BlGHy6BwAA
+      blockMaterial: LIME_SHULKER_BOX
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: CHORUS_FRUIT
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SPAWNER
+    amount: 2
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"text":"pig Spawner"}],"text":""}'
+      internal: H4sIAAAAAAAA/22Py64BQRRFt2o6VOJxg7nvMPQYEkFiKAdHq2jVVJfo9oU+S1XXwOSeyU52VrLXkYBEZ5Jmx+tcW2XLLSUCfwsqlkzmUFal4hyxRGtzp5eekaUmhDqhfVOaj4bOdnxXCQTaC6UDwymV+ESoveHOZeHTE1T8iGgk0F/z46kMn1auYLMmnTB6ArLCptlTW9TD3vC3d8sO+9wDbFroVugqs+xkKc2lm6pJxOGhf10jxDtWycV61PuVwS+sBom6QCM8MgC+qUAexCgBAAA=
+      blockMaterial: SPAWNER
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLDEN_CARROT
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: CREEPER_SPAWN_EGG
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: VILLAGER_SPAWN_EGG
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_CHEST
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLDEN_APPLE
+    amount: 12
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: DRAGON_BREATH
+    amount: 30
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: MAGENTA_SHULKER_BOX
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: WHITE_SHULKER_BOX
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: DRAGON_HEAD
+    amount: 2
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

@@ -1,0 +1,20 @@
+{
+  "uuid": "0495a729-2e23-32e9-ab1d-ecfdd02577f3",
+  "name": "JAbChambe5",
+  "wins": 1,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "bow": 1414
+  },
+  "matches": [
+    {
+      "winner": "JAbChambe5",
+      "loser": "Bedrocknoob",
+      "kit": "bow",
+      "time": 1749438036666,
+      "duration": 14763,
+      "health": 10.0
+    }
+  ]
+}

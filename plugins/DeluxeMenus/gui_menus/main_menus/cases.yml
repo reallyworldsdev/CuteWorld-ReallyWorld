@@ -1,0 +1,142 @@
+menu_title: '&fꈁꀀꈂꌃꈂꀁ&0ꈃꄁ'
+open_command: buycase
+size: 53
+items:
+  '13':
+    display_name: '&6&lКейсы с донатом&r'
+    slot: 13
+    material: yellow_shulker_box
+    lore:
+    - '&r'
+    - '&r&#aaaaaaОтличный вариант, если у Вас немного денег&r'
+    - '&r&#aaaaaaно дорогую донат все же хочется. Здесь решает&r'
+    - '&r&#aaaaaaтолько ваша удача!&r'
+    - '&r'
+    - '&r&#aaaaaa &e&l&nЦены:&r'
+    - '&r'
+    - '&r&#aaaaaa  &r&#aaaaaa▶ &a&l3 &fДонат-Кейса&r&#aaaaaa - &a89 руб.&r'
+    - '&r&#aaaaaa  &r&#aaaaaa▶ &e&l10 &fДонат-кейсов&r&#aaaaaa - &a199 руб.&r'
+    - '&r&#aaaaaa  &r&#aaaaaa▶ &c&l25 &fДонат-кейсов&r&#aaaaaa - &a299 руб.&r'
+    - '&r'
+    - '&r&#ffaa00➥ &r&#ffffffПокупка на сайте &r&l&#ffaa00&lcuteworld.pw&r&l&#ffaa00&r'
+    hide_attributes: true
+  '21':
+    display_name: '&b&lКейсы с валютой&r'
+    slot: 21
+    material: light_blue_shulker_box
+    lore:
+    - '&r'
+    - '&r&#aaaaaaВам не хватает монеток на приобретение&r'
+    - '&r&#aaaaaaчего-либо? Не беда! Ведь Вы&r'
+    - '&r&#aaaaaaможете купить кейсы с &r&#ffff55валютой &r&#aaaaaaна сайте и&r'
+    - '&r&#aaaaaaсею-минутно обогатиться на сервере!&r'
+    - '&r'
+    - '&r&#aaaaaa &e&n&lЦены:&r'
+    - '&r'
+    - '&r&#aaaaaa  &r&#aaaaaa▶ &r&l&#55ff55&l3&r&#ffffff Кейса с валютой&r&#aaaaaa - &r&#55ff5546 руб.&r'
+    - '&r&#aaaaaa  &r&#aaaaaa▶ &r&l&#ffff55&l10&r&#ffffff Кейсов с валютой&r&#aaaaaa - &r&#55ff55129 руб.&r'
+    - '&r&#aaaaaa  &r&#aaaaaa▶ &r&l&#ff5555&l25&r&#ffffff Кейсов с валютой&r&#aaaaaa - &r&#55ff55199 руб.&r'
+    - '&r'
+    - '&r&#ffaa00➥ &r&#ffffffПокупка на сайте &r&l&#ffaa00&lcuteworld.pw&r&l&#ffaa00&r'
+    hide_attributes: true
+  '22':
+    display_name: '&1&lКейсы с префиксами&r'
+    slot: 22
+    material: blue_shulker_box
+    lore:
+    - '&r'
+    - '&r&#aaaaaaУникальный набор состоящий из легендарных&r'
+    - '&r&#aaaaaaпрефиксов, которые можно выбить&r'
+    - '&r&#aaaaaaтолько из данного кейса!&r'
+    - '&r'
+    - '&r&#aaaaaa &e&n&lЦены:&r'
+    - '&r'
+    - '&r&#aaaaaa  &r&#aaaaaa▶ &r&l&#55ff55&l3&r&#ffffff Кейса с префиксами&r&#aaaaaa - &r&#55ff5559 руб.&r'
+    - '&r&#aaaaaa  &r&#aaaaaa▶ &r&l&#ffff55&l10&r&#ffffff Кейсов с префиксами&r&#aaaaaa - &r&#55ff55149 руб.&r'
+    - '&r&#aaaaaa  &r&#aaaaaa▶ &r&l&#ff5555&l25&r&#ffffff Кейсов с префиксами&r&#aaaaaa - &r&#55ff55239 руб.&r'
+    - '&r'
+    - '&r&#ffaa00➥ &r&#ffffffПокупка на сайте &r&l&#ffaa00&lcuteworld.pw&r&l&#ffaa00&r'
+    hide_attributes: true
+  '23':
+    display_name: '&r&l&#55ff55&lКейсы с рилликами&r'
+    slot: 23
+    material: lime_shulker_box
+    lore:
+    - '&r'
+    - '&r&#aaaaaaЭтот кейс - не просто контейнер с обычными предметами&r'
+    - '&r&#aaaaaaэто путь к обогащению и успеху в виртуальной реальности&r'
+    - '&r&#aaaaaaвашей любимой игры!&r'
+    - '&r'
+    - '&r&#aaaaaa &r&#ffff55&n&lЦены:&r'
+    - '&r'
+    - '&r&#aaaaaa  &r&#aaaaaa▶ &r&l&#55ff55&l1&r&#ffffff Кейса с рилликами&r&#aaaaaa - &r&#55ff5589 руб.&r'
+    - '&r&#aaaaaa  &r&#aaaaaa▶ &r&l&#ffff55&l3&r&#ffffff Кейсов с рилликами&r&#aaaaaa - &r&#55ff55229 руб.&r'
+    - '&r&#aaaaaa  &r&#aaaaaa▶ &r&l&#ff5555&l5&r&#ffffff Кейсов с рилликами&r&#aaaaaa - &r&#55ff55379 руб.&r'
+    - '&r'
+    - '&r&#ffaa00➥ &r&#ffffffПокупка на сайте &r&l&#ffaa00&lcuteworld.pw&r&l&#ffaa00&r'
+    hide_attributes: true
+  '30':
+    display_name: '&r&l&#aa00aa&lКейсы с вещами&r'
+    slot: 30
+    material: magenta_shulker_box
+    lore:
+    - '&r'
+    - '&r&#aaaaaaЭтот кейс даёт возможность быстро получить предметы&r'
+    - '&r&#aaaaaaкоторые помогут начать твое выживание на нашем&r'
+    - '&r&#aaaaaaлюбимом сервере!&r'
+    - '&r'
+    - '&r&#aaaaaa &r&l&#ffff55&n&lЦены:&r'
+    - '&r'
+    - '&r&#aaaaaa  &r&#aaaaaa▶ &r&l&#55ff55&l5&r&#ffffff Кейса с вещами&r&#aaaaaa - &r&#55ff5599 руб.&r'
+    - '&r&#aaaaaa  &r&#aaaaaa▶ &r&l&#ffff55&l10&r&#ffffff Кейсов с вещами&r&#aaaaaa - &r&#55ff55179 руб.&r'
+    - '&r&#aaaaaa  &r&#aaaaaa▶ &r&l&#ff5555&l15&r&#ffffff Кейсов с вещами&r&#aaaaaa - &r&#55ff55265 руб.&r'
+    - '&r'
+    - '&r&#ffaa00➥ &r&#ffffffПокупка на сайте &r&l&#ffaa00&lcuteworld.pw&r&l&#ffaa00&r'
+    hide_attributes: true
+  '31':
+    display_name: '&r&l&#ffaa00&lКейсы с донат вещами&r'
+    slot: 31
+    material: orange_shulker_box
+    lore:
+    - '&r'
+    - '&r&#aaaaaaЭтот кейс - предлагает вам уникальный шанс окунуться в мир тайн и сокровищ&r'
+    - '&r&#aaaaaacкрытых внутри этого загадочного контейнера.&r'
+    - '&r&#aaaaaaОткройте его и вас ждет множество захватывающих предметов,&r'
+    - '&r&#aaaaaaкоторые изменят ваше приключение в игре!&r'
+    - '&r'
+    - '&r&#aaaaaa &r&l&#ffff55&n&lЦены:&r'
+    - '&r'
+    - '&r&#aaaaaa  &r&#aaaaaa▶ &r&l&#55ff55&l3&r&#ffffff Кейса с донат вещами&r&#aaaaaa - &r&#55ff55399 руб.&r'
+    - '&r&#aaaaaa  &r&#aaaaaa▶ &r&l&#ffff55&l5&r&#ffffff Кейсов с донат вещами&r&#aaaaaa - &r&#55ff55649 руб.&r'
+    - '&r&#aaaaaa  &r&#aaaaaa▶ &r&l&#ff5555&l10&r&#ffffff Кейсов с донат вещами&r&#aaaaaa - &r&#55ff551299 руб.&r'
+    - '&r'
+    - '&r&#ffaa00➥ &r&#ffffffПокупка на сайте &r&l&#ffaa00&lcuteworld.pw&r&l&#ffaa00&r'
+    hide_attributes: true
+  '32':
+    display_name: '&r&l&#aa0000&lКейсы с китами&r'
+    slot: 32
+    material: red_shulker_box
+    lore:
+    - '&r'
+    - '&r&#aaaaaaЭтот кейс - предлагает вам уникальную возможность&r'
+    - '&r&#aaaaaaобзавестись наборами экипировки, которые сделают вашего персонажа непобедимым. &r'
+    - '&r&#aaaaaaОткройте этот кейс и отправляйтесь на поиски славы и богатства!&r'
+    - '&r'
+    - '&r&#aaaaaa &r&l&#ffff55&n&lЦены:&r'
+    - '&r'
+    - '&r&#aaaaaa  &r&#aaaaaa▶ &r&l&#55ff55&l3&r&#ffffff Кейса с вещами&r&#aaaaaa - &r&#55ff55299 руб.&r'
+    - '&r&#aaaaaa  &r&#aaaaaa▶ &r&l&#ffff55&l5&r&#ffffff Кейсов с вещами&r&#aaaaaa - &r&#55ff55489 руб.&r'
+    - '&r&#aaaaaa  &r&#aaaaaa▶ &r&l&#ff5555&l10&r&#ffffff Кейсов с вещами&r&#aaaaaa - &r&#55ff55799 руб.&r'
+    - '&r'
+    - '&r&#ffaa00➥ &r&#ffffffПокупка на сайте &r&l&#ffaa00&lcuteworld.pw&r&l&#ffaa00&r'
+    hide_attributes: true
+  '53':
+    display_name: '&r&#ffaa00Назад&r'
+    slot: 45
+    material: structure_void
+    model_data: 10002
+    hide_attributes: true
+    left_click_commands:
+    - '[openguimenu] menu'
+    right_click_commands:
+    - '[openguimenu] menu'   

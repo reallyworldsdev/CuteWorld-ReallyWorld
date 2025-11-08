@@ -1,0 +1,53 @@
+{
+  "uuid": "06aff70c-8f7d-3737-82cd-e69cc23ee2d7",
+  "name": "Melodi",
+  "wins": 6,
+  "losses": 3,
+  "requests": true,
+  "rating": {
+    "shari": 1450,
+    "nezerka": 1384
+  },
+  "matches": [
+    {
+      "winner": "Melodi",
+      "loser": "42bratyxa42",
+      "kit": "shari",
+      "time": 1742266842114,
+      "duration": 94324,
+      "health": 2.0
+    },
+    {
+      "winner": "scally_twink",
+      "loser": "Melodi",
+      "kit": "nezerka",
+      "time": 1742266842114,
+      "duration": 72733,
+      "health": 4.0
+    },
+    {
+      "winner": "scally_twink",
+      "loser": "Melodi",
+      "kit": "shari",
+      "time": 1742266842114,
+      "duration": 152332,
+      "health": 10.0
+    },
+    {
+      "winner": "Melodi",
+      "loser": "lolik5555",
+      "kit": "shari",
+      "time": 1742353239555,
+      "duration": 173510,
+      "health": 8.0
+    },
+    {
+      "winner": "Melodi",
+      "loser": "lolik5555",
+      "kit": "shari",
+      "time": 1742353239555,
+      "duration": 288120,
+      "health": 7.5
+    }
+  ]
+}

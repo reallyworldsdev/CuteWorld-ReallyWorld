@@ -1,0 +1,55 @@
+{
+  "uuid": "02de48ee-7ba5-3a58-bb05-f1ffbad87d91",
+  "name": "Bogdanchik2112",
+  "wins": 2,
+  "losses": 5,
+  "requests": true,
+  "rating": {
+    "classic": 1383,
+    "shari": 1387,
+    "totem": 1388,
+    "nezerka": 1415
+  },
+  "matches": [
+    {
+      "winner": "loza_hayumi",
+      "loser": "Bogdanchik2112",
+      "kit": "nezerka",
+      "time": 1741230044243,
+      "duration": 76015,
+      "health": 1.0
+    },
+    {
+      "winner": "Bogdanchik2112",
+      "loser": "loza_hayumi",
+      "kit": "nezerka",
+      "time": 1741230044243,
+      "duration": 287561,
+      "health": 9.5
+    },
+    {
+      "winner": "SIGMA_GIGACHADw",
+      "loser": "Bogdanchik2112",
+      "kit": "shari",
+      "time": 1742698878077,
+      "duration": 33827,
+      "health": 4.5
+    },
+    {
+      "winner": "SIGMA_GIGACHADw",
+      "loser": "Bogdanchik2112",
+      "kit": "totem",
+      "time": 1742698878077,
+      "duration": 210947,
+      "health": 10.0
+    },
+    {
+      "winner": "SIGMA_GIGACHADw",
+      "loser": "Bogdanchik2112",
+      "kit": "shari",
+      "time": 1742698878077,
+      "duration": 59762,
+      "health": 9.0
+    }
+  ]
+}

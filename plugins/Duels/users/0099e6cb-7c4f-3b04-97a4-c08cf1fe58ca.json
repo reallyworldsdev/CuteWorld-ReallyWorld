@@ -1,0 +1,20 @@
+{
+  "uuid": "0099e6cb-7c4f-3b04-97a4-c08cf1fe58ca",
+  "name": "niker123",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "nezerka": 1386
+  },
+  "matches": [
+    {
+      "winner": "chel228B",
+      "loser": "niker123",
+      "kit": "nezerka",
+      "time": 1742007640918,
+      "duration": 35680,
+      "health": 10.0
+    }
+  ]
+}

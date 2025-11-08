@@ -1,0 +1,20 @@
+{
+  "uuid": "00e0b53d-c60b-3d49-afab-53b7836c217c",
+  "name": "rip_dedal47",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "nezerka": 1378
+  },
+  "matches": [
+    {
+      "winner": "lol12882828",
+      "loser": "rip_dedal47",
+      "kit": "nezerka",
+      "time": 1742554860789,
+      "duration": 51973,
+      "health": 5.5
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "uuid": "05676724-c1f7-3df1-b81a-60ae7ed13f88",
+  "name": "SKALI",
+  "wins": 7,
+  "losses": 9,
+  "requests": true,
+  "rating": {
+    "classic": 1384,
+    "shari": 1384,
+    "nezerka": 1416
+  },
+  "matches": [
+    {
+      "winner": "SKALI",
+      "loser": "banan3434",
+      "kit": "nezerka",
+      "time": 1742633987531,
+      "duration": 88658,
+      "health": 8.5
+    },
+    {
+      "winner": "tinqw12",
+      "loser": "SKALI",
+      "kit": "shari",
+      "time": 1742698878077,
+      "duration": 26582,
+      "health": 7.0
+    },
+    {
+      "winner": "SKALI",
+      "loser": "xMimic137714",
+      "kit": "shari",
+      "time": 1742698878077,
+      "duration": 124927,
+      "health": 9.0
+    },
+    {
+      "winner": "SKALI",
+      "loser": "xMimic137714",
+      "kit": "shari",
+      "time": 1742698878077,
+      "duration": 92969,
+      "health": 10.0
+    },
+    {
+      "winner": "xMimic137714",
+      "loser": "SKALI",
+      "kit": "classic",
+      "time": 1742698878077,
+      "duration": 18172,
+      "health": 6.0
+    }
+  ]
+}

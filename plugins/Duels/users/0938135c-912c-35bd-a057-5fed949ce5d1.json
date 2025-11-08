@@ -1,0 +1,58 @@
+{
+  "uuid": "0938135c-912c-35bd-a057-5fed949ce5d1",
+  "name": "Koteecka",
+  "wins": 23,
+  "losses": 2,
+  "requests": true,
+  "rating": {
+    "classic": 1457,
+    "shari": 1416,
+    "chiter": 1384,
+    "totem": 1429,
+    "nodebaff": 1444,
+    "nezerka": 1487,
+    "bow": 1457
+  },
+  "matches": [
+    {
+      "winner": "Koteecka",
+      "loser": "09TNT09",
+      "kit": "bow",
+      "time": 1741791194722,
+      "duration": 60558,
+      "health": 8.5
+    },
+    {
+      "winner": "Koteecka",
+      "loser": "arthui333",
+      "kit": "classic",
+      "time": 1741791194722,
+      "duration": 13734,
+      "health": 4.5
+    },
+    {
+      "winner": "Koteecka",
+      "loser": "arthui333",
+      "kit": "totem",
+      "time": 1741791194722,
+      "duration": 234168,
+      "health": 9.5
+    },
+    {
+      "winner": "Koteecka",
+      "loser": "arthui333",
+      "kit": "bow",
+      "time": 1741791194722,
+      "duration": 51610,
+      "health": 7.0
+    },
+    {
+      "winner": "Koteecka",
+      "loser": "arthui333",
+      "kit": "nodebaff",
+      "time": 1741791194722,
+      "duration": 57884,
+      "health": 8.5
+    }
+  ]
+}

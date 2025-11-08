@@ -1,0 +1,57 @@
+menu_title: '&fꈁꀀꈂꌔꈂꀁ&0ꈃꄈ'
+open_command: 
+- codes
+- kondr
+- domer
+- beff
+- nether
+- zeny
+- luksik
+- piona
+- pioner
+- aqua
+- fonix
+- hardy
+- dane4ka
+- dragon
+- zolo
+- ivanzolo
+size: 57
+items:
+  'arrow':
+    material: chest_minecart
+    amount: 1
+    slot: 21
+    display_name: '&#FB7408&lПодарки от ютуберов'
+    lore:
+    - ''
+    - ' &7Нажмите, чтобы открыть'
+    - ' &7меню с подарками от ютуберов'
+    - ''
+    left_click_commands:
+    - '[openguimenu] codes'
+  'arrow2':
+    material: chest_minecart
+    amount: 1
+    slot: 23
+    display_name: '&#FB7408&lБ&#FB7507&lе&#FC7707&lс&#FC7806&lп&#FC7A06&lл&#FD7B05&lа&#FD7C04&lт&#FD7E04&lн&#FD7F03&lы&#FE8002&lй &#FE8301&lк&#FF8501&lи&#FF8600&lт'
+    lore:
+    - ''
+    - ' &7Нажмите, чтобы получить'
+    - ' &7бесплатный кит'
+    - ''
+    left_click_commands:
+    - '[player] kit free'   
+  'arrow3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTEyZjI1NWRlOTU5OGQ1ZDJmOGViZmNmYzBlMTgzNTdhMzI4MWM1Y2JlMGEwMjZkYTMxZmE2YzRmMTQzN2M1In19fQ==
+        priority: 2
+        amount: 1
+        slot: 22
+        display_name: '&#FB7408&lБ&#FB7508&lе&#FB7607&lс&#FC7707&lп&#FC7806&lл&#FC7906&lа&#FC7A05&lт&#FD7B05&lн&#FD7C04&lы&#FD7E04&lе &#FE8003&lн&#FE8102&lа&#FE8202&lг&#FE8301&lр&#FF8401&lа&#FF8500&lд&#FF8600&lы'
+        lore:
+        - ''
+        - ' &7Нажмите, чтобы открыть'
+        - ' &7меню с бесплатными наградами'
+        - ''
+        left_click_commands:
+        - '[openguimenu] rewards' 

@@ -1,0 +1,14 @@
+#  ____    ___   __  __
+# |  _ \  / _ \ |  \/  |
+# | | | || | | || |\/| |
+# | |_| || |_| || |  | |
+# |____/  \___/ |_|  |_|
+#             Made by cxSTUDIOS
+
+# Leave 5 Star Reviews on SpigotMC page if it works
+# If there are bugs in this plugin, contact us on cxstudios.xyz
+
+# Join Message Configuration
+disable-join-leave-messages: true
+# Death Message Configuration
+disable-death-messages: true

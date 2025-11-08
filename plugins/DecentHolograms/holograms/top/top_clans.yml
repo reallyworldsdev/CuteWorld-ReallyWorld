@@ -1,0 +1,35 @@
+location: spawn:58.562:64.000:-6.530
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&fТоп кланов на сервере &x&f&b&b&e&2&2&lГ&x&f&b&a&b&2&0&lР&x&f&c&9&7&1&e&lИ&x&f&c&8&4&1&c&lФ
+      &x&f&d&7&0&1&a&l#&x&f&d&5&d&1&8&l1'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&c#1 %nClans_clan_top_name_1%   %nClans_clan_top_exp_1% &rꐆ'
+    height: 0.3
+  - content: '&c#2 &r%nClans_clan_top_name_2%   %nClans_clan_top_exp_2% &rꐆ'
+    height: 0.3
+  - content: '&c#3 &r%nClans_clan_top_name_3%   %nClans_clan_top_exp_3% &rꐆ'
+    height: 0.3
+  - content: '&c#4 &r%nClans_clan_top_name_4%   %nClans_clan_top_exp_4% &rꐆ'
+    height: 0.3
+  - content: '&c#5 &r%nClans_clan_top_name_5%   %nClans_clan_top_exp_5% &rꐆ'
+    height: 0.3
+  - content: '&c#6 &r%nClans_clan_top_name_6%   %nClans_clan_top_exp_6% &rꐆ'
+    height: 0.3
+  - content: '&c#7 &r%nClans_clan_top_name_7%   %nClans_clan_top_exp_7% &rꐆ'
+    height: 0.3
+  - content: '&c#8 &r%nClans_clan_top_name_8%   %nClans_clan_top_exp_8% &rꐆ'
+    height: 0.3
+  - content: '&c#9 &r%nClans_clan_top_name_9%   %nClans_clan_top_exp_9% &rꐆ'
+    height: 0.3
+  - content: '&c#10 &r%nClans_clan_top_name_10%   %nClans_clan_top_exp_10% &rꐆ'
+    height: 0.3
+  actions: {}

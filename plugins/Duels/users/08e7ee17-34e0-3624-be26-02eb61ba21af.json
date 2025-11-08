@@ -1,0 +1,28 @@
+{
+  "uuid": "08e7ee17-34e0-3624-be26-02eb61ba21af",
+  "name": "foux12",
+  "wins": 1,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "shari": 1401
+  },
+  "matches": [
+    {
+      "winner": "foux12",
+      "loser": "678678678geniy",
+      "kit": "shari",
+      "time": 1747747186727,
+      "duration": 47616,
+      "health": 5.5
+    },
+    {
+      "winner": "bobstroiteli666",
+      "loser": "foux12",
+      "kit": "shari",
+      "time": 1747747186727,
+      "duration": 49659,
+      "health": 10.0
+    }
+  ]
+}

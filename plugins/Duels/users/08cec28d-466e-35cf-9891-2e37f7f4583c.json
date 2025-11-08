@@ -1,0 +1,55 @@
+{
+  "uuid": "08cec28d-466e-35cf-9891-2e37f7f4583c",
+  "name": "MixaGrief",
+  "wins": 8,
+  "losses": 8,
+  "requests": true,
+  "rating": {
+    "classic": 1400,
+    "shari": 1419,
+    "totem": 1371,
+    "nezerka": 1430
+  },
+  "matches": [
+    {
+      "winner": "MixaGrief",
+      "loser": "___0__0___",
+      "kit": "totem",
+      "time": 1741850258888,
+      "duration": 261982,
+      "health": 5.5
+    },
+    {
+      "winner": "MixaGrief",
+      "loser": "zloy_santa02",
+      "kit": "shari",
+      "time": 1741850258888,
+      "duration": 91879,
+      "health": 10.0
+    },
+    {
+      "winner": "MixaGrief",
+      "loser": "denci",
+      "kit": "nezerka",
+      "time": 1742266842114,
+      "duration": 25637,
+      "health": 5.5
+    },
+    {
+      "winner": "MixaGrief",
+      "loser": "denci",
+      "kit": "nezerka",
+      "time": 1742266842114,
+      "duration": 36215,
+      "health": 6.5
+    },
+    {
+      "winner": "MixaGrief",
+      "loser": "denci",
+      "kit": "shari",
+      "time": 1742266842114,
+      "duration": 70511,
+      "health": 7.5
+    }
+  ]
+}

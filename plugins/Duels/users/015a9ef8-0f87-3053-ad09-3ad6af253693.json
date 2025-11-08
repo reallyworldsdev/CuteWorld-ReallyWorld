@@ -1,0 +1,20 @@
+{
+  "uuid": "015a9ef8-0f87-3053-ad09-3ad6af253693",
+  "name": "Im_Genyi228",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "nezerka": 1390
+  },
+  "matches": [
+    {
+      "winner": "BoberBear1",
+      "loser": "Im_Genyi228",
+      "kit": "nezerka",
+      "time": 1747429690760,
+      "duration": 29173,
+      "health": 6.0
+    }
+  ]
+}

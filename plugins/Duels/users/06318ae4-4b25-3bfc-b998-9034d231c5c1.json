@@ -1,0 +1,20 @@
+{
+  "uuid": "06318ae4-4b25-3bfc-b998-9034d231c5c1",
+  "name": "bazalater",
+  "wins": 1,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "shari": 1416
+  },
+  "matches": [
+    {
+      "winner": "bazalater",
+      "loser": "hRqpiVsF",
+      "kit": "shari",
+      "time": 1741196879421,
+      "duration": 33664,
+      "health": 9.0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "uuid": "0a3762ea-e09a-3dba-a7fa-5826cd830d90",
+  "name": "Mafionznik229",
+  "wins": 1,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "chiter": 1416
+  },
+  "matches": [
+    {
+      "winner": "Mafionznik229",
+      "loser": "petyhare",
+      "kit": "chiter",
+      "time": 1741748448882,
+      "duration": 354768,
+      "health": 9.0
+    }
+  ]
+}

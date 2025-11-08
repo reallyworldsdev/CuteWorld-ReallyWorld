@@ -1,0 +1,29 @@
+{
+  "uuid": "029a3ef7-1233-3bc8-996f-9a17e1b50774",
+  "name": "qwerrth",
+  "wins": 0,
+  "losses": 2,
+  "requests": true,
+  "rating": {
+    "shari": 1384,
+    "totem": 1389
+  },
+  "matches": [
+    {
+      "winner": "TTAvg_Nig",
+      "loser": "qwerrth",
+      "kit": "totem",
+      "time": 1741662051298,
+      "duration": 171842,
+      "health": 4.5
+    },
+    {
+      "winner": "TTAvg_Nig",
+      "loser": "qwerrth",
+      "kit": "shari",
+      "time": 1741662051298,
+      "duration": 135891,
+      "health": 9.5
+    }
+  ]
+}

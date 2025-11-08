@@ -1,0 +1,216 @@
+menu_title: '§fꈁꀀꈂꌰꈂꀁ§0ꈃꄅ&r'
+size: 53
+items:
+  clock:
+    material: structure_void
+    model_data: 10001
+    slot: 53
+    display_name: '&6ИНФОРМАЦИЯ'
+    lore:
+    - ''
+    - ' &fВаш баланс: &6%playerpoints_points% &x&F&F&B&A&0&0ꐃ'
+    - ''
+    - '&7Пополнить баланс можно'
+    - '&7на сайте: &6CuteWorld.pw'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  back:
+    material: structure_void
+    model_data: 10002
+    slot: 45
+    display_name: '&6◄ Назад'
+    left_click_commands:
+    - '[openguimenu] donateshop'
+    right_click_commands:
+    - '[openguimenu] donateshop'
+  '13':
+    display_name: '&#aa0000&lСекира Хаоса&r'
+    model_data: 101
+    slot: 13
+    material: netherite_axe
+    lore:
+    - '&r&#aaaaaaЗаговор огня II&r'
+    - '&r&#aaaaaaОстрота VI&r'
+    - '&r&#aaaaaaПрочность III&r'
+    - '&r&#ff5555Проклятие утраты&r'
+    - '&r'
+    - '&r&#aaaaaaКогда в ведушей руке:&r'
+    - '&r&#55ff5513.5 Урон&r'
+    - '&r&#55ff551 Скорость атаки&r'
+    - '&r&#aaaaaa====================================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00319 &r&#ffffffꐃ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    hide_attributes: true
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 319
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 319'
+    - '[console] si give секирахаоса 1 %player_name% -s'
+  '21':
+    display_name: '&#ffff55&lГолова Сема-Тарли&r'
+    slot: 21
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdkMzA5NmUxOTkxYTRiZjlmMDJiMTM5ZTdiNDMzNTY1ZTViZGE5YzQ3MzYxNmU3OWU0MjljZjQ5NTEyODJhOCJ9fX0=
+    lore:
+    - '&r&#ff5555Проклятие утраты&r'
+    - '&r'
+    - '&r&#aaaaaaКогда во второстепенной руке:&r'
+    - '&r  &r&#5555ff+2.5 Урон&r'
+    - '&r  &r&#5555ff+6 Максимальное здоровье&r'
+    - '&r  &r&#ff5555-30% Скорость&r'
+    - '&r  &r&#5555ff+3.5 Броня&r'
+    - '&r'
+    - '&r&#aaaaaa===============================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00219 &r&#ffffffꐃ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    hide_attributes: true
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 219
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 219'
+    - '[console] si give golovas1 1 %player_name% -s'
+  '22':
+    display_name: '&#55ffff&lГолова Цири&r'
+    slot: 22
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJhMGQyNTlhZWYxY2YzNmNkOGM2MTFjMzgwMDUxNTViOTYxMDEyN2JkZDIyMDVhNmI1YzYwNmRlMDQ4YjBkYiJ9fX0=
+    lore:
+    - '&r&#ff5555Проклятие утраты&r'
+    - '&r'
+    - '&r&#aaaaaaКогда во второстепенной руке:&r'
+    - '&r  &r&#5555ff+2 Урон&r'
+    - '&r  &r&#ff5555-6 Максимальное здоровье&r'
+    - '&r  &r&#5555ff+0.4 Скорость атаки&r'
+    - '&r  &r&#5555ff+25% Скорость&r'
+    - '&r'
+    - '&r&#aaaaaa============================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00199 &r&#ffffffꐃ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    hide_attributes: true
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 199
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 199'
+    - '[console] si give golovas2 1 %player_name% -s'
+  '23':
+    display_name: '&#ffaa00&l&nГэндальф&r'
+    slot: 23
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGVmMmM2ZDI4NWUwNTBmYjcyYTU2ODk5MjU4YTFkMTMzZjJhYzI3ODcwNDNlYWJiNDY5ZDU2ZTkzZTBkZDU1In19fQ==
+    lore:
+    - '&r&#ff5555Проклятие утраты&r'
+    - '&r'
+    - '&r&#aaaaaaКогда во второстепенной руке:&r'
+    - '&r  &r&#5555ff+1 Отбрасывающая атака&r'
+    - '&r  &r&#5555ff+8 Максимальное здоровье&r'
+    - '&r  &r&#5555ff+2 Броня&r'
+    - '&r'
+    - '&r&#aaaaaa============================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00199 &r&#ffffffꐃ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    hide_attributes: true
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 199
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 199'
+    - '[console] si give golovas3 1 %player_name% -s'
+  '31':
+    display_name: '&#aa00aa&lГолова Гарри-Поттера&r'
+    slot: 31
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZhODYzMzAxNTQ5ODFjNmEyZGZhMDJjZTBjNThkY2M2MGY4YTk5NDFkZmMwMDhmYTYxMGExY2E1ZjU5MGE1ZSJ9fX0=
+    lore:
+    - '&r&#ff5555Проклятие утраты&r'
+    - '&r'
+    - '&r&#aaaaaaКогда во второстепенной руке:&r'
+    - '&r  &r&#5555ff+2.5 Урон&r'
+    - '&r  &r&#5555ff+2.5 Везение&r'
+    - '&r  &r&#5555ff+20% Скорость&r'
+    - '&r'
+    - '&r&#aaaaaa============================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00239 &r&#ffffffꐃ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    hide_attributes: true
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 239
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 239'
+    - '[console] si give golovas4 1 %player_name% -s'

@@ -1,0 +1,75 @@
+Name: regenkk
+Cooldown: 0
+Permission: nKits.kits.regenkk
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Шар
+        Регенерации"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Когда
+        во второй руке"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"При
+        нажатии SHIFT:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Выдает
+        регенерацию на 30 сек"}],"text":""}'
+      - '{"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      internal: H4sIAAAAAAAA/02PP0+DQByGfxqbIPo13MFaTIcORgg90ruzlB6FwaSFq/y5w4ZC9dicm5g4+j0cjV/MRUa3583zLo8OoMPlomyFeKift7ngOug97Xjd5Hx/DlrDX5u25nsdAE40GLC1aDl8ceUZ8Soz0pUnEoWsfgcLQ1BU7G5RxdTmHllI9n56Z83U+N931KzDkYiGXhZX83YjmTEb+oJPfTORy0NUIAPbyUvUiZwUkUlDVuKC5ViSDAfomgaOGRd+Se0nhd04iyURxMaKuKykoXPTu5y6jontqCP2ssN2KlFljrfzyQTgAk5R2oec+b9v2tWj+/lxrL7fBz9HgD/9iW4bCgEAAA==
+      PublicBukkitValues:
+        minecraft:regeneration_ball: REGENERATION_BALL
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

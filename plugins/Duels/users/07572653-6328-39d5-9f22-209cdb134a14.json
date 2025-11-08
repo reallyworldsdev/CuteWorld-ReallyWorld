@@ -1,0 +1,58 @@
+{
+  "uuid": "07572653-6328-39d5-9f22-209cdb134a14",
+  "name": "_Pro_Joping_",
+  "wins": 36,
+  "losses": 4,
+  "requests": true,
+  "rating": {
+    "classic": 1446,
+    "shari": 1453,
+    "chiter": 1416,
+    "totem": 1567,
+    "nodebaff": 1444,
+    "nezerka": 1490,
+    "bow": 1416
+  },
+  "matches": [
+    {
+      "winner": "_Pro_Joping_",
+      "loser": "shaxi",
+      "kit": "nezerka",
+      "time": 1741230044243,
+      "duration": 19506,
+      "health": 8.5
+    },
+    {
+      "winner": "_Pro_Joping_",
+      "loser": "xahatebemaloy",
+      "kit": "totem",
+      "time": 1741230044243,
+      "duration": 22500,
+      "health": 9.0
+    },
+    {
+      "winner": "_Pro_Joping_",
+      "loser": "xahatebemaloy",
+      "kit": "totem",
+      "time": 1741230044243,
+      "duration": 51237,
+      "health": 1.5
+    },
+    {
+      "winner": "CHOC_py3oM_ezz0k",
+      "loser": "_Pro_Joping_",
+      "kit": "shari",
+      "time": 1741230044243,
+      "duration": 73227,
+      "health": 1.5
+    },
+    {
+      "winner": "_Pro_Joping_",
+      "loser": "CHOC_py3oM_ezz0k",
+      "kit": "totem",
+      "time": 1741230044243,
+      "duration": 122515,
+      "health": 7.0
+    }
+  ]
+}

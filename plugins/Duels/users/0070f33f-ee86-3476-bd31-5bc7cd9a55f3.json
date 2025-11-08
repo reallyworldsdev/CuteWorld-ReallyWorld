@@ -1,0 +1,20 @@
+{
+  "uuid": "0070f33f-ee86-3476-bd31-5bc7cd9a55f3",
+  "name": "chitak",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "nezerka": 1384
+  },
+  "matches": [
+    {
+      "winner": "ekdhd3837",
+      "loser": "chitak",
+      "kit": "nezerka",
+      "time": 1742266842114,
+      "duration": 72407,
+      "health": 10.0
+    }
+  ]
+}

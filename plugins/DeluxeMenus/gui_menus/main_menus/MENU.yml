@@ -1,0 +1,68 @@
+menu_title: '&fꈁꀀꈂꌁꈂꀁ&0ꈃꄀ'
+open_command: menu
+size: 53
+items:
+  'rules':
+    material: writable_book
+    slot: 22
+    display_name: '&7⚠ &6Путеводитель'
+    left_click_commands:
+    - '[player] putivoditer'
+    right_click_commands:
+    - '[player] putivoditer'
+  'prefixes':
+    material: paper
+    slot: 31
+    display_name: '&7⎙ &6Префиксы'
+    left_click_commands:
+    - '[openguimenu] prefix'
+    right_click_commands:
+    - '[openguimenu] prefix'
+  'donate':
+    material: emerald
+    slot: 13
+    display_name: '&7☀ &6Донат'
+    left_click_commands:
+    - '[openguimenu] donate'
+    right_click_commands:
+    - '[openguimenu] donate'
+  'jobs':
+    material: iron_pickaxe
+    slot: 32
+    display_name: '&7⚒ &6Работы'
+    left_click_commands:
+    - '[openguimenu] jobs'
+    right_click_commands:
+    - '[openguimenu] jobs'
+  'kits':
+    material: chest
+    slot: 40
+    display_name: '&7۞ &6Киты'
+    left_click_commands:
+    - '[openguimenu] kits'
+    right_click_commands:
+    - '[openguimenu] kits'
+  'warps':
+    material: compass
+    slot: 21
+    display_name: '&7⟰ &6Телепорты'
+    left_click_commands:
+    - '[openguimenu] warps'
+    right_click_commands:
+    - '[openguimenu] warps'
+  'donateshop':
+    material: book
+    slot: 30
+    display_name: '&eР &6Донат магазин'
+    left_click_commands:
+    - '[openguimenu] donateshop'
+    right_click_commands:
+    - '[openguimenu] donateshop'
+  'contacts':
+    material: basehead-ewogICJ0aW1lc3RhbXAiIDogMTcyMjIxOTg4NTE1MiwKICAicHJvZmlsZUlkIiA6ICJhNjZhYTBmNDEyZWM0NDExODBmYWE2ZmM4OWQ3MGVkYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb25pa0J1bWUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWI4ZWJiMDc3NTQyOGI2Y2I5M2ZmMDZjNTExMDBlOTMxNzk3M2Y5YjFmZjA1YWYyYWJhNjEyNzAwYzI3MzNkOSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+    slot: 23
+    display_name: '&7⚑ &6Контракты'
+    left_click_commands:
+    - '[openguimenu] contract'
+    right_click_commands:
+    - '[openguimenu] contract'

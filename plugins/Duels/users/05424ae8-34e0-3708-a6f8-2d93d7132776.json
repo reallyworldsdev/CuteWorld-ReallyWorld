@@ -1,0 +1,20 @@
+{
+  "uuid": "05424ae8-34e0-3708-a6f8-2d93d7132776",
+  "name": "fj10ujjttbjff",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "nezerka": 1392
+  },
+  "matches": [
+    {
+      "winner": "BoberBear1",
+      "loser": "fj10ujjttbjff",
+      "kit": "nezerka",
+      "time": 1747515269840,
+      "duration": 18496,
+      "health": 10.0
+    }
+  ]
+}

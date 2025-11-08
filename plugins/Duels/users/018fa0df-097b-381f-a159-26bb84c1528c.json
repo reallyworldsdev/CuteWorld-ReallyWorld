@@ -1,0 +1,55 @@
+{
+  "uuid": "018fa0df-097b-381f-a159-26bb84c1528c",
+  "name": "misha_0356",
+  "wins": 5,
+  "losses": 3,
+  "requests": true,
+  "rating": {
+    "shari": 1410,
+    "chiter": 1384,
+    "nodebaff": 1416,
+    "nezerka": 1416
+  },
+  "matches": [
+    {
+      "winner": "misha_0356",
+      "loser": "Joker47",
+      "kit": "nodebaff",
+      "time": 1747429690760,
+      "duration": 264553,
+      "health": 9.0
+    },
+    {
+      "winner": "misha_0356",
+      "loser": "13123222222",
+      "kit": "shari",
+      "time": 1747429690760,
+      "duration": 17813,
+      "health": 6.5
+    },
+    {
+      "winner": "misha_0356",
+      "loser": "Joker47",
+      "kit": "shari",
+      "time": 1747429690760,
+      "duration": 132782,
+      "health": 6.5
+    },
+    {
+      "winner": "ExstraNewVenom",
+      "loser": "misha_0356",
+      "kit": "shari",
+      "time": 1747429690760,
+      "duration": 29408,
+      "health": 4.5
+    },
+    {
+      "winner": "ExstraNewVenom",
+      "loser": "misha_0356",
+      "kit": "shari",
+      "time": 1747429690760,
+      "duration": 28413,
+      "health": 3.0
+    }
+  ]
+}

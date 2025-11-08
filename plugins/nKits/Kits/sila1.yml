@@ -1,0 +1,82 @@
+Name: sila1
+Cooldown: 0
+Permission: nKits.kits.sila1
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Шар
+        Силы 1"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"  +2.5
+        к урону"}],"text":""}'
+      - '{"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: 29b8893d-37df-480c-ac08-66cdee09b9af
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PMVLCQBhGfx2cgWhr7xGWZIJDQSGuA5uBXQNJYHfGIsACSzYJAwlDUlt6A0sLL2DjXSxyFGNn+b73Nc8AMOBmGuVaPx/StdKyCQ0axhJafZlk6V0/PRtg1G4vD5mSxxY0M3nO8oM8GgBw0YSrINS5hC9ZOEjMt2g1d/SyIJ2avSnSjOz29yQJisUj6ZC49sOHzqjo/vvaWTizNbecrUjcfBEHaGRNtBxO2svYPzG8QcKLCoo3Fi+5RXFkMy9QtIyscblSbPBkixlBvHRL5vnob+eeiAQWO4G1ooMg5qZ/piaNKV62GXZNkrS7a7fXA7iGS7KqQxrd20/1U7HXt/eXj+r7VAH8AstLLkwcAQAA
+      skull-owner: Bento Box
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

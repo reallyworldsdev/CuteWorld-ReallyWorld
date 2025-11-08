@@ -1,0 +1,28 @@
+{
+  "uuid": "08f4240f-78bf-3e16-b86c-4b13f4c28269",
+  "name": "NE_ad",
+  "wins": 1,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "shari": 1409
+  },
+  "matches": [
+    {
+      "winner": "NE_ad",
+      "loser": "DERIK_YT_XXX",
+      "kit": "shari",
+      "time": 1741662051298,
+      "duration": 70410,
+      "health": 7.5
+    },
+    {
+      "winner": "mcikira",
+      "loser": "NE_ad",
+      "kit": "shari",
+      "time": 1741791194722,
+      "duration": 265581,
+      "health": 8.0
+    }
+  ]
+}

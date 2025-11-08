@@ -1,0 +1,20 @@
+{
+  "uuid": "0a019439-730d-3246-b73f-3970dd4e5321",
+  "name": "urai467",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "classic": 1384
+  },
+  "matches": [
+    {
+      "winner": "Kirik535",
+      "loser": "urai467",
+      "kit": "classic",
+      "time": 1742439646867,
+      "duration": 15303,
+      "health": 8.0
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+clan_name_min_length: 3
+clan_name_max_length: 16
+
+clan_create_price: 50000
+
+expForKill: 1
+pointsForKill: 1
+
+inviteExit: 15
+timeForKillReload: 1200
+
+blockedNames:
+  - "25565"
+  - "freedon"
+  - "dragonsgrief"
+  - "winworld"
+  - "kollyworld"
+  - "нурик"
+  - "nursultan"
+  - "селестиал"
+  - "celestial"
+  - "nurik"
+  - "catlavan"
+  - "koshka"
+  - "energy"
+  - "legendsgrief"
+  - "bravohvh"
+  - "rogalik"
+  - "экспенсив"
+  - "lateworld"
+  - "toolcube"
+  - "cubeworld"
+  - "metahvh"
+  - "grieftool"
+  - "wisegrief"
+  - "reallyfake"
+  - "wightgrief"
+  - "aurorix"
+  - "hovugrief"
+  - "bubblegrief"
+  - "nellgrief"
+  - "legitworld"
+  - "whitegrief"
+  - "holytime"
+  - "spookytime"
+  - "lonygrief"
+  - "santyworld"
+  - "fakeworlds"
+  - "raidmine"
+  - "yummyland"
+  - "hellhub"
+  - "demongrief"
+  - "premworld"
+  - "unixrise"
+  - "vrhosting"
+  - "unixworld"
+  - "cakeworld"
+  - "brainmix"
+  - "pumpgrief"
+
+nameAllowedChars: "abcdefghijklmnopqrstuvwxyz1234567890_йцукенгшщзхъфывапролджэячсмитьбюQWERTYUIOPASDFGHJKLZXCVBNMЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЧЯСМИТЬБЮ"
+
+infoModelData: 10001
+infoSlot: 4
+infoName: "&6Информация о клане"
+memberInvHeadLore:
+  - "&fРоль: &6%rank%"
+  - "&fСтатус: %status%"
+  - '&fСтатистика PVP:'
+  - '&r  &fУбийств: &6%kills%'
+  - '&r  &fСмертей: &6%deaths%'
+  - '&r  &fУ/С: &6%kda%'
+  - '&r'
+  - '&fЗаработано:'
+  - '&r  &fОпыта: &6%level%'
+  - '&r  &fКоинов: &6%points%'
+memberHeadLore:
+  - "&fРоль: &6%rank%"
+  - "&fСтатус: %status%"
+  - '&fСтатистика PVP:'
+  - '&r  &fУбийств: &6%kills%'
+  - '&r  &fСмертей: &6%deaths%'
+  - '&r  &fУ/С: &6%kda%'
+  - '&r'
+  - '&fЗаработано:'
+  - '&r  &fОпыта: &6%level%'
+  - '&r  &fКоинов: &6%points%'
+  - '&r'
+  - '&r'
+  - '&r  &7Нажмите, для подробной информации&r'
+  - '&r  &7 и редактирования прав'
+infoLore:
+  - "&fНазвание клана: &6%name%"
+  - "&fУровень: &6Уровень %currentLvl% &f(&6%currentExp%&8/&6%needExp% &8exp&f)"
+  - "&fКоинов: &6%points%"
+  - "&fУчастники: &6%currentMembers%&f/&6%maxMembers% &f(&6%onlineMembers% &aонлайн&f)"
+
+shopInfoName: "&6ИНФОРМАЦИЯ"
+shopInfoLore:
+  - '&r'
+  - '&r &fКоины вашего клана: &6%points%'
+  - '&r'
+  - '&r&7Все покупки в этом магазине осуществляются'
+  - '&r&7модераторами кланов.'
+shopInfoModelData: 10001
+shopInfoSlot: 53
+
+arrowName: "&6Назад"
+arrowModelData: 10002
+arrowSlot: 45
+
+shopInvName: "§fꈁꀀꈂꌄꈂꀁ§0ꈃꄅ"
+memberInvName: "§fꈁꀀꈂꌇꈂꀁ§0ꈃꄣ"
+glowInvName: "§fꈁꀀꈂꍁꈂꀁ§0ꈃꄣ"
+kitsInvName: "§fꈁꀀꈂꌧꈂꀁ§0ꈃꄅ"
+infoInvName: "§fꈁꀀꈂꍁꈂꀁ§0ꈃꄣ"
+thingsInvName: "§fꈁꀀꈂꌧꈂꀁ§0ꈃꄅ"
+thingInvName: "§fꈁꀀꈂꌗꈂꀁ§0ꈃꄅ"
+shulkerInvName: "§fꈁꀀꈂꌩꈂꀁ§0ꈃꄅ"
+spawnerInvName: "§fꈁꀀꈂꍃꈂꀁ§0ꈃꄅ"
+
+handleKitCommand: "kit %kit% %nick%"
+
+noClanPlaceholder: "&#FC6F00Без клана"
+
+messages:
+  configReload:
+    - "&6Кланы &7» &aКонфиг перезагружен"
+  blockedName:
+    - "&6Кланы &7» &cЗапрещенное имя"
+  uncorrectUsage:
+    - "&6Кланы &7» &cНеправильное использование команды"
+  targetInvited:
+    - "&6Кланы &7» &fПриглашение клан &a%clan% &fот игрока &a%player% \n\n Чтобы принять введите &a/clan accept"
+  createdSuccessfully:
+    - "&6Кланы &7» &aКлан успешно создан!"
+  uncorrectNumber:
+    - "&6Кланы &7» &cНеправильное использование числа!"
+  admUsage:
+    - "Использование: /nClan remove <Клан>"
+    - "Использование: /nClan set <Клан> points/exp <Количество>"
+  usage:
+    - "&6Кланы &7» Список доступных команд:"
+    - "&6Кланы &7» &6/clan shop &fКлановый магазин:"
+    - "&6Кланы &7» &6/clan pvp &fВкл/Выкл пвп между участниками клана"
+    - "&6Кланы &7» &6/clan menu &fКлановое меню"
+    - "&6Кланы &7» &6/clan accept &fПринять приглашение в клан"
+    - "&6Кланы &7» &6/clan home &fТелепортироваться в клановый дом"
+    - "&6Кланы &7» &6/clan promote <игрок> &fПовысить игрока до модератора"
+    - "&6Кланы &7» &6/clan demote <игрок> &fПонизить модератора до игрока"
+    - "&6Кланы &7» &6/clan kick <игрок> &fВыгнать игрока из клана"
+    - "&6Кланы &7» &6/clan leave &fВыйти из клана"
+    - "&6Кланы &7» &6/clan sethome &fУстановить клановый дом"
+    - "&6Кланы &7» &6/clan create <название> &fСоздать клан"
+    - "&6Кланы &7» &6/clan invite <игрок> &fПригласить игрока в клан"
+    - "&6Кланы &7» &6/clan disband &fУдалить клан"
+    - "&6Кланы &7» &6/clan glow &fПодсветка игроков"
+    - "&6Кланы &7» &6/clan info [клан] &fПроверить информацию о своём или чужом клане"
+  infoUsage:
+    - "Информация /clan info <Название Клана>"
+  clanNotFound:
+    - "&6Кланы &7» &cКлан не найден"
+  createUsage:
+    - "&6Кланы &7» &cНеправильное использование команды \n"
+    - "&6Кланы &7» &fИспользование: &6/clan create <Название>"
+  alreadyInClan:
+    - "&6Кланы &7» &cТы уже в клане"
+  unvalidName:
+    - "&6Кланы &7» &cНекорректное название клана"
+  unvalidLength:
+    - "&6Кланы &7» &cНекорректное название клана"
+  alreadyCreated:
+    - "&6Кланы &7» &cКлан с таким названием уже существует"
+  noMoney:
+    - "&6Кланы &7» &cДля создания клана требуется &f%price% монет"
+  withoutInvite:
+    - "&6Кланы &7» &cТебя пока не приглашали в клан "
+  clanDeleted:
+    - "&6Кланы &7» &cПредложение неактуально. Клан удалён"
+  playersLimit:
+    - "&6Кланы &7» В клане достигнуто максимальное количество участников"
+  newMember:
+    - "&6Кланы &7» &fИгрок &6%player% &fприсоединился к клану"
+  glowRemoved:
+    - "&6Кланы &7» &fЦвет брони удален"
+  withoutClan:
+    - "&6Кланы &7» &cТы не состоишь в клане"
+  leaderCantLeave:
+    - "&6Кланы &7» &cЛидер не может покинуть клан"
+  leaveClan:
+    - "&6Кланы &7» &fИгрок &6%player% &fпокинул клан"
+  playerLeft:
+    - "&6Кланы &7» &fИгрок &6%player% &fпокинул клан"
+  withoutHome:
+    - "&6Кланы &7» &cКлановый дом не установлен"
+  inviteUsage:
+    - "&6Кланы &7» &cНеправильное использование команды \n"
+    - "&6Кланы &7» &fИспользование &6/clan invite <Никнейм>"
+  noPermission:
+    - "&6Кланы &7» &cНедостаточно прав"
+  playerNotFound:
+    - "&6Кланы &7» &cИгрок не найден"
+  notDoYourself:
+    - "&6Кланы &7» &cТы не можешь сделать это с самим собой"
+  targetInClan:
+    - "&6Кланы &7» &cИгрок уже в клане"
+  successInvite:
+    - "&6Кланы &7» &aПриглашение в клан отправлено"
+  kickUsage:
+    - "&6Кланы &7» &cНеправильное использование команды \n"
+    - "&6Кланы &7» &fИспользование: &6/clan kick <Никнейм>"
+  notAccess:
+    - "&6Кланы &7» &cНедостаточно прав"
+  youKicked:
+    - "&6Кланы &7» &fИгрок &6%target% &fкикнут из клана"
+  playerKicked:
+    - "&6Кланы &7» &fИгрок &6%target% &fкикнут из клана"
+  clan_pvp_disable:
+    - "&6Кланы &7» &fВ вашем клане был &aвыключен &fPvP между соклановцами"
+  clan_pvp_enable:
+    - "&6Кланы &7» &fВ вашем клане был &cвключен &fPvP между соклановцами"
+  homeSetted:
+    - "&6Кланы &7» Соклановец &6%player% &fустановил &6клановый дом"
+  homeDeleted:
+    - "&6Кланы &7» Соклановец &6%player% &fудалил &6клановый дом"
+  promoteUsage:
+    - "&6Кланы &7» &cНеправильное использование команды \n"
+    - "&6Кланы &7» &fИспользование: &6/clan <promote|demote> <Никнейм>"
+  alreadyHasPromote:
+    - "&6Кланы &7» &cУ игрока уже нужная роль"
+  promoted:
+    - "&6Кланы &7» &aРоль игрока в клане изменена"
+  demoteUsage:
+    - "&6Кланы &7» &cНеправильное использование команды \n"
+    - "&6Кланы &7» &fИспользование: &6/clan <promote|demote> <Никнейм>"
+  notModerator:
+    - "&6Кланы &7» &cУ игрока уже нужная роль"
+  demoted:
+    - "&6Кланы &7» &aРоль игрока в клане изменена"
+  noPoints:
+    - "&6Кланы &7» &cКоинов не хватает!"
+  buyItem:
+    - "&6Кланы &7» &aПредмет успешно куплен!"
+  notPoints:
+    - "&6Кланы &7» &cКоинов не хватает!"
+  clanDisbanded:
+    - "&6Кланы &7» &aКлан распущен!"
+  lvlUp:
+    - "&6Кланы &7» &aКлан достиг %lvl% уровня!"
+  lvlDown:
+    - "&6Кланы &7» &cКлан был понижен до %lvl% уровня!"
+  noPvp: "&6Кланы &7» &cТы не можешь ударить соклановца!"

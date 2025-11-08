@@ -1,0 +1,45 @@
+{
+  "uuid": "0788f978-c440-3df4-9a06-b250c364ba47",
+  "name": "Ploniq",
+  "wins": 0,
+  "losses": 4,
+  "requests": true,
+  "rating": {
+    "shari": 1369,
+    "totem": 1379
+  },
+  "matches": [
+    {
+      "winner": "SydexxNexz",
+      "loser": "Ploniq",
+      "kit": "totem",
+      "time": 1741662051298,
+      "duration": 20712,
+      "health": 9.5
+    },
+    {
+      "winner": "SydexxNexz",
+      "loser": "Ploniq",
+      "kit": "shari",
+      "time": 1741662051298,
+      "duration": 54204,
+      "health": 3.0
+    },
+    {
+      "winner": "SydexxNexz",
+      "loser": "Ploniq",
+      "kit": "shari",
+      "time": 1741662051298,
+      "duration": 132217,
+      "health": 8.5
+    },
+    {
+      "winner": "SydexxNexz",
+      "loser": "Ploniq",
+      "kit": "totem",
+      "time": 1741662051298,
+      "duration": 172819,
+      "health": 2.5
+    }
+  ]
+}

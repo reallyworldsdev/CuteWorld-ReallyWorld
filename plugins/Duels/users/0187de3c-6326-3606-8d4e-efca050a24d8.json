@@ -1,0 +1,20 @@
+{
+  "uuid": "0187de3c-6326-3606-8d4e-efca050a24d8",
+  "name": "Skywaris",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "shari": 1384
+  },
+  "matches": [
+    {
+      "winner": "CHOC_py3oM_ezz0k",
+      "loser": "Skywaris",
+      "kit": "shari",
+      "time": 1741057242418,
+      "duration": 38261,
+      "health": 6.5
+    }
+  ]
+}

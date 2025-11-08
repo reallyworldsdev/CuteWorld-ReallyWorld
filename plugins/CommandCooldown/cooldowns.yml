@@ -1,0 +1,53 @@
+
+report:
+  cooldowns:
+    '*': 180.0
+  aliases: []
+m:
+  cooldowns:
+    '*': 5.0
+  aliases: [essentials:msg]
+msg:
+  cooldowns:
+    '*': 5.0
+  aliases: [essentials:msg]
+broadcast:
+  cooldowns:
+    '*': 900.0
+  aliases: [bc]
+tell:
+  cooldowns:
+    '*': 5.0
+  aliases: []
+heal:
+  cooldowns:
+    '*': 60.0
+  aliases: [feed]
+nick:
+  cooldowns:
+    '*': 60.0
+  aliases: [nickname]
+day:
+  cooldowns:
+    '*': 300.0
+  aliases: [night]
+fly:
+  cooldowns:
+    '*': 30.0
+  aliases: []
+pay:
+  cooldowns:
+    '*': 5.0
+  aliases: []
+tpa:
+  cooldowns:
+    '*': 30.0
+  aliases: [call]
+/wand:
+  cooldowns:
+    '*': 5.0
+  aliases: [wand]
+tempban:
+  cooldowns:
+    '*': 15.0
+  aliases: [ban]

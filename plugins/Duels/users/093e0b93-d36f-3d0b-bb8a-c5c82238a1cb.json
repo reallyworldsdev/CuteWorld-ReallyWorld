@@ -1,0 +1,20 @@
+{
+  "uuid": "093e0b93-d36f-3d0b-bb8a-c5c82238a1cb",
+  "name": "fbghfghfffffff",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "shari": 1392
+  },
+  "matches": [
+    {
+      "winner": "M1tpi",
+      "loser": "fbghfghfffffff",
+      "kit": "shari",
+      "time": 1742007640918,
+      "duration": 26774,
+      "health": 10.0
+    }
+  ]
+}

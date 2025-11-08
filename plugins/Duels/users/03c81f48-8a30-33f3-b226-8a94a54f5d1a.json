@@ -1,0 +1,20 @@
+{
+  "uuid": "03c81f48-8a30-33f3-b226-8a94a54f5d1a",
+  "name": "Baaky_boss",
+  "wins": 1,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "nezerka": 1417
+  },
+  "matches": [
+    {
+      "winner": "Baaky_boss",
+      "loser": "qlmyto",
+      "kit": "nezerka",
+      "time": 1742698878077,
+      "duration": 30922,
+      "health": 10.0
+    }
+  ]
+}

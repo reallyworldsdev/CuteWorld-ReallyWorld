@@ -1,0 +1,116 @@
+Name: svinya
+Cooldown: 0
+Permission: strictkits.kits.svinya
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"italic":false,"extra":[{"text":""},{"bold":true,"color":"red","text":"Голова
+        Метода"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"gray","text":"Когда
+        во второстепенной руке:"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"blue","text":"+2
+        Урон"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"blue","text":"+2
+        Броня"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"blue","text":"+0.90
+        Скорость атаки"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"red","text":"-6
+        Максимальное здоровье"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"red","text":"-10%
+        Скорость"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: ''
+          slot: OFF_HAND
+          uuid: 9940fb67-1420-4b44-9f6c-a38712ed5ea4
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: ''
+          slot: OFF_HAND
+          uuid: 68c50a96-5ad7-40b7-a607-daeff01cf573
+          operation: 0
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.9
+          name: ''
+          slot: OFF_HAND
+          uuid: c1366f32-5be1-463f-854c-b4bee8288c97
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -0.1
+          name: ''
+          slot: OFF_HAND
+          uuid: 0b2ec5c5-23e8-4a2c-95df-a9286af26edb
+          operation: 1
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -6.0
+          name: ''
+          slot: OFF_HAND
+          uuid: ffbf70eb-8ee3-4b1a-a3af-c7dc7805c355
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/1VUu9ajZBRlxnH5z68PYZ+CewjFFATCNUAChMvXAeEWPi7hGngHl426lm9gYeEz2Ps4FnZmfi20Omvts88+e5/ivCLIK/KNXY4QnromLWDygnwwwipBvjgV2Svy+kTbpBuKpP+IvAzJYxi7pH9FEOTdC/LRLrI6/Iy8/9XomO0dFzR7IHcGVXAbjWgVh6Qefj49HK6uS7xOT1a/d2/bMkWppvLF6906HqXb7aBYqkiIDPQMNVKZwgQ10S6kPRkipkasnqAqCYQ8bfOEk3fEI0po37WuyabCzSrrLiJmVoTbFb3UkNBZJhtVpd2DwKYHvVPY7c3m6NYT2dYJMtNy3EBbAMf3ZD2LAz3PrUOgOGvFMeqQ6oNxGyM+MN68Jytq14JW49dqK493s2qoXIxDuFmqw+j61j3ASxe4l/G84kFA2WO+dUJWPuGb+a6lM7BNTipdKg9tBr8ZTEMPi3fx0n4nbmh05Tlt6GlB2rVmBrtlatcxizfMSbM1Uj7k+CTpVxLfs3N9Ofuzn4kcqsEGPdDotGYrpcurm1E5UAgrrhZQUomCdZ3BlcfWmOq1aElBL3pRTR2ev6m9p3N0dCIpb59jGa26wbGGQ82G0cS395AFxU3RCSc++k41Dui620A1MRRqTHw0l7OIgftJ7fS7NGQ6z5BbVBfkMr35MiOBY6kxlhn3BdgoU9UI52baEkJaRIZPLl3OUtpI3vPI9Ub8AWvWdzJxdxWSWtTwcrfFqLPWQimbZ7Xq0IggpYG/cNdUyvsy4rJ6R+z39UCssavdN17n5Cq5Fwsh4FPfxbgUozJt4U+Utk6L/wg6nNNlaR4Va1NTV7shA4wf5L2emccUhNKZEuyDFHx6Qb50Qzgm735I5iZTeBULPRzGpJVHPlcoQpPpTvww1gOuC2fKEDhaX2ZN4bkiltUJVLAHF1gqBbdVeAU3PGUOiDNt3EraqAJMX/PKdC6zsSqzKVmV6ekLuLm5ySs9X3CZUu+XiABtJLlm8Nz7j456Dr24OHJvftbQu46Bb+Fx5drAF/HQVyHglcws9lhcu/BfHgb8HLs+e/Hy1mPe9J8+L9igOsX/sM/8p978lk+pnnMytz0u7H806CH0aBiQag7q8xhVLnYkLZjIn31cJtMzKuAdCOMWk8C55s/MpC65ObjFK3BUaAhG+bzVanj6AwhiDhwD6sQTXwEE3pkOPGXVhZLUnYwIiAMdOAAai6K9eZOxZ92zfI19QpCvkffK9fliPlx+++Onnxv++x+/+va7v37/8xcE+Rs4TpxnsAQAAA==
+      skull-owner: Pig
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

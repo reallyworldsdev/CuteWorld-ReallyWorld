@@ -1,0 +1,395 @@
+menu_title: '&fꈁꀀꈂꍆꈂꀁ&0ꈃꄅ'
+open_command:
+- furnace
+size: 53
+items:
+  'back':
+    material: structure_void
+    model_data: 10002
+    slot: 45
+    display_name: '&6Назад'
+    left_click_commands:
+    - '[openguimenu] donateshop'
+    right_click_commands:
+    - '[openguimenu] donateshop'
+  'clock':
+    material: structure_void
+    model_data: 10001
+    slot: 53
+    display_name: '&6ИНФОРМАЦИЯ'
+    lore:
+    - ''
+    - ' &fВаш баланс: &6%playerpoints_points% &#F8FB08ꐃ'
+    - ''
+    - '&7Пополнить баланс можно'
+    - '&7на сайте: &6CuteWorld.pw'
+  'pe11':
+    material: furnace
+    slot: 21
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    display_name: '&5Скоростная Печь'
+    lore:
+    - '&7Работает на &675% &7быстрее'
+    - '&7Потребляет на &c75% &7больше топлива'
+    - ''
+    - '&7======================'
+    - ''
+    - '&fЦена: &6139 &#F8FB08ꐃ'
+    - ''
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 139
+          deny_commands:
+            - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6CuteWorld.pw'    
+    left_click_commands:  
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] points take %player_name% 139'
+      - '[console] nfurnace %player_name% FURNACE SPEED'
+  'pe12':
+    material: furnace
+    slot: 22
+    display_name: '&5Везучая Печь'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    lore:
+    - '&7Имеет &6100% &7шанс удвоить ресурс'
+    - '&7Работает на &c50% &7медленнее'
+    - ''
+    - '&7======================'
+    - ''
+    - '&fЦена: &6149 &#F8FB08ꐃ'
+    - ''
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 149
+          deny_commands:
+            - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6CuteWorld.pw'    
+    left_click_commands:  
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] points take %player_name% 149'
+      - '[console] nfurnace %player_name% FURNACE LUCKY'
+  'pe13':
+    material: furnace
+    slot: 23
+    display_name: '&5Комбинированая Печь'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    lore:
+    - '&7Имеет &6100% &7шанс удвоить ресурс'
+    - '&7Работает на &630% &7быстрее'
+    - '&7Потребляет &cочень много &7топлива'
+    - ''
+    - '&7======================'
+    - ''
+    - '&fЦена: &6339 &#F8FB08ꐃ'
+    - ''
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 339
+          deny_commands:
+            - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6CuteWorld.pw'    
+    left_click_commands:  
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] points take %player_name% 339'
+      - '[console] nfurnace %player_name% FURNACE COMBINATION'
+  'kop':
+    material: smoker
+    slot: 30
+    display_name: '&5Скоростная Коптильня'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    lore:
+    - '&7Работает на &675% &7быстрее'
+    - '&7Потребляет на &c75% &7больше топлива'
+    - ''
+    - '&7======================'
+    - ''
+    - '&fЦена: &6139 &#F8FB08ꐃ'
+    - ''
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 139
+          deny_commands:
+            - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6CuteWorld.pw'    
+    left_click_commands:  
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] points take %player_name% 139'
+      - '[console] nfurnace %player_name% SMOKER SPEED'
+  'kop1':
+    material: smoker
+    slot: 31
+    display_name: '&5Везучая Коптильня'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    lore:
+    - '&7Имеет &6100% &7шанс удвоить ресурс'
+    - '&7Работает на &c50% &7медленнее'
+    - ''
+    - '&7======================'
+    - ''
+    - '&fЦена: &6149 &#F8FB08ꐃ'
+    - ''
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 149
+          deny_commands:
+            - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6CuteWorld.pw'    
+    left_click_commands:  
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] points take %player_name% 149'
+      - '[console] nfurnace %player_name% SMOKER LUCKY'
+  'kop2':
+    material: smoker
+    slot: 32
+    display_name: '&5Комбинированая Коптильня'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    lore:
+    - '&7Имеет &6100% &7шанс удвоить ресурс'
+    - '&7Работает на &630% &7быстрее'
+    - '&7Потребляет &cочень много &7топлива'
+    - ''
+    - '&7======================'
+    - ''
+    - '&fЦена: &6339 &#F8FB08ꐃ'
+    - ''
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 339
+          deny_commands:
+            - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6CuteWorld.pw'    
+    left_click_commands:  
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] points take %player_name% 339'
+      - '[console] nfurnace %player_name% SMOKER COMBINATION'
+  'plav':
+    material: blast_furnace
+    slot: 39
+    display_name: '&5Скоростная Плавильня'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    lore:
+    - '&7Работает на &675% &7быстрее'
+    - '&7Потребляет на &c75% &7больше топлива'
+    - ''
+    - '&7======================'
+    - ''
+    - '&fЦена: &6139 &#F8FB08ꐃ'
+    - ''
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 139
+          deny_commands:
+            - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6CuteWorld.pw'    
+    left_click_commands:  
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] points take %player_name% 139'
+      - '[console] nfurnace %player_name% BLAST_FURNACE SPEED'
+  'plav2':
+    material: blast_furnace
+    slot: 40
+    display_name: '&5Везучая Плавильня'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    lore:
+    - '&7Имеет &6100% &7шанс удвоить ресурс'
+    - '&7Работает на &c50% &7медленнее'
+    - ''
+    - '&7======================'
+    - ''
+    - '&fЦена: &6149 &#F8FB08ꐃ'
+    - ''
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 149
+          deny_commands:
+            - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6CuteWorld.pw'    
+    left_click_commands:  
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] points take %player_name% 149'
+      - '[console] nfurnace %player_name% BLAST_FURNACE LUCKY'
+  'plav3':
+    material: blast_furnace
+    slot: 41
+    display_name: '&5Комбинированая Плавильня'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    lore:
+    - '&7Имеет &6100% &7шанс удвоить ресурс'
+    - '&7Работает на &630% &7быстрее'
+    - '&7Потребляет &cочень много &7топлива'
+    - ''
+    - '&7======================'
+    - ''
+    - '&fЦена: &6339 &#F8FB08ꐃ'
+    - ''
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 339
+          deny_commands:
+            - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6CuteWorld.pw'    
+    left_click_commands:  
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] points take %player_name% 339'
+      - '[console] nfurnace %player_name% BLAST_FURNACE COMBINATION'
+  'pe1111':
+    material: brewing_stand
+    slot: 12
+    display_name: '&fЗельеварка ведьмы &62 уровня'
+    lore:
+    - '&7Скорость варки &615 сек'
+    - '&7Тратит &6в 2 раза меньше порошка'
+    - ''
+    - '&7======================'
+    - ''
+    - '&f  Цена: &6119 &#F8FB08ꐃ'
+    - ''
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 119
+          deny_commands:
+            - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6CuteWorld.pw'    
+    left_click_commands:  
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] points take %player_name% 119'
+      - '[console] nfurnace %player_name% BREWING_STAND 2'
+  'pe111111':
+    material: brewing_stand
+    slot: 13
+    display_name: '&fЗельеварка ведьмы &63 уровня'
+    lore:
+    - '&7Скорость варки &610 сек'
+    - '&7Тратит &6в 3 раза меньше порошка'
+    - ''
+    - '&7======================'
+    - ''
+    - '&f  Цена: &6174 &#F8FB08ꐃ'
+    - ''
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 174
+          deny_commands:
+            - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6CuteWorld.pw'    
+    left_click_commands:  
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] points take %player_name% 174'
+      - '[console] nfurnace %player_name% BREWING_STAND 3'
+  'pe1131211111':
+    material: brewing_stand
+    slot: 14
+    enchantments:
+    - PROTECTION_PROJECTILE;2
+    hide_enchantments: true
+    display_name: '&fЗельеварка ведьмы &64 уровня'
+    lore:
+    - '&7Скорость варки &65 сек'
+    - '&7Тратит &6в 4 раза меньше порошка'
+    - ''
+    - '&7======================'
+    - ''
+    - '&f  Цена: &6289 &#F8FB08ꐃ'
+    - ''
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 289
+          deny_commands:
+            - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6CuteWorld.pw'    
+    left_click_commands:  
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] points take %player_name% 289'
+      - '[console] nfurnace %player_name% BREWING_STAND 4'
+  q15:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFmMzI4Yzg3YjA2ODUwOWFjYTk4MzRlZmFjZTE5NzcwNWZlNWQ0ZjA4NzE3MzFiN2IyMWNkOTliOWZkZGMifX19
+        slot: 4
+        display_name: '&aШар огородника'
+        lore:
+        - '&cПроклятье утраты'
+        - '&7Удача III (На растения)'
+        - ''
+        - '&7Когда во второй руке'
+        - '&7При нажатии SHIFT:'
+        - '&9Выращивает растения вокруг вас'
+        - ''
+        - '&7======================'
+        - ''
+        - '&fЦена: &6319 &#F8FB08ꐃ'
+        - ''
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true   
+        left_click_commands:
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%playerpoints_points%'
+              output: 319
+              deny_commands:
+              - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+              - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6cuteworld.pw' 
+        left_click_commands:
+        - '[console] points take %player_name% 319'
+        - '[console] nitems FARM_BALL %player_name%'

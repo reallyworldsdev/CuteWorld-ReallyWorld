@@ -1,0 +1,37 @@
+free:
+  regions:
+    - "freeafkzone"
+  permission: "freeafkzone"
+  no-perm: "лох"
+  title:
+    enter:
+      - "#40FF35Вы вошли в АФК зону"
+      - "#FFF3E0Стойте тут и получайте награды"
+    exit:
+      - "#FF3535Вы вышли с АФК зоны"
+      - "#FFF3E0Вы больше не получаете награды"
+  bossbar:
+    message: "#FFF3E0Получение награды через: &6%time%"
+    color: "RED"
+    style: "SOLID"
+  time: 15m
+  reward: "p give %player% 20"
+
+donate:
+  regions:
+    - "donateafkzone"
+  permission: "premiumafkzone"
+  no-perm: "&6CuteWorld &7» &fУ вас нет прав, получать награды в &eПРЕМИУМ &fбассейне."
+  title:
+    enter:
+      - "#40FF35Вы вошли в ПРЕМИУМ АФК зону"
+      - "#FFF3E0Стойте тут и получайте награды"
+    exit:
+      - "#FF3535Вы вышли с ПРЕМИУМ АФК зоны"
+      - "#FFF3E0Вы больше не получаете награды"
+  bossbar:
+    message: "#FFF3E0Получение награды через: &6%time%"
+    color: "RED"
+    style: "SOLID"
+  time: 10m
+  reward: "p give %player% 120"

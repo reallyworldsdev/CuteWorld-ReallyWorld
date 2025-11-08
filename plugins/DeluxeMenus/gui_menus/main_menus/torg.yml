@@ -1,0 +1,473 @@
+menu_title: '&fĠ'
+open_command: torg63324263754pidor
+size: 54
+items:
+  'arrow':
+    material: tipped_arrow
+    nbt_int: CustomPotionColor:6774666    
+    amount: 16
+    slot: 10
+    display_name: '&fСтрела слабости'
+    lore:
+    - '&cСлабость (0:11)'
+    - ''
+    - ' &7Цена: &6$25.000'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Монеты &8» &cНедостаточно монет для покупки'
+    left_click_commands:
+    - '[console] eco take %player_name% 25000'
+    - '[console] give %player_name% minecraft:tipped_arrow{Potion:"minecraft:weakness"} 16'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'arrow1':
+    material: tipped_arrow
+    nbt_int: CustomPotionColor:12774777    
+    amount: 16
+    slot: 11
+    display_name: '&fСтрела отравления'
+    lore:
+    - '&cОтравление (0:05)'
+    - ''
+    - ' &7Цена: &6$25.000'
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Монеты &8» &cНедостаточно монет для покупки'
+    left_click_commands:
+    - '[console] eco take %player_name% 25000'
+    - '[console] give %player_name% minecraft:tipped_arrow{Potion:"minecraft:poison"} 16'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'arrow2':
+    material: tipped_arrow
+    nbt_int: CustomPotionColor:16774666    
+    amount: 8
+    slot: 12
+    display_name: '&fСтрела шрека'
+    lore: 
+    - '&cТошнота (0:16)'
+    - '&cСлепота (0:16)'
+    - ''
+    - ' &7Цена: &6$20.000'    
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 20000
+          deny_commands:
+          - '[message] &6Монеты &8» &cНедостаточно монет для покупки'
+    left_click_commands:
+    - '[console] eco take %player_name% 20000'
+    - '[console] kit strela6 %player_name%'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'apple':
+    material: enchanted_golden_apple
+    amount: 1
+    slot: 13
+    display_name: '&dЗачарованное Золотое яблоко'
+    lore:
+    - ' &7Цена: &6$2.500.000'    
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 2500000
+          deny_commands:
+          - '[message] &6Монеты &8» &cНедостаточно монет для покупки'
+    left_click_commands:
+    - '[console] eco take %player_name% 2500000'
+    - '[console] give %player_name% minecraft:enchanted_golden_apple 1'
+  'carrot':
+    material: golden_carrot
+    amount: 64
+    slot: 14
+    display_name: '&dЗолотая морковь'
+    lore:
+    - ' &7Цена: &6$15.000'    
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 15000
+          deny_commands:
+          - '[message] &6Монеты &8» &cНедостаточно монет для покупки'
+    left_click_commands:
+    - '[console] eco take %player_name% 15000'
+    - '[console] give %player_name% minecraft:golden_carrot 64'
+  'apple1':
+    material: golden_apple
+    amount: 8
+    slot: 15
+    display_name: '&dЗолотое яблоко'
+    lore:
+    - ' &7Цена: &6$250.000'    
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 250000
+          deny_commands:
+          - '[message] &6Монеты &8» &cНедостаточно монет для покупки'
+    left_click_commands:
+    - '[console] eco take %player_name% 250000'
+    - '[console] give %player_name% minecraft:golden_apple 8'
+  'ogn':
+    material: blaze_powder
+    amount: 64
+    slot: 16
+    display_name: '&dОгненый порошок'
+    lore:
+    - ' &7Цена: &6$10000'    
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 10000
+          deny_commands:
+          - '[message] &6Монеты &8» &cНедостаточно монет для покупки'
+    left_click_commands:
+    - '[console] eco take %player_name% 10000'
+    - '[console] give %player_name% minecraft:blaze_powder 64'
+  'ribak':
+    material: fishing_rod
+    amount: 1
+    slot: 19
+    display_name: '&9&lРыбачок'
+    lore:
+    - '&7Починка'
+    - '&7Везучий рыбак V'
+    - '&7Приманка V'
+    - '&7Прочность III'
+    - '&cПроклятие утраты'
+    - ''    
+    - ' &7Цена: &6$30000'    
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 30000
+          deny_commands:
+          - '[message] &6Монеты &8» &cНедостаточно монет для покупки'
+    left_click_commands:
+    - '[console] eco take %player_name% 30000'
+    - '[console] kit ydochka %player_name%'
+  'sekira':
+    material: netherite_axe
+    amount: 1
+    slot: 20
+    display_name: '&b&l&oСекира'
+    lore:
+    - '&7Эффективность X'
+    - '&7Прочность III'
+    - '&7Удача III'
+    - '&cПроклятье утраты'
+    - ''    
+    - ' &7Цена: &6$100000'    
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 100000
+          deny_commands:
+          - '[message] &6Монеты &8» &cНедостаточно монет для покупки'
+    left_click_commands:
+    - '[console] eco take %player_name% 100000'
+    - '[console] give %player_name% minecraft:netherite_axe{Enchantments:[{id:efficiency,lvl:10},{id:unbreaking,lvl:3},{id:fortune,lvl:3},{id:vanishing_curse,lvl:1}]}' 
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'firework':
+    material: firework_rocket
+    amount: 16
+    slot: 21
+    display_name: '&6Фейерверк'
+    lore:
+    - ''    
+    - ' &7Цена: &6$35000'    
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 35000
+          deny_commands:
+          - '[message] &6Монеты &8» &cНедостаточно монет для покупки'
+    left_click_commands:
+    - '[console] eco take %player_name% 35000'
+    - '[console] give %player_name% minecraft:firework_rocket 16'
+  'elytra':
+    material: elytra
+    amount: 1
+    slot: 22
+    display_name: '&6Элитры'
+    lore:
+    - ''    
+    - ' &7Цена: &6$20000000'    
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 20000000
+          deny_commands:
+          - '[message] &6Монеты &8» &cНедостаточно монет для покупки'
+    left_click_commands:
+    - '[console] eco take %player_name% 20000000'
+    - '[console] give %player_name% minecraft:elytra 1'
+  'obsa':
+    material: obsidian
+    amount: 16
+    slot: 23
+    display_name: '&6Обсидиан'
+    lore:
+    - ''    
+    - ' &7Цена: &6$99999'    
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 99999
+          deny_commands:
+          - '[message] &6Монеты &8» &cНедостаточно монет для покупки'
+    left_click_commands:
+    - '[console] eco take %player_name% 99999'
+    - '[console] give %player_name% minecraft:obsidian 16' 
+  'diamond':
+    material: diamond_block
+    amount: 16
+    slot: 24
+    display_name: '&6Алмазный блок'
+    lore:
+    - ''    
+    - ' &7Цена: &6$30000'    
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 30000
+          deny_commands:
+          - '[message] &6Монеты &8» &cНедостаточно монет для покупки'
+    left_click_commands:
+    - '[console] eco take %player_name% 30000'
+    - '[console] give %player_name% minecraft:diamond_block 16'
+  'gold':
+    material: gold_block
+    amount: 16
+    slot: 25
+    display_name: '&6Золотой блок'
+    lore:
+    - ''    
+    - ' &7Цена: &6$30000'    
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 30000
+          deny_commands:
+          - '[message] &6Монеты &8» &cНедостаточно монет для покупки'
+    left_click_commands:
+    - '[console] eco take %player_name% 30000'
+    - '[console] give %player_name% minecraft:gold_block 16'
+  'ignot':
+    material: iron_block
+    amount: 16
+    slot: 28
+    display_name: '&6Железный блок'
+    lore:
+    - ''    
+    - ' &7Цена: &6$25000'    
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &6Монеты &8» &cНедостаточно монет для покупки'
+    left_click_commands:
+    - '[console] eco take %player_name% 25000'
+    - '[console] give %player_name% minecraft:iron_block 16'
+  'rose':
+    material: wither_rose
+    amount: 8
+    slot: 29
+    display_name: '&6Визер роза'
+    lore:
+    - ''    
+    - ' &7Цена: &6$5000'    
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 5000
+          deny_commands:
+          - '[message] &6Монеты &8» &cНедостаточно монет для покупки'
+    left_click_commands:
+    - '[console] eco take %player_name% 5000'
+    - '[console] give %player_name% minecraft:wither_rose 8'
+  'dragon':
+    material: dragon_breath
+    amount: 16
+    slot: 30
+    display_name: '&dДраконье дыхание'
+    lore:
+    - ''    
+    - ' &7Цена: &6$15000'    
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 15000
+          deny_commands:
+          - '[message] &6Монеты &8» &cНедостаточно монет для покупки'
+    left_click_commands:
+    - '[console] eco take %player_name% 15000'
+    - '[console] give %player_name% minecraft:dragon_breath 16'
+  'crystal':
+    material: end_crystal
+    amount: 8
+    slot: 31
+    display_name: '&dКристалы'
+    lore:
+    - ''    
+    - ' &7Цена: &6$349999'    
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 349999
+          deny_commands:
+          - '[message] &6Монеты &8» &cНедостаточно монет для покупки'
+    left_click_commands:
+    - '[console] eco take %player_name% 349999'
+    - '[console] give %player_name% minecraft:end_crystal 8' 
+  'yaco':
+    material: blaze_spawn_egg
+    amount: 1
+    slot: 32
+    display_name: '&6Яйцо призыва всполоха'
+    lore:
+    - ''    
+    - ' &7Цена: &6$90000'    
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 90000
+          deny_commands:
+          - '[message] &6Монеты &8» &cНедостаточно монет для покупки'
+    left_click_commands:
+    - '[console] eco take %player_name% 90000'
+    - '[console] give %player_name% minecraft:blaze_spawn_egg 1'
+  'book':
+    material: book
+    amount: 32
+    slot: 33
+    display_name: '&6Книга'
+    lore:
+    - ''    
+    - ' &7Цена: &6$10000'    
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 10000
+          deny_commands:
+          - '[message] &6Монеты &8» &cНедостаточно монет для покупки'
+    left_click_commands:
+    - '[console] eco take %player_name% 10000'
+    - '[console] give %player_name% minecraft:book 32'
+  'bookа':
+    material: bookshelf
+    amount: 16
+    slot: 34
+    display_name: '&6Книжные полки'
+    lore:
+    - ''    
+    - ' &7Цена: &6$30000'    
+    - ''
+    - '&6Нажмите, чтобы купить предмет'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 30000
+          deny_commands:
+          - '[message] &6Монеты &8» &cНедостаточно монет для покупки'
+    left_click_commands:
+    - '[console] eco take %player_name% 30000'
+    - '[console] give %player_name% minecraft:bookshelf 16'          

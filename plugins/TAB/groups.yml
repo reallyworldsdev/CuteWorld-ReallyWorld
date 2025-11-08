@@ -1,0 +1,24 @@
+_DEFAULT_:
+  customtabname: '%condition:nick%'
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed%&r %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed%&r %vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+yt:
+  customtabname: '%condition:nick%'
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% &c&lY&f&lT %vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% &c&lY&f&lT %vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+admin+:
+  customtabname: '%condition:nick%'
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+
+per-world:
+  world1:
+    Owner:
+      tabprefix: '&0&l[&a&lOwner&0&l] &a'
+      tagprefix: '&2&lOwner &a'

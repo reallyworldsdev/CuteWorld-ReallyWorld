@@ -1,0 +1,55 @@
+{
+  "uuid": "08d9ae14-2106-31a3-a081-bfa2aeb82906",
+  "name": "sashok1337",
+  "wins": 4,
+  "losses": 2,
+  "requests": true,
+  "rating": {
+    "classic": 1386,
+    "shari": 1443,
+    "chiter": 1385,
+    "bow": 1416
+  },
+  "matches": [
+    {
+      "winner": "_vpatoke_ezzz",
+      "loser": "sashok1337",
+      "kit": "chiter",
+      "time": 1748706970104,
+      "duration": 49716,
+      "health": 1.5
+    },
+    {
+      "winner": "sashok1337",
+      "loser": "MatviyUKR",
+      "kit": "shari",
+      "time": 1748706970104,
+      "duration": 253350,
+      "health": 9.0
+    },
+    {
+      "winner": "sashok1337",
+      "loser": "MatviyUKR",
+      "kit": "shari",
+      "time": 1748706970104,
+      "duration": 40149,
+      "health": 10.0
+    },
+    {
+      "winner": "sashok1337",
+      "loser": "BekaSama9180",
+      "kit": "shari",
+      "time": 1748706970104,
+      "duration": 384745,
+      "health": 10.0
+    },
+    {
+      "winner": "_vpatoke_ezzz",
+      "loser": "sashok1337",
+      "kit": "classic",
+      "time": 1748706970104,
+      "duration": 12683,
+      "health": 7.5
+    }
+  ]
+}

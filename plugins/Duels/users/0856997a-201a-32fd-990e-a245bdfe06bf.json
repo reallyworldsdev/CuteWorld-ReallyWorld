@@ -1,0 +1,56 @@
+{
+  "uuid": "0856997a-201a-32fd-990e-a245bdfe06bf",
+  "name": "Erorr23",
+  "wins": 3,
+  "losses": 9,
+  "requests": true,
+  "rating": {
+    "classic": 1380,
+    "shari": 1362,
+    "chiter": 1351,
+    "nodebaff": 1427,
+    "nezerka": 1384
+  },
+  "matches": [
+    {
+      "winner": "KOTIK_LOPTOGV",
+      "loser": "Erorr23",
+      "kit": "shari",
+      "time": 1742266842114,
+      "duration": 155875,
+      "health": 4.5
+    },
+    {
+      "winner": "Erorr23",
+      "loser": "KOTIK_LOPTOGV",
+      "kit": "nodebaff",
+      "time": 1742266842114,
+      "duration": 76781,
+      "health": 6.0
+    },
+    {
+      "winner": "KOTIK_LOPTOGV",
+      "loser": "Erorr23",
+      "kit": "shari",
+      "time": 1742266842114,
+      "duration": 76166,
+      "health": 7.5
+    },
+    {
+      "winner": "KOTIK_LOPTOGV",
+      "loser": "Erorr23",
+      "kit": "chiter",
+      "time": 1742266842114,
+      "duration": 720614,
+      "health": 5.5
+    },
+    {
+      "winner": "Erorr23",
+      "loser": "KOTIK_LOPTOGV",
+      "kit": "shari",
+      "time": 1742353239555,
+      "duration": 104712,
+      "health": 5.0
+    }
+  ]
+}

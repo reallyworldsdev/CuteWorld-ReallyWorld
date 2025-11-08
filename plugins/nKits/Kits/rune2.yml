@@ -1,0 +1,92 @@
+Name: rune2
+Cooldown: 0
+Permission: greatkits.kits.rune2
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Шар
+        Броненосца 1"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"  +4.0
+        к стойкости"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"  +3.0
+        к здоровью"}],"text":""}'
+      - '{"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 4.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: OFF_HAND
+          uuid: 05a9f05c-fe99-4325-936d-8e5fb90d208b
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: a8121988-5bf4-4079-bec2-15636dab8760
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PMU7DMBhGfxCVSmDgKEalQRkYKAHVVp3QpE1iM7WNW8e1S5UmlJhzMLMyMiIkbsBxOAAZ2b6n95bPAXDgNF7XWt+Xj8tCCwecdm1FWRVidwzdSjxXdSl2DgAcdKGTzHQt4EM0BPFMojwjetFgt+VJjHSI1fYSb5JmfoNdbFo/vHZHjfev7VeztK9Zj0i+Gddzk6BRL9JiGJ0vzPSJqykK08hQi1FguAwU2zM7tqF/uw/SqKD+ClHDmsCuLDd3BTWJZApfhBOiApWvQz+R1A4Us3lBFSl4TLxlhq4ATuAQ5+2Jo5eHzveX9F7fBr/vP59nFcAfAiwGHQYBAAA=
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

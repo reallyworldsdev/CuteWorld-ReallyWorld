@@ -1,0 +1,20 @@
+{
+  "uuid": "019544c8-0db4-3002-ad0e-5fffc7e8e33b",
+  "name": "Timer_Normandii",
+  "wins": 1,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "nodebaff": 1416
+  },
+  "matches": [
+    {
+      "winner": "Timer_Normandii",
+      "loser": "sexymeyllor",
+      "kit": "nodebaff",
+      "time": 1747747186727,
+      "duration": 240824,
+      "health": 6.5
+    }
+  ]
+}

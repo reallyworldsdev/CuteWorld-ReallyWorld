@@ -1,0 +1,20 @@
+{
+  "uuid": "016270a1-1c55-39c9-b25c-c808d79157ac",
+  "name": "mr_zubiter",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "classic": 1383
+  },
+  "matches": [
+    {
+      "winner": "aloloha",
+      "loser": "mr_zubiter",
+      "kit": "classic",
+      "time": 1741575644565,
+      "duration": 36565,
+      "health": 5.5
+    }
+  ]
+}

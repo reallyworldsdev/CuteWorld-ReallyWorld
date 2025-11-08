@@ -1,0 +1,54 @@
+{
+  "uuid": "09d99b1c-6e68-3fcc-b2e7-fa627ece50f4",
+  "name": "xDeadForReach",
+  "wins": 3,
+  "losses": 3,
+  "requests": true,
+  "rating": {
+    "classic": 1384,
+    "chiter": 1431,
+    "totem": 1381
+  },
+  "matches": [
+    {
+      "winner": "xDeadForReach",
+      "loser": "Wilkom",
+      "kit": "chiter",
+      "time": 1741157913952,
+      "duration": 175149,
+      "health": 7.5
+    },
+    {
+      "winner": "xDeadForReach",
+      "loser": "Cuddlies",
+      "kit": "totem",
+      "time": 1741316442755,
+      "duration": 123966,
+      "health": 10.0
+    },
+    {
+      "winner": "Cuddlies",
+      "loser": "xDeadForReach",
+      "kit": "totem",
+      "time": 1741316442755,
+      "duration": 28192,
+      "health": 15.0
+    },
+    {
+      "winner": "Cuddlies",
+      "loser": "xDeadForReach",
+      "kit": "totem",
+      "time": 1741316442755,
+      "duration": 355379,
+      "health": 10.0
+    },
+    {
+      "winner": "pan0keyaa",
+      "loser": "xDeadForReach",
+      "kit": "classic",
+      "time": 1741575644565,
+      "duration": 34149,
+      "health": 1.0
+    }
+  ]
+}

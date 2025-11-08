@@ -1,0 +1,101 @@
+Name: nether
+Cooldown: 0
+Permission: strictkits.kits.nether
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"italic":false,"extra":[{"text":""},{"bold":true,"color":"aqua","text":"Голова
+        Незера"}],"text":""}'
+      lore:
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"  "},{"color":"blue","text":"+8
+        Максимальное здоровье"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"  "},{"color":"blue","text":"+4
+        Броня"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"  "},{"color":"blue","text":"+20%
+        Скорость"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 8.0
+          name: ''
+          slot: OFF_HAND
+          uuid: cf7d868c-be82-4e7e-b9e4-24f1279b8375
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.2
+          name: ''
+          slot: OFF_HAND
+          uuid: 8638278d-c1a0-4669-ae2d-f6f6953d1864
+          operation: 1
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 4.0
+          name: ''
+          slot: OFF_HAND
+          uuid: 05c125e5-fa46-4e6e-8b74-e48c7df398d4
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/1VRzZKTQBCebGnVivouQFjLHBMIZDAzY5KBYea2/CwZGDapEJafx/BmlQcfwDfQt/A1PHuWjTnoqbu6+/vpbg2ACbhx0EQDb3Zlo9TH0+FBqkwD2pgds9NZZvUrcHvOunNzymoNjIBb8DK8V002+Zq1hxzavn7PDJVMt/s4mkvoHHJEkw4PS4s4yw4Vmw7t2g/Qnstk5T+JStUiUCWU83cjdi8qt+RFYGIWdKIIdORBizOuY7YZOE10xAKLUNRjCWtbznP4uOhjUxxjLyR81L3yOLE3M0UEDVxAE1HYQnnVNNVjXLl6GvkqqMIuZaoXbHPxma58Q1y9pV5opauwFxG69P7uNuopvN4F1v+15/nIr6/ah3S1bYl8//QPRxMz1QiGe86Evq7uVGrPdBHtLz7WJrI4ze8IXRR8KE0+bBXxXCWoWwoKp7yCA6GJgYa8I+MuouIWL3DBi9wSFd5jJ1TYW7aElj1h423MYCo8KC/3sRez5/iwOc4AeA1uYDo+7cVP9On3t8/r4Yf7y/jy9rsOwB/ckvUF/AEAAA==
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 45.95.201.47
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1750092092731
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1750249945954
+  login: 1750248701052
+money: '0'
+last-account-name: beloe1337
+lastlocation:
+  world: 080aa408-340e-4890-af2f-3d7d96b60357
+  world-name: world
+  x: -6.5
+  y: 64.0
+  z: -121.5
+  yaw: 0.8416861891746521
+  pitch: 0.0
+logoutlocation:
+  world: fc199165-2e51-4b6a-a558-b5fecc877589
+  world-name: spawn
+  x: 16.026288546593328
+  y: 86.05634327161502
+  z: 29.951667822162747
+  yaw: 206.20166015625
+  pitch: 34.98473358154297

@@ -1,0 +1,277 @@
+settings:
+  # технисческая поддержка тут:
+  # https://discord.gg/QSAdaTJuET
+
+  prefix: "&6StaffWork &7»"
+
+  chat-format: "&8(&6SC&8) &6grief-1 &r%luckperms_prefix%&7%player_name% &8» &a{MESSAGE}"
+
+  # PluginMessaging. Актуально для стафф чата.
+  proxy: false
+
+  # информирование об обновлении плагина.
+  update-check: false
+
+  data:
+
+    # доступно: sqlite, mysql, mariadb, postgresql
+    type: sqlite
+    host: localhost:3306
+    database: beacmcstaffwork
+    username: "beacmc"
+    password: "VeryHardPassword123"
+
+
+  discord:
+
+    enable: false
+
+    # токен Discord бота
+    token: ""
+
+    # чтоб узнать ID сервера, нужно в настройках своего аккаунта
+    # включить режим разработчика.
+    guild-id: 1144663315847594127
+    activity:
+
+      # включить ли активность бота?
+      enable: true
+      type: PLAYING
+      text: "BeacmcStaffWork"
+
+      # только для типа активности: STREAMING
+      url: ""
+
+    commands:
+
+      # команда только участников с правами администратора
+      link-command:
+        command: "!привязать"
+        messages:
+          link-success: "Аккаунт успешно привязан"
+          no-args: "Недостаточно аргументов. Введите: `!привязать <игровой ник> <Discord ID>`"
+          no-player: "Недостаточно аргументов. Введите: `!привязать <игровой ник> <Discord ID>`"
+          number-format-exception: "Ожидалось число во втором аргументе."
+      stats-command:
+        command: "!статистика"
+        messages:
+          user-not-found: "этот участник не найден!"
+          user-stats: |
+            Статистика {user}
+            
+            > В режиме работы: {is-work}
+            > время в работе: {time-work}
+            > баны: {bans}
+            > муты: {mutes}
+            > кики: {kicks}
+
+    # есть поддержка PlaceholderAPI
+    on-enable-work:
+      channel-id: 0000000000000000000
+      title: "%geolocation_city% | %geolocation_country%"
+      title-url: ""
+      image-url: ""
+      description: Начал свою работу
+      color: "#FFBB00"
+
+    # есть поддержка PlaceholderAPI
+    on-disable-work:
+      channel-id: 0000000000000000000
+      title: "%geolocation_city% | %geolocation_country%"
+      title-url: ""
+      image-url: ""
+      description: Закончил свою работу
+      color: "#FFBB00"
+
+
+  # поддержка PlaceholderAPI
+  placeholderapi:
+
+    # Заполнители:
+    #
+    # %beacmcstaffwork_player_work% - выведит сообщение
+    # которое скажет, находится ли модератор на работе
+    #
+    # %beacmcstaffwork_moderators_on_work% - выведит количевство
+    # модераторов находащихся в режиме работы
+    #
+    # %beacmcstaffwork_time_in_work% - выведит количевство дней, часов,
+    # минут и секунд сколько модератор находился в режиме работы
+    #
+    # %beacmcstaffwork_bans% - выводит все баны модератора (выданные в режиме работы)
+    #
+    # %beacmcstaffwork_mutes% - выводит все муты модератора (выданные в режиме работы)
+    #
+    # %beacmcstaffwork_kicks% - выводит все кики модератора (выданные в режиме работы)
+
+    # настройка заполнителей
+    placeholders:
+      on-work: "&aНа работе"
+      not-work: "&cНе на работе"
+
+      # формат заполнителя %beacmcstaffwork_time_in_work%
+      time-in-work: "&6{days} &7дней &6{hours} &7часов &6{minutes} &7минут &6{seconds} &7секунд"
+
+  # Поддержка PlaceholderAPI
+  #
+  # Список триггеров (action)
+  # [console] - отправка команд от имени консоли
+  # [player] - отправка команд от имени модератора
+  #
+  # [message_to_moderators] - отошлёт сообщение всем модераторам у которых
+  # есть право beacmcstaffwork.view
+  #
+  # [broadcast] - отправить сообщение всем онлайн игрокам
+  #
+  # [actionbar] - вывести сообщение в ACTION BAR
+  #
+  # [sound] - отправить звук модератору. Список звуков:
+  # https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+
+  actions:
+    # ПРИМЕЧАНИЕ: групп может быть сколько угодно!
+
+    helper:
+      enable-work:
+        - '[console] lp user %player_name% parent set helper'
+        - '[message_to_moderators] &6StaffWork &8» &r%luckperms_prefix%&7%player_name% &aначал работу.'
+      disable-work:
+        - '[console] lp user %player_name% parent set offhelper'
+        - '[message_to_moderators] &6StaffWork &8» &r%luckperms_prefix%&7%player_name% &cзавершил работу.'
+
+    offhelper:
+      enable-work:
+        - '[console] lp user %player_name% parent set helper'
+        - '[message_to_moderators] &6StaffWork &8» &r%luckperms_prefix%&7%player_name% &aначал работу.'
+      disable-work:
+        - '[console] lp user %player_name% parent set offhelper'
+        - '[message_to_moderators] &6StaffWork &8» &r%luckperms_prefix%&7%player_name% &cзавершил работу.'
+        
+    sthelper:
+      enable-work:
+        - '[console] lp user %player_name% parent set sthelper'
+        - '[message_to_moderators] &6StaffWork &8» &r%luckperms_prefix%&7%player_name% &aначал работу.'
+      disable-work:
+        - '[console] lp user %player_name% parent set offsthelper'
+        - '[message_to_moderators] &6StaffWork &8» &r%luckperms_prefix%&7%player_name% &cзавершил работу.'
+
+    offsthelper:
+      enable-work:
+        - '[console] lp user %player_name% parent set sthelper'
+        - '[message_to_moderators] &6StaffWork &8» &r%luckperms_prefix%&7%player_name% &aначал работу.'
+      disable-work:
+        - '[console] lp user %player_name% parent set offsthelper'
+        - '[message_to_moderators] &6StaffWork &8» &r%luckperms_prefix%&7%player_name% &cзавершил работу.'
+
+
+    moder:
+      enable-work:
+        - '[console] lp user %player_name% parent set moder'
+        - '[message_to_moderators] &6StaffWork &8» &r%luckperms_prefix%&7%player_name% &aначал работу.'
+      disable-work:
+        - '[console] lp user %player_name% parent set offmoder'
+        - '[message_to_moderators] &6StaffWork &8» &r%luckperms_prefix%&7%player_name% &cзавершил работу.'
+
+    offmoder:
+      enable-work:
+        - '[console] lp user %player_name% parent set moder'
+        - '[message_to_moderators] &6StaffWork &8» &r%luckperms_prefix%&7%player_name% &aначал работу.'
+      disable-work:
+        - '[console] lp user %player_name% parent set offmoder'
+        - '[message_to_moderators] &6StaffWork &8» &r%luckperms_prefix%&7%player_name% &cзавершил работу.'
+
+    stmoder:
+      enable-work:
+        - '[console] lp user %player_name% parent set stmoder'
+        - '[message_to_moderators] &6StaffWork &8» &r%luckperms_prefix%&7%player_name% &aначал работу.'
+      disable-work:
+        - '[console] lp user %player_name% parent set offstmoder'
+        - '[message_to_moderators] &6StaffWork &8» &r%luckperms_prefix%&7%player_name% &cзавершил работу.'
+
+    offstmoder:
+      enable-work:
+        - '[console] lp user %player_name% parent set stmoder'
+        - '[message_to_moderators] &6StaffWork &8» &r%luckperms_prefix%&7%player_name% &aначал работу.'
+      disable-work:
+        - '[console] lp user %player_name% parent set offstmoder'
+        - '[message_to_moderators] &6StaffWork &8» &r%luckperms_prefix%&7%player_name% &cзавершил работу.'
+
+    glmoder:
+      enable-work:
+        - '[console] lp user %player_name% parent set glmoder'
+        - '[message_to_moderators] &6StaffWork &8» &r%luckperms_prefix%&7%player_name% &aначал работу.'
+      disable-work:
+        - '[console] lp user %player_name% parent set offglmoder'
+        - '[message_to_moderators] &6StaffWork &8» &r%luckperms_prefix%&7%player_name% &cзавершил работу.'
+
+    offglmoder:
+      enable-work:
+        - '[console] lp user %player_name% parent set glmoder'
+        - '[message_to_moderators] &6StaffWork &8» &r%luckperms_prefix% &7%player_name% &aначал работу.'
+      disable-work:
+        - '[console] lp user %player_name% parent set offglmoder'
+        - '[message_to_moderators] &6StaffWork &8» &r%luckperms_prefix% &7%player_name% &cзавершил работу.'
+
+  work:
+
+    disable-work-on-quit: true
+
+    # блокировать ломание блоков во время работы
+    disable-break-block: false
+
+    # блокирование установки блоков во время работы
+    disable-place-block: false
+
+    # блокирование наносение урона игроку
+    disable-entity-damage: false
+
+    # блокирование поднятия предметов
+    disable-pick-up-item: false
+
+    commands:
+      enable: false
+
+      # строго с /
+      disable-commands:
+        - ''
+
+
+  # все сообщения плагина
+  messages:
+    cooldown: "{PREFIX} &7Подождите перед повторным использованием данной команды."
+    no-permission: "&6StaffWork &8» &cНедостаточно прав."
+    reload: "{PREFIX} &7Конфигурация перезагружена"
+    error-use: "{PREFIX} &7неверное использование команды"
+    on-enable-work: ""
+    on-disable-work: ""
+    no-group: "{PREFIX} &7Настройка для Вашей группы остуствует. Обратитесь к администрации"
+    block-place-on-work: "{PREFIX} &7Во время режима работы запрещено ставить блоки"
+    block-break-on-work: "{PREFIX} &7Во время режима работы запрещено ломать блоки"
+    entity-damage-on-work: "{PREFIX} &7Во время режима работы запрещено наносить урон"
+    damager-damage-on-work: "{PREFIX} &7Этот игрок находится в режиме работы."
+    pick-up-item-on-work: "{PREFIX} &7В режиме работы запрещено подбирать предметы."
+    statistic-reset: "{PREFIX} &7Статистика сброшена."
+    disable-command: "{PREFIX} &7Эта команда запрещена вне режима работы."
+    help:
+      - " "
+      - "&6/sw &7- &fначать, либо закончить работу"
+      - "&6/sc &7- &fчат для состава проекта"
+      - "  "
+
+    update-check-console:
+      - " "
+      - "   &6StaffWork "
+      - "   #FF8600&l&m     "
+      - "   #FF8600▶ &7вышло новое обновление плагина"
+      - "   &7текущая версия: #FF8600{current_version}"
+      - "   &7самая новая версия: #FF8600{latest_version}"
+      - " "
+
+  # тайтлы для игроков
+  titles:
+    on-enable-work:
+      title: ""
+      subtitle: ""
+    on-disable-work:
+      title: ""
+      subtitle: ""

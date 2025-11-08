@@ -1,0 +1,98 @@
+Name: sardon
+Cooldown: 0
+Permission: strictkits.kits.sardon
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"italic":false,"extra":[{"text":""},{"bold":true,"color":"gold","text":"Голова
+        SaRd0NeR"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"gray","text":"Когда
+        во второстепенной руке:"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"blue","text":"+4
+        Урон"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"red","text":"-15%
+        Скорость"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"red","text":"-3
+        Броня"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 4.0
+          name: ''
+          slot: OFF_HAND
+          uuid: b948aa4d-dc3e-42a7-83a9-21c560a6661a
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -3.0
+          name: ''
+          slot: OFF_HAND
+          uuid: e56085dd-3eb2-49fb-8ef6-4daaa5127647
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -0.15
+          name: ''
+          slot: OFF_HAND
+          uuid: 841aad05-fbb2-4901-808e-c5b5eec977c1
+          operation: 1
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/11USa7kRBB1txr0+8OCBZyiFmWXaxRqJJfH9DyVp52nKg/p2S4PG27BKZBYcgYkxBm4Bxvq/27UgGIRinhP8V5ESvmMIM/I10Y+QKi21TWF8RPyTvaLGPlmomI/YqrW8PUIlWP9GXl+UOq47dO4e4889fHUD23cPSMI8uYJeW+kt9J/6bz9eTSTI1dojbMRsfNtAicGH47b1tLG2M3lvlol/YYnW82stLklSx5fyiqZ2u5AFiutxjHN6XhTmzqdaqt9MFs7aJKqwJ9vA+z0vkwjMc+dFiMP3GgOjTzjxmHgfP+YHA47Z1DVO7xMCzglvXiPmExVD/tzG/IQsF4EaYWZRpyhSq0a472q+Qtz4IwL3ua1nbGan7JpggqjrBSKJ/Pydpa8xCYaK+MnvQRDCPhlyuTUSjEWTZq1NlljoBxJzou6+ZxKNr7uCrJcmWIQmWOFnaMimGnKMuOu6Wp/FLWeW12E886vwd7YQ9ENRE0ll2tVjCvudipqq2uowZjTM5PcFxZeAUaotZBKJ34he27n3Vuge3Xf3LOscGh81ThXurOvvqSNdFUtheG1rsIZ+w3HMBdrhPzFj0J2v26kO8diytoY0eONPnGnQHDCO96iJ5rs+ZLNhUBcFC0dF+h2FFXp8xGTME1311DtjvrNDDPaKZNtPPPBmiMI6wQEsJsMda/XTXbHM9Uf18umUNEjFa5DfWZ22e1QLjFMhj496BQN72Iw+oTJccea45LcNRluaQHGrvYHghdSAhaCx7fdPt9u8IObkRhR00Ayaxc2D53GFwBFXptrs5/nWaXzXXo5wAFLxao5lWtgwyzkdS3Wj/jVNJkrrrrtYkWlBN0BH3Ym2ycLqkzJfhuWSrgT5o3BVR+ekC8sHw7xmz/jsboBkkd9G4MhrieBQ6SAqm6SGY6ymS8ypU1yBkZ5HgVAEmnI8XevgJ13gTlIiT0gweRmMHE3FvQoPpMLGpUWJnMzYpZtvXCzfPRseqtQ58w1QEemxA2U5znYeHXAWor70P04hz+HjpWA9JPOBpZBwaCRw8NLYU2RDWfP1l69RRyPecZHXsRa24izZs+RXrGP+zw0oCwal+1/ey98h+8+6VURp49Kerz/a8YQ2HDwbHl2bQ8Vix2MyBPqOcmrD3GRFoUFuLtoi1dcUIXVRmkhJi/L0cfej0yMkpmkkknsvMLF3AfmFkwhLTDxqEedWYVrutvHbbeuKW3c5REmkYrEZ3+BbaGurScRS//f+8s79cFGhwEJbkr6cqOpDgwg/INftepz5lDhqn34gCBfIW9B9Piu3v3+17ff/fbLD1/+qjbf1z/98SOC/A3+PNtkCQUAAA==
+      skull-owner: xDeadForSaRd0NeR
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

@@ -1,0 +1,28 @@
+{
+  "uuid": "0502e302-3b0c-3eb9-bfb8-956ffd953072",
+  "name": "holomopokk",
+  "wins": 2,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "chiter": 1428
+  },
+  "matches": [
+    {
+      "winner": "holomopokk",
+      "loser": "Bobrik_25",
+      "kit": "chiter",
+      "time": 1742554860789,
+      "duration": 115697,
+      "health": 10.0
+    },
+    {
+      "winner": "holomopokk",
+      "loser": "Bobrik_25",
+      "kit": "chiter",
+      "time": 1742554860789,
+      "duration": 212566,
+      "health": 10.0
+    }
+  ]
+}

@@ -1,0 +1,564 @@
+spawner:
+  cow_egg:
+    name: "&fЯйцо призыва коровы"
+    material: "COW_SPAWN_EGG"
+    slot: 10
+    price: 549
+    count: 3
+    lore:
+      - '&r'
+      - '&r  &fЦена: &6549 &7коинов&r'
+      - '&r'
+  chicken_egg:
+    name: "&fЯйцо призыва курицы"
+    material: "CHICKEN_SPAWN_EGG"
+    slot: 11
+    price: 394
+    count: 3
+    lore:
+      - '&r'
+      - '&r  &fЦена: &6394 &7коинов&r'
+      - '&r'
+  slime_egg:
+    name: "&fЯйцо призыва слизня"
+    material: "SLIME_SPAWN_EGG"
+    slot: 12
+    price: 469
+    count: 3
+    lore:
+      - '&r'
+      - '&r  &fЦена: &6469 &7коинов&r'
+      - '&r'
+  villager_egg:
+    name: "&fЯйцо призыва крестьянина"
+    material: "VILLAGER_SPAWN_EGG"
+    slot: 13
+    price: 349
+    count: 3
+    lore:
+      - '&r'
+      - '&r  &fЦена: &6394 &7коинов&r'
+      - '&r'
+  blaze_egg:
+    name: "&fЯйцо призыва всполоха"
+    material: "BLAZE_SPAWN_EGG"
+    slot: 19
+    price: 399
+    count: 3
+    lore:
+      - '&r'
+      - '&r  &fЦена: &6399 &7коинов&r'
+      - '&r'
+  shulker_egg:
+    name: "&fЯйцо призыва шалкера"
+    material: "SHULKER_SPAWN_EGG"
+    slot: 20
+    price: 2499
+    count: 3
+    lore:
+      - '&r'
+      - '&r  &fЦена: &62499 &7коинов&r'
+      - '&r'
+  sheep_egg:
+    name: "&fЯйцо призыва овцы"
+    material: "SHEEP_SPAWN_EGG"
+    slot: 21
+    price: 429
+    count: 3
+    lore:
+      - '&r'
+      - '&r  &fЦена: &6429 &7коинов&r'
+      - '&r'
+  enderman_egg:
+    name: "&fЯйцо призыва эндермена"
+    material: "ENDERMAN_SPAWN_EGG"
+    slot: 22
+    price: 549
+    count: 3
+    lore:
+      - '&r'
+      - '&r  &fЦена: &6549 &7коинов&r'
+      - '&r'
+  creeper_egg:
+    name: "&fЯйцо призыва крипера"
+    material: "CREEPER_SPAWN_EGG"
+    slot: 28
+    price: 249
+    count: 3
+    lore:
+      - '&r'
+      - '&r  &fЦена: &6249 &7коинов&r'
+      - '&r'
+  magma_cube_egg:
+    name: "&fЯйцо призыва магмового куба"
+    material: "MAGMA_CUBE_SPAWN_EGG"
+    slot: 29
+    price: 699
+    count: 3
+    lore:
+      - '&r'
+      - '&r  &fЦена: &6699 &7коинов&r'
+      - '&r'
+  wither_skeleton_egg:
+    name: "&fЯйцо призыва визер-скелета"
+    material: "WITHER_SKELETON_SPAWN_EGG"
+    slot: 30
+    price: 1899
+    count: 3
+    lore:
+      - '&r'
+      - '&r  &fЦена: &61899 &7коинов&r'
+      - '&r'
+  spawner_1_egg:
+    name: "&fРассадник"
+    material: "SPAWNER"
+    slot: 15
+    price: 179
+    count: 1
+    lore:
+      - '&r'
+      - '&r  &fЦена: &6179 &7коинов&r'
+      - '&r'
+  spawner_3_egg:
+    name: "&fРассадник"
+    material: "SPAWNER"
+    slot: 16
+    price: 289
+    count: 3
+    lore:
+      - '&r'
+      - '&r  &fЦена: &6289 &7коинов&r'
+      - '&r'
+  spawner_6_egg:
+    name: "&fРассадник"
+    material: "SPAWNER"
+    slot: 24
+    price: 499
+    count: 6
+    lore:
+      - '&r'
+      - '&r  &fЦена: &6499 &7коинов&r'
+      - '&r'
+  spawner_9_egg:
+    name: "&fРассадник"
+    material: "SPAWNER"
+    slot: 25
+    price: 679
+    count: 9
+    lore:
+      - '&r'
+      - '&r  &fЦена: &6679 &7коинов&r'
+      - '&r'
+  spawner_12_egg:
+    name: "&fРассадник"
+    material: "SPAWNER"
+    slot: 33
+    price: 849
+    count: 12
+    lore:
+      - '&r'
+      - '&r  &fЦена: &6849 &7коинов&r'
+      - '&r'
+  spawner_16_egg:
+    name: "&fРассадник"
+    material: "SPAWNER"
+    slot: 34
+    price: 1249
+    count: 16
+    lore:
+      - '&r'
+      - '&r  &fЦена: &61249 &7коинов&r'
+      - '&r'
+things:
+  crystall_1:
+    name: "&bКристалл Энда"
+    material: "END_CRYSTAL"
+    slot: 10
+    price: 29
+    count: 1
+    lore:
+      - '&r'
+      - '&r  &fЦена: &629 &7коинов&r'
+      - '&r'
+  crystall_3:
+    name: "&bКристалл Энда"
+    material: "END_CRYSTAL"
+    slot: 19
+    price: 77
+    count: 3
+    lore:
+      - '&r'
+      - '&r  &fЦена: &677 &7коинов&r'
+      - '&r'
+  crystall_6:
+    name: "&bКристалл Энда"
+    material: "END_CRYSTAL"
+    slot: 28
+    price: 165
+    count: 6
+    lore:
+      - '&r'
+      - '&r  &fЦена: &6165 &7коинов&r'
+      - '&r'
+  golden_apple_8:
+    name: "&bЗолотое яблоко"
+    material: "GOLDEN_APPLE"
+    slot: 11
+    price: 69
+    count: 8
+    lore:
+      - '&r'
+      - '&r  &fЦена: &669 &7коинов&r'
+      - '&r'
+  ghast_tear:
+    name: "&fСлеза гаста"
+    material: "GHAST_TEAR"
+    slot: 12
+    price: 46
+    count: 3
+    lore:
+      - '&r'
+      - '&r  &fЦена: &646 &7коинов&r'
+      - '&r'
+  elytra:
+    name: "&eЭлитры"
+    material: "ELYTRA"
+    slot: 13
+    price: 639
+    count: 1
+    lore:
+      - '&r'
+      - '&r  &fЦена: &6639 &7коинов&r'
+      - '&r'
+  beacon:
+    name: "&bМаяк"
+    material: "BEACON"
+    slot: 37
+    price: 149
+    count: 1
+    lore:
+      - '&r'
+      - '&r  &fЦена: &6149 &7коинов&r'
+      - '&r'
+  apple_16:
+    name: "&fЯблоко"
+    material: "APPLE"
+    slot: 38
+    price: 29
+    count: 16
+    lore:
+      - '&r'
+      - '&r  &fЦена: &629 &7коинов&r'
+      - '&r'
+  enchanted_golden_apple:
+    name: "&dЗачарованное золотое яблоко"
+    material: "ENCHANTED_GOLDEN_APPLE"
+    slot: 20
+    price: 99
+    count: 1
+    lore:
+      - '&r'
+      - '&r  &fЦена: &699 &7коинов&r'
+      - '&r'
+  blaze_rod_32:
+    name: "&fОгненный стержень"
+    material: "BLAZE_ROD"
+    slot: 21
+    price: 66
+    count: 32
+    lore:
+      - '&r'
+      - '&r  &fЦена: &666 &7коинов&r'
+      - '&r'
+  totem_of_undying:
+    name: "&eТотем бессмертия"
+    material: "TOTEM_OF_UNDYING"
+    slot: 22
+    price: 65
+    count: 1
+    lore:
+      - '&r'
+      - '&r  &fЦена: &665 &7коинов&r'
+      - '&r'
+  carrot_64:
+    name: "&fМорковь"
+    material: "CARROT"
+    slot: 29
+    price: 19
+    count: 64
+    lore:
+      - '&r'
+      - '&r  &fЦена: &619 &7коинов&r'
+      - '&r'
+  dragon_breath_16:
+    name: "&eДраконье дыханье"
+    material: "DRAGON_BREATH"
+    slot: 30
+    price: 54
+    count: 16
+    lore:
+      - '&r'
+      - '&r  &fЦена: &654 &7коинов&r'
+      - '&r'
+  chorus_fruit_16:
+    name: "&fПлод хоруса"
+    material: "CHORUS_FRUIT"
+    slot: 31
+    price: 29
+    count: 32
+    lore:
+      - '&r'
+      - '&r  &fЦена: &632 &7коинов&r'
+      - '&r'
+  emerald_block_4:
+    name: "&fИзумрудный блок"
+    material: "EMERALD_BLOCK"
+    slot: 15
+    price: 57
+    count: 4
+    lore:
+      - '&r'
+      - '&r  &fЦена: &657 &7коинов&r'
+      - '&r'
+  obsidian_32:
+    name: "&fОбсидиан"
+    material: "OBSIDIAN"
+    slot: 16
+    price: 69
+    count: 32
+    lore:
+      - '&r'
+      - '&r  &fЦена: &669 &7коинов&r'
+      - '&r'
+  iron_block_16:
+    name: "&fЖелезный блок"
+    material: "IRON_BLOCK"
+    slot: 24
+    price: 129
+    count: 16
+    lore:
+      - '&r'
+      - '&r  &fЦена: &6129 &7коинов&r'
+      - '&r'
+  gold_block_12:
+    name: "&fЗолотой блок"
+    material: "GOLD_BLOCK"
+    slot: 25
+    price: 135
+    count: 12
+    lore:
+      - '&r'
+      - '&r  &fЦена: &6135 &7коинов&r'
+      - '&r'
+  lapis_block_32:
+    name: "&fЛазуритовый блок"
+    material: "LAPIS_BLOCK"
+    slot: 34
+    price: 89
+    count: 32
+    lore:
+      - '&r'
+      - '&r  &fЦена: &689 &7коинов&r'
+      - '&r'
+  bookshelf_8:
+    name: "&fКнижная полка"
+    material: "BOOKSHELF"
+    slot: 43
+    price: 77
+    count: 8
+    lore:
+      - '&r'
+      - '&r  &fЦена: &677 &7коинов&r'
+      - '&r'
+shulker:
+  shulker_white:
+    name: "&6Шалкер"
+    material: "WHITE_SHULKER_BOX"
+    slot: 12
+    price: 29
+    count: 1
+    lore:
+      - '&r'
+      - '&f Цена: &629 &7коинов&r'
+      - '&r'
+  shulker_orange:
+    name: "&6Шалкер"
+    material: "ORANGE_SHULKER_BOX"
+    slot: 13
+    price: 29
+    count: 1
+    lore:
+      - '&r'
+      - '&f Цена: &629 &7коинов&r'
+      - '&r'
+  shulker_magenta:
+    name: "&6Шалкер"
+    material: "MAGENTA_SHULKER_BOX"
+    slot: 14
+    price: 29
+    count: 1
+    lore:
+      - '&r'
+      - '&f Цена: &629 &7коинов&r'
+      - '&r'
+  shulker_light_blue:
+    name: "&6Шалкер"
+    material: "LIGHT_BLUE_SHULKER_BOX"
+    slot: 20
+    price: 29
+    count: 1
+    lore:
+      - '&r'
+      - '&f Цена: &629 &7коинов&r'
+      - '&r'
+  shulker_yellow:
+    name: "&6Шалкер"
+    material: "YELLOW_SHULKER_BOX"
+    slot: 21
+    price: 29
+    count: 1
+    lore:
+      - '&r'
+      - '&f Цена: &629 &7коинов&r'
+      - '&r'
+  shulker_GREEN:
+    name: "&6Шалкер"
+    material: "GREEN_SHULKER_BOX"
+    slot: 22
+    price: 29
+    count: 1
+    lore:
+      - '&r'
+      - '&f Цена: &629 &7коинов&r'
+      - '&r'
+  shulker_pink:
+    name: "&6Шалкер"
+    material: "PINK_SHULKER_BOX"
+    slot: 23
+    price: 29
+    count: 1
+    lore:
+      - '&r'
+      - '&f Цена: &629 &7коинов&r'
+      - '&r'
+  shulker_gray:
+    name: "&6Шалкер"
+    material: "GRAY_SHULKER_BOX"
+    slot: 24
+    price: 29
+    count: 1
+    lore:
+      - '&r'
+      - '&f Цена: &629 &7коинов&r'
+      - '&r'
+  shulker_light_gray:
+    name: "&6Шалкер"
+    material: "LIGHT_GRAY_SHULKER_BOX"
+    slot: 29
+    price: 29
+    count: 1
+    lore:
+      - '&r'
+      - '&f Цена: &629 &7коинов&r'
+      - '&r'
+  shulker_cyan:
+    name: "&6Шалкер"
+    material: "CYAN_SHULKER_BOX"
+    slot: 30
+    price: 29
+    count: 1
+    lore:
+      - '&r'
+      - '&f Цена: &629 &7коинов&r'
+      - '&r'
+  shulker_purple:
+    name: "&6Шалкер"
+    material: "PURPLE_SHULKER_BOX"
+    slot: 31
+    price: 29
+    count: 1
+    lore:
+      - '&r'
+      - '&f Цена: &629 &7коинов&r'
+      - '&r'
+  shulker_blue:
+    name: "&6Шалкер"
+    material: "BLUE_SHULKER_BOX"
+    slot: 32
+    price: 29
+    count: 1
+    lore:
+      - '&r'
+      - '&f Цена: &629 &7коинов&r'
+      - '&r'
+  shulker_brown:
+    name: "&6Шалкер"
+    material: "BROWN_SHULKER_BOX"
+    slot: 33
+    price: 29
+    count: 1
+    lore:
+      - '&r'
+      - '&f Цена: &629 &7коинов&r'
+      - '&r'
+  shulker_green2:
+    name: "&6Шалкер"
+    material: "GREEN_SHULKER_BOX"
+    slot: 39
+    price: 29
+    count: 1
+    lore:
+      - '&r'
+      - '&f Цена: &629 &7коинов&r'
+      - '&r'
+  shulker_red:
+    name: "&6Шалкер"
+    material: "RED_SHULKER_BOX"
+    slot: 40
+    price: 29
+    count: 1
+    lore:
+      - '&r'
+      - '&f Цена: &629 &7коинов&r'
+      - '&r'
+  shulker_black:
+    name: "&6Шалкер"
+    material: "BLACK_SHULKER_BOX"
+    slot: 41
+    price: 29
+    count: 1
+    lore:
+      - '&r'
+      - '&f Цена: &629 &7коинов&r'
+      - '&r'
+kits:
+  nub:
+    name: "&bНуб"
+    material: "LIGHT_BLUE_SHULKER_BOX"
+    slot: 20
+    price: 99
+    count: 1
+    lore:
+      - '&r'
+      - '&f Цена: &699 &7коинов&r'
+      - '&r'
+  pro:
+    name: "&aПро"
+    material: "LIME_SHULKER_BOX"
+    slot: 22
+    price: 149
+    count: 1
+    lore:
+      - '&r'
+      - '&f Цена: &6149 &7коинов&r'
+      - '&r'
+  chiter:
+    name: "&cЧитер"
+    material: "RED_SHULKER_BOX"
+    slot: 24
+    price: 199
+    count: 1
+    lore:
+      - '&r'
+      - '&f Цена: &6199 &7коинов&r'
+      - '&r'

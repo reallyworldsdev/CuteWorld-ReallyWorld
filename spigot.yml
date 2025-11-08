@@ -1,0 +1,200 @@
+# This is the main configuration file for Spigot.
+# As you can see, there's tons to configure. Some options may impact gameplay, so use
+# with caution, and make sure you know what each option does before configuring.
+# For a reference for any variable inside this file, check out the Spigot wiki at
+# http://www.spigotmc.org/wiki/spigot-configuration/
+# 
+# If you need help with the configuration or have any questions related to Spigot,
+# join us at the IRC or drop by our forums and leave a post.
+# 
+# IRC: #spigot @ irc.spi.gt ( http://www.spigotmc.org/pages/irc/ )
+# Forums: http://www.spigotmc.org/
+
+config-version: 12
+settings:
+  log-villager-deaths: true
+  debug: false
+  save-user-cache-on-stop-only: false
+  sample-count: 12
+  filter-creative-items: true
+  moved-wrongly-threshold: 0.0625
+  moved-too-quickly-multiplier: 10.0
+  bungeecord: false
+  user-cache-size: 1000
+  late-bind: false
+  int-cache-limit: 1024
+  item-dirty-ticks: 20
+  player-shuffle: 0
+  netty-threads: 6
+  timeout-time: 300
+  restart-on-crash: true
+  restart-script: ./start.sh
+  attribute:
+    maxHealth:
+      max: 2048.0
+    movementSpeed:
+      max: 2048.0
+    attackDamage:
+      max: 2048.0
+  moved-too-quickly-threshold: 100.0
+messages:
+  whitelist: §6CuteWorld §7» §fТех работы
+  unknown-command: §6CuteWorld §7» §fКоманда не найдена
+  server-full: §6CuteWorld §7» §fСервер переполнен
+  outdated-client: §6CuteWorld §7» §fСервер поддерживает версии от 1.16.5
+  outdated-server: §6CuteWorld §7» §fВаша версия устарела
+  restart: §6Сервер перезагружается
+commands:
+  send-namespaced: true
+  tab-complete: 0
+  silent-commandblock-console: false
+  log: true
+  spam-exclusions:
+  - /skill
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
+advancements:
+  disable-saving: false
+  disabled:
+  - minecraft:story/disabled
+stats:
+  disable-saving: false
+  forced-stats: {}
+world-settings:
+  default:
+    seed-desert: 14357617
+    seed-igloo: 14357618
+    seed-jungle: 14357619
+    seed-swamp: 14357620
+    seed-shipwreck: 165745295
+    seed-ocean: 14357621
+    seed-outpost: 165745296
+    seed-endcity: 10387313
+    seed-bastion: 30084232
+    seed-fortress: 30084232
+    seed-mansion: 10387319
+    seed-fossil: 14357921
+    seed-portal: 34222645
+    trident-despawn-rate: 600
+    view-distance: default
+    end-portal-sound-radius: 0
+    verbose: true
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      beetroot-modifier: 100
+      carrot-modifier: 100
+      potato-modifier: 100
+      wheat-modifier: 100
+      netherwart-modifier: 100
+      vine-modifier: 100
+      cocoa-modifier: 100
+      bamboo-modifier: 100
+      sweetberry-modifier: 100
+      kelp-modifier: 100
+    mob-spawn-range: 3
+    ticks-per:
+      hopper-transfer: 32
+      hopper-check: 12
+    hopper-amount: 3
+    entity-activation-range:
+      animals: 16
+      monsters: 24
+      raiders: 48
+      misc: 8
+      water: 8
+      villagers: 16
+      flying-monsters: 48
+      wake-up-inactive:
+        animals-max-per-tick: 2
+        animals-every: 1200
+        animals-for: 60
+        monsters-max-per-tick: 2
+        monsters-every: 400
+        monsters-for: 60
+        villagers-max-per-tick: 1
+        villagers-every: 600
+        villagers-for: 60
+        flying-monsters-max-per-tick: 2
+        flying-monsters-every: 200
+        flying-monsters-for: 60
+      villagers-work-immunity-after: 100
+      villagers-work-immunity-for: 20
+      villagers-active-for-panic: true
+      tick-inactive-villagers: false
+      ignore-spectators: true
+    entity-tracking-range:
+      players: 128
+      animals: 8
+      monsters: 8
+      misc: 8
+      other: 8
+    hunger:
+      jump-walk-exhaustion: 0.05
+      jump-sprint-exhaustion: 0.2
+      combat-exhaustion: 0.1
+      regen-exhaustion: 6.0
+      swim-multiplier: 0.01
+      sprint-multiplier: 0.1
+      other-multiplier: 0.0
+    save-structure-info: true
+    max-tick-time:
+      tile: 8
+      entity: 16
+    seed-village: 10387312
+    seed-feature: 14357617
+    seed-monument: 10387313
+    seed-slime: 987234911
+    random-light-updates: false
+    max-tnt-per-tick: 50
+    squid-spawn-range:
+      min: 45.0
+    arrow-despawn-rate: 300
+    enable-zombie-pigmen-portal-spawns: true
+    wither-spawn-sound-radius: 0
+    hanging-tick-frequency: 250
+    merge-radius:
+      item: 3.5
+      exp: 4.0
+    item-despawn-rate: 4000
+    nerf-spawner-mobs: true
+    zombie-aggressive-towards-villager: true
+    dragon-death-sound-radius: 0
+    max-entity-collisions: 1
+    chunks-per-tick: 650
+    clear-tick-list: true
+    max-bulk-chunks: 10
+    anti-xray:
+      enabled: false
+      engine-mode: 1
+      hide-blocks:
+      - 14
+      - 15
+      - 16
+      - 21
+      - 48
+      - 49
+      - 54
+      - 56
+      - 73
+      - 74
+      - 82
+      - 129
+      - 130
+      replace-blocks:
+      - 1
+      - 5
+    hopper-alt-ticking: false
+  worldeditregentempworld:
+    verbose: false
+  faweregentempworld:
+    verbose: false
+players:
+  disable-saving: false

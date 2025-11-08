@@ -1,0 +1,20 @@
+{
+  "uuid": "05448f76-0a8b-3ec8-81ca-7bac65f18e80",
+  "name": "YTMrkeshaYT",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "shari": 1388
+  },
+  "matches": [
+    {
+      "winner": "mcikira",
+      "loser": "YTMrkeshaYT",
+      "kit": "shari",
+      "time": 1741402844432,
+      "duration": 41664,
+      "health": 9.5
+    }
+  ]
+}

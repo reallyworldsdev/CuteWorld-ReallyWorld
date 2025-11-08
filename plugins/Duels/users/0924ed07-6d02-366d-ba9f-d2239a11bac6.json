@@ -1,0 +1,36 @@
+{
+  "uuid": "0924ed07-6d02-366d-ba9f-d2239a11bac6",
+  "name": "fopupopu",
+  "wins": 2,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "classic": 1415
+  },
+  "matches": [
+    {
+      "winner": "tobiTor662",
+      "loser": "fopupopu",
+      "kit": "classic",
+      "time": 1741850258888,
+      "duration": 28029,
+      "health": 3.0
+    },
+    {
+      "winner": "fopupopu",
+      "loser": "sarvar",
+      "kit": "classic",
+      "time": 1741850258888,
+      "duration": 28888,
+      "health": 7.0
+    },
+    {
+      "winner": "fopupopu",
+      "loser": "sarvar",
+      "kit": "classic",
+      "time": 1741850258888,
+      "duration": 18370,
+      "health": 9.0
+    }
+  ]
+}

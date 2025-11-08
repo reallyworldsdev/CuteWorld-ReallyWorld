@@ -1,0 +1,58 @@
+{
+  "uuid": "010b0d65-10db-3698-b9d0-758bc3fe192d",
+  "name": "dimasik",
+  "wins": 7,
+  "losses": 4,
+  "requests": true,
+  "rating": {
+    "classic": 1416,
+    "shari": 1416,
+    "chiter": 1406,
+    "nodebaff": 1416,
+    "totem": 1416,
+    "nezerka": 1384,
+    "bow": 1384
+  },
+  "matches": [
+    {
+      "winner": "dimasik",
+      "loser": "martirosov",
+      "kit": "chiter",
+      "time": 1742266842114,
+      "duration": 335612,
+      "health": 10.0
+    },
+    {
+      "winner": "martirosov",
+      "loser": "dimasik",
+      "kit": "chiter",
+      "time": 1742353239555,
+      "duration": 162321,
+      "health": 3.0
+    },
+    {
+      "winner": "dimasik",
+      "loser": "martirosov",
+      "kit": "totem",
+      "time": 1742353239555,
+      "duration": 608126,
+      "health": 6.0
+    },
+    {
+      "winner": "dimasik",
+      "loser": "martirosov",
+      "kit": "chiter",
+      "time": 1742353239555,
+      "duration": 215787,
+      "health": 1.0
+    },
+    {
+      "winner": "martirosov",
+      "loser": "dimasik",
+      "kit": "chiter",
+      "time": 1742353239555,
+      "duration": 256873,
+      "health": 8.5
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+menu_title: '&fꈁꀀꈂꌥꈂꀁ&0ꈃꄅ'
+open_command: sneg
+size: 53
+items:
+  'mine':
+    material: structure_void
+    model_data: 10001
+    data: 3
+    slot: 53
+    display_name: '&6ИНФОРМАЦИЯ'
+    lore:
+    - ''
+    - ' &fВаш баланс: &6%mobcoinsplus_playerbalance% &rꐄ'
+    - ''
+    - '&7Получить ромашки можно'
+    - '&7Учавствуя в ивентах'
+  '08f':
+    material: potion
+    hide_effects: true
+    potion_effects:
+    - NIGHT_VISION;9600;1
+    rgb: 15,250,161
+    slot: 13
+    display_name: '&bЗелье Викинга'
+    lore:
+    - '&9Скорость III (0:40)'
+    - '&9Сила III (0:40)'
+    - '&9Огнестойкость (8:00)'
+    - '&cИссущение (0:10)'
+    - ''
+    - '&7----------------------'
+    - '&7----------------------'
+    - ''
+    - '&fЦена: &6599 &x&7&E&6&5&A&4ꐄ'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 599
+          deny_commands:
+          - '[message] &6Ромашки &7⟫ &cНедостаточно ромашек для покупки'
+          - '[message] &6Ромашки &7⟫ &fПолучить ромашки можно убивая мобов' 
+    left_click_commands:
+     - '[console] Mobcoins remove %player_name% 599'
+     - '[console] xkit potion5 %player_name%'
+     
+  '06f':
+    material: potion
+    hide_effects: true
+    potion_effects:
+    - NIGHT_VISION;9600;1
+    rgb: 0,255,240
+    slot: 23
+    display_name: '&b&lЗимняя мощь'
+    lore:
+    - '&9Скорость II (0:40)'
+    - '&9Сила II (0:40)'
+    - '&9Огнестойкость (6:40)'
+    - ''
+    - '&7----------------------'
+    - '&7----------------------'
+    - ''
+    - '&fЦена: &6419 &x&7&E&6&5&A&4ꐄ'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 419
+          deny_commands:
+          - '[message] &6Ромашки &7⟫ &cНедостаточно ромашек для покупки'
+          - '[message] &6Ромашки &7⟫ &fПолучить ромашки можно убивая мобов'  
+    left_click_commands:
+     - '[console] Mobcoins remove %player_name% 419'
+     - '[console] xkit potion4 %player_name%'
+     
+  '03f':
+    material: splash_potion
+    hide_effects: true
+    potion_effects:
+    - NIGHT_VISION;9600;1
+    rgb: 126,228,231
+    slot: 14
+    display_name: '&f&lСнежок'
+    lore:
+    - '&cЗамедление II (0:15)'
+    - '&cУтомление (0:07)'
+    - '&cИссушение (0:09)'
+    - '&9Cвечение (0:30)'
+    - ''
+    - '&7----------------------'
+    - '&7----------------------'
+    - ''
+    - '&fЦена: &6419 &x&7&E&6&5&A&4ꐄ'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 419
+          deny_commands:
+          - '[message] &6Ромашки &7⟫ &cНедостаточно ромашек для покупки'
+          - '[message] &6Ромашки &7⟫ &fПолучить ромашки можно убивая мобов' 
+    left_click_commands:
+     - '[console] Mobcoins remove %player_name% 419'
+     - '[console] xkit potion1 %player_name%'
+     
+  '02f':
+    material: splash_potion
+    hide_effects: true
+    potion_effects:
+    - NIGHT_VISION;9600;1
+    rgb: 150,219,223
+    slot: 12
+    display_name: '&9&lМорозко'
+    lore:
+    - '&9Исцеление III (0:30)'
+    - '&9Огнестойкость (10:00)'
+    - '&9Прилив здоровья (0:30)'
+    - '&cЗамедление (1:40)'
+    - '&9Сила (1:40)'
+    - ''
+    - '&7----------------------'
+    - '&7----------------------'
+    - ''
+    - '&fЦена: &6479 &x&7&E&6&5&A&4ꐄ'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 479
+          deny_commands:
+          - '[message] &6Ромашки &7⟫ &cНедостаточно ромашек для покупки'
+          - '[message] &6Ромашки &7⟫ &fПолучить ромашки можно убивая мобов' 
+    left_click_commands:
+     - '[console] Mobcoins remove %player_name% 479'
+     - '[console] xkit potioons %player_name%'
+     
+  '01f':
+    material: splash_potion
+    hide_effects: true
+    potion_effects:
+    - NIGHT_VISION;9600;1
+    rgb: 41,195,235
+    slot: 21
+    display_name: '&b&lАрабская ночь'
+    lore:
+    - '&cЛевитация 8 (0:02)'
+    - ''
+    - '&7----------------------'
+    - '&7----------------------'
+    - ''
+    - '&fЦена: &6389 &x&7&E&6&5&A&4ꐄ'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 389
+          deny_commands:
+          - '[message] &6Ромашки &7⟫ &cНедостаточно ромашек для покупки'
+          - '[message] &6Ромашки &7⟫ &fПолучить ромашки можно убивая мобов'  
+    left_click_commands:
+     - '[console] Mobcoins remove %player_name% 389'
+     - '[console] xkit potiooons %player_name%'
+     
+  '011f':
+    material: tipped_arrow
+    nbt_int: CustomPotionColor:5376000
+    data: 100
+    amount: 32
+    slot: 31
+    display_name: '&6Обработатанная стрела'
+    lore:
+    - '§cМоментальный Урон II'
+    - ''
+    - '&7----------------------'
+    - '&7----------------------'
+    - ''
+    - '&fЦена: &6479 &x&7&E&6&5&A&4ꐄ'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 479
+          deny_commands:
+          - '[message] &6Ромашки &7⟫ &cНедостаточно ромашек для покупки'
+          - '[message] &6Ромашки &7⟫ &fПолучить ромашки можно убивая мобов'  
+    left_click_commands:
+     - '[console] Mobcoins remove %player_name% 479'
+     - '[console] xkit strela2 %player_name%'
+     
+  '010f':
+    material: tipped_arrow
+    nbt_int: CustomPotionColor:7566195
+    data: 100
+    amount: 32
+    slot: 22
+    display_name: '&6Обработатанная стрела'
+    lore:
+    - '&cСлабость (0:30)'
+    - ''
+    - '&7----------------------'
+    - '&7----------------------'
+    - ''
+    - '&fЦена: &6529 &x&7&E&6&5&A&4ꐄ'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 529
+          deny_commands:
+          - '[message] &6Ромашки &7⟫ &cНедостаточно ромашек для покупки'
+          - '[message] &6Ромашки &7⟫ &fПолучить ромашки можно убивая мобов'  
+    left_click_commands:
+     - '[console] Mobcoins remove %player_name% 529'
+     - '[console] xkit strela1 %player_name%'
+
+
+  'back':
+    material: structure_void
+    model_data: 10002
+    slot: 45
+    display_name: '&6Назад'
+    left_click_commands:
+    - '[openguimenu] sneguroka'
+    right_click_commands:
+    - '[openguimenu] sneguroka'

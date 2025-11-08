@@ -1,0 +1,29 @@
+{
+  "uuid": "0131f87b-a9ff-33ee-8b23-ea6d4822597e",
+  "name": "opppka",
+  "wins": 1,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "classic": 1413,
+    "shari": 1382
+  },
+  "matches": [
+    {
+      "winner": "opppka",
+      "loser": "pro2286859",
+      "kit": "classic",
+      "time": 1742554860789,
+      "duration": 34923,
+      "health": 10.0
+    },
+    {
+      "winner": "pro2286859",
+      "loser": "opppka",
+      "kit": "shari",
+      "time": 1742554860789,
+      "duration": 243979,
+      "health": 4.0
+    }
+  ]
+}

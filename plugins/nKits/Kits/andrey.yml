@@ -1,0 +1,98 @@
+Name: andrey
+Cooldown: 0
+Permission: strictkits.kits.andrey
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"italic":false,"extra":[{"text":""},{"bold":true,"color":"dark_red","text":"Голова
+        АндреяПЛ"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"  "},{"color":"red","text":"-6
+        Максимальное здоровье"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"  "},{"color":"blue","text":"+25%
+        Скорость"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"  "},{"color":"blue","text":"+4
+        Урон"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 4.0
+          name: ''
+          slot: OFF_HAND
+          uuid: f7ef60c9-3a0b-469b-8bf4-bd7c2f9eee19
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -6.0
+          name: ''
+          slot: OFF_HAND
+          uuid: 95b5fd34-37a0-49ea-8e43-9fb0ab0b9c38
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.25
+          name: ''
+          slot: OFF_HAND
+          uuid: c6d94100-1a73-4308-97a6-abea940b5226
+          operation: 1
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/1VRS3LTQBAdp6AqGLgDR1BkhcJVbGyNI4/wSMjWb7rIIvIo0sgzsbGsyNJZuANVXIATcAtWnIKJ4wWsuqu7X7/3uocIDdAFpoMherPaNFJ+3m/vhcyHaKizXb4/iLx+hS4P+fHQ7PN6iDTgEr2M72STD77l7bYgtmvcJVdyPVqWWToRBG8LGq6PXj8b0b5oabjpPLv9ROyJWM/dR1CyhkhuiJi819iKmsykKrJYz3oIqeEpt2LKLSG8qWjPJTiB4WOuwCa1LSYFeZh2mQm7zIl9pnnPe6aZWnaQyiB0DiURZz5TPmTqxuCpKyMVH3kiO0iCk0Y+d69g9TzHndji81jj6an37EtzSW+xiqz/a0/zqVufebd8vmx98eHxnx1NlsgGEq9jCRgLdS25PTYgLU86FmY08vDG0p4kS7wSqqWOrqKhrpuBof1aoIi+xbrzMEimgmtaFS2owKKOV/qYWUxFJjizFnAsKCYW4Jk43caejp/ifbAbI/QaXRCuH/bi1n/7590X5+ePX7f498ev3xH6C/iUeyD4AQAA
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

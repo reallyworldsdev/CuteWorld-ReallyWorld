@@ -1,0 +1,37 @@
+{
+  "uuid": "05e3b3f9-d5c9-3656-9c34-7068d73d416d",
+  "name": "freemoldova",
+  "wins": 2,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "shari": 1416,
+    "nezerka": 1400
+  },
+  "matches": [
+    {
+      "winner": "freemoldova",
+      "loser": "arthui333",
+      "kit": "shari",
+      "time": 1741575644565,
+      "duration": 61686,
+      "health": 8.0
+    },
+    {
+      "winner": "freemoldova",
+      "loser": "PERKA_PSK",
+      "kit": "nezerka",
+      "time": 1741575644565,
+      "duration": 30478,
+      "health": 6.0
+    },
+    {
+      "winner": "dima12120",
+      "loser": "freemoldova",
+      "kit": "nezerka",
+      "time": 1742353239555,
+      "duration": 22081,
+      "health": 5.0
+    }
+  ]
+}

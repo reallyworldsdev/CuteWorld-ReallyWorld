@@ -1,0 +1,54 @@
+{
+  "uuid": "08b80708-c23a-332e-b4da-bca7d3370067",
+  "name": "lfybkf287_poka",
+  "wins": 1,
+  "losses": 4,
+  "requests": true,
+  "rating": {
+    "shari": 1384,
+    "nodebaff": 1384,
+    "nezerka": 1385
+  },
+  "matches": [
+    {
+      "winner": "lfybkf287A",
+      "loser": "lfybkf287_poka",
+      "kit": "shari",
+      "time": 1742554860789,
+      "duration": 32531,
+      "health": 10.0
+    },
+    {
+      "winner": "lfybkf287A",
+      "loser": "lfybkf287_poka",
+      "kit": "nodebaff",
+      "time": 1742554860789,
+      "duration": 329049,
+      "health": 4.0
+    },
+    {
+      "winner": "lfybkf287A",
+      "loser": "lfybkf287_poka",
+      "kit": "nezerka",
+      "time": 1742554860789,
+      "duration": 21502,
+      "health": 2.0
+    },
+    {
+      "winner": "lfybkf287_poka",
+      "loser": "lfybkf287A",
+      "kit": "nezerka",
+      "time": 1742554860789,
+      "duration": 30751,
+      "health": 9.0
+    },
+    {
+      "winner": "lfybkf287A",
+      "loser": "lfybkf287_poka",
+      "kit": "nezerka",
+      "time": 1742554860789,
+      "duration": 35648,
+      "health": 2.5
+    }
+  ]
+}

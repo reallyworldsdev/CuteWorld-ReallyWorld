@@ -1,0 +1,29 @@
+{
+  "uuid": "01d9839e-274f-3312-b7ea-95d2be4b9a37",
+  "name": "sigmakriper2233",
+  "wins": 1,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "totem": 1416,
+    "nezerka": 1384
+  },
+  "matches": [
+    {
+      "winner": "MrAndrey234",
+      "loser": "sigmakriper2233",
+      "kit": "nezerka",
+      "time": 1741522036438,
+      "duration": 22712,
+      "health": 2.0
+    },
+    {
+      "winner": "sigmakriper2233",
+      "loser": "MrAndrey234",
+      "kit": "totem",
+      "time": 1741522036438,
+      "duration": 31228,
+      "health": 4.5
+    }
+  ]
+}

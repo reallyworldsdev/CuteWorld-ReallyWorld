@@ -1,0 +1,10 @@
+# Configuration file for Origami.
+config-version-please-do-not-modify-me: 0
+worlds:
+  default:
+    tick-empty-hoppers: false
+    disable-observer-clocks: true
+    ticks-per:
+      full-hopper-cooldown: 128
+    pigmen:
+      dont-target-unless-hit: false

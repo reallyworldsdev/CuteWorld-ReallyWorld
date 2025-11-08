@@ -1,0 +1,126 @@
+
+notify-moderators: true
+report-message: "&6Репорты &7» &fИгрок &6{reporter} &fнаписал жалобу на &6{target} &fс причиной: &6{reason}"
+usage-message: "&6Репорты &7» &fИспользование: &6/report <Нарушитель> <Причина...>"
+reporter-message: "&6Репорты &7» &fЖалоба на игрока &6{target} &fуспешно подана"
+player-not-found-message: "&6Репорты &7» &cИгрок не найден"
+reload-message: "&6Репорты &7» &aКонфиг был перезагружен"
+console-error-message: "&6Репорты &7» &cКоманду можно вводить только из игры"
+no-permission-message: "&6Репорты &7» &cНедостаточно прав"
+remove-report-message: "&6Репорты &7» &fРепорт на &6{target} &fбыл удален"
+no-report-found-message: "&6Репорты &7» &cНа {target} нет репортов"
+max-reports-message: "&6Репорты &7» &cДостигнут лимит репортов. Подождите и попробуйте снова..."
+
+menu-title: "&8Репорты"
+menu-slots: 54
+report-item: "BOOK"
+report-item-name: "&6{target}" # ВАЖНО!!! НЕ МЕНЯТЬ!!!
+report-item-lore:
+  - "&eЖалоба на &6{target}"
+  - ""
+  - "&fПоследняя жалоба:"
+  - "&e{time}"
+  - ""
+  - "&fВсего жалоб: &c{count}"
+  - ""
+  - "&fПоследний репорт:"
+  - "&e   {reporter}&6: &f[{reason}]"
+  - ""
+  - "&aНажмите для управления жалобой:"
+report-menu-slots:
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  - 33
+  - 34
+  - 37
+  - 38
+  - 39
+  - 40
+  - 41
+  - 42
+  - 43
+
+second-menu-title: "&8Управление жалобой"
+second-menu-slots: 27
+second-menu-items:
+  - material: "WHITE_WOOL"
+    name: "&aТелепортироваться"
+    lore:
+      - ""
+      - "&eНажмите, чтобы телепортироватся"
+      - "&eк нарушителю"
+    command: "tp {target}"
+    slot: 11
+  - material: "LIME_WOOL"
+    name: "&aТелепортировать к себе"
+    lore:
+      - ""
+      - "&eНажмите, чтобы телепортировать"
+      - "&eнарушителя к себе"
+    command: "s {target}"
+    slot: 13
+  - material: "RED_WOOL"
+    name: "&cУдалить репорт"
+    lore:
+      - ""
+      - "&eНажмите, чтобы удалить"
+      - "&eрепорт на этого игрока"
+    command: "reports remove {target}"
+    slot: 15
+
+custom-items:
+  - material: "ORANGE_STAINED_GLASS_PANE"
+    name: " "
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 17
+      - 27
+      - 35
+      - 36
+      - 44
+      - 45
+      - 46
+      - 47
+      - 48
+      - 49
+      - 50
+      - 51
+      - 52
+      - 53
+
+time-units:
+  day: "день"
+  days: "дней"
+  hour: "час"
+  hours: "часов"
+  minute: "минута"
+  minutes: "минуты"
+  second: "секунд"
+  seconds: "секунды"
+  ago: "назад"

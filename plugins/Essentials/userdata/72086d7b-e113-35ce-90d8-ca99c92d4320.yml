@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 91.196.35.121
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1750270794320
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1750270892274
+  login: 1750270680572
+money: '0'
+last-account-name: aerophobic
+logoutlocation:
+  world: 080aa408-340e-4890-af2f-3d7d96b60357
+  world-name: world
+  x: 396.65871944447304
+  y: 79.30874567927815
+  z: 959.9688532055918
+  yaw: -152.78152465820312
+  pitch: 24.440763473510742
+lastlocation:
+  world: 080aa408-340e-4890-af2f-3d7d96b60357
+  world-name: world
+  x: -571.5
+  y: 85.24304273616123
+  z: 302.5
+  yaw: 29.65655517578125
+  pitch: 52.84521484375

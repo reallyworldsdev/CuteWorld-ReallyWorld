@@ -1,0 +1,20 @@
+{
+  "uuid": "017c956c-2104-3e50-b580-a8fb7871bed1",
+  "name": "MynixFamq",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "nodebaff": 1384
+  },
+  "matches": [
+    {
+      "winner": "EnfantsDeprimes",
+      "loser": "MynixFamq",
+      "kit": "nodebaff",
+      "time": 1748461697000,
+      "duration": 21297,
+      "health": 9.0
+    }
+  ]
+}

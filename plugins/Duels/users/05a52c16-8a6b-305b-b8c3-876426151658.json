@@ -1,0 +1,38 @@
+{
+  "uuid": "05a52c16-8a6b-305b-b8c3-876426151658",
+  "name": "sanita12",
+  "wins": 0,
+  "losses": 3,
+  "requests": true,
+  "rating": {
+    "shari": 1384,
+    "chiter": 1385,
+    "bow": 1385
+  },
+  "matches": [
+    {
+      "winner": "kermapoki",
+      "loser": "sanita12",
+      "kit": "bow",
+      "time": 1741662051298,
+      "duration": 19326,
+      "health": 10.0
+    },
+    {
+      "winner": "IIuoneR_1",
+      "loser": "sanita12",
+      "kit": "shari",
+      "time": 1741921246746,
+      "duration": 442810,
+      "health": 8.0
+    },
+    {
+      "winner": "CHOC_py3oM_ezz0k",
+      "loser": "sanita12",
+      "kit": "chiter",
+      "time": 1741921246746,
+      "duration": 61772,
+      "health": 15.0
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "uuid": "07193266-0ed8-3820-a8c5-6b53d822ec11",
+  "name": "almaziiik_11",
+  "wins": 17,
+  "losses": 45,
+  "requests": true,
+  "rating": {
+    "classic": 1320,
+    "shari": 1315,
+    "chiter": 1399,
+    "nodebaff": 1370,
+    "totem": 1373,
+    "nezerka": 1308
+  },
+  "matches": [
+    {
+      "winner": "Qwwiz1xx",
+      "loser": "almaziiik_11",
+      "kit": "shari",
+      "time": 1749772862048,
+      "duration": 105129,
+      "health": 3.5
+    },
+    {
+      "winner": "rossAlbatross155",
+      "loser": "almaziiik_11",
+      "kit": "shari",
+      "time": 1749772862048,
+      "duration": 69517,
+      "health": 1.0
+    },
+    {
+      "winner": "1dark1111",
+      "loser": "almaziiik_11",
+      "kit": "nezerka",
+      "time": 1749772862048,
+      "duration": 140338,
+      "health": 3.5
+    },
+    {
+      "winner": "AXMED4755",
+      "loser": "almaziiik_11",
+      "kit": "shari",
+      "time": 1749772862048,
+      "duration": 129354,
+      "health": 10.0
+    },
+    {
+      "winner": "almaziiik_11",
+      "loser": "s4kur4",
+      "kit": "nezerka",
+      "time": 1749772862048,
+      "duration": 66796,
+      "health": 8.0
+    }
+  ]
+}

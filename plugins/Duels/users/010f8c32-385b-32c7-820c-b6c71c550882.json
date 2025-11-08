@@ -1,0 +1,29 @@
+{
+  "uuid": "010f8c32-385b-32c7-820c-b6c71c550882",
+  "name": "tvink_Mrmarusa",
+  "wins": 0,
+  "losses": 2,
+  "requests": true,
+  "rating": {
+    "totem": 1387,
+    "nezerka": 1384
+  },
+  "matches": [
+    {
+      "winner": "_Muga4ka_",
+      "loser": "tvink_Mrmarusa",
+      "kit": "totem",
+      "time": 1741143641653,
+      "duration": 86270,
+      "health": 10.0
+    },
+    {
+      "winner": "_Muga4ka_",
+      "loser": "tvink_Mrmarusa",
+      "kit": "nezerka",
+      "time": 1741143641653,
+      "duration": 22886,
+      "health": 10.0
+    }
+  ]
+}

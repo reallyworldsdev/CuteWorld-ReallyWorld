@@ -1,0 +1,29 @@
+{
+  "uuid": "02e297e3-ce6d-343f-a11d-b264ba80a8e6",
+  "name": "hadac",
+  "wins": 2,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "classic": 1416,
+    "chiter": 1416
+  },
+  "matches": [
+    {
+      "winner": "hadac",
+      "loser": "sefawadds",
+      "kit": "classic",
+      "time": 1742633987531,
+      "duration": 22766,
+      "health": 1.0
+    },
+    {
+      "winner": "hadac",
+      "loser": "sefawadds",
+      "kit": "chiter",
+      "time": 1742633987531,
+      "duration": 108568,
+      "health": 2.5
+    }
+  ]
+}

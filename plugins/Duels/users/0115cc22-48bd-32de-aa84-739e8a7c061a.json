@@ -1,0 +1,20 @@
+{
+  "uuid": "0115cc22-48bd-32de-aa84-739e8a7c061a",
+  "name": "3Loy_Nether",
+  "wins": 1,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "nezerka": 1417
+  },
+  "matches": [
+    {
+      "winner": "3Loy_Nether",
+      "loser": "pro2286859",
+      "kit": "nezerka",
+      "time": 1742612447988,
+      "duration": 32060,
+      "health": 3.0
+    }
+  ]
+}

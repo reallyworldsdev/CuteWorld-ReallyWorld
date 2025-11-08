@@ -1,0 +1,56 @@
+{
+  "uuid": "02878abd-c060-36b3-be49-372cdb495f17",
+  "name": "pls_pamogite",
+  "wins": 9,
+  "losses": 4,
+  "requests": true,
+  "rating": {
+    "classic": 1442,
+    "shari": 1439,
+    "chiter": 1369,
+    "totem": 1384,
+    "nezerka": 1430
+  },
+  "matches": [
+    {
+      "winner": "zxcotaro",
+      "loser": "pls_pamogite",
+      "kit": "chiter",
+      "time": 1742353239555,
+      "duration": 40072,
+      "health": 4.0
+    },
+    {
+      "winner": "pls_pamogite",
+      "loser": "kotik_uwu",
+      "kit": "shari",
+      "time": 1742439646867,
+      "duration": 334612,
+      "health": 2.5
+    },
+    {
+      "winner": "pls_pamogite",
+      "loser": "cfyz228",
+      "kit": "nezerka",
+      "time": 1742439646867,
+      "duration": 107258,
+      "health": 4.0
+    },
+    {
+      "winner": "pls_pamogite",
+      "loser": "cfyz228",
+      "kit": "classic",
+      "time": 1742439646867,
+      "duration": 18255,
+      "health": 6.0
+    },
+    {
+      "winner": "pls_pamogite",
+      "loser": "Xx_funo_xX",
+      "kit": "classic",
+      "time": 1742439646867,
+      "duration": 19684,
+      "health": 3.5
+    }
+  ]
+}

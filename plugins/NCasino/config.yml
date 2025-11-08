@@ -1,0 +1,96 @@
+messages:
+  betMoreThanMax: '&6Казино &7» &cСумма ставки выше допустимой'
+  notEnoughMoney: '&6Казино &7» &cНедостаточно средств'
+  playersLimit: '&6Казино &7» &cМаксимальное число ставок сделано'
+  betNotDigit: '&6Казино &7» &cУказанная сумма не является числом'
+  betUsage: '&6Казино &7» &fИспользование команды: &e/bet [Сумма]'
+  farFromCroupier: '&6Казино &7» &cПодойдите к крупье поближе'
+  successfullyBet: '&6Казино &7» &aСтавка успешно поставлена'
+  winPlayer: '&6Казино &7» &fИгрок &e%player% &fвыиграл &6%prize%$ &fу крупье &e%croupier%
+    &7(Шанс - ~%chance%%)'
+  rouletteNotMoney: '&6Рулетки &7» &cНедостаточно средств'
+  rouletteOccupied: '&6Рулетки &7» &cСлот занят'
+  rouletteCooldown: '&6Рулетки &7» &cПодождите %time% сек перед использованием слота!'
+  rouletteWin: '&6Рулетки &7» &fВы выиграли: &6%prize%'
+maxPlayers: 28
+playersForStart: 3
+timeForGiveaway: 120
+casino:
+  slots:
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 37
+    - 38
+    - 39
+    - 40
+    - 41
+    - 42
+    - 43
+  types:
+    cheap:
+      bank: 10000
+    middle:
+      bank: 1000000
+    rich:
+      bank: 10000000
+  menu:
+    title: §fꈁꀀꈂꌗꈂꀁ§0ꈃꄘ&r
+    info:
+      material: CLOCK
+      name: '&6-- ИНФОРМАЦИЯ --'
+      lore:
+        - ''
+        - '&6▪ &fБанк: &6%bank%$'
+        - '&6▪ &fДо розыгрыша: &6%time% сек.'
+        - ''
+        - '&fЧтобы поставить ставку,'
+        - '&fпропишите: &6/bet (Сумма)'
+      slot: 4
+      modelData: 10001
+    player:
+      name: '&6%player%'
+      lore:
+        - ''
+        - '&6▪ &fСтавка: &6%bet%$'
+        - '&6▪ &fШанс на победу: &6~%chance%%'
+        - ''
+roulette:
+  buttonMaterial: CRIMSON_BUTTON
+  cooldown: 30
+  firstJackpot: 10000000
+  spinTime: 4
+  spinInterval: 2
+  spinSound: ''
+  threeInRow: 10000
+  twoInRow: 5000
+  win:
+    time: 2
+    interval: 5
+    sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  jackpot:
+    time: 3
+    interval: 5
+    sound: ENTITY_EXPERIENCE_ORB_PICKUP
+croupies:
+  cheap_casino: 29
+  middle_casino: 27
+  rich_casino: 28

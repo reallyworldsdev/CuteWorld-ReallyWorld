@@ -1,0 +1,69 @@
+# импортируем весь файл items.yml
+include: [
+  "./items.yml"
+]
+
+id: example:prem-seller-confirm
+provider: default
+type: chest
+size: 27
+title: '&7Подтверждение покупки'
+
+# Разрешаем открывать это меню только из меню example:prem-seller
+only-open-from:
+  - example:prem-seller
+
+args:
+  SELECTED_ITEM: none
+
+items:
+  confirm:
+    material: lime_stained_glass_pane
+    name: '&aПодтвердить'
+    slot:
+      - '0-3'
+      - '9-12'
+      - '18-21'
+    on_left_click:
+      requirements:
+        - check: '%vault_eco_balance_fixed% >= ${PRICE}' # Мы использовали [import_params] при открытии этого меню поэтому плейс ${PRICE} доступен
+      deny_commands:
+        - '[message] &cУ Вас не достаточно баланса!'
+      commands:
+        - '[takemoney] ${PRICE}'
+        - '[console] give %player_name% ${MATERIAL} ${AMOUNT}'
+        - '[message] &aВы успешно купили ${NAME}'
+        - '[back]'
+  reject:
+    material: red_stained_glass_pane
+    name: '&cОтменить'
+    static: true
+    slot:
+      - '5-8'
+      - '14-17'
+      - '23-26'
+    on_click:
+      commands:
+        - '[back]'
+  gui:
+    material: black_stained_glass_pane
+    name: ''
+    static: true
+    slot:
+      - 4
+      - 22
+  none:
+    material: jigsaw
+    name: '&cПроизошла ошибка!'
+    static: true
+  totem:
+    <<: *seller-item-totem # это указатель на предмет который находится в файле items.yml
+  elytra:
+    <<: *seller-elytra # это указатель на предмет который находится в файле items.yml
+  creeper:
+    <<: *seller-creeper # это указатель на предмет который находится в файле items.yml
+
+animation:
+  - tick: 0
+    opcodes:
+      - set: ${SELECTED_ITEM} 13

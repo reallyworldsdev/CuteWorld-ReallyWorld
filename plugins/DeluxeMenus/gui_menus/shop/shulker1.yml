@@ -1,0 +1,356 @@
+menu_title: '&fꈁꀀꈂꌩꈂꀁ&0ꈃꄅ'
+size: 54
+items:
+  'clock':
+    material: structure_void
+    model_data: 10001
+    slot: 53
+    display_name: '&6ИНФОРМАЦИЯ'
+    lore:
+    - ''
+    - '&fВаш баланс: &6%playerpoints_points% ｐ'
+    - ''
+    - '&7Пополнить баланс можно'
+    - '&7на сайте: &6CuteWorld.pw'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  'back':
+    material: structure_void
+    model_data: 10002
+    slot: 45
+    display_name: '&6◄ Назад'
+    left_click_commands:
+    - '[openguimenu] donateshop'
+    right_click_commands:
+    - '[openguimenu] donateshop'
+  'start':
+    material: WHITE_SHULKER_BOX
+    slot: 12
+    display_name: '&6Шалкер'
+    lore:
+    - ''
+    - '&fЦена: &679ｐ'
+    - ''
+    left_click_commands:
+    - '[console] points take %player_name% 79'
+    - '[console] give %player_name% WHITE_SHULKER_BOX 1'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 79
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+  'hero':
+    material: orange_shulker_box
+    slot: 13
+    display_name: '&6Шалкер'
+    lore:
+    - ''
+    - '&fЦена: &679ｐ'
+    - ''
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 79
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 79'
+    - '[console] give %player_name% 220 1'
+    right_click_requirement:
+      requirements:
+        anything_here:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '79'
+      deny_commands:
+      - '[message] &6Магазин &7» &FВам нужно &679 &fрилликов'
+      - '[message] &6Магазин &7» &FПополнить баланс можно на сайте: &6CuteWorld.pw'
+  'titan':
+    material: magenta_shulker_box
+    slot: 14
+    display_name: '&6Шалкер'
+    lore:
+    - ''
+    - '&fЦена: &679ｐ'
+    - ''
+    left_click_commands:
+    - '[console] points take %player_name% 79'
+    - '[console] give %player_name% magenta_shulker_box 1'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 79
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+  'avenger':
+    material: light_blue_shulker_box
+    slot: 20
+    display_name: '&6Шалкер'
+    lore:
+    - ''
+    - '&fЦена: &679ｐ'
+    - ''
+    left_click_commands:
+    - '[console] points take %player_name% 79'
+    - '[console] give %player_name% light_blue_shulker_box 1'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 79
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+  'overlord':
+    material: yellow_shulker_box
+    slot: 21
+    display_name: '&6Шалкер'
+    lore:
+    - ''
+    - '&fЦена: &679ｐ'
+    - ''
+    left_click_commands:
+    - '[console] points take %player_name% 79'
+    - '[console] give %player_name% yellow_shulker_box 1'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 79
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+  'magister':
+    material: green_shulker_box
+    slot: 22
+    display_name: '&6Шалкер'
+    lore:
+    - ''
+    - '&fЦена: &679ｐ'
+    - ''
+    left_click_commands:
+    - '[console] points take %player_name% 79'
+    - '[console] give %player_name% green_shulker_box 1'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 79
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+  'imperator':
+    material: pink_shulker_box
+    slot: 23
+    display_name: '&6Шалкер'
+    lore:
+    - ''
+    - '&fЦена: &679ｐ'
+    - ''
+    left_click_commands:
+    - '[console] points take %player_name% 79'
+    - '[console] give %player_name% pink_shulker_box 1'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 79
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+  'dragon':
+    material: gray_shulker_box
+    slot: 24
+    display_name: '&6Шалкер'
+    lore:
+    - ''
+    - '&fЦена: &679ｐ'
+    - ''
+    left_click_commands:
+    - '[console] points take %player_name% 79'
+    - '[console] give %player_name% gray_shulker_box 1'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 79
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+  'plus':
+    material: light_gray_shulker_box
+    slot: 29
+    display_name: '&6Шалкер'
+    lore:
+    - ''
+    - '&fЦена: &679ｐ'
+    - ''
+    left_click_commands:
+    - '[console] points take %player_name% 79'
+    - '[console] give %player_name% silver_shulker_box 1'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 79
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+  'pluspro':
+    material: cyan_shulker_box
+    slot: 30
+    display_name: '&6Шалкер'
+    lore:
+    - ''
+    - '&fЦена: &679ｐ'
+    - ''
+    left_click_commands:
+    - '[console] points take %player_name% 79'
+    - '[console] give %player_name% cyan_shulker_box 1'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 79
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+  'pro':
+    material: purple_shulker_box
+    slot: 31
+    display_name: '&6Шалкер'
+    lore:
+    - ''
+    - '&fЦена: &679ｐ'
+    - ''
+    left_click_commands:
+    - '[console] points take %player_name% 79'
+    - '[console] give %player_name% purple_shulker_box 1'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 79
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+  'pro1':
+    material: blue_shulker_box
+    slot: 32
+    display_name: '&6Шалкер'
+    lore:
+    - ''
+    - '&fЦена: &679ｐ'
+    - ''
+    left_click_commands:
+    - '[console] points take %player_name% 79'
+    - '[console] give %player_name% blue_shulker_box 1'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 79
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+  'thekrealisyt':
+    material: brown_shulker_box
+    slot: 33
+    display_name: '&6Шалкер'
+    lore:
+    - ''
+    - '&fЦена: &679ｐ'
+    - ''
+    left_click_commands:
+    - '[console] points take %player_name% 79'
+    - '[console] give %player_name% brown_shulker_box 1'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 79
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+  'thekrealisyt_top':
+    material: LIME_SHULKER_BOX
+    slot: 39
+    display_name: '&6Шалкер'
+    lore:
+    - ''
+    - '&fЦена: &679ｐ'
+    - ''
+    left_click_commands:
+    - '[console] points take %player_name% 79'
+    - '[console] give %player_name% LIME_SHULKER_BOX 1'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 79
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+  '_top':
+    material: RED_SHULKER_BOX
+    slot: 40
+    display_name: '&6Шалкер'
+    lore:
+    - ''
+    - '&fЦена: &679ｐ'
+    - ''
+    left_click_commands:
+    - '[console] points take %player_name% 79'
+    - '[console] give %player_name% RED_SHULKER_BOX 1'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 79
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+  '_top_':
+    material: BLACK_SHULKER_BOX
+    slot: 41
+    display_name: '&6Шалкер'
+    lore:
+    - ''
+    - '&fЦена: &679ｐ'
+    - ''
+    left_click_commands:
+    - '[console] points take %player_name% 79'
+    - '[console] give %player_name% BLACK_SHULKER_BOX 1'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 79
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 

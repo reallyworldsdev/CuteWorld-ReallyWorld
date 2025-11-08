@@ -1,0 +1,25 @@
+id: '17'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: 4941cd6b-c9d0-445e-a3e2-b673e845a908
+world: spawn
+location:
+  x: 147.48750001192093
+  y: 63.0
+  z: -12.569584286734196
+  yaw: -348.97382
+  pitch: -11.788767
+type: player
+properties:
+  skin_right_leg: 'true'
+  skin_cape: 'true'
+  skin_left_sleeve: 'true'
+  skin_jacket: 'true'
+  skin_right_sleeve: 'true'
+  skin_left_leg: 'true'
+  skin_hat: 'true'
+hologram:
+  lines:
+  - '&6&lСТАВКИ ДО 1.000.000'
+actions: []

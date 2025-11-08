@@ -1,0 +1,28 @@
+{
+  "uuid": "075efb13-02a7-30c2-889f-58b377c9e669",
+  "name": "Mazxi",
+  "wins": 0,
+  "losses": 2,
+  "requests": true,
+  "rating": {
+    "nezerka": 1382
+  },
+  "matches": [
+    {
+      "winner": "hearts1de",
+      "loser": "Mazxi",
+      "kit": "nezerka",
+      "time": 1749524442489,
+      "duration": 15583,
+      "health": 7.0
+    },
+    {
+      "winner": "hearts1de",
+      "loser": "Mazxi",
+      "kit": "nezerka",
+      "time": 1749524442489,
+      "duration": 17339,
+      "health": 8.0
+    }
+  ]
+}

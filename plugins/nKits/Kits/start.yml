@@ -1,0 +1,174 @@
+Name: start
+Cooldown: 3600
+Permission: greatkits.kits.start
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: IRON_SWORD
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: BOW
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: STONE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLDEN_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 1
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: STONE_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLDEN_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: COOKED_MUTTON
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: FLINT_AND_STEEL
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: COAL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: OAK_LOG
+    amount: 32
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GLASS
+    amount: 21
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: WHEAT_SEEDS
+    amount: 20
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: FLETCHING_TABLE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: FURNACE
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: CARTOGRAPHY_TABLE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLD_INGOT
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: IRON_INGOT
+    amount: 8
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PAPER
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ARROW
+    amount: 16
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SHIELD
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/+NiYOBi4HPKyU/Ods0rySypDElMZ2ZgcUosTmVgYOBjYAAA/pnbgSEAAAA=
+      blockMaterial: SHIELD
+  Armor:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: LEATHER_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+      color:
+        ==: Color
+        RED: 254
+        BLUE: 61
+        GREEN: 216
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: LEATHER_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      color:
+        ==: Color
+        RED: 249
+        BLUE: 29
+        GREEN: 128
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: LEATHER_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+      color:
+        ==: Color
+        RED: 249
+        BLUE: 29
+        GREEN: 128
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: LEATHER_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      color:
+        ==: Color
+        RED: 249
+        BLUE: 29
+        GREEN: 128

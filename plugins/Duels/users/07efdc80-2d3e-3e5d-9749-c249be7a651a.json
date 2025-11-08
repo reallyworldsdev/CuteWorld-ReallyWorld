@@ -1,0 +1,55 @@
+{
+  "uuid": "07efdc80-2d3e-3e5d-9749-c249be7a651a",
+  "name": "_BAM_K00NEX",
+  "wins": 16,
+  "losses": 8,
+  "requests": true,
+  "rating": {
+    "shari": 1431,
+    "totem": 1432,
+    "chiter": 1415,
+    "nezerka": 1433
+  },
+  "matches": [
+    {
+      "winner": "CHOC_py3oM_ezz0k",
+      "loser": "_BAM_K00NEX",
+      "kit": "shari",
+      "time": 1741791194722,
+      "duration": 72326,
+      "health": 1.5
+    },
+    {
+      "winner": "_BAM_K00NEX",
+      "loser": "SASHA_ZXC_TOP",
+      "kit": "nezerka",
+      "time": 1741791194722,
+      "duration": 19328,
+      "health": 9.0
+    },
+    {
+      "winner": "_BAM_K00NEX",
+      "loser": "VladIcePvP",
+      "kit": "totem",
+      "time": 1742439646867,
+      "duration": 240175,
+      "health": 9.0
+    },
+    {
+      "winner": "_BAM_K00NEX",
+      "loser": "noname_228_228",
+      "kit": "nezerka",
+      "time": 1742554860789,
+      "duration": 13933,
+      "health": 5.0
+    },
+    {
+      "winner": "noname_228_228",
+      "loser": "_BAM_K00NEX",
+      "kit": "nezerka",
+      "time": 1742554860789,
+      "duration": 21377,
+      "health": 6.5
+    }
+  ]
+}

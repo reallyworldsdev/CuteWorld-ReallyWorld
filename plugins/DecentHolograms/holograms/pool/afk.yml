@@ -1,0 +1,19 @@
+location: spawn:76.560:62.000:0.522
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#FFBA00&lА&#FFB300&lФ&#FFAC00&lК &#FF9D00&lБ&#FF9600&lа&#FF8F00&lс&#FF8800&lс&#FF8000&lе&#FF7900&lй&#FF7200&lн'
+    height: 0.6
+  - content: '&#FFE5D0Находитесь в этом бассеене,'
+    height: 0.3
+  - content: '&#FFE5D0и получайте каждые &#FF72001&#FF7C005 &#FF9100м&#FF9B00и&#FFA500н&#FFB000у&#FFBA00т'
+    height: 0.3
+  - content: '&#FFE5D0по &#FF72001&#FF7A000 &#FF8A00р&#FF9200и&#FF9A00л&#FFA200и&#FFAA00к&#FFB200о&#FFBA00в&#FFE5D0.
+      &rꐃ'
+    height: 0.3
+  actions: {}

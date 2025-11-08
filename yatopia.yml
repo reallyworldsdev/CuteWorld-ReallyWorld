@@ -1,0 +1,13 @@
+# This is the main configuration file for Yatopia.
+# Yatopia contains many breaking changes and settings, so know what you are doing!
+# You have been warned!
+
+verbose: false
+config-version: 1
+settings:
+  disableEntityStuckChecks: false
+  villager:
+    simplerVillagerBehavior: false
+    villagersHideAtNight: false
+  intervals:
+    player-time-statistics: 20

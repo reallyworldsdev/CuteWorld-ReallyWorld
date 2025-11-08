@@ -1,0 +1,26 @@
+location: spawn:27.482:63.000:-26.564
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#FFBA00&l=== А&#FFB300&lФ&#FFAC00&lК &#FF9D00&lБ&#FF9600&lа&#FF8F00&lс&#FF8800&lс&#FF8000&lе&#FF7900&lй&#FF7200&lн
+      ==='
+    height: 0.3
+  - content: '&#FF0072&lП&#FF1268&lР&#FF255E&lЕ&#FF3754&lМ&#FF4949&lИ&#FF5C3F&lУ&#FF6E35&lМ'
+    height: 0.6
+  - content: '&#FFE5D0Находитесь в этом бассеене,'
+    height: 0.3
+  - content: '&#FFE5D0и получайте каждые &#FF72001&#FF7C000 &#FF9100м&#FF9B00и&#FFA500н&#FFB000у&#FFBA00т'
+    height: 0.3
+  - content: '&#FFE5D0по &#FF720012&#FF7A000 &#FF8A00р&#FF9200и&#FF9A00л&#FFA200и&#FFAA00к&#FFB200о&#FFBA00в&#FFE5D0.
+      &rꐃ'
+    height: 0.6
+  - content: '&7&oКупить подписку можно за 199₽/Неделя'
+    height: 0.3
+  - content: '&7&oна сайте &6&owww.cuteworld.pw'
+    height: 0.3
+  actions: {}

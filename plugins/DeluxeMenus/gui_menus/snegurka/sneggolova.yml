@@ -1,0 +1,219 @@
+menu_title: '&fꈁꀀꈂꌇꈂꀁ&0ꈃꄅ'
+open_command: sneggolova
+size: 53
+items:
+  'mine':
+    material: structure_void
+    model_data: 10001
+    data: 3
+    slot: 53
+    display_name: '&6ИНФОРМАЦИЯ'
+    lore:
+    - ''
+    - ' &fВаш баланс: &6%mobcoinsplus_playerbalance% &rꐄ'
+    - ''
+    - '&7Получить ромашки можно'
+    - '&7Учавствуя в ивентах'
+  '21':
+    display_name: '&r&l&#aa00aa&lГолова Джотаро&r'
+    slot: 21
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjllMTU3YzJlOThmNGMwYjU4YzMzM2QyNzEyOWZhYjFkZWNhM2EyODMxOTQzNWIyZTQzMWNiYTI2Y2Y0ZTZlZiJ9fX0=
+    lore:
+    - '&r&#ff5555Проклятье утраты&r'
+    - '&r'
+    - '&r&#aaaaaaКогда во второй руке:&r'
+    - '&r  &r&#5555ff+20 Максимальное здоровье&r'
+    - '&r  &r&#5555ff+20 Отбрасывающая атака&r'
+    - '&r  &r&#5555ff+10 Везение &r'
+    - '&r'
+    - '&r&#aaaaaa===================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00109 &x&7&E&6&5&A&4ꐄ'
+    - '&r'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 109
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6cuteworld.pw' 
+    left_click_commands:
+    - '[console] Mobcoins remove %player_name% 109'
+    - '[console] si give season1 1 %player_name% true'
+  '22':
+    display_name: '&r&l&#55ffff&lГолова Римуру Темпеста&r'
+    slot: 22
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmU2MWZiYWVmYmI2OGRjZmQ1MjJlOTM0NTJlZWEzNzlmZmI2Y2EzMjUzN2JjYWFhMGRiOTE1MzczZjVkODVjMCJ9fX0=
+    lore:
+    - '&r&#ff5555Проклятье утраты&r'
+    - '&r'
+    - '&r&#aaaaaaКогда во второй руке:&r'
+    - '&r  &r&#5555ff+7.5 Твёрдость брони&r'
+    - '&r  &r&#5555ff+4.2 Брони&r'
+    - '&r  &r&#5555ff+7 Максимальное здоровье&r'
+    - '&r'
+    - '&r&#aaaaaa===================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00189 &x&7&E&6&5&A&4ꐄ'
+    - '&r'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 189
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6cuteworld.pw' 
+    left_click_commands:
+    - '[console] Mobcoins remove %player_name% 189'
+    - '[console] si give season3 1 %player_name% true'
+  '23':
+    display_name: '&r&l&#ffaa00&lГолова Зеницу&r'
+    slot: 23
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzdhMThmN2UxNzc1YjNhMzYwNGNkNGNmODBmYjUyOTFkZTQ2NmJmM2Y3ZDk1NzYzYTc5Njk0MDhjNjI3NzVmNiJ9fX0=
+    lore:
+    - '&r&#ff5555Проклятье утраты&r'
+    - '&r'
+    - '&r&#aaaaaaКогда во второй руке:&r'
+    - '&r  &r&#5555ff+1.1 Скорость атаки&r'
+    - '&r  &r&#5555ff+35% Скорость&r'
+    - '&r  &r&#5555ff+15 Максимальное здороье&r'
+    - '&r  &r&#5555ff+3.5 Везение&r'
+    - '&r'
+    - '&r&#aaaaaa===================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00159 &x&7&E&6&5&A&4ꐄ'
+    - '&r'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 159
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6cuteworld.pw' 
+    left_click_commands:
+    - '[console] Mobcoins remove %player_name% 159'
+    - '[console] si give season5 1 %player_name% true'
+  'item-41':
+    amount: 1
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZiZWQwZWU0MTI3N2NhZjFjNDQyOGQ3MDM5N2M3M2JhZGI1MmNjYjIyMzUyMWVjY2FmM2E5OWM1OTllOWQ5In19fQ=='
+    slot: 32
+    display_name: '&6Шар Аида 2'
+    lore:
+    - '&cПроклятье утраты'
+    - '&7Когда во второй руке:'
+    - '&6  +5.0 к стойкости'
+    - '&6  +20% к скорости'
+    - ''
+    - '&7======================'
+    - ''
+    - '  &fЦена: &6339 &x&7&E&6&5&A&4ꐄ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 339
+          deny_commands:
+          - '[message] &6Ромашки &7⟫ &cНедостаточно ромашек для покупки'
+          - '[message] &6Ромашки &7⟫ &fПолучить ромашки можно убивая мобов' 
+    left_click_commands:
+    - '[console] Mobcoins remove %player_name% 339'
+    - '[console] xkit rune7 %player_name%' 
+    
+  item-48:
+    amount: 1
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRhYzVjNTA5MjM3Mzc3NTNlYThiNjMwYTQyZjg5ZjVkOThjMTcyNDQ4MmJjM2ZmYzE0ZjllZDFmYmZlZWEifX19'
+    slot: 31
+    display_name: '&eШар Геркулеса 2'
+    lore:
+    - '&cПроклятье утраты'
+    - '&7Когда во второй руке:'
+    - '&e  Регенерация'
+    - '&e  +0.2% к скорости'
+    - '&e  +2.5 к силе'
+    - ''
+    - '&7======================'
+    - ''
+    - '  &fЦена: &6299 &x&7&E&6&5&A&4ꐄ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 299
+          deny_commands:
+          - '[message] &6Ромашки &7⟫ &cНедостаточно ромашек для покупки'
+          - '[message] &6Ромашки &7⟫ &fПолучить ромашки можно убивая мобов'  
+    left_click_commands:
+    - '[console] Mobcoins remove %player_name% 299'
+    - '[console] xkit rune11 %player_name%'
+    
+  item-37:
+    amount: 1
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmU5ZTg5NmFiZDM3ZThkYzMwNDFmOGY0MjlmZmE5ZDQzNTcyYjVkZWMwYWQyZGNmMWRkNGVmMjU5MTZmMDQifX19'
+    slot: 30
+    display_name: '&4Шар Ахиллеса 2'
+    lore:
+    - '&cПроклятье утраты'
+    - '&7Когда во второй руке:'
+    - '&4  +2.5 к силе'
+    - '&4  +3.0 к здоровью'
+    - ''
+    - '&7======================'
+    - ''
+    - '  &fЦена: &6259 &x&7&E&6&5&A&4ꐄ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 259
+          deny_commands:
+          - '[message] &6Ромашки &7⟫ &cНедостаточно ромашек для покупки'
+          - '[message] &6Ромашки &7⟫ &fПолучить ромашки можно убивая мобов'  
+    left_click_commands:
+    - '[console] Mobcoins remove %player_name% 259'
+    - '[console] xkit rune3 %player_name%' 
+ 
+  back:
+    material: structure_void
+    model_data: 10002
+    slot: 45
+    display_name: '&6◄ Назад'
+    left_click_commands:
+    - '[openguimenu] sneguroka'
+    right_click_commands:
+    - '[openguimenu] sneguroka'

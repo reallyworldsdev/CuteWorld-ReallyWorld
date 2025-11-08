@@ -1,0 +1,95 @@
+# Это меню было выкачено с помощью мода MD.
+# Скачать мод можно здесь: https://leaked-minecraft.pro
+menu_title: '§fꈁꀀꈂꌄꈂꀁ§0ꈃꄆ&r'
+size: 53
+items:
+  '21':
+    display_name: '&r&#ff5555Улучшить до след. вайпа&r'
+    slot: 21
+    material: redstone
+    lore:
+    - '&r &r'
+    - '&r&#ffffff   Покупаемая строка будет доступна&r'
+    - '&r&#ffffff   до &r&#ff5555следующего вайпа&r'
+    - '&r &r'
+    - '&r&#ffffff   Цена улучшения: &r&#ff5555100 рилликов&r'
+    - '&r &r'
+    - '&r&#55ff55Нажмите, чтобы улучшить эндерчест&r'
+    hide_attributes: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 100
+          deny_commands:
+          - '[message] &6Эндерчест &7» &cНедостаточно рилликов'
+          - '[message] &6Эндерчест &7» &fПополнить баланс можно на сайте: &6cuteworld.pw' 
+    left_click_commands:
+    - '[message] &6Эндерчест &7» &fУспешная покупка!'
+    - '[console] points take %player_name% 100'
+    - '[console] lp user %player_name% permission settemp purpur.enderchest.rows.four true 30d'
+    - '[openguimenu] buy_enderchest'
+    right_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 100
+          deny_commands:
+          - '[message] &6Эндерчест &7» &cНедостаточно рилликов'
+          - '[message] &6Эндерчест &7» &fПополнить баланс можно на сайте: &6cuteworld.pw' 
+    right_click_commands:
+    - '[message] &6Эндерчест &7» &fУспешная покупка!'
+    - '[console] points take %player_name% 100'
+    - '[console] lp user %player_name% permission settemp purpur.enderchest.rows.four true 30d'
+    - '[openguimenu] buy_enderchest'
+  '23':
+    display_name: '&r&#ff5555Улучшить навсегда&r'
+    slot: 23
+    material: emerald
+    lore:
+    - '&r &r'
+    - '&r&#ffffff   Покупаемая строка &r&#ff5555НЕ БУДЕТ&r'
+    - '&r&#ffffff   пропадать после вайпа&r'
+    - '&r &r'
+    - '&r&#ffffff   Цена улучшения: &r&#ff5555500 рилликов&r'
+    - '&r &r'
+    - '&r&#55ff55Нажмите, чтобы улучшить эндерчест&r'
+    hide_attributes: true
+    right_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 500
+          deny_commands:
+          - '[message] &6Эндерчест &7» &cНедостаточно рилликов'
+          - '[message] &6Эндерчест &7» &fПополнить баланс можно на сайте: &6cuteworld.pw' 
+    right_click_commands:
+    - '[message] &6Эндерчест &7» &fУспешная покупка!'
+    - '[console] points take %player_name% 500'
+    - '[console] lp user %player_name% permission set purpur.enderchest.rows.four true'
+    - '[openguimenu] buy_enderchest'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 500
+          deny_commands:
+          - '[message] &6Эндерчест &7» &cНедостаточно рилликов'
+          - '[message] &6Эндерчест &7» &fПополнить баланс можно на сайте: &6cuteworld.pw' 
+    left_click_commands:
+    - '[message] &6Эндерчест &7» &fУспешная покупка!'
+    - '[console] points take %player_name% 500'
+    - '[console] lp user %player_name% permission set purpur.enderchest.rows.four true'
+    - '[openguimenu] buy_enderchest'
+  '45':
+    display_name: '&r&#ffaa00Назад&r'
+    slot: 45
+    material: structure_void
+    model_data: 10002
+    hide_attributes: true
+    left_click_commands:
+    - '[openguimenu] buy_enderchest'

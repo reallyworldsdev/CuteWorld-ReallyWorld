@@ -1,0 +1,20 @@
+{
+  "uuid": "006c90ef-6a3b-3bcf-b357-f4c1748b841c",
+  "name": "NarutoAlimzhah",
+  "wins": 1,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "chiter": 1416
+  },
+  "matches": [
+    {
+      "winner": "NarutoAlimzhah",
+      "loser": "wesq",
+      "kit": "chiter",
+      "time": 1741662051298,
+      "duration": 211890,
+      "health": 7.0
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "uuid": "053fcdb5-5291-39f4-a56a-a43f4c5fb035",
+  "name": "cuvion_myhehain",
+  "wins": 1,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "classic": 1416,
+    "chiter": 1384
+  },
+  "matches": [
+    {
+      "winner": "hearts1de",
+      "loser": "cuvion_myhehain",
+      "kit": "chiter",
+      "time": 1747293433539,
+      "duration": 53782,
+      "health": 5.5
+    },
+    {
+      "winner": "cuvion_myhehain",
+      "loser": "hearts1de",
+      "kit": "classic",
+      "time": 1747293433539,
+      "duration": 13291,
+      "health": 5.5
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+menu_title: '&fꈁꀀꈂꌕꈂꀁ&0ꈃꄉ'
+open_command: jobs
+size: 56
+items:
+  'mine':
+    material: diamond_pickaxe
+    slot: 30
+    display_name: '&e❖ &6Шахта'
+    left_click_commands:
+    - '[player] warp mine'
+    right_click_commands:
+    - '[player] warp mine'
+  'ribalka':
+    material: fishing_rod
+    slot: 22
+    display_name: '&e❖ &6Рыбалка'
+    left_click_commands:
+    - '[player] warp ribalka'
+    right_click_commands:
+    - '[player] warp ribalka'
+  'wood':
+    material: golden_axe
+    slot: 32
+    display_name: '&e❖ &6Лесорубка'
+    left_click_commands:
+    - '[player] warp les'
+    right_click_commands:
+    - '[player] warp les'
+  'fermer':
+    material: iron_hoe
+    slot: 31
+    display_name: '&e❖ &6Фермер'
+    left_click_commands:
+    - '[player] warp farm'
+    right_click_commands:
+    - '[player] warp farm'
+  '53':
+    display_name: '&r&#ffaa00Назад&r'
+    slot: 45
+    material: structure_void
+    model_data: 10002
+    hide_attributes: true
+    left_click_commands:
+    - '[openguimenu] putivoditer'
+    right_click_commands:
+    - '[openguimenu] putivoditer'    

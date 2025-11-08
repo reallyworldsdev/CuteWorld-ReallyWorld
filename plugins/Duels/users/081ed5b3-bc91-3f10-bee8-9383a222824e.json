@@ -1,0 +1,29 @@
+{
+  "uuid": "081ed5b3-bc91-3f10-bee8-9383a222824e",
+  "name": "MrWaffle__MC760",
+  "wins": 2,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "shari": 1417,
+    "totem": 1415
+  },
+  "matches": [
+    {
+      "winner": "MrWaffle__MC760",
+      "loser": "_HETBEKN0A_",
+      "kit": "shari",
+      "time": 1741230044243,
+      "duration": 24858,
+      "health": 10.0
+    },
+    {
+      "winner": "MrWaffle__MC760",
+      "loser": "_HETBEKN0A_",
+      "kit": "totem",
+      "time": 1741230044243,
+      "duration": 72307,
+      "health": 7.5
+    }
+  ]
+}

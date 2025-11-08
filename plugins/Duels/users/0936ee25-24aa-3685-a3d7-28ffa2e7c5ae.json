@@ -1,0 +1,29 @@
+{
+  "uuid": "0936ee25-24aa-3685-a3d7-28ffa2e7c5ae",
+  "name": "0987654567987654",
+  "wins": 0,
+  "losses": 2,
+  "requests": true,
+  "rating": {
+    "chiter": 1384,
+    "nodebaff": 1384
+  },
+  "matches": [
+    {
+      "winner": "SENIMO",
+      "loser": "0987654567987654",
+      "kit": "chiter",
+      "time": 1748342088874,
+      "duration": 31619,
+      "health": 6.5
+    },
+    {
+      "winner": "SENIMO",
+      "loser": "0987654567987654",
+      "kit": "nodebaff",
+      "time": 1748342088874,
+      "duration": 164486,
+      "health": 9.5
+    }
+  ]
+}

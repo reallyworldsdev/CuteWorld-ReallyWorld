@@ -1,0 +1,56 @@
+{
+  "uuid": "056c88d3-9372-3a2b-9b5e-1f77cc43f247",
+  "name": "xakirru",
+  "wins": 18,
+  "losses": 18,
+  "requests": true,
+  "rating": {
+    "classic": 1393,
+    "shari": 1401,
+    "nodebaff": 1426,
+    "chiter": 1415,
+    "nezerka": 1371
+  },
+  "matches": [
+    {
+      "winner": "xakirru",
+      "loser": "FIRAQL7685",
+      "kit": "chiter",
+      "time": 1749178843787,
+      "duration": 57686,
+      "health": 10.0
+    },
+    {
+      "winner": "FIRAQL7685",
+      "loser": "xakirru",
+      "kit": "nezerka",
+      "time": 1749178843787,
+      "duration": 38347,
+      "health": 0.5
+    },
+    {
+      "winner": "FIRAQL7685",
+      "loser": "xakirru",
+      "kit": "nezerka",
+      "time": 1749178843787,
+      "duration": 27974,
+      "health": 4.0
+    },
+    {
+      "winner": "almaziiik_11",
+      "loser": "xakirru",
+      "kit": "classic",
+      "time": 1749178843787,
+      "duration": 18404,
+      "health": 3.0
+    },
+    {
+      "winner": "xakirru",
+      "loser": "darhan3909",
+      "kit": "chiter",
+      "time": 1749178843787,
+      "duration": 150255,
+      "health": 4.5
+    }
+  ]
+}

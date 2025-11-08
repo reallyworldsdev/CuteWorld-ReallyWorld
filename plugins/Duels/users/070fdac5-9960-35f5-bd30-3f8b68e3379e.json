@@ -1,0 +1,53 @@
+{
+  "uuid": "070fdac5-9960-35f5-bd30-3f8b68e3379e",
+  "name": "Stulker1666",
+  "wins": 2,
+  "losses": 4,
+  "requests": true,
+  "rating": {
+    "shari": 1372,
+    "nezerka": 1403
+  },
+  "matches": [
+    {
+      "winner": "scally_top",
+      "loser": "Stulker1666",
+      "kit": "nezerka",
+      "time": 1742439646867,
+      "duration": 41009,
+      "health": 6.5
+    },
+    {
+      "winner": "scally_top",
+      "loser": "Stulker1666",
+      "kit": "nezerka",
+      "time": 1742439646867,
+      "duration": 29378,
+      "health": 10.0
+    },
+    {
+      "winner": "scally_top",
+      "loser": "Stulker1666",
+      "kit": "shari",
+      "time": 1742439646867,
+      "duration": 44113,
+      "health": 2.5
+    },
+    {
+      "winner": "kotik_uwu",
+      "loser": "Stulker1666",
+      "kit": "shari",
+      "time": 1742526041599,
+      "duration": 196366,
+      "health": 8.5
+    },
+    {
+      "winner": "Stulker1666",
+      "loser": "denci",
+      "kit": "nezerka",
+      "time": 1742526041599,
+      "duration": 52562,
+      "health": 10.0
+    }
+  ]
+}

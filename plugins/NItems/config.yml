@@ -1,0 +1,179 @@
+##############################################################
+#                                                            #
+#                                                            #
+#                     Coded by n1zamu!                       #
+#                                                            #
+#                                                            #
+##############################################################
+
+# %time% - плэйсхолдер для ножниц!
+draconid_totem:
+  material: "TOTEM_OF_UNDYING"
+  name: "&6Тотем Драконида"
+  lore:
+    - "&7Срабатывает, когда"
+    - "&7лежит в инвентаре"
+
+witch_totem:
+  material: "TOTEM_OF_UNDYING"
+  name: "&5Тотем Ведьмы"
+  lore:
+    - "&7Сохраняет эффекты"
+
+farm_ball:
+  name: "&aШар огородника"
+  lore:
+    - "&cПроклятие утраты"
+    - "&7Удача III (На растения)"
+    - ""
+    - "&7Когда во второй руке"
+    - "&7При нажатии SHIFT:"
+    - "&9Выращивает растения вокруг вас"
+  material: "PLAYER_HEAD"
+  notification:
+    sound: false # Звук при оповещении игрока
+    soundType: "ENTITY_EXPERIENCE_ORB_PICKUP" # Тип звука при оповещении
+
+    message: false # В виде сообщения в чат
+    messageText: "это убрано в зимнем вайпе (7 декабря)"
+
+    title: false # В виде сообщения на весь экран
+    titleText: "это убрано в зимнем вайпе (7 декабря)"
+
+
+regeneration_ball:
+  name: "&7&lШар Регенерации"
+  lore:
+    - "&cПроклятье утраты"
+    - ""
+    - "&7Когда во второй руке"
+    - "&7При нажатии SHIFT:"
+    - "&9Выдает регенерацию на 30 сек"
+    - ""
+  material: "PLAYER_HEAD"
+  notification:
+    sound: false # Звук при оповещении игрока
+    soundType: "ENTITY_EXPERIENCE_ORB_PICKUP" # Тип звука при оповещении
+
+    message: false # В виде сообщения в чат
+    messageText: "Вы использовали шар огородника"
+
+    title: false # В виде сообщения на весь экран
+    titleText: "Маладец растения выращены!"
+
+
+random_potion:
+  name: "&b&lРандомное зелье"
+  lore:
+    - "&9&kРандомное зелье"
+    - "&9Дает 3 случайных эффекта"
+  material: "POTION"
+
+random_egg:
+  name: "&b&lРандомное яйцо"
+  lore:
+    - ""
+    - "  &9Призывает: &k1234567"
+    - ""
+  material: "PIG_SPAWN_EGG"
+
+dracula_head:
+  name: "Башка дракулы"
+  lore:
+    - "Кровь + Трамадол"
+  material: "PLAYER_HEAD"
+
+clear_arrow:
+  name: "&f&lКлирик"
+  lore:
+    - "&9Очищает все эффекты с врага"
+  material: "TIPPED_ARROW"
+
+heart_of_hydra:
+  material: "HEART_OF_THE_SEA"
+  name: "&5Сердце Гидры"
+  lore:
+    - "&4При использовании сохраняет ваши вещи"
+
+shears:
+  material: "SHEARS"
+  name: "&6&lСупер Ножницы &7- &63 &7использований"
+  lore:
+    - "&7Использований: 3"
+    - "&7Этими ножницами можно &6ломать &7спавнера" # Важная строка, вместо 3 ставить количество использований
+    - "&7Время ломания: &625 секунд"
+    - ""
+
+scroll_of_exp:
+  material: "FLOWER_BANNER_PATTERN"
+  name: "&eСвиток опыта"
+  lore:
+    - ""
+    - "  &e%bar%  "
+    - "  &70 &fꐇ  "
+    - ""
+    - ""
+    - "&9Когда во второй руке:"
+    - "  &eСобирает в себя весь опыт"
+    - ""
+    - "&9Когда в основной руке:"
+    - "&9При нажатии ПКМ:"
+    - "  &eДает вам 5 опыта"
+    - ""
+
+anti_fly:
+  material: "FIREWORK_STAR"
+  name: "&5Анти Полет"
+  lore:
+    - "&cПроклятье утраты"
+    - ""
+    - "&7Когда во второй руке"
+    - "&7При нажатии SHIFT:"
+    - "&9Запрещает полеты в радиусе 16 блоков"
+  victimMessage: "&5Анти Полет &7» &cВы не можете взлететь!"
+  notification:
+    sound: true # Звук при оповещении игрока
+    soundType: "ENTITY_EXPERIENCE_ORB_PICKUP" # Тип звука при оповещении
+
+    message: true # В виде сообщения в чат
+    messageText: "&cЗадержка, Ожидайте"
+
+    title: false # В виде сообщения на весь экран
+    titleText: "Маладец растения выращены!"
+
+# Наименование аур и предметов в плагине
+region: "&4Регион тут!"
+spawnWorld: "spawn"
+
+witchTotemMessage: "&5Тотем Ведьмы &7» &aВы сохранили свои эффекты"
+draconidTotemMessage: "&6Тотем Драконида &7» &cПотрачен тотем"
+
+spawnLocation:
+  world: "spawn"
+  x: 0
+  y: 52
+  z: 0
+
+antiflyCooldown: 15
+antiflyCooldownMessage: "&5Анти Полет &8» &fПерезарядка &b%time% &fсек"
+# Параметры для шара огородника
+farmRadius: 15 # Радиус действия шара огородника
+farmCooldown: 30 # Время перезарядки шара огородника
+farmTexture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFmMzI4Yzg3YjA2ODUwOWFjYTk4MzRlZmFjZTE5NzcwNWZlNWQ0ZjA4NzE3MzFiN2IyMWNkOTliOWZkZGMifX19" # Текстура шара огородника
+
+
+farmBallCooldown: "&aШар огородника &8» &fПерезарядка &b%time% &fсек"
+
+# Шар гангренки (регенки)
+regenerationTime: 600
+regenerationCooldown: 90 # Время перезарядки шара огородника
+regenerationTexture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI0MDcwYzliNjY1OWVkMjViMmNhMTI2OTE1ZjRkODgyMGZhZmNlNDMyNGVkOWE4ZjRiOGE1MDYzNDUzMDdmIn19fQ==" # Текстура шара огородника
+regenerationBallCooldown: "&7&lШар регенерации &8» &fПерезарядка &b%time% &fсек"
+
+# Сообщения для действий с ножницами
+items:
+  shears:
+    inRegion: "&6Ножницы &8» &fВы находитесь в регионе!" # Сообщение для случая, когда игрок не может разрушить спаунер ножницами из-за региональных ограничений
+    isBreaked: "&6Ножницы &8» &fПодождите &6%time% &fсек" # Сообщение о необходимости подождать определенное время перед повторным использованием ножниц
+    cantBreak: "&6Ножницы &8» &fУ вас больше нет использований!" # Сообщение о невозможности разрушения спаунера ножницами из-за отсутствия использований
+    breakMessage: "&6Ножницы &8» &fНожницы сломались!" # Сообщение об успешном разрушении спаунера ножницами

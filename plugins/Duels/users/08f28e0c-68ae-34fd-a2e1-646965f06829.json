@@ -1,0 +1,20 @@
+{
+  "uuid": "08f28e0c-68ae-34fd-a2e1-646965f06829",
+  "name": "Netr1xzPC",
+  "wins": 1,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "shari": 1416
+  },
+  "matches": [
+    {
+      "winner": "Netr1xzPC",
+      "loser": "zxc_history",
+      "kit": "shari",
+      "time": 1748071838915,
+      "duration": 223121,
+      "health": 10.0
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "uuid": "02f9c83e-ffbf-3a37-8d09-8ee787f68425",
+  "name": "bwrw121",
+  "wins": 2,
+  "losses": 2,
+  "requests": true,
+  "rating": {
+    "classic": 1379,
+    "nodebaff": 1414
+  },
+  "matches": [
+    {
+      "winner": "zenyrw590124",
+      "loser": "bwrw121",
+      "kit": "classic",
+      "time": 1741316442755,
+      "duration": 19182,
+      "health": 8.0
+    },
+    {
+      "winner": "bwrw121",
+      "loser": "zenyrw590124",
+      "kit": "classic",
+      "time": 1741316442755,
+      "duration": 26964,
+      "health": 3.5
+    },
+    {
+      "winner": "zenyrw590124",
+      "loser": "bwrw121",
+      "kit": "classic",
+      "time": 1741316442755,
+      "duration": 20759,
+      "health": 8.5
+    },
+    {
+      "winner": "bwrw121",
+      "loser": "zenyrw590124",
+      "kit": "nodebaff",
+      "time": 1741316442755,
+      "duration": 295769,
+      "health": 7.5
+    }
+  ]
+}

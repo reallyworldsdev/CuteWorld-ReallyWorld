@@ -1,0 +1,26 @@
+id: '11'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: 0803f524-bd42-4265-8778-67ae52017ca4
+world: spawn
+location:
+  x: 73.30000001192093
+  y: 60.5
+  z: 10.563339695374339
+  yaw: 270.38535
+  pitch: -1.2639916
+type: player
+properties:
+  skin_right_leg: 'true'
+  skin_cape: 'true'
+  skin_left_sleeve: 'true'
+  skin_jacket: 'true'
+  skin_right_sleeve: 'true'
+  skin_left_leg: 'true'
+  skin_hat: 'true'
+hologram:
+  lines:
+  - '&6&lШАРЫ'
+actions:
+- lol.pyr.znpcsplus.interaction.consolecommand.ConsoleCommandAction;ZG0gb3BlbiBzcGhlcmUgJXBsYXllcl9uYW1lJQ==;1000;ANY_CLICK;0

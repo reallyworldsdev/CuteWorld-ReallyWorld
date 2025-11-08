@@ -1,0 +1,47 @@
+{
+  "uuid": "0471bdae-9ca0-39e4-bdb3-0aeedd0add62",
+  "name": "KakosYT",
+  "wins": 1,
+  "losses": 3,
+  "requests": true,
+  "rating": {
+    "shari": 1383,
+    "totem": 1416,
+    "chiter": 1386,
+    "bow": 1384
+  },
+  "matches": [
+    {
+      "winner": "KakosYT",
+      "loser": "Killis202",
+      "kit": "totem",
+      "time": 1748071838915,
+      "duration": 224151,
+      "health": 8.5
+    },
+    {
+      "winner": "Killis202",
+      "loser": "KakosYT",
+      "kit": "bow",
+      "time": 1748071838915,
+      "duration": 53607,
+      "health": 5.5
+    },
+    {
+      "winner": "Bricknman",
+      "loser": "KakosYT",
+      "kit": "chiter",
+      "time": 1748071838915,
+      "duration": 64937,
+      "health": 10.0
+    },
+    {
+      "winner": "Bricknman",
+      "loser": "KakosYT",
+      "kit": "shari",
+      "time": 1748071838915,
+      "duration": 24476,
+      "health": 10.0
+    }
+  ]
+}

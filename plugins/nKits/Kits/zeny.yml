@@ -1,0 +1,101 @@
+Name: zeny
+Cooldown: 0
+Permission: strictkits.kits.zeny
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"italic":false,"extra":[{"text":""},{"bold":true,"color":"gold","text":"Голова
+        Зени"}],"text":""}'
+      lore:
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"  "},{"color":"red","text":"-2
+        Броня"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"  "},{"color":"blue","text":"+0.5
+        Скорость атаки"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"  "},{"color":"blue","text":"+3
+        Урон"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: ''
+          slot: OFF_HAND
+          uuid: 7925317e-530e-48d8-a5b3-9dab38f13ecb
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.0
+          name: ''
+          slot: OFF_HAND
+          uuid: 6a6c50ce-0c35-476e-9804-9d884824261a
+          operation: 0
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.5
+          name: ''
+          slot: OFF_HAND
+          uuid: 7c9d9c37-a5f2-46c3-b869-302ba798f8e9
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/0WQTVLCMACFg6MzWr2BF3Dl0FL8WbAAWmk6JLUlDSQ7+uM0MYEOBYRsvIUXcDyIR/BG1pW7t/jem/eeBUAHnHioY4Gr2etOqefN+kWo0gJWq+pysxVlcwHOt+Vhu9uUjQVawzk4o0u1KzsP5THsLue2yntJlS2GIpJ+D5H8gA1zsMnfMGENXI2OmcPrbEJDPoZ3UFav2CsUIswgyTUj8QERKrDDWh72kVdUSGLBdSKheBN5EO65Vg1P+1U2T0UkQpyrWmUrxekYtvmJKoPEzjU1UNb3UOHpLHVFtGpEsQgbKNdiGSTd3Fvvp71/dqrtOtNU5vpJF+P+ji/ifTGhbhHQI589OHyODJNVFZG4j3Tqtp0UksO/fYaZouJkeGQE9dgcOYywLiKJRJ5vM+MbPPFd5KUOJk/tPq448V0saQVX9uNLPBgAcAlOYNGeeXoT/3Rvg+D9M7oORl8f3wD8AlzK+3mUAQAA
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

@@ -1,0 +1,83 @@
+Name: rune14
+Cooldown: 0
+Permission: greatkits.kits.rune14
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Шар
+        Кратоса 1"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"text":"  "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"+2.0
+        к Сопротивлению отбрасыванию"}],"text":""}'
+      enchants:
+        THORNS: 3
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_KNOCKBACK_RESISTANCE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.2
+          name: ResourceKey[minecraft:attribute / minecraft:generic.knockback_resistance]
+          slot: OFF_HAND
+          uuid: 65c6d75b-6e85-4298-bc24-fa60b19e9a2e
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PP07DMByFfyCQimFgY+UIjtMEZeiAaJs6apwmTdM6EkP/uG2CHao0QaQDHIEDcI0ycgGOwinwyPS+p+8tDwEguBo/1VKOyud1JgUCpGknyioT+wtoVeK1qkuxRwBw0oLzZC5rAUfReDidbfFq5sllQ23d4zGWAc13d7RImsUDtanSfnBvDxvn39aq5lNLctPbpkVYL1SCh2YkxSAylmrywgnHPkkUj/vKV9QK3NBIXW7ywwazQ5RpJlz1iK8mVhAzyVQkmZvmrNvPebwx+LRnadcO4jRjhLZ9nbQwnHXY6QBcwild6SNnX4/dH3rj3H68f36/od9rgD8r7SH1CgEAAA==
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

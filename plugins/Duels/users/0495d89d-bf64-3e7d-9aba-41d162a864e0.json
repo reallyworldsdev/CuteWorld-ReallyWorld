@@ -1,0 +1,20 @@
+{
+  "uuid": "0495d89d-bf64-3e7d-9aba-41d162a864e0",
+  "name": "Asanaliy",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "chiter": 1384
+  },
+  "matches": [
+    {
+      "winner": "I_NOT_HOT_krut",
+      "loser": "Asanaliy",
+      "kit": "chiter",
+      "time": 1741450341671,
+      "duration": 79561,
+      "health": 10.0
+    }
+  ]
+}

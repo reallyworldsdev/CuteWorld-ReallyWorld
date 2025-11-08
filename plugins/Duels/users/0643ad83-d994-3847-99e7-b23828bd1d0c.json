@@ -1,0 +1,56 @@
+{
+  "uuid": "0643ad83-d994-3847-99e7-b23828bd1d0c",
+  "name": "To4no_He_River",
+  "wins": 7,
+  "losses": 4,
+  "requests": true,
+  "rating": {
+    "classic": 1416,
+    "shari": 1416,
+    "nodebaff": 1399,
+    "chiter": 1416,
+    "nezerka": 1399
+  },
+  "matches": [
+    {
+      "winner": "taliki_123345",
+      "loser": "To4no_He_River",
+      "kit": "nezerka",
+      "time": 1748071838915,
+      "duration": 28896,
+      "health": 3.5
+    },
+    {
+      "winner": "taliki_123345",
+      "loser": "To4no_He_River",
+      "kit": "nezerka",
+      "time": 1748071838915,
+      "duration": 30670,
+      "health": 7.0
+    },
+    {
+      "winner": "To4no_He_River",
+      "loser": "taliki_123345",
+      "kit": "nodebaff",
+      "time": 1748071838915,
+      "duration": 279712,
+      "health": 2.5
+    },
+    {
+      "winner": "To4no_He_River",
+      "loser": "taliki_123345",
+      "kit": "nodebaff",
+      "time": 1748071838915,
+      "duration": 103642,
+      "health": 6.5
+    },
+    {
+      "winner": "taliki_123345",
+      "loser": "To4no_He_River",
+      "kit": "nodebaff",
+      "time": 1748071838915,
+      "duration": 223389,
+      "health": 5.0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "uuid": "0369f3dd-c078-3978-886e-af4acf7a070e",
+  "name": "Xanaxtrap",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "nezerka": 1387
+  },
+  "matches": [
+    {
+      "winner": "SiX6SiX6",
+      "loser": "Xanaxtrap",
+      "kit": "nezerka",
+      "time": 1748461697000,
+      "duration": 48759,
+      "health": 1.5
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "uuid": "0a32c01d-c77e-3155-96ec-0caec55c24e3",
+  "name": "helwymetalov",
+  "wins": 2,
+  "losses": 4,
+  "requests": true,
+  "rating": {
+    "classic": 1384,
+    "shari": 1401,
+    "nezerka": 1384
+  },
+  "matches": [
+    {
+      "winner": "scally_twink",
+      "loser": "helwymetalov",
+      "kit": "shari",
+      "time": 1742526041599,
+      "duration": 303772,
+      "health": 2.0
+    },
+    {
+      "winner": "helwymetalov",
+      "loser": "scally_twink",
+      "kit": "shari",
+      "time": 1742526041599,
+      "duration": 40603,
+      "health": 10.0
+    },
+    {
+      "winner": "scally_twink",
+      "loser": "helwymetalov",
+      "kit": "shari",
+      "time": 1742526041599,
+      "duration": 55228,
+      "health": 1.0
+    },
+    {
+      "winner": "scally_twink",
+      "loser": "helwymetalov",
+      "kit": "classic",
+      "time": 1742526041599,
+      "duration": 18604,
+      "health": 2.5
+    },
+    {
+      "winner": "scally_twink",
+      "loser": "helwymetalov",
+      "kit": "nezerka",
+      "time": 1742526041599,
+      "duration": 48640,
+      "health": 3.0
+    }
+  ]
+}

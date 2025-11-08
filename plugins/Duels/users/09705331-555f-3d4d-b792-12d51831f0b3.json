@@ -1,0 +1,57 @@
+{
+  "uuid": "09705331-555f-3d4d-b792-12d51831f0b3",
+  "name": "sadolbunov228",
+  "wins": 42,
+  "losses": 15,
+  "requests": true,
+  "rating": {
+    "classic": 1416,
+    "shari": 1543,
+    "totem": 1435,
+    "nodebaff": 1417,
+    "chiter": 1443,
+    "nezerka": 1416
+  },
+  "matches": [
+    {
+      "winner": "Legenda_den4ik",
+      "loser": "sadolbunov228",
+      "kit": "shari",
+      "time": 1742439646867,
+      "duration": 62455,
+      "health": 3.0
+    },
+    {
+      "winner": "sadolbunov228",
+      "loser": "Legenda_den4ik",
+      "kit": "shari",
+      "time": 1742439646867,
+      "duration": 131585,
+      "health": 8.5
+    },
+    {
+      "winner": "sadolbunov228",
+      "loser": "Legenda_den4ik",
+      "kit": "chiter",
+      "time": 1742439646867,
+      "duration": 156010,
+      "health": 10.0
+    },
+    {
+      "winner": "sadolbunov228",
+      "loser": "Xx_funo_xX",
+      "kit": "chiter",
+      "time": 1742439646867,
+      "duration": 61732,
+      "health": 7.0
+    },
+    {
+      "winner": "sadolbunov228",
+      "loser": "DSMEM2",
+      "kit": "shari",
+      "time": 1742439646867,
+      "duration": 40163,
+      "health": 10.0
+    }
+  ]
+}

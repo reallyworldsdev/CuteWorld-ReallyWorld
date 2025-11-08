@@ -1,0 +1,50 @@
+cooldownForNew: true # Выдавать кд на ломание новичкам
+timeForBreak: 900 # Время для новичков чтобы начать ломать подарки
+reloadOnQuit: false # Сбрасывать кд на ломание при перезаходе
+database: "SQLite" # YAML и SQLite доступные типы
+finalReward: true # Финальная награда
+finalRewardCommand: "cases give %player% present 3" # Команда для финальной награды
+time: # Названия времени в сообщениях
+  days: "дней"
+  hours: "часов"
+  minutes: "минут"
+  seconds: "секунд"
+messages: # Сообщения
+  rejoinToStart: "&bНовый Год &7» &cПерезайди чтобы начать отсчёт!"
+  successfullyCleared: "&bНовый Год &7» &aБаза данных успешно очищена!"
+  giveUsage: "&bНовый Год &7» Использование &f/nPresent give <player> <command>"
+  usage: "&bНовый Год &7» Использование &f/nPresent give/edit/clear/reload"
+  noPerm: "&bНовый Год &7» &cНедостаточно прав"
+  reloaded: "&bНовый Год &7» &aКонфиг был перезагружен!"
+  cantBreak: "&bНовый Год &7» &fНеобходимо отыграть еще &6%time% &fперед сбором подарка"
+  editCanceled: "&bНовый Год &7» &aРедактирование было выключено!"
+  editEnabled: "&bНовый Год &7» &aРедактирование было включено!"
+  presentRemoved: "&bНовый Год &7» &aПодарок удален!"
+  alreadyCollected: "&bНовый Год &7» &cВы уже собирали этот подарок!"
+  finalRewardMessage:
+    - "&6&l┌"
+    - "&6&l| &6Вы собрали все подарки!"
+    - "&6&l| &fВаша награда:"
+    - "&6&l|  &e3 новогодних подарка"
+    - "&6&l└"
+reward:
+  sendMessage: true
+  sendTitle: true
+  titleName: "&6&lВы нашли подарок!"
+  titleSubname: "&7Собрано &6%playerPresents% &7подарка из &6%totalPresents%&7!"
+  message:
+    - "&6&l┌"
+    - "&6&l| &6Вы нашли подарок!"
+    - "&6&l| &fВаша награда:"
+    - "&6&l|  &e2.000 монет"
+    - "&6&l└"
+  playSound: true
+  sound: "ENTITY_FIREWORK_ROCKET_BLAST"
+  animation: false
+  animationParticle: "FLAME"
+present: # Настройка подарка
+  name: "&bНовогодний Подарок"
+  texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDUwNWI3ZjhkNWQzYjkxMjYzMWM1YzFlZTZjYzViNjg1YThhZDRiYWU5YTk1NTJlOGZkZjdlNzExOTUxZjQifX19"
+  lore:
+    - "&fПри ломании будет использована команда:"
+    - "&6%command%"

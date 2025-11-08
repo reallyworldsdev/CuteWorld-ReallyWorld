@@ -1,0 +1,20 @@
+{
+  "uuid": "09b084f9-b403-3383-ba8b-480c612faca5",
+  "name": "MineXinec",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "nezerka": 1384
+  },
+  "matches": [
+    {
+      "winner": "GolimeniM",
+      "loser": "MineXinec",
+      "kit": "nezerka",
+      "time": 1747579074434,
+      "duration": 138360,
+      "health": 7.5
+    }
+  ]
+}

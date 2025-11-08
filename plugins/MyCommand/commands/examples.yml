@@ -1,0 +1,170 @@
+# 
+#  Plugin Documentation : https://dev.bukkit.org/projects/mycommand/pages/getstarted    							#
+#  Spigot https://www.spigotmc.org/resources/mycommand.22272/  Bukkit : https://dev.bukkit.org/projects/mycommand/	#
+hub:
+  command: /hub
+  type: BUNGEE_TP
+  register: true
+  server_name: Hub-1
+  permission-required: false
+buyer:
+  command: /buyer
+  type: RUN_COMMAND
+  register: true
+  runcmd:
+  - /nseller:buyer
+givett:
+  command: /givett
+  type: RUN_CONSOLE
+  runcmd:
+  - lp user $arg1 parent add tiktok
+  - '$text$&aВы успешно выдали &4ТТ'
+  permission-error: "§6CuteWorld §7» §fКоманда не найдена"
+  error-message: '&fИспользование: &e/givett <ник>'
+  permission-required: true
+  permission-node: give.curmedia2
+  register: true  
+giveyt:
+  command: /giveyt
+  type: RUN_CONSOLE
+  runcmd:
+  - lp user $arg1 parent add yt
+  - '$text$&aВы успешно выдали &4ЮТ'
+  permission-error: "§6CuteWorld §7» §fКоманда не найдена"
+  error-message: '&fИспользование: &e/giveyt <ник>'
+  permission-required: true
+  permission-node: give.curmedia1
+  register: true  
+seller:
+  command: /seller
+  type: RUN_COMMAND
+  register: true
+  runcmd:
+  - /nseller:buyer  
+ext:
+  command: /ext
+  type: RUN_COMMAND
+  register: true
+  runcmd:
+  - /eext  
+ext:
+  command: /ext
+  type: RUN_COMMAND
+  register: true
+  runcmd:
+  - /eext 
+voice:
+  command: /voice
+  type: RUN_COMMAND
+  register: true
+  runcmd:
+  - '$text$&6CuteWorld &7» &fСкачать голосовой чат можно тут:'
+  - $text$&6CuteWorld &7» &b&nforge 1.16.5&r &f| &b&nhttps://goo.su/2r9DfcC&r
+  - $text$&6CuteWorld &7» &b&nfabric 1.16.5&r &f| &b&nhttps://goo.su/PFQppo6&r
+  - $text$&6CuteWorld &7» &fДругие версии можно найти &b&nтут&r &f| &b&nhttps://goo.su/YU6txJr&r
+grant:
+  command: /grant
+  type: RUN_CONSOLE
+  runcmd:
+  - '$Script$%if%%luckperms_has_permission_grant.give%==yes'
+  - '$text$'
+  - '$text$ &c✕ Вы уже использовали эту возможность!'
+  - '$text$'
+  - '$Script$%elseif%$arg1==$player'
+  - '$text$'
+  - '$text$ &c✕ Нельзя выдать донат самому себе'
+  - '$text$'
+  - '$Script$%elseif%$arg2==helper'
+  - 'lp user $arg1 parent add offhelper'
+  - '$text$ &r                &6&m&l       &8&l&m[&6&l GR &8| &c&lSYSTEM &8&l&m]&6&m&l       &r&r'
+  - '$text$'
+  - '$text$ &6✔ &fВы успешно выдали §7§lʜᴇʟᴘᴇʀ &fигроку &e$arg1'
+  - '$text$'
+  - '$text$ &r                &6&m&l       &8&l&m[&6&l GR &8| &c&lSYSTEM &8&l&m]&6&m&l       &r&r'
+  - '$Script$%elseif%$arg2==moder'
+  - 'lp user $arg1 parent add offmoder'
+  - '$text$ &r                &6&m&l       &8&l&m[&6&l GR &8| &c&lSYSTEM &8&l&m]&6&m&l       &r&r'
+  - '$text$'
+  - '$text$ &6✔ &fВы успешно выдали §7§lᴍᴏᴅᴇʀ &fигроку &e$arg1'
+  - '$text$'
+  - '$text$ &r                &6&m&l       &8&l&m[&6&l GR &8| &c&lSYSTEM &8&l&m]&6&m&l       &r&r'
+  - '$Script$%elseif%$arg2==sthelper'
+  - 'lp user $arg1 parent add offsthelper'
+  - '$text$ &r                &6&m&l       &8&l&m[&6&l GR &8| &c&lSYSTEM &8&l&m]&6&m&l       &r&r'
+  - '$text$'
+  - '$text$ &6✔ &fВы успешно выдали §7§lsᴛ.ʜᴇʟᴘᴇʀ &fигроку &e$arg1'
+  - '$text$'
+  - '$text$ &r                &6&m&l       &8&l&m[&6&l GR &8| &c&lSYSTEM &8&l&m]&6&m&l       &r&r'
+  - '$Script$%elseif%$arg2==stmoder'
+  - 'lp user $arg1 parent add offstmoder'
+  - '$text$ &r                &6&m&l       &8&l&m[&6&l GR &8| &c&lSYSTEM &8&l&m]&6&m&l       &r&r'
+  - '$text$'
+  - '$text$ &6✔ &fВы успешно выдали §7§lsᴛ.ᴍᴏᴅᴇʀ &fигроку &e$arg1'
+  - '$text$'
+  - '$text$ &r                &6&m&l       &8&l&m[&6&l GR &8| &c&lSYSTEM &8&l&m]&6&m&l       &r&r'
+  - '$Script$%elseif%$arg2==glmoder'
+  - 'lp user $arg1 parent add offglmoder'
+  - '$text$ &r                &6&m&l       &8&l&m[&6&l GR &8| &c&lSYSTEM &8&l&m]&6&m&l       &r&r'
+  - '$text$'
+  - '$text$ &6✔ &fВы успешно выдали §7§lɢʟ.ᴍᴏᴅᴇʀ &fигроку &e$arg1'
+  - '$text$'
+  - '$text$ &r                &6&m&l       &8&l&m[&6&l GR &8| &c&lSYSTEM &8&l&m]&6&m&l       &r&r'
+  - '$Script$%elseif%$arg2==yt'
+  - 'lp user $arg1 parent add yt'
+  - '$text$ &r                &6&m&l       &8&l&m[&6&l GR &8| &c&lSYSTEM &8&l&m]&6&m&l       &r&r'
+  - '$text$'
+  - '$text$ &6✔ &fВы успешно выдали §7§lYT &fигроку &e$arg1'
+  - '$text$'
+  - '$text$ &r                &6&m&l       &8&l&m[&6&l GR &8| &c&lSYSTEM &8&l&m]&6&m&l       &r&r'
+  - '$Script$%elseif%$arg2==default'
+  - 'lp user $arg1 parent set default'
+  - '$text$ &r                &6&m&l       &8&l&m[&6&l GR &8| &c&lSYSTEM &8&l&m]&6&m&l       &r&r'
+  - '$text$'
+  - '$text$ &6✔ &fВы успешно выдали &8&lИГРОК &fигроку &e$arg1'
+  - '$text$'
+  - '$text$ &r                &6&m&l       &8&l&m[&6&l GR &8| &c&lSYSTEM &8&l&m]&6&m&l       &r&r'
+  permission-required: true
+  permission-node: gr.giverank
+  required_args: 2
+  register: true
+  error-message: '&6CuteWorld &7» &fИспользование: &e/grant <ник> <донат>'
+  tab_completer:
+    '1':
+    - $player_list
+    '2':
+    - offhelper
+    - offmoder
+    - offsthelper
+    - offstmoder
+    - offglmoder
+    - yt
+    - default
+glist:
+  command: /glist1
+  type: RUN_COMMAND
+  runcmd:
+  - '$text$&6Облако &7» &aСбор информации. Пожалуйста, подождите...'
+  - '$text$&6Облако &7» &fИгроков на хабе &6HUB&f: &6%bungee_hub-1%'
+  - '$text$&6Облако &7» &fИгроков на рв &6RW-1&f: &6%bungee_reallyworld%'
+  - '$text$&6Облако &7» &fИгроков на фт &6FUNTIME-1&f: &6%bungee_funtime%'
+  - '$text$&6Облако &7» &fОбщий онлайн: &6%bungee_total%'
+  permission-required: true
+  permission-node: group.admin+
+  register: true
+lishub:
+  command: /lishub
+  type: RUN_COMMAND
+  runcmd:
+  - '$text$&6Облако &7» &fИгроков на хабе &6HUB&f: &6%bungee_hub-1%'
+  permission-required: true
+  permission-node: group.admin+
+  register: true  
+bet:
+  command: /bet 
+  type: ALIAS
+  alias: /casino bet
+  register: true
+  tab_completer:
+    1:
+    - $player_list
+  permission-required: false

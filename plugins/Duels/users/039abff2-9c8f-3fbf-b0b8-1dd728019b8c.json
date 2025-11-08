@@ -1,0 +1,20 @@
+{
+  "uuid": "039abff2-9c8f-3fbf-b0b8-1dd728019b8c",
+  "name": "BroMax747",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "nezerka": 1384
+  },
+  "matches": [
+    {
+      "winner": "Dizlaid",
+      "loser": "BroMax747",
+      "kit": "nezerka",
+      "time": 1749610856188,
+      "duration": 34492,
+      "health": 10.0
+    }
+  ]
+}

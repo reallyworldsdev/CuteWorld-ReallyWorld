@@ -1,0 +1,20 @@
+{
+  "uuid": "0258eaa5-0835-310e-8f7c-bb6253e926ab",
+  "name": "Nikas213",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "classic": 1387
+  },
+  "matches": [
+    {
+      "winner": "CHOC_Razymom_Ezz",
+      "loser": "Nikas213",
+      "kit": "classic",
+      "time": 1748071838915,
+      "duration": 14146,
+      "health": 8.0
+    }
+  ]
+}

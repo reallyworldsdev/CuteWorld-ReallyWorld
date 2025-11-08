@@ -1,0 +1,247 @@
+menu_title: '&fꈁꀀꈂꌀꈂꀁ&0ꈃꄅ'
+register_command: true
+open_command:
+- shop
+size: 54
+items:
+  'clock':
+    material: structure_void
+    model_data: 10001
+    slot: 53
+    display_name: '&6ИНФОРМАЦИЯ'
+    lore:
+    - ''
+    - ' &fВаш баланс: &6%playerpoints_points% &x&F&F&B&A&0&0ꐃ'
+    - ''
+    - '&7Пополнить баланс можно'
+    - '&7на сайте: &6cuteworld.pw'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  'back':
+    material: structure_void
+    model_data: 10002
+    slot: 45
+    display_name: '&6◄ Назад'
+    left_click_commands:
+    - '[openguimenu] menu'
+    right_click_commands:
+    - '[openguimenu] menu'
+  'trizubec':
+    material: structure_void
+    model_data: 10108
+    slot: 22
+    display_name: '&6&lТрезубцы'
+    lore:
+    - ''
+    - '&7Хочешь купить себе трезубец?'
+    - '&7Тут ты сможешь себе его купить'
+    - ''
+    - '&eНажми, чтобы открыть'
+    left_click_commands:
+    - '[openguimenu] trizubec'
+    right_click_commands:
+    - '[openguimenu] trizubec'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'aura':
+    material: structure_void
+    model_data: 10109
+    enchantments:
+    - 'knockback;1'
+    slot: 24
+    display_name: '&6&lАуры'
+    lore:
+    - ''
+    - '&7Хочешь приобрести ауры?'
+    - '&7Тут ты можешь их купить'
+    - ''
+    - '&eНажми, чтобы открыть'
+    left_click_commands:
+    - '[openguimenu] aura'
+    right_click_commands:
+    - '[openguimenu] aura'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'magg':
+    material: structure_void
+    model_data: 10107
+    slot: 23
+    display_name: '&6&lТёмный маг'
+    lore:
+    - ''
+    - '&7Хочешь улучшить предмет на особое зачарование?'
+    - '&7Здесь это зачарование ты можешь приобрести!'
+    - ''
+    - '&eНажми, чтобы открыть'
+    left_click_commands:
+    - '[openguimenu] MAG'
+    right_click_commands:
+    - '[openguimenu] MAG'
+  'grief':
+    material: structure_void
+    model_data: 10100
+    slot: 12
+    display_name: '&6&lВсё для грифа'
+    lore:
+    - ''
+    - '&7Тут все самое необходимое'
+    - '&7Для успешного грифа'
+    - ''
+    - '&eНажми, чтобы открыть'
+    left_click_commands:
+    - '[openguimenu] grief'
+    right_click_commands:
+    - '[openguimenu] grief'
+  'case':
+    material: structure_void
+    model_data: 10101
+    slot: 20
+    display_name: '&6&lВсе для PVE'
+    lore:
+    - ''
+    - '&7Печки и зельеварки'
+    - '&7Которые тебе могут в развитии'
+    - '&7Покупай их тут!'
+    - ''
+    - '&eНажми, чтобы открыть'
+    left_click_commands:
+    - '[openguimenu] furnace'
+    right_click_commands:
+    - '[openguimenu] furnace'
+  '&6&lГоловы':
+    material: structure_void
+    model_data: 10102
+    slot: 21
+    display_name: '&6&lCезонные предметы'
+    lore:
+    - ''
+    - '&7Здесь вы можете купить'
+    - '&7Уникальные сезонные предметы'
+    - ''
+    - '&eНажми, чтобы открыть'
+    left_click_commands:
+    - '[openguimenu] shulker'
+    right_click_commands:
+    - '[openguimenu] shulker'
+  'sphere':
+    material: structure_void
+    model_data: 10104
+    enchantments:
+    - 'knockback;1'
+    slot: 13
+    display_name: '&6&lШары'
+    lore:
+    - ''
+    - '&7Хочешь быть сильнее в PvP?'
+    - '&7Эффекты этих шаров'
+    - '&7Тебе Несомненно помогут!'
+    - ''
+    - '&eНажми, чтобы открыть'
+    left_click_commands:
+    - '[openguimenu] sphere'
+    right_click_commands:
+    - '[openguimenu] sphere'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'spawner':
+    material: structure_void
+    model_data: 10103
+    slot: 14
+    display_name: '&6&lСпавнера'
+    lore:
+    - ''
+    - '&7Нужна фармилка с мобов?'
+    - '&7Спавнера продаются здесь!'
+    - ''
+    - '&eНажми, чтобы открыть'
+    left_click_commands:
+    - '[openguimenu] spawners'
+    right_click_commands:
+    - '[openguimenu] spawners'
+  'kitsssss':
+    material: structure_void
+    model_data: 10105
+    slot: 40
+    display_name: '&6&lКиты'
+    lore:
+    - ''
+    - '&7Здесь можно приобрести'
+    - '&7Любой кит с сервера'
+    - ''
+    - '&eНажми, чтобы открыть'
+    left_click_commands:
+    - '[openguimenu] kitsbuy'
+    right_click_commands:
+    - '[openguimenu] kitsbuy'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'zelki':
+    material: structure_void
+    model_data: 10110
+    enchantments:
+    - 'knockback;1'
+    hide_effects: true
+    potion_effects:
+    - NIGHT_VISION;9600;1
+    rgb: 255,0,213
+    slot: 31
+    effects: true
+    display_name: '&6&lДонат зелья'
+    lore:
+    - ''
+    - '&7Хочешь получить преимущество'
+    - '&7в PvP и PvE?'
+    - '&7Тут ты можешь купить самые полезные'
+    - '&7Зельки и стрелы!'
+    - ''
+    - '&eНажми, чтобы открыть'
+    left_click_commands:
+    - '[openguimenu] zelki'
+    right_click_commands:
+    - '[openguimenu] zelki'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'ender_kits':
+    material: structure_void
+    model_data: 10111
+    slot: 30
+    display_name: '&6&lПрокачка эндерчеста'
+    lore:
+    - ''
+    - '&7Не хватает слотов в эндерчесте?'
+    - '&7Здесь можно прокачать количество'
+    - '&7Строк в эндер сундуке'
+    - ''
+    - '&eНажми, чтобы открыть'
+    left_click_commands:
+    - '[player] nenderchest buy'
+    right_click_commands:
+    - '[player] nenderchest buy'
+  '1ender_kits':
+    material: structure_void
+    model_data: 10106
+    slot: 32
+    display_name: '&6&lБустеры работ'
+    lore:
+    - ''
+    - '&7Мало платят на работе?'
+    - '&7Эти бустеры удвоят твою зарплату'
+    - '&7Ты можешь сдесь их приобрести'
+    - ''
+    - '&eНажми, чтобы открыть'
+    left_click_commands:
+    - '[openguimenu] booster'
+    right_click_commands:
+    - '[openguimenu] booster'

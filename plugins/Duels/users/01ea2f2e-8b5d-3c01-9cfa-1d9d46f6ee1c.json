@@ -1,0 +1,28 @@
+{
+  "uuid": "01ea2f2e-8b5d-3c01-9cfa-1d9d46f6ee1c",
+  "name": "LeSoulles_4on",
+  "wins": 2,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "chiter": 1431
+  },
+  "matches": [
+    {
+      "winner": "LeSoulles_4on",
+      "loser": "topKILLSaboba",
+      "kit": "chiter",
+      "time": 1742439646867,
+      "duration": 182129,
+      "health": 3.5
+    },
+    {
+      "winner": "LeSoulles_4on",
+      "loser": "kotik_uwu",
+      "kit": "chiter",
+      "time": 1742439646867,
+      "duration": 35606,
+      "health": 9.0
+    }
+  ]
+}

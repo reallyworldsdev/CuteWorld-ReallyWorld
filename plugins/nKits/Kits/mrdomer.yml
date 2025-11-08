@@ -1,0 +1,101 @@
+Name: mrdomer
+Cooldown: 0
+Permission: strictkits.kits.mrdomer
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"italic":false,"extra":[{"text":""},{"bold":true,"color":"white","text":"Голова
+        Домера"}],"text":""}'
+      lore:
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"  "},{"color":"blue","text":"+3
+        Отбрасывающая атака"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"  "},{"color":"blue","text":"+20  Максимальное
+        здоровье"}],"text":""}'
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"text":"  "},{"color":"blue","text":"+30%
+        Скорость"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 20.0
+          name: ''
+          slot: OFF_HAND
+          uuid: dd11babf-6173-4805-a149-a40e880b9ef7
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.3
+          name: ''
+          slot: OFF_HAND
+          uuid: 4bacc47b-da7a-4727-94b8-a8dc663eea74
+          operation: 1
+        GENERIC_ATTACK_KNOCKBACK:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_knockback]
+          slot: OFF_HAND
+          uuid: 2d90590d-9bc0-4f7e-805f-56eb816c8bf5
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/z2PT07CQBjFP4gmOHqYAQRDDAsTS2nDTKX0H7PDdrCt36AprZS5hmdwBafyAiaewFm5er+3+L3kEYAOdB9Zh8DN6rVBfKretgVKAsTQu6zqQu6voFfLtm4quSdghB5cRhtsJJzl0Ec59/upirS3q4MVRc+k6Yexo3KazR/Gi+OEisRw4mJ6HNWbeITroZuL3bJ5VhFd/G+EH7x0Dlxn5Vr5ObMjxQes9YKw5YNZzstUM231RWxcxdGzWcuCl1bYMxTKR6bzgpchZRoLEVuaBZbm2tGicCfbhE4BrqHrZObAxT2cPk+3Hn79Tv2fu+Ab4A//6s5/CAEAAA==
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

@@ -1,0 +1,45 @@
+{
+  "uuid": "030a497f-bc98-3cc2-91d3-bfb097ddfacd",
+  "name": "hypakabra",
+  "wins": 1,
+  "losses": 3,
+  "requests": true,
+  "rating": {
+    "classic": 1370,
+    "shari": 1403
+  },
+  "matches": [
+    {
+      "winner": "babibzhon777",
+      "loser": "hypakabra",
+      "kit": "shari",
+      "time": 1748461697000,
+      "duration": 76004,
+      "health": 10.0
+    },
+    {
+      "winner": "darkk3d",
+      "loser": "hypakabra",
+      "kit": "classic",
+      "time": 1748461697000,
+      "duration": 37801,
+      "health": 9.0
+    },
+    {
+      "winner": "hypakabra",
+      "loser": "balerina",
+      "kit": "shari",
+      "time": 1748461697000,
+      "duration": 166695,
+      "health": 10.0
+    },
+    {
+      "winner": "darkk3d",
+      "loser": "hypakabra",
+      "kit": "classic",
+      "time": 1748461697000,
+      "duration": 21029,
+      "health": 4.5
+    }
+  ]
+}

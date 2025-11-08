@@ -1,0 +1,92 @@
+menu_title: '&fꈁꀀꈂꌅꈂꀁ&0ꈃꄂ'
+open_command:
+- warpiserverniye
+size: 53
+items:
+  '1':
+    display_name: '&r&#aaaaaaВарп &r&#555555- &r&#ffaa00pvp&r'
+    slot: 1
+    material: netherite_sword
+    left_click_commands:  
+    - '[player] warp pvp'
+    hide_attributes: true
+  '2':
+    display_name: '&r&#aaaaaaВарп &r&#555555- &r&#ffaa00ah&r'
+    slot: 2
+    material: gold_nugget
+    left_click_commands:  
+    - '[player] warp ah'
+    hide_attributes: true
+  '3':
+    display_name: '&r&#aaaaaaВарп &r&#555555- &r&#ffaa00les&r'
+    slot: 3
+    material: netherite_axe
+    left_click_commands:  
+    - '[player] warp les'
+    hide_attributes: true
+  '4':
+    display_name: '&r&#aaaaaaВарп &r&#555555- &r&#ffaa00ad&r'
+    slot: 4
+    left_click_commands:  
+    - '[player] warp ad'
+    material: netherite_ingot
+    
+    hide_attributes: true
+  '5':
+    display_name: '&r&#aaaaaaВарп &r&#555555- &r&#ffaa00end&r'
+    slot: 5
+    material: ender_pearl
+    left_click_commands:  
+    - '[player] warp end'
+    hide_attributes: true
+  '6':
+    display_name: '&r&#aaaaaaВарп &r&#555555- &r&#ffaa00case&r'
+    slot: 6
+    material: ender_chest
+    left_click_commands:  
+    - '[player] warp case'
+    hide_attributes: true
+  '7':
+    display_name: '&r&#aaaaaaВарп &r&#555555- &r&#ffaa00fish&r'
+    slot: 7
+    material: fishing_rod
+    left_click_commands:  
+    - '[player] warp fish'
+    hide_attributes: true
+  '10':
+    display_name: '&r&#aaaaaaВарп &r&#555555- &r&#ffaa00mine&r'
+    slot: 10
+    material: netherite_pickaxe
+    left_click_commands:  
+    - '[player] warp mine'
+    hide_attributes: true
+  '11':
+    display_name: '&r&#aaaaaaВарп &r&#555555- &r&#ffaa00farm&r'
+    slot: 11
+    material: golden_hoe
+    left_click_commands:  
+    - '[player] warp farm'
+    hide_attributes: true
+  '12':
+    display_name: '&r&#aaaaaaВарп &r&#555555- &r&#ffaa00casino&r'
+    slot: 12
+    material: sunflower
+    left_click_commands:  
+    - '[player] warp casino'
+    hide_attributes: true
+  '13':
+    display_name: '&r&#aaaaaaВарп &r&#555555- &r&#ffaa00case&r'
+    slot: 13
+    material: shulker
+    left_click_commands:  
+    - '[player] warp case'
+    hide_attributes: true
+  'back':
+    material: structure_void
+    model_data: 10004
+    slot: 49
+    display_name: '&eВ главное меню'
+    left_click_commands:
+    - '[openguimenu] warps'
+    right_click_commands:
+    - '[openguimenu] warps'

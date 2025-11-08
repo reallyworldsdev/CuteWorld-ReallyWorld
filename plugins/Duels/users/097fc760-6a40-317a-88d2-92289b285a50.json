@@ -1,0 +1,20 @@
+{
+  "uuid": "097fc760-6a40-317a-88d2-92289b285a50",
+  "name": "artemCCPP",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "shari": 1384
+  },
+  "matches": [
+    {
+      "winner": "RETRO48",
+      "loser": "artemCCPP",
+      "kit": "shari",
+      "time": 1748919635676,
+      "duration": 238321,
+      "health": 7.0
+    }
+  ]
+}

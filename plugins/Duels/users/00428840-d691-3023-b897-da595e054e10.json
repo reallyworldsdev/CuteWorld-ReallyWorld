@@ -1,0 +1,29 @@
+{
+  "uuid": "00428840-d691-3023-b897-da595e054e10",
+  "name": "Apothecary_Blood",
+  "wins": 0,
+  "losses": 2,
+  "requests": true,
+  "rating": {
+    "classic": 1384,
+    "chiter": 1384
+  },
+  "matches": [
+    {
+      "winner": "CelestialPonos",
+      "loser": "Apothecary_Blood",
+      "kit": "classic",
+      "time": 1741450341671,
+      "duration": 56955,
+      "health": 5.0
+    },
+    {
+      "winner": "CelestialPonos",
+      "loser": "Apothecary_Blood",
+      "kit": "chiter",
+      "time": 1741450341671,
+      "duration": 38752,
+      "health": 10.0
+    }
+  ]
+}

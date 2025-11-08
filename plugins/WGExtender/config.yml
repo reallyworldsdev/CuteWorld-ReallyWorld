@@ -1,0 +1,77 @@
+claim:
+  vertexpand: false
+  blocklimits:
+    enabled: true
+    limits:
+      default: 250000
+      hero: 275000
+      titan: 275000
+      avenger: 275000
+      overlord: 300000
+      magister: 300000
+      imperator: 300000
+      dragon: 325000
+      bunny: 375000
+      hydra: 375000
+      tiger: 375000
+      dracula: 375000
+      rabbit: 375000
+      ghost: 375000
+      viking: 375000
+      cobra: 375000
+      artik: 375000
+      yt: 250000
+      yt+: 500000
+      tiktok: 270000
+      dhelper: 400000
+      cute: 550000
+      helper: 500000
+      sthelper: 525000
+      moder: 999999
+      stmoder: 999999
+      offmoder: 999999
+      offglmoder: 999999
+      offhelper: 500000
+      offsthelper: 525000
+      offstmoder: 999999
+      glmoder: 999999
+      ytcurator: 999999
+      curator: 999999
+      mladmin: 999999
+      dadmin: 999999
+      don_admin: 999999
+regionprotect:
+  flow:
+    lava: false
+    water: false
+    other: false
+  fire:
+    spread:
+      toregion: false
+      inregion: false
+    burn: false
+  explosion:
+    block: false
+    entity: false
+autoflags:
+  enabled: true
+  flags:
+    creeper-explosion: DENY
+    mob-spawning: allow
+    pvp: ALLOW
+    other-explosion: DENY
+    potion-splash: ALLOW
+    tnt: DENY
+    lightning: DENY
+restrictcommands:
+  enabled: true
+  commands:
+  - cmi:sethome
+  - cmi:setwarp
+  - cmi setwarp
+  - cmi sethome
+  - sethome
+  - setwarp
+extendedwewand: false
+misc:
+  pvpmode: allow

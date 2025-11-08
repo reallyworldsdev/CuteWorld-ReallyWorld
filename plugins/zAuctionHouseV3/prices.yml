@@ -1,0 +1,28 @@
+#########################################################################################################################################
+#
+#
+#   Sponsor: https://serveur-minecraft-vote.fr/
+#   Documentation: https://zauctionhouse.groupez.dev/
+#   Discord: https://discord.groupez.dev/
+# 
+#   Configuration of prices limit by items 
+#   Dont forget to set 'enableMinMaxPricePerItems' to true in config.json if you want to use this prices limit
+#
+#########################################################################################################################################
+
+prices:
+  exampleA: 
+    minPrice: 10 # Minimum item price
+    maxPrice: 100000 # Maximum item price
+    onlyMaterial: false # Allows to check only the material if its true
+    item: # Item configuration
+      material: STONE 
+      name: "My stone"
+  exampleB:
+    minPrice: 999 # Maximum item price
+    maxPrice: 9999 # Maximum item price
+    onlyMaterial: true # Allows to check only the material if its true
+    item: # Item configuration
+      material: IRON_INGOT
+
+# 2147029284303451685461249

@@ -1,0 +1,920 @@
+# ТВОЯ ЖОПА ВЗЛОМАНА БАЙ КИТАЕЕЦ
+op-protection: true
+allowed-operators:
+  - wxrityyy
+#If you try to Op someone who isn't in the list
+op-message: "&cThe Player isn't a listed operator!"
+#Players who are operators and are not in the list can't connect and will be deop'ed.
+unauthorized-operator-kick-message: '&cYou are not allowed to be an operator'
+
+#Message if you type a blocked command | Enter none to disable
+blocked-command-message: "&6CuteWorld &7» &fКоманда не найдена"
+#Message shown if you type /pl | Enter none to disable | Players with the permission plhide.bypass will see the real plugins
+/pl-message: 'ты шо тут ищешь а?'
+
+#Stay on the newest version to get better features!
+#Enable or disable automatic ingame update notification on join
+update-notify: false
+
+groups:
+  #if no group is set via plhide.group.<group> this will be applied
+  #do not rename the default group!
+  #blocked commands will be automatically removed from the tabcompletion
+  default:
+    commands:
+      - buycase
+      - /set
+      - events
+      - repairexp
+      - set
+      - casino bet
+      - spectate
+      - bet
+      - casino
+      - nenderchest open
+      - nenderchest buy
+      - spec
+      - lonyspec:spec
+      - spec
+      - setwarp
+      - hub
+      - tpa
+      - spawn
+      - bp
+      - warpiserverniye
+      - battlepass
+      - tpaccept
+      - tpyes
+      - video
+      - stream
+      - pas
+      - tpdeny
+      - tell
+      - /undo
+      - undo
+      - vipe
+      - pm
+      - tpacancel
+      - call
+      - warp
+      - ah
+      - warps
+      - furnace
+      - gaga
+      - nether
+      - gamemode
+      - gm
+      - beff
+      - tufi
+      - topkajobs
+      - topkajobs pass
+      - jobs
+      - jobs pass
+      - luksik
+      - boss
+      - boss leave
+      - siege
+      - zeny
+      - nell
+      - viper
+      - bravo
+      - hvh
+      - piona
+      - pioner
+      - aqua
+      - fonix
+      - hardy
+      - spec
+      - megagrief
+      - halyava
+      - vzlom4ik
+      - dane4ka
+      - zolo
+      - ivanzolo
+      - legynda
+      - hukes
+      - l1roze
+      - legenda322
+      - hero
+      - titan
+      - avenger
+      - rg i
+      - topkapotions
+      - stacker
+      - potions
+      - rg info
+      - region info
+      - region i
+      - msg
+      - tell
+      - duel
+      - duels
+      - kondr
+      - domer
+      - dragon
+      - m
+      - pm
+      - sethome
+      - home
+      - lobby
+      - hub
+      - homes
+      - delhome
+      - balance
+      - zpotions:stacker
+      - zpotions:potions
+      - bal
+      - baltop
+      - pay
+      - seller
+      - code
+      - clan
+      - /wand
+      - wand
+      - rg
+      - region
+      - /pos1
+      - /pos2
+      - pos1
+      - pos2
+      - menu
+      - free
+      - donate
+      - putivoditer
+      - reward
+      - kit
+      - kits
+      - rewards
+      - jobs
+      - quest
+      - shop
+      - buyer
+      - nseller:buyer
+      - boss join
+      - siege join
+      - siege
+      - rtp far
+      - rtp near
+      - rtp safe
+      - rtp
+      - killer
+      - stacker
+      - njobs pass
+      - njobs
+      - contract
+      - ncontract
+      - nreport
+      - report
+      - aura232w
+      - furnace5557453465
+      - grief4757
+      - xkitsbuyyss342343ssssss
+      - maggg41241
+      - sezonpredmet2533333333333
+      - shulker245235235
+      - spawners346346
+      - spawner34643634
+      - spheres25325
+      - trizubec23523523
+      - zelki235523523
+      - sneg
+      - emsg
+      - msg
+      - essentials:msg
+      - plus
+      - sneguroka
+      - codes
+      - pvp
+      - expand
+      - /expand
+      - irandomteleport
+      - voice
+      - trade
+      - trade accept
+      - trade deny
+      - trade toggle
+      - ec
+      - trade player
+      - p pay
+    #If the value is blacklist, the commands are blocked and invisible
+    #If the value is whitelist, the commands only executable and visible
+    group-mode: whitelist
+    #If a player is in two groups, the group with the higher priority number is used
+    #The minimum value is 0
+    priority: 0
+    #here you can add other groups
+    #The group mode is taken from the main group, in this case the main group is "default"
+    included-groups:
+  hero:
+    commands:
+      - craft
+      - workbench
+      - recipe
+      - getpos
+      - spec
+    #If the value is blacklist, the commands are blocked and invisible
+    #If the value is whitelist, the commands only executable and visible
+    group-mode: whitelist
+    #If a player is in two groups, the group with the higher priority number is used
+    #The minimum value is 0
+    priority: 1
+    #here you can add other groups
+    #The group mode is taken from the main group, in this case the main group is "default"
+    included-groups:
+      - default
+  titan:
+    commands:
+      - hat
+      - feed
+    #If the value is blacklist, the commands are blocked and invisible
+    #If the value is whitelist, the commands only executable and visible
+    group-mode: whitelist
+    #If a player is in two groups, the group with the higher priority number is used
+    #The minimum value is 0
+    priority: 2
+    #here you can add other groups
+    #The group mode is taken from the main group, in this case the main group is "default"
+    included-groups:
+      - default
+      - hero
+  avenger:
+    commands:
+      - spec
+      - ci
+      - enderchest
+      - ext
+      - eext
+      - ignore
+      - clear
+      - essentials:clear
+      - essentials:clean
+      - essentials:clearconfirmoff
+      - essentials:clearconfirmon
+      - essentials:clearinvent
+      - essentials:clearinventory
+      - essentials:clearinventoryconfirmoff
+      - essentials:clearinventoryconfirmofftoggle
+      - clearconfirm
+      - clearconfirmoff
+      - clearconfirmon
+      - clearinvent
+      - clearinventory
+      - clearinventoryconfirmoff
+      - clearinventoryconfirmtoggle
+      - ci
+      - essentials:ci
+    #If the value is blacklist, the commands are blocked and invisible
+    #If the value is whitelist, the commands only executable and visible
+    group-mode: whitelist
+    #If a player is in two groups, the group with the higher priority number is used
+    #The minimum value is 0
+    priority: 3
+    #here you can add other groups
+    #The group mode is taken from the main group, in this case the main group is "default"
+    included-groups:
+      - default
+      - hero
+      - titan
+  overlord:
+    commands:
+      - fix
+      - spec
+      - repair
+      - near
+      - ptime
+    #If the value is blacklist, the commands are blocked and invisible
+    #If the value is whitelist, the commands only executable and visible
+    group-mode: whitelist
+    #If a player is in two groups, the group with the higher priority number is used
+    #The minimum value is 0
+    priority: 4
+    #here you can add other groups
+    #The group mode is taken from the main group, in this case the main group is "default"
+    included-groups:
+      - default
+      - hero
+      - titan
+      - avenger
+  magister:
+    commands:
+      - nick
+      - invsee
+      - spec
+      - fix all
+      - repair all
+      - heal
+      - tptoggle
+    #If the value is blacklist, the commands are blocked and invisible
+    #If the value is whitelist, the commands only executable and visible
+    group-mode: whitelist
+    #If a player is in two groups, the group with the higher priority number is used
+    #The minimum value is 0
+    priority: 5
+    #here you can add other groups
+    #The group mode is taken from the main group, in this case the main group is "default"
+    included-groups:
+      - default
+      - hero
+      - titan
+      - avenger
+      - overlord
+  imperator:
+    commands:
+      - bc
+      - broadcast
+      - spec
+      - realname
+      - rtp near
+    #If the value is blacklist, the commands are blocked and invisible
+    #If the value is whitelist, the commands only executable and visible
+    group-mode: whitelist
+    #If a player is in two groups, the group with the higher priority number is used
+    #The minimum value is 0
+    priority: 6
+    #here you can add other groups
+    #The group mode is taken from the main group, in this case the main group is "default"
+    included-groups:
+      - default
+      - hero
+      - titan
+      - avenger
+      - overlord
+      - magister
+  dragon:
+    commands:
+      - fly
+      - day
+      - spec
+      - sun
+    #If the value is blacklist, the commands are blocked and invisible
+    #If the value is whitelist, the commands only executable and visible
+    group-mode: whitelist
+    #If a player is in two groups, the group with the higher priority number is used
+    #The minimum value is 0
+    priority: 7
+    #here you can add other groups
+    #The group mode is taken from the main group, in this case the main group is "default"
+    included-groups:
+      - default
+      - hero
+      - titan
+      - avenger
+      - overlord
+      - magister
+      - imperator
+  dragon:
+    commands:
+      - fly
+      - day
+      - spec
+      - sun
+    #If the value is blacklist, the commands are blocked and invisible
+    #If the value is whitelist, the commands only executable and visible
+    group-mode: whitelist
+    #If a player is in two groups, the group with the higher priority number is used
+    #The minimum value is 0
+    priority: 7
+    #here you can add other groups
+    #The group mode is taken from the main group, in this case the main group is "default"
+    included-groups:
+      - default
+      - hero
+      - titan
+      - avenger
+      - overlord
+      - magister
+      - imperator
+  bull:
+    commands:
+    #If the value is blacklist, the commands are blocked and invisible
+    #If the value is whitelist, the commands only executable and visible
+    group-mode: whitelist
+    #If a player is in two groups, the group with the higher priority number is used
+    #The minimum value is 0
+    priority: 8
+    #here you can add other groups
+    #The group mode is taken from the main group, in this case the main group is "default"
+    included-groups:
+      - default
+      - hero
+      - titan
+      - avenger
+      - overlord
+      - magister
+      - imperator
+      - dragon
+  bull:
+    commands:
+    #If the value is blacklist, the commands are blocked and invisible
+    #If the value is whitelist, the commands only executable and visible
+    group-mode: whitelist
+    #If a player is in two groups, the group with the higher priority number is used
+    #The minimum value is 0
+    priority: 8
+    #here you can add other groups
+    #The group mode is taken from the main group, in this case the main group is "default"
+    included-groups:
+      - default
+      - hero
+      - titan
+      - avenger
+      - overlord
+      - magister
+      - imperator
+      - dragon
+  tiger:
+    commands:
+    #If the value is blacklist, the commands are blocked and invisible
+    #If the value is whitelist, the commands only executable and visible
+    group-mode: whitelist
+    #If a player is in two groups, the group with the higher priority number is used
+    #The minimum value is 0
+    priority: 8
+    #here you can add other groups
+    #The group mode is taken from the main group, in this case the main group is "default"
+    included-groups:
+      - default
+      - hero
+      - titan
+      - avenger
+      - overlord
+      - magister
+      - imperator
+      - dragon
+  dracula:
+    commands:
+    #If the value is blacklist, the commands are blocked and invisible
+    #If the value is whitelist, the commands only executable and visible
+    group-mode: whitelist
+    #If a player is in two groups, the group with the higher priority number is used
+    #The minimum value is 0
+    priority: 8
+    #here you can add other groups
+    #The group mode is taken from the main group, in this case the main group is "default"
+    included-groups:
+      - default
+      - hero
+      - titan
+      - avenger
+      - overlord
+      - magister
+      - imperator
+      - dragon
+  bunny:
+    commands:
+    #If the value is blacklist, the commands are blocked and invisible
+    #If the value is whitelist, the commands only executable and visible
+    group-mode: whitelist
+    #If a player is in two groups, the group with the higher priority number is used
+    #The minimum value is 0
+    priority: 8
+    #here you can add other groups
+    #The group mode is taken from the main group, in this case the main group is "default"
+    included-groups:
+      - default
+      - hero
+      - titan
+      - avenger
+      - overlord
+      - magister
+      - imperator
+      - dragon
+  rabbit:
+    commands:
+    #If the value is blacklist, the commands are blocked and invisible
+    #If the value is whitelist, the commands only executable and visible
+    group-mode: whitelist
+    #If a player is in two groups, the group with the higher priority number is used
+    #The minimum value is 0
+    priority: 8
+    #here you can add other groups
+    #The group mode is taken from the main group, in this case the main group is "default"
+    included-groups:
+      - default
+      - hero
+      - titan
+      - avenger
+      - overlord
+      - magister
+      - imperator
+      - dragon
+  hydra:
+    commands:
+    #If the value is blacklist, the commands are blocked and invisible
+    #If the value is whitelist, the commands only executable and visible
+    group-mode: whitelist
+    #If a player is in two groups, the group with the higher priority number is used
+    #The minimum value is 0
+    priority: 8
+    #here you can add other groups
+    #The group mode is taken from the main group, in this case the main group is "default"
+    included-groups:
+      - default
+      - hero
+      - titan
+      - avenger
+      - overlord
+      - magister
+      - imperator
+      - dragon
+  dhelper:
+    commands:
+    #If the value is blacklist, the commands are blocked and invisible
+    #If the value is whitelist, the commands only executable and visible
+    group-mode: whitelist
+    #If a player is in two groups, the group with the higher priority number is used
+    #The minimum value is 0
+    priority: 8
+    #here you can add other groups
+    #The group mode is taken from the main group, in this case the main group is "default"
+    included-groups:
+      - default
+      - hero
+      - titan
+      - avenger
+      - overlord
+      - magister
+      - imperator
+      - dragon
+  artik:
+    commands:
+      - mute
+      - tempmute
+      - p pay
+      - tempmute
+      - p
+      - point pay
+      - p pay
+      - playerpoints pay
+      - playerpoints
+      - spec
+      - points pay
+      - points
+      - unmute
+      - checkmute
+      - mute
+    #If the value is blacklist, the commands are blocked and invisible
+    #If the value is whitelist, the commands only executable and visible
+    group-mode: whitelist
+    #If a player is in two groups, the group with the higher priority number is used
+    #The minimum value is 0
+    priority: 9
+    #here you can add other groups
+    #The group mode is taken from the main group, in this case the main group is "default"
+    included-groups:
+      - default
+      - hero
+      - titan
+      - avenger
+      - overlord
+      - magister
+      - imperator
+      - dragon
+      - helper
+  yt:
+    commands:
+      - god
+    #If the value is blacklist, the commands are blocked and invisible
+    #If the value is whitelist, the commands only executable and visible
+    group-mode: whitelist
+    #If a player is in two groups, the group with the higher priority number is used
+    #The minimum value is 0
+    priority: 8
+    #here you can add other groups
+    #The group mode is taken from the main group, in this case the main group is "default"
+    included-groups:
+      - default
+      - hero
+      - titan
+      - avenger
+      - overlord
+      - magister
+      - imperator
+      - dragon
+  yt+:
+    commands:
+    #If the value is blacklist, the commands are blocked and invisible
+    #If the value is whitelist, the commands only executable and visible
+    group-mode: whitelist
+    #If a player is in two groups, the group with the higher priority number is used
+    #The minimum value is 0
+    priority: 8
+    #here you can add other groups
+    #The group mode is taken from the main group, in this case the main group is "default"
+    included-groups:
+      - default
+      - hero
+      - titan
+      - avenger
+      - overlord
+      - magister
+      - imperator
+      - dragon
+  helper:
+    commands:
+      - spy
+      - grim alerts
+      - grim verbose
+      - fly
+      - tempmute
+      - spec
+      - mute
+      - unmute
+      - checkmute
+      - mutelist
+      - sw
+      - staffwork
+      - sc
+      - c
+      - sw stats
+      - god
+      - staffwork stats
+    #If the value is blacklist, the commands are blocked and invisible
+    #If the value is whitelist, the commands only executable and visible
+    group-mode: whitelist
+    #If a player is in two groups, the group with the higher priority number is used
+    #The minimum value is 0
+    priority: 9
+    #here you can add other groups
+    #The group mode is taken from the main group, in this case the main group is "default"
+    included-groups:
+      - default
+      - hero
+      - titan
+      - avenger
+      - overlord
+      - magister
+      - imperator
+      - dragon
+  sthelper:
+    commands:
+      - grim
+      - check
+      - ban
+      - tempban
+    #If the value is blacklist, the commands are blocked and invisible
+    #If the value is whitelist, the commands only executable and visible
+    group-mode: whitelist
+    #If a player is in two groups, the group with the higher priority number is used
+    #The minimum value is 0
+    priority: 9
+    #here you can add other groups
+    #The group mode is taken from the main group, in this case the main group is "default"
+    included-groups:
+      - default
+      - hero
+      - titan
+      - avenger
+      - overlord
+      - magister
+      - imperator
+      - dragon
+      - helper
+  moder:
+    commands:
+      - banip
+      - grim alerts
+      - grim
+      - artyutil enable
+      - artyutil list
+      - artyutil disable
+      - artyutil 
+      - spectate
+      - spectate help
+      - spectate list
+      - spec
+      - spectate tp
+      - spectate help
+      - ban
+      - region
+      - rg info
+      - spectate start
+      - spectate stop
+      - tempbanip
+      - dupeip
+      - god
+      - unbanip
+      - history
+      - tempmute
+      - grim
+      - grimac
+      - mute
+      - unmute
+      - checkmute
+      - checkban
+      - kick
+      - report
+      - legendsreport
+      - flyspeed
+      - s
+      - dupeip
+      - litebans:dupeip
+      - speed
+      - check
+      - speed
+      - flyspeed
+      - reports
+      - c
+      - canydesk
+      - gm
+      - gamemode
+      - gm 3
+      - gm 0
+      - gamemode 3
+      - tp
+      - tphere
+      - vanish
+      - v
+      - gamemode 0
+      - check
+      - tempban
+      - ban
+      - unban
+      - checkban
+      - banlist
+      - sc
+      - sw
+      - staffwork
+      - sw stats
+      - staffwork stats
+    #If the value is blacklist, the commands are blocked and invisible
+    #If the value is whitelist, the commands only executable and visible
+    group-mode: whitelist
+    #If a player is in two groups, the group with the higher priority number is used
+    #The minimum value is 0
+    priority: 10
+    #here you can add other groups
+    #The group mode is taken from the main group, in this case the main group is "default"
+    included-groups:
+      - default
+      - hero
+      - titan
+      - avenger
+      - overlord
+      - magister
+      - imperator
+      - dragon
+      - helper
+      - sthelper
+  stmoder:
+    commands:
+      - unbanip
+      - grim alerts
+      - grim
+      - tempbanip
+      - banip
+      - spec
+      - check
+      - tempban
+      - ban
+      - unban
+      - checkban
+      - banlist
+      - sw
+      - staffwork
+      - tppos
+      - sw stats
+      - tpo
+      - staffwork stats
+    #If the value is blacklist, the commands are blocked and invisible
+    #If the value is whitelist, the commands only executable and visible
+    group-mode: whitelist
+    #If a player is in two groups, the group with the higher priority number is used
+    #The minimum value is 0
+    priority: 11
+    #here you can add other groups
+    #The group mode is taken from the main group, in this case the main group is "default"
+    included-groups:
+      - default
+      - hero
+      - titan
+      - avenger
+      - overlord
+      - magister
+      - imperator
+      - dragon
+      - helper
+      - sthelper
+      - moder
+  glmoder:
+    commands:
+      - check
+      - tempban
+      - ban
+      - unban
+      - checkban
+      - spec
+      - tppos
+      - banlist
+      - sw
+      - staffwork
+      - anycheck
+      - canydesk
+      - sw stats
+      - staffwork stats
+    #If the value is blacklist, the commands are blocked and invisible
+    #If the value is whitelist, the commands only executable and visible
+    group-mode: whitelist
+    #If a player is in two groups, the group with the higher priority number is used
+    #The minimum value is 0
+    priority: 12
+    #here you can add other groups
+    #The group mode is taken from the main group, in this case the main group is "default"
+    included-groups:
+      - default
+      - hero
+      - titan
+      - avenger
+      - overlord
+      - magister
+      - imperator
+      - dragon
+      - helper
+      - sthelper
+      - moder
+      - stmoder
+  mladmin:
+    commands:
+      - check
+      - tempban
+      - ban
+      - unban
+      - checkban
+      - banlist
+      - spec
+      - sw
+      - staffwork
+      - sw stats
+      - staffwork stats
+    #If the value is blacklist, the commands are blocked and invisible
+    #If the value is whitelist, the commands only executable and visible
+    group-mode: whitelist
+    #If a player is in two groups, the group with the higher priority number is used
+    #The minimum value is 0
+    priority: 13
+    #here you can add other groups
+    #The group mode is taken from the main group, in this case the main group is "default"
+    included-groups:
+      - default
+      - hero
+      - titan
+      - avenger
+      - overlord
+      - magister
+      - imperator
+      - dragon
+      - helper
+      - sthelper
+      - moder
+      - stmoder
+      - glmoder
+  curator:
+    commands:
+      - grant
+      - p give
+      - playerpoints
+      - points
+      - spec
+      - delwarp
+      - gamemode creative
+      - gm
+      - god
+      - pas 
+      - rg info
+      - homes
+      - gamemode
+    #If the value is blacklist, the commands are blocked and invisible
+    #If the value is whitelist, the commands only executable and visible
+    group-mode: whitelist
+    #If a player is in two groups, the group with the higher priority number is used
+    #The minimum value is 0
+    priority: 14
+    #here you can add other groups
+    #The group mode is taken from the main group, in this case the main group is "default"
+    included-groups:
+      - default
+      - hero
+      - titan
+      - avenger
+      - overlord
+      - magister
+      - imperator
+      - dragon
+      - helper
+      - sthelper
+      - moder
+      - stmoder
+      - glmoder
+      - mladmin
+
+  #This group for example will remove and block all commands
+  #add permission plhide.group.test to apply this group
+  Test:
+    commands: [pas]
+    group-mode: whitelist
+    priority: 1
+    included-groups: []
+
+
+#Don't change
+version: "1.3"

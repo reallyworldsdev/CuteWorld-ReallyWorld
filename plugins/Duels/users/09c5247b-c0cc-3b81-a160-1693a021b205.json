@@ -1,0 +1,20 @@
+{
+  "uuid": "09c5247b-c0cc-3b81-a160-1693a021b205",
+  "name": "_Tv0i_AlkAsH1k_",
+  "wins": 1,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "totem": 1416
+  },
+  "matches": [
+    {
+      "winner": "_Tv0i_AlkAsH1k_",
+      "loser": "mishanya_litva",
+      "kit": "totem",
+      "time": 1747747186727,
+      "duration": 33480,
+      "health": 10.0
+    }
+  ]
+}

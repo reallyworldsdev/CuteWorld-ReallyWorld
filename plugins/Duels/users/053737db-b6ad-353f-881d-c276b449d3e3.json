@@ -1,0 +1,29 @@
+{
+  "uuid": "053737db-b6ad-353f-881d-c276b449d3e3",
+  "name": "AbyZzER",
+  "wins": 1,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "shari": 1385,
+    "totem": 1416
+  },
+  "matches": [
+    {
+      "winner": "AbyZzER",
+      "loser": "kitorol",
+      "kit": "totem",
+      "time": 1742698878077,
+      "duration": 37472,
+      "health": 8.5
+    },
+    {
+      "winner": "_4ItsBlack4_",
+      "loser": "AbyZzER",
+      "kit": "shari",
+      "time": 1742698878077,
+      "duration": 251429,
+      "health": 7.0
+    }
+  ]
+}

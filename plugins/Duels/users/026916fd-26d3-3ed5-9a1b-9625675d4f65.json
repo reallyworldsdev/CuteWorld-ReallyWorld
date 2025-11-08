@@ -1,0 +1,20 @@
+{
+  "uuid": "026916fd-26d3-3ed5-9a1b-9625675d4f65",
+  "name": "He1sTxZZ",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "shari": 1383
+  },
+  "matches": [
+    {
+      "winner": "myselfyoubook",
+      "loser": "He1sTxZZ",
+      "kit": "shari",
+      "time": 1742633987531,
+      "duration": 34672,
+      "health": 9.0
+    }
+  ]
+}

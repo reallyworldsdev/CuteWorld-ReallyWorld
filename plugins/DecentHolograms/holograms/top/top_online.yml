@@ -1,0 +1,35 @@
+location: spawn:22.516:64.000:19.521
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&fТоп онлайн на сервере &x&f&b&b&e&2&2&lГ&x&f&b&a&b&2&0&lР&x&f&c&9&7&1&e&lИ&x&f&c&8&4&1&c&lФ
+      &x&f&d&7&0&1&a&l#&x&f&d&5&d&1&8&l1'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&c#1 &f%ajlb_lb_statistic_time_played_1_alltime_name% <#FFB000>%ajlb_lb_statistic_time_played_1_alltime_value%</#FF5300>'
+    height: 0.3
+  - content: '&c#2 &f%ajlb_lb_statistic_time_played_2_alltime_name% <#FFB000>%ajlb_lb_statistic_time_played_2_alltime_value%</#FF5300>'
+    height: 0.3
+  - content: '&c#3 &f%ajlb_lb_statistic_time_played_3_alltime_name% <#FFB000>%ajlb_lb_statistic_time_played_3_alltime_value%</#FF5300>'
+    height: 0.3
+  - content: '&c#4 &f%ajlb_lb_statistic_time_played_4_alltime_name% <#FFB000>%ajlb_lb_statistic_time_played_4_alltime_value%</#FF5300>'
+    height: 0.3
+  - content: '&c#5 &f%ajlb_lb_statistic_time_played_5_alltime_name% <#FFB000>%ajlb_lb_statistic_time_played_5_alltime_value%</#FF5300>'
+    height: 0.3
+  - content: '&c#6 &f%ajlb_lb_statistic_time_played_6_alltime_name% <#FFB000>%ajlb_lb_statistic_time_played_6_alltime_value%</#FF5300>'
+    height: 0.3
+  - content: '&c#7 &f%ajlb_lb_statistic_time_played_7_alltime_name% <#FFB000>%ajlb_lb_statistic_time_played_7_alltime_value%</#FF5300>'
+    height: 0.3
+  - content: '&c#8 &f%ajlb_lb_statistic_time_played_8_alltime_name% <#FFB000>%ajlb_lb_statistic_time_played_8_alltime_value%</#FF5300>'
+    height: 0.3
+  - content: '&c#9 &f%ajlb_lb_statistic_time_played_9_alltime_name% <#FFB000>%ajlb_lb_statistic_time_played_9_alltime_value%</#FF5300>'
+    height: 0.3
+  - content: '&c#10 &f%ajlb_lb_statistic_time_played_10_alltime_name% <#FFB000>%ajlb_lb_statistic_time_played_10_alltime_value%</#FF5300>'
+    height: 0.3
+  actions: {}

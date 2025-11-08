@@ -1,0 +1,27 @@
+id: '6'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: 5a2812ac-3e31-46b7-aafd-3cc9cb860a0c
+world: spawn
+location:
+  x: 36.2965966983907
+  y: 62.0
+  z: 13.423399578987436
+  yaw: 93.683136
+  pitch: 13.659916
+type: player
+properties:
+  skin_right_leg: 'true'
+  skin_cape: 'true'
+  skin_left_sleeve: 'true'
+  skin_jacket: 'true'
+  skin_right_sleeve: 'true'
+  skin_left_leg: 'true'
+  skin_hat: 'true'
+hologram:
+  lines:
+  - '&c&lТяжелый'
+  - '&a&lАбу-Бакар'
+actions:
+- lol.pyr.znpcsplus.interaction.message.MessageAction;JjbQmtCy0LXRgdGC0YsgJjjCuyAmY9Ci0Ysg0LXRidC1INC90LUg0LPQvtGC0L7QsiDQuiDRjdGC0LjQvCDQutCy0LXRgdGC0LDQvC4=;1000;ANY_CLICK;0

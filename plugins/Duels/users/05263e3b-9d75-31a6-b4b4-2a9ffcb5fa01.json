@@ -1,0 +1,20 @@
+{
+  "uuid": "05263e3b-9d75-31a6-b4b4-2a9ffcb5fa01",
+  "name": "rucoon",
+  "wins": 1,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "classic": 1416
+  },
+  "matches": [
+    {
+      "winner": "rucoon",
+      "loser": "mchjkg",
+      "kit": "classic",
+      "time": 1748950020900,
+      "duration": 13933,
+      "health": 10.0
+    }
+  ]
+}

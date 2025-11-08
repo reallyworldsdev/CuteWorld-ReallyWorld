@@ -1,0 +1,20 @@
+{
+  "uuid": "72086d7b-e113-35ce-90d8-ca99c92d4320",
+  "name": "aerophobic",
+  "wins": 1,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "nezerka": 1416
+  },
+  "matches": [
+    {
+      "winner": "aerophobic",
+      "loser": "alzxmpic",
+      "kit": "nezerka",
+      "time": 1750179505789,
+      "duration": 107652,
+      "health": 2.5
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+bossbar:
+  change-interval: 1000
+  texts:
+  - '&fСекретные коды на &#F5AC89ДОНАТЫ &fв нашем &#F5AC89ТГК: &#FC7230@&#FA6B2Cc&#F96528u&#F75E24t&#F55720e&#F3511Cw&#F24A18o&#F04414r&#EE3D10l&#EC360Cd&#EB3008p&#E92904w'
+tabinfo:
+  change-interval: 10000
+  texts:
+  - '&fНаш телеграм: &#FF9D00&lt.me/&#FF9D00&lC&#FF9800&lu&#FF9300&lt&#FF8D00&le&#FF8800&lW&#FF8200&lo&#FF7D00&lr&#FF7700&ll&#FF7200&ld&#FF7200&lp&#FF7200&lw'
+  - '&fНаш вконтакте: &#FF9D00&lvk.com/&#FF9D00&lC&#FF9800&lu&#FF9300&lt&#FF8D00&le&#FF8800&lW&#FF8200&lo&#FF7D00&lr&#FF7700&ll&#FF7200&ld&#FF7200&lp&#FF7200&lw'

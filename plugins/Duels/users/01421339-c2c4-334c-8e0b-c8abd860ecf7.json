@@ -1,0 +1,20 @@
+{
+  "uuid": "01421339-c2c4-334c-8e0b-c8abd860ecf7",
+  "name": "pls_tiger",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "classic": 1384
+  },
+  "matches": [
+    {
+      "winner": "grgfgg",
+      "loser": "pls_tiger",
+      "kit": "classic",
+      "time": 1747747186727,
+      "duration": 38217,
+      "health": 3.5
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+Name: yeti
+Cooldown: 0
+Permission: nKits.kits.yeti
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"§b§lГолова Йети"}'
+      lore:
+      - '{"text":"§cПроклятие утраты"}'
+      - '{"text":""}'
+      - '{"text":"§bКогда надето на голову"}'
+      - '{"text":"§3  +2.5 к Урону"}'
+      - '{"text":"§4  -1 к Броне"}'
+      - '{"text":"§4  -25% к Скорости"}'
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: HEAD
+          uuid: f5e0bebb-abb3-4bfa-884b-723feeb4595c
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -1.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: HEAD
+          uuid: c48491f2-814d-488c-827c-ab7c922ad59c
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -0.025
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: HEAD
+          uuid: c9d5a784-08c4-4585-8db0-f98076f0c978
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/03PO07DQBgE4D8oSMZQwQVyBEdLglJQkAd+KFljx1lnt3PiP4qddbASO8paoqWk4RxInIEDUFBwCyougEuKKUbzNaMD6HAx3ZRSPuweV4lEDZo0yhAufYxbDOUBi9agzJfRBnXQa5TjrkhwfwZagcei3OFeB4CGBqcskiXCOyrHEPO1Ec8duVR2t+7B1JCuneY39papxcDu2lm9W3fdser9s50iCjuSE2cttl65yJgxJr5Ey28vs9nBHfYTarI6IzIJZ20RTgg1PSKGNKUBv3ZNP+OVSEXA2yKYVdSk6cT0DDEcEV71Ja885YZc1SLhKVtz5fRWc+MW4BxO7Lg+0bz/ebpKPq2Pt+eX36/G6zfAH6SoztkhAQAA
+      skull-owner: Red Velvet Cupcake
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

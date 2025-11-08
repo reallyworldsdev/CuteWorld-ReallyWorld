@@ -1,0 +1,45 @@
+{
+  "uuid": "042c1c92-0426-3603-b019-b7189d1cc92e",
+  "name": "ukrain120",
+  "wins": 0,
+  "losses": 4,
+  "requests": true,
+  "rating": {
+    "classic": 1359,
+    "shari": 1393
+  },
+  "matches": [
+    {
+      "winner": "mcikira",
+      "loser": "ukrain120",
+      "kit": "shari",
+      "time": 1741662051298,
+      "duration": 98341,
+      "health": 9.0
+    },
+    {
+      "winner": "KLauncher_nyausb",
+      "loser": "ukrain120",
+      "kit": "classic",
+      "time": 1741850258888,
+      "duration": 26337,
+      "health": 0.5
+    },
+    {
+      "winner": "Nemo_VR",
+      "loser": "ukrain120",
+      "kit": "classic",
+      "time": 1741850258888,
+      "duration": 22028,
+      "health": 3.5
+    },
+    {
+      "winner": "lol12882828",
+      "loser": "ukrain120",
+      "kit": "classic",
+      "time": 1741850258888,
+      "duration": 18783,
+      "health": 4.5
+    }
+  ]
+}

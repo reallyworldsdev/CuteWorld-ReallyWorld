@@ -1,0 +1,93 @@
+Name: sneg
+Cooldown: 0
+Permission: nKits.kits.sneg
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"§3§lМаска Снежного Грявола"}'
+      lore:
+      - '{"text":"§cПроклятие утраты"}'
+      - '{"text":""}'
+      - '{"text":"§3Когда надето на голову:"}'
+      - '{"text":"  §b+25% к Скорости"}'
+      - '{"text":"§b  +0.4 к Скорости атаки"}'
+      - '{"text":"§4  -6 к Максимальному здоровью"}'
+      attribute-modifiers:
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.4
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_speed]
+          slot: HEAD
+          uuid: adaeb0f8-9d7b-4830-9a84-b7bbe50d397a
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.025
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: HEAD
+          uuid: 79bfd2d3-bcf4-447f-a382-4060a4eb39b5
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -6.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: HEAD
+          uuid: 1d931864-b39a-4095-bbd4-e33b285d1f00
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PT26CQBxGf21sYmlv0A3LujGIYmOaLlqNOMQBRf447EYYAzKAQTBgj9BVd016AndNeoNeotcpyy5fvpcveQKAALeruOR8kWfbiLM2tHSaMOhimpd+SFPRbDAV9SwLODuIPVlcUD8W71dhHiV7ccrpMcs7AgjNwZ7lRcQO19AuWFWUOTsIAHDRhiuH8pLBF6s1yVuHUrDWuF+jYcPWSuIG2u0fUOrUmzEaoqTZZ8/DeT365yoFdRVO+lropctykzjSvG9yNjN7fmIfPVXbYRcP8EmL9ElcGRaudNdMDMvvE9eJySngRLYHurpUiDuNPJcMjAk6ERkrnmr3iOxwz7IrvOMRtvzaGGuj7Vp6AriBSxQ0Ea3z+b37cffy+/36afy8PXYA/gCozzjSPQEAAA==
+      skull-owner: Maruchan Ramen Noodles 12 Pack (Shrimp Flavor)
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

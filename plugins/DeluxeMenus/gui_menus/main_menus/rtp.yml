@@ -1,0 +1,62 @@
+menu_title: '&fꈁꀀꈂꌧꈂꀁ&0ꈃꄕ'
+open_command: rtp
+size: 54
+items:
+  'luc5ky':
+    material: ender_pearl
+    slot: 20
+    display_name: '&6Близкая телепортация'
+    lore:
+    - ''
+    - ' &7Дальность: &61000 блоков'
+    - ' &7Опасность: &6Средняя'
+    - ' &7Доступно: &aВСЕМ'
+    - ''
+    - '&aНажмите, чтобы телепортироваться'
+    left_click_commands:
+    - '[close]'
+    - '[message] &6Ртп &7» &aВы были успешно телепортированы, приятной игры!'
+    - '[player] rtp safe'
+    right_click_commands:
+    - '[close]'
+    - '[message] &6Ртп &7» &aВы были успешно телепортированы, приятной игры!'
+    - '[player] rtp safe'
+  'luw54cky':
+    material: ender_eye
+    slot: 24
+    display_name: '&6Далекая телепортация'
+    lore:
+    - ''
+    - ' &7Дальность: &62500 блоков'
+    - ' &7Опасность: &6Низкая'
+    - ' &7Доступно: &7от &9&lHERO'
+    - ''
+    - '&aНажмите, чтобы телепортироваться'
+    left_click_commands:
+    - '[close]'
+    - '[message] &6Ртп &7» &aВы были успешно телепортированы, приятной игры!'
+    - '[player] rtp far'
+    right_click_commands:
+    - '[close]'
+    - '[message] &6Ртп &7» &aВы были успешно телепортированы, приятной игры!'
+    - '[player] rtp far'
+  'a3d':
+    material: player_head
+    data: 3
+    slot: 22
+    display_name: '&6Телепортация рядом с игроками'
+    lore:
+    - ''
+    - ' &7Дальность: &6по всей карте'
+    - ' &7Опасность: &cВысокая'
+    - ' &7Доступно: &7от &c&lIMPERATOR'
+    - ''
+    - '&aНажмите, чтобы телепортироваться'
+    left_click_commands:
+    - '[close]'
+    - '[message] &6Ртп &7» &aВы были успешно телепортированы, приятной игры!'
+    - '[player] rtp near'
+    right_click_commands:
+    - '[close]'
+    - '[message] &6Ртп &7» &aВы были успешно телепортированы, приятной игры!'
+    - '[player] rtp near'

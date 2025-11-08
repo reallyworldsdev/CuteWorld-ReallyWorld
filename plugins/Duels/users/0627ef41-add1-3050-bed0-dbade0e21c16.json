@@ -1,0 +1,54 @@
+{
+  "uuid": "0627ef41-add1-3050-bed0-dbade0e21c16",
+  "name": "mc1wx",
+  "wins": 5,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "chiter": 1443,
+    "totem": 1416,
+    "nezerka": 1414
+  },
+  "matches": [
+    {
+      "winner": "mc1wx",
+      "loser": "KLauncher_icldex",
+      "kit": "chiter",
+      "time": 1742094044627,
+      "duration": 82852,
+      "health": 10.0
+    },
+    {
+      "winner": "mc1wx",
+      "loser": "jyja_2001",
+      "kit": "chiter",
+      "time": 1742094044627,
+      "duration": 87925,
+      "health": 10.0
+    },
+    {
+      "winner": "mc1wx",
+      "loser": "kiteket_39P",
+      "kit": "chiter",
+      "time": 1742094044627,
+      "duration": 189933,
+      "health": 9.0
+    },
+    {
+      "winner": "mc1wx",
+      "loser": "kiteket_39P",
+      "kit": "totem",
+      "time": 1742094044627,
+      "duration": 20390,
+      "health": 10.0
+    },
+    {
+      "winner": "mc1wx",
+      "loser": "kiteket_39P",
+      "kit": "nezerka",
+      "time": 1742094044627,
+      "duration": 29616,
+      "health": 4.5
+    }
+  ]
+}

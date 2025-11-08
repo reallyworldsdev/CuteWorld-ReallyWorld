@@ -1,0 +1,56 @@
+{
+  "uuid": "03c6c3e5-201b-3906-9425-b4e98cdf61bc",
+  "name": "De6ikr",
+  "wins": 7,
+  "losses": 7,
+  "requests": true,
+  "rating": {
+    "classic": 1355,
+    "totem": 1426,
+    "chiter": 1375,
+    "nodebaff": 1416,
+    "nezerka": 1431
+  },
+  "matches": [
+    {
+      "winner": "De6ikr",
+      "loser": "Joker47",
+      "kit": "nezerka",
+      "time": 1747515269840,
+      "duration": 203425,
+      "health": 10.0
+    },
+    {
+      "winner": "VearWexess",
+      "loser": "De6ikr",
+      "kit": "classic",
+      "time": 1747515269840,
+      "duration": 27838,
+      "health": 6.5
+    },
+    {
+      "winner": "De6ikr",
+      "loser": "COCODRILO",
+      "kit": "nodebaff",
+      "time": 1747515269840,
+      "duration": 471461,
+      "health": 5.0
+    },
+    {
+      "winner": "GolimeniM",
+      "loser": "De6ikr",
+      "kit": "totem",
+      "time": 1747579074434,
+      "duration": 64849,
+      "health": 2.0
+    },
+    {
+      "winner": "De6ikr",
+      "loser": "mrhkhllklh",
+      "kit": "nezerka",
+      "time": 1747747186727,
+      "duration": 59070,
+      "health": 1.0
+    }
+  ]
+}

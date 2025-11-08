@@ -1,0 +1,57 @@
+{
+  "uuid": "06061e31-b4b9-34fb-b7bf-5a9fa362ed9e",
+  "name": "KostyaPro9900",
+  "wins": 26,
+  "losses": 26,
+  "requests": true,
+  "rating": {
+    "classic": 1362,
+    "shari": 1387,
+    "totem": 1411,
+    "chiter": 1401,
+    "nodebaff": 1444,
+    "nezerka": 1412
+  },
+  "matches": [
+    {
+      "winner": "nikita2282285222",
+      "loser": "KostyaPro9900",
+      "kit": "nezerka",
+      "time": 1741791194722,
+      "duration": 329136,
+      "health": 9.0
+    },
+    {
+      "winner": "yaguarchik4286",
+      "loser": "KostyaPro9900",
+      "kit": "nezerka",
+      "time": 1741791194722,
+      "duration": 71520,
+      "health": 1.0
+    },
+    {
+      "winner": "yaguarchik4286",
+      "loser": "KostyaPro9900",
+      "kit": "shari",
+      "time": 1741791194722,
+      "duration": 148635,
+      "health": 8.5
+    },
+    {
+      "winner": "KostyaPro9900",
+      "loser": "yaguarchik4286",
+      "kit": "chiter",
+      "time": 1741791194722,
+      "duration": 325182,
+      "health": 7.0
+    },
+    {
+      "winner": "yaguarchik4286",
+      "loser": "KostyaPro9900",
+      "kit": "chiter",
+      "time": 1741791194722,
+      "duration": 311709,
+      "health": 9.5
+    }
+  ]
+}

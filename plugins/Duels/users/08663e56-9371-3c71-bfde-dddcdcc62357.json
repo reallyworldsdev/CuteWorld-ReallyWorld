@@ -1,0 +1,20 @@
+{
+  "uuid": "08663e56-9371-3c71-bfde-dddcdcc62357",
+  "name": "PowerMystic5994",
+  "wins": 1,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "classic": 1416
+  },
+  "matches": [
+    {
+      "winner": "PowerMystic5994",
+      "loser": "xachik201434",
+      "kit": "classic",
+      "time": 1749686451270,
+      "duration": 20623,
+      "health": 9.0
+    }
+  ]
+}

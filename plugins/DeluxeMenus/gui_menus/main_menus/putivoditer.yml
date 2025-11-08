@@ -1,0 +1,74 @@
+menu_title: '&fꈁꀀꈂꌆꈂꀁ&0ꈃꄃ'
+open_command: putivoditer
+size: 56
+items:
+  'nagradi':
+    material: chest_minecart
+    slot: 21
+    display_name: '&#fb8800&lЕ&#fb8b00&lж&#fc8e00&lе&#fc9100&lд&#fc9400&lн&#fc9700&lе&#fd9a00&lв&#fd9d00&lн&#fda000&lы&#fda300&lе &#fea600&lн&#fea900&lа&#feac00&lг&#feaf00&lр&#ffb200&lа&#ffb500&lд&#ffb800&lы'
+    lore:
+    - ''
+    - '&7  Получай награду за'
+    - '&7  отыгранное время'
+    left_click_commands:
+    - '[player] free'
+    right_click_commands:
+    - '[player] free'
+  'event':
+    material: elytra
+    slot: 31
+    display_name: '&#fb8800&lИ&#fc9200&lв&#fd9b00&lе&#fda500&lн&#feae00&lт&#ffb800&lы'
+    lore:
+    - ''
+    - '&7  Описание всех'
+    - '&7  ивентов на сервере'
+    left_click_commands:
+    - '[openguimenu] event'
+    right_click_commands:
+    - '[openguimenu] event'
+  'raboti':
+    material: diamond_axe
+    slot: 23
+    display_name: '&#fb8800&lР&#fc9200&lа&#fd9b00&lб&#fda500&lо&#feae00&lт&#ffb800&lы'
+    lore:
+    - ''
+    - '&7  Получай деньги'
+    - '&7  за работу'
+    left_click_commands:
+    - '[openguimenu] jobs'
+    right_click_commands:
+    - '[openguimenu] jobs'
+  'donat':
+    material: EMERALD
+    slot: 30
+    display_name: '&#fb8800&lД&#fb8d00&lо&#fc9200&lн&#fc9600&lа&#fd9b00&lт &#fda000&lу&#fda500&lс&#feaa00&lл&#feae00&lу&#ffb300&lг&#ffb800&lи'
+    lore:
+    - ''
+    - '&7  Список донат'
+    - '&7  услуг на сервере'
+    left_click_commands:
+    - '[openguimenu] donate'
+    right_click_commands:
+    - '[openguimenu] donate'
+  'warps':
+    material: command_block
+    slot: 32
+    display_name: '&#fb8800&lВ&#fc9400&lа&#fda000&lр&#feac00&lп&#ffb800&lы'
+    lore:
+    - ''
+    - '&7  Список точек телепортации'
+    - '&7  на сервере'
+    left_click_commands:
+    - '[openguimenu] warps'
+    right_click_commands:
+    - '[openguimenu] warps'
+  '53':
+    display_name: '&r&#ffaa00Назад&r'
+    slot: 45
+    material: structure_void
+    model_data: 10002
+    hide_attributes: true
+    left_click_commands:
+    - '[openguimenu] menu'
+    right_click_commands:
+    - '[openguimenu] menu'    

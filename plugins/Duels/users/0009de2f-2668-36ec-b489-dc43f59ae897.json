@@ -1,0 +1,28 @@
+{
+  "uuid": "0009de2f-2668-36ec-b489-dc43f59ae897",
+  "name": "den5678",
+  "wins": 1,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "nezerka": 1402
+  },
+  "matches": [
+    {
+      "winner": "den5678",
+      "loser": "kIrillsigmosov",
+      "kit": "nezerka",
+      "time": 1747429690760,
+      "duration": 32680,
+      "health": 5.5
+    },
+    {
+      "winner": "Legenda_pan",
+      "loser": "den5678",
+      "kit": "nezerka",
+      "time": 1747579074434,
+      "duration": 38323,
+      "health": 10.0
+    }
+  ]
+}

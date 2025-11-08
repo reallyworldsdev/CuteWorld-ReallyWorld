@@ -1,0 +1,113 @@
+blocks:
+- world: spawn
+  pos:
+    x: 28
+    y: 62
+    z: -11
+  on_click_menu: bcases:cute
+  hologram:
+    offsets:
+      x: 0.5
+      y: 1.2
+      z: 0.5
+    lines:
+    - '&7&k|||| &5&lКЕЙС МИЛЫЙ &7&k||||'
+  block: minecraft:red_shulker_box[facing=up]
+- world: spawn
+  pos:
+    x: 31
+    y: 62
+    z: -11
+  on_click_menu: bcases:super
+  hologram:
+    offsets:
+      x: 0.5
+      y: 1.2
+      z: 0.5
+    lines:
+    - '&7&k|||| &1&lКЕЙС СУПЕР &7&k||||'
+  block: minecraft:orange_shulker_box[facing=up]
+- world: spawn
+  pos:
+    x: 34
+    y: 62
+    z: -12
+  on_click_menu: bcases:money
+  hologram:
+    offsets:
+      x: 0.5
+      y: 1.2
+      z: 0.5
+    lines:
+    - '&7&k|||| &b&lКЕЙС С ВАЛЮТОЙ &7&k||||'
+  block: minecraft:yellow_shulker_box[facing=up]
+- world: spawn
+  pos:
+    x: 38
+    y: 62
+    z: -16
+  on_click_menu: bcases:rilik
+  hologram:
+    offsets:
+      x: 0.5
+      y: 1.2
+      z: 0.5
+    lines:
+    - '&7&k|||| &2&lКЕЙС С РИЛЛИКАМИ &7&k||||'
+  block: minecraft:light_blue_shulker_box[facing=up]
+- world: spawn
+  pos:
+    x: 39
+    y: 62
+    z: -19
+  on_click_menu: bcases:allofthem
+  hologram:
+    offsets:
+      x: 0.5
+      y: 1.2
+      z: 0.5
+    lines:
+    - '&7&k|||| &6&lКЕЙС ВСЕ ИЛИ НИЧЕГО &7&k||||'
+  block: minecraft:blue_shulker_box[facing=up]
+- world: spawn
+  pos:
+    x: 39
+    y: 62
+    z: -22
+  on_click_menu: bcases:kit
+  hologram:
+    offsets:
+      x: 0.5
+      y: 1.2
+      z: 0.5
+    lines:
+    - '&7&k|||| &4&lКЕЙС С КИТАМИ  &7&k||||'
+  block: minecraft:shulker_box[facing=up]
+- world: spawn
+  pos:
+    x: 32
+    y: 61
+    z: 18
+  on_click_menu: bcases:free
+  hologram:
+    offsets:
+      x: 0.5
+      y: 1.2
+      z: 0.5
+    lines:
+    - '&7&k|||| &d&lКЕЙС ФРИ &7&k||||'
+  block: minecraft:pink_shulker_box[facing=up]
+- world: spawn
+  pos:
+    x: 36
+    y: 62
+    z: -14
+  on_click_menu: bcases:free
+  hologram:
+    offsets:
+      x: 0.5
+      y: 1.2
+      z: 0.5
+    lines:
+    - '&7&k|||| &d&lКЕЙС ФРИ &7&k||||'
+  block: minecraft:green_shulker_box[facing=up]

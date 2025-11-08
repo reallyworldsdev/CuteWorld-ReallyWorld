@@ -1,0 +1,46 @@
+{
+  "uuid": "076668a1-6346-320a-a0ab-dd83080e6b2d",
+  "name": "Be_goobs",
+  "wins": 3,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "classic": 1398,
+    "chiter": 1419,
+    "nezerka": 1416
+  },
+  "matches": [
+    {
+      "winner": "Alexmegapro5000",
+      "loser": "Be_goobs",
+      "kit": "classic",
+      "time": 1747896636443,
+      "duration": 14971,
+      "health": 5.0
+    },
+    {
+      "winner": "Be_goobs",
+      "loser": "AlramyyZek",
+      "kit": "chiter",
+      "time": 1747896636443,
+      "duration": 207443,
+      "health": 8.5
+    },
+    {
+      "winner": "Be_goobs",
+      "loser": "DeN_ZZeR",
+      "kit": "classic",
+      "time": 1747896636443,
+      "duration": 21127,
+      "health": 3.0
+    },
+    {
+      "winner": "Be_goobs",
+      "loser": "banan_top_gg_2",
+      "kit": "nezerka",
+      "time": 1747896636443,
+      "duration": 25254,
+      "health": 3.5
+    }
+  ]
+}

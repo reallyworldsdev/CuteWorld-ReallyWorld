@@ -1,0 +1,37 @@
+{
+  "uuid": "052414b9-6299-3845-bd53-6ff0bd5bfb4c",
+  "name": "Davo2000",
+  "wins": 3,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "nodebaff": 1432,
+    "nezerka": 1416
+  },
+  "matches": [
+    {
+      "winner": "Davo2000",
+      "loser": "dotersportsmen",
+      "kit": "nodebaff",
+      "time": 1742094044627,
+      "duration": 45608,
+      "health": 10.0
+    },
+    {
+      "winner": "Davo2000",
+      "loser": "dotersportsmen",
+      "kit": "nezerka",
+      "time": 1742094044627,
+      "duration": 23079,
+      "health": 10.0
+    },
+    {
+      "winner": "Davo2000",
+      "loser": "lolika777",
+      "kit": "nodebaff",
+      "time": 1742094044627,
+      "duration": 428118,
+      "health": 7.5
+    }
+  ]
+}

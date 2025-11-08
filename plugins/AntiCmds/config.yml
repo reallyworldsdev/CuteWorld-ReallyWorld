@@ -1,0 +1,109 @@
+cmds-list:
+- emsg **
+- essentials:msg **
+- m **
+- message **
+- msg **
+- essentials:msg *
+- m *
+- plugmanx:plugman list
+- emsg *
+- message *
+- msg *
+- we tz
+- we tz 20
+- essentials:emethod
+- essentials:method
+- ci *
+- clear *
+- clearinventory *
+- emethod
+- method
+- worldedit:we tz 20
+- worldedit tz
+- worldedit:worldedit tz 20
+- worldedit:worldedit tz
+- whitescrooge:scrooge
+- whitescrooge:sc
+- whiteairdrop:airdrop
+- minecraft:gamemode creative
+- plugman disable litebans
+- plugman unload litebans
+- plugman reload litebans
+- plugman reload ultimateserverprotector
+- plugman restart ultimateserverprotector
+- plugman info ultimateserverprotector
+- plugman unload ultimateserverprotector
+- plugman disable ultimateserverprotector
+- essentials:eshout
+- essentials:shout
+- shout
+- eshout
+- essentials:bcast
+- essentials:bc
+- essentials:ebroadcast
+- essentials:ebc
+- essentials:ebcast
+- essentials:broadcast
+- ebcast
+- ebc
+- ebroadcast
+- bcast
+- lockdown
+- cmi ping
+- ramcleaner:ramclean
+- ramclean
+- anticmds
+- plugins
+- pl
+- bukkit:plugins
+- bukkit:pl
+- help
+- bukkit:help
+- bukkit:?
+- minecraft:?
+- minecraft:help
+- version
+- ver
+- icanhasbukkit
+- bukkit:ver
+- bukkit:version
+- about
+- bukkit:about
+- me
+- minecraft:me
+- reload
+- rl
+- bukkit:rl
+- bukkit:reload
+- restart
+- stop
+- op
+- minecraft:op
+- deop
+- minecraft:deop
+- bukkit:op
+- minecraft:stop
+- bukkit:deop
+- clans info
+- advancedclans:clan info
+- clans top
+- advancedclans:clan top
+- clan top
+- clans list
+- advancedclans:clan list
+- clan list
+- kill
+- minecraft:kill
+- ah open
+- plugman list
+- plugman:plugman list
+- m *
+- m **
+- tell **
+- emsg **
+- emsg
+- usp setpass
+- ultimateserverprotector setpass
+- setpass
+error-text: §6CuteWorld §7» §fКоманда не найдена

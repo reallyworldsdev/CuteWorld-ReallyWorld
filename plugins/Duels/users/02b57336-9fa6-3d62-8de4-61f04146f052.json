@@ -1,0 +1,56 @@
+{
+  "uuid": "02b57336-9fa6-3d62-8de4-61f04146f052",
+  "name": "Feonixxx",
+  "wins": 8,
+  "losses": 9,
+  "requests": true,
+  "rating": {
+    "classic": 1404,
+    "shari": 1388,
+    "totem": 1416,
+    "nodebaff": 1384,
+    "nezerka": 1385
+  },
+  "matches": [
+    {
+      "winner": "de1dg",
+      "loser": "Feonixxx",
+      "kit": "shari",
+      "time": 1748706970104,
+      "duration": 65511,
+      "health": 4.0
+    },
+    {
+      "winner": "Feonixxx",
+      "loser": "amogys2014",
+      "kit": "shari",
+      "time": 1748706970104,
+      "duration": 27870,
+      "health": 10.0
+    },
+    {
+      "winner": "Platon_boxpvp43",
+      "loser": "Feonixxx",
+      "kit": "classic",
+      "time": 1749092429769,
+      "duration": 15162,
+      "health": 8.0
+    },
+    {
+      "winner": "Feonixxx",
+      "loser": "Platon_boxpvp43",
+      "kit": "classic",
+      "time": 1749092429769,
+      "duration": 13665,
+      "health": 4.0
+    },
+    {
+      "winner": "Feonixxx",
+      "loser": "Platon_boxpvp43",
+      "kit": "shari",
+      "time": 1749092429769,
+      "duration": 19409,
+      "health": 10.0
+    }
+  ]
+}

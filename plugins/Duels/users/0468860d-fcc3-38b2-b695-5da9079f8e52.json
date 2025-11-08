@@ -1,0 +1,20 @@
+{
+  "uuid": "0468860d-fcc3-38b2-b695-5da9079f8e52",
+  "name": "Glory_EX",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "chiter": 1384
+  },
+  "matches": [
+    {
+      "winner": "HamzatBoostit",
+      "loser": "Glory_EX",
+      "kit": "chiter",
+      "time": 1740910802099,
+      "duration": 116153,
+      "health": 7.5
+    }
+  ]
+}

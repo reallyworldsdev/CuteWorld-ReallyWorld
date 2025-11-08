@@ -1,0 +1,98 @@
+menu_title: '&8Колизей Поединок'
+open_command: coliseummenu join
+size: 53
+items:
+  'wood':
+    material: paper
+    slot: 4
+    display_name: '&f'
+    lore:
+    - '              &c&lКОЛИЗЕЙ        '
+    - ''
+    - '  &fДля участия в поединке'
+    - '  &fИспользуйте &6/coliseum join'
+    - ''
+    - '  &fИгроки дерутся &61 на 1'
+    - '  &fЗрители могут делать &6ставку '
+    - '  &fНа участников поединка '
+    - '  &6/coliseum bet '
+    - ''
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  'glass':
+    material: green_stained_glass_pane
+    display_name: '&a&lПОДТВЕРДИТЬ'
+    left_click_commands:
+    - '[message] &6ArtyGriefGrief &8⟫ &f Вы встали в очередь в Колизей! '
+    - '[close]'
+    right_click_commands:
+    - '[message] &6ArtyGriefGrief &8⟫ &f Вы встали в очередь в Колизей! '
+    - '[close]'
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 9
+    - 10
+    - 11
+    - 12
+    - 18
+    - 19
+    - 20
+    - 21
+    - 27
+    - 28
+    - 29
+    - 30
+    - 36
+    - 37
+    - 38
+    - 39
+    - 45
+    - 46
+    - 47
+    - 48
+  'glass1':
+    material: red_stained_glass_pane
+    display_name: '&c&lОТКАЗАТСЯ'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+    slots:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 14
+    - 15
+    - 16
+    - 17
+    - 23
+    - 24
+    - 25
+    - 26
+    - 32
+    - 33
+    - 34
+    - 35
+    - 41
+    - 42
+    - 43
+    - 44
+    - 50
+    - 51
+    - 52
+    - 53
+  'glass2':
+    material: white_stained_glass_pane
+    display_name: '&9'
+    slots:
+    - 13
+    - 22
+    - 31
+    - 40
+    - 49

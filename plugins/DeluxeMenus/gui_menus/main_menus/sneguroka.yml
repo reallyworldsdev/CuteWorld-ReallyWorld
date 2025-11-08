@@ -1,0 +1,110 @@
+menu_title: '&fꈁꀀꈂꌰꈂꀁ&0ꈃꄅ'
+open_command: sneguroka
+size: 53
+items:
+  'mine':
+    material: structure_void
+    model_data: 10001
+    data: 3
+    slot: 53
+    display_name: '&6ИНФОРМАЦИЯ'
+    lore:
+    - ''
+    - ' &fВаш баланс: &6%mobcoinsplus_playerbalance% &rꐄ'
+    - ''
+    - '&7Получить ромашки можно'
+    - '&7Учавствуя в ивентах'
+  'mine111':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjllMTU3YzJlOThmNGMwYjU4YzMzM2QyNzEyOWZhYjFkZWNhM2EyODMxOTQzNWIyZTQzMWNiYTI2Y2Y0ZTZlZiJ9fX0=
+    data: 3
+    slot: 13
+    display_name: '&6&lГоловы'
+    lore:
+    - ''
+    - '&7Здесь вы можете купить'
+    - '&7Уникальные сезонные головы'
+    - ''
+    - '&eНажми, чтобы открыть'
+    left_click_commands:
+    - '[openguimenu] sneggolova'
+    right_click_commands:
+    - '[openguimenu] sneggolova'
+  'mine222':
+    material: TNT
+    data: 3
+    slot: 21
+    display_name: '&6&lВсё для грифа'
+    lore:
+    - ''
+    - '&7Тут всё самое необходимое' 
+    - '&7Для успешного грифа'
+    - ''
+    - '&eНажми, чтобы открыть'
+    left_click_commands:
+    - '[openguimenu] sneggrief'
+    right_click_commands:
+    - '[openguimenu] sneggrief'
+  'mine333':
+    material: nether_wart
+    enchantments:
+       - knockback;1
+    data: 3
+    slot: 23
+    display_name: '&6&lВсе для зельеварения'
+    lore:
+    - ''
+    - '&7Здесь вы можете купить'
+    - '&7Ингридиенты для зелий'
+    - ''
+    - '&eНажми, чтобы открыть'
+    left_click_commands:
+    - '[openguimenu] zelevar'
+    right_click_commands:
+    - '[openguimenu] zelevar'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'mine444':
+    material: spawner
+    enchantments:
+       - knockback;1
+    data: 3
+    slot: 31
+    display_name: '&6&lСпавнера'
+    lore:
+    - ''
+    - '&7Нужна фармилка с мобов?'
+    - '&7Спавнеры продаются'
+    - '&7здесь' 
+    - ''
+    - '&eНажми, чтобы открыть'
+    left_click_commands:
+    - '[openguimenu] snegspawner'
+    right_click_commands:
+    - '[openguimenu] snegspawner'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'mine555':
+    material: potion
+    hide_effects: true
+    potion_effects:
+    - NIGHT_VISION;9600;1
+    rgb: 255,255,255
+    data: 3
+    slot: 22
+    display_name: '&6&lДонат зелья'
+    lore:
+    - ' '
+    - '&7Хочешь получить преимущество'
+    - '&7в PvP и PvE?'
+    - '&7Тут ты можешь купить самые полезные' 
+    - '&7зелья и стрелы' 
+    - ''
+    - '&eНажми, чтобы открыть'
+    left_click_commands:
+    - '[openguimenu] sneg'
+    right_click_commands:
+    - '[openguimenu] sneg'

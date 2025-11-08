@@ -1,0 +1,20 @@
+{
+  "uuid": "07322d55-2892-337e-9259-4b7653803dc5",
+  "name": "MrFenny_YT",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "classic": 1384
+  },
+  "matches": [
+    {
+      "winner": "anton260919",
+      "loser": "MrFenny_YT",
+      "kit": "classic",
+      "time": 1747429690760,
+      "duration": 15681,
+      "health": 1.5
+    }
+  ]
+}

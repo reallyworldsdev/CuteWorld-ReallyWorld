@@ -1,0 +1,569 @@
+messages:
+  prefix:
+    type: TCHAT
+    message: '&6Аукцион &7» '
+  time:
+    day:
+      type: TCHAT
+      message: '&6%2d &6дня %02d &6часа %02d &6минут %02d &6секунд'
+    hour:
+      type: TCHAT
+      message: '%02d &6часа %02d &6минут %02d &6секунд'
+    minute:
+      type: TCHAT
+      message: '%02d &6минут %02d &6секунд'
+    second:
+      type: TCHAT
+      message: '%02d &6секунд'
+  command:
+    syntaxe:
+      error:
+        type: TCHAT
+        message: '&cПодождите, перед тем как ввести данную команду!'
+      help:
+        type: TCHAT
+        message: '&b» &f%syntaxe% &8- &7%description%'
+    'no':
+      permission:
+        type: TCHAT
+        message: '&cУ тебя нет разрешения!'
+      console:
+        type: TCHAT
+        message: '&cТолько игрок может использовать эту команду.'
+      arg:
+        type: TCHAT
+        message: '&cНеизвестная команда!'
+    cooldown:
+      type: TCHAT
+      message: '&cПодождите, перед тем как ввести данную команду!'
+    help:
+      custom:
+        type: TCHAT
+        messages:
+        - '&6• &e/ah sell <args> &7- &fSell cmd...'
+        - '&6• &eAnother cmd'
+    reload:
+      type: TCHAT
+      message: '&aПлагин успешно перезагружен.'
+    sell:
+      argument:
+        price:
+          type: TCHAT
+          message: price
+        amount:
+          type: TCHAT
+          message: amount
+        economy:
+          message: economy
+      custom:
+        helping:
+          type: TCHAT
+          message: '&cYou must execute the command like this&7: &f/hdv vendre &a<price>
+            &b[<amount>]'
+    open:
+      custom:
+        helping:
+          type: TCHAT
+          message: '&cYou must execute the command like this&7: &f/ah'
+    is:
+      disable:
+        type: TCHAT
+        message: '&cДанная команда отключена.'
+    syntax:
+      error:
+        message: '&cYou must execute the command like this&7: &2%command%'
+    search:
+      custom:
+        helping:
+          message: '&cYou must execute the command like this&7: &f/ah search &a<word>'
+  description:
+    auction:
+      type: TCHAT
+      message: Opens the auction house
+    sub:
+      items:
+        type: TCHAT
+        message: Opens the items inventory
+      categories:
+        type: TCHAT
+        message: Opens the categories inventory
+      buying:
+        type: TCHAT
+        message: Opens the buying inventory
+      expire:
+        type: TCHAT
+        message: Opens the expire inventory
+    blacklist:
+      list:
+        type: TCHAT
+        message: See the blacklist players.
+      add:
+        type: TCHAT
+        message: Add a player to the blacklist
+      remove:
+        type: TCHAT
+        message: Remove a player from the blacklist
+    version:
+      type: TCHAT
+      message: Show plugin version
+    open:
+      type: TCHAT
+      message: Open auction to a player
+    purge:
+      type: TCHAT
+      message: Remove old transaction
+    reload:
+      type: TCHAT
+      message: Reload plugin
+    sell:
+      type: TCHAT
+      message: Sell an item
+      inventory:
+        type: TCHAT
+        message: Sell an inventory
+    help:
+      type: TCHAT
+      message: See the list of commands.
+    config:
+      type: TCHAT
+      message: Config plugin ingame
+    claim:
+      type: TCHAT
+      message: Claim your money
+    addon:
+      type: TCHAT
+      message: Show addon list
+    search:
+      type: TCHAT
+      message: Search a item
+    lang:
+      type: TCHAT
+      message: See the list of translations.
+    convert:
+      type: TCHAT
+      message: Convert items form another plugin to zauctionhouse
+    history:
+      type: TCHAT
+      message: View your history
+    transaction:
+      type: TCHAT
+      message: View a player's transactions.
+    give:
+      message: Give economy item
+    test:
+      perf:
+        message: Add 1000 items in auction
+    price:
+      message: Display item average price
+    admin:
+      message: Admin commands
+  'no':
+    holding:
+      item:
+        type: TCHAT
+        message: '&cВозьмите предмет в руку, который хотите продать'
+    money:
+      button:
+        type: ITEMSTACK
+        itemstack:
+          material: BARRIER
+          data: 0
+          amount: 1
+          durability: 0
+          name: '&cНедостаточно средств для совершения этой покупки'
+    enought:
+      money:
+        type: TCHAT
+        message: '&cНедостаточно средств для совершения этой покупки'
+      place:
+        type: TCHAT
+        message: '&cНедостаточно места в инвентаре, чтобы купить этот предмет.'
+  plugin:
+    disable:
+      type: TCHAT
+      message: '&cThe auction house is currently deactivated.'
+    not:
+      ready:
+        type: TCHAT
+        message: '&cThe plugin has not finished to be initialized, please be patient...'
+        hdb:
+          type: TCHAT
+          message: '&cThe &fHeadDataBase &cplugin is not yet active, the plugin inventories
+            have not yet loaded, please wait until HDB is working.'
+  sell:
+    cooldown:
+      type: TCHAT
+      message: '&cЗадержка &f%time%&c.'
+    max:
+      price:
+        type: TCHAT
+        message: '&cYou can''t put more than &f%max%&c for the price !'
+    min:
+      price:
+        type: TCHAT
+        message: '&cВы не можете продать, минимальная стоимость &f%min%&c!'
+    message:
+      default:
+        type: TCHAT
+        message: '&aВы успешно выставили предмет на продажу'
+      inventory:
+        type: TCHAT
+        message: '&aВы успешно выставили предмет на продажу'
+    creative:
+      error:
+        type: TCHAT
+        message: '&cВы не можете продавать в креативе!'
+    item:
+      error:
+        type: TCHAT
+        message: '&cЭтот товар заблокирован администрацией!'
+      break:
+        type: TCHAT
+        message: '&cВы не можете продавать сломанные предметы'
+      tax:
+        default:
+          type: TCHAT
+          message: '&cYou need &f%tax%%currency% &cto be able to sell this item.'
+      whitelist:
+        type: TCHAT
+        message: '&cYou do not have permission to add this item.'
+    world:
+      error:
+        type: TCHAT
+        message: '&cYou cannot sell in this world'
+    items:
+      error:
+        type: TCHAT
+        message: '&cВы достигли лимита на продажу предметов'
+    inventory:
+      error:
+        type: TCHAT
+        message: '&cYou did not put any item, sale canceled.'
+      item:
+        type: ITEMSTACK
+        itemstack:
+          material: CHEST
+          data: 0
+          amount: 1
+          durability: 0
+          name: '&7Sale of inventory'
+  item:
+    purchased:
+      type: TCHAT
+      message: '&aУспешная покупка!'
+    remove:
+      admin:
+        type: TCHAT
+        message: '&fYou have just deleted the item &a%item%&f.'
+      seller:
+        get:
+          type: TCHAT
+          message: '&fAn administrator has just removed &a%item%&f, you can retrieve
+            it from the list of expired items.'
+        delete:
+          type: TCHAT
+          message: '&fAn administrator has just removed &a%item%&f, You cannot retrieve
+            your item.'
+    lore:
+      default:
+        type: TCHAT
+        messages:
+        - ''
+        - ' &7Продавец: &6%seller% &7(&aОнлайн&7)'
+        - ' &7Цена: &6%price% &aꐂ'
+        - ' &7Истекает через:%time%'
+        - ''
+        - ' &6Нажмите, чтобы купить'
+      expire:
+        type: TCHAT
+        messages:
+        - ' &7Цена: &6%price% &aꐂ'
+        - ' &7Истекает через:%time%'
+        - ''
+        - ' &6Нажмите, чтобы забрать'
+      buying:
+        type: TCHAT
+        messages:
+        - ' &7Цена: &6%price% &aꐂ'
+        - ' &7Истекает через:%time%'
+        - ''
+        - ' &6Нажмите, чтобы забрать'
+      items:
+        type: TCHAT
+        messages:
+        - ' &7Цена: &6%price% &rꐂ'
+        - ' &7Истекает через:%time%'
+        - ''
+        - ' &6Нажмите, чтобы снять с продажи'
+        - ''
+      inventory:
+        type: TCHAT
+        messages:
+        - ''
+        - '&7Продавец: &6%seller% &7(&aОнлайн&7)'
+        - '&7Цена: &6%price%'
+        - '&7Истекает через: &6%time%'
+    economy:
+      full:
+        type: TCHAT
+        message: '&cУ вас полный инвентарь, ваши ресурсы перемещены в истекшие товары!'
+    stack:
+      size:
+        ascending:
+          message: ɪᴛᴇᴍ sᴛᴀᴄᴋ sɪᴢᴇ ᴀsᴄᴇɴᴅɪɴɢ
+        descending:
+          message: ɪᴛᴇᴍ sᴛᴀᴄᴋ sɪᴢᴇ ᴅᴇsᴄᴇɴᴅɪɴɢ
+  buyer:
+    purchased:
+      type: TCHAT
+      message: '&6%buyer% &fкупил у вас &6%item% &fза &6%price%$'
+  remove:
+    message:
+      type: TCHAT
+      message: ''
+  ascending:
+    price:
+      type: TCHAT
+      message: Ascending price
+    date:
+      type: TCHAT
+      message: Ascending date
+  decreasing:
+    date:
+      type: TCHAT
+      message: Decreasing date
+    price:
+      type: TCHAT
+      message: Decreasing price
+  price:
+    format:
+      item:
+        type: TCHAT
+        message: '%price%%currency%'
+  status:
+    player:
+      type: TCHAT
+      message: Click to retrieve this item
+    buyer:
+      type: TCHAT
+      message: Click to buy this item
+  error:
+    buy:
+      type: TCHAT
+      message: '&cYou can''t buy this item'
+      error:
+        message: '&cYou can''t buy this item.'
+      money:
+        message: '&cYou don’t have enough money to buy this.'
+    remove:
+      error:
+        message: '&cYou can''t remove this item.'
+      full:
+        message: '&cYou must have empty slot in your inventory to retrieve the item.'
+  broadcast:
+    sell:
+      annonce:
+        type: TCHAT
+        message: '&fPlayer &b%player% &fhas added &7%item% &ffor &d%price%&o%currency%
+          &fto the auction!'
+    buy:
+      annonce:
+        type: TCHAT
+        message: '&fPlayer &b%player% &fhas just bought &7%item% &ffor &d%price%&o%currency%
+          &fto the auction!'
+  world:
+    is:
+      banned:
+        type: TCHAT
+        message: '&cYou can''t use the auction house here.'
+  inventory:
+    full:
+      type: TCHAT
+      message: '&cYour inventory is full.'
+  blacklist:
+    information:
+      type: TCHAT
+      message: '&cYou are blacklisted, you cannot use the auction house.'
+    list:
+      type: TCHAT
+      message: '&7List of blacklis playerst&8: &f%players%'
+    empty:
+      type: TCHAT
+      message: '&cNo blacklist players'
+    add:
+      type: TCHAT
+      message: '&7You have just added the player &f%player% &7 to the blacklist.'
+    remove:
+      type: TCHAT
+      message: '&7You come to remove the player &f%player% &7 from the blacklist.'
+  transaction:
+    empty:
+      purchase:
+        type: TCHAT
+        message: '&cYou have not made any purchase transactions.'
+      sale:
+        type: TCHAT
+        message: '&cYou have not made any sales transactions.'
+      both:
+        type: TCHAT
+        message: '&cYou have not made any transactions.'
+    message:
+      list:
+        type: TCHAT
+        messages:
+        - '&8(&bzAuctionHouse&8) &fTransactions &7%type% &8(&a%page%&8/&a%maxPage%&8)'
+        - '%content%'
+        - '&8(&b?&8) &7&oDo &f&o/ah history %nextPage% %type% &7&oto go to the next
+          page.'
+      show:
+        type: TCHAT
+        messages:
+        - '&8(&bzAuctionHouse&8) &fTransactions &7%type% &fof &b%player% &8(&a%page%&8/&a%maxPage%&8)'
+        - '%content%'
+        - '&8(&b?&8) &7&oDo &f&o/ah transaction %player% %nextPage% %type% &7&oto
+          go to the next page.'
+      content:
+        sale:
+          type: TCHAT
+          message: '&f%seller% have sold x&a%amount% &o%item% &fto the player &b%buyer%
+            for &7%price%%currency% &8(&7%date%&8)'
+        purchase:
+          type: TCHAT
+          message: '&f%buyer% have purchased x&a%amount% &o%item% &fto the player
+            &b%seller% for &7%price%%currency% &8(&7%date%&8)'
+        you:
+          type: TCHAT
+          message: You
+  connect:
+    claim:
+      type: TCHAT
+      message: '&aYou have money to recover, make &b/ah claim &ato recover for your
+        money.'
+    transactions:
+      type: TCHAT
+      message: '&aYou sold %item% item(s) during your absence.'
+  claim:
+    money:
+      wait:
+        type: TCHAT
+        message: '&7Wait few seconds...'
+      cooldown:
+        type: TCHAT
+        message: '&cYou have to wait a few minutes before you can do this command
+          again.'
+      crash:
+        type: TCHAT
+        message: '&7Unable to retrieve transactions at this time, please contact an
+          administrator.'
+      error:
+        type: TCHAT
+        message: '&cYou have no pending transactions.'
+      success:
+        type: TCHAT
+        message: '&aYou just got your money back on hold.'
+  cooldown:
+    message:
+      type: ACTION
+      message: ' &cВы должны дождаться &f%cooldown% &cпрежде чем сможете выполнить это действие.'
+  purge:
+    start:
+      type: TCHAT
+      message: '&aPurge start. &8(&7Wait few seconds&8)'
+    end:
+      type: TCHAT
+      message: '&aThe purge of transactions is over.'
+  click:
+    cooldown:
+      type: ACTION
+      message: '&cYou must wait before you can perform this action.'
+  force:
+    open:
+      type: TCHAT
+      message: '&aYou have just opened the auction house for the player &f%player%&a.'
+  priority:
+    type: TCHAT
+    message: No priority
+  economy:
+    not:
+      found:
+        type: TCHAT
+        message: '&cImpossible de trouver l''économy avec le nom &f%name%&c.'
+    name:
+      alphabetical:
+        message: ᴇᴄᴏɴᴏᴍʏ ɴᴀᴍᴇ ʀᴇᴠᴇʀsᴇ ᴀʟᴘʜᴀʙᴇᴛɪᴄᴀʟ
+      reverse:
+        alphabetical:
+          message: ᴇᴄᴏɴᴏᴍʏ ɴᴀᴍᴇ ʀᴇᴠᴇʀsᴇ ᴀʟᴘʜᴀʙᴇᴛɪᴄᴀʟ
+    give:
+      error:
+        notfound:
+          message: '&cThe economy &f%name% &ccannot be found'
+        type:
+          message: '&cThe economy &f%name% &cis not item economy'
+      success:
+        message: '&aYou just got the &f%name% &aeconomy item.'
+    'no':
+      permission:
+        message: '&cYou do not have permission to use this economy.'
+  format:
+    second:
+      message: second
+    seconds:
+      message: seconds
+    minute:
+      message: minute
+    minutes:
+      message: minutes
+    hour:
+      message: hour
+    hours:
+      message: hours
+    day:
+      message: d
+    days:
+      message: days
+  player:
+    lag:
+      ping:
+        message: '&cYou cannot sell items at this time. (its disableSaleIfPlayerIsLagging
+          in config.json)'
+      tps:
+        message: '&cYou cannot sell items at this time. (its disableSaleIfServerIsLagging
+          in config.json)'
+  alphabetical:
+    name:
+      message: ᴀʟᴘʜᴀʙᴇᴛɪᴄᴀʟ ɴᴀᴍᴇ
+  reverse:
+    alphabetical:
+      name:
+        message: ʀᴇᴠᴇʀsᴇ ᴀʟᴘʜᴀʙᴇᴛɪᴄᴀʟ ɴᴀᴍᴇ
+  seller:
+    name:
+      alphabetical:
+        message: sᴇʟʟᴇʀ ɴᴀᴍᴇ ᴀʟᴘʜᴀʙᴇᴛɪᴄᴀʟ
+      reverse:
+        alphabetical:
+          message: sᴇʟʟᴇʀ ɴᴀᴍᴇ ʀᴇᴠᴇʀsᴇ ᴀʟᴘʜᴀʙᴇᴛɪᴄᴀʟ
+  material:
+    type:
+      alphabetical:
+        message: ᴍᴀᴛᴇʀɪᴀʟ ᴛʏᴘᴇ ᴀʟᴘʜᴀʙᴇᴛɪᴄᴀʟ
+      reverse:
+        alphabetical:
+          message: ᴍᴀᴛᴇʀɪᴀʟ ᴛʏᴘᴇ ʀᴇᴠᴇʀsᴇ ᴀʟᴘʜᴀʙᴇᴛɪᴄᴀʟ
+  dupe:
+    info:
+      message: '&aThe player &f%player% &ahas just put on sale and removed 3 items
+        in less than 60 seconds !'
+    infodiscord:
+      message: The player **%player%** has just put on sale and removed 3 items in
+        less than 60 seconds !
+  both:
+    message: both
+  purchase:
+    message: purchase
+  sale:
+    message: sale
+  search:
+    start:
+      message: '&aPlease write in the chat that you are looking for.'

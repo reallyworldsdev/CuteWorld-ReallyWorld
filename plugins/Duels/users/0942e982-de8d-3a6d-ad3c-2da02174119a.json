@@ -1,0 +1,36 @@
+{
+  "uuid": "0942e982-de8d-3a6d-ad3c-2da02174119a",
+  "name": "Bauttoper",
+  "wins": 3,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "chiter": 1446
+  },
+  "matches": [
+    {
+      "winner": "Bauttoper",
+      "loser": "dboodb9474",
+      "kit": "chiter",
+      "time": 1741157913952,
+      "duration": 41066,
+      "health": 7.5
+    },
+    {
+      "winner": "Bauttoper",
+      "loser": "dodo_123",
+      "kit": "chiter",
+      "time": 1741157913952,
+      "duration": 25708,
+      "health": 9.0
+    },
+    {
+      "winner": "Bauttoper",
+      "loser": "wertylord",
+      "kit": "chiter",
+      "time": 1741157913952,
+      "duration": 52914,
+      "health": 10.0
+    }
+  ]
+}

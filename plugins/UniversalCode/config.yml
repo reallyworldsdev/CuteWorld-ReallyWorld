@@ -1,0 +1,44 @@
+# Плагин разработан командой кодеров UniversalStudio для бесплатного использования.
+# Если Вы обнаружите какой-либо баг, незамедлительно сообщите нам.
+# Vk: vk.com/universalstudio
+# Site: u-studio.su
+
+# Права:
+# ucode.code - Доступ к команде /code
+# ucode.bypasslimit - Обход ограничений
+# ucode.reload - Доступ к команде /codereload
+
+codes:
+    'aerophobic': # Сам код, /code test test test
+        limit: 1 # Макс. кол-во использований 3
+        limit-players: 100000000 # Макс. кол-во игроков которые введут этот код
+        commands: # Команды от имени консоли
+            - 'cases give %player% rilik 1'
+            - 'cases give %player% donate 2'
+        message: 'Вы успешно активировали код;title: &6CuteWorld %nl% Код успешно активирован.'
+        message-limit: 'Вы исчерпали лимит использования данного кода.;title: &cУвы %nl% Лимит изчерпан'
+        message-limit-players: 'Данный промокод много раз вводили;title: &cУвы %nl% Код не доступен.'
+    'fufa': # Сам код, /code test test test
+        limit: 1 # Макс. кол-во использований 3
+        limit-players: 100000000 # Макс. кол-во игроков которые введут этот код
+        commands: # Команды от имени консоли
+            - 'cases give %player% rilik 1'
+            - 'cases give %player% donate 2'
+        message: 'Вы успешно активировали код;title: &6CuteWorld %nl% Код успешно активирован.'
+        message-limit: 'Вы исчерпали лимит использования данного кода.;title: &cУвы %nl% Лимит изчерпан'
+        message-limit-players: 'Данный промокод много раз вводили;title: &cУвы %nl% Код не доступен.'
+    'loKfkasu': # Сам код, /code test test test
+        limit: 1 # Макс. кол-во использований 3
+        limit-players: 100000000 # Макс. кол-во игроков которые введут этот код
+        commands: # Команды от имени консоли
+            - 'p give %player% 450'
+            - 'cases give %player% donate 2'
+        message: 'Вы успешно активировали код;title: &6CuteWorld %nl% Код успешно активирован.'
+        message-limit: 'Вы исчерпали лимит использования данного кода.;title: &cУвы %nl% Лимит изчерпан'
+        message-limit-players: 'Данный промокод много раз вводили;title: &cУвы %nl% Код не доступен.'
+messages:
+    prefix: '&6CuteWorld &7» &f'
+    no-permission: 'У вас нет прав.'
+    code-notfound: 'Данный промокод не найден.'
+    codereload: 'Конфигурация перезагружена.'
+    code: '&6/code [код] &f- Ввести промокод'

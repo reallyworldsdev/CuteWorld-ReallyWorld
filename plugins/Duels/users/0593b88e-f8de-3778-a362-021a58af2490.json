@@ -1,0 +1,54 @@
+{
+  "uuid": "0593b88e-f8de-3778-a362-021a58af2490",
+  "name": "bebra2289990",
+  "wins": 4,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "classic": 1445,
+    "shari": 1413,
+    "chiter": 1383
+  },
+  "matches": [
+    {
+      "winner": "bebra2289990",
+      "loser": "ggpoxer",
+      "kit": "classic",
+      "time": 1741316442755,
+      "duration": 18539,
+      "health": 5.0
+    },
+    {
+      "winner": "bebra2289990",
+      "loser": "ggpoxer",
+      "kit": "shari",
+      "time": 1741316442755,
+      "duration": 24561,
+      "health": 9.5
+    },
+    {
+      "winner": "bebra2289990",
+      "loser": "MixaGrief",
+      "kit": "classic",
+      "time": 1741316442755,
+      "duration": 16954,
+      "health": 1.5
+    },
+    {
+      "winner": "Juasik",
+      "loser": "bebra2289990",
+      "kit": "chiter",
+      "time": 1741316442755,
+      "duration": 85047,
+      "health": 2.0
+    },
+    {
+      "winner": "bebra2289990",
+      "loser": "Juasik",
+      "kit": "classic",
+      "time": 1741316442755,
+      "duration": 19811,
+      "health": 4.0
+    }
+  ]
+}

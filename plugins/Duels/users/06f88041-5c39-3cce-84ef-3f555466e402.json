@@ -1,0 +1,55 @@
+{
+  "uuid": "06f88041-5c39-3cce-84ef-3f555466e402",
+  "name": "I_NOT_HOT_krut",
+  "wins": 9,
+  "losses": 5,
+  "requests": true,
+  "rating": {
+    "classic": 1414,
+    "shari": 1374,
+    "totem": 1451,
+    "chiter": 1416
+  },
+  "matches": [
+    {
+      "winner": "I_NOT_HOT_krut",
+      "loser": "Semyon_Malfoy",
+      "kit": "classic",
+      "time": 1741450341671,
+      "duration": 17614,
+      "health": 8.0
+    },
+    {
+      "winner": "MrArmen_YT",
+      "loser": "I_NOT_HOT_krut",
+      "kit": "classic",
+      "time": 1741450341671,
+      "duration": 25352,
+      "health": 0.5
+    },
+    {
+      "winner": "Hennessey",
+      "loser": "I_NOT_HOT_krut",
+      "kit": "totem",
+      "time": 1741450341671,
+      "duration": 166500,
+      "health": 0.5
+    },
+    {
+      "winner": "I_NOT_HOT_krut",
+      "loser": "MrArmen_YT",
+      "kit": "totem",
+      "time": 1741450341671,
+      "duration": 234580,
+      "health": 9.0
+    },
+    {
+      "winner": "MrArmen_YT",
+      "loser": "I_NOT_HOT_krut",
+      "kit": "shari",
+      "time": 1741450341671,
+      "duration": 62729,
+      "health": 6.0
+    }
+  ]
+}

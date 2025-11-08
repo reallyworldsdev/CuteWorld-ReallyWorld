@@ -1,0 +1,158 @@
+Name: hero
+Cooldown: 86400
+Permission: greatkits.kits.hero
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARROW_FIRE: 1
+        ARROW_DAMAGE: 1
+        DURABILITY: 2
+      repair-cost: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLDEN_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 3
+        MENDING: 1
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: STONE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 3
+        MENDING: 1
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: COOKED_MUTTON
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ANVIL
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ITEM_FRAME
+    amount: 12
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: BARREL
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: IRON_INGOT
+    amount: 20
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: CLOCK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: DIAMOND
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLD_INGOT
+    amount: 10
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: CHEST
+    amount: 6
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: COMPOSTER
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: CARROT
+    amount: 32
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: BLUE_STAINED_GLASS
+    amount: 21
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ARROW
+    amount: 32
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SHIELD
+  Armor:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: CHAINMAIL_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: IRON_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+        DURABILITY: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: CHAINMAIL_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: IRON_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+        DURABILITY: 1

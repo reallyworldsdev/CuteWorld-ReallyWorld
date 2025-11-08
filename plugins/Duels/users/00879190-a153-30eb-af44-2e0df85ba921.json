@@ -1,0 +1,20 @@
+{
+  "uuid": "00879190-a153-30eb-af44-2e0df85ba921",
+  "name": "MarkPRO555",
+  "wins": 1,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "totem": 1416
+  },
+  "matches": [
+    {
+      "winner": "MarkPRO555",
+      "loser": "ddggwg12",
+      "kit": "totem",
+      "time": 1741402844432,
+      "duration": 396570,
+      "health": 10.0
+    }
+  ]
+}

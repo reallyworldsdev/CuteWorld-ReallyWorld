@@ -1,0 +1,54 @@
+{
+  "uuid": "02f8cae3-da53-3f63-b66e-a3b0959b8686",
+  "name": "DED9812",
+  "wins": 5,
+  "losses": 2,
+  "requests": true,
+  "rating": {
+    "shari": 1416,
+    "nodebaff": 1430,
+    "chiter": 1401
+  },
+  "matches": [
+    {
+      "winner": "DED9812",
+      "loser": "FELIX0916",
+      "kit": "nodebaff",
+      "time": 1742007640918,
+      "duration": 359879,
+      "health": 5.5
+    },
+    {
+      "winner": "DED9812",
+      "loser": "FELIX0916",
+      "kit": "chiter",
+      "time": 1742007640918,
+      "duration": 52982,
+      "health": 1.5
+    },
+    {
+      "winner": "DED9812",
+      "loser": "Pavl1k338332",
+      "kit": "shari",
+      "time": 1742007640918,
+      "duration": 38768,
+      "health": 10.0
+    },
+    {
+      "winner": "12321_KKYY",
+      "loser": "DED9812",
+      "kit": "shari",
+      "time": 1742007640918,
+      "duration": 33301,
+      "health": 5.0
+    },
+    {
+      "winner": "DED9812",
+      "loser": "kompot12",
+      "kit": "shari",
+      "time": 1742094044627,
+      "duration": 38419,
+      "health": 13.0
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+spawnCooldown: 7200 # Задержка для спавна аирдропа!
+openCooldown: 300 # Задержка для открытия и выпадения ресурсов!
+deleteCooldown: 120 # Задержка для удаления аирдропа!
+waitingKill: 900 # Через сколько активируется аирдроп если не убит босс!
+
+#%xCord% - плэйсхолдер с X координатой аирдропа
+#%zCord% - плэйсхолдер с Z координатой аирдропа
+#%airType% - плэйсхолдер с редкостью аирдропа
+#%time% - плэйсхолдер со временем открытия
+
+dropItems: 20 # Количество ресурсов рандомно выбранных из всего лута
+xCords: 2000 # Радиус генерации аирдропа по Х
+zCords: 2000 # Радиус генерации аирдропа по Z
+
+schematicPath: "plugins/Schematics/schematic.schem" # Путь до файла схематики
+
+activateMaterial: "RESPAWN_ANCHOR" # На какой блок кликнуть для активации
+worldName: "world" # Мир спавна аирдропа
+
+glowItems: true # Подсветка айтемов
+
+# Харкатеристики боссов
+catBossName: "&6&lАдский тигр"
+zombieBossName: "&2&lКороль Зомби"
+spiderBossName: "&8&lПаукан"
+
+catBossHP: 666
+zombieBossHP: 666
+spiderBossHP: 666
+
+titleName: "АирДроп блаблабла"
+
+
+# Настройки голограм
+hologram:
+  airdropClosed: "%airType%&7: &cзакрыт" # Аирдроп неактивирован
+  killBoss: "&7Для открытия победите босса!" # Босс заспавнен
+  killedBoss: "&7Открытие через &e%time% &7сек" # Босс убит
+  openedAir: "&a&lАирДроп доступен" # Аирдроп открыт
+
+# Цвета и стили боссбаров
+tickingBarColor: YELLOW
+tickingBarStyle: SOLID
+
+spawnBarColor: RED
+spawnBarStyle: SOLID
+
+openBarColor: GREEN
+openBarStyle: SOLID
+
+bossBarColor: RED
+bossBarStyle: SOLID
+
+removeBoss: false # Открытие до убийства босса
+activateAir: "&6АирДроп &7» &fИгрок %player% активировал АирДроп!"
+bossKilled: "§6Игрок %killer% убил босса!"
+clanExpReward: 200
+clanPointsReward: 200
+clanRewardMessage:
+  - "&6Аирдроп &7» &fВаш клан получил &6200 опыта &fи &6200 коинов &fза убийство босса!"
+
+spawnName: "%airType% §8| &cНе активирован §8| §bx: §7%xCord% §bZ: &7%zCord%" # Сообщение при спавне аирдропа
+bossDontKilled: "%airType% §8| §cБосс не убит §8| §bx: §7%xCord% §bZ: &7%zCord%" # Сообщение при спавне босса
+tickingName: "%airType% §8| §eОткрытие через §7%time% §eсек §8| §bx: §7%xCord% §bZ: &7%zCord%" # Сообщение при времени до открытия
+openedName: "%airType% §8| §aОткрыт §8| §bx: §7%xCord% §bZ: &7%zCord%" # Сообщение при открытом аирдропе
+airDrops:
+  legendaryName: "§6§lЛегендарный Аирдроп"
+  mythicName: "§c§lМифический Аирдроп"
+  epicName: "§d§lЭпический Аирдроп"
+  rareName: "§9§lРедкий Аирдроп"
+  commonName: "§a§lОбычный Аирдроп"
+
+  legendaryChance: 10
+  mythicChance: 10
+  epicChance: 10
+  rareChance: 30
+  commonChance: 30
+
+notification: # Оповещение игрока о спавне аирдропа
+
+  sound: true # Звук при оповещении игрока
+  soundType: "ENTITY_EXPERIENCE_ORB_PICKUP" # Тип звука при оповещении
+
+  message: true # В виде сообщения в чат
+  messageText:
+    - "&6АирДроп &7» %airType% &fзаспавнился"
+    - "&6АирДроп &7» &fНаграда за открытие:"
+    - "&6АирДроп &7» &cНеизвестно..."
+    - "&6АирДроп &7» &cНеизвестно..." 
+    - "&6АирДроп &7» &cНеизвестно..."
+    - "&6АирДроп &7» &cНеизвестно..."
+    - "&6АирДроп &7» &fИ ещё &6&l11 &fнаград!"  
+    - "&6АирДроп &7» &fКоординаты: &8[&bx: §7%xCord% §bz: &7%zCord%&8]"
+
+  title: false # В виде сообщения на весь экран
+  titleText: "Аирдроп: Координаты x: %xCord% z: %zCord%"
+
+region: # Включенные в регионе флаги
+  allowedFlags:
+    - 'pvp'
+    - 'damage-animals'
+  denyFlags:
+    - 'fly'

@@ -1,0 +1,20 @@
+{
+  "uuid": "062c718b-dc77-3cc4-be94-51af4c931fcd",
+  "name": "__polupoker__",
+  "wins": 1,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "shari": 1416
+  },
+  "matches": [
+    {
+      "winner": "__polupoker__",
+      "loser": "42bratyxa42",
+      "kit": "shari",
+      "time": 1742439646867,
+      "duration": 37744,
+      "health": 1.0
+    }
+  ]
+}

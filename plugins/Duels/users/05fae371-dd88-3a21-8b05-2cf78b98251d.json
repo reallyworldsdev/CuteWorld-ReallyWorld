@@ -1,0 +1,20 @@
+{
+  "uuid": "05fae371-dd88-3a21-8b05-2cf78b98251d",
+  "name": "Luca039",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "totem": 1384
+  },
+  "matches": [
+    {
+      "winner": "god_prankd_life",
+      "loser": "Luca039",
+      "kit": "totem",
+      "time": 1741196879421,
+      "duration": 233503,
+      "health": 8.5
+    }
+  ]
+}

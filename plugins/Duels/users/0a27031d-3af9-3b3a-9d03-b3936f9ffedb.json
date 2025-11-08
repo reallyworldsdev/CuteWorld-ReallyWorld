@@ -1,0 +1,20 @@
+{
+  "uuid": "0a27031d-3af9-3b3a-9d03-b3936f9ffedb",
+  "name": "xayaateb",
+  "wins": 1,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "totem": 1416
+  },
+  "matches": [
+    {
+      "winner": "xayaateb",
+      "loser": "Werticeek",
+      "kit": "totem",
+      "time": 1742353239555,
+      "duration": 167470,
+      "health": 9.5
+    }
+  ]
+}

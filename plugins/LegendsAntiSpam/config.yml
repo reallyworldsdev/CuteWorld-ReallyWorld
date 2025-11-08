@@ -1,0 +1,42 @@
+
+#    ██╗     ███████╗ ██████╗ ███████╗███╗   ██╗██████╗ ███████╗ █████╗ ███╗   ██╗████████╗██╗███████╗██████╗  █████╗ ███╗   ███╗
+#    ██║     ██╔════╝██╔════╝ ██╔════╝████╗  ██║██╔══██╗██╔════╝██╔══██╗████╗  ██║╚══██╔══╝██║██╔════╝██╔══██╗██╔══██╗████╗ ████║
+#    ██║     █████╗  ██║  ███╗█████╗  ██╔██╗ ██║██║  ██║███████╗███████║██╔██╗ ██║   ██║   ██║███████╗██████╔╝███████║██╔████╔██║
+#    ██║     ██╔══╝  ██║   ██║██╔══╝  ██║╚██╗██║██║  ██║╚════██║██╔══██║██║╚██╗██║   ██║   ██║╚════██║██╔═══╝ ██╔══██║██║╚██╔╝██║
+#    ███████╗███████╗╚██████╔╝███████╗██║ ╚████║██████╔╝███████║██║  ██║██║ ╚████║   ██║   ██║███████║██║     ██║  ██║██║ ╚═╝ ██║
+#    ╚══════╝╚══════╝ ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═╝╚══════╝╚═╝     ╚═╝  ╚═╝╚═╝     ╚═╝
+
+# Спам слова
+
+banned-words: "TargetWorld|PocoGrief|ImperioWorld|dymeth|lorddyworld|wellmine|lastime|minerent|domer.lol|masyakagriefs|sollytime|firegrief|tencube|willgrief|(точка)|fakefun|pixelmines|legendsgrief|masyakgrief|legendworld|darktime|skytime|sonegrief|legendaworId|moontime|sweetcube|slimeworld|25565|freedon|dragonsgrief|winworld|kollyworld|нурик|селестиал|catlavan|bravohvh|экспенсив|lateworld|toolcube|cubeworld|metahvh|grieftool|wisegrief|reallyfake|wightgrief|f1.|aurorix|20tps.ru|gomc.fun|aternos.me|hovugrief|bubblegrief|nellgrief|legitworld|whitegrief|holytime|spookytime|lonygrief|santyworld|slougrief|sollyworld|fakeworlds|raidmine|yummyland|hellhub|demongrief|premworld|unixrise|maksimushkavyruchayka_85920|vrhosting|unixworld|cakeworld|brainmix|mclan.ru|legendaworld|tooltime|firstcube|richgrief"
+
+# Команды которые будут вводится после ввода спам слова
+
+spam-commands:
+  - 'kick %player% &cУпоминание сторонних ресурсов --sender=&c&lАнтиСпам -s'
+  - 'tempmute %player% 3d &cУпоминание сторонних ресурсов --sender=&c&lАнтиСпам -s'
+  - 'tempban %player% 5m &cУпоминание сторонних ресурсов --sender=&c&lАнтиСпам -s'
+
+  # Сообщения
+
+messages:
+  no-permission: "§6АнтиСпам §7» §cНедостаточно прав"
+  config-reloaded: "§6АнтиСпам §7» §aКонфиг перезагружен"
+  spam-detected:
+    - '&8(&6SC&8) &6grief-1 {rank}&7CONSOLE &8» &cНайдено спам слово! &8(&7%player%&8/&7%word%&8)'
+    - '&8(&6SC&8) &6grief-1 {rank}&7CONSOLE &8» &c%player%&7: &8%message%'
+
+  # Команды на которые тоже будет действовать блокировка
+  # Пример:
+  # /bc заходи на сервер mc.govnoworld.com - за это будут выданы ограничения
+
+commands-to-check:
+  - 'essentials:m'
+  - 'essentials:msg'
+  - 'msg'
+  - 'tell'
+  - 'emsg'
+  - 'pm'
+  - 'm'
+  - 'bc'
+  - 'broadcast'

@@ -1,0 +1,45 @@
+{
+  "uuid": "0216e134-6e0f-34af-a9aa-49ce7b328d4b",
+  "name": "909190",
+  "wins": 2,
+  "losses": 2,
+  "requests": true,
+  "rating": {
+    "chiter": 1412,
+    "nezerka": 1384
+  },
+  "matches": [
+    {
+      "winner": "yletainagaiti2",
+      "loser": "909190",
+      "kit": "nezerka",
+      "time": 1741316442755,
+      "duration": 33978,
+      "health": 8.5
+    },
+    {
+      "winner": "909190",
+      "loser": "yletainagaiti2",
+      "kit": "chiter",
+      "time": 1741316442755,
+      "duration": 10156,
+      "health": 10.0
+    },
+    {
+      "winner": "909190",
+      "loser": "yletainagaiti2",
+      "kit": "chiter",
+      "time": 1741316442755,
+      "duration": 153309,
+      "health": 10.0
+    },
+    {
+      "winner": "yletainagaiti2",
+      "loser": "909190",
+      "kit": "chiter",
+      "time": 1741316442755,
+      "duration": 111514,
+      "health": 1.0
+    }
+  ]
+}

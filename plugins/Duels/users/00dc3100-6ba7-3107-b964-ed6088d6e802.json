@@ -1,0 +1,20 @@
+{
+  "uuid": "00dc3100-6ba7-3107-b964-ed6088d6e802",
+  "name": "ToQeS",
+  "wins": 1,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "nodebaff": 1416
+  },
+  "matches": [
+    {
+      "winner": "ToQeS",
+      "loser": "kuray",
+      "kit": "nodebaff",
+      "time": 1740999406976,
+      "duration": 335409,
+      "health": 7.0
+    }
+  ]
+}

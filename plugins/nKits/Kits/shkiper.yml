@@ -1,0 +1,94 @@
+Name: shkiper
+Cooldown: 0
+Permission: nKits.kits.shkiper
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"§f§lМаска шкипера"}'
+      lore:
+      - '{"text":""}'
+      - '{"text":"§fКогда надето на голову"}'
+      - '{"text":"§7  +2 к Броне"}'
+      - '{"text":"§7  +6 к Максимальному здоровью"}'
+      - '{"text":"§4  -1.5 к Урону"}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: HEAD
+          uuid: 6c51cc13-6f29-4b07-9a3a-752d406e442c
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 6.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: HEAD
+          uuid: 6b173911-f1ec-4146-b00a-c74bd63fa2cc
+          operation: 0
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -1.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: HEAD
+          uuid: 3e5d58e0-3c3a-422b-956a-ec38861f0331
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/03PP0/CQBzG8Z8GE6zuRic2dTuKYBgcDCVwDXfIv5a7raU/UuAOG2iR9m2p4SU4Ori6+g58Ad7o+OT7WR4LwILz0SpT6mnzPF8oLEOJBxrhcohRxUO1w7TSypJZsMLKTagyvLXAMjbBTbrA7SmUU9yn2Qa3FgAcleHEC4yCN8xdIqcxiaaumuW0YfZ4RFSfLpN7uvbysEUbVJvefWz08uY/W08Dv65EzY3lepCF2iO92lBhd1id6cmu3xFELiMt/TaRjiiYzYjQgzvuT16YLXLmt6u8oLW+w/ZSm+5wxQths46MuSNsUUSxKCZVrl3FxsbbcilbbnM+JQ8AZ3BMI3Ok9Pp79fH12b44pIf38PrnG+APYPlDUCwBAAA=
+      skull-owner: Red Velvet Cupcake (blue)
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

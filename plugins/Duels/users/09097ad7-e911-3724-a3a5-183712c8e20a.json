@@ -1,0 +1,20 @@
+{
+  "uuid": "09097ad7-e911-3724-a3a5-183712c8e20a",
+  "name": "GGSANIAGG",
+  "wins": 1,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "bow": 1416
+  },
+  "matches": [
+    {
+      "winner": "GGSANIAGG",
+      "loser": "mmmzzz222",
+      "kit": "bow",
+      "time": 1742554860789,
+      "duration": 33352,
+      "health": 9.5
+    }
+  ]
+}

@@ -1,0 +1,603 @@
+menu_title: '&fꈁꀀꈂꌩꈂꀁ&0ꈃꄅ'
+size: 54
+items:
+      clock:
+        material: structure_void
+        model_data: 10001
+        slot: 53
+        display_name: '&6ИНФОРМАЦИЯ'
+        lore:
+        - ''
+        - ' &fВаш баланс: &6%playerpoints_points% &x&F&F&B&A&0&0ꐃ'
+        - ''
+        - '&7Пополнить баланс можно'
+        - '&7на сайте: &6CuteWorld.pw'
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'
+      back:
+        material: structure_void
+        model_data: 10002
+        slot: 45
+        display_name: '&6◄ Назад'
+        left_click_commands:
+        - '[openguimenu] donateshop'
+        right_click_commands:
+        - '[openguimenu] donateshop'
+      q191:
+        material: elytra
+        nbt_int: CustomPotionColor:16777215
+        enchantments:
+        - 'knockback;1'
+        amount: 1
+        slot: 12
+        display_name: '&3&lКрылья Ангела'
+        lore:
+        - '&7Починка'
+        - '&7Шипы I'
+        - '&7Прочность V'
+        - ''
+        - '&7======================'
+        - ''
+        - '  &fЦена: &61299 &x&F&F&B&A&0&0ꐃ'
+        - ''
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%playerpoints_points%'
+              output: 1299
+              deny_commands:
+              - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+              - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+        left_click_commands:
+        - '[console] p take %player_name% 1299'
+        - '[console] xkit elytra %player_name%'
+      q1422:
+        material: shield
+        enchantments:
+        - 'knockback;1'
+        slot: 13
+        display_name: '&6Цыганский щит'
+        lore:
+        - '&7Шипы X'
+        - '&cПроклятье утраты'
+        - '&6Неразрушимый'
+        - ''
+        - '&7======================'
+        - ''
+        - '  &fЦена: &6149 &x&F&F&B&A&0&0ꐃ'
+        - ''
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%playerpoints_points%'
+              output: 149
+              deny_commands:
+              - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+              - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+        left_click_commands:
+        - '[console] points take %player_name% 149'
+        - '[console] kit shield %player_name%'
+      q1423:
+        material: Shears
+        enchantments:
+        - 'knockback;1'
+        slot: 14
+        display_name: '&6&lСупер Ножницы'
+        lore:
+        - '&7Этими ножницами можно &6ломать &7спавнера'
+        - '&7Количество использований - &61 раз'
+        - '&7Время ломания:&6 25 секунд'
+        - ''
+        - '&7======================'
+        - ''
+        - '  &fЦена: &6169 &x&F&F&B&A&0&0ꐃ'
+        - ''
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%playerpoints_points%'
+              output: 169
+              deny_commands:
+              - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+              - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+        left_click_commands:
+        - '[console] points take %player_name% 169'
+        - '[console] nitems SHEARS %player_name%'
+      q7:
+        material: netherite_pickaxe
+        enchantments:
+        - 'knockback;1'
+        amount: 1
+        slot: 20
+        display_name: '&6Кирка Каменщика'
+        lore:
+        - '&7Эффективность X'
+        - '&7Прочность III'
+        - '&cПроклятье утраты'
+        - ''
+        - '&7======================'
+        - ''
+        - '  &fЦена: &6189 &x&F&F&B&A&0&0ꐃ'
+        - ''
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%playerpoints_points%'
+              output: 189
+              deny_commands:
+              - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+              - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+        left_click_commands:
+        - '[console] points take %player_name% 189'
+        - '[console] kit kamenjik %player_name%'
+      q5:
+        material: netherite_sword
+        enchantments:
+        - 'knockback;1'
+        amount: 1
+        slot: 21
+        display_name: '&6Фарм меч'
+        lore:
+        - '&7Добыча V'
+        - '&7Прочность V'
+        - '&cПроклятье утраты'
+        - ''
+        - '&7======================'
+        - ''
+        - '  &fЦена: &6333 &x&F&F&B&A&0&0ꐃ'
+        - ''
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%playerpoints_points%'
+              output: 333
+              deny_commands:
+              - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+              - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+        left_click_commands:
+        - '[console] points take %player_name% 333'
+        - '[console] kit mech %player_name%'
+      q4:
+        material: bow
+        enchantments:
+        - 'knockback;1'
+        amount: 1
+        slot: 22
+        display_name: '&7&lПушечка'
+        lore:
+        - '&7Воспламенение'
+        - '&7Бесконечность'
+        - '&7Починка'
+        - '&7Сила 5'
+        - '&7Откидывание 5'
+        - '&7Прочность 2'
+        - '&7&cПроклятие утраты'
+        - ''
+        - '&7======================'
+        - ''
+        - '  &fЦена: &6229 &x&F&F&B&A&0&0ꐃ'
+        - ''
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%playerpoints_points%'
+              output: 229
+              deny_commands:
+              - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+              - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+        left_click_commands:
+        - '[console] points take %player_name% 229'
+        - '[console] kit Pushechka %player_name%'
+      q3:
+        material: fishing_rod
+        enchantments:
+        - 'knockback;1'
+        amount: 1
+        slot: 23
+        display_name: '&9&lРыбачок'
+        lore:
+        - '&7Починка'
+        - '&7Везучий рыбак V'
+        - '&7Приманка V'
+        - '&7Прочность III'
+        - '&cПроклятие утраты'
+        - ''
+        - '&7======================'
+        - ''
+        - '  &fЦена: &6109 &x&F&F&B&A&0&0ꐃ'
+        - ''
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%playerpoints_points%'
+              output: 109
+              deny_commands:
+              - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+              - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+        left_click_commands:
+        - '[console] points take %player_name% 109'
+        - '[console] kit ydochka %player_name%'
+      q2:
+        material: netherite_axe
+        enchantments:
+        - 'knockback;1'
+        amount: 1
+        slot: 24
+        display_name: '&6&lСекира'
+        lore:
+        - '&7Эффективность X'
+        - '&7Прочность III'
+        - '&7Удача III'
+        - '&cПроклятье утраты'
+        - ''
+        - '&7======================'
+        - ''
+        - '  &fЦена: &6199 &x&F&F&B&A&0&0ꐃ'
+        - ''
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%playerpoints_points%'
+              output: 199
+              deny_commands:
+              - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+              - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+        left_click_commands:
+        - '[console] points take %player_name% 199'
+        - '[console] kit sekira %player_name%'
+      q1:
+        material: totem_of_undying
+        enchantments:
+        - 'knockback;1'
+        amount: 1
+        slot: 29
+        display_name: '&5&lТотем Ведьмы'
+        lore:
+        - '&cПроклятье утраты'
+        - '&7Сохраняет эффекты'
+        - ''
+        - '&7======================'
+        - ''
+        - '  &fЦена: &6149 &x&F&F&B&A&0&0ꐃ'
+        - ''
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%playerpoints_points%'
+              output: 149
+              deny_commands:
+              - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+              - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+        left_click_commands:
+        - '[console] points take %player_name% 149'
+        - '[console] nitems WITCH_TOTEM %player_name%'
+      q01:
+        material: netherite_pickaxe
+        enchantments:
+        - 'knockback;1'
+        amount: 1
+        slot: 30
+        display_name: '&5&lВезунчик'
+        lore:
+        - '&7Починка'
+        - '&7Удача V'
+        - '&7Прочность III'
+        - '&cПроклятье утраты'
+        - '&7======================'
+        - ''
+        - '  &fЦена: &6219 &x&F&F&B&A&0&0ꐃ'
+        - ''
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%playerpoints_points%'
+              output: 219
+              deny_commands:
+              - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+              - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+        left_click_commands:
+        - '[console] points take %player_name% 219'
+        - '[console] kit kirka %player_name%'
+      q02:
+        material: crossbow
+        enchantments:
+        - 'knockback;1'
+        amount: 1
+        slot: 31
+        display_name: '&6Арбалет Домера'
+        lore:
+        - '&7Починка'
+        - '&7Тройной выстрел'
+        - '&7Пронзающия стрела IV'
+        - '&7Сила V'
+        - '&7Быстрая перезарядка III'
+        - '&7Прочность III'
+        - '&cПроклятье утраты'
+        - ''
+        - '&7======================'
+        - ''
+        - '  &fЦена: &6419 &x&F&F&B&A&0&0ꐃ'
+        - ''
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%playerpoints_points%'
+              output: 419
+              deny_commands:
+              - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+              - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+        left_click_commands:
+        - '[console] points take %player_name% 419'
+        - '[console] kit ARBALET %player_name%'
+      q03:
+        material: netherite_shovel
+        enchantments:
+        - 'knockback;1'
+        amount: 1
+        slot: 32
+        display_name: '&6&lЛопата &8Песочника'
+        lore:
+        - '&7Эффективность VII'
+        - '&7Прочность III'
+        - '&7Удача III'
+        - '&cПроклятье утраты'
+        - ''
+        - '&7======================'
+        - ''
+        - '  &fЦена: &6149 &x&F&F&B&A&0&0ꐃ'
+        - ''
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%playerpoints_points%'
+              output: 149
+              deny_commands:
+              - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+              - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+        left_click_commands:
+        - '[console] points take %player_name% 149'
+        - '[console] kit lapata %player_name%'
+      q04:
+        material: totem_of_undying
+        enchantments:
+        - 'knockback;1'
+        amount: 1
+        slot: 33
+        display_name: '&6&lТотем Драконида'
+        lore:
+        - '&cПроклятье утраты'
+        - '&7Срабатывает, когда'
+        - '&7лежит в инвентаре'
+        - ''
+        - '&7======================'
+        - ''
+        - '  &fЦена: &6299 &x&F&F&B&A&0&0ꐃ'
+        - ''
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%playerpoints_points%'
+              output: 299
+              deny_commands:
+              - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+              - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+        left_click_commands:
+        - '[console] points take %player_name% 299'
+        - '[console] nitems DRACONID_TOTEM %player_name%'
+      q05:
+        material: golden_apple
+        amount: 32
+        slot: 39
+        display_name: '&bЗолотое яблоко'
+        lore:
+        - ''
+        - '  &fЦена: &6219 &x&F&F&B&A&0&0ꐃ'
+        - ''
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%playerpoints_points%'
+              output: 219
+              deny_commands:
+              - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+              - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+        left_click_commands:
+        - '[console] points take %player_name% 219'
+        - '[console] give %player_name% golden_apple 32'
+      q06:
+        material: enchanted_golden_apple
+        amount: 1
+        slot: 41
+        display_name: '&6Зачарованное золотое яблоко'
+        lore:
+        - ''
+        - '&7======================'
+        - ''
+        - '  &fЦена: &6309 &x&F&F&B&A&0&0ꐃ'
+        - ''
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%playerpoints_points%'
+              output: 309
+              deny_commands:
+              - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+              - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+        left_click_commands:
+        - '[console] points take %player_name% 309'
+        - '[console] kit charka %player_name%'   
+      q015:
+        material: netherite_sword
+        enchantments:
+        - 'knockback;1'
+        amount: 1
+        slot: 40
+        display_name: '&b&lФростморн'
+        lore:
+        - '&7Заговор Огня X'
+        - '&7Острота VI'
+        - '&7Прочность III'
+        - '&cПроклятье утраты'
+        - '&6Неразрушимый'
+        - ''
+        - '&7================================='
+        - ''
+        - '  &fЦена: &6329 &x&F&F&B&A&0&0ꐃ'
+        - ''
+        hide_enchantments: true
+        hide_attributes: true
+        hide_unbreakable: true
+        hide_effects: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%playerpoints_points%'
+              output: 329
+              deny_commands:
+              - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+              - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+        left_click_commands:
+        - '[console] points take %player_name% 329'
+        - '[console] kit mechok %player_name%'
+      439:
+        display_name: '&r&#aa00aaАнти Полет&r'
+        slot: 4
+        material: firework_star
+        lore:
+        - '&r&#ff5555Проклятие утраты&r'
+        - '&r'
+        - '&r&#aaaaaaКогда во второй руке:&r'
+        - '&r  &r&#aaaaaaКогда во второй руке&r'
+        - '&r  &r&#aaaaaaПри нажатии SHIFT&r'
+        - '&r  &r&#5555ffЗапрещает полеты в радиусе 16 блоков&r'
+        - '&r'
+        - '&7================================='
+        - ''
+        - '  &fЦена: &6800 &x&F&F&B&A&0&0ꐃ'
+        - ''
+        hide_enchantments: true
+        enchantments:
+        - KNOCKBACK;1
+        hide_attributes: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%playerpoints_points%'
+              output: 800
+              deny_commands:
+              - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+              - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+        left_click_commands:
+        - '[console] points take %player_name% 800'
+        - '[console] nitems ANTI_FLY %player_name%'
+      4391:
+        display_name: '&r&#ffff55Свиток опыта&r'
+        slot: 49
+        material: flower_banner_pattern
+        lore:
+        - '&r&#5555ffКогда во второй руке:&r'
+        - '&r  &r&#ffff55Собирает в себя весь опыт&r'
+        - '&r'
+        - '&r&#5555ffКогда в основной руке:&r'
+        - '&r&#5555ffПри нажатии ПКМ:&r'
+        - '&r  &r&#ffff55Дает вам 5 опыта&r'
+        - '&r'
+        - '&7================================='
+        - ''
+        - '  &fЦена: &6199 &x&F&F&B&A&0&0ꐃ'
+        - ''
+        hide_enchantments: true
+        enchantments:
+        - KNOCKBACK;1
+        hide_attributes: true
+        left_click_requirement:
+          requirements:
+            money_requirement:
+              type: '>='
+              input: '%playerpoints_points%'
+              output: 199
+              deny_commands:
+              - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+              - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6CuteWorld.pw' 
+        left_click_commands:
+        - '[console] points take %player_name% 199'
+        - '[console] nitems SCROLL_OF_EXPERIENCE %player_name%'

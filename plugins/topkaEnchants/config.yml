@@ -1,0 +1,91 @@
+notFoundItem: "Энчант не был найден"
+usage: "/topkaEnchants <Энчант> <Ник>"
+spawnWorld: "spawn"
+cantBreakShulker: "&6Телепатия &7» Нельзя ломать шалкеры!"
+stealerKillMessage: "&6Грабитель &7» &aВы украли &7%money% &aмонет"
+stealerVictimMessage: "&6Грабитель &7» &cВы потеряли &7%money% &cмонет"
+stealerPercent: 50
+
+drill:
+  name: "&6Чародейская книга"
+  lore:
+    - "&7Бур (Копает 3x3)"
+  items:
+    - "NETHERITE_PICKAXE"
+    - "NETHERITE_SHOVEL"
+    - "NETHERITE_AXE"
+    - "DIAMOND_PICKAXE"
+    - "DIAMOND_SHOVEL"
+    - "DIAMOND_AXE"
+    - "IRON_PICKAXE"
+    - "IRON_SHOVEL"
+    - "IRON_AXE"
+    - "GOLDEN_PICKAXE"
+    - "GOLDEN_SHOVEL"
+    - "GOLDEN_AXE"
+    - "STONE_PICKAXE"
+    - "STONE_SHOVEL"
+    - "STONE_AXE"
+    - "WOODEN_PICKAXE"
+    - "WOODEN_SHOVEL"
+    - "WOODEN_AXE"
+
+lightner:
+  name: "&6Чародейская книга"
+  lore:
+    - "&7Светлячок (Подсвечивает игрока при ударе)"
+  items:
+    - "NETHERITE_SWORD"
+    - "NETHERITE_AXE"
+    - "DIAMOND_SWORD"
+    - "DIAMOND_AXE"
+    - "IRON_SWORD"
+    - "IRON_AXE"
+    - "GOLDEN_SWORD"
+    - "GOLDEN_AXE"
+    - "STONE_SWORD"
+    - "STONE_AXE"
+    - "WOODEN_SWORD"
+    - "WOODEN_AXE"
+
+telepation:
+  name: "&6Чародейская книга"
+  lore:
+    - "&7Телепатия (Перемещает сломанные блоки в инвентарь)"
+  items:
+    - "NETHERITE_PICKAXE"
+    - "NETHERITE_SHOVEL"
+    - "NETHERITE_AXE"
+    - "DIAMOND_PICKAXE"
+    - "DIAMOND_SHOVEL"
+    - "DIAMOND_AXE"
+    - "IRON_PICKAXE"
+    - "IRON_SHOVEL"
+    - "IRON_AXE"
+    - "GOLDEN_PICKAXE"
+    - "GOLDEN_SHOVEL"
+    - "GOLDEN_AXE"
+    - "STONE_PICKAXE"
+    - "STONE_SHOVEL"
+    - "STONE_AXE"
+    - "WOODEN_PICKAXE"
+    - "WOODEN_SHOVEL"
+    - "WOODEN_AXE"
+
+stealer:
+  name: "&6Чародейская книга"
+  lore:
+    - "&7Грабитель (Крадет часть денег убитого игрока)"
+  items:
+    - "NETHERITE_SWORD"
+    - "NETHERITE_AXE"
+    - "DIAMOND_SWORD"
+    - "DIAMOND_AXE"
+    - "IRON_SWORD"
+    - "IRON_AXE"
+    - "GOLDEN_SWORD"
+    - "GOLDEN_AXE"
+    - "STONE_SWORD"
+    - "STONE_AXE"
+    - "WOODEN_SWORD"
+    - "WOODEN_AXE"

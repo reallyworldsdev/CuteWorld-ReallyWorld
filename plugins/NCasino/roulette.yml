@@ -1,0 +1,603 @@
+roulettes:
+  roulette_1:
+    bet: 1000
+    jackpot: 10007000
+    jackpotBanner:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        lore:
+        - '"(+NBT)"'
+        patterns:
+        - ==: Pattern
+          color: RED
+          pattern: vh
+        - ==: Pattern
+          color: RED
+          pattern: vhr
+        - ==: Pattern
+          color: GREEN
+          pattern: moj
+        - ==: Pattern
+          color: RED
+          pattern: hhb
+        - ==: Pattern
+          color: YELLOW
+          pattern: mc
+    defaultBanners:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: vh
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: vhr
+        - ==: Pattern
+          color: YELLOW
+          pattern: mc
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        lore:
+        - '"(+NBT)"'
+        patterns:
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: vh
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: vhr
+        - ==: Pattern
+          color: GREEN
+          pattern: cbo
+        - ==: Pattern
+          color: GREEN
+          pattern: bs
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: mr
+        - ==: Pattern
+          color: GREEN
+          pattern: ts
+    location:
+      ==: org.bukkit.Location
+      world: spawn
+      x: 142.0
+      y: 64.0
+      z: 5.0
+      pitch: 0.0
+      yaw: 0.0
+    bannerLocations:
+    - ==: org.bukkit.Location
+      world: spawn
+      x: 142.0
+      y: 65.0
+      z: 4.0
+      pitch: 0.0
+      yaw: 0.0
+    - ==: org.bukkit.Location
+      world: spawn
+      x: 142.0
+      y: 65.0
+      z: 5.0
+      pitch: 0.0
+      yaw: 0.0
+    - ==: org.bukkit.Location
+      world: spawn
+      x: 142.0
+      y: 65.0
+      z: 6.0
+      pitch: 0.0
+      yaw: 0.0
+  roulette_2:
+    bet: 1000
+    jackpot: 10001000
+    jackpotBanner:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        lore:
+        - '"(+NBT)"'
+        patterns:
+        - ==: Pattern
+          color: RED
+          pattern: vh
+        - ==: Pattern
+          color: RED
+          pattern: vhr
+        - ==: Pattern
+          color: GREEN
+          pattern: moj
+        - ==: Pattern
+          color: RED
+          pattern: hhb
+        - ==: Pattern
+          color: YELLOW
+          pattern: mc
+    defaultBanners:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: vh
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: vhr
+        - ==: Pattern
+          color: GREEN
+          pattern: cbo
+        - ==: Pattern
+          color: GREEN
+          pattern: bs
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: mr
+        - ==: Pattern
+          color: GREEN
+          pattern: ts
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: vh
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: vhr
+        - ==: Pattern
+          color: YELLOW
+          pattern: mc
+    location:
+      ==: org.bukkit.Location
+      world: spawn
+      x: 151.0
+      y: 64.0
+      z: 7.0
+      pitch: 0.0
+      yaw: 0.0
+    bannerLocations:
+    - ==: org.bukkit.Location
+      world: spawn
+      x: 151.0
+      y: 65.0
+      z: 6.0
+      pitch: 0.0
+      yaw: 0.0
+    - ==: org.bukkit.Location
+      world: spawn
+      x: 151.0
+      y: 65.0
+      z: 7.0
+      pitch: 0.0
+      yaw: 0.0
+    - ==: org.bukkit.Location
+      world: spawn
+      x: 151.0
+      y: 65.0
+      z: 8.0
+      pitch: 0.0
+      yaw: 0.0
+  roulette_3:
+    bet: 1000
+    jackpot: 10002000
+    jackpotBanner:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        lore:
+        - '"(+NBT)"'
+        patterns:
+        - ==: Pattern
+          color: RED
+          pattern: vh
+        - ==: Pattern
+          color: RED
+          pattern: vhr
+        - ==: Pattern
+          color: GREEN
+          pattern: moj
+        - ==: Pattern
+          color: RED
+          pattern: hhb
+        - ==: Pattern
+          color: YELLOW
+          pattern: mc
+    defaultBanners:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: vh
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: vhr
+        - ==: Pattern
+          color: GREEN
+          pattern: cbo
+        - ==: Pattern
+          color: GREEN
+          pattern: bs
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: mr
+        - ==: Pattern
+          color: GREEN
+          pattern: ts
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: vh
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: vhr
+        - ==: Pattern
+          color: YELLOW
+          pattern: mc
+    location:
+      ==: org.bukkit.Location
+      world: spawn
+      x: 149.0
+      y: 64.0
+      z: 14.0
+      pitch: 0.0
+      yaw: 0.0
+    bannerLocations:
+    - ==: org.bukkit.Location
+      world: spawn
+      x: 150.0
+      y: 65.0
+      z: 14.0
+      pitch: 0.0
+      yaw: 0.0
+    - ==: org.bukkit.Location
+      world: spawn
+      x: 149.0
+      y: 65.0
+      z: 14.0
+      pitch: 0.0
+      yaw: 0.0
+    - ==: org.bukkit.Location
+      world: spawn
+      x: 148.0
+      y: 65.0
+      z: 14.0
+      pitch: 0.0
+      yaw: 0.0
+  roulette_4:
+    bet: 1000
+    jackpot: 10002000
+    jackpotBanner:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        lore:
+        - '"(+NBT)"'
+        patterns:
+        - ==: Pattern
+          color: RED
+          pattern: vh
+        - ==: Pattern
+          color: RED
+          pattern: vhr
+        - ==: Pattern
+          color: GREEN
+          pattern: moj
+        - ==: Pattern
+          color: RED
+          pattern: hhb
+        - ==: Pattern
+          color: YELLOW
+          pattern: mc
+    defaultBanners:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: vh
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: vhr
+        - ==: Pattern
+          color: GREEN
+          pattern: cbo
+        - ==: Pattern
+          color: GREEN
+          pattern: bs
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: mr
+        - ==: Pattern
+          color: GREEN
+          pattern: ts
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: vh
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: vhr
+        - ==: Pattern
+          color: YELLOW
+          pattern: mc
+    location:
+      ==: org.bukkit.Location
+      world: spawn
+      x: 137.0
+      y: 64.0
+      z: 9.0
+      pitch: 0.0
+      yaw: 0.0
+    bannerLocations:
+    - ==: org.bukkit.Location
+      world: spawn
+      x: 137.0
+      y: 65.0
+      z: 10.0
+      pitch: 0.0
+      yaw: 0.0
+    - ==: org.bukkit.Location
+      world: spawn
+      x: 137.0
+      y: 65.0
+      z: 9.0
+      pitch: 0.0
+      yaw: 0.0
+    - ==: org.bukkit.Location
+      world: spawn
+      x: 137.0
+      y: 65.0
+      z: 8.0
+      pitch: 0.0
+      yaw: 0.0
+  roulette_5:
+    bet: 1000
+    jackpot: 10002000
+    jackpotBanner:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        lore:
+        - '"(+NBT)"'
+        patterns:
+        - ==: Pattern
+          color: RED
+          pattern: vh
+        - ==: Pattern
+          color: RED
+          pattern: vhr
+        - ==: Pattern
+          color: GREEN
+          pattern: moj
+        - ==: Pattern
+          color: RED
+          pattern: hhb
+        - ==: Pattern
+          color: YELLOW
+          pattern: mc
+    defaultBanners:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: vh
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: vhr
+        - ==: Pattern
+          color: GREEN
+          pattern: cbo
+        - ==: Pattern
+          color: GREEN
+          pattern: bs
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: mr
+        - ==: Pattern
+          color: GREEN
+          pattern: ts
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: vh
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: vhr
+        - ==: Pattern
+          color: YELLOW
+          pattern: mc
+    location:
+      ==: org.bukkit.Location
+      world: spawn
+      x: 137.0
+      y: 64.0
+      z: 5.0
+      pitch: 0.0
+      yaw: 0.0
+    bannerLocations:
+    - ==: org.bukkit.Location
+      world: spawn
+      x: 137.0
+      y: 65.0
+      z: 6.0
+      pitch: 0.0
+      yaw: 0.0
+    - ==: org.bukkit.Location
+      world: spawn
+      x: 137.0
+      y: 65.0
+      z: 5.0
+      pitch: 0.0
+      yaw: 0.0
+    - ==: org.bukkit.Location
+      world: spawn
+      x: 137.0
+      y: 65.0
+      z: 4.0
+      pitch: 0.0
+      yaw: 0.0
+  roulette_6:
+    bet: 1000
+    jackpot: 10003000
+    jackpotBanner:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        lore:
+        - '"(+NBT)"'
+        patterns:
+        - ==: Pattern
+          color: RED
+          pattern: vh
+        - ==: Pattern
+          color: RED
+          pattern: vhr
+        - ==: Pattern
+          color: GREEN
+          pattern: moj
+        - ==: Pattern
+          color: RED
+          pattern: hhb
+        - ==: Pattern
+          color: YELLOW
+          pattern: mc
+    defaultBanners:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: vh
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: vhr
+        - ==: Pattern
+          color: YELLOW
+          pattern: mc
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: vh
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: vhr
+        - ==: Pattern
+          color: GREEN
+          pattern: cbo
+        - ==: Pattern
+          color: GREEN
+          pattern: bs
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: mr
+        - ==: Pattern
+          color: GREEN
+          pattern: ts
+    location:
+      ==: org.bukkit.Location
+      world: spawn
+      x: 142.0
+      y: 64.0
+      z: 9.0
+      pitch: 0.0
+      yaw: 0.0
+    bannerLocations:
+    - ==: org.bukkit.Location
+      world: spawn
+      x: 142.0
+      y: 65.0
+      z: 8.0
+      pitch: 0.0
+      yaw: 0.0
+    - ==: org.bukkit.Location
+      world: spawn
+      x: 142.0
+      y: 65.0
+      z: 9.0
+      pitch: 0.0
+      yaw: 0.0
+    - ==: org.bukkit.Location
+      world: spawn
+      x: 142.0
+      y: 65.0
+      z: 10.0
+      pitch: 0.0
+      yaw: 0.0

@@ -1,0 +1,28 @@
+{
+  "uuid": "03eb724e-e3ac-3d67-869d-3baf1d3d836c",
+  "name": "RtpPRO332",
+  "wins": 1,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "nezerka": 1399
+  },
+  "matches": [
+    {
+      "winner": "RtpPRO332",
+      "loser": "KOTIK_LOPTOGV",
+      "kit": "nezerka",
+      "time": 1742698878077,
+      "duration": 86067,
+      "health": 9.5
+    },
+    {
+      "winner": "rehgfvshdgfhjef",
+      "loser": "RtpPRO332",
+      "kit": "nezerka",
+      "time": 1742698878077,
+      "duration": 45423,
+      "health": 10.0
+    }
+  ]
+}

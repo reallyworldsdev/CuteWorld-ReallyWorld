@@ -1,0 +1,28 @@
+{
+  "uuid": "03cecb7b-731f-3e87-b92d-03b1c7fa39a0",
+  "name": "Bravotop1337",
+  "wins": 1,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "shari": 1401
+  },
+  "matches": [
+    {
+      "winner": "Bravotop1337",
+      "loser": "MurderCan",
+      "kit": "shari",
+      "time": 1741834844240,
+      "duration": 24932,
+      "health": 8.5
+    },
+    {
+      "winner": "xutao",
+      "loser": "Bravotop1337",
+      "kit": "shari",
+      "time": 1741850258888,
+      "duration": 235138,
+      "health": 10.0
+    }
+  ]
+}

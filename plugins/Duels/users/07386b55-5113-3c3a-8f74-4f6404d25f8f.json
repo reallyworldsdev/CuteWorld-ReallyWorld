@@ -1,0 +1,20 @@
+{
+  "uuid": "07386b55-5113-3c3a-8f74-4f6404d25f8f",
+  "name": "14BOBER88",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "chiter": 1385
+  },
+  "matches": [
+    {
+      "winner": "PuabgiMZHLf",
+      "loser": "14BOBER88",
+      "kit": "chiter",
+      "time": 1742266842114,
+      "duration": 39344,
+      "health": 10.0
+    }
+  ]
+}

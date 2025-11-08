@@ -1,0 +1,215 @@
+Name: popatika
+Cooldown: 0
+Permission: nKits.kits.popatika
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PURPLE_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: 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
+      blockMaterial: PURPLE_SHULKER_BOX
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: OBSIDIAN
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    amount: 7
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      enchants:
+        VANISHING_CURSE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      potion-type: minecraft:strong_swiftness
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    amount: 7
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      enchants:
+        VANISHING_CURSE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      potion-type: minecraft:strong_strength
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    amount: 7
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      enchants:
+        VANISHING_CURSE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      potion-type: minecraft:long_fire_resistance
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    amount: 7
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      enchants:
+        VANISHING_CURSE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      potion-type: minecraft:strong_swiftness
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    amount: 7
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      enchants:
+        VANISHING_CURSE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      potion-type: minecraft:strong_strength
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    amount: 7
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      enchants:
+        VANISHING_CURSE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      potion-type: minecraft:long_fire_resistance
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    amount: 7
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Зелье
+        Викинга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Скорость
+        III (1:00)"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Сила
+        III (1:00)"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Огнестойкость
+        (7:30)"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Иссушение
+        (0:10)"},{"italic":false,"color":"red","text":""}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 232
+        GREEN: 255
+      custom-effects:
+      - ==: PotionEffect
+        effect: 5
+        duration: 1200
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 1200
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 12
+        duration: 9000
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 20
+        duration: 200
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    amount: 7
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"italic":false,"extra":[{"text":""},{"color":"gold","text":"Быстрее
+        ветра"}],"text":""}'
+      lore:
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"red","text":"Левитация
+        II (0:12)"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 25
+        duration: 240
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: END_CRYSTAL
+    amount: 32
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

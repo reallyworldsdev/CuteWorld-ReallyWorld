@@ -1,0 +1,3092 @@
+menu_title: '&fꈁꀀꈂꍁꈂꀁ&0ꈃꄒ'
+open_command: 
+- quest3
+- quest2
+- quest1
+- qvest1
+- qvest3
+- qvest2
+- qwest
+- quest
+- qvest
+- hamhut
+- qvests
+- quests
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: questALEKproxodiParvizPIDR.open
+      deny_commands:
+        - ''
+size: 54
+items:
+############################## 3 ЭТАП РАВШАНА ####################################
+  'que17s3t_g3213_no11':
+    material: BARRIER
+    slot: 18
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'qu18e37121st_333_nooo':
+    material: NETHERRACK
+    slot: 18
+    priority: 4
+    display_name: '&6Незерак'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Незерак'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:NETHERRACK%&7/&61777'
+    - '&7Статус: &cНе выполнено'
+    - ''
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.10.yes'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:NETHERRACK% >= 1777'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.19.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.19.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.20.no'
+      - '[console] clear %player_name% NETHERRACK'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  'qu2133est77_3333_yes':
+    material: NETHERRACK
+    slot: 18
+    priority: 3
+    display_name: '&6Незерак'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Незерак'
+    - ''
+    - '&7Прогресс: &61777&7/&61777'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.19.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+      
+      
+  'quggest_03213_no11':
+    material: BARRIER
+    slot: 19
+    priority: 8
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'qu12gg3e0st_3_no1':
+    material: PORKCHOP
+    slot: 19
+    priority: 7
+    display_name: '&6Сырая свинина'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Сырая свинина'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:PORKCHOP%&7/&6700'
+    - '&7Статус: &cНе выполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.20.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:PORKCHOP% >= 700'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.20.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.20.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.21.no'
+      - '[console] clear %player_name% PORKCHOP'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  'qu3esgg123t_3_0yes1':
+    material: PORKCHOP
+    slot: 19
+    priority: 6
+    display_name: '&6Сырая свинина'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Сырая свинина'
+    - ''
+    - '&7Прогресс: &6700&7/&6700'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.20.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+      
+
+  'que22st_32113_no1':
+    material: BARRIER
+    slot: 20
+    priority: 8
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'qu12123est_13_no':
+    material: PUMPKIN_SEEDS 
+    slot: 20
+    priority: 7
+    display_name: '&6Семена тыквы'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Семена тыквы'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:PUMPKIN_SEEDS%&7/&61444'
+    - '&7Статус: &cНе выполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.21.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:PUMPKIN_SEEDS% >= 1444'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.21.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.21.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.22.no'
+      - '[console] clear %player_name% PUMPKIN_SEEDS'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  'qu22es1239t_13_yes':
+    material: PUMPKIN_SEEDS 
+    slot: 20
+    priority: 6
+    display_name: '&6Семена тыквы'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Семена тыквы'
+    - ''
+    - '&7Прогресс: &61444&7/&61444'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.21.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+  'que33st_4_n212o1':
+    material: BARRIER
+    slot: 21
+    priority: 11
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'questicsi_4_n21233o':
+    material: WHITE_CARPET
+    slot: 21
+    priority: 10
+    display_name: '&6Белый ковёр'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Белый ковёр'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:WHITE_CARPET%&7/&6360'
+    - '&7Статус: &cНе выполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.22.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: has item
+          material: "WHITE_CARPET"
+          amount: 360
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.22.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.22.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.23.no'
+      - '[console] clear %player_name% WHITE_CARPET'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  'questicsi_4_y21332es':
+    material: WHITE_CARPET
+    slot: 21
+    priority: 9
+    display_name: '&6Белый ковёр'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Белый ковёр'
+    - ''
+    - '&7Прогресс: &6360&7/&6360'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.22.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+  'qugges333223t_511_no1':
+    material: BARRIER
+    slot: 22
+    priority: 14
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'qggu33e33st22_1235_no':
+    material: BIRCH_PLANKS
+    slot: 22
+    priority: 13
+    display_name: '&6Березовые доски'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Березовые доски'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:BIRCH_PLANKS%&7/&61280'
+    - '&7Статус: &cНе выполнено'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.23.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: has item
+          material: "BIRCH_PLANKS"
+          amount: 1280
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.123.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.23.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.24.no'
+      - '[console] clear %player_name% birch_planks'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  'qu3g23g3est_2315_33yes':
+    material: BIRCH_PLANKS
+    slot: 22
+    priority: 12
+    display_name: '&6Березовые доски'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Березовые доски'
+    - ''
+    - '&7Прогресс: &61280&7/&61280'
+    - '&7Статус: &aВыполнено'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.23.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+
+  'questicsi_63323_no1':
+    material: BARRIER
+    slot: 23
+    priority: 17
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'questicsi_6_3233no':
+    material: FLINT
+    slot: 23
+    priority: 16
+    display_name: '&6Кремень'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Кремень'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:FLINT%&7/&6632'
+    - '&7Статус: &cНе выполнено'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.24.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:FLINT% >= 632'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.24.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.24.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.25.no'
+      - '[console] clear %player_name% FLINT'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  'q3uest_6_y24es':
+    material: FLINT
+    slot: 23
+    priority: 15
+    display_name: '&6Кремень'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Кремень'
+    - ''
+    - '&7Прогресс: &6632&7/&6632'
+    - '&7Статус: &aВыполнено'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.24.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+  'qu33est24_7_no1':
+    material: BARRIER
+    slot: 24
+    priority: 20
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'questicsi12224_7_no':
+    material: SOUL_SAND
+    slot: 24
+    priority: 19
+    display_name: '&6Песок душ'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно добыть'
+    - '&6Песок душ'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:SOUL_SAND%&7/&6400'
+    - '&7Статус: &cНе выполнено'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.25.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:SOUL_SAND% >= 400'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.25.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.25.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.26.no'
+      - '[console] clear %player_name% SOUL_SAND'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  'qu11e323st_7_yes':
+    material: SOUL_SAND
+    slot: 24
+    priority: 18
+    display_name: '&6Песок душ'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно добыть'
+    - '&6Песок душ'
+    - ''
+    - '&7Прогресс: &6400&7/&6400'
+    - '&7Статус: &aВыполнено'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.25.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+      
+      ############################################
+  'que333st_257_no1':
+    material: BARRIER
+    slot: 25
+    priority: 20
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'qu123333es7t_7_no':
+    material: GLASS_BOTTLE
+    slot: 25
+    priority: 19
+    display_name: '&6Бутылочка'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно добыть'
+    - '&6Бутылочка'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:GLASS_BOTTLE%&7/&61000'
+    - '&7Статус: &cНе выполнено'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.26.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:GLASS_BOTTLE% >= 1000'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.26.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.26.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.27.no'
+      - '[console] clear %player_name% GLASS_BOTTLE'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  '1que7st_7255_yes':
+    material: GLASS_BOTTLE
+    slot: 25
+    priority: 18
+    display_name: '&6Бутылочка'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно добыть'
+    - '&6Бутылочка'
+    - ''
+    - '&7Прогресс: &61000&7/&61000'
+    - '&7Статус: &aВыполнено'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.26.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+
+
+
+      
+      
+  'ques3113t66_7_no1':
+    material: PINK_SHULKER_BOX
+    slot: 26
+    priority: 20
+    display_name: '&b&lНаграда'
+    lore:
+    - '&cВыполните все задания, чтобы получить награду'
+  'q1331es7t66_7_no':
+    material: PINK_SHULKER_BOX
+    slot: 26
+    priority: 19
+    display_name: '&b&lНаграда'
+    lore:
+    - '&aНажмите, чтобы получить награду'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.26.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.26.yess'
+      - '[console] kit ravshan %player_name%'
+      - '[console] p give %player_name% 400'
+      - '[close]'
+      - '[refresh]'
+  '1qu332e7s66t_7_yes':
+    material: PINK_SHULKER_BOX
+    slot: 26
+    priority: 18
+    display_name: '&b&lНаграда'
+    lore:
+    - '&aВы уже получили свою награду'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.26.yess'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+#########################################################################################################################################################
+#########################################################################################################################################################
+  'que321st_333_nooo':
+    material: CHEST
+    slot: 9
+    priority: 4
+    display_name: '&6Сундук'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Сундук'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:CHEST%&7/&6320'
+    - '&7Статус: &cНе выполнено'
+    - ''
+    view_requirement:
+      requirements:
+        complete:
+         type: "!has permission"
+         permission: 'questALEKproxodiParvizPIDR.1.yes'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:CHEST% >= 320'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.1.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.1.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.4.no'
+      - '[console] clear %player_name% CHEST'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  'qu213est_3333_yes':
+    material: CHEST
+    slot: 9
+    priority: 3
+    display_name: '&6Сундук'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Сундук'
+    - ''
+    - '&7Прогресс: &6320&7/&6320'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.1.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+      
+      
+  'questicsi_3213_no11':
+    material: BARRIER
+    slot: 10
+    priority: 8
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'qu123est_3_no1':
+    material: ACACIA_SIGN
+    slot: 10
+    priority: 7
+    display_name: '&6Акациевая табличка'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Акациевая Табличка'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:ACACIA_SIGN%&7/&6576'
+    - '&7Статус: &cНе выполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.4.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:ACACIA_SIGN% >= 576'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.4.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.4.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.5.no'
+      - '[console] clear %player_name% acaciasign'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  'ques123t_3_yes1':
+    material: ACACIA_SIGN
+    slot: 10
+    priority: 6
+    display_name: '&6Акациевая табличка'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Акациевая Табличка'
+    - ''
+    - '&7Прогресс: &6576/&6576'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.4.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+      
+
+  'questicsi_3213_no1':
+    material: BARRIER
+    slot: 11
+    priority: 8
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'qu123est_3_no':
+    material: FLINT_AND_STEEL
+    slot: 11
+    priority: 7
+    display_name: '&6Огниво'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Огниво'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:FLINT_AND_STEEL%&7/&636'
+    - '&7Статус: &cНе выполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.5.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:FLINT_AND_STEEL% >= 36'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.5.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.5.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.6.no'
+      - '[console] clear %player_name% flint_and_steel'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  'ques123t_3_yes':
+    material: FLINT_AND_STEEL
+    slot: 11
+    priority: 6
+    display_name: '&6Огниво'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Огниво'
+    - ''
+    - '&7Прогресс: &636&7/&636'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.5.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+  'questicsi_4_no1':
+    material: BARRIER
+    slot: 12
+    priority: 11
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'questicsi_4_no':
+    material: TORCH
+    slot: 12
+    priority: 10
+    display_name: '&6Факел'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Факел'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:TORCH%&7/&6888'
+    - '&7Статус: &cНе выполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.6.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: has item
+          material: "TORCH"
+          amount: 888
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.6.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.6.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.7.no'
+      - '[console] clear %player_name% torch'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  'questicsi_4_yes':
+    material: TORCH
+    slot: 12
+    priority: 9
+    display_name: '&6Факел'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Факел'
+    - ''
+    - '&7Прогресс: &6888&7/&6888'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.6.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+  'ques33t_511_no1':
+    material: BARRIER
+    slot: 13
+    priority: 14
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'qu33est_1235_no':
+    material: FURNACE
+    slot: 13
+    priority: 13
+    display_name: '&6Печь'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Печь'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:FURNACE%&7/&61999'
+    - '&7Статус: &cНе выполнено'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.7.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: has item
+          material: "FURNACE"
+          amount: 1999
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.7.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.7.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.8.no'
+      - '[console] clear %player_name% furnace'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  'qu33est_2315_yes':
+    material: FURNACE
+    slot: 13
+    priority: 12
+    display_name: '&6Печь'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Печь'
+    - ''
+    - '&7Прогресс: &61999&7/&61999'
+    - '&7Статус: &aВыполнено'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.7.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+
+  'questicsi_6_no1':
+    material: BARRIER
+    slot: 14
+    priority: 17
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'questicsi_6_no':
+    material: FISHING_ROD
+    slot: 14
+    priority: 16
+    display_name: '&6Удачка'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Удочку'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:FISHING_ROD%&7/&635'
+    - '&7Статус: &cНе выполнено'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.8.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:FISHING_ROD% >= 35'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.8.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.8.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.9.no'
+      - '[console] clear %player_name% fishing_rod'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  'questicsi_6_yes':
+    material: FISHING_ROD
+    slot: 14
+    priority: 15
+    display_name: '&6Удочка'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6удочку'
+    - ''
+    - '&7Прогресс: &635/&635'
+    - '&7Статус: &aВыполнено'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.8.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+  'qu12999548457est_7_no1':
+    material: BARRIER
+    slot: 15
+    priority: 20
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'questicsi_7_no':
+    material: SCAFFOLDING
+    slot: 15
+    priority: 19
+    display_name: '&6Подмостки'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно добыть'
+    - '&6Подмостки'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:SCAFFOLDING%&7/&61500'
+    - '&7Статус: &cНе выполнено'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.9.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:SCAFFOLDING% >= 1500'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.9.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.9.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.10.no'
+      - '[console] clear %player_name% scaffolding'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  'qu11est_7_yes':
+    material: SCAFFOLDING
+    data: 5
+    slot: 15
+    priority: 18
+    display_name: '&6Подмостки'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Подмостки'
+    - ''
+    - '&7Прогресс: &61500/&61500'
+    - '&7Статус: &aВыполнено'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.9.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+      
+      
+  'questicsi_7_no1':
+    material: BARRIER
+    slot: 16
+    priority: 20
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'qu1es7t_7_no':
+    material: LODESTONE
+    slot: 16
+    priority: 19
+    display_name: '&6Магнетит'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно добыть'
+    - '&6Магнетит'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:LODESTONE%&7/&615'
+    - '&7Статус: &cНе выполнено'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.10.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:LODESTONE% >= 15'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.10.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.10.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.11.no'
+      - '[console] clear %player_name% lodestone'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  '1que7st_7_yes':
+    material: LODESTONE
+    slot: 16
+    priority: 18
+    display_name: '&6Магнетит'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно добыть'
+    - '&6Магнетит'
+    - ''
+    - '&7Прогресс: &615&7/&615'
+    - '&7Статус: &aВыполнено'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.10.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+
+
+
+      
+      
+  'ques33t_7_no1':
+    material: LIME_SHULKER_BOX
+    slot: 17
+    priority: 20
+    display_name: '&b&lНаграда'
+    lore:
+    - '&cВыполните все задания, чтобы получить награду'
+  'q331es7t_7_no':
+    material: LIME_SHULKER_BOX
+    slot: 17
+    priority: 19
+    display_name: '&b&lНаграда'
+    lore:
+    - '&aНажмите, чтобы получить награду'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.10.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.10.yess'
+      - '[console] kit ravshan2 %player_name%'
+      - '[console] p give %player_name% 300'
+      - '[close]'
+      - '[refresh]'
+  '1qu33e7st_7_yes':
+    material: LIME_SHULKER_BOX
+    slot: 17
+    priority: 18
+    display_name: '&b&lНаграда'
+    lore:
+    - '&aВы уже получили свою награду'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.10.yess'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'            
+#########################################################################################################################################################
+#########################################################################################################################################################
+#########################################################################################################################################################
+  'questic123321si_7_no1':
+    material: BARRIER
+    slot: 27
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'que3221st_333_nooo':
+    material: GOLDEN_CARROT
+    slot: 27
+    priority: 4
+    display_name: '&6Золотая морковь'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Золотая морковь'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:GOLDEN_CARROT%&7/&6320'
+    - '&7Статус: &cНе выполнено'
+    - ''
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.27.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:GOLDEN_CARROT% >= 320'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.28.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.28.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.29.no'
+      - '[console] clear %player_name% GOLDEN_CARROT'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  'qu2112223est_3333_yes':
+    material: GOLDEN_CARROT
+    slot: 27
+    priority: 3
+    display_name: '&6Золотая морковь'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Золотая Морковь'
+    - ''
+    - '&7Прогресс: &6320&7/&6320'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.28.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+#########################################################################################################################################################
+#########################################################################################################################################################
+#########################################################################################################################################################
+  'questic112323321si_7_no1':
+    material: BARRIER
+    slot: 28
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'que3212321st_333_nooo':
+    material: NAME_TAG
+    slot: 28
+    priority: 4
+    display_name: '&6Бирка'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Бирка'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:NAME_TAG%&7/&64'
+    - '&7Статус: &cНе выполнено'
+    - ''
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.29.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:NAME_TAG% >= 4'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.29.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.29.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.30.no'
+      - '[console] clear %player_name% NAME_TAG'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  'qu2112212323est_3333_yes':
+    material: NAME_TAG
+    slot: 28
+    priority: 3
+    display_name: '&6Бирка'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Бирка'
+    - ''
+    - '&7Прогресс: &64&7/&64'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.29.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+#########################################################################################################################################################
+#########################################################################################################################################################
+#########################################################################################################################################################
+  'questic123423412323321si_7_no1':
+    material: BARRIER
+    slot: 29
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'que3212342342321st_333_nooo':
+    material: TARGET
+    slot: 29
+    priority: 4
+    display_name: '&6Мишень'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Мишень'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:TARGET%&7/&632'
+    - '&7Статус: &cНе выполнено'
+    - ''
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.30.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:TARGET% >= 32'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.30.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.30.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.31.no'
+      - '[console] clear %player_name% TARGET'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  'qu2112212234234323est_3333_yes':
+    material: TARGET
+    slot: 29
+    priority: 3
+    display_name: '&6Мишень'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Мишень'
+    - ''
+    - '&7Прогресс: &632&7/&632'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.30.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+#########################################################################################################################################################
+#########################################################################################################################################################
+#########################################################################################################################################################
+  'questic112123231323321si_7_no1':
+    material: BARRIER
+    slot: 30
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'que3212123123321st_333_nooo':
+    material: GOLDEN_APPLE
+    slot: 30
+    priority: 4
+    display_name: '&6Золотое яблоко'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Золотое яблоко'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:GOLDEN_APPLE%&7/&6320'
+    - '&7Статус: &cНе выполнено'
+    - ''
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.31.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:GOLDEN_APPLE% >= 320'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.31.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.31.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.32.no'
+      - '[console] clear %player_name% GOLDEN_APPLE'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  'qu2112211231231232323est_3333_yes':
+    material: GOLDEN_APPLE
+    slot: 30
+    priority: 3
+    display_name: '&6Золотое яблоко'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Золотое яблоко'
+    - ''
+    - '&7Прогресс: &6320&7/&6320'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.31.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+#########################################################################################################################################################
+#########################################################################################################################################################
+#########################################################################################################################################################
+  'quest2ic112123231323321si_7_no1':
+    material: BARRIER
+    slot: 31
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'que32112123123321st_333_nooo':
+    material: COBWEB
+    slot: 31
+    priority: 4
+    display_name: '&6Паутина'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Паутина'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:COBWEB%&7/&6142'
+    - '&7Статус: &cНе выполнено'
+    - ''
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.32.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:COBWEB% >= 142'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.32.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.32.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.33.no'
+      - '[console] clear %player_name% COBWEB'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  'q2u2112211231231232323est_3333_yes':
+    material: COBWEB
+    slot: 31
+    priority: 3
+    display_name: '&6Паутина'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Паутина'
+    - ''
+    - '&7Прогресс: &6142&7/&6142'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.32.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+#########################################################################################################################################################
+#########################################################################################################################################################
+#########################################################################################################################################################
+  'quest22ic112123231323321si_7_no1':
+    material: BARRIER
+    slot: 32
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'que232112123123321st_333_nooo':
+    material: SNOWBALL
+    slot: 32
+    priority: 4
+    display_name: '&6Снежок'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Снежок'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:SNOWBALL%&7/&6300'
+    - '&7Статус: &cНе выполнено'
+    - ''
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.33.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:SNOWBALL% >= 300'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.33.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.33.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.34.no'
+      - '[console] clear %player_name% SNOWBALL'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  'q22u2112211231231232323est_3333_yes':
+    material: SNOWBALL
+    slot: 32
+    priority: 3
+    display_name: '&6Снежок'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Снежок'
+    - ''
+    - '&7Прогресс: &6300&7/&6300'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.33.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+#########################################################################################################################################################
+#########################################################################################################################################################
+#########################################################################################################################################################
+  'quest22ic112112312323231323321si_7_no1':
+    material: BARRIER
+    slot: 33
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'que232112123123123123321st_333_nooo':
+    material: ROTTEN_FLESH
+    slot: 33
+    priority: 4
+    display_name: '&6Гнилай плоть'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Гнилай плоть'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:ROTTEN_FLESH%&7/&62000'
+    - '&7Статус: &cНе выполнено'
+    - ''
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.34.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:ROTTEN_FLESH% >= 2000'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.34.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.34.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.35.no'
+      - '[console] clear %player_name% ROTTEN_FLESH'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  'q22u2112212312311231231232323est_3333_yes':
+    material: ROTTEN_FLESH
+    slot: 33
+    priority: 3
+    display_name: '&6Гнилай плоть'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Гнилай плоть'
+    - ''
+    - '&7Прогресс: &62000&7/&62000'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.34.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+#########################################################################################################################################################
+#########################################################################################################################################################
+#########################################################################################################################################################
+  'quest2222ic112112312323231323321si_7_no1':
+    material: BARRIER
+    slot: 34
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'que232222112123123123123321st_333_nooo':
+    material: mutton
+    slot: 34
+    priority: 4
+    display_name: '&6Сырая баранина'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Сырая баранина'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:mutton%&7/&6300'
+    - '&7Статус: &cНе выполнено'
+    - ''
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.35.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:mutton% >= 300'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.35.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.35.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.36.no'
+      - '[console] clear %player_name% mutton'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  'q22u211221222312311231231232323est_3333_yes':
+    material: mutton
+    slot: 34
+    priority: 3
+    display_name: '&6Сырая баранина'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Сырая баранина'
+    - ''
+    - '&7Прогресс: &6300&7/&6300'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.35.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+#########################################################################################################################################################
+#########################################################################################################################################################
+######################################################################################################################################################### 
+  'qu123123es33t_7_no1':
+    material: YELLOW_SHULKER_BOX
+    slot: 35
+    priority: 20
+    display_name: '&b&lНаграда'
+    lore:
+    - '&cВыполните все задания, чтобы получить награду'
+  'q331e112323s7t_7_no':
+    material: YELLOW_SHULKER_BOX
+    slot: 35
+    priority: 19
+    display_name: '&b&lНаграда'
+    lore:
+    - '&aНажмите, чтобы получить награду'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.35.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.35.yess'
+      - '[console] kit ravshan3 %player_name%'
+      - '[console] p give %player_name% 500'
+      - '[close]'
+      - '[refresh]'
+  '1qu12312333e7st_7_yes':
+    material: YELLOW_SHULKER_BOX
+    slot: 35
+    priority: 18
+    display_name: '&b&lНаграда'
+    lore:
+    - '&aВы уже получили свою награду'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.35.yess'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'           
+#########################################################################################################################################################
+#########################################################################################################################################################
+#########################################################################################################################################################  
+#########################################################################################################################################################
+#########################################################################################################################################################
+#########################################################################################################################################################
+  'qu123est2222ic112112312323231323321si_7_no1':
+    material: BARRIER
+    slot: 36
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'que123232222112123123123123321st_333_nooo':
+    material: spider_eye
+    slot: 36
+    priority: 4
+    display_name: '&6Паучий глаз'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Паучий глаз'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:spider_eye%&7/&61500'
+    - '&7Статус: &cНе выполнено'
+    - ''
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.36.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:spider_eye% >= 1500'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.36.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.36.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.37.no'
+      - '[console] clear %player_name% spider_eye'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  'q22123u211221222312311231231232323est_3333_yes':
+    material: spider_eye
+    slot: 36
+    priority: 3
+    display_name: '&6Паучий глаз'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Паучий глаз'
+    - ''
+    - '&7Прогресс: &61500&7/&61500'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.36.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+#########################################################################################################################################################
+#########################################################################################################################################################
+#########################################################################################################################################################
+  'qu2esti123123c123321si_7_no1':
+    material: BARRIER
+    slot: 37
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'q222ue3221st_333_nooo':
+    material: GHAST_TEAR
+    slot: 37
+    priority: 4
+    display_name: '&6Слеза гаста'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Слеза гаста'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:GHAST_TEAR%&7/&632'
+    - '&7Статус: &cНе выполнено'
+    - ''
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.37.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:GHAST_TEAR% >= 32'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.37.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.37.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.38.no'
+      - '[console] clear %player_name% GHAST_TEAR'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  'q223u2112223es3222t_3333_yes':
+    material: GHAST_TEAR
+    slot: 37
+    priority: 3
+    display_name: '&6Слеза гаста'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Слеза гаста'
+    - ''
+    - '&7Прогресс: &632&7/&632'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.37.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+#########################################################################################################################################################
+#########################################################################################################################################################
+#########################################################################################################################################################
+  '2q2u2esti123123c123321si_7_no1':
+    material: BARRIER
+    slot: 38
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  '2q222ue3221st_333_nooo':
+    material: BRICK
+    slot: 38
+    priority: 4
+    display_name: '&6Кирпич'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Кирпич'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:BRICK%&7/&6600'
+    - '&7Статус: &cНе выполнено'
+    - ''
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.38.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:BRICK% >= 600'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.38.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.38.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.39.no'
+      - '[console] clear %player_name% BRICK'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  '2q223u2112223es3222t_3333_yes':
+    material: BRICK
+    slot: 38
+    priority: 3
+    display_name: '&6Кирпич'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Кирпич'
+    - ''
+    - '&7Прогресс: &6600&7/&6600'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.38.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+#########################################################################################################################################################
+#########################################################################################################################################################
+#########################################################################################################################################################
+  '2q2u2esti121231233123c123321si_7_no1':
+    material: BARRIER
+    slot: 39
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  '2q222ue3212312321st_333_nooo':
+    material: EGG
+    slot: 39
+    priority: 4
+    display_name: '&6Яйцо'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Яйцо'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:EGG%&7/&6200'
+    - '&7Статус: &cНе выполнено'
+    - ''
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.39.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:EGG% >= 200'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.39.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.39.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.40.no'
+      - '[console] clear %player_name% EGG'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  '2q2451423u2112223es3222t_3333_yes':
+    material: EGG
+    slot: 39
+    priority: 3
+    display_name: '&6Яйцо'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Яйцо'
+    - ''
+    - '&7Прогресс: &6200&7/&6200'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.39.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+#########################################################################################################################################################
+#########################################################################################################################################################
+#########################################################################################################################################################
+  '2q2u2esti121231233123c123321si_744_no1':
+    material: BARRIER
+    slot: 40
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  '2q222ue3212312321st_34433_nooo':
+    material: PUFFERFISH
+    slot: 40
+    priority: 4
+    display_name: '&6Иглобрюх'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Иглобрюх'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:PUFFERFISH%&7/&6125'
+    - '&7Статус: &cНе выполнено'
+    - ''
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.40.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:PUFFERFISH% >= 125'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.40.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.40.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.41.no'
+      - '[console] clear %player_name% PUFFERFISH'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  '2q2451423u2112223es3222t_334433_yes':
+    material: PUFFERFISH
+    slot: 40
+    priority: 3
+    display_name: '&6Иглобрюх'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Иглобрюх'
+    - ''
+    - '&7Прогресс: &6125&7/&6125'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.40.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+#########################################################################################################################################################
+#########################################################################################################################################################
+#########################################################################################################################################################
+  '2q2u2es2ti1212312331as23c123321si_744_no1':
+    material: BARRIER
+    slot: 41
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  '2q222u3dfs43e3212312321st_34433_nooo':
+    material: BARREL
+    slot: 41
+    priority: 4
+    display_name: '&6Бочка'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Бочка'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:BARREL%&7/&6400'
+    - '&7Статус: &cНе выполнено'
+    - ''
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.41.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:BARREL% >= 400'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.41.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.41.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.42.no'
+      - '[console] clear %player_name% BARREL'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  '2q2451josdfpp423u2112223es3222t_334433_yes':
+    material: BARREL
+    slot: 41
+    priority: 3
+    display_name: '&6Бочка'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Бочка'
+    - ''
+    - '&7Прогресс: &6400&7/&6400'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.41.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+#########################################################################################################################################################
+#########################################################################################################################################################
+#########################################################################################################################################################
+  '2q2u2es2tpidri1212312331as23c123321si_744_no1':
+    material: BARRIER
+    slot: 42
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  '2q222u3dfs43e321pidr2312321st_34433_nooo':
+    material: SUGAR_CANE
+    slot: 42
+    priority: 4
+    display_name: '&6Сахарный тростник'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Сахарный тростник'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:SUGAR_CANE%&7/&62000'
+    - '&7Статус: &cНе выполнено'
+    - ''
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.42.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:SUGAR_CANE% >= 2000'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.42.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.42.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.43.no'
+      - '[console] clear %player_name% SUGAR_CANE'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  '2q2451josdfpp423u2112223es3222pidrt_334433_yes':
+    material: SUGAR_CANE
+    slot: 42
+    priority: 3
+    display_name: '&6Сахарный тростник'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Сахарный тростник'
+    - ''
+    - '&7Прогресс: &62000&7/&62000'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.42.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'
+#########################################################################################################################################################
+#########################################################################################################################################################
+#########################################################################################################################################################
+  '2q2u2es2tjopapidri1212312331as23c123321si_744_no1':
+    material: BARRIER
+    slot: 43
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  '2q222u3jopadfs43e321pidr2312321st_34433_nooo':
+    material: ELYTRA
+    slot: 43
+    priority: 4
+    display_name: '&6Элитры'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Элитры'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:ELYTRA%&7/&61'
+    - '&7Статус: &cНе выполнено'
+    - ''
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.43.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:ELYTRA% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.43.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.43.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.44.no'
+      - '[console] clear %player_name% ELYTRA'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  '2q2451josdjopafpp423u2112223es3222pidrt_334433_yes':
+    material: ELYTRA
+    slot: 43
+    priority: 3
+    display_name: '&6Элитры'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Элитры'
+    - ''
+    - '&7Прогресс: &61&7/&61'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.43.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'     
+#########################################################################################################################################################
+#########################################################################################################################################################
+######################################################################################################################################################### 
+######################################################################################################################################################### 
+  'q22u123123es33t_7_no1':
+    material: purple_SHULKER_BOX
+    slot: 44
+    priority: 20
+    display_name: '&b&lНаграда'
+    lore:
+    - '&cВыполните все задания, чтобы получить награду'
+  'q331e123s7t_7_no':
+    material: purple_SHULKER_BOX
+    slot: 44
+    priority: 19
+    display_name: '&b&lНаграда'
+    lore:
+    - '&aНажмите, чтобы получить награду'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.43.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.44.yess'
+      - '[console] kit ravshan5 %player_name%'
+      - '[console] p give %player_name% 1000'
+      - '[close]'
+      - '[refresh]'
+  '1qpidru12333e7st_7_yes':
+    material: purple_SHULKER_BOX
+    slot: 44
+    priority: 18
+    display_name: '&b&lНаграда'
+    lore:
+    - '&aВы уже получили свою награду'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.44.yess'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'       
+#########################################################################################################################################################
+#########################################################################################################################################################
+##################################################################################################################################################################################################################################################################################################################
+#########################################################################################################################################################
+#########################################################################################################################################################
+  'nerquerst1_744_no1':
+    material: BARRIER
+    slot: 45
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  'nerquerst1_nooo':
+    material: TNT
+    slot: 45
+    priority: 4
+    display_name: '&6Динамит'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Динамит'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:TNT%&7/&6666'
+    - '&7Статус: &cНе выполнено'
+    - ''
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.44.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:TNT% >= 666'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.44.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.44.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.45.no'
+      - '[console] clear %player_name% TNT'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  'nerquerst1_yes':
+    material: TNT
+    slot: 45
+    priority: 3
+    display_name: '&6Динамит'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Динамит'
+    - ''
+    - '&7Прогресс: &6666&7/&6666'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.44.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'     
+#########################################################################################################################################################
+#########################################################################################################################################################
+#########################################################################################################################################################
+  '1nerquerst1_744_no1':
+    material: BARRIER
+    slot: 46
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  '1nerquerst1_nooo':
+    material: honey_block
+    slot: 46
+    priority: 4
+    display_name: '&6Блок мёда'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Блок мёда'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:honey_block%&7/&6444'
+    - '&7Статус: &cНе выполнено'
+    - ''
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.45.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:honey_block% >= 444'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.45.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.45.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.46.no'
+      - '[console] clear %player_name% honey_block'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  '1nerquerst1_yes':
+    material: honey_block
+    slot: 46
+    priority: 3
+    display_name: '&6Блок мёда'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Блок мёда'
+    - ''
+    - '&7Прогресс: &6444&7/&6444'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.45.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'     
+#########################################################################################################################################################
+#########################################################################################################################################################
+#########################################################################################################################################################
+  '2nerquerst1_744_no1':
+    material: BARRIER
+    slot: 47
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  '2nerquerst1_nooo':
+    material: turtle_helmet
+    slot: 47
+    priority: 4
+    display_name: '&6Черепаший панцирь'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Черепаший панцирь'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:turtle_helmet%&7/&615'
+    - '&7Статус: &cНе выполнено'
+    - ''
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.46.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:turtle_helmet% >= 15'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.46.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.46.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.47.no'
+      - '[console] clear %player_name% turtle_helmet'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  '2nerquerst1_yes':
+    material: turtle_helmet
+    slot: 47
+    priority: 3
+    display_name: '&6Черепаший панцирь'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Черепаший панцирь'
+    - ''
+    - '&7Прогресс: &615&7/&615'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.46.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'     
+#########################################################################################################################################################
+#########################################################################################################################################################
+#########################################################################################################################################################
+  '3nerquerst1_744_no1':
+    material: BARRIER
+    slot: 48
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  '3nerquerst1_nooo':
+    material: CAKE
+    slot: 48
+    priority: 4
+    display_name: '&6Торт'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Торт'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:CAKE%&7/&636'
+    - '&7Статус: &cНе выполнено'
+    - ''
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.47.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:CAKE% >= 36'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.47.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.47.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.48.no'
+      - '[console] clear %player_name% CAKE'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  '3nerquerst1_yes':
+    material: CAKE
+    slot: 48
+    priority: 3
+    display_name: '&6Торт'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Торт'
+    - ''
+    - '&7Прогресс: &636&7/&636'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.47.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'     
+#########################################################################################################################################################
+#########################################################################################################################################################
+#########################################################################################################################################################
+  '4nerquerst1_744_no1':
+    material: BARRIER
+    slot: 49
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  '4nerquerst1_nooo':
+    material: loom
+    slot: 49
+    priority: 4
+    display_name: '&6Ткацкий станок'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Ткацкий станок'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:loom%&7/&62000'
+    - '&7Статус: &cНе выполнено'
+    - ''
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.48.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:loom% >= 2000'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.48.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.48.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.49.no'
+      - '[console] clear %player_name% loom'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  '4nerquerst1_yes':
+    material: loom
+    slot: 49
+    priority: 3
+    display_name: '&6Ткацкий станок'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Ткацкий станок'
+    - ''
+    - '&7Прогресс: &62000&7/&62000'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.48.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'     
+#########################################################################################################################################################
+#########################################################################################################################################################
+#########################################################################################################################################################
+  '24nerquerst1_744_no1':
+    material: BARRIER
+    slot: 50
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  '24nerquerst1_nooo':
+    material: respawn_anchor
+    slot: 50
+    priority: 4
+    display_name: '&6Якорь возрождения'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Якорь возрождения'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:respawn_anchor%&7/&620'
+    - '&7Статус: &cНе выполнено'
+    - ''
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.49.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:respawn_anchor% >= 20'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.49.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.49.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.50.no'
+      - '[console] clear %player_name% respawn_anchor'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  '24nerquerst1_yes':
+    material: respawn_anchor
+    slot: 50
+    priority: 3
+    display_name: '&6Якорь возрождения'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Якорь возрождения'
+    - ''
+    - '&7Прогресс: &620&7/&620'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.49.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'     
+#########################################################################################################################################################
+#########################################################################################################################################################
+#########################################################################################################################################################
+  '34nerquerst1_744_no1':
+    material: BARRIER
+    slot: 51
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  '34nerquerst1_nooo':
+    material: wither_rose
+    slot: 51
+    priority: 4
+    display_name: '&6Роза визера'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Роза визера'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:wither_rose%&7/&6166'
+    - '&7Статус: &cНе выполнено'
+    - ''
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.50.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:wither_rose% >= 166'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.50.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.50.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.51.no'
+      - '[console] clear %player_name% wither_rose'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  '34nerquerst1_yes':
+    material: wither_rose
+    slot: 51
+    priority: 3
+    display_name: '&6Роза визера'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Роза визера'
+    - ''
+    - '&7Прогресс: &6166&7/&6166'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.50.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'     
+#########################################################################################################################################################
+#########################################################################################################################################################
+#########################################################################################################################################################
+  '345nerquerst1_744_no1':
+    material: BARRIER
+    slot: 52
+    priority: 5
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+    - '&cДля начала выполните'
+    - '&cпредыдущие задания'
+  '345nerquerst1_nooo':
+    material: honeycomb_block
+    slot: 52
+    priority: 4
+    display_name: '&6Блок пчелиных сот'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Блок пчелиных сот'
+    - ''
+    - '&7Прогресс: &6%checkitem_amount_mat:honeycomb_block%&7/&62000'
+    - '&7Статус: &cНе выполнено'
+    - ''
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.51.no'
+    left_click_requirement:
+      requirements:
+        questicsi_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:honeycomb_block% >= 2000'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission unset questALEKproxodiParvizPIDR.51.no'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.51.yes'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.52.no'
+      - '[console] clear %player_name% honeycomb_block'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  '345nerquerst1_yes':
+    material: honeycomb_block
+    slot: 52
+    priority: 3
+    display_name: '&6Блок пчелиных сот'
+    lore:
+    - '&7Для выполнения данного квеста'
+    - '&7Вам нужно принести'
+    - '&6Блок пчелиных сот'
+    - ''
+    - '&7Прогресс: &62000&7/&62000'
+    - '&7Статус: &aВыполнено'
+    - ''
+
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.51.yes'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]'     
+#########################################################################################################################################################
+#########################################################################################################################################################
+#########################################################################################################################################################
+  '1q22u123123es33t_7_no1':
+    material: light_blue_SHULKER_BOX
+    slot: 53
+    priority: 20
+    display_name: '&b&lНаграда'
+    lore:
+    - '&cВыполните все задания, чтобы получить награду'
+  '1q331e123s7t_7_no':
+    material: light_blue_SHULKER_BOX
+    slot: 53
+    priority: 19
+    display_name: '&b&lНаграда'
+    lore:
+    - '&aНажмите, чтобы получить награду'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.52.no'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.1488z.yess'
+      - '[console] lp user %player_name% permission set questALEKproxodiParvizPIDR.open false'
+      - '[console] kit ravshan4 %player_name%'
+      - '[console] p give %player_name% 1500'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ВСЁ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fВам доступен квест-шоп'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[close]'
+      - '[refresh]'
+  '1qp2sidru12333e7st_7_yes':
+    material: light_blue_SHULKER_BOX
+    slot: 53
+    priority: 18
+    display_name: '&b&lНаграда'
+    lore:
+    - '&aВы уже получили свою награду'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questALEKproxodiParvizPIDR.1488z.yess'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &cЗадание уже выполнено'
+      - '[refresh]' 

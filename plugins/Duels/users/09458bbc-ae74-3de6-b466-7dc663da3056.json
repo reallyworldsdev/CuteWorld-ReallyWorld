@@ -1,0 +1,37 @@
+{
+  "uuid": "09458bbc-ae74-3de6-b466-7dc663da3056",
+  "name": "iVAN_Zolo_2004",
+  "wins": 1,
+  "losses": 2,
+  "requests": true,
+  "rating": {
+    "classic": 1370,
+    "nezerka": 1415
+  },
+  "matches": [
+    {
+      "winner": "MAXGG",
+      "loser": "iVAN_Zolo_2004",
+      "kit": "classic",
+      "time": 1749265233272,
+      "duration": 15991,
+      "health": 3.0
+    },
+    {
+      "winner": "iVAN_Zolo_2004",
+      "loser": "Smilee23",
+      "kit": "nezerka",
+      "time": 1749265233272,
+      "duration": 28919,
+      "health": 5.0
+    },
+    {
+      "winner": "Smilee23",
+      "loser": "iVAN_Zolo_2004",
+      "kit": "classic",
+      "time": 1749265233272,
+      "duration": 25622,
+      "health": 1.5
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+Name: stoikaa
+Cooldown: 0
+Permission: nKits.kits.stoikaa
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Шар
+        Стойкости 1 "}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"  +5.5
+        к броне"}],"text":""}'
+      - '{"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 5.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: OFF_HAND
+          uuid: d7873c95-7bac-43fb-ad39-f201ddcdbd6e
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/03Pv06DUByG4Z+mJhRd3b0EKAXD0EFsYw8pIBShh8SBllP5cw40FBpg7ugdODq4unovDlyKjI5fnm95eQAebtZZTelzWewTSjgYmSEjMNZIXhV3WtHwwA92IGWVkOMYuIo0VV2SIw8AFxxceSGtCXyTVheCTSxEG53uWqQM210L1ELp4R7lXrt9RApigy8flFWr/vvKVejLFEt6HOR2vWWesJIcSpaOuGMvJyNdNNhHHXYXjdHpqeXbTeDjqdF5FLtvTTDPJIN5meUjEU/safDksCDVYmMepabrxWZny5iZDE/wYFhEuaju7dkM4BouUTREjNTbr+S3t87vH6+f/c+pB/gD/dp/WhgBAAA=
+      skull-owner: Bento Box
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

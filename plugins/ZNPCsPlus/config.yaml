@@ -1,0 +1,39 @@
+# Should the plugin check for available updates and notify admins about them?
+check-for-updates: true
+# The database config. Only used if storage-type is MYSQL
+database-config:
+  # Should SSL be used when connecting to the database?
+  use-ssl: false
+  # The name of the database to use
+  database-name: znpcsplus
+  # The host of the database
+  host: localhost
+  # The port of the database
+  port: 3306
+  # The password to use to connect to the database
+  password: password
+  # The username to use to connect to the database
+  username: znpcsplus
+# Set this to true if you don't want to be warned in the console when a skin fails to resolve
+disable-skin-fetcher-warnings: false
+# How often to auto-save npcs, set this to -1 to disable. This value will only apply on restart
+auto-save-interval: 300
+# How far should the look property work from in blocks
+look-property-distance: 10.0
+# The amount of time to wait before removing the npc from the player list (aka tab) in ticks
+# If you're on 1.19.2 or above changing this value will have almost no effect since npcs are hidden in tab
+# WARNING: Setting this value too low may cause issues with player npcs spawning
+tab-hide-delay: 60
+# The display name to use for npcs in the player list (aka tab)
+tab-display-name: ZNPC[{id}]
+# Should the plugin fake the enforce secure chat packet to hide the popup?
+fake-enforce-secure-chat: false
+# The height between hologram lines, measured in blocks
+line-spacing: 0.3
+# The storage type to use. Available storage types: YAML, SQLITE, MYSQL
+storage-type: YAML
+# Should debug mode be enabled?
+# This is used in development to test various things, you probably don't want to enable this
+debug-enabled: false
+# How far away do you need to be from any NPC for it to disappear, measured in blocks
+view-distance: 32

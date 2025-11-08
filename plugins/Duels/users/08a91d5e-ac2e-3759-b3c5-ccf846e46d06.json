@@ -1,0 +1,37 @@
+{
+  "uuid": "08a91d5e-ac2e-3759-b3c5-ccf846e46d06",
+  "name": "nikitos_ponos",
+  "wins": 2,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "classic": 1399,
+    "shari": 1416
+  },
+  "matches": [
+    {
+      "winner": "nikitos_ponos",
+      "loser": "boga648",
+      "kit": "shari",
+      "time": 1741196879421,
+      "duration": 76810,
+      "health": 4.5
+    },
+    {
+      "winner": "nikitos_ponos",
+      "loser": "boga648",
+      "kit": "classic",
+      "time": 1741196879421,
+      "duration": 30405,
+      "health": 3.5
+    },
+    {
+      "winner": "boga648",
+      "loser": "nikitos_ponos",
+      "kit": "classic",
+      "time": 1741196879421,
+      "duration": 33807,
+      "health": 3.5
+    }
+  ]
+}
